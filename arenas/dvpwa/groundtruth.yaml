@@ -63,7 +63,7 @@ issues:
   - id: dvpwa-md5-password-hash
     title: Passwords stored as unsalted MD5
     category: security
-    cwe: [CWE-916, CWE-328, CWE-759]
+    cwe: [CWE-916, CWE-328, CWE-759, CWE-327, CWE-326]
     severity: medium
     locations:
       - file: sqli/dao/user.py
