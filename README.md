@@ -56,7 +56,7 @@ The engine README has the [detailed version](https://github.com/thereisnotime/sk
 
 | Trial | Question | Status | Latest round | Results | Lock |
 |---|---|---|---|---|---|
-| [2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/) | Which openly available secure-code-review skills find more real vulnerabilities per dollar than a plain Claude Code baseline? | running | r01 | pending | [r01/lock.yaml](trials/2026-09-secure-coding-audit/rounds/r01/lock.yaml) |
+| [2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/) | Which openly available secure-code-review skills find more real vulnerabilities per dollar than a plain Claude Code baseline? | r01 done | r01 | [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md) | [r01/lock.yaml](trials/2026-09-secure-coding-audit/rounds/r01/lock.yaml) |
 
 `just trials` prints the same list from the files on disk.
 

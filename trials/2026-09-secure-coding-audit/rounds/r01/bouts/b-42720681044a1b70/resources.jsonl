@@ -1,0 +1,6 @@
+{"t": 0.401, "pid": 924884, "comm": "tini", "rss_kb": 1516, "threads": 1, "fds": 3, "cpu_ticks": 9}
+{"t": 0.401, "pid": 925095, "comm": "claude", "rss_kb": 90240, "threads": 3, "fds": 8, "cpu_ticks": 5}
+{"t": 0.401, "cgroup": {"memory.peak": 32575488, "memory.current": 32575488, "pids.peak": 6, "pids.current": 4, "cpu.stat": {"usage_usec": 171807, "user_usec": 115893, "system_usec": 55913, "nice_usec": 0, "core_sched.force_idle_usec": 0, "nr_periods": 1, "nr_throttled": 0, "throttled_usec": 0, "nr_bursts": 0, "burst_usec": 0}, "io.stat": {}, "memory.stat": {"anon": 26611712, "file": 2662400, "kernel": 2035712, "sock": 0}}}
+{"t": 1.403, "pid": 924884, "comm": "tini", "rss_kb": 1516, "threads": 1, "fds": 3, "cpu_ticks": 9}
+{"t": 1.403, "pid": 925095, "comm": "claude", "rss_kb": 219180, "threads": 6, "fds": 17, "cpu_ticks": 57}
+{"t": 1.403, "cgroup": {"memory.peak": 120954880, "memory.current": 120954880, "pids.peak": 14, "pids.current": 10, "cpu.stat": {"usage_usec": 714556, "user_usec": 564280, "system_usec": 150275, "nice_usec": 0, "core_sched.force_idle_usec": 0, "nr_periods": 9, "nr_throttled": 0, "throttled_usec": 0, "nr_bursts": 0, "burst_usec": 0}, "io.stat": {"rbytes": 0, "wbytes": 73728, "rios": 0, "wios": 18, "dbytes": 0, "dios": 0}, "memory.stat": {"anon": 112959488, "file": 2691072, "kernel": 3051520, "sock": 0}}}

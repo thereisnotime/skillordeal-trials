@@ -1,0 +1,103 @@
+{
+  "summary": "Reviewed the dvpwa aiohttp application (sqli package): DAO layer, views, routes, middlewares, auth utilities, jinja2 setup, config schema and templates. The app is intentionally vulnerable and contains a critical, unauthenticated SQL injection in Student.create, application-wide stored XSS caused by disabled Jinja2 autoescaping combined with a disabled CSRF middleware and a non-HttpOnly session cookie, and weak unsalted MD5 password hashing. Overall risk is critical: an anonymous attacker can achieve database compromise and account-takeover-grade XSS.",
+  "coverage": [
+    "sqli/app.py",
+    "sqli/routes.py",
+    "sqli/views.py",
+    "sqli/middlewares.py",
+    "sqli/dao/student.py",
+    "sqli/dao/user.py",
+    "sqli/dao/course.py",
+    "sqli/dao/review.py",
+    "sqli/dao/mark.py",
+    "sqli/utils/auth.py",
+    "sqli/utils/jinja2.py",
+    "sqli/schema/config.py",
+    "sqli/schema/forms.py",
+    "sqli/services/db.py",
+    "sqli/templates/course.jinja2",
+    "config/dev.yaml",
+    "migrations/000-init-schema.sql",
+    "migrations/001-fixtures.sql"
+  ],
+  "findings": [
+    {
+      "title": "Unauthenticated SQL injection in Student.create",
+      "category": "security",
+      "cwe": "CWE-89",
+      "severity": "critical",
+      "confidence": "high",
+      "file": "sqli/dao/student.py",
+      "line_start": 42,
+      "line_end": 45,
+      "description": "Student.create builds the INSERT statement by Python %-formatting the raw student name directly into the SQL string instead of passing it as a query parameter. The value flows unfiltered from the unauthenticated POST /students/ handler (views.students, which reads data['name'] and calls Student.create with no auth check or validation). An anonymous attacker can inject arbitrary SQL, e.g. a name like `x'); DROP TABLE marks; --` or a subquery to read the users table / md5 password hashes, and via PostgreSQL stacked queries can modify or exfiltrate any data. This is a direct, remotely reachable database compromise.",
+      "evidence": "q = (\"INSERT INTO students (name) \" \"VALUES ('%(name)s')\" % {'name': name})  then  await cur.execute(q)  -- name originates in views.py:57 `await Student.create(conn, data['name'])` under POST /students/ (routes.py:14) with no authentication. Contrast with the parameterized executes used elsewhere (e.g. Review.create, Mark.create).",
+      "recommendation": "Use a parameterized query and let the driver bind the value: `await cur.execute(\"INSERT INTO students (name) VALUES (%(name)s)\", {'name': name})`. Never build SQL with Python string formatting."
+    },
+    {
+      "title": "Stored XSS via Jinja2 autoescape disabled application-wide",
+      "category": "security",
+      "cwe": "CWE-79",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 33,
+      "line_end": 35,
+      "description": "aiohttp_jinja2 is configured with autoescape=False, so no template output is HTML-escaped. User-controlled values are rendered verbatim throughout the app, e.g. course review text (templates/course.jinja2:22), course title/description (course.jinja2:14-15), and student names. An anonymous attacker can submit a review at POST /courses/{id}/review containing `<script>...</script>`; it is stored and executed in the browser of every visitor to that course page (stored XSS). Because the session cookie is not HttpOnly, this readily leads to session hijacking of admins.",
+      "evidence": "setup_jinja(app, loader=PackageLoader('sqli','templates'), context_processors=[...], autoescape=False)  -- and templates/course.jinja2:22 `{{ review.review_text }}` renders attacker-supplied text with no |e filter and no autoescaping. review_text comes from data.get('review_text') in views.review -> Review.create with no sanitization.",
+      "recommendation": "Enable autoescaping: pass autoescape=True (or use jinja2.select_autoescape) to setup_jinja, and only mark trusted content safe explicitly. Do not disable escaping globally."
+    },
+    {
+      "title": "CSRF protection middleware commented out",
+      "category": "security",
+      "cwe": "CWE-352",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 24,
+      "line_end": 30,
+      "description": "A working csrf_middleware exists (middlewares.py) but it is commented out of the application's middleware list, so no state-changing request is CSRF-protected. All mutating endpoints (login POST /, create student, create course, create review, evaluate/assign marks, logout) accept cross-site forged requests. An attacker can, for example, force an authenticated admin to create records, assign marks, or trigger the SQL-injection student-creation endpoint via an auto-submitting form on a malicious page. The templates still render csrf tokens, but nothing verifies them.",
+      "evidence": "middlewares=[ session_middleware, # csrf_middleware, error_middleware ]  -- the csrf_middleware at sqli/middlewares.py:26-38 which validates session '_csrf_token' against the POSTed field is never registered.",
+      "recommendation": "Re-enable csrf_middleware in the middleware list so all POST requests are validated against the per-session CSRF token."
+    },
+    {
+      "title": "Session cookie set without HttpOnly flag",
+      "category": "security",
+      "cwe": "CWE-1004",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/middlewares.py",
+      "line_start": 20,
+      "line_end": 20,
+      "description": "The RedisStorage session backend is instantiated with httponly=False, so the session cookie is exposed to client-side JavaScript. Combined with the stored XSS (disabled autoescaping) this allows an attacker to read the session cookie via document.cookie and hijack authenticated/admin sessions. Even without XSS this needlessly widens the attack surface.",
+      "evidence": "storage = RedisStorage(app['redis'], httponly=False)  -- default is httponly=True; here it is explicitly disabled.",
+      "recommendation": "Remove httponly=False (leave the default True) and also set secure=True and an appropriate samesite policy for the session cookie."
+    },
+    {
+      "title": "Passwords hashed with unsalted MD5",
+      "category": "security",
+      "cwe": "CWE-916",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/dao/user.py",
+      "line_start": 40,
+      "line_end": 41,
+      "description": "User.check_password compares the stored hash against a plain unsalted MD5 of the password, and fixtures store passwords the same way (migrations/001-fixtures.sql:10-13, e.g. md5('superadmin')). MD5 is fast and unsalted, so any leaked pwd_hash (e.g. via the SQL injection above) is trivially cracked with rainbow tables or brute force, and identical passwords produce identical hashes. This directly enables account takeover once hashes are exposed.",
+      "evidence": "return self.pwd_hash == md5(password.encode('utf-8')).hexdigest()  -- and migrations/001-fixtures.sql lines 10-13 insert md5('superadmin'), md5('password'), md5('spidey'). The == comparison is also non-constant-time.",
+      "recommendation": "Use a slow, salted password hash (bcrypt, scrypt, or Argon2) via a vetted library, migrate stored hashes, and compare using a constant-time verify function."
+    },
+    {
+      "title": "aiohttp Application started with debug=True",
+      "category": "security",
+      "cwe": "CWE-489",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "sqli/app.py",
+      "line_start": 23,
+      "line_end": 30,
+      "description": "The Application is constructed with debug=True. In debug mode aiohttp enables verbose logging and developer-oriented behavior that can leak internal details and stack traces, which is inappropriate for anything beyond local development and should not ship to production.",
+      "evidence": "app = Application(debug=True, middlewares=[...])",
+      "recommendation": "Drive debug from configuration/environment and default it to False for non-development deployments."
+    }
+  ]
+}

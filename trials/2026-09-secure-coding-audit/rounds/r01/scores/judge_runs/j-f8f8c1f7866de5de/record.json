@@ -1,0 +1,76 @@
+{
+  "batch_id": "j-f8f8c1f7866de5de",
+  "arena": "dvpwa",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "181b36c3d4636a6e0e91bc2f7259d7b4e3a83544fcfcd65b6c757caa5067ba1a",
+    "F2": "69dd750788c46e93d6cfdfc59339993a68fd259c4ec4f24f4d21d7f21ed1cd64",
+    "F3": "463476eb9f822d19c6e276c9e626a289de16040379b86bd1bd01ec926411b64d",
+    "F4": "dd10bd9a5e6e1b2ad749e3d07fb659915a3bcf799f170cae0563494cd8c2dd16",
+    "F5": "9911ed153df27c18e9d7210231aadbb1a84d3bd241951cf140e2992fb43bb633"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"verdicts\"],\"properties\":{\"verdicts\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"verdict\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"verdict\":{\"type\":\"string\",\"enum\":[\"valid\",\"invalid\",\"unverifiable\"]},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the code you read.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 1,
+  "usage": {
+    "subtype": "success",
+    "is_error": true,
+    "duration_ms": 519,
+    "duration_api_ms": 0,
+    "num_turns": 1,
+    "total_cost_usd": 0,
+    "tokens": {
+      "input_tokens": 0,
+      "output_tokens": 0,
+      "cache_read_tokens": 0,
+      "cache_creation_tokens": 0,
+      "total_tokens": 0
+    },
+    "per_model": {},
+    "permission_denials": 0,
+    "session_id": "743a5c84-9851-4efc-810a-1e4006962df4",
+    "terminal_reason": "api_error",
+    "stop_reason": "stop_sequence"
+  },
+  "verdicts": 0,
+  "problems": [
+    "agent error: rate_limit: You've hit your session limit \u00b7 resets 10:50am (UTC)"
+  ],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

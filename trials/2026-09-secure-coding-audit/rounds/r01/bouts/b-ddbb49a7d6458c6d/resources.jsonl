@@ -1,0 +1,3 @@
+{"t": 0.417, "pid": 922582, "comm": "tini", "rss_kb": 1488, "threads": 1, "fds": 3, "cpu_ticks": 15}
+{"t": 0.417, "pid": 922807, "comm": "claude", "rss_kb": 44036, "threads": 3, "fds": 7, "cpu_ticks": 0}
+{"t": 0.417, "cgroup": {"memory.peak": 14483456, "memory.current": 13266944, "pids.peak": 6, "pids.current": 4, "cpu.stat": {"usage_usec": 178458, "user_usec": 96247, "system_usec": 82211, "nice_usec": 0, "core_sched.force_idle_usec": 0, "nr_periods": 1, "nr_throttled": 0, "throttled_usec": 0, "nr_bursts": 0, "burst_usec": 0}, "io.stat": {}, "memory.stat": {"anon": 5705728, "file": 2662400, "kernel": 2027520, "sock": 0}}}

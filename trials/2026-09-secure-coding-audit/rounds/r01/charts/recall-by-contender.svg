@@ -1,0 +1,488 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="358.56pt" viewBox="0 0 547.2 358.56" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Horizontal bars of mean recall per contender, one panel per arena">
+ <title>Horizontal bars of mean recall per contender, one panel per arena</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="recall-by-contender-figure_1">
+  <g id="recall-by-contender-patch_1">
+   <path d="M 0 358.56 
+L 547.2 358.56 
+L 547.2 0 
+L 0 0 
+L 0 358.56 
+z
+" style="fill: none"/>
+  </g>
+  <g id="recall-by-contender-axes_1">
+   <g id="recall-by-contender-patch_2">
+    <path d="M 156.6575 322.257891 
+L 537.48 322.257891 
+L 537.48 23.64 
+L 156.6575 23.64 
+L 156.6575 322.257891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="recall-by-contender-matplotlib.axis_1">
+    <g id="recall-by-contender-xtick_1">
+     <g id="recall-by-contender-line2d_1">
+      <path d="M 156.6575 322.257891 
+L 156.6575 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_2"/>
+     <g id="recall-by-contender-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="156.6575" y="332.595781" transform="rotate(-0 156.6575 332.595781)">0.0</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_2">
+     <g id="recall-by-contender-line2d_3">
+      <path d="M 224.661518 322.257891 
+L 224.661518 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_4"/>
+     <g id="recall-by-contender-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="224.661518" y="332.595781" transform="rotate(-0 224.661518 332.595781)">0.2</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_3">
+     <g id="recall-by-contender-line2d_5">
+      <path d="M 292.665536 322.257891 
+L 292.665536 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_6"/>
+     <g id="recall-by-contender-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="292.665536" y="332.595781" transform="rotate(-0 292.665536 332.595781)">0.4</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_4">
+     <g id="recall-by-contender-line2d_7">
+      <path d="M 360.669554 322.257891 
+L 360.669554 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_8"/>
+     <g id="recall-by-contender-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="360.669554" y="332.595781" transform="rotate(-0 360.669554 332.595781)">0.6</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_5">
+     <g id="recall-by-contender-line2d_9">
+      <path d="M 428.673571 322.257891 
+L 428.673571 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_10"/>
+     <g id="recall-by-contender-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="428.673571" y="332.595781" transform="rotate(-0 428.673571 332.595781)">0.8</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_6">
+     <g id="recall-by-contender-line2d_11">
+      <path d="M 496.677589 322.257891 
+L 496.677589 23.64 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_12"/>
+     <g id="recall-by-contender-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="496.677589" y="332.595781" transform="rotate(-0 496.677589 332.595781)">1.0</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-text_7">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="347.06875" y="345.596484" transform="rotate(-0 347.06875 345.596484)">mean recall per bout (share of ground-truth issues found)</text>
+    </g>
+   </g>
+   <g id="recall-by-contender-matplotlib.axis_2">
+    <g id="recall-by-contender-ytick_1">
+     <g id="recall-by-contender-line2d_13"/>
+     <g id="recall-by-contender-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="39.501709" transform="rotate(-0 153.1575 39.501709)">baseline</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_2">
+     <g id="recall-by-contender-line2d_14"/>
+     <g id="recall-by-contender-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="64.386533" transform="rotate(-0 153.1575 64.386533)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_3">
+     <g id="recall-by-contender-line2d_15"/>
+     <g id="recall-by-contender-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="89.271357" transform="rotate(-0 153.1575 89.271357)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_4">
+     <g id="recall-by-contender-line2d_16"/>
+     <g id="recall-by-contender-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="114.156182" transform="rotate(-0 153.1575 114.156182)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_5">
+     <g id="recall-by-contender-line2d_17"/>
+     <g id="recall-by-contender-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="139.041006" transform="rotate(-0 153.1575 139.041006)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_6">
+     <g id="recall-by-contender-line2d_18"/>
+     <g id="recall-by-contender-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="163.92583" transform="rotate(-0 153.1575 163.92583)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_7">
+     <g id="recall-by-contender-line2d_19"/>
+     <g id="recall-by-contender-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="188.810654" transform="rotate(-0 153.1575 188.810654)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_8">
+     <g id="recall-by-contender-line2d_20"/>
+     <g id="recall-by-contender-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="213.695479" transform="rotate(-0 153.1575 213.695479)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_9">
+     <g id="recall-by-contender-line2d_21"/>
+     <g id="recall-by-contender-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="238.580303" transform="rotate(-0 153.1575 238.580303)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_10">
+     <g id="recall-by-contender-line2d_22"/>
+     <g id="recall-by-contender-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="263.465127" transform="rotate(-0 153.1575 263.465127)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_11">
+     <g id="recall-by-contender-line2d_23"/>
+     <g id="recall-by-contender-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="288.349951" transform="rotate(-0 153.1575 288.349951)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_12">
+     <g id="recall-by-contender-line2d_24"/>
+     <g id="recall-by-contender-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="313.234775" transform="rotate(-0 153.1575 313.234775)">tob-sharp-edges</text>
+     </g>
+    </g>
+   </g>
+   <g id="recall-by-contender-tip0" class="tip"><title>baseline: recall 0.32 [0.26, 0.37] (n=3)</title>
+    <path d="M 156.6575 29.239085 
+L 264.035844 29.239085 
+L 264.035844 42.925739 
+L 156.6575 42.925739 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #898781"/>
+   </g>
+   <g id="recall-by-contender-tip1" class="tip"><title>cf-security-audit: recall 0.33 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 79.008734 
+L 269.99753 79.008734 
+L 269.99753 92.695387 
+L 156.6575 92.695387 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip2" class="tip"><title>ecc-security-review: recall 0.35 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 103.893558 
+L 275.959215 103.893558 
+L 275.959215 117.580211 
+L 156.6575 117.580211 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip3" class="tip"><title>every-ce-security-reviewer: recall 0.37 [0.37, 0.37] (n=3)</title>
+    <path d="M 156.6575 128.778382 
+L 281.920901 128.778382 
+L 281.920901 142.465036 
+L 156.6575 142.465036 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip4" class="tip"><title>neolab-security-auditor: recall 0.37 [0.37, 0.37] (n=3)</title>
+    <path d="M 156.6575 153.663207 
+L 281.920901 153.663207 
+L 281.920901 167.34986 
+L 156.6575 167.34986 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip5" class="tip"><title>openai-security-best-practices: recall 0.33 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 178.548031 
+L 269.99753 178.548031 
+L 269.99753 192.234684 
+L 156.6575 192.234684 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip6" class="tip"><title>samber-golang-security: recall 0.39 [0.37, 0.42] (n=3)</title>
+    <path d="M 156.6575 203.432855 
+L 287.89392 203.432855 
+L 287.89392 217.119508 
+L 156.6575 217.119508 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip7" class="tip"><title>sentry-code-review: recall 0.32 [0.32, 0.32] (n=3)</title>
+    <path d="M 156.6575 228.317679 
+L 264.035844 228.317679 
+L 264.035844 242.004333 
+L 156.6575 242.004333 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip8" class="tip"><title>sentry-security-review: recall 0.33 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 253.202503 
+L 269.99753 253.202503 
+L 269.99753 266.889157 
+L 156.6575 266.889157 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip9" class="tip"><title>tob-differential-review: recall 0.33 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 278.087328 
+L 269.99753 278.087328 
+L 269.99753 291.773981 
+L 156.6575 291.773981 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip10" class="tip"><title>tob-sharp-edges: recall 0.33 [0.32, 0.37] (n=3)</title>
+    <path d="M 156.6575 302.972152 
+L 269.99753 302.972152 
+L 269.99753 316.658805 
+L 156.6575 316.658805 
+z
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-patch_3">
+    <path d="M 156.6575 322.257891 
+L 156.6575 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="recall-by-contender-patch_4">
+    <path d="M 156.6575 322.257891 
+L 537.48 322.257891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="recall-by-contender-LineCollection_1">
+    <path d="M 246.150787 36.082412 
+L 281.920901 36.082412 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_25">
+    <defs>
+     <path id="recall-by-contender-mbe9922e68b" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #777777"/>
+    </defs>
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="246.150787" y="36.082412" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_26">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="36.082412" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_20">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="38.160537" transform="rotate(-0 286.920901 38.160537)">0.32</text>
+   </g>
+   <g id="recall-by-contender-text_21">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="156.6575" y="63.045361" transform="rotate(-0 156.6575 63.045361)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_2">
+    <path d="M 264.035844 85.852061 
+L 281.920901 85.852061 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_27">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="85.852061" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_28">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="85.852061" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_22">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="87.930186" transform="rotate(-0 286.920901 87.930186)">0.33</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_3">
+    <path d="M 264.035844 110.736885 
+L 281.920901 110.736885 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_29">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="110.736885" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_30">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="110.736885" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_23">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="112.81501" transform="rotate(-0 286.920901 112.81501)">0.35</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_4">
+    <path d="M 281.920901 135.621709 
+L 281.920901 135.621709 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_31">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="135.621709" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_32">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="135.621709" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_24">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="137.699834" transform="rotate(-0 286.920901 137.699834)">0.37</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_5">
+    <path d="M 281.920901 160.506533 
+L 281.920901 160.506533 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_33">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="160.506533" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_34">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="160.506533" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_25">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="162.584658" transform="rotate(-0 286.920901 162.584658)">0.37</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_6">
+    <path d="M 264.035844 185.391357 
+L 281.920901 185.391357 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_35">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="185.391357" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_36">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="185.391357" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_26">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="187.469482" transform="rotate(-0 286.920901 187.469482)">0.33</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_7">
+    <path d="M 281.920901 210.276182 
+L 299.83996 210.276182 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_37">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="210.276182" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_38">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="299.83996" y="210.276182" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_27">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="304.83996" y="212.354307" transform="rotate(-0 304.83996 212.354307)">0.39</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_8">
+    <path d="M 264.035844 235.161006 
+L 264.035844 235.161006 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_39">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="235.161006" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_40">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="235.161006" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_28">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="269.035844" y="237.239131" transform="rotate(-0 269.035844 237.239131)">0.32</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_9">
+    <path d="M 264.035844 260.04583 
+L 281.920901 260.04583 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_41">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="260.04583" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_42">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="260.04583" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_29">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="262.123955" transform="rotate(-0 286.920901 262.123955)">0.33</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_10">
+    <path d="M 264.035844 284.930654 
+L 281.920901 284.930654 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_43">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="284.930654" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_44">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="284.930654" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_30">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="287.008779" transform="rotate(-0 286.920901 287.008779)">0.33</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_11">
+    <path d="M 264.035844 309.815479 
+L 281.920901 309.815479 
+" clip-path="url(#recall-by-contender-pefd27d284d)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_45">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="264.035844" y="309.815479" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_46">
+    <g clip-path="url(#recall-by-contender-pefd27d284d)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="281.920901" y="309.815479" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_31">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.920901" y="311.893604" transform="rotate(-0 286.920901 311.893604)">0.33</text>
+   </g>
+   <g id="recall-by-contender-text_32">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="156.6575" y="17.64" transform="rotate(-0 156.6575 17.64)">dvpwa</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="recall-by-contender-pefd27d284d">
+   <rect x="156.6575" y="23.64" width="380.8225" height="298.617891"/>
+  </clipPath>
+ </defs>
+</svg>

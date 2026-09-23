@@ -2,7 +2,7 @@
 
 **Design:** 12 contenders × 2 arenas × 1 task × 1 model × 3 reps = 72 bouts. Model under test `claude-opus-4-8` at `high` effort, judge `claude-sonnet-5`.
 
-**Status:** r01 is locked ([`rounds/r01/lock.yaml`](rounds/r01/lock.yaml)) and running. Results pending.
+**Status:** r01 done (72 bouts, 2026-09-23). Results: [`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md). Findings are judged but not human-labeled yet.
 
 ## Question
 
@@ -20,7 +20,14 @@ Written before r01 started:
 
 ## TL;DR result
 
-No results yet: r01 is still running.
+From r01 (Opus 4.8 at high effort, 3 reps per cell, 95% bootstrap CIs; [full results](rounds/r01/RESULTS.md)):
+
+- **No skill clearly beats the plain baseline.** On dvpwa the baseline finds 6 of the 19 known issues per run (recall 0.32). Contenders land between 6 and 7.3, and only `samber-golang-security` has a CI that excludes zero (+1.3 [0.3, 2.3]). That's a Go skill on a Python app, so read it as noise or a side effect of it asking for a broader sweep, not as Go expertise.
+- **Skills mostly change cost, not quality.** Per-bout cost ranges from $0.34 (`sentry-code-review`, same TP as the baseline) to $0.61 (`cf-security-audit`, +0.3 TP). On warpgate-operator every contender reports 2 to 4 findings per run at $1.29 to $1.94.
+- **The diff-scoped command can't run a full audit.** `anthropic-security-review-cmd` runs `git diff` while it loads. In the sandbox that's denied and there is no history, so all 6 bouts stopped before the model's first turn (`schema_violation`, 0 turns, $0). `tob-differential-review` adapted and scored like the rest.
+- **The judge found no hallucinations, and that's all it proves.** Sonnet 5 read the cited code and marked all 311 findings `valid`. It confirms the code does what each finding says, not that it's exploitable under the right threat model (on warpgate-operator most findings need someone who can already create the CR). Human labels are the next step.
+
+Against the [hypothesis](#hypothesis): skills barely moving recall and the big skills costing more both held. The diff-scoped prediction held for one of the three diff-oriented prompts (`anthropic-security-review-cmd`); the other two scored like everyone else. Of the controls, `sentry-code-review` matched the baseline as predicted, while `samber-golang-security` beat it on dvpwa, against the prediction.
 
 ## Setup
 
@@ -69,7 +76,13 @@ Defined but not in r01: `tob-fp-check` (verifier, needs a finder's output) and `
 
 ## Leaderboard
 
-Pending: r01 is still running. Once it's scored, `just report trial=2026-09-secure-coding-audit round=r01` writes `rounds/r01/RESULTS.md` and `rounds/r01/report.html` with recall, precision, cost per true positive, tokens and wall time per contender, each row linked to its bouts.
+[`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md) has the full tables (TP, recall, judge-valid, cost, tokens, time, turns, RAM, all with CIs and links to every bout) and the charts. Excerpt, dvpwa, TP against the baseline:
+
+![dvpwa: TP against baseline](rounds/r01/charts/delta-vs-baseline-dvpwa.svg)
+
+![dvpwa: TP against cost](rounds/r01/charts/quality-vs-cost-dvpwa.svg)
+
+`report.html` next to it is the interactive version (open it locally).
 
 ## How to reproduce
 

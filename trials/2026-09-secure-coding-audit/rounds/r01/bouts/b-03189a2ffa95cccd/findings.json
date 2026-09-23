@@ -1,0 +1,102 @@
+{
+  "summary": "Reviewed the dvpwa (aiohttp) application: the DAO layer, request handlers (views.py), auth utilities, middlewares, Jinja2 setup, routes, forms, config and templates. The app is deliberately vulnerable and the review confirms several real, reachable flaws: an unauthenticated SQL injection in Student.create, global disabling of Jinja2 autoescaping leading to stored XSS, disabled CSRF protection, unsalted MD5 password hashing, session cookies without HttpOnly, and missing authorization on state-changing endpoints. Overall risk is critical (remote, unauthenticated SQL injection). Coverage is the whole Python codebase and relevant templates/config; static JS/CSS assets and SQL migration data were not deeply reviewed for logic.",
+  "coverage": [
+    "sqli/app.py",
+    "sqli/views.py",
+    "sqli/routes.py",
+    "sqli/middlewares.py",
+    "sqli/utils/auth.py",
+    "sqli/utils/jinja2.py",
+    "sqli/dao/student.py",
+    "sqli/dao/user.py",
+    "sqli/dao/course.py",
+    "sqli/dao/review.py",
+    "sqli/dao/mark.py",
+    "sqli/services/db.py",
+    "sqli/services/redis.py",
+    "sqli/schema/forms.py",
+    "config/dev.yaml",
+    "sqli/templates/course.jinja2",
+    "sqli/templates/students.jinja2"
+  ],
+  "findings": [
+    {
+      "title": "Unauthenticated SQL injection in Student.create via student name",
+      "category": "security",
+      "cwe": "CWE-89",
+      "severity": "critical",
+      "confidence": "high",
+      "file": "sqli/dao/student.py",
+      "line_start": 41,
+      "line_end": 45,
+      "description": "Student.create builds the INSERT statement by interpolating the raw student name with Python string formatting instead of using a parameterized query. The name reaches this sink unsanitized from the POST /students/ handler (views.py:57, data['name']), and that handler performs no authentication check, so any anonymous remote user can inject arbitrary SQL. A payload like ') ; DROP TABLE ...-- or a subquery in the value breaks out of the quoted VALUES clause, allowing data exfiltration/modification. Every other DAO method in this repo correctly uses driver parameterization (%s / named params); this is the single injectable sink.",
+      "evidence": "q = (\"INSERT INTO students (name) \" \"VALUES ('%(name)s')\" % {'name': name})  -> cur.execute(q)  with name = request.post()['name'] from views.students (POST /students/, no auth). Contrast Review.create/Mark.create which pass params to cur.execute.",
+      "recommendation": "Use parameterized execution: q = \"INSERT INTO students (name) VALUES (%(name)s)\" and await cur.execute(q, {'name': name}); never build SQL with % string formatting on user input."
+    },
+    {
+      "title": "Stored XSS from globally disabled Jinja2 autoescaping",
+      "category": "security",
+      "cwe": "CWE-79",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 33,
+      "line_end": 35,
+      "description": "aiohttp_jinja2 is configured with autoescape=False, so no template output is HTML-escaped. User-controlled values stored via unauthenticated/low-privilege endpoints are rendered verbatim, giving persistent XSS. For example a course review submitted at POST /courses/{id}/review (Review.create, review_text) is rendered unescaped at course.jinja2:22 ({{ review.review_text }}); student names (students.jinja2:16) and course title/description are likewise unescaped. An attacker stores <script>...</script> once and it executes in every visitor's browser (including admins).",
+      "evidence": "setup_jinja(app, loader=..., context_processors=[...], autoescape=False); rendered sink course.jinja2:22 {{ review.review_text }} with review_text taken from request.post() in views.review -> Review.create.",
+      "recommendation": "Enable autoescaping (autoescape=True, the Jinja2 default) and only mark specific trusted values safe; do not disable escaping globally."
+    },
+    {
+      "title": "CSRF protection disabled (csrf_middleware not registered)",
+      "category": "security",
+      "cwe": "CWE-352",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 24,
+      "line_end": 30,
+      "description": "A working CSRF-checking middleware exists (middlewares.csrf_middleware) and templates emit a _csrf_token, but the middleware is commented out of the application's middleware list, so no POST request is ever validated for a CSRF token. Combined with the session cookie being sent automatically, an attacker can forge cross-site POSTs to state-changing endpoints (create student/course, submit reviews, evaluate/assign marks, logout) on behalf of an authenticated victim.",
+      "evidence": "middlewares=[session_middleware, # csrf_middleware, error_middleware]; csrf_middleware defined at middlewares.py:26-38 is never applied.",
+      "recommendation": "Register csrf_middleware in the middleware chain and enforce token validation on all state-changing (POST) requests."
+    },
+    {
+      "title": "Passwords hashed with unsalted MD5",
+      "category": "security",
+      "cwe": "CWE-916",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/dao/user.py",
+      "line_start": 40,
+      "line_end": 41,
+      "description": "User.check_password compares the stored hash to md5(password). Passwords are therefore stored as unsalted MD5 digests, which are extremely fast to brute-force and trivially reversible via rainbow tables if the users table is disclosed (e.g. through the SQL injection above). The equality comparison is also non-constant-time. This weakens credential confidentiality for all accounts.",
+      "evidence": "return self.pwd_hash == md5(password.encode('utf-8')).hexdigest()  -- pwd_hash column populated as MD5, no salt, no KDF.",
+      "recommendation": "Use a slow, salted password hash (bcrypt/scrypt/argon2) via a vetted library and a constant-time comparison; migrate existing hashes on next login."
+    },
+    {
+      "title": "Session cookie set with HttpOnly disabled",
+      "category": "security",
+      "cwe": "CWE-1004",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/middlewares.py",
+      "line_start": 20,
+      "line_end": 20,
+      "description": "The Redis session storage is created with httponly=False, so the session cookie is readable by client-side JavaScript. Given the stored-XSS exposure (autoescape disabled), an attacker's injected script can read document.cookie and exfiltrate the session identifier to hijack authenticated (including admin) sessions. There is also no Secure/SameSite hardening.",
+      "evidence": "storage = RedisStorage(app['redis'], httponly=False)",
+      "recommendation": "Set httponly=True (the default) and additionally enable secure=True and an appropriate SameSite policy for the session cookie."
+    },
+    {
+      "title": "Missing authorization on state-changing endpoints (evaluate, create student/course, review)",
+      "category": "security",
+      "cwe": "CWE-862",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/views.py",
+      "line_start": 134,
+      "line_end": 153,
+      "description": "The evaluate handler assigns marks to a student for a course with no authentication or admin check, even though the UI only exposes the evaluate form to admins (course.jinja2 gates it behind auth_user.is_admin). Any anonymous user can POST /students/{id}/evaluate/{course_id} to forge grades. The same missing-check pattern applies to POST /students/ (Student.create, views.py:54-57) and POST /courses/ (Course.create, views.py:86-90) and POST review (views.py:119-129), none of which use the authorize() decorator that exists in utils/auth.py. The evaluate endpoint is the clearest instance because access is server-side unenforced while presented as admin-only.",
+      "evidence": "@template('evaluate.jinja2') async def evaluate(request): ... await Mark.create(...) with no @authorize/@authorize(ensure_admin=True); compare authorize() defined in utils/auth.py:12 and only applied to logout.",
+      "recommendation": "Apply the authorize()/authorize(ensure_admin=True) decorator to all state-changing handlers according to the intended privilege level; do not rely on template-level UI gating for access control."
+    }
+  ]
+}

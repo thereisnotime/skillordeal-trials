@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="731.52pt" viewBox="0 0 547.2 731.52" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Tokens and cost per bout per contender, one row per arena">
+ <title>Tokens and cost per bout per contender, one row per arena</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="cost-tokens-figure_1">
+  <g id="cost-tokens-patch_1">
+   <path d="M 0 731.52 
+L 547.2 731.52 
+L 547.2 0 
+L 0 0 
+L 0 731.52 
+z
+" style="fill: none"/>
+  </g>
+  <g id="cost-tokens-axes_1">
+   <g id="cost-tokens-patch_2">
+    <path d="M 156.6575 347.317891 
+L 335.383125 347.317891 
+L 335.383125 23.64 
+L 156.6575 23.64 
+L 156.6575 347.317891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_1">
+    <g id="cost-tokens-xtick_1">
+     <g id="cost-tokens-line2d_1">
+      <path d="M 156.6575 347.317891 
+L 156.6575 23.64 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_2"/>
+     <g id="cost-tokens-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="156.6575" y="357.655781" transform="rotate(-0 156.6575 357.655781)">0</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_2">
+     <g id="cost-tokens-line2d_3">
+      <path d="M 211.291638 347.317891 
+L 211.291638 23.64 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_4"/>
+     <g id="cost-tokens-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="211.291638" y="357.656484" transform="rotate(-0 211.291638 357.656484)">250k</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_3">
+     <g id="cost-tokens-line2d_5">
+      <path d="M 265.925775 347.317891 
+L 265.925775 23.64 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_6"/>
+     <g id="cost-tokens-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="265.925775" y="357.656484" transform="rotate(-0 265.925775 357.656484)">500k</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_4">
+     <g id="cost-tokens-line2d_7">
+      <path d="M 320.559913 347.317891 
+L 320.559913 23.64 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_8"/>
+     <g id="cost-tokens-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="320.559913" y="357.656484" transform="rotate(-0 320.559913 357.656484)">750k</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_2">
+    <g id="cost-tokens-ytick_1">
+     <g id="cost-tokens-line2d_9"/>
+     <g id="cost-tokens-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="40.545876" transform="rotate(-0 153.1575 40.545876)">baseline</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_2">
+     <g id="cost-tokens-line2d_10"/>
+     <g id="cost-tokens-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="67.519033" transform="rotate(-0 153.1575 67.519033)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_3">
+     <g id="cost-tokens-line2d_11"/>
+     <g id="cost-tokens-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="94.492191" transform="rotate(-0 153.1575 94.492191)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_4">
+     <g id="cost-tokens-line2d_12"/>
+     <g id="cost-tokens-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="121.465348" transform="rotate(-0 153.1575 121.465348)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_5">
+     <g id="cost-tokens-line2d_13"/>
+     <g id="cost-tokens-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="148.438506" transform="rotate(-0 153.1575 148.438506)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_6">
+     <g id="cost-tokens-line2d_14"/>
+     <g id="cost-tokens-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="175.411663" transform="rotate(-0 153.1575 175.411663)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_7">
+     <g id="cost-tokens-line2d_15"/>
+     <g id="cost-tokens-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="202.384821" transform="rotate(-0 153.1575 202.384821)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_8">
+     <g id="cost-tokens-line2d_16"/>
+     <g id="cost-tokens-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="229.357979" transform="rotate(-0 153.1575 229.357979)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_9">
+     <g id="cost-tokens-line2d_17"/>
+     <g id="cost-tokens-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="256.331136" transform="rotate(-0 153.1575 256.331136)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_10">
+     <g id="cost-tokens-line2d_18"/>
+     <g id="cost-tokens-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="283.304294" transform="rotate(-0 153.1575 283.304294)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_11">
+     <g id="cost-tokens-line2d_19"/>
+     <g id="cost-tokens-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="310.277451" transform="rotate(-0 153.1575 310.277451)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_12">
+     <g id="cost-tokens-line2d_20"/>
+     <g id="cost-tokens-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="337.250609" transform="rotate(-0 153.1575 337.250609)">tob-sharp-edges</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-tip0" class="tip"><title>baseline: tokens 120.6k [114.3k, 132.3k] (n=3)</title>
+    <path d="M 156.6575 29.70896 
+L 183.016577 29.70896 
+L 183.016577 44.544197 
+L 156.6575 44.544197 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #898781"/>
+   </g>
+   <g id="cost-tokens-tip1" class="tip"><title>cf-security-audit: tokens 348.3k [183.0k, 670.4k] (n=3)</title>
+    <path d="M 156.6575 83.655276 
+L 232.778006 83.655276 
+L 232.778006 98.490512 
+L 156.6575 98.490512 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip2" class="tip"><title>ecc-security-review: tokens 156.1k [136.8k, 166.2k] (n=3)</title>
+    <path d="M 156.6575 110.628433 
+L 190.77987 110.628433 
+L 190.77987 125.46367 
+L 156.6575 125.46367 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip3" class="tip"><title>every-ce-security-reviewer: tokens 126.4k [116.4k, 143.7k] (n=3)</title>
+    <path d="M 156.6575 137.601591 
+L 184.274328 137.601591 
+L 184.274328 152.436827 
+L 156.6575 152.436827 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip4" class="tip"><title>neolab-security-auditor: tokens 145.1k [125.5k, 157.1k] (n=3)</title>
+    <path d="M 156.6575 164.574748 
+L 188.376113 164.574748 
+L 188.376113 179.409985 
+L 156.6575 179.409985 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip5" class="tip"><title>openai-security-best-practices: tokens 155.8k [127.6k, 175.1k] (n=3)</title>
+    <path d="M 156.6575 191.547906 
+L 190.697336 191.547906 
+L 190.697336 206.383142 
+L 156.6575 206.383142 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip6" class="tip"><title>samber-golang-security: tokens 183.0k [176.6k, 194.8k] (n=3)</title>
+    <path d="M 156.6575 218.521063 
+L 196.645391 218.521063 
+L 196.645391 233.3563 
+L 156.6575 233.3563 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip7" class="tip"><title>sentry-code-review: tokens 107.7k [106.9k, 108.2k] (n=3)</title>
+    <path d="M 156.6575 245.494221 
+L 180.200443 245.494221 
+L 180.200443 260.329458 
+L 156.6575 260.329458 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip8" class="tip"><title>sentry-security-review: tokens 152.6k [132.8k, 164.7k] (n=3)</title>
+    <path d="M 156.6575 272.467378 
+L 190.009674 272.467378 
+L 190.009674 287.302615 
+L 156.6575 287.302615 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip9" class="tip"><title>tob-differential-review: tokens 162.1k [124.1k, 184.1k] (n=3)</title>
+    <path d="M 156.6575 299.440536 
+L 192.088831 299.440536 
+L 192.088831 314.275773 
+L 156.6575 314.275773 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip10" class="tip"><title>tob-sharp-edges: tokens 160.6k [158.0k, 162.1k] (n=3)</title>
+    <path d="M 156.6575 326.413694 
+L 191.765178 326.413694 
+L 191.765178 341.24893 
+L 156.6575 341.24893 
+z
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-patch_3">
+    <path d="M 156.6575 347.317891 
+L 156.6575 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-patch_4">
+    <path d="M 156.6575 347.317891 
+L 335.383125 347.317891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-LineCollection_1">
+    <path d="M 181.643439 37.126579 
+L 185.567482 37.126579 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_21">
+    <defs>
+     <path id="cost-tokens-mbe9922e68b" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #777777"/>
+    </defs>
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="181.643439" y="37.126579" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_22">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="185.567482" y="37.126579" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_17">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="190.567482" y="39.205016" transform="rotate(-0 190.567482 39.205016)">120.6k</text>
+   </g>
+   <g id="cost-tokens-text_18">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="156.6575" y="66.177861" transform="rotate(-0 156.6575 66.177861)">  n/a</text>
+   </g>
+   <g id="cost-tokens-LineCollection_2">
+    <path d="M 196.647503 91.072894 
+L 303.153914 91.072894 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_23">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="196.647503" y="91.072894" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_24">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="303.153914" y="91.072894" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_19">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="308.153914" y="93.151331" transform="rotate(-0 308.153914 93.151331)">348.3k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_3">
+    <path d="M 186.543247 118.046051 
+L 192.976308 118.046051 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_25">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="186.543247" y="118.046051" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_26">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="192.976308" y="118.046051" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_20">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="197.976308" y="120.124489" transform="rotate(-0 197.976308 120.124489)">156.1k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_4">
+    <path d="M 182.09581 145.019209 
+L 188.050275 145.019209 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_27">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="182.09581" y="145.019209" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_28">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="188.050275" y="145.019209" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_21">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="193.050275" y="147.097646" transform="rotate(-0 193.050275 147.097646)">126.4k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_5">
+    <path d="M 184.08034 171.992367 
+L 190.98391 171.992367 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_29">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="184.08034" y="171.992367" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_30">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="190.98391" y="171.992367" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_22">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="195.98391" y="174.070804" transform="rotate(-0 195.98391 174.070804)">145.1k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_6">
+    <path d="M 184.550194 198.965524 
+L 194.913197 198.965524 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_31">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="184.550194" y="198.965524" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_32">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="194.913197" y="198.965524" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_23">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="199.913197" y="201.043962" transform="rotate(-0 199.913197 201.043962)">155.8k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_7">
+    <path d="M 195.240784 225.938682 
+L 199.223394 225.938682 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_33">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="195.240784" y="225.938682" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_34">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="199.223394" y="225.938682" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_24">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.223394" y="228.017119" transform="rotate(-0 204.223394 228.017119)">183.0k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_8">
+    <path d="M 180.015342 252.911839 
+L 180.29638 252.911839 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_35">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="180.015342" y="252.911839" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_36">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="180.29638" y="252.911839" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_25">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="185.29638" y="254.990277" transform="rotate(-0 185.29638 254.990277)">107.7k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_9">
+    <path d="M 185.674565 279.884997 
+L 192.644132 279.884997 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_37">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="185.674565" y="279.884997" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_38">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="192.644132" y="279.884997" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_26">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="197.644132" y="281.963434" transform="rotate(-0 197.644132 281.963434)">152.6k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_10">
+    <path d="M 183.770237 306.858154 
+L 196.884397 306.858154 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_39">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="183.770237" y="306.858154" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_40">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="196.884397" y="306.858154" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_27">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="201.884397" y="308.936592" transform="rotate(-0 201.884397 308.936592)">162.1k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_11">
+    <path d="M 191.180156 333.831312 
+L 192.079871 333.831312 
+" clip-path="url(#cost-tokens-p9c9946dae7)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_41">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="191.180156" y="333.831312" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_42">
+    <g clip-path="url(#cost-tokens-p9c9946dae7)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="192.079871" y="333.831312" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_28">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="197.079871" y="335.909749" transform="rotate(-0 197.079871 335.909749)">160.6k</text>
+   </g>
+   <g id="cost-tokens-text_29">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="156.6575" y="17.64" transform="rotate(-0 156.6575 17.64)">dvpwa: tokens per bout</text>
+   </g>
+  </g>
+  <g id="cost-tokens-axes_2">
+   <g id="cost-tokens-patch_5">
+    <path d="M 352.303125 347.317891 
+L 531.028749 347.317891 
+L 531.028749 23.64 
+L 352.303125 23.64 
+L 352.303125 347.317891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_3">
+    <g id="cost-tokens-xtick_5">
+     <g id="cost-tokens-line2d_43">
+      <path d="M 352.303125 347.317891 
+L 352.303125 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_44"/>
+     <g id="cost-tokens-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="352.303125" y="357.655781" transform="rotate(-0 352.303125 357.655781)">0.0</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_6">
+     <g id="cost-tokens-line2d_45">
+      <path d="M 382.669347 347.317891 
+L 382.669347 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_46"/>
+     <g id="cost-tokens-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="382.669347" y="357.655781" transform="rotate(-0 382.669347 357.655781)">0.2</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_7">
+     <g id="cost-tokens-line2d_47">
+      <path d="M 413.035569 347.317891 
+L 413.035569 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_48"/>
+     <g id="cost-tokens-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="413.035569" y="357.655781" transform="rotate(-0 413.035569 357.655781)">0.4</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_8">
+     <g id="cost-tokens-line2d_49">
+      <path d="M 443.401792 347.317891 
+L 443.401792 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_50"/>
+     <g id="cost-tokens-text_33">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="443.401792" y="357.655781" transform="rotate(-0 443.401792 357.655781)">0.6</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_9">
+     <g id="cost-tokens-line2d_51">
+      <path d="M 473.768014 347.317891 
+L 473.768014 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_52"/>
+     <g id="cost-tokens-text_34">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="473.768014" y="357.655781" transform="rotate(-0 473.768014 357.655781)">0.8</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_10">
+     <g id="cost-tokens-line2d_53">
+      <path d="M 504.134236 347.317891 
+L 504.134236 23.64 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_54"/>
+     <g id="cost-tokens-text_35">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="504.134236" y="357.655781" transform="rotate(-0 504.134236 357.655781)">1.0</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_4">
+    <g id="cost-tokens-ytick_13">
+     <g id="cost-tokens-line2d_55"/>
+    </g>
+    <g id="cost-tokens-ytick_14">
+     <g id="cost-tokens-line2d_56"/>
+    </g>
+    <g id="cost-tokens-ytick_15">
+     <g id="cost-tokens-line2d_57"/>
+    </g>
+    <g id="cost-tokens-ytick_16">
+     <g id="cost-tokens-line2d_58"/>
+    </g>
+    <g id="cost-tokens-ytick_17">
+     <g id="cost-tokens-line2d_59"/>
+    </g>
+    <g id="cost-tokens-ytick_18">
+     <g id="cost-tokens-line2d_60"/>
+    </g>
+    <g id="cost-tokens-ytick_19">
+     <g id="cost-tokens-line2d_61"/>
+    </g>
+    <g id="cost-tokens-ytick_20">
+     <g id="cost-tokens-line2d_62"/>
+    </g>
+    <g id="cost-tokens-ytick_21">
+     <g id="cost-tokens-line2d_63"/>
+    </g>
+    <g id="cost-tokens-ytick_22">
+     <g id="cost-tokens-line2d_64"/>
+    </g>
+    <g id="cost-tokens-ytick_23">
+     <g id="cost-tokens-line2d_65"/>
+    </g>
+    <g id="cost-tokens-ytick_24">
+     <g id="cost-tokens-line2d_66"/>
+    </g>
+   </g>
+   <g id="cost-tokens-patch_6">
+    <path d="M 352.303125 347.317891 
+L 352.303125 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-patch_7">
+    <path d="M 352.303125 347.317891 
+L 531.028749 347.317891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-LineCollection_12">
+    <path d="M 411.012268 37.126579 
+L 420.211411 37.126579 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #898781"/>
+   </g>
+   <g id="cost-tokens-line2d_67">
+    <defs>
+     <path id="cost-tokens-m4d3ee3345a" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #898781"/>
+    </defs>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m4d3ee3345a" x="411.012268" y="37.126579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_68">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m4d3ee3345a" x="420.211411" y="37.126579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="427.211411" y="39.204704" transform="rotate(-0 427.211411 39.204704)">0.420</text>
+   </g>
+   <g id="cost-tokens-LineCollection_13">
+    <path d="M 419.802378 91.072894 
+L 489.784374 91.072894 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_69">
+    <defs>
+     <path id="cost-tokens-mc2ee98718a" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #3987e5"/>
+    </defs>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="419.802378" y="91.072894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_70">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="489.784374" y="91.072894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="496.784374" y="93.151019" transform="rotate(-0 496.784374 93.151019)">0.614</text>
+   </g>
+   <g id="cost-tokens-LineCollection_14">
+    <path d="M 413.580491 118.046051 
+L 420.37463 118.046051 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_71">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="413.580491" y="118.046051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_72">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="420.37463" y="118.046051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="427.37463" y="120.124176" transform="rotate(-0 427.37463 120.124176)">0.423</text>
+   </g>
+   <g id="cost-tokens-LineCollection_15">
+    <path d="M 410.188888 145.019209 
+L 414.583639 145.019209 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_73">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="410.188888" y="145.019209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_74">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="414.583639" y="145.019209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="421.583639" y="147.097334" transform="rotate(-0 421.583639 147.097334)">0.399</text>
+   </g>
+   <g id="cost-tokens-LineCollection_16">
+    <path d="M 408.60863 171.992367 
+L 427.536503 171.992367 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_75">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="408.60863" y="171.992367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_76">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="427.536503" y="171.992367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="434.536503" y="174.070492" transform="rotate(-0 434.536503 174.070492)">0.424</text>
+   </g>
+   <g id="cost-tokens-LineCollection_17">
+    <path d="M 413.242819 198.965524 
+L 437.154245 198.965524 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_77">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="413.242819" y="198.965524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_78">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="437.154245" y="198.965524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="444.154245" y="201.043649" transform="rotate(-0 444.154245 201.043649)">0.476</text>
+   </g>
+   <g id="cost-tokens-LineCollection_18">
+    <path d="M 425.603693 225.938682 
+L 451.730032 225.938682 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_79">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="425.603693" y="225.938682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_80">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="451.730032" y="225.938682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="458.730032" y="228.016807" transform="rotate(-0 458.730032 228.016807)">0.547</text>
+   </g>
+   <g id="cost-tokens-LineCollection_19">
+    <path d="M 402.399952 252.911839 
+L 408.019677 252.911839 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_81">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="402.399952" y="252.911839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_82">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="408.019677" y="252.911839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="415.019677" y="254.989964" transform="rotate(-0 415.019677 254.989964)">0.344</text>
+   </g>
+   <g id="cost-tokens-LineCollection_20">
+    <path d="M 409.404225 279.884997 
+L 418.795586 279.884997 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_83">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="409.404225" y="279.884997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_84">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="418.795586" y="279.884997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="425.795586" y="281.963122" transform="rotate(-0 425.795586 281.963122)">0.407</text>
+   </g>
+   <g id="cost-tokens-LineCollection_21">
+    <path d="M 410.244306 306.858154 
+L 431.844711 306.858154 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_85">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="410.244306" y="306.858154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_86">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="431.844711" y="306.858154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="438.844711" y="308.936279" transform="rotate(-0 438.844711 308.936279)">0.445</text>
+   </g>
+   <g id="cost-tokens-LineCollection_22">
+    <path d="M 409.508229 333.831312 
+L 424.864428 333.831312 
+" clip-path="url(#cost-tokens-p94bc1f12c2)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_87">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="409.508229" y="333.831312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_88">
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="424.864428" y="333.831312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="431.864428" y="335.909437" transform="rotate(-0 431.864428 335.909437)">0.421</text>
+   </g>
+   <g id="cost-tokens-text_47">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="352.303125" y="17.64" transform="rotate(-0 352.303125 17.64)">cost $ per bout</text>
+   </g>
+   <g id="cost-tokens-tip11" class="tip"><title>baseline: cost $0.420 [0.387, 0.447] per bout (n=3)</title>
+    <defs>
+     <path id="cost-tokens-m1962cc11d5" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #898781"/>
+    </defs>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m1962cc11d5" x="416.131912" y="37.126579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip12" class="tip"><title>cf-security-audit: cost $0.614 [0.445, 0.905] per bout (n=3)</title>
+    <defs>
+     <path id="cost-tokens-m929ecfca2a" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #3987e5"/>
+    </defs>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="445.587907" y="91.072894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip13" class="tip"><title>ecc-security-review: cost $0.423 [0.404, 0.448] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="416.576625" y="118.046051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip14" class="tip"><title>every-ce-security-reviewer: cost $0.399 [0.381, 0.410] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="412.850234" y="145.019209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip15" class="tip"><title>neolab-security-auditor: cost $0.424 [0.371, 0.496] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="416.664586" y="171.992367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip16" class="tip"><title>openai-security-best-practices: cost $0.476 [0.401, 0.559] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="424.609453" y="198.965524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip17" class="tip"><title>samber-golang-security: cost $0.547 [0.483, 0.655] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="435.316684" y="225.938682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip18" class="tip"><title>sentry-code-review: cost $0.344 [0.330, 0.367] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="404.577109" y="252.911839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip19" class="tip"><title>sentry-security-review: cost $0.407 [0.376, 0.438] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="414.148542" y="279.884997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip20" class="tip"><title>tob-differential-review: cost $0.445 [0.382, 0.524] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="419.816043" y="306.858154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip21" class="tip"><title>tob-sharp-edges: cost $0.421 [0.377, 0.478] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p94bc1f12c2)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="416.288652" y="333.831312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+  </g>
+  <g id="cost-tokens-axes_3">
+   <g id="cost-tokens-patch_8">
+    <path d="M 156.6575 708.217891 
+L 335.383125 708.217891 
+L 335.383125 384.54 
+L 156.6575 384.54 
+L 156.6575 708.217891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_5">
+    <g id="cost-tokens-xtick_11">
+     <g id="cost-tokens-line2d_89">
+      <path d="M 156.6575 708.217891 
+L 156.6575 384.54 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_90"/>
+     <g id="cost-tokens-text_48">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="156.6575" y="718.555781" transform="rotate(-0 156.6575 718.555781)">0</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_12">
+     <g id="cost-tokens-line2d_91">
+      <path d="M 203.35911 708.217891 
+L 203.35911 384.54 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_92"/>
+     <g id="cost-tokens-text_49">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="203.35911" y="718.556484" transform="rotate(-0 203.35911 718.556484)">600k</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_13">
+     <g id="cost-tokens-line2d_93">
+      <path d="M 250.060721 708.217891 
+L 250.060721 384.54 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_94"/>
+     <g id="cost-tokens-text_50">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="250.060721" y="718.555781" transform="rotate(-0 250.060721 718.555781)">1.2M</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_14">
+     <g id="cost-tokens-line2d_95">
+      <path d="M 296.762331 708.217891 
+L 296.762331 384.54 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_96"/>
+     <g id="cost-tokens-text_51">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="296.762331" y="718.555781" transform="rotate(-0 296.762331 718.555781)">1.8M</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_6">
+    <g id="cost-tokens-ytick_25">
+     <g id="cost-tokens-line2d_97"/>
+     <g id="cost-tokens-text_52">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="401.445876" transform="rotate(-0 153.1575 401.445876)">baseline</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_26">
+     <g id="cost-tokens-line2d_98"/>
+     <g id="cost-tokens-text_53">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="428.419033" transform="rotate(-0 153.1575 428.419033)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_27">
+     <g id="cost-tokens-line2d_99"/>
+     <g id="cost-tokens-text_54">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="455.392191" transform="rotate(-0 153.1575 455.392191)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_28">
+     <g id="cost-tokens-line2d_100"/>
+     <g id="cost-tokens-text_55">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="482.365348" transform="rotate(-0 153.1575 482.365348)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_29">
+     <g id="cost-tokens-line2d_101"/>
+     <g id="cost-tokens-text_56">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="509.338506" transform="rotate(-0 153.1575 509.338506)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_30">
+     <g id="cost-tokens-line2d_102"/>
+     <g id="cost-tokens-text_57">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="536.311663" transform="rotate(-0 153.1575 536.311663)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_31">
+     <g id="cost-tokens-line2d_103"/>
+     <g id="cost-tokens-text_58">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="563.284821" transform="rotate(-0 153.1575 563.284821)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_32">
+     <g id="cost-tokens-line2d_104"/>
+     <g id="cost-tokens-text_59">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="590.257979" transform="rotate(-0 153.1575 590.257979)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_33">
+     <g id="cost-tokens-line2d_105"/>
+     <g id="cost-tokens-text_60">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="617.231136" transform="rotate(-0 153.1575 617.231136)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_34">
+     <g id="cost-tokens-line2d_106"/>
+     <g id="cost-tokens-text_61">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="644.204294" transform="rotate(-0 153.1575 644.204294)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_35">
+     <g id="cost-tokens-line2d_107"/>
+     <g id="cost-tokens-text_62">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="671.177451" transform="rotate(-0 153.1575 671.177451)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="cost-tokens-ytick_36">
+     <g id="cost-tokens-line2d_108"/>
+     <g id="cost-tokens-text_63">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="153.1575" y="698.150609" transform="rotate(-0 153.1575 698.150609)">tob-sharp-edges</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-tip22" class="tip"><title>baseline: tokens 1.05M [895.3k, 1.35M] (n=3)</title>
+    <path d="M 156.6575 390.60896 
+L 238.262389 390.60896 
+L 238.262389 405.444197 
+L 156.6575 405.444197 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #898781"/>
+   </g>
+   <g id="cost-tokens-tip23" class="tip"><title>cf-security-audit: tokens 1.10M [801.6k, 1.68M] (n=3)</title>
+    <path d="M 156.6575 444.555276 
+L 242.433595 444.555276 
+L 242.433595 459.390512 
+L 156.6575 459.390512 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip24" class="tip"><title>ecc-security-review: tokens 1.09M [910.4k, 1.31M] (n=3)</title>
+    <path d="M 156.6575 471.528433 
+L 241.134694 471.528433 
+L 241.134694 486.36367 
+L 156.6575 486.36367 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip25" class="tip"><title>every-ce-security-reviewer: tokens 774.1k [591.1k, 931.2k] (n=3)</title>
+    <path d="M 156.6575 498.501591 
+L 216.907663 498.501591 
+L 216.907663 513.336827 
+L 156.6575 513.336827 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip26" class="tip"><title>neolab-security-auditor: tokens 1.15M [1.05M, 1.26M] (n=3)</title>
+    <path d="M 156.6575 525.474748 
+L 246.046925 525.474748 
+L 246.046925 540.309985 
+L 156.6575 540.309985 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip27" class="tip"><title>openai-security-best-practices: tokens 686.3k [614.5k, 738.5k] (n=3)</title>
+    <path d="M 156.6575 552.447906 
+L 210.07584 552.447906 
+L 210.07584 567.283142 
+L 156.6575 567.283142 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip28" class="tip"><title>samber-golang-security: tokens 1.16M [1.09M, 1.25M] (n=3)</title>
+    <path d="M 156.6575 579.421063 
+L 246.578208 579.421063 
+L 246.578208 594.2563 
+L 156.6575 594.2563 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip29" class="tip"><title>sentry-code-review: tokens 1.04M [923.6k, 1.20M] (n=3)</title>
+    <path d="M 156.6575 606.394221 
+L 237.342731 606.394221 
+L 237.342731 621.229458 
+L 156.6575 621.229458 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip30" class="tip"><title>sentry-security-review: tokens 1.21M [1.11M, 1.29M] (n=3)</title>
+    <path d="M 156.6575 633.367378 
+L 250.837498 633.367378 
+L 250.837498 648.202615 
+L 156.6575 648.202615 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip31" class="tip"><title>tob-differential-review: tokens 1.37M [791.3k, 1.88M] (n=3)</title>
+    <path d="M 156.6575 660.340536 
+L 263.322759 660.340536 
+L 263.322759 675.175773 
+L 156.6575 675.175773 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-tip32" class="tip"><title>tob-sharp-edges: tokens 1.49M [1.39M, 1.55M] (n=3)</title>
+    <path d="M 156.6575 687.313694 
+L 272.671617 687.313694 
+L 272.671617 702.14893 
+L 156.6575 702.14893 
+z
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: #3987e5"/>
+   </g>
+   <g id="cost-tokens-patch_9">
+    <path d="M 156.6575 708.217891 
+L 156.6575 384.54 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-patch_10">
+    <path d="M 156.6575 708.217891 
+L 335.383125 708.217891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-LineCollection_23">
+    <path d="M 226.3479 398.026579 
+L 261.469613 398.026579 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_109">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="226.3479" y="398.026579" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_110">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="261.469613" y="398.026579" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_64">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="266.469613" y="400.104704" transform="rotate(-0 266.469613 400.104704)">1.05M</text>
+   </g>
+   <g id="cost-tokens-text_65">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="156.6575" y="427.077861" transform="rotate(-0 156.6575 427.077861)">  n/a</text>
+   </g>
+   <g id="cost-tokens-LineCollection_24">
+    <path d="M 219.047115 451.972894 
+L 287.406208 451.972894 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_111">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="219.047115" y="451.972894" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_112">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="287.406208" y="451.972894" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_66">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="292.406208" y="454.051019" transform="rotate(-0 292.406208 454.051019)">1.10M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_25">
+    <path d="M 227.518632 478.946051 
+L 258.957533 478.946051 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_113">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="227.518632" y="478.946051" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_114">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="258.957533" y="478.946051" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_67">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="263.957533" y="481.024176" transform="rotate(-0 263.957533 481.024176)">1.09M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_26">
+    <path d="M 202.669717 505.919209 
+L 229.134975 505.919209 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_115">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="202.669717" y="505.919209" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_116">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="229.134975" y="505.919209" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_68">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="234.134975" y="507.997646" transform="rotate(-0 234.134975 507.997646)">774.1k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_27">
+    <path d="M 238.045253 532.892367 
+L 254.544075 532.892367 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_117">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="238.045253" y="532.892367" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_118">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="254.544075" y="532.892367" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_69">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="259.544075" y="534.970492" transform="rotate(-0 259.544075 534.970492)">1.15M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_28">
+    <path d="M 204.49108 559.865524 
+L 214.142357 559.865524 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_119">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="204.49108" y="559.865524" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_120">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="214.142357" y="559.865524" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_70">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="219.142357" y="561.943962" transform="rotate(-0 219.142357 561.943962)">686.3k</text>
+   </g>
+   <g id="cost-tokens-LineCollection_29">
+    <path d="M 241.439448 586.838682 
+L 254.281068 586.838682 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_121">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="241.439448" y="586.838682" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_122">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="254.281068" y="586.838682" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_71">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="259.281068" y="588.916807" transform="rotate(-0 259.281068 588.916807)">1.16M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_30">
+    <path d="M 228.548169 613.811839 
+L 250.367317 613.811839 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_123">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="228.548169" y="613.811839" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_124">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="250.367317" y="613.811839" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_72">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="255.367317" y="615.889964" transform="rotate(-0 255.367317 615.889964)">1.04M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_31">
+    <path d="M 243.130747 640.784997 
+L 256.909512 640.784997 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_125">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="243.130747" y="640.784997" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_126">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="256.909512" y="640.784997" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_73">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="261.909512" y="642.863122" transform="rotate(-0 261.909512 642.863122)">1.21M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_32">
+    <path d="M 218.247506 667.758154 
+L 303.153914 667.758154 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_127">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="218.247506" y="667.758154" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_128">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="303.153914" y="667.758154" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_74">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="308.153914" y="669.836279" transform="rotate(-0 308.153914 669.836279)">1.37M</text>
+   </g>
+   <g id="cost-tokens-LineCollection_33">
+    <path d="M 265.141138 694.731312 
+L 277.025452 694.731312 
+" clip-path="url(#cost-tokens-p5183cffe8b)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="cost-tokens-line2d_129">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="265.141138" y="694.731312" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_130">
+    <g clip-path="url(#cost-tokens-p5183cffe8b)">
+     <use xlink:href="#cost-tokens-mbe9922e68b" x="277.025452" y="694.731312" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_75">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="282.025452" y="696.809437" transform="rotate(-0 282.025452 696.809437)">1.49M</text>
+   </g>
+   <g id="cost-tokens-text_76">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="156.6575" y="378.54" transform="rotate(-0 156.6575 378.54)">warpgate-operator: tokens per bout</text>
+   </g>
+  </g>
+  <g id="cost-tokens-axes_4">
+   <g id="cost-tokens-patch_11">
+    <path d="M 352.303125 708.217891 
+L 531.028749 708.217891 
+L 531.028749 384.54 
+L 352.303125 384.54 
+L 352.303125 708.217891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_7">
+    <g id="cost-tokens-xtick_15">
+     <g id="cost-tokens-line2d_131">
+      <path d="M 352.303125 708.217891 
+L 352.303125 384.54 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_132"/>
+     <g id="cost-tokens-text_77">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="352.303125" y="718.555781" transform="rotate(-0 352.303125 718.555781)">0</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_16">
+     <g id="cost-tokens-line2d_133">
+      <path d="M 411.646926 708.217891 
+L 411.646926 384.54 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_134"/>
+     <g id="cost-tokens-text_78">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="411.646926" y="718.555781" transform="rotate(-0 411.646926 718.555781)">1</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_17">
+     <g id="cost-tokens-line2d_135">
+      <path d="M 470.990727 708.217891 
+L 470.990727 384.54 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_136"/>
+     <g id="cost-tokens-text_79">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="470.990727" y="718.555781" transform="rotate(-0 470.990727 718.555781)">2</text>
+     </g>
+    </g>
+    <g id="cost-tokens-xtick_18">
+     <g id="cost-tokens-line2d_137">
+      <path d="M 530.334528 708.217891 
+L 530.334528 384.54 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="cost-tokens-line2d_138"/>
+     <g id="cost-tokens-text_80">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="530.334528" y="718.555781" transform="rotate(-0 530.334528 718.555781)">3</text>
+     </g>
+    </g>
+   </g>
+   <g id="cost-tokens-matplotlib.axis_8">
+    <g id="cost-tokens-ytick_37">
+     <g id="cost-tokens-line2d_139"/>
+    </g>
+    <g id="cost-tokens-ytick_38">
+     <g id="cost-tokens-line2d_140"/>
+    </g>
+    <g id="cost-tokens-ytick_39">
+     <g id="cost-tokens-line2d_141"/>
+    </g>
+    <g id="cost-tokens-ytick_40">
+     <g id="cost-tokens-line2d_142"/>
+    </g>
+    <g id="cost-tokens-ytick_41">
+     <g id="cost-tokens-line2d_143"/>
+    </g>
+    <g id="cost-tokens-ytick_42">
+     <g id="cost-tokens-line2d_144"/>
+    </g>
+    <g id="cost-tokens-ytick_43">
+     <g id="cost-tokens-line2d_145"/>
+    </g>
+    <g id="cost-tokens-ytick_44">
+     <g id="cost-tokens-line2d_146"/>
+    </g>
+    <g id="cost-tokens-ytick_45">
+     <g id="cost-tokens-line2d_147"/>
+    </g>
+    <g id="cost-tokens-ytick_46">
+     <g id="cost-tokens-line2d_148"/>
+    </g>
+    <g id="cost-tokens-ytick_47">
+     <g id="cost-tokens-line2d_149"/>
+    </g>
+    <g id="cost-tokens-ytick_48">
+     <g id="cost-tokens-line2d_150"/>
+    </g>
+   </g>
+   <g id="cost-tokens-patch_12">
+    <path d="M 352.303125 708.217891 
+L 352.303125 384.54 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-patch_13">
+    <path d="M 352.303125 708.217891 
+L 531.028749 708.217891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="cost-tokens-LineCollection_34">
+    <path d="M 431.631722 398.026579 
+L 459.339699 398.026579 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #898781"/>
+   </g>
+   <g id="cost-tokens-line2d_151">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m4d3ee3345a" x="431.631722" y="398.026579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_152">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m4d3ee3345a" x="459.339699" y="398.026579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_81">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="466.339699" y="400.104704" transform="rotate(-0 466.339699 400.104704)">1.522</text>
+   </g>
+   <g id="cost-tokens-LineCollection_35">
+    <path d="M 444.667716 451.972894 
+L 466.078781 451.972894 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_153">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="444.667716" y="451.972894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_154">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="466.078781" y="451.972894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_82">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="473.078781" y="454.051019" transform="rotate(-0 473.078781 454.051019)">1.695</text>
+   </g>
+   <g id="cost-tokens-LineCollection_36">
+    <path d="M 440.075158 478.946051 
+L 465.078244 478.946051 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_155">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="440.075158" y="478.946051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_156">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="465.078244" y="478.946051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_83">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="472.078244" y="481.024176" transform="rotate(-0 472.078244 481.024176)">1.637</text>
+   </g>
+   <g id="cost-tokens-LineCollection_37">
+    <path d="M 419.704924 505.919209 
+L 437.906558 505.919209 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_157">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="419.704924" y="505.919209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_158">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="437.906558" y="505.919209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_84">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="444.906558" y="507.997334" transform="rotate(-0 444.906558 507.997334)">1.289</text>
+   </g>
+   <g id="cost-tokens-LineCollection_38">
+    <path d="M 438.827217 532.892367 
+L 455.044038 532.892367 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_159">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="438.827217" y="532.892367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_160">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="455.044038" y="532.892367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_85">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="462.044038" y="534.970492" transform="rotate(-0 462.044038 534.970492)">1.615</text>
+   </g>
+   <g id="cost-tokens-LineCollection_39">
+    <path d="M 429.237496 559.865524 
+L 441.645632 559.865524 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_161">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="429.237496" y="559.865524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_162">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="441.645632" y="559.865524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_86">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="448.645632" y="561.943649" transform="rotate(-0 448.645632 561.943649)">1.373</text>
+   </g>
+   <g id="cost-tokens-LineCollection_40">
+    <path d="M 442.713346 586.838682 
+L 457.029267 586.838682 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_163">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="442.713346" y="586.838682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_164">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="457.029267" y="586.838682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_87">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="464.029267" y="588.916807" transform="rotate(-0 464.029267 588.916807)">1.663</text>
+   </g>
+   <g id="cost-tokens-LineCollection_41">
+    <path d="M 440.839328 613.811839 
+L 463.760337 613.811839 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_165">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="440.839328" y="613.811839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_166">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="463.760337" y="613.811839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_88">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="470.760337" y="615.889964" transform="rotate(-0 470.760337 615.889964)">1.708</text>
+   </g>
+   <g id="cost-tokens-LineCollection_42">
+    <path d="M 451.295172 640.784997 
+L 463.173427 640.784997 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_167">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="451.295172" y="640.784997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_168">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="463.173427" y="640.784997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_89">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="470.173427" y="642.863122" transform="rotate(-0 470.173427 642.863122)">1.747</text>
+   </g>
+   <g id="cost-tokens-LineCollection_43">
+    <path d="M 420.604101 667.758154 
+L 489.784374 667.758154 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_169">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="420.604101" y="667.758154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_170">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="489.784374" y="667.758154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_90">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="496.784374" y="669.836279" transform="rotate(-0 496.784374 669.836279)">1.792</text>
+   </g>
+   <g id="cost-tokens-LineCollection_44">
+    <path d="M 452.746187 694.731312 
+L 480.995735 694.731312 
+" clip-path="url(#cost-tokens-p507930717b)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="cost-tokens-line2d_171">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="452.746187" y="694.731312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-line2d_172">
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-mc2ee98718a" x="480.995735" y="694.731312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-text_91">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="487.995735" y="696.809437" transform="rotate(-0 487.995735 696.809437)">1.939</text>
+   </g>
+   <g id="cost-tokens-text_92">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="352.303125" y="378.54" transform="rotate(-0 352.303125 378.54)">cost $ per bout</text>
+   </g>
+   <g id="cost-tokens-tip33" class="tip"><title>baseline: cost $1.522 [1.337, 1.804] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m1962cc11d5" x="442.635744" y="398.026579" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip34" class="tip"><title>cf-security-audit: cost $1.695 [1.556, 1.917] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="452.890037" y="451.972894" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip35" class="tip"><title>ecc-security-review: cost $1.637 [1.479, 1.900] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="449.435377" y="478.946051" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip36" class="tip"><title>every-ce-security-reviewer: cost $1.289 [1.136, 1.442] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="428.792378" y="505.919209" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip37" class="tip"><title>neolab-security-auditor: cost $1.615 [1.458, 1.731] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="448.129595" y="532.892367" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip38" class="tip"><title>openai-security-best-practices: cost $1.373 [1.296, 1.506] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="433.782144" y="559.865524" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip39" class="tip"><title>samber-golang-security: cost $1.663 [1.523, 1.765] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="450.97879" y="586.838682" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip40" class="tip"><title>sentry-code-review: cost $1.708 [1.492, 1.878] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="453.651279" y="613.811839" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip41" class="tip"><title>sentry-security-review: cost $1.747 [1.668, 1.868] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="455.964698" y="640.784997" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip42" class="tip"><title>tob-differential-review: cost $1.792 [1.151, 2.317] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="458.646603" y="667.758154" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="cost-tokens-tip43" class="tip"><title>tob-sharp-edges: cost $1.939 [1.693, 2.169] per bout (n=3)</title>
+    <g clip-path="url(#cost-tokens-p507930717b)">
+     <use xlink:href="#cost-tokens-m929ecfca2a" x="467.354593" y="694.731312" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="cost-tokens-p9c9946dae7">
+   <rect x="156.6575" y="23.64" width="178.725625" height="323.677891"/>
+  </clipPath>
+  <clipPath id="cost-tokens-p94bc1f12c2">
+   <rect x="352.303125" y="23.64" width="178.725625" height="323.677891"/>
+  </clipPath>
+  <clipPath id="cost-tokens-p5183cffe8b">
+   <rect x="156.6575" y="384.54" width="178.725625" height="323.677891"/>
+  </clipPath>
+  <clipPath id="cost-tokens-p507930717b">
+   <rect x="352.303125" y="384.54" width="178.725625" height="323.677891"/>
+  </clipPath>
+ </defs>
+</svg>

