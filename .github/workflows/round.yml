@@ -61,13 +61,14 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: thereisnotime/skillordeal/.github/workflows/reusable-round.yml@v0.1.0
+    uses: thereisnotime/skillordeal/.github/workflows/reusable-round.yml@v0.1.1
     with:
       trial: ${{ needs.check.outputs.trial_file }}
       round: ${{ inputs.round }}
       shards: ${{ inputs.shards }}
-      engine_ref: v0.1.0
+      engine_ref: v0.1.1
       max_cost_usd: ${{ inputs.max_cost_usd }}
     secrets:
+      ENGINE_READ_TOKEN: ${{ secrets.ENGINE_READ_TOKEN }}
       ANTHROPIC_API_KEY: ${{ inputs.auth_mode == 'api_key' && secrets.ANTHROPIC_API_KEY || '' }}
       CLAUDE_CODE_OAUTH_TOKEN: ${{ inputs.auth_mode == 'oauth' && secrets.CLAUDE_CODE_OAUTH_TOKEN || '' }}

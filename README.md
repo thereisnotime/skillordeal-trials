@@ -36,7 +36,7 @@
 You need `asdf`, `just` and rootless `podman` (cgroup v2), plus a Claude credential (see [Auth](#auth-and-secrets)).
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.0   # toolchain, engine, runner image
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.1   # toolchain, engine, runner image
 just lock  trial=2026-09-secure-coding-audit round=r01-repro-$USER         # pin everything into a new round
 just run   trial=2026-09-secure-coding-audit round=r01-repro-$USER --max-cost-usd 50
 ```
@@ -168,6 +168,16 @@ SKILLORDEAL_ENV_FILE=~/Private/Secret/xxRC/.env \
 ```
 
 Never commit tokens. `.env` and `.env.*` are gitignored (only `.env.example` is tracked), and `just secrets-scan` runs gitleaks over history and staged changes. CI runs gitleaks too. On GitHub Actions, `round.yml` reads `ANTHROPIC_API_KEY` or `CLAUDE_CODE_OAUTH_TOKEN` from repo secrets depending on the `auth_mode` input.
+
+### CI secrets
+
+Set these on the repo (Settings, Secrets and variables, Actions):
+
+| Secret | Needed for |
+|---|---|
+| `CLAUDE_CODE_OAUTH_TOKEN` | `auth_mode: oauth` rounds (a long-lived `claude setup-token` token) |
+| `ANTHROPIC_API_KEY` | `auth_mode: api_key` rounds |
+| `ENGINE_READ_TOKEN` | while the engine repo and runner image are private: a classic PAT with `repo` and `read:packages` |
 
 ## Contributing
 

@@ -16,7 +16,12 @@ jobs:
       - uses: astral-sh/setup-uv@c18668ad3cf93ea998bef934396af7bb5c839dc7 # v10.2.0
         with:
           version: "0.11.29"
-      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.0"
+      - name: engine access (private repo)
+        env:
+          ENGINE_READ_TOKEN: ${{ secrets.ENGINE_READ_TOKEN }}
+        run: |
+          [[ -n "$ENGINE_READ_TOKEN" ]] && git config --global url."https://x-access-token:${ENGINE_READ_TOKEN}@github.com/".insteadOf "https://github.com/" || true
+      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.1"
       - name: validate trials
         run: |
           for f in trials/*/trial.yaml; do skillordeal validate "$f"; done

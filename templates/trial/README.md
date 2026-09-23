@@ -19,8 +19,8 @@ Not run yet.
 | Models | TODO |
 | Judge | TODO |
 | Claude Code CLI | 2.1.280 |
-| Engine | skillordeal v0.1.0 |
-| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.0` (digest in `rounds/<round>/lock.yaml`) |
+| Engine | skillordeal v0.1.1 |
+| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.1` (digest in `rounds/<round>/lock.yaml`) |
 | Reps | 3 per contender × arena × task × model |
 
 ## Contenders
@@ -41,7 +41,7 @@ Generated into [`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md) by `just report 
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.0
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.1
 just lock trial=__TRIAL_ID__ round=r01-repro
 just run  trial=__TRIAL_ID__ round=r01-repro --max-cost-usd 5
 ```
