@@ -23,8 +23,8 @@ Not run yet.
 | Model under test | TODO full model ID, effort, `max_budget_usd` per bout |
 | Judge | TODO |
 | Claude Code CLI | 2.1.280 (inside the image) |
-| Engine | skillordeal v0.1.1 |
-| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.1`, digest pinned in `rounds/<round>/lock.yaml` |
+| Engine | skillordeal v0.1.2 |
+| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2`, digest pinned in `rounds/<round>/lock.yaml` |
 | Auth | TODO `runtime.auth.mode` |
 | Invocation | TODO `forced` or `auto` |
 | Reps | 3 per contender × arena × task × model |
@@ -50,7 +50,7 @@ Not run yet. `just report trial=__TRIAL_ID__ round=r01` writes `rounds/r01/RESUL
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.1
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.2
 just lock  trial=__TRIAL_ID__ round=r01-repro-$USER
 just run   trial=__TRIAL_ID__ round=r01-repro-$USER --max-cost-usd 5
 ```

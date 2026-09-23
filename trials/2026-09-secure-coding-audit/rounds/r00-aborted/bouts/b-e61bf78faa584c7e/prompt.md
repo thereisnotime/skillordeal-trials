@@ -1,4 +1,6 @@
-You are auditing the repository in the current directory ({arena}, primarily {language}) for security vulnerabilities. Scope: {scope}.
+/ordeal:security-audit
+
+You are auditing the repository in the current directory (dvpwa, primarily python) for security vulnerabilities. Scope: the whole repository.
 
 Rules:
 
@@ -20,4 +22,4 @@ For each finding give:
 - `evidence`: the relevant code or the data flow from source to sink
 - `recommendation`: the concrete fix
 
-When you are done, write your report as described below. The `summary` says what you reviewed and the overall risk; `coverage` lists the files or directories you actually read. If you find nothing, return an empty findings list and say what you covered.
+When you are done, return the result in the required structured format. The `summary` says what you reviewed and the overall risk; `coverage` lists the files or directories you actually read. If you find nothing, return an empty findings list and say what you covered.

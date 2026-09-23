@@ -75,7 +75,7 @@ Full details: [What "zero context" means here](https://github.com/thereisnotime/
 You need `asdf`, `just` and rootless `podman` (cgroup v2), plus a Claude credential (see [Auth and secrets](#auth-and-secrets)).
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.1   # toolchain, engine, runner image
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.2   # toolchain, engine, runner image
 just lock  trial=2026-09-secure-coding-audit round=r01-repro-$USER         # pin everything into a new round
 just run   trial=2026-09-secure-coding-audit round=r01-repro-$USER --max-cost-usd 50
 ```

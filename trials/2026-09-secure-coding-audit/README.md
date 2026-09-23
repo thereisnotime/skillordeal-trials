@@ -29,8 +29,8 @@ No results yet: r01 is still running.
 | Model under test | `claude-opus-4-8`, effort `high`, `max_budget_usd` 5 per bout |
 | Judge | `claude-sonnet-5`, `max_budget_usd` 2 |
 | Claude Code CLI | 2.1.280 (inside the image) |
-| Engine | skillordeal v0.1.1 |
-| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.1`, digest pinned in [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) |
+| Engine | skillordeal v0.1.2 |
+| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2`, digest pinned in [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) |
 | Auth | `oauth` (`CLAUDE_CODE_OAUTH_TOKEN`) |
 | Invocation | `forced`: the prompt starts with `/<skill-name>` |
 | Reps | 3 per contender × arena |
@@ -74,7 +74,7 @@ Pending: r01 is still running. Once it's scored, `just report trial=2026-09-secu
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.1
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.2
 just lock  trial=2026-09-secure-coding-audit round=r01-repro-$USER
 just run   trial=2026-09-secure-coding-audit round=r01-repro-$USER j=2 --max-cost-usd 400
 ```

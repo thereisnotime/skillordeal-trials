@@ -1,0 +1,70 @@
+{
+  "summary": "Reviewed the dvpwa (aiohttp) application end to end: DAO layer (student/user/course/review/mark), views/routes, auth utilities, session/CSRF middlewares, Jinja2 setup and templates, DB/Redis services, config schema and config file. The app is intentionally vulnerable and the review confirms a critical, unauthenticated SQL injection plus stored XSS reachable without authentication, weak password hashing, disabled CSRF protection, and a non-HttpOnly session cookie. Only the sqli/ package, config, and templates were read; static assets and Dockerfiles were not analyzed for security.",
+  "findings": [
+    {
+      "title": "SQL injection in Student.create via unauthenticated POST /students/",
+      "category": "security",
+      "cwe": "CWE-89",
+      "severity": "critical",
+      "confidence": "high",
+      "file": "sqli/dao/student.py",
+      "line_start": 42,
+      "line_end": 45,
+      "description": "Student.create builds the INSERT statement by Python %-formatting the raw `name` value straight into the SQL string instead of passing it as a bound parameter. The value comes from `data['name']` in the students view (sqli/views.py:57), which is served by `POST /students/` (sqli/routes.py:14) with no @authorize decorator, so any unauthenticated visitor can reach it. An attacker can supply a name like `x'); DROP TABLE marks; --` or use stacked/subquery injection to read or modify any data (e.g. exfiltrate users.pwd_hash). This is the one true SQLi; the other DAO methods (get_many LIMIT/OFFSET, Course/Review/Mark) correctly use bound parameters.",
+      "evidence": "q = (\"INSERT INTO students (name) \" \"VALUES ('%(name)s')\" % {'name': name}); await cur.execute(q)  -- name flows from request.post()['name'] in views.students (unauthenticated POST /students/)",
+      "recommendation": "Use a parameterized query: `await cur.execute(\"INSERT INTO students (name) VALUES (%(name)s)\", {'name': name})` and never interpolate user input into the SQL string."
+    },
+    {
+      "title": "Stored XSS from disabled Jinja2 autoescaping rendering user input",
+      "category": "security",
+      "cwe": "CWE-79",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 33,
+      "line_end": 35,
+      "description": "Jinja2 is configured with autoescape=False globally, and multiple templates render attacker-controlled data without the `|e` filter. Concretely: course.jinja2:22 renders `review.review_text`, course.jinja2:14-15 render `course.title`/`course.description`, and students.jinja2:16 renders the student `name`. Reviews can be created by anyone via `POST /courses/{id}/review` (sqli/views.py:129, no auth), and student names via `POST /students/`, so an unauthenticated attacker can persist `<script>` payloads that execute in every viewer's browser (including admins). Combined with the non-HttpOnly session cookie this enables session hijacking.",
+      "evidence": "setup_jinja(app, loader=..., autoescape=False); course.jinja2 line 22: {{ review.review_text }} (no |e); students.jinja2 line 16: {{ name }}; review_text originates from unauthenticated POST /courses/{id}/review -> Review.create.",
+      "recommendation": "Enable autoescaping (autoescape=True, or select_autoescape for .jinja2) and only mark explicitly trusted content safe. Remove the reliance on manual `|e` filters."
+    },
+    {
+      "title": "Weak unsalted MD5 password hashing in User.check_password",
+      "category": "security",
+      "cwe": "CWE-916",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/dao/user.py",
+      "line_start": 40,
+      "line_end": 41,
+      "description": "Passwords are verified against an unsalted single-round MD5 hash. If the users table is disclosed (e.g. via the SQL injection above), these hashes are trivially cracked with rainbow tables/GPU brute force, and identical passwords produce identical hashes. The comparison also uses a non-constant-time `==`.",
+      "evidence": "return self.pwd_hash == md5(password.encode('utf-8')).hexdigest()",
+      "recommendation": "Store passwords with a memory-hard, salted algorithm (bcrypt, scrypt, or Argon2) and compare using the library's constant-time verify function."
+    },
+    {
+      "title": "CSRF protection disabled application-wide",
+      "category": "security",
+      "cwe": "CWE-352",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 24,
+      "line_end": 30,
+      "description": "A working CSRF-validating middleware exists (sqli/middlewares.py:26 csrf_middleware) but is commented out of the middleware chain, so no state-changing POST endpoint (login, create student/course, create review, evaluate, logout) actually verifies the `_csrf_token` the templates emit. Because the session cookie is also sent cross-site (see SameSite note), an attacker page can force a logged-in admin's browser to submit these forms, e.g. creating reviews/marks or logging the user out.",
+      "evidence": "middlewares=[session_middleware, # csrf_middleware, error_middleware]  -- csrf_middleware in middlewares.py is never installed; forms include _csrf_token that is never checked.",
+      "recommendation": "Re-enable csrf_middleware in the middleware list and ensure every unsafe method validates the token."
+    },
+    {
+      "title": "Session cookie set with HttpOnly disabled",
+      "category": "security",
+      "cwe": "CWE-1004",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/middlewares.py",
+      "line_start": 20,
+      "line_end": 20,
+      "description": "The Redis session storage is created with httponly=False, so the session cookie is readable from JavaScript via document.cookie. Given the stored XSS above, an attacker's injected script can exfiltrate the session cookie and hijack authenticated/admin sessions. No Secure or SameSite attributes are configured either.",
+      "evidence": "storage = RedisStorage(app['redis'], httponly=False)",
+      "recommendation": "Use httponly=True (the default), and set secure=True and samesite='Lax'/'Strict' for the session cookie."
+    }
+  ]
+}

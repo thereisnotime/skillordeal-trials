@@ -21,7 +21,7 @@ jobs:
           ENGINE_READ_TOKEN: ${{ secrets.ENGINE_READ_TOKEN }}
         run: |
           [[ -n "$ENGINE_READ_TOKEN" ]] && git config --global url."https://x-access-token:${ENGINE_READ_TOKEN}@github.com/".insteadOf "https://github.com/" || true
-      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.1"
+      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.2"
       - name: validate trials
         run: |
           for f in trials/*/trial.yaml; do skillordeal validate "$f"; done

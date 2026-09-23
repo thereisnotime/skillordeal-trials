@@ -1,0 +1,188 @@
+{
+  "record_version": 1,
+  "bout_id": "b-98c045c65724f698",
+  "trial": "2026-09-secure-coding-audit",
+  "lock_hash": "aa7433cb163bba3e09d8f3799123643470182d92ce2e8819e0173db996481d02",
+  "contender": {
+    "id": "baseline",
+    "kind": "baseline",
+    "sha": null,
+    "tree_hash": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "skill_name": null,
+    "role": "finder"
+  },
+  "arena": {
+    "id": "dvpwa",
+    "sha": "a1d8f89fac2e57093189853c6527c2b01fc1d9c1",
+    "language": "python",
+    "prepared": {
+      "files": 58,
+      "removed": []
+    }
+  },
+  "task": {
+    "id": "security-audit",
+    "prompt_sha256": "9a60d91878b5dbc81f84a4fb1a3efe4e84f6d3d94ae88ad67abbddbfc4e7b6c9"
+  },
+  "model": {
+    "requested": "claude-opus-4-8",
+    "effort": "high",
+    "used": [
+      "claude-opus-4-8"
+    ]
+  },
+  "rep": 2,
+  "invocation": "forced",
+  "versions": {
+    "engine": "0.1.1",
+    "cli": "2.1.280",
+    "image_id": "819ae9ea1b12c8ae2c48e6f6812225cbcc3c283c71a1e14f1b9f1efdb9266425",
+    "image_ref": "ghcr.io/thereisnotime/skillordeal-runner:v0.1.1"
+  },
+  "auth_mode": "oauth",
+  "limits": {
+    "cpus": 2.0,
+    "memory": "4g",
+    "pids": 1024,
+    "timeout_s": 1800,
+    "max_total_tokens": 4000000,
+    "max_output_tokens": null,
+    "max_turns": 250
+  },
+  "cost_is_estimate": true,
+  "started_at": "2026-09-23T06:12:16+00:00",
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-opus-4-8",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob,Bash",
+    "--allowedTools",
+    "Read,Grep,Glob,Bash(git log *),Bash(git show *),Bash(ls *),Bash(wc *)",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"summary\",\"findings\"],\"properties\":{\"summary\":{\"type\":\"string\",\"description\":\"Two to five sentences: what was reviewed, overall risk, coverage limits.\"},\"coverage\":{\"type\":\"array\",\"description\":\"Files or directories actually reviewed.\",\"items\":{\"type\":\"string\"}},\"findings\":{\"type\":\"array\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"title\",\"category\",\"severity\",\"confidence\",\"file\",\"line_start\",\"description\"],\"properties\":{\"title\":{\"type\":\"string\"},\"category\":{\"type\":\"string\",\"enum\":[\"security\",\"quality\",\"maintainability\",\"performance\",\"other\"]},\"cwe\":{\"type\":\"string\",\"description\":\"CWE id like CWE-89, if applicable.\"},\"severity\":{\"type\":\"string\",\"enum\":[\"critical\",\"high\",\"medium\",\"low\",\"info\"]},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"file\":{\"type\":\"string\",\"description\":\"Path relative to the repository root.\"},\"line_start\":{\"type\":\"integer\",\"minimum\":1},\"line_end\":{\"type\":\"integer\",\"minimum\":1},\"description\":{\"type\":\"string\"},\"evidence\":{\"type\":\"string\",\"description\":\"Relevant code or data-flow trace.\"},\"recommendation\":{\"type\":\"string\"}}}}}}",
+    "--max-budget-usd",
+    "5.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--setting-sources",
+    "",
+    "--effort",
+    "high",
+    "--disable-slash-commands"
+  ],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  },
+  "exit_code": 0,
+  "oom_killed": false,
+  "container_wall_s": 67.188,
+  "init": {
+    "model": "claude-opus-4-8",
+    "skills": [],
+    "builtin_skills": [
+      "design",
+      "doctor"
+    ],
+    "mcp_servers": [],
+    "tools": [
+      "Bash",
+      "Glob",
+      "Grep",
+      "Read",
+      "StructuredOutput"
+    ],
+    "cli_version": "2.1.280"
+  },
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 65797,
+    "duration_api_ms": 65588,
+    "num_turns": 24,
+    "total_cost_usd": 0.388671,
+    "tokens": {
+      "input_tokens": 12,
+      "output_tokens": 5015,
+      "cache_read_tokens": 60052,
+      "cache_creation_tokens": 23321,
+      "total_tokens": 88400
+    },
+    "per_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 12,
+        "output_tokens": 5015,
+        "cache_read_tokens": 60052,
+        "cache_creation_tokens": 23321,
+        "cost_usd": 0.388671
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "477fe761-26dd-45a8-922f-c58048af8241",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "tool_calls": {
+    "Bash": 1,
+    "Read": 21,
+    "StructuredOutput": 1
+  },
+  "skill_fired": null,
+  "first_turn_prompt_tokens": 6013,
+  "skills_invoked": [],
+  "events": 72,
+  "resources": {
+    "available": true,
+    "samples": 67,
+    "interval_s": 1.0,
+    "memory_peak_bytes": 159105024,
+    "rss_peak_kb": 255616,
+    "rss_mean_kb": 241592,
+    "threads_peak": 10,
+    "fds_peak": 20,
+    "pids_peak": 14,
+    "cpu_usage_s": 2.824927,
+    "cpu_user_s": 2.447987,
+    "cpu_system_s": 0.37694,
+    "cpu_throttled_s": 0.0,
+    "io_read_bytes": 3330048,
+    "io_write_bytes": 114688,
+    "by_comm": {
+      "claude": {
+        "rss_peak_kb": 254048,
+        "threads_peak": 9,
+        "fds_peak": 17,
+        "cpu_s": 2.63
+      },
+      "tini": {
+        "rss_peak_kb": 1568,
+        "threads_peak": 1,
+        "fds_peak": 3,
+        "cpu_s": 0.13
+      }
+    },
+    "note": "client harness only; totals are the last values seen before the scope exited"
+  },
+  "findings_count": 5,
+  "status": "ok",
+  "finished_at": "2026-09-23T06:13:36+00:00",
+  "wall_s": 79.127
+}

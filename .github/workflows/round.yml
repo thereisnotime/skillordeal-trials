@@ -61,12 +61,12 @@ jobs:
     permissions:
       contents: write
       pull-requests: write
-    uses: thereisnotime/skillordeal/.github/workflows/reusable-round.yml@v0.1.1
+    uses: thereisnotime/skillordeal/.github/workflows/reusable-round.yml@v0.1.2
     with:
       trial: ${{ needs.check.outputs.trial_file }}
       round: ${{ inputs.round }}
       shards: ${{ inputs.shards }}
-      engine_ref: v0.1.1
+      engine_ref: v0.1.2
       max_cost_usd: ${{ inputs.max_cost_usd }}
     secrets:
       ENGINE_READ_TOKEN: ${{ secrets.ENGINE_READ_TOKEN }}
