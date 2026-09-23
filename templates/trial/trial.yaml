@@ -1,0 +1,36 @@
+# Scaffolded by `just new-trial name=__TRIAL_ID__`. Fill in every TODO, then:
+#   just validate trial=__TRIAL_ID__
+id: __TRIAL_ID__
+title: TODO short title
+question: >-
+  TODO the one question this trial answers, phrased so a result can say yes or no.
+contenders_file: ../../contenders/TODO.yaml
+contenders: []            # ids from contenders_file; empty means all of them
+include_baseline: true    # keep this: every number is read relative to the baseline
+arenas_dir: ../../arenas
+arenas: [dvpwa]
+tasks:
+  - id: task
+    prompt_file: tasks/task.md
+models:
+  # Full model ids only; aliases like "opus" are rejected.
+  - id: TODO-model-id-with-version
+    effort: high
+    max_budget_usd: 5
+judge:
+  id: TODO-judge-model-id
+  max_budget_usd: 2
+reps: 3
+invocation: forced
+runtime:
+  cli_version: "2.1.280"
+  image:
+    name: ghcr.io/thereisnotime/skillordeal-runner
+    tag: v0.1.0
+  auth:
+    mode: oauth
+    token_env: CLAUDE_CODE_OAUTH_TOKEN
+  limits:
+    timeout_s: 1800
+    max_total_tokens: 4000000
+    max_turns: 250

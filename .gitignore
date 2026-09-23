@@ -1,0 +1,35 @@
+# Secrets: never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.credentials.json
+credentials.json
+secrets/
+*.secret
+
+# Engine scratch space and caches
+work/
+.skillordeal-cache/
+.cache/
+__pycache__/
+*.py[cod]
+.venv/
+.pytest_cache/
+.ruff_cache/
+node_modules/
+
+# Throwaway rounds (e.g. `lock -r dryrun --skip-image`)
+trials/*/rounds/dryrun/
+trials/*/rounds/tmp-*/
+
+# Local agent state
+.claude/worktrees/
+.claude/settings.local.json
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store

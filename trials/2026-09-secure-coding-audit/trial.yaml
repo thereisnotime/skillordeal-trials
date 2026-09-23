@@ -1,0 +1,49 @@
+# Which secure-code-review skills beat a plain Claude Code baseline, per dollar?
+# Validate: just validate trial=2026-09-secure-coding-audit
+id: 2026-09-secure-coding-audit
+title: Secure code review skills, September 2026
+question: >-
+  Which openly available secure-code-review skills find more real vulnerabilities per
+  dollar than a plain Claude Code baseline?
+contenders_file: ../../contenders/secure-coding-2026-09.yaml
+# Finders and general reviewers only. tob-fp-check (verifier) and
+# tob-entry-point-analyzer (context) need another contender's output first.
+contenders:
+  - cf-security-audit
+  - sentry-security-review
+  - sentry-code-review
+  - openai-security-best-practices
+  - ecc-security-review
+  - samber-golang-security
+  - tob-sharp-edges
+  - tob-differential-review
+  - anthropic-security-review-cmd
+  - every-ce-security-reviewer
+  - neolab-security-auditor
+include_baseline: true
+arenas_dir: ../../arenas
+arenas: [dvpwa, warpgate-operator]
+tasks:
+  - id: security-audit
+    prompt_file: tasks/security-audit.md
+models:
+  - id: claude-opus-5-5
+    effort: high
+    max_budget_usd: 5
+judge:
+  id: claude-sonnet-5
+  max_budget_usd: 2
+reps: 3
+invocation: forced
+runtime:
+  cli_version: "2.1.280"
+  image:
+    name: ghcr.io/thereisnotime/skillordeal-runner
+    tag: v0.1.0
+  auth:
+    mode: oauth
+    token_env: CLAUDE_CODE_OAUTH_TOKEN
+  limits:
+    timeout_s: 1800
+    max_total_tokens: 4000000
+    max_turns: 250

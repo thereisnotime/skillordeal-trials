@@ -1,0 +1,22 @@
+# Kubernetes operator for Warpgate, written in Go with controller-runtime.
+id: warpgate-operator
+repo: https://github.com/thereisnotime/warpgate-operator
+ref: warpgate-operator-v0.4.11   # latest release at time of writing; locked to b31dfff6595115435dbf7411504188edfd8de9a8
+language: go
+strip:
+  - AGENTS.md
+  - CLAUDE.md
+  - openspec/
+  - bin/
+  - dist/
+  - "cover*.out"
+  - controller.test
+  - "**/zz_generated*.go"
+scope: [internal/, cmd/, api/]
+groundtruth: null
+budget_usd: 5
+notes: >-
+  Real-world operator with no ground truth yet. Findings here are scored by the
+  judge and by human labels in trials/<trial>/labels/labels.jsonl. Findings labeled
+  tp get promoted into arenas/warpgate-operator/groundtruth.yaml later
+  (skillordeal gt-promote), at which point this arena gains a partial answer key.

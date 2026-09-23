@@ -1,0 +1,11 @@
+# Damn Vulnerable Python Web App: a small aiohttp + Jinja2 + Postgres app, vulnerable on purpose.
+id: dvpwa
+repo: https://github.com/anxolerd/dvpwa
+ref: a1d8f89fac2e57093189853c6527c2b01fc1d9c1
+language: python
+scope: []
+groundtruth: groundtruth.yaml
+notes: >-
+  Damn Vulnerable Python Web App (aiohttp). Tiny and deliberately vulnerable, so it
+  has a known answer key. Ground truth covers the vulns documented in its README plus
+  a manual pass; it is not claimed to be exhaustive (complete: false).

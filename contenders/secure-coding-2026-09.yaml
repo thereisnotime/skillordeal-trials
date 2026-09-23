@@ -1,0 +1,177 @@
+# Secure code review contenders, surveyed 2026-09-23.
+# Schema: skillordeal Contender (src/skillordeal/config.py). Every ref is a full commit
+# sha and every subpath was checked with `gh api repos/<o>/<r>/contents/<subpath>?ref=<sha>`.
+#
+# No contender gets extra_tools. Several upstream prompts ask for Task (subagents), Write
+# or git diff; in the sandbox those steps are unavailable and the model has to work
+# inline and read-only. That is the same for everyone, including the baseline.
+contenders:
+  # --- standalone skills (SKILL.md directories) ---------------------------------
+
+  - id: cf-security-audit
+    kind: skill
+    repo: https://github.com/cloudflare/security-audit-skill
+    ref: c1c8a8c1471069fb0e188eeaff69b8e8db6564a8
+    subpath: skills/security-audit
+    strip: ["*.cjs"]
+    role: finder
+    license: MIT
+    notes: >-
+      Largest single skill in the survey (SKILL.md ~3.1k words plus 15 topic files, ~25k
+      words total). Full-audit mode wants node to run validate-findings.cjs and
+      validate-coverage-ledger.cjs; there is no node in the sandbox, so the .cjs
+      validators and their tests are stripped and the skill runs without that step.
+
+  - id: sentry-security-review
+    kind: skill
+    repo: https://github.com/getsentry/skills
+    ref: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+    subpath: skills/security-review
+    role: finder
+    license: Apache-2.0
+    notes: Confidence-based reporting, fully read-only. Ships python/javascript language guides.
+
+  - id: sentry-code-review
+    kind: skill
+    repo: https://github.com/getsentry/skills
+    ref: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+    subpath: skills/code-review
+    role: general-review
+    license: Apache-2.0
+    notes: Thin (~370 words) general review checklist. Control for "any review skill at all".
+
+  - id: openai-security-best-practices
+    kind: skill
+    repo: https://github.com/openai/skills
+    ref: 49f948faa9258a0c61caceaf225e179651397431
+    subpath: skills/.curated/security-best-practices
+    role: finder
+    license: Apache-2.0
+    notes: >-
+      Repo has no top-level license; the skill directory ships its own Apache-2.0
+      LICENSE.txt. Guides for python, JS/TS and Go only. Best-practice oriented, may
+      over-report hardening items.
+
+  - id: ecc-security-review
+    kind: skill
+    repo: https://github.com/affaan-m/ECC
+    ref: bf70150eb2df8070024e5bdf08e4aa08959e2735
+    subpath: skills/security-review
+    role: finder
+    license: MIT
+    notes: Checklist-style generic security review from a very popular collection (formerly everything-claude-code).
+
+  - id: samber-golang-security
+    kind: skill
+    repo: https://github.com/samber/cc-skills-golang
+    ref: 19a0626ae8565d27a7b7bdf59d8d99d94d7e284c
+    subpath: skills/golang-security
+    role: finder
+    license: MIT
+    notes: >-
+      Go-only. Useful on warpgate-operator; on dvpwa (python) it acts as an off-topic
+      control. May suggest gosec/govulncheck, which are not in the sandbox.
+
+  # --- Trail of Bits plugins (loaded with --plugin-dir) ---------------------------
+
+  - id: tob-sharp-edges
+    kind: plugin
+    repo: https://github.com/trailofbits/skills
+    ref: 32e34f8173796e3566a51aee877dc96bc5191f64
+    subpath: plugins/sharp-edges
+    role: finder
+    license: CC-BY-SA-4.0
+    notes: Footguns and misuse-prone API/config design. Read/Grep/Glob only, clean fit for the sandbox.
+
+  - id: tob-differential-review
+    kind: plugin
+    repo: https://github.com/trailofbits/skills
+    ref: 32e34f8173796e3566a51aee877dc96bc5191f64
+    subpath: plugins/differential-review
+    role: finder
+    license: CC-BY-SA-4.0
+    notes: >-
+      Diff-scoped by design (git blame/log, blast radius). Arenas have no .git, so it has
+      to fall back to a whole-tree review. Kept to measure how a diff skill copes with a
+      full audit.
+
+  - id: tob-fp-check
+    kind: plugin
+    repo: https://github.com/trailofbits/skills
+    ref: 32e34f8173796e3566a51aee877dc96bc5191f64
+    subpath: plugins/fp-check
+    role: verifier
+    license: CC-BY-SA-4.0
+    notes: >-
+      Verifier: needs a finder's candidate findings as input, so it is not in r01 of
+      2026-09-secure-coding-audit. Ships Stop/SubagentStop prompt hooks and a PoC phase
+      that wants Write and test execution.
+
+  - id: tob-entry-point-analyzer
+    kind: plugin
+    repo: https://github.com/trailofbits/skills
+    ref: 32e34f8173796e3566a51aee877dc96bc5191f64
+    subpath: plugins/entry-point-analyzer
+    role: context
+    license: CC-BY-SA-4.0
+    notes: Attack-surface mapping pre-pass (smart-contract leaning). Produces context, not findings, so not in r01.
+
+  # --- single-file prompts (wrapped into a SKILL.md by the engine) ----------------
+
+  - id: anthropic-security-review-cmd
+    kind: prompt
+    repo: https://github.com/anthropics/claude-code-security-review
+    ref: 0c6a49f1fa56a1d472575da86a94dbc1edb78eda
+    subpath: .claude/commands/security-review.md
+    role: finder
+    license: MIT
+    notes: >-
+      The /security-review slash command prompt. Diff-scoped and uses `!git status` /
+      `!git diff` preambles plus Task sub-agents for false-positive filtering; with no
+      .git and no Task it has to review the tree directly. Named by id so it does not
+      collide with the CLI's built-in /security-review.
+
+  - id: every-ce-security-reviewer
+    kind: prompt
+    repo: https://github.com/EveryInc/compound-engineering-plugin
+    ref: 4fbabcd32b6ca7d8ebb82f15840fe34ef7562a64
+    subpath: skills/ce-code-review/references/personas/security-reviewer.md
+    role: finder
+    license: MIT
+    notes: >-
+      Security persona from the ce-code-review orchestrator (~800 words). The survey listed
+      it at plugins/compound-engineering/agents/ce-security-reviewer.md, which does not
+      exist at this sha; the persona now lives under skills/ce-code-review/references.
+      Refers to a subagent template it does not ship.
+
+  - id: neolab-security-auditor
+    kind: prompt
+    repo: https://github.com/NeoLabHQ/context-engineering-kit
+    ref: 23e2428e809d77717f8acc9659c374a3a1fcb93e
+    subpath: plugins/review/agents/security-auditor.md
+    role: finder
+    license: GPL-3.0
+    notes: Subagent definition (~1.5k words) used as a prompt. Frames itself as a local-changes/PR reviewer.
+
+# --- not included ----------------------------------------------------------------
+# Excluded after review. Same shas as above unless noted.
+#
+# - tob-variant-analysis (trailofbits/skills plugins/variant-analysis): needs a seed bug,
+#   explicitly not for initial discovery.
+# - tob-semgrep (plugins/static-analysis/skills/semgrep): needs the semgrep binary and a
+#   rule download over the network; neither exists in the sandbox.
+# - tob-codeql (plugins/static-analysis/skills/codeql): needs the codeql CLI, a database
+#   build and pack downloads.
+# - hmmer-sast-methodology (H-mmer/pentest-agents@41d49b6 skills/sast-methodology): no
+#   license, frontmatter has no name, depends on MCP servers and sast-* agents, and the
+#   sibling hunt-* skills beacon to OOB callback hosts (oast.fun, interactsh, webhook.site).
+#
+# Wrap-needed and not usable as a single prompt file:
+#
+# - tob-audit-context-building (plugins/audit-context-building): produces no findings by
+#   design and upstream now drives it through the Workflow + Task tools.
+# - tob-insecure-defaults (plugins/insecure-defaults): no SKILL.md at this sha, the
+#   commands/audit.md entry point aborts without the Workflow tool.
+# - tob-c-review (plugins/c-review): C/C++ only (no such arena) and needs Workflow.
+# - anthropic-code-review-plugin (anthropics/claude-code@56f3653 plugins/code-review):
+#   needs gh + a GitHub PR, targets correctness not security, and the license is not open.

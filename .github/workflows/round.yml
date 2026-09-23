@@ -1,0 +1,73 @@
+# Run one locked round of a trial on GitHub Actions: plan -> shards -> PR with the bouts.
+# The round must already be locked and committed (just lock trial=... round=...).
+name: round
+
+on:
+  workflow_dispatch:
+    inputs:
+      trial:
+        description: Trial id (directory under trials/)
+        type: string
+        required: true
+        default: 2026-09-secure-coding-audit
+      round:
+        description: Round name with a committed lock.yaml, e.g. r01
+        type: string
+        required: true
+        default: r01
+      shards:
+        description: Parallel shard jobs
+        type: number
+        default: 4
+      max_cost_usd:
+        description: Spend ceiling per shard (USD)
+        type: number
+        default: 5
+      auth_mode:
+        description: Must match runtime.auth.mode in trial.yaml; picks which secret is passed
+        type: choice
+        options: [oauth, api_key]
+        default: oauth
+
+permissions:
+  contents: read
+
+jobs:
+  check:
+    runs-on: ubuntu-24.04
+    outputs:
+      trial_file: ${{ steps.check.outputs.trial_file }}
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+      - id: check
+        env:
+          TRIAL: ${{ inputs.trial }}
+          ROUND: ${{ inputs.round }}
+          AUTH_MODE: ${{ inputs.auth_mode }}
+        run: |
+          [[ "$TRIAL" =~ ^[a-z0-9][a-z0-9._-]*$ ]] || { echo "::error::bad trial id: $TRIAL"; exit 1; }
+          [[ "$ROUND" =~ ^[a-z0-9][a-z0-9._-]*$ ]] || { echo "::error::bad round name: $ROUND"; exit 1; }
+          f="trials/$TRIAL/trial.yaml"
+          [[ -f "$f" ]] || { echo "::error::$f not found"; exit 1; }
+          lock="trials/$TRIAL/rounds/$ROUND/lock.yaml"
+          [[ -f "$lock" ]] || { echo "::error::$lock not found; lock and commit the round first"; exit 1; }
+          mode=$(awk '/^  auth:/{a=1;next} a&&/^    mode:/{print $2;exit} a&&/^  [a-z]/{exit}' "$f")
+          mode=${mode:-api_key}
+          [[ "$mode" == "$AUTH_MODE" ]] || { echo "::error::auth_mode $AUTH_MODE does not match $f ($mode)"; exit 1; }
+          echo "trial_file=$f" >> "$GITHUB_OUTPUT"
+
+  round:
+    needs: check
+    permissions:
+      contents: write
+      pull-requests: write
+    uses: thereisnotime/skillordeal/.github/workflows/reusable-round.yml@v0.1.0
+    with:
+      trial: ${{ needs.check.outputs.trial_file }}
+      round: ${{ inputs.round }}
+      shards: ${{ inputs.shards }}
+      engine_ref: v0.1.0
+      max_cost_usd: ${{ inputs.max_cost_usd }}
+    secrets:
+      ANTHROPIC_API_KEY: ${{ inputs.auth_mode == 'api_key' && secrets.ANTHROPIC_API_KEY || '' }}
+      CLAUDE_CODE_OAUTH_TOKEN: ${{ inputs.auth_mode == 'oauth' && secrets.CLAUDE_CODE_OAUTH_TOKEN || '' }}
