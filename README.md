@@ -147,7 +147,7 @@ The UI shows each finding with its code excerpt, the ground-truth match and the 
 └── .github/workflows/         ci.yml (validate, actionlint, gitleaks), round.yml (run a round on Actions)
 ```
 
-Transcripts (`*.jsonl.zst`) and `*.parquet` are stored with git-lfs (see `.gitattributes`). Run `git lfs install` once before committing round output.
+Transcripts (`*.jsonl.zst`) and `*.parquet` are committed as plain binary files; a round is a few MB.
 
 ## Auth and secrets
 
