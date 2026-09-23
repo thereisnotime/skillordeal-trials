@@ -215,8 +215,8 @@ Trials only name the environment variable that holds a credential, never the val
 To use a personal token that lives under another name or in another file, override it for one run instead of editing the trial:
 
 ```bash
-SKILLORDEAL_TOKEN_ENV=TOC_CLAUDE_CODE_OAUTH_TOKEN \
-SKILLORDEAL_ENV_FILE=~/Private/Secret/xxRC/.env \
+SKILLORDEAL_TOKEN_ENV=WORK_CLAUDE_CODE_OAUTH_TOKEN \
+SKILLORDEAL_ENV_FILE=~/.config/secrets/claude.env \
   just run trial=2026-09-secure-coding-audit round=r01
 ```
 
@@ -262,3 +262,9 @@ skillordeal lock trials/<trial>/trial.yaml -r dryrun --skip-image && rm -rf tria
 ```
 
 Use `kind: prompt` for a single `.md` file, `skill` for a directory with `SKILL.md`, `plugin` for a Claude Code plugin directory, and `pipeline` to chain existing contenders as finder then verifiers (see [Pipelines](https://github.com/thereisnotime/skillordeal#pipelines)). Use `strip:` for files that need tools the sandbox doesn't have. Don't add `extra_tools` unless the skill can't work without them, and say why in `notes`.
+
+## License
+
+Everything in this repo (trial designs, ground truth, labels, results, reports) is Apache-2.0, see [LICENSE](LICENSE).
+
+Third-party material keeps its own license. Contenders and arenas are referenced by repository and commit, not copied (their licenses are listed in `contenders/*.yaml` and the trial READMEs). Bout transcripts and findings are model output about that code and may quote short excerpts of it.
