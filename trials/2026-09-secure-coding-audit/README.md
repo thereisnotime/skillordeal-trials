@@ -1,12 +1,16 @@
 # 2026-09-secure-coding-audit
 
+**Design:** 12 contenders × 2 arenas × 1 task × 1 model × 3 reps = 72 bouts. Model under test `claude-opus-4-8` at `high` effort, judge `claude-sonnet-5`.
+
+**Status:** r01 is locked ([`rounds/r01/lock.yaml`](rounds/r01/lock.yaml)) and running. Results pending.
+
 ## Question
 
 Which openly available secure-code-review skills find more real vulnerabilities per dollar than a plain Claude Code baseline?
 
 ## Hypothesis
 
-Written before r01 runs:
+Written before r01 started:
 
 - Most skills will not beat the baseline on recall by much. Opus at high effort already knows the OWASP checklist, so a skill mostly changes how thorough the model is and how it reports.
 - The big methodical skills (cf-security-audit, sentry-security-review) will find a few more issues on dvpwa but cost noticeably more tokens, so per dollar they may land near the baseline.
@@ -16,7 +20,7 @@ Written before r01 runs:
 
 ## TL;DR result
 
-Not run yet.
+No results yet: r01 is still running.
 
 ## Setup
 
@@ -26,14 +30,14 @@ Not run yet.
 | Judge | `claude-sonnet-5`, `max_budget_usd` 2 |
 | Claude Code CLI | 2.1.280 (inside the image) |
 | Engine | skillordeal v0.1.1 |
-| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.1`, digest pinned in `rounds/<round>/lock.yaml` |
+| Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.1`, digest pinned in [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) |
 | Auth | `oauth` (`CLAUDE_CODE_OAUTH_TOKEN`) |
 | Invocation | `forced`: the prompt starts with `/<skill-name>` |
 | Reps | 3 per contender × arena |
 | Per-bout limits | 1800 s, 4,000,000 tokens, 250 turns, 2 CPUs, 4 GB |
 | Task | [`tasks/security-audit.md`](tasks/security-audit.md), read-only tools |
+| Network | egress only to `api.anthropic.com:443` through a per-bout proxy |
 
-12 contenders × 2 arenas × 1 task × 1 model × 3 reps = 72 bouts.
 
 ## Contenders
 
@@ -65,7 +69,7 @@ Defined but not in r01: `tob-fp-check` (verifier, needs a finder's output) and `
 
 ## Leaderboard
 
-Not run yet. `just report trial=2026-09-secure-coding-audit round=r01` generates [`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md), which has the leaderboard (recall, precision, cost per true positive, tokens, wall time) and links every row to its bouts.
+Pending: r01 is still running. Once it's scored, `just report trial=2026-09-secure-coding-audit round=r01` writes `rounds/r01/RESULTS.md` and `rounds/r01/report.html` with recall, precision, cost per true positive, tokens and wall time per contender, each row linked to its bouts.
 
 ## How to reproduce
 
@@ -83,9 +87,11 @@ just judge  trial=2026-09-secure-coding-audit round=r01-repro-$USER
 just report trial=2026-09-secure-coding-audit round=r01-repro-$USER
 ```
 
-`lock` refuses to continue if the image, CLI, contender trees or arena commits differ from what the trial pins, and `run` refuses on drift from the lock. Diff your `lock.yaml` against `rounds/r01/lock.yaml` to see exactly what changed.
+`lock` refuses if the image's CLI version differs from the one the trial pins, and `run` refuses on any drift from the lock. Your new lock records its own image digest, contender tree hashes and arena commits, so diff it against [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) to see exactly what changed.
 
 ## How to dig in
+
+Run these from this directory (`just` finds the repo's justfile from here):
 
 ```bash
 just status trial=2026-09-secure-coding-audit round=r01           # every bout: status, cost, tokens, RAM
@@ -94,4 +100,4 @@ just transcript bout=<bout-id> | jq -c 'select(.type=="assistant")' | less
 jq '.findings[] | {title, file, line_start, cwe}' rounds/r01/bouts/<bout-id>/findings.json
 ```
 
-Per-finding verdicts live in `rounds/r01/scores/gt_matches.jsonl` (ground truth), `judge.jsonl` (judge) and [`labels/labels.jsonl`](labels/) (humans). Human labels win, then ground truth, then the judge.
+Per-finding verdicts live in `rounds/r01/scores/gt_matches.jsonl` (ground truth), `rounds/r01/scores/judge.jsonl` (judge) and `labels/labels.jsonl` (humans, written by `just review`); `rounds/r01/scores/verdicts.jsonl` shows all three side by side. Human labels win, then ground truth, then the judge. The top-level README walks through [tracing one number](../../README.md#trace-a-number) end to end.
