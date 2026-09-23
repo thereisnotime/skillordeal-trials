@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="302.4pt" viewBox="0 0 547.2 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Scatter of mean judge-valid against mean cost per bout in warpgate-operator">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="734.4pt" height="302.4pt" viewBox="0 0 734.4 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Scatter of mean judge-valid against mean cost per bout in warpgate-operator">
  <title>Scatter of mean judge-valid against mean cost per bout in warpgate-operator</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
@@ -9,8 +9,8 @@
  <g id="quality-vs-cost-warpgate-operator-figure_1">
   <g id="quality-vs-cost-warpgate-operator-patch_1">
    <path d="M 0 302.4 
-L 547.2 302.4 
-L 547.2 0 
+L 734.4 302.4 
+L 734.4 0 
 L 0 0 
 L 0 302.4 
 z
@@ -19,8 +19,8 @@ z
   <g id="quality-vs-cost-warpgate-operator-axes_1">
    <g id="quality-vs-cost-warpgate-operator-patch_2">
     <path d="M 41.702109 266.097891 
-L 533.133162 266.097891 
-L 533.133162 23.64 
+L 534.109243 266.097891 
+L 534.109243 23.64 
 L 41.702109 23.64 
 L 41.702109 266.097891 
 z
@@ -29,113 +29,113 @@ z
    <g id="quality-vs-cost-warpgate-operator-matplotlib.axis_1">
     <g id="quality-vs-cost-warpgate-operator-xtick_1">
      <g id="quality-vs-cost-warpgate-operator-line2d_1">
-      <path d="M 85.936228 266.097891 
-L 85.936228 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 86.024086 266.097891 
+L 86.024086 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_2"/>
      <g id="quality-vs-cost-warpgate-operator-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="85.936228" y="276.435781" transform="rotate(-0 85.936228 276.435781)">1.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="86.024086" y="276.435781" transform="rotate(-0 86.024086 276.435781)">1.0</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_2">
      <g id="quality-vs-cost-warpgate-operator-line2d_3">
-      <path d="M 141.422558 266.097891 
-L 141.422558 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 141.620623 266.097891 
+L 141.620623 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_4"/>
      <g id="quality-vs-cost-warpgate-operator-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="141.422558" y="276.435781" transform="rotate(-0 141.422558 276.435781)">1.2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="141.620623" y="276.435781" transform="rotate(-0 141.620623 276.435781)">1.2</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_3">
      <g id="quality-vs-cost-warpgate-operator-line2d_5">
-      <path d="M 196.908888 266.097891 
-L 196.908888 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 197.217161 266.097891 
+L 197.217161 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_6"/>
      <g id="quality-vs-cost-warpgate-operator-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="196.908888" y="276.435781" transform="rotate(-0 196.908888 276.435781)">1.4</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="197.217161" y="276.435781" transform="rotate(-0 197.217161 276.435781)">1.4</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_4">
      <g id="quality-vs-cost-warpgate-operator-line2d_7">
-      <path d="M 252.395219 266.097891 
-L 252.395219 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 252.813698 266.097891 
+L 252.813698 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_8"/>
      <g id="quality-vs-cost-warpgate-operator-text_4">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="252.395219" y="276.435781" transform="rotate(-0 252.395219 276.435781)">1.6</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="252.813698" y="276.435781" transform="rotate(-0 252.813698 276.435781)">1.6</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_5">
      <g id="quality-vs-cost-warpgate-operator-line2d_9">
-      <path d="M 307.881549 266.097891 
-L 307.881549 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 308.410235 266.097891 
+L 308.410235 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_10"/>
      <g id="quality-vs-cost-warpgate-operator-text_5">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="307.881549" y="276.435781" transform="rotate(-0 307.881549 276.435781)">1.8</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="308.410235" y="276.435781" transform="rotate(-0 308.410235 276.435781)">1.8</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_6">
      <g id="quality-vs-cost-warpgate-operator-line2d_11">
-      <path d="M 363.367879 266.097891 
-L 363.367879 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 364.006773 266.097891 
+L 364.006773 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_12"/>
      <g id="quality-vs-cost-warpgate-operator-text_6">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="363.367879" y="276.435781" transform="rotate(-0 363.367879 276.435781)">2.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="364.006773" y="276.435781" transform="rotate(-0 364.006773 276.435781)">2.0</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_7">
      <g id="quality-vs-cost-warpgate-operator-line2d_13">
-      <path d="M 418.854209 266.097891 
-L 418.854209 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 419.60331 266.097891 
+L 419.60331 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_14"/>
      <g id="quality-vs-cost-warpgate-operator-text_7">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="418.854209" y="276.435781" transform="rotate(-0 418.854209 276.435781)">2.2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="419.60331" y="276.435781" transform="rotate(-0 419.60331 276.435781)">2.2</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_8">
      <g id="quality-vs-cost-warpgate-operator-line2d_15">
-      <path d="M 474.34054 266.097891 
-L 474.34054 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 475.199847 266.097891 
+L 475.199847 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_16"/>
      <g id="quality-vs-cost-warpgate-operator-text_8">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="474.34054" y="276.435781" transform="rotate(-0 474.34054 276.435781)">2.4</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="475.199847" y="276.435781" transform="rotate(-0 475.199847 276.435781)">2.4</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-xtick_9">
      <g id="quality-vs-cost-warpgate-operator-line2d_17">
-      <path d="M 529.82687 266.097891 
-L 529.82687 23.64 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 530.796384 266.097891 
+L 530.796384 23.64 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_18"/>
      <g id="quality-vs-cost-warpgate-operator-text_9">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="529.82687" y="276.435781" transform="rotate(-0 529.82687 276.435781)">2.6</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="530.796384" y="276.435781" transform="rotate(-0 530.796384 276.435781)">2.6</text>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-text_10">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="287.417635" y="289.436484" transform="rotate(-0 287.417635 289.436484)">mean cost per bout, $ (lower is better)</text>
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="287.905676" y="289.436484" transform="rotate(-0 287.905676 289.436484)">mean cost per bout, $ (lower is better)</text>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-matplotlib.axis_2">
     <g id="quality-vs-cost-warpgate-operator-ytick_1">
      <g id="quality-vs-cost-warpgate-operator-line2d_19">
       <path d="M 41.702109 260.325084 
-L 533.133162 260.325084 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 260.325084 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_20"/>
      <g id="quality-vs-cost-warpgate-operator-text_11">
@@ -145,8 +145,8 @@ L 533.133162 260.325084
     <g id="quality-vs-cost-warpgate-operator-ytick_2">
      <g id="quality-vs-cost-warpgate-operator-line2d_21">
       <path d="M 41.702109 231.461049 
-L 533.133162 231.461049 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 231.461049 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_22"/>
      <g id="quality-vs-cost-warpgate-operator-text_12">
@@ -156,8 +156,8 @@ L 533.133162 231.461049
     <g id="quality-vs-cost-warpgate-operator-ytick_3">
      <g id="quality-vs-cost-warpgate-operator-line2d_23">
       <path d="M 41.702109 202.597015 
-L 533.133162 202.597015 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 202.597015 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_24"/>
      <g id="quality-vs-cost-warpgate-operator-text_13">
@@ -167,8 +167,8 @@ L 533.133162 202.597015
     <g id="quality-vs-cost-warpgate-operator-ytick_4">
      <g id="quality-vs-cost-warpgate-operator-line2d_25">
       <path d="M 41.702109 173.73298 
-L 533.133162 173.73298 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 173.73298 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_26"/>
      <g id="quality-vs-cost-warpgate-operator-text_14">
@@ -178,8 +178,8 @@ L 533.133162 173.73298
     <g id="quality-vs-cost-warpgate-operator-ytick_5">
      <g id="quality-vs-cost-warpgate-operator-line2d_27">
       <path d="M 41.702109 144.868945 
-L 533.133162 144.868945 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 144.868945 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_28"/>
      <g id="quality-vs-cost-warpgate-operator-text_15">
@@ -189,8 +189,8 @@ L 533.133162 144.868945
     <g id="quality-vs-cost-warpgate-operator-ytick_6">
      <g id="quality-vs-cost-warpgate-operator-line2d_29">
       <path d="M 41.702109 116.004911 
-L 533.133162 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_30"/>
      <g id="quality-vs-cost-warpgate-operator-text_16">
@@ -200,8 +200,8 @@ L 533.133162 116.004911
     <g id="quality-vs-cost-warpgate-operator-ytick_7">
      <g id="quality-vs-cost-warpgate-operator-line2d_31">
       <path d="M 41.702109 87.140876 
-L 533.133162 87.140876 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 87.140876 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_32"/>
      <g id="quality-vs-cost-warpgate-operator-text_17">
@@ -211,8 +211,8 @@ L 533.133162 87.140876
     <g id="quality-vs-cost-warpgate-operator-ytick_8">
      <g id="quality-vs-cost-warpgate-operator-line2d_33">
       <path d="M 41.702109 58.276842 
-L 533.133162 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_34"/>
      <g id="quality-vs-cost-warpgate-operator-text_18">
@@ -222,8 +222,8 @@ L 533.133162 58.276842
     <g id="quality-vs-cost-warpgate-operator-ytick_9">
      <g id="quality-vs-cost-warpgate-operator-line2d_35">
       <path d="M 41.702109 29.412807 
-L 533.133162 29.412807 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+L 534.109243 29.412807 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-warpgate-operator-line2d_36"/>
      <g id="quality-vs-cost-warpgate-operator-text_19">
@@ -231,14 +231,14 @@ L 533.133162 29.412807
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-text_20">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="17.727187" y="144.868945" transform="rotate(-90 17.727187 144.868945)">mean judge-valid per bout (higher is better)</text>
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="17.727188" y="144.868945" transform="rotate(-90 17.727188 144.868945)">mean judge-valid per bout (higher is better)</text>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-line2d_37">
-    <path d="M 166.091041 154.49029 
-L 189.418141 116.004911 
-L 262.596843 77.519531 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 166.338102 154.49029 
+L 189.711535 116.004911 
+L 263.035585 77.519531 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-patch_3">
     <path d="M 41.702109 266.097891 
@@ -247,151 +247,151 @@ L 41.702109 23.64
    </g>
    <g id="quality-vs-cost-warpgate-operator-patch_4">
     <path d="M 41.702109 266.097891 
-L 533.133162 266.097891 
+L 534.109243 266.097891 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_1">
-    <path d="M 179.364943 116.004911 
-L 308.899446 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
+    <path d="M 179.638369 116.004911 
+L 309.430154 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_2">
-    <path d="M 230.808632 173.73298 
-L 230.808632 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_21">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="237.808632" y="110.004911" transform="rotate(-0 237.808632 110.004911)">baseline</text>
+    <path d="M 231.184236 173.73298 
+L 231.184236 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_3">
-    <path d="M 240.308077 116.004911 
-L 340.404584 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 240.702548 116.004911 
+L 340.997868 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_4">
-    <path d="M 278.747342 173.73298 
-L 278.747342 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_22">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="285.747342" y="110.004911" transform="rotate(-0 285.747342 110.004911)">cf-security-audit</text>
+    <path d="M 279.218161 173.73298 
+L 279.218161 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_5">
-    <path d="M 218.837918 77.519531 
-L 335.727086 77.519531 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 219.189746 77.519531 
+L 336.311079 77.519531 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_6">
-    <path d="M 262.596843 116.004911 
-L 262.596843 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_23">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="269.596843" y="71.519531" transform="rotate(-0 269.596843 71.519531)">ecc-security-review</text>
+    <path d="M 263.035585 116.004911 
+L 263.035585 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_7">
-    <path d="M 123.607285 154.49029 
-L 208.699734 154.49029 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 123.769965 154.49029 
+L 209.031425 154.49029 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_8">
-    <path d="M 166.091041 231.461049 
-L 166.091041 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_24">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="173.091041" y="148.49029" transform="rotate(-0 173.091041 148.49029)">every-ce-security-reviewer</text>
+    <path d="M 166.338102 231.461049 
+L 166.338102 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_9">
-    <path d="M 213.003808 116.004911 
-L 288.817278 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 213.344048 116.004911 
+L 289.308099 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_10">
-    <path d="M 256.492329 116.004911 
-L 256.492329 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_25">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="263.492329" y="129.004911" transform="rotate(-0 263.492329 129.004911)">neolab-security-auditor</text>
+    <path d="M 256.918946 116.004911 
+L 256.918946 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_11">
-    <path d="M 168.171963 116.004911 
-L 226.17987 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 168.423158 116.004911 
+L 226.54628 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_12">
-    <path d="M 189.418141 116.004911 
-L 189.418141 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_26">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="196.418141" y="129.004911" transform="rotate(-0 196.418141 129.004911)">openai-security-best-practices</text>
+    <path d="M 189.711535 116.004911 
+L 189.711535 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_13">
-    <path d="M 231.17142 96.762221 
-L 298.098199 96.762221 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 231.547744 96.762221 
+L 298.607454 96.762221 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_14">
-    <path d="M 269.812285 116.004911 
-L 269.812285 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_27">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="276.812285" y="109.762221" transform="rotate(-0 276.812285 109.762221)">samber-golang-security</text>
+    <path d="M 270.265358 116.004911 
+L 270.265358 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_15">
-    <path d="M 222.410406 135.2476 
-L 329.565884 135.2476 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 222.769329 135.2476 
+L 330.13764 135.2476 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_16">
-    <path d="M 282.306142 173.73298 
-L 282.306142 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_28">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="289.306142" y="148.2476" transform="rotate(-0 289.306142 148.2476)">sentry-code-review</text>
+    <path d="M 282.784031 173.73298 
+L 282.784031 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_17">
-    <path d="M 271.291366 154.49029 
-L 326.822085 154.49029 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 271.747377 154.49029 
+L 327.388391 154.49029 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_18">
-    <path d="M 293.121353 173.73298 
-L 293.121353 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_29">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="300.121353" y="148.49029" transform="rotate(-0 300.121353 148.49029)">sentry-security-review</text>
+    <path d="M 293.620722 173.73298 
+L 293.620722 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_19">
-    <path d="M 127.810929 154.49029 
-L 451.227986 154.49029 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 127.981959 154.49029 
+L 452.041388 154.49029 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_20">
-    <path d="M 305.659229 231.461049 
-L 305.659229 116.004911 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-warpgate-operator-text_30">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="312.659229" y="167.49029" transform="rotate(-0 312.659229 167.49029)">tob-differential-review</text>
+    <path d="M 306.183501 231.461049 
+L 306.183501 116.004911 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_21">
-    <path d="M 278.074847 96.762221 
-L 410.141191 96.762221 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 278.544331 96.762221 
+L 410.872986 96.762221 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-warpgate-operator-LineCollection_22">
-    <path d="M 346.368995 173.73298 
-L 346.368995 58.276842 
-" clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+    <path d="M 346.974125 173.73298 
+L 346.974125 58.276842 
+" clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_21">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="270.035585" y="71.519531" transform="rotate(-0 270.035585 71.519531)">2</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_22">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="277.265358" y="90.762221" transform="rotate(-0 277.265358 90.762221)">6</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_23">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="353.974125" y="90.762221" transform="rotate(-0 353.974125 90.762221)">10</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_24">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="196.711535" y="129.004911" transform="rotate(-0 196.711535 129.004911)">5</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_25">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="238.184236" y="110.004911" transform="rotate(-0 238.184236 110.004911)">B</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_26">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="263.918946" y="129.004911" transform="rotate(-0 263.918946 129.004911)">4</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_27">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="286.218161" y="110.004911" transform="rotate(-0 286.218161 110.004911)">1</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_28">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="289.784031" y="129.2476" transform="rotate(-0 289.784031 129.2476)">7</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_29">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="173.338102" y="148.49029" transform="rotate(-0 173.338102 148.49029)">3</text>
+   </g>
+   <g id="quality-vs-cost-warpgate-operator-text_30">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="300.620722" y="167.49029" transform="rotate(-0 300.620722 167.49029)">8</text>
    </g>
    <g id="quality-vs-cost-warpgate-operator-text_31">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="353.368995" y="90.762221" transform="rotate(-0 353.368995 90.762221)">tob-sharp-edges</text>
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="313.183501" y="167.49029" transform="rotate(-0 313.183501 167.49029)">9</text>
    </g>
    <g id="quality-vs-cost-warpgate-operator-text_32">
     <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="41.702109" y="17.64" transform="rotate(-0 41.702109 17.64)">warpgate-operator: judge-valid against cost</text>
@@ -408,8 +408,8 @@ L -5.91608 -0
 z
 " style="stroke: #898781"/>
     </defs>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-ma1c1a7aa5b" x="230.808632" y="116.004911" style="fill: #898781; stroke: #898781"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-ma1c1a7aa5b" x="231.184236" y="116.004911" style="fill: #898781; stroke: #898781"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip1" class="tip"><title>cf-security-audit
@@ -429,114 +429,127 @@ C -2.012324 3.464901 -1.027127 3.872983 0 3.872983
 z
 " style="stroke: #3987e5"/>
     </defs>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="278.747342" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="279.218161" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip2" class="tip"><title>ecc-security-review
 judge-valid 3.7 [3, 4]
 cost $1.637 [1.479, 1.900] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="262.596843" y="77.519531" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="263.035585" y="77.519531" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip3" class="tip"><title>every-ce-security-reviewer
 judge-valid 2.3 [1, 4]
 cost $1.289 [1.136, 1.442] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="166.091041" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="166.338102" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip4" class="tip"><title>neolab-security-auditor
 judge-valid 3 [3, 3]
 cost $1.615 [1.458, 1.731] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="256.492329" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="256.918946" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip5" class="tip"><title>openai-security-best-practices
 judge-valid 3 [3, 3]
 cost $1.373 [1.296, 1.506] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="189.418141" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="189.711535" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip6" class="tip"><title>samber-golang-security
 judge-valid 3.3 [3, 4]
 cost $1.663 [1.523, 1.765] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="269.812285" y="96.762221" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="270.265358" y="96.762221" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip7" class="tip"><title>sentry-code-review
 judge-valid 2.7 [2, 4]
 cost $1.708 [1.492, 1.878] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="282.306142" y="135.2476" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="282.784031" y="135.2476" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip8" class="tip"><title>sentry-security-review
 judge-valid 2.3 [2, 3]
 cost $1.747 [1.668, 1.868] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="293.121353" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="293.620722" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip9" class="tip"><title>tob-differential-review
 judge-valid 2.3 [1, 3]
 cost $1.792 [1.151, 2.317] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="305.659229" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="306.183501" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-tip10" class="tip"><title>tob-sharp-edges
 judge-valid 3.3 [2, 4]
 cost $1.939 [1.693, 2.169] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-warpgate-operator-p3c1e0f9c0d)">
-     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="346.368995" y="96.762221" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#quality-vs-cost-warpgate-operator-p05bcbdb5ba)">
+     <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="346.974125" y="96.762221" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="quality-vs-cost-warpgate-operator-legend_1">
     <g id="quality-vs-cost-warpgate-operator-line2d_38">
-     <path d="M 446.093162 230.174766 
-L 454.093162 230.174766 
-L 462.093162 230.174766 
+     <path d="M 447.069243 230.174766 
+L 455.069243 230.174766 
+L 463.069243 230.174766 
 " style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
     </g>
     <g id="quality-vs-cost-warpgate-operator-text_33">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="468.493162" y="232.974766" transform="rotate(-0 468.493162 232.974766)">Pareto frontier</text>
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="469.469243" y="232.974766" transform="rotate(-0 469.469243 232.974766)">Pareto frontier</text>
     </g>
     <g id="quality-vs-cost-warpgate-operator-PathCollection_1">
      <g>
-      <use xlink:href="#quality-vs-cost-warpgate-operator-ma1c1a7aa5b" x="454.093162" y="242.875391" style="fill: #898781; stroke: #898781"/>
+      <use xlink:href="#quality-vs-cost-warpgate-operator-ma1c1a7aa5b" x="455.069243" y="242.875391" style="fill: #898781; stroke: #898781"/>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-text_34">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="468.493162" y="244.975391" transform="rotate(-0 468.493162 244.975391)">baseline</text>
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="469.469243" y="244.975391" transform="rotate(-0 469.469243 244.975391)">baseline</text>
     </g>
     <g id="quality-vs-cost-warpgate-operator-PathCollection_2">
      <g>
-      <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="454.093162" y="254.876016" style="fill: #3987e5; stroke: #3987e5"/>
+      <use xlink:href="#quality-vs-cost-warpgate-operator-m929ecfca2a" x="455.069243" y="254.876016" style="fill: #3987e5; stroke: #3987e5"/>
      </g>
     </g>
     <g id="quality-vs-cost-warpgate-operator-text_35">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="468.493162" y="256.976016" transform="rotate(-0 468.493162 256.976016)">contender</text>
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="469.469243" y="256.976016" transform="rotate(-0 469.469243 256.976016)">contender</text>
     </g>
    </g>
   </g>
+  <g id="quality-vs-cost-warpgate-operator-text_36">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 30.734484)"> B  baseline</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 42.638469)"> 1  cf-security-audit</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 55.388469)"> 2  ecc-security-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 68.138469)"> 3  every-ce-security-reviewer</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 80.911047)"> 4  neolab-security-auditor</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 93.638469)"> 5  openai-security-best-practices</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 106.381828)"> 6  samber-golang-security</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 119.138469)"> 7  sentry-code-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 131.888469)"> 8  sentry-security-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 145.484484)"> 9  tob-differential-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 157.35925)">10  tob-sharp-edges</text>
+  </g>
  </g>
  <defs>
-  <clipPath id="quality-vs-cost-warpgate-operator-p3c1e0f9c0d">
-   <rect x="41.702109" y="23.64" width="491.431052" height="242.457891"/>
+  <clipPath id="quality-vs-cost-warpgate-operator-p05bcbdb5ba">
+   <rect x="41.702109" y="23.64" width="492.407134" height="242.457891"/>
   </clipPath>
  </defs>
 </svg>

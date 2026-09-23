@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="302.4pt" viewBox="0 0 547.2 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Scatter of mean TP against mean cost per bout in dvpwa">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="734.4pt" height="302.4pt" viewBox="0 0 734.4 302.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Scatter of mean TP against mean cost per bout in dvpwa">
  <title>Scatter of mean TP against mean cost per bout in dvpwa</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
@@ -9,8 +9,8 @@
  <g id="quality-vs-cost-dvpwa-figure_1">
   <g id="quality-vs-cost-dvpwa-patch_1">
    <path d="M 0 302.4 
-L 547.2 302.4 
-L 547.2 0 
+L 734.4 302.4 
+L 734.4 0 
 L 0 0 
 L 0 302.4 
 z
@@ -31,7 +31,7 @@ z
      <g id="quality-vs-cost-dvpwa-line2d_1">
       <path d="M 49.703677 266.097891 
 L 49.703677 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_2"/>
      <g id="quality-vs-cost-dvpwa-text_1">
@@ -42,7 +42,7 @@ L 49.703677 23.64
      <g id="quality-vs-cost-dvpwa-line2d_3">
       <path d="M 107.131539 266.097891 
 L 107.131539 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_4"/>
      <g id="quality-vs-cost-dvpwa-text_2">
@@ -53,7 +53,7 @@ L 107.131539 23.64
      <g id="quality-vs-cost-dvpwa-line2d_5">
       <path d="M 164.559401 266.097891 
 L 164.559401 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_6"/>
      <g id="quality-vs-cost-dvpwa-text_3">
@@ -64,7 +64,7 @@ L 164.559401 23.64
      <g id="quality-vs-cost-dvpwa-line2d_7">
       <path d="M 221.987263 266.097891 
 L 221.987263 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_8"/>
      <g id="quality-vs-cost-dvpwa-text_4">
@@ -75,7 +75,7 @@ L 221.987263 23.64
      <g id="quality-vs-cost-dvpwa-line2d_9">
       <path d="M 279.415125 266.097891 
 L 279.415125 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_10"/>
      <g id="quality-vs-cost-dvpwa-text_5">
@@ -86,7 +86,7 @@ L 279.415125 23.64
      <g id="quality-vs-cost-dvpwa-line2d_11">
       <path d="M 336.842987 266.097891 
 L 336.842987 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_12"/>
      <g id="quality-vs-cost-dvpwa-text_6">
@@ -97,7 +97,7 @@ L 336.842987 23.64
      <g id="quality-vs-cost-dvpwa-line2d_13">
       <path d="M 394.270849 266.097891 
 L 394.270849 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_14"/>
      <g id="quality-vs-cost-dvpwa-text_7">
@@ -108,7 +108,7 @@ L 394.270849 23.64
      <g id="quality-vs-cost-dvpwa-line2d_15">
       <path d="M 451.69871 266.097891 
 L 451.69871 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_16"/>
      <g id="quality-vs-cost-dvpwa-text_8">
@@ -119,7 +119,7 @@ L 451.69871 23.64
      <g id="quality-vs-cost-dvpwa-line2d_17">
       <path d="M 509.126572 266.097891 
 L 509.126572 23.64 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_18"/>
      <g id="quality-vs-cost-dvpwa-text_9">
@@ -135,7 +135,7 @@ L 509.126572 23.64
      <g id="quality-vs-cost-dvpwa-line2d_19">
       <path d="M 41.702109 260.325084 
 L 537.48 260.325084 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_20"/>
      <g id="quality-vs-cost-dvpwa-text_11">
@@ -146,7 +146,7 @@ L 537.48 260.325084
      <g id="quality-vs-cost-dvpwa-line2d_21">
       <path d="M 41.702109 231.461049 
 L 537.48 231.461049 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_22"/>
      <g id="quality-vs-cost-dvpwa-text_12">
@@ -157,7 +157,7 @@ L 537.48 231.461049
      <g id="quality-vs-cost-dvpwa-line2d_23">
       <path d="M 41.702109 202.597015 
 L 537.48 202.597015 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_24"/>
      <g id="quality-vs-cost-dvpwa-text_13">
@@ -168,7 +168,7 @@ L 537.48 202.597015
      <g id="quality-vs-cost-dvpwa-line2d_25">
       <path d="M 41.702109 173.73298 
 L 537.48 173.73298 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_26"/>
      <g id="quality-vs-cost-dvpwa-text_14">
@@ -179,7 +179,7 @@ L 537.48 173.73298
      <g id="quality-vs-cost-dvpwa-line2d_27">
       <path d="M 41.702109 144.868945 
 L 537.48 144.868945 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_28"/>
      <g id="quality-vs-cost-dvpwa-text_15">
@@ -190,7 +190,7 @@ L 537.48 144.868945
      <g id="quality-vs-cost-dvpwa-line2d_29">
       <path d="M 41.702109 116.004911 
 L 537.48 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_30"/>
      <g id="quality-vs-cost-dvpwa-text_16">
@@ -201,7 +201,7 @@ L 537.48 116.004911
      <g id="quality-vs-cost-dvpwa-line2d_31">
       <path d="M 41.702109 87.140876 
 L 537.48 87.140876 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_32"/>
      <g id="quality-vs-cost-dvpwa-text_17">
@@ -212,7 +212,7 @@ L 537.48 87.140876
      <g id="quality-vs-cost-dvpwa-line2d_33">
       <path d="M 41.702109 58.276842 
 L 537.48 58.276842 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_34"/>
      <g id="quality-vs-cost-dvpwa-text_18">
@@ -223,7 +223,7 @@ L 537.48 58.276842
      <g id="quality-vs-cost-dvpwa-line2d_35">
       <path d="M 41.702109 29.412807 
 L 537.48 29.412807 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="quality-vs-cost-dvpwa-line2d_36"/>
      <g id="quality-vs-cost-dvpwa-text_19">
@@ -238,7 +238,7 @@ L 537.48 29.412807
     <path d="M 132.56653 173.73298 
 L 163.858398 116.004911 
 L 248.834405 96.762221 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
    </g>
    <g id="quality-vs-cost-dvpwa-patch_3">
     <path d="M 41.702109 266.097891 
@@ -253,145 +253,145 @@ L 537.48 266.097891
    <g id="quality-vs-cost-dvpwa-LineCollection_1">
     <path d="M 156.906564 173.73298 
 L 191.700957 173.73298 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_2">
     <path d="M 176.270856 231.461049 
 L 176.270856 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_21">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="183.270856" y="186.73298" transform="rotate(-0 183.270856 186.73298)">baseline</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_3">
     <path d="M 190.15385 154.49029 
 L 454.850352 154.49029 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_4">
     <path d="M 287.68378 173.73298 
 L 287.68378 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_22">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="294.68378" y="148.49029" transform="rotate(-0 294.68378 148.49029)">cf-security-audit</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_5">
     <path d="M 166.620487 135.2476 
 L 192.318306 135.2476 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_6">
     <path d="M 177.952918 173.73298 
 L 177.952918 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_23">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.952918" y="148.2476" transform="rotate(-0 184.952918 148.2476)">ecc-security-review</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_7">
     <path d="M 153.792251 116.004911 
 L 170.414746 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_8">
     <path d="M 163.858398 116.004911 
 L 163.858398 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_24">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="170.858398" y="129.004911" transform="rotate(-0 170.858398 129.004911)">every-ce-security-reviewer</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_9">
     <path d="M 147.815159 116.004911 
 L 219.407029 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_10">
     <path d="M 178.285617 116.004911 
 L 178.285617 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_25">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="185.285617" y="110.004911" transform="rotate(-0 185.285617 110.004911)">neolab-security-auditor</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_11">
     <path d="M 165.343291 154.49029 
 L 255.784708 154.49029 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_12">
     <path d="M 208.335894 173.73298 
 L 208.335894 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_26">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="215.335894" y="148.49029" transform="rotate(-0 215.335894 148.49029)">openai-security-best-practices</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_13">
     <path d="M 212.096462 96.762221 
 L 310.915456 96.762221 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_14">
     <path d="M 248.834405 116.004911 
 L 248.834405 58.276842 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_27">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="255.834405" y="109.762221" transform="rotate(-0 255.834405 109.762221)">samber-golang-security</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_15">
     <path d="M 124.331758 173.73298 
 L 145.587532 173.73298 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_16">
     <path d="M 132.56653 173.73298 
 L 132.56653 173.73298 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_28">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="139.56653" y="167.73298" transform="rotate(-0 139.56653 167.73298)">sentry-code-review</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_17">
     <path d="M 150.824379 154.49029 
 L 186.345809 154.49029 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_18">
     <path d="M 168.769055 173.73298 
 L 168.769055 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_29">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="175.769055" y="148.49029" transform="rotate(-0 175.769055 148.49029)">sentry-security-review</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_19">
     <path d="M 154.001863 154.49029 
 L 235.702185 154.49029 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_20">
     <path d="M 190.205535 173.73298 
 L 190.205535 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
-   </g>
-   <g id="quality-vs-cost-dvpwa-text_30">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="197.205535" y="167.49029" transform="rotate(-0 197.205535 167.49029)">tob-differential-review</text>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_21">
     <path d="M 151.21776 154.49029 
 L 209.300299 154.49029 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
    </g>
    <g id="quality-vs-cost-dvpwa-LineCollection_22">
     <path d="M 176.863703 173.73298 
 L 176.863703 116.004911 
-" clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+" clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_21">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="255.834405" y="109.762221" transform="rotate(-0 255.834405 109.762221)">6</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_22">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.858398" y="110.004911" transform="rotate(-0 156.858398 110.004911)">3</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_23">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="185.285617" y="110.004911" transform="rotate(-0 185.285617 110.004911)">4</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_24">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.952918" y="129.2476" transform="rotate(-0 184.952918 129.2476)">2</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_25">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="161.769055" y="148.49029" transform="rotate(-0 161.769055 148.49029)">8</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_26">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="183.863703" y="167.49029" transform="rotate(-0 183.863703 167.49029)">10</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_27">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="197.205535" y="167.49029" transform="rotate(-0 197.205535 167.49029)">9</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_28">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="215.335894" y="148.49029" transform="rotate(-0 215.335894 148.49029)">5</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_29">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="294.68378" y="148.49029" transform="rotate(-0 294.68378 148.49029)">1</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_30">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="139.56653" y="167.73298" transform="rotate(-0 139.56653 167.73298)">7</text>
    </g>
    <g id="quality-vs-cost-dvpwa-text_31">
-    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="183.863703" y="148.49029" transform="rotate(-0 183.863703 148.49029)">tob-sharp-edges</text>
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="183.270856" y="186.73298" transform="rotate(-0 183.270856 186.73298)">B</text>
    </g>
    <g id="quality-vs-cost-dvpwa-text_32">
     <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="41.702109" y="17.64" transform="rotate(-0 41.702109 17.64)">dvpwa: TP against cost</text>
@@ -408,7 +408,7 @@ L -5.91608 -0
 z
 " style="stroke: #898781"/>
     </defs>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-ma1c1a7aa5b" x="176.270856" y="173.73298" style="fill: #898781; stroke: #898781"/>
     </g>
    </g>
@@ -429,7 +429,7 @@ C -2.012324 3.464901 -1.027127 3.872983 0 3.872983
 z
 " style="stroke: #3987e5"/>
     </defs>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="287.68378" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -437,7 +437,7 @@ z
 TP 6.7 [6, 7]
 cost $0.423 [0.404, 0.448] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="177.952918" y="135.2476" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -445,7 +445,7 @@ n = 3/3 bouts</title>
 TP 7 [7, 7]
 cost $0.399 [0.381, 0.410] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="163.858398" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -453,7 +453,7 @@ n = 3/3 bouts</title>
 TP 7 [7, 7]
 cost $0.424 [0.371, 0.496] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="178.285617" y="116.004911" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -461,7 +461,7 @@ n = 3/3 bouts</title>
 TP 6.3 [6, 7]
 cost $0.476 [0.401, 0.559] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="208.335894" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -469,7 +469,7 @@ n = 3/3 bouts</title>
 TP 7.3 [7, 8]
 cost $0.547 [0.483, 0.655] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="248.834405" y="96.762221" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -477,7 +477,7 @@ n = 3/3 bouts</title>
 TP 6 [6, 6]
 cost $0.344 [0.330, 0.367] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="132.56653" y="173.73298" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -485,7 +485,7 @@ n = 3/3 bouts</title>
 TP 6.3 [6, 7]
 cost $0.407 [0.376, 0.438] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="168.769055" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -493,7 +493,7 @@ n = 3/3 bouts</title>
 TP 6.3 [6, 7]
 cost $0.445 [0.382, 0.524] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="190.205535" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -501,7 +501,7 @@ n = 3/3 bouts</title>
 TP 6.3 [6, 7]
 cost $0.421 [0.377, 0.478] per bout
 n = 3/3 bouts</title>
-    <g clip-path="url(#quality-vs-cost-dvpwa-p4735f71125)">
+    <g clip-path="url(#quality-vs-cost-dvpwa-p9b531848e8)">
      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="176.863703" y="154.49029" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
@@ -533,9 +533,22 @@ L 466.44 230.174766
     </g>
    </g>
   </g>
+  <g id="quality-vs-cost-dvpwa-text_36">
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 30.734484)"> B  baseline</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 42.638469)"> 1  cf-security-audit</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 55.388469)"> 2  ecc-security-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 68.138469)"> 3  every-ce-security-reviewer</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 80.911047)"> 4  neolab-security-auditor</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 93.638469)"> 5  openai-security-best-practices</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 106.381828)"> 6  samber-golang-security</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 119.138469)"> 7  sentry-code-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 131.888469)"> 8  sentry-security-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 145.484484)"> 9  tob-differential-review</text>
+   <text style="font-size: 8.5px; font-family: 'DejaVu Sans Mono', 'Bitstream Vera Sans Mono', 'Computer Modern Typewriter', 'Andale Mono', 'Nimbus Mono L', 'Courier New', 'Courier', 'Fixed', 'Terminal', monospace; fill: #777777" transform="translate(554.544 157.35925)">10  tob-sharp-edges</text>
+  </g>
  </g>
  <defs>
-  <clipPath id="quality-vs-cost-dvpwa-p4735f71125">
+  <clipPath id="quality-vs-cost-dvpwa-p9b531848e8">
    <rect x="41.702109" y="23.64" width="495.777891" height="242.457891"/>
   </clipPath>
  </defs>
