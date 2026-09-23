@@ -75,7 +75,7 @@ default:
     printf "\n{{BOLD}}{{MAGENTA}}RUN{{RESET}} {{YELLOW}}(spends model budget){{RESET}}\n"
     row "run trial=ID round=R [j=1] [--max-cost-usd X]" "run a round (resumable, j parallel bouts)"
     row "status trial=ID round=R"                     "per-bout status, cost, tokens, RAM"
-    row "judge trial=ID round=R"                      "LLM judge over findings not settled by ground truth"
+    row "judge trial=ID round=R"                      "blinded LLM judge over every finding (cached)"
     printf "\n{{BOLD}}{{MAGENTA}}SCORE & REPORT{{RESET}}\n"
     row "score trial=ID round=R"                      "match findings to ground truth, write rounds/R/scores/"
     row "review trial=ID round=R"                     "label findings in the browser (labels/labels.jsonl)"
@@ -212,7 +212,7 @@ score *args:
     t=$(trial_file "$trial")
     {{so}} score "$t" -r "$round" "${extra[@]}"
 
-# RUN: LLM judge for findings ground truth can't settle (cached, costs judge budget)
+# RUN: blinded LLM judge over every finding (cached per finding, costs judge budget)
 judge *args:
     #!/usr/bin/env bash
     set -euo pipefail
