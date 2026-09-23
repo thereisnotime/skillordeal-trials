@@ -65,6 +65,7 @@ default:
     printf "{{BOLD}}{{MAGENTA}}SETUP{{RESET}}\n"
     row "setup [engine=URL@TAG]"                      "asdf toolchain, install the engine, pull the runner image"
     row "image [runner=REF]"                          "pull the pinned runner image with podman"
+    row "image-local [runner=REF]"                    "build the runner from the local engine and tag it as REF"
     printf "\n{{BOLD}}{{MAGENTA}}TRIALS{{RESET}}\n"
     row "trials"                                      "list trials and their rounds"
     row "new-trial name=ID"                           "scaffold trials/ID from templates/trial"
@@ -109,6 +110,18 @@ image *args:
     parse "$@"
     podman pull "$runner"
     podman run --rm --network=none "$runner" claude --version
+
+# Useful before the image is published; the lock records whatever image id you end up with.
+# SETUP: build the runner from the local engine checkout and tag it as the pinned ref
+image-local *args:
+    #!/usr/bin/env bash
+    set -euo pipefail
+    runner={{quote(runner)}}
+    {{_lib}}
+    parse "$@"
+    just --justfile "$HOME/Private/Projects/P/skillordeal/justfile" --working-directory "$HOME/Private/Projects/P/skillordeal" image
+    podman tag localhost/skillordeal-runner:dev "$runner"
+    printf "tagged localhost/skillordeal-runner:dev as %s\n" "$runner"
 
 # TRIALS: list trials and their rounds
 trials:
