@@ -1,0 +1,1227 @@
+# Candidate skills found 2026-09-24 (web + GitHub, verified with gh api at the listed sha).
+# Not part of any trial yet. verdict: usable | wrap-needed | exclude. Review before copying into a contenders file.
+# New code-review skill candidates, verified 2026-09-24 via gh api. words = entry file; words_bundle = all .md/.toml in subpath.
+# Local snapshot notes: levnikolaevich codebase-audit-suite (ln-620..654) no longer exists upstream -> replaced by quality-assurance-suite ln-54/ln-56; obra requesting-code-review changed 395->424 words; jeremylongshore repo renamed to tons-of-skills-marketplace.
+- id: anthropic-claude-security
+  kind: plugin
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/claude-security
+  entry: plugins/claude-security/skills/claude-security/SKILL.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2026-09-01'
+  words: 738
+  words_bundle: 25537
+  category: security-review
+  needs: "Workflow tool, Agent subagents, AskUserQuestion, Write, python helper scripts, git"
+  risk: "low: local python helpers only (report/SARIF render), no network"
+  verdict: wrap-needed
+  why: "Anthropic official multi-agent scanner (beta Jul 2026): inventory->threat model->researchers->verifier; needs Workflow/Agent tools, flatten scan-researcher+scan-verifier prompts"
+
+- id: anthropic-pr-review-toolkit
+  kind: plugin
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/pr-review-toolkit
+  entry: plugins/pr-review-toolkit/commands/review-pr.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2026-04-28'
+  words: 676
+  words_bundle: 6270
+  category: general-review
+  needs: "git diff/gh PR, subagents"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Anthropic; 6 specialist agents (silent-failure-hunter, type-design, comment, test coverage); PR-scoped, agents usable standalone on full tree"
+
+- id: anthropic-code-modernization-security-auditor
+  kind: prompt
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/code-modernization/agents/security-auditor.md
+  entry: plugins/code-modernization/agents/security-auditor.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2026-06-09'
+  words: 733
+  words_bundle: 733
+  category: security-review
+  needs: "optional scanner mentions (degrades gracefully)"
+  risk: "none"
+  verdict: usable
+  why: "Anthropic agent prompt (Jun 2026) for whole-codebase legacy security audit; no diff dependency"
+
+- id: anthropic-code-modernization-architecture-critic
+  kind: prompt
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/code-modernization/agents/architecture-critic.md
+  entry: plugins/code-modernization/agents/architecture-critic.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2026-06-09'
+  words: 468
+  words_bundle: 468
+  category: maintainability
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Anthropic agent prompt critiquing architecture/coupling of an existing codebase; read-only"
+
+- id: anthropic-code-simplifier
+  kind: prompt
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/code-simplifier/agents/code-simplifier.md
+  entry: plugins/code-simplifier/agents/code-simplifier.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2026-01-09'
+  words: 433
+  words_bundle: 433
+  category: quality-review
+  needs: "Edit (it rewrites code); recent-changes focus"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Anthropic simplifier agent; edits code, needs report-only wrapper"
+
+- id: anthropic-feature-dev-code-reviewer
+  kind: prompt
+  repo: anthropics/claude-plugins-official
+  ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+  subpath: plugins/feature-dev/agents/code-reviewer.md
+  entry: plugins/feature-dev/agents/code-reviewer.md
+  license: Apache-2.0
+  stars: 36676
+  updated: '2025-11-20'
+  words: 425
+  words_bundle: 425
+  category: general-review
+  needs: "git diff by default"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Anthropic confidence-scored (>=80) reviewer agent; scope defaults to unstaged diff, retarget to full repo"
+
+- id: openai-codex-code-review
+  kind: skill
+  repo: openai/codex
+  ref: 29f056c26c09b51db123069ed3ec2095b227d6db
+  subpath: .codex/skills/code-review
+  entry: .codex/skills/code-review/SKILL.md
+  license: Apache-2.0
+  stars: 126260
+  updated: '2026-06-26'
+  words: 106
+  words_bundle: 106
+  category: general-review
+  needs: "PR, subagents, gh labels"
+  risk: "none"
+  verdict: exclude
+  why: "Thin 106-word orchestrator of code-review-* subskills for PRs; nothing to benchmark standalone"
+
+- id: openai-codex-review-rubric
+  kind: prompt
+  repo: openai/codex
+  ref: 29f056c26c09b51db123069ed3ec2095b227d6db
+  subpath: codex-rs/prompts/templates/review/rubric.md
+  entry: codex-rs/prompts/templates/review/rubric.md
+  license: Apache-2.0
+  stars: 126260
+  updated: '2026-07-21'
+  words: 1200
+  words_bundle: 1200
+  category: general-review
+  needs: "framed as change review (no tool needs)"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Codex /review built-in rubric (updated Jul 2026): precise bug-flagging criteria + P0-P3; needs full-repo framing"
+
+- id: openai-security-threat-model
+  kind: skill
+  repo: openai/skills
+  ref: 49f948faa9258a0c61caceaf225e179651397431
+  subpath: skills/.curated/security-threat-model
+  entry: skills/.curated/security-threat-model/SKILL.md
+  license: Apache-2.0
+  stars: 27596
+  updated: '2026-02-02'
+  words: 763
+  words_bundle: 2764
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "OpenAI curated repo-grounded threat model skill; architecture-level security review, read-only"
+
+- id: google-gemini-security-analyze-full
+  kind: prompt
+  repo: gemini-cli-extensions/security
+  ref: 2227f3cf7150972baac695b8233abc2186408538
+  subpath: commands/security/analyze-full.toml
+  entry: commands/security/analyze-full.toml
+  license: Apache-2.0
+  stars: 795
+  updated: '2026-03-31'
+  words: 1439
+  words_bundle: 1439
+  category: security-review
+  needs: "MCP server (find_line_numbers), writes SECURITY_ANALYSIS_TODO.md"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Google Gemini CLI security ext, full-repo taint two-pass recon/investigate; drop MCP line-number step"
+
+- id: google-gemini-code-review
+  kind: prompt
+  repo: gemini-cli-extensions/code-review
+  ref: dd1a10d2c9d07b2ebade866590fdfa59cd8f9d04
+  subpath: commands/code-review.toml
+  entry: commands/code-review.toml
+  license: Apache-2.0
+  stars: 529
+  updated: '2026-03-10'
+  words: 230
+  words_bundle: 230
+  category: general-review
+  needs: "git diff merge-base"
+  risk: "none"
+  verdict: exclude
+  why: "Diff-only command; code-review-commons skill is generic and thin"
+
+- id: github-copilot-security-review
+  kind: skill
+  repo: github/awesome-copilot
+  ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+  subpath: skills/security-review
+  entry: skills/security-review/SKILL.md
+  license: MIT
+  stars: 39343
+  updated: '2026-03-30'
+  words: 1295
+  words_bundle: 4828
+  category: security-review
+  needs: "none (mentions subagent optional)"
+  risk: "low: eval hits are vuln examples in references"
+  verdict: usable
+  why: "GitHub awesome-copilot official skill: scope->dataflow->self-verify->severity; 4.8k words with references"
+
+- id: github-copilot-se-security-reviewer
+  kind: prompt
+  repo: github/awesome-copilot
+  ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+  subpath: agents/se-security-reviewer.agent.md
+  entry: agents/se-security-reviewer.agent.md
+  license: MIT
+  stars: 39343
+  updated: '2025-12-11'
+  words: 470
+  words_bundle: 470
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "GitHub awesome-copilot agent: OWASP Top10 + LLM Top10 + Zero Trust review, short"
+
+- id: github-copilot-sast-sca-analyzer
+  kind: prompt
+  repo: github/awesome-copilot
+  ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+  subpath: agents/sast-sca-security-analyzer.agent.md
+  entry: agents/sast-sca-security-analyzer.agent.md
+  license: MIT
+  stars: 39343
+  updated: '2026-05-22'
+  words: 2881
+  words_bundle: 2881
+  category: security-review
+  needs: "none (manual SAST/SCA reasoning)"
+  risk: "low: eval in examples"
+  verdict: usable
+  why: "awesome-copilot 2.9k-word SAST/SCA analyzer agent (May 2026)"
+
+- id: github-copilot-se-architecture-reviewer
+  kind: prompt
+  repo: github/awesome-copilot
+  ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+  subpath: agents/se-system-architecture-reviewer.agent.md
+  entry: agents/se-system-architecture-reviewer.agent.md
+  license: MIT
+  stars: 39343
+  updated: '2026-01-12'
+  words: 590
+  words_bundle: 590
+  category: maintainability
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "awesome-copilot Well-Architected system architecture reviewer"
+
+- id: github-copilot-quality-playbook
+  kind: prompt
+  repo: github/awesome-copilot
+  ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+  subpath: agents/quality-playbook.agent.md
+  entry: agents/quality-playbook.agent.md
+  license: MIT
+  stars: 39343
+  updated: '2026-05-11'
+  words: 1449
+  words_bundle: 1449
+  category: quality-review
+  needs: "subagents, writes playbook files"
+  risk: "none"
+  verdict: wrap-needed
+  why: "awesome-copilot quality playbook agent; generates artifacts rather than findings"
+
+- id: microsoft-code-review-prompt
+  kind: prompt
+  repo: microsoft/skills
+  ref: 0c6debe98769a2a78f3ae3d3239f943118e4f0ad
+  subpath: .github/prompts/code-review.prompt.md
+  entry: .github/prompts/code-review.prompt.md
+  license: MIT
+  stars: 3051
+  updated: '2026-01-16'
+  words: 472
+  words_bundle: 472
+  category: quality-review
+  needs: "none"
+  risk: "none"
+  verdict: exclude
+  why: "Project-specific checklist for Microsoft CoreAI DIY, not general"
+
+- id: sentry-find-bugs
+  kind: skill
+  repo: getsentry/skills
+  ref: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  subpath: skills/find-bugs
+  entry: skills/find-bugs/SKILL.md
+  license: Apache-2.0
+  stars: 1004
+  updated: '2026-04-19'
+  words: 430
+  words_bundle: 430
+  category: general-review
+  needs: "git diff + gh repo view"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Sentry; strong checklist + mandatory pre-conclusion audit; diff-scoped, retarget to repo"
+
+- id: sentry-django-access-review
+  kind: skill
+  repo: getsentry/skills
+  ref: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  subpath: skills/django-access-review
+  entry: skills/django-access-review/SKILL.md
+  license: Apache-2.0
+  stars: 1004
+  updated: '2026-04-19'
+  words: 1416
+  words_bundle: 2354
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Sentry Django IDOR/authz audit, investigation-first; Django-only"
+
+- id: sentry-gha-security-review
+  kind: skill
+  repo: getsentry/skills
+  ref: c2f99a5b04b4cd992ec3022d7c2c3e23e938d241
+  subpath: skills/gha-security-review
+  entry: skills/gha-security-review/SKILL.md
+  license: Apache-2.0
+  stars: 1004
+  updated: '2026-08-08'
+  words: 1266
+  words_bundle: 9946
+  category: security-review
+  needs: "none for static review (refs mention gh/codeql)"
+  risk: "low: curl in attack-example refs"
+  verdict: usable
+  why: "Sentry GitHub Actions workflow audit (Aug 2026) with exploit-scenario refs; CI-only scope"
+
+- id: semgrep-code-security
+  kind: skill
+  repo: semgrep/skills
+  ref: 68177b8830f96cd9d10dacbb14dde2566360503d
+  subpath: skills/code-security
+  entry: skills/code-security/SKILL.md
+  license: LicenseRef-Semgrep-Rules-1.0
+  stars: 304
+  updated: '2026-04-25'
+  words: 669
+  words_bundle: 29645
+  category: security-review
+  needs: "none required (rules are markdown); semgrep optional"
+  risk: "low: eval in rule examples"
+  verdict: usable
+  why: "Semgrep vendor 28-category rule guide in md across 15+ langs; license restrictive (flag)"
+
+- id: semgrep-llm-security
+  kind: skill
+  repo: semgrep/skills
+  ref: 68177b8830f96cd9d10dacbb14dde2566360503d
+  subpath: skills/llm-security
+  entry: skills/llm-security/SKILL.md
+  license: LicenseRef-Semgrep-Rules-1.0
+  stars: 304
+  updated: '2026-04-25'
+  words: 690
+  words_bundle: 21752
+  category: security-review
+  needs: "semgrep optional"
+  risk: "none"
+  verdict: usable
+  why: "Semgrep LLM-app security rules (prompt injection, output handling); niche"
+
+- id: ghost-scan-code
+  kind: plugin
+  repo: ghostsecurity/skills
+  ref: 5d21de031b0297b2404ee27262767281e2fc361b
+  subpath: plugins/ghost/skills/scan-code
+  entry: plugins/ghost/skills/scan-code/SKILL.md
+  license: Apache-2.0
+  stars: 407
+  updated: '2026-03-11'
+  words: 790
+  words_bundle: 4095
+  category: security-review
+  needs: "nested `claude -p` via loop.sh, Write to ~/.ghost, repo-context skill"
+  risk: "low: spawns claude CLI subprocesses"
+  verdict: wrap-needed
+  why: "Ghost Security SAST skill with per-vector criteria yaml; must inline loop.sh fan-out"
+
+- id: pashov-solidity-auditor
+  kind: skill
+  repo: pashov/skills
+  ref: f6c7f0de9cce16f6aa9c57aaac104f0dee90582e
+  subpath: solidity-auditor
+  entry: solidity-auditor/SKILL.md
+  license: MIT
+  stars: 1193
+  updated: '2026-09-23'
+  words: 6220
+  words_bundle: 26701
+  category: security-review
+  needs: "Agent subagents (8 parallel), Bash find/cat, assemble.sh"
+  risk: "low: local assemble.sh only"
+  verdict: wrap-needed
+  why: "Pashov Audit Group, updated 2026-09-23; 26k words attack vectors; Solidity only"
+
+- id: openzeppelin-review-sui-contracts
+  kind: skill
+  repo: OpenZeppelin/openzeppelin-skills
+  ref: 6f215af60eb60017ab1a933ce9d22a479cd42b26
+  subpath: skills/review-sui-contracts
+  entry: skills/review-sui-contracts/SKILL.md
+  license: AGPL-3.0
+  stars: 211
+  updated: '2026-07-15'
+  words: 1085
+  words_bundle: 1085
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "OpenZeppelin Sui Move contract review (Jul 2026); niche, AGPL"
+
+- id: forefy-smart-contract-audit
+  kind: skill
+  repo: forefy/.context
+  ref: 15e8ab4b4e91eaa14e23d2c3d076b50e9847e218
+  subpath: skills/blockchain/smart-contract-audit
+  entry: skills/blockchain/smart-contract-audit/SKILL.md
+  license: MIT
+  stars: 148
+  updated: '2026-08-15'
+  words: 2581
+  words_bundle: 33713
+  category: security-review
+  needs: "none essential"
+  risk: "none"
+  verdict: usable
+  why: "Multi-expert + triager smart contract audit (Sol/Vyper/Anchor/Move/TON), Aug 2026"
+
+- id: forefy-infrastructure-audit
+  kind: skill
+  repo: forefy/.context
+  ref: 15e8ab4b4e91eaa14e23d2c3d076b50e9847e218
+  subpath: skills/cloud/infrastructure-audit
+  entry: skills/cloud/infrastructure-audit/SKILL.md
+  license: MIT
+  stars: 148
+  updated: '2026-08-15'
+  words: 1935
+  words_bundle: 3850
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Same framework for IaC/cloud config audit; multi-expert + triager"
+
+- id: kadenzipfel-scv-scan
+  kind: skill
+  repo: kadenzipfel/scv-scan
+  ref: 114985581450cfed35c277831a065c6478e2c328
+  subpath: SKILL.md
+  entry: SKILL.md
+  license: NONE
+  stars: 108
+  updated: '2026-03-11'
+  words: 792
+  words_bundle: 15845
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Smart contract vuln scan with 30+ per-class references; no license (flag)"
+
+- id: tob-curated-wooyun-legacy
+  kind: skill
+  repo: trailofbits/skills-curated
+  ref: 6d05be4889017b06fb15069f371afd220daffb62
+  subpath: plugins/wooyun-legacy/skills/wooyun-legacy
+  entry: plugins/wooyun-legacy/skills/wooyun-legacy/SKILL.md
+  license: CC-BY-SA-4.0
+  stars: 505
+  updated: '2026-02-23'
+  words: 1628
+  words_bundle: 35918
+  category: security-review
+  needs: "none core; refs mention gh/network"
+  risk: "low: eval/base64 in payload examples"
+  verdict: usable
+  why: "ToB-curated WooYun vuln-pattern knowledge base for code audit; 36k words, Chinese-origin data"
+
+- id: addyosmani-code-review-and-quality
+  kind: skill
+  repo: addyosmani/agent-skills
+  ref: bcab6a1b8503100e8618c3b4e32cc78de43de769
+  subpath: skills/code-review-and-quality
+  entry: skills/code-review-and-quality/SKILL.md
+  license: MIT
+  stars: 98771
+  updated: '2026-08-07'
+  words: 3262
+  words_bundle: 3262
+  category: quality-review
+  needs: "optional npm audit etc"
+  risk: "none"
+  verdict: usable
+  why: "Addy Osmani (99k stars) five-axis review, updated Aug 2026; change-oriented but applies to code"
+
+- id: addyosmani-security-and-hardening
+  kind: skill
+  repo: addyosmani/agent-skills
+  ref: bcab6a1b8503100e8618c3b4e32cc78de43de769
+  subpath: skills/security-and-hardening
+  entry: skills/security-and-hardening/SKILL.md
+  license: MIT
+  stars: 98771
+  updated: '2026-09-20'
+  words: 2504
+  words_bundle: 4254
+  category: security-review
+  needs: "npm audit/git diff optional"
+  risk: "low: eval in examples"
+  verdict: usable
+  why: "Addy Osmani security/hardening skill updated 2026-09-20; more hardening than audit"
+
+- id: addyosmani-security-auditor-agent
+  kind: prompt
+  repo: addyosmani/agent-skills
+  ref: bcab6a1b8503100e8618c3b4e32cc78de43de769
+  subpath: agents/security-auditor.md
+  entry: agents/security-auditor.md
+  license: MIT
+  stars: 98771
+  updated: '2026-06-12'
+  words: 738
+  words_bundle: 738
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Addy Osmani security-auditor agent persona (Jun 2026)"
+
+- id: addyosmani-code-simplification
+  kind: skill
+  repo: addyosmani/agent-skills
+  ref: bcab6a1b8503100e8618c3b4e32cc78de43de769
+  subpath: skills/code-simplification
+  entry: skills/code-simplification/SKILL.md
+  license: MIT
+  stars: 98771
+  updated: '2026-03-31'
+  words: 2028
+  words_bundle: 2028
+  category: maintainability
+  needs: "Edit expected"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Simplification skill; edits code, needs report-only framing"
+
+- id: mattpocock-improve-codebase-architecture
+  kind: skill
+  repo: mattpocock/skills
+  ref: c55ee46073ed923f86ce59a5eb3b6d895095d1b7
+  subpath: skills/engineering/improve-codebase-architecture
+  entry: skills/engineering/improve-codebase-architecture/SKILL.md
+  license: MIT
+  stars: 268699
+  updated: '2026-08-19'
+  words: 899
+  words_bundle: 1823
+  category: maintainability
+  needs: "git log history walk, subagents, HTML report"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Deep-modules architecture review (Aug 2026, very popular); relies on commit history we lack"
+
+- id: mattpocock-code-review
+  kind: skill
+  repo: mattpocock/skills
+  ref: c55ee46073ed923f86ce59a5eb3b6d895095d1b7
+  subpath: skills/engineering/code-review
+  entry: skills/engineering/code-review/SKILL.md
+  license: MIT
+  stars: 268699
+  updated: '2026-08-19'
+  words: 1064
+  words_bundle: 1064
+  category: general-review
+  needs: "git diff, subagents"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Pocock review skill (Aug 2026); diff-based"
+
+- id: wshobson-comprehensive-review
+  kind: plugin
+  repo: wshobson/agents
+  ref: 4236bb91f8395b0435f1d8b8baf9e8e4c69a8620
+  subpath: plugins/comprehensive-review
+  entry: plugins/comprehensive-review/commands/full-review.md
+  license: MIT
+  stars: 39915
+  updated: '2026-09-01'
+  words: 2562
+  words_bundle: 7841
+  category: general-review
+  needs: "subagents, semgrep/codeql mentions, gh"
+  risk: "none"
+  verdict: wrap-needed
+  why: "full-review command orchestrating architect/code/security agents; agents usable standalone"
+
+- id: wshobson-tech-debt
+  kind: prompt
+  repo: wshobson/agents
+  ref: 4236bb91f8395b0435f1d8b8baf9e8e4c69a8620
+  subpath: plugins/codebase-cleanup/commands/tech-debt.md
+  entry: plugins/codebase-cleanup/commands/tech-debt.md
+  license: MIT
+  stars: 39915
+  updated: '2026-09-01'
+  words: 1278
+  words_bundle: 1278
+  category: maintainability
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Tech-debt analysis command, updated Sep 2026; inventory+prioritized remediation"
+
+- id: wshobson-code-review-excellence
+  kind: skill
+  repo: wshobson/agents
+  ref: 4236bb91f8395b0435f1d8b8baf9e8e4c69a8620
+  subpath: plugins/developer-essentials/skills/code-review-excellence
+  entry: plugins/developer-essentials/skills/code-review-excellence/SKILL.md
+  license: MIT
+  stars: 39915
+  updated: '2026-03-07'
+  words: 1949
+  words_bundle: 1949
+  category: general-review
+  needs: "none (PR framing)"
+  risk: "low: eval in examples"
+  verdict: usable
+  why: "Review practices skill; more guidance than procedure"
+
+- id: wshobson-solidity-security
+  kind: skill
+  repo: wshobson/agents
+  ref: 4236bb91f8395b0435f1d8b8baf9e8e4c69a8620
+  subpath: plugins/blockchain-web3/skills/solidity-security
+  entry: plugins/blockchain-web3/skills/solidity-security/SKILL.md
+  license: MIT
+  stars: 39915
+  updated: '2026-05-22'
+  words: 394
+  words_bundle: 1499
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Short Solidity vuln patterns skill"
+
+- id: voltagent-security-auditor
+  kind: prompt
+  repo: VoltAgent/awesome-claude-code-subagents
+  ref: 82b73821baa7a911d5b14cfb6da238b7f0db6b42
+  subpath: categories/04-quality-security/security-auditor.md
+  entry: categories/04-quality-security/security-auditor.md
+  license: MIT
+  stars: 25292
+  updated: '2026-06-12'
+  words: 897
+  words_bundle: 897
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "VoltAgent subagent; generic checklist, widely used baseline"
+
+- id: voltagent-code-reviewer
+  kind: prompt
+  repo: VoltAgent/awesome-claude-code-subagents
+  ref: 82b73821baa7a911d5b14cfb6da238b7f0db6b42
+  subpath: categories/04-quality-security/code-reviewer.md
+  entry: categories/04-quality-security/code-reviewer.md
+  license: MIT
+  stars: 25292
+  updated: '2026-06-12'
+  words: 906
+  words_bundle: 906
+  category: quality-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "VoltAgent subagent; generic baseline"
+
+- id: voltagent-architect-reviewer
+  kind: prompt
+  repo: VoltAgent/awesome-claude-code-subagents
+  ref: 82b73821baa7a911d5b14cfb6da238b7f0db6b42
+  subpath: categories/04-quality-security/architect-reviewer.md
+  entry: categories/04-quality-security/architect-reviewer.md
+  license: MIT
+  stars: 25292
+  updated: '2026-06-12'
+  words: 905
+  words_bundle: 905
+  category: maintainability
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "VoltAgent subagent; architecture baseline"
+
+- id: obra-requesting-code-review
+  kind: skill
+  repo: obra/superpowers
+  ref: 5bf4e78011075bcfc0dc295f0724994cd123ee71
+  subpath: skills/requesting-code-review
+  entry: skills/requesting-code-review/SKILL.md
+  license: MIT
+  stars: 290899
+  updated: '2026-09-19'
+  words: 424
+  words_bundle: 1339
+  category: general-review
+  needs: "git SHAs diff, subagent dispatch"
+  risk: "none"
+  verdict: exclude
+  why: "Superpowers review is a dispatch wrapper around a git-range diff; local copy is stale (395->424 words)"
+
+- id: sanyuan-code-review-expert
+  kind: skill
+  repo: sanyuan0704/sanyuan-skills
+  ref: 08b6572ef108f22d4e8a3ecf9182a4bbef097744
+  subpath: skills/code-review-expert
+  entry: skills/code-review-expert/SKILL.md
+  license: MIT
+  stars: 3924
+  updated: '2026-03-02'
+  words: 786
+  words_bundle: 3116
+  category: general-review
+  needs: "git diff"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Popular SOLID/security/perf P0-P3 review; diff-based, retarget"
+
+- id: awesome-skills-code-review
+  kind: skill
+  repo: awesome-skills/code-review-skill
+  ref: 4850184dfd7765ea7b3c5c4e9b6cf8e0815ee7cb
+  subpath: SKILL.md
+  entry: SKILL.md
+  license: MIT
+  stars: 1998
+  updated: '2026-09-08'
+  words: 1535
+  words_bundle: 86701
+  category: quality-review
+  needs: "optional pr-analyzer.py, gh"
+  risk: "low: local py, examples only"
+  verdict: usable
+  why: "Multi-language review refs (React/Rust/Go/Py...), 87k words bundle, Sep 2026"
+
+- id: agamm-owasp-security
+  kind: skill
+  repo: agamm/claude-code-owasp
+  ref: bfaf257b2859986a6a84d2b7491e1fab2218cd53
+  subpath: .claude/skills/owasp-security
+  entry: .claude/skills/owasp-security/SKILL.md
+  license: MIT
+  stars: 365
+  updated: '2026-07-28'
+  words: 2084
+  words_bundle: 8913
+  category: security-review
+  needs: "none core"
+  risk: "low: eval in examples"
+  verdict: usable
+  why: "OWASP Top10:2025 + ASVS 5.0 + agentic, 20+ language quirks; Jul 2026"
+
+- id: behisecc-vibesec
+  kind: skill
+  repo: BehiSecc/VibeSec-Skill
+  ref: 0590993b35ad51961f65a4d01cf1196dfead05bb
+  subpath: SKILL.md
+  entry: SKILL.md
+  license: Apache-2.0
+  stars: 1295
+  updated: '2026-02-17'
+  words: 3543
+  words_bundle: 4103
+  category: security-review
+  needs: "none"
+  risk: "low: examples only"
+  verdict: usable
+  why: "Bug-hunter-authored secure coding skill; generation-oriented, review secondary"
+
+- id: arcanum-sec-context
+  kind: prompt
+  repo: Arcanum-Sec/sec-context
+  ref: 2a98c2b0fe769785afec8a85b56d47fcb5ba3295
+  subpath: ANTI_PATTERNS_DEPTH.md
+  entry: ANTI_PATTERNS_DEPTH.md
+  license: NONE
+  stars: 596
+  updated: '2026-01-19'
+  words: 30781
+  words_bundle: 55905
+  category: security-review
+  needs: "none; 30k+ words, very large context"
+  risk: "low: examples only"
+  verdict: wrap-needed
+  why: "Jason Haddix/Arcanum AI-code anti-patterns; reference docs, no procedure; no license (flag)"
+
+- id: sergiodxa-owasp-security-check
+  kind: skill
+  repo: sergiodxa/agent-skills
+  ref: 40e21b46189d5c7de6610b68a25280af863f8775
+  subpath: skills/owasp-security-check
+  entry: skills/owasp-security-check/SKILL.md
+  license: MIT
+  stars: 90
+  updated: '2026-02-01'
+  words: 1489
+  words_bundle: 10654
+  category: security-review
+  needs: "none"
+  risk: "low: examples"
+  verdict: usable
+  why: "OWASP rule-per-file check; TS-centric"
+
+- id: netresearch-security-audit
+  kind: skill
+  repo: netresearch/security-audit-skill
+  ref: 767980a02c89f86312a54b9af1c507fbf6f780ac
+  subpath: skills/security-audit
+  entry: skills/security-audit/SKILL.md
+  license: NOASSERTION
+  stars: 42
+  updated: '2026-09-24'
+  words: 401
+  words_bundle: 108838
+  category: security-review
+  needs: "bash scanner scripts, semgrep/trufflehog optional"
+  risk: "low: grep-based local scanners"
+  verdict: usable
+  why: "Actively maintained PHP-focused audit (v2.11, 2026-09-24), checkpoints+evals; dual MIT/CC-BY-SA"
+
+- id: sari3l-security-code-audit
+  kind: skill
+  repo: sari3l/security-code-audit-skill
+  ref: f1cf08acfe8f77486c228590b73d6c2a60ba5195
+  subpath: SKILL.md
+  entry: SKILL.md
+  license: MIT
+  stars: 3
+  updated: '2026-09-18'
+  words: 11994
+  words_bundle: 108909
+  category: security-review
+  needs: "optional subagents, git"
+  risk: "low: curl in exploit refs"
+  verdict: usable
+  why: "Very thorough evidence-based audit (12k-word core, bidirectional tracing, coverage ledger), Sep 2026; low stars"
+
+- id: evandervecht-security-audit
+  kind: skill
+  repo: evandervecht/security-audit-skill
+  ref: 25a0916bc664bc2ced2b4557d6153ae79fcc05e9
+  subpath: skills/security-audit
+  entry: skills/security-audit/SKILL.md
+  license: NOASSERTION
+  stars: 0
+  updated: '2026-09-21'
+  words: 1200
+  words_bundle: 1200
+  category: security-review
+  needs: "semgrep optional, subagents optional"
+  risk: "low: vuln fixtures in evals"
+  verdict: usable
+  why: "OWASP/CWE Top25 + CVSS v4, 32 modules, with eval fixtures; 0 stars"
+
+- id: ivan-sincek-cwe-secure-code-review
+  kind: skill
+  repo: ivan-sincek/secure-code-review-agent-skills
+  ref: 5f9b4e338a6bce0d09781341632ce57047c63d66
+  subpath: markdown/cwe-secure-code-review
+  entry: markdown/cwe-secure-code-review/SKILL.md
+  license: MIT
+  stars: 1
+  updated: '2026-09-07'
+  words: 1425
+  words_bundle: 2576
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "CWE-699 systematic review by known pentest author (Sep 2026)"
+
+- id: ksimback-tech-debt
+  kind: skill
+  repo: ksimback/tech-debt-skill
+  ref: 5a15c1ca4a929b2759461c218478de391a8bda0f
+  subpath: SKILL.md
+  entry: SKILL.md
+  license: NONE
+  stars: 610
+  updated: '2026-04-25'
+  words: 1926
+  words_bundle: 3262
+  category: maintainability
+  needs: "optional subagents, writes TECH_DEBT_AUDIT.md"
+  risk: "none"
+  verdict: usable
+  why: "Whole-repo debt audit, 9 dimensions, file:line cites, \"looks bad but fine\" section; no license (flag)"
+
+- id: mhattingpete-code-auditor
+  kind: skill
+  repo: mhattingpete/claude-skills-marketplace
+  ref: b5b34bcf4c920bb72cee1c391b54a33cb5353c12
+  subpath: productivity-skills-plugin/skills/code-auditor
+  entry: productivity-skills-plugin/skills/code-auditor/SKILL.md
+  license: Apache-2.0
+  stars: 678
+  updated: '2025-11-10'
+  words: 511
+  words_bundle: 511
+  category: general-review
+  needs: "optional subagents"
+  risk: "none"
+  verdict: usable
+  why: "Holistic codebase audit (arch/quality/security/tests); short, unchanged since snapshot"
+
+- id: levnikolaevich-codebase-auditor
+  kind: skill
+  repo: levnikolaevich/claude-code-skills
+  ref: d7da390b0d4af4dba9ea2daf5c94ece06bfa14b0
+  subpath: plugins/quality-assurance-suite/skills/ln-54-codebase-auditor
+  entry: plugins/quality-assurance-suite/skills/ln-54-codebase-auditor/SKILL.md
+  license: MIT
+  stars: 566
+  updated: '2026-09-16'
+  words: 2033
+  words_bundle: 2033
+  category: general-review
+  needs: "none required"
+  risk: "none"
+  verdict: usable
+  why: "ln-54 read-only cross-cutting health/security/maintainability audit with PROVEN/CLEARED ledger; replaces snapshot ln-620..654 suite"
+
+- id: levnikolaevich-architecture-auditor
+  kind: skill
+  repo: levnikolaevich/claude-code-skills
+  ref: d7da390b0d4af4dba9ea2daf5c94ece06bfa14b0
+  subpath: plugins/quality-assurance-suite/skills/ln-56-architecture-auditor
+  entry: plugins/quality-assurance-suite/skills/ln-56-architecture-auditor/SKILL.md
+  license: MIT
+  stars: 566
+  updated: '2026-09-16'
+  words: 1972
+  words_bundle: 1972
+  category: maintainability
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "ln-56 whole-architecture auditor, Sep 2026 restructure"
+
+- id: jeffallan-security-reviewer
+  kind: skill
+  repo: Jeffallan/claude-skills
+  ref: 882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf
+  subpath: skills/security-reviewer
+  entry: skills/security-reviewer/SKILL.md
+  license: MIT
+  stars: 11598
+  updated: '2026-04-29'
+  words: 608
+  words_bundle: 4022
+  category: security-review
+  needs: "semgrep/bandit mentions optional"
+  risk: "low: pentest refs with curl/base64"
+  verdict: usable
+  why: "Popular skill w/ SAST-by-hand references; mixes pentest content"
+
+- id: jeffallan-code-reviewer
+  kind: skill
+  repo: Jeffallan/claude-skills
+  ref: 882ef55e377dbf9a4dbe496bb41ac6ccd0e555cf
+  subpath: skills/code-reviewer
+  entry: skills/code-reviewer/SKILL.md
+  license: MIT
+  stars: 11598
+  updated: '2026-04-29'
+  words: 706
+  words_bundle: 4639
+  category: quality-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Structured reviewer with references"
+
+- id: alirezarezvani-code-reviewer
+  kind: skill
+  repo: alirezarezvani/claude-skills
+  ref: 19392f7a08264ed00486a251f5b2098321771f94
+  subpath: engineering-team/skills/code-reviewer
+  entry: engineering-team/skills/code-reviewer/SKILL.md
+  license: MIT
+  stars: 26380
+  updated: '2026-05-28'
+  words: 852
+  words_bundle: 9831
+  category: quality-review
+  needs: "bundled python analyzers, git"
+  risk: "low: subprocess git only"
+  verdict: usable
+  why: "Unchanged since snapshot; scripts optional"
+
+- id: dralgorhythm-security-auditor
+  kind: skill
+  repo: dralgorhythm/claude-agentic-framework
+  ref: 6436a20fadad6de8e48aebfb6821d7269341c057
+  subpath: .claude/skills/security-auditor
+  entry: .claude/skills/security-auditor/SKILL.md
+  license: NONE
+  stars: 121
+  updated: '2026-07-23'
+  words: 278
+  words_bundle: 278
+  category: security-review
+  needs: "scanner mentions"
+  risk: "none"
+  verdict: exclude
+  why: "278 words, thin; no license"
+
+- id: oneredoak-security-review
+  kind: prompt
+  repo: OneRedOak/claude-code-workflows
+  ref: 6a653445125da828f31af473fcdd3cf29f99be82
+  subpath: security-review/security-review-slash-command.md
+  entry: security-review/security-review-slash-command.md
+  license: MIT
+  stars: 3891
+  updated: '2025-09-14'
+  words: 1630
+  words_bundle: 1630
+  category: security-review
+  needs: "git diff"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Port of Anthropic /security-review command (high-confidence, FP exclusions); diff-scoped, stale (2025-09)"
+
+- id: oneredoak-pragmatic-code-review
+  kind: prompt
+  repo: OneRedOak/claude-code-workflows
+  ref: 6a653445125da828f31af473fcdd3cf29f99be82
+  subpath: code-review/pragmatic-code-review-subagent.md
+  entry: code-review/pragmatic-code-review-subagent.md
+  license: MIT
+  stars: 3891
+  updated: '2025-09-14'
+  words: 861
+  words_bundle: 861
+  category: general-review
+  needs: "git diff, MCP mentions"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Pragmatic hierarchy review agent; diff-scoped, stale"
+
+- id: lst97-security-auditor
+  kind: prompt
+  repo: lst97/claude-code-sub-agents
+  ref: 96f5a506793d1c2e4a66c3ec3ce63c2cd2667728
+  subpath: agents/security/security-auditor.md
+  entry: agents/security/security-auditor.md
+  license: MIT
+  stars: 1688
+  updated: '2025-08-15'
+  words: 828
+  words_bundle: 828
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: exclude
+  why: "Generic persona, stale (2025-08)"
+
+- id: rohitg00-security-auditor
+  kind: prompt
+  repo: rohitg00/awesome-claude-code-toolkit
+  ref: ebdf1d596d2cde5c5cceb32177e8d1cf4829e7d9
+  subpath: agents/quality-assurance/security-auditor.md
+  entry: agents/quality-assurance/security-auditor.md
+  license: Apache-2.0
+  stars: 2639
+  updated: '2026-02-04'
+  words: 850
+  words_bundle: 850
+  category: security-review
+  needs: "scanner mentions"
+  risk: "none"
+  verdict: exclude
+  why: "Generic persona; unchanged since snapshot"
+
+- id: coderabbit-code-review
+  kind: skill
+  repo: coderabbitai/skills
+  ref: 3e8763d24d543b48615b82535d02288de3ddae40
+  subpath: skills/code-review
+  entry: skills/code-review/SKILL.md
+  license: MIT
+  stars: 181
+  updated: '2026-09-12'
+  words: 1031
+  words_bundle: 1633
+  category: general-review
+  needs: "coderabbit CLI + network/auth"
+  risk: "none"
+  verdict: exclude
+  why: "Wrapper around CodeRabbit SaaS CLI"
+
+- id: qodo-review
+  kind: skill
+  repo: qodo-ai/qodo-skills
+  ref: b0e84d136ccb8842db1f720cbf3527296924a0c3
+  subpath: skills/qodo-review
+  entry: skills/qodo-review/SKILL.md
+  license: MIT
+  stars: 54
+  updated: '2026-09-24'
+  words: 5158
+  words_bundle: 6008
+  category: general-review
+  needs: "qodo CLI, remote clone, network"
+  risk: "none"
+  verdict: exclude
+  why: "Wrapper around Qodo SaaS review engine"
+
+- id: flo-security-audit-cmd
+  kind: prompt
+  repo: FlorianBruniaux/claude-code-ultimate-guide
+  ref: c109cdab2981ecf7e2933b11d9695ca4751a876d
+  subpath: .claude/commands/security-audit.md
+  entry: .claude/commands/security-audit.md
+  license: CC-BY-SA-4.0
+  stars: 6022
+  updated: '2026-07-30'
+  words: 1136
+  words_bundle: 1136
+  category: security-review
+  needs: "MCP/scanner mentions"
+  risk: "none"
+  verdict: exclude
+  why: "Audits Claude Code config/setup, not source code"
+
+- id: codexstar69-bug-hunter
+  kind: skill
+  repo: codexstar69/bug-hunter
+  ref: 3be69733a27aa04d4f5620df203c05350d162067
+  subpath: skills/hunter
+  entry: skills/hunter/SKILL.md
+  license: MIT
+  stars: 514
+  updated: '2026-08-17'
+  words: 1488
+  words_bundle: 2046
+  category: verifier
+  needs: "Context7/Context Hub doc lookup (network), JSON artifact path"
+  risk: "none"
+  verdict: wrap-needed
+  why: "Hunter stage of Hunter->Skeptic->Referee pipeline; trust-boundary rules; drop doc-lookup"
+
+- id: unitone-secure-code-review
+  kind: skill
+  repo: UnitOneAI/SecuritySkills
+  ref: 70bc259bb01abb3015ad2ad859ad5253cbf0bcab
+  subpath: skills/appsec/secure-code-review
+  entry: skills/appsec/secure-code-review/SKILL.md
+  license: MIT
+  stars: 75
+  updated: '2026-06-16'
+  words: 3942
+  words_bundle: 7179
+  category: security-review
+  needs: "semgrep optional, gh"
+  risk: "none"
+  verdict: usable
+  why: "OWASP/NIST-grounded secure-code-review skill, 3.9k words"
+
+- id: calif-php-unserialize-audit
+  kind: skill
+  repo: califio/skills
+  ref: ad461d511f949a0526ca489a21dcaff0346ac64b
+  subpath: plugins/php-unserialize-audit/skills/php-unserialize-audit
+  entry: plugins/php-unserialize-audit/skills/php-unserialize-audit/SKILL.md
+  license: MIT
+  stars: 61
+  updated: '2026-04-30'
+  words: 3845
+  words_bundle: 3845
+  category: security-review
+  needs: "none"
+  risk: "none"
+  verdict: usable
+  why: "Calif.io PHP deserialization/POP-chain audit; narrow, deep"
+
+- id: charlesjones-ai-security-audit
+  kind: skill
+  repo: charlesjones-dev/claude-code-plugins-dev
+  ref: 8a589b836296fe3acd6e7051c3ccf3d424ee6bf0
+  subpath: plugins/ai-security/skills/security-audit
+  entry: plugins/ai-security/skills/security-audit/SKILL.md
+  license: MIT
+  stars: 35
+  updated: '2026-09-05'
+  words: 1355
+  words_bundle: 6507
+  category: security-review
+  needs: "subagents, audit_artifact.py"
+  risk: "low: local python only"
+  verdict: usable
+  why: "OWASP audit with reproducible report; Sep 2026"
