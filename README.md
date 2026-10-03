@@ -31,6 +31,7 @@ Caveats and every number with its confidence interval are in the trial's [README
 | Trial | Question | Status | Results | Lock |
 |---|---|---|---|---|
 | [2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/) | Which openly available secure-code-review skills find more real vulnerabilities per dollar than a plain Claude Code baseline? | r01 done (150 bouts) | [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md) | [lock.yaml](trials/2026-09-secure-coding-audit/rounds/r01/lock.yaml) |
+| [2026-10-filebrowser-cve-audit](trials/2026-10-filebrowser-cve-audit/) | Confirmation on a real Go app with 11 published CVEs: do the leads and verifier pipelines beat the baseline? | locked, runs after the subscription limit resets | pending | [lock.yaml](trials/2026-10-filebrowser-cve-audit/rounds/r01/lock.yaml) |
 
 `just trials` prints the same list from the files on disk; `just` alone shows every command.
 
