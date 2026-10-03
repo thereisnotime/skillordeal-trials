@@ -23,7 +23,7 @@ jobs:
           if [[ -n "$ENGINE_READ_TOKEN" ]]; then
             git config --global url."https://x-access-token:${ENGINE_READ_TOKEN}@github.com/".insteadOf "https://github.com/"
           fi
-      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.3"
+      - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.4"
       - name: validate trials
         run: |
           for f in trials/*/trial.yaml; do skillordeal validate "$f"; done

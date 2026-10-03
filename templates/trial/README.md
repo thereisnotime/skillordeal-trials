@@ -50,7 +50,7 @@ Not run yet. `just report trial=__TRIAL_ID__ round=r01` writes `rounds/r01/RESUL
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.3
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.4
 just lock  trial=__TRIAL_ID__ round=r01-repro-$USER
 just run   trial=__TRIAL_ID__ round=r01-repro-$USER --max-cost-usd 5
 ```

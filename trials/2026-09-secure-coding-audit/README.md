@@ -119,7 +119,7 @@ Defined but not in r01: `tob-fp-check` (verifier, needs a finder's output) and `
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.3
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.4
 just lock  trial=2026-09-secure-coding-audit round=r01-repro-$USER
 just run   trial=2026-09-secure-coding-audit round=r01-repro-$USER j=2 --max-cost-usd 400
 ```
