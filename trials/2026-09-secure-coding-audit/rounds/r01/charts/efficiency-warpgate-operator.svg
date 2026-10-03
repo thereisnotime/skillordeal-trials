@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="626.4pt" viewBox="0 0 720 626.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Cost and time per judge-valid per contender in warpgate-operator">
+ <title>Cost and time per judge-valid per contender in warpgate-operator</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="efficiency-warpgate-operator-figure_1">
+  <g id="efficiency-warpgate-operator-patch_1">
+   <path d="M 0 626.4 
+L 720 626.4 
+L 720 0 
+L 0 0 
+L 0 626.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="efficiency-warpgate-operator-axes_1">
+   <g id="efficiency-warpgate-operator-patch_2">
+    <path d="M 184.895 604.18 
+L 441.780227 604.18 
+L 441.780227 42.962344 
+L 184.895 42.962344 
+L 184.895 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-warpgate-operator-matplotlib.axis_1">
+    <g id="efficiency-warpgate-operator-xtick_1">
+     <g id="efficiency-warpgate-operator-line2d_1"/>
+     <g id="efficiency-warpgate-operator-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="232.687009" y="614.517891" transform="rotate(-0 232.687009 614.517891)">0.5</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_2">
+     <g id="efficiency-warpgate-operator-line2d_2"/>
+     <g id="efficiency-warpgate-operator-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="288.728426" y="614.517891" transform="rotate(-0 288.728426 614.517891)">1.0</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_3">
+     <g id="efficiency-warpgate-operator-line2d_3"/>
+     <g id="efficiency-warpgate-operator-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="344.769844" y="614.517891" transform="rotate(-0 344.769844 614.517891)">1.5</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_4">
+     <g id="efficiency-warpgate-operator-line2d_4"/>
+     <g id="efficiency-warpgate-operator-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="400.811261" y="614.517891" transform="rotate(-0 400.811261 614.517891)">2.0</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-matplotlib.axis_2">
+    <g id="efficiency-warpgate-operator-ytick_1">
+     <g id="efficiency-warpgate-operator-line2d_5"/>
+     <g id="efficiency-warpgate-operator-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="58.073675" transform="rotate(-0 181.395 58.073675)">baseline</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_2">
+     <g id="efficiency-warpgate-operator-line2d_6"/>
+     <g id="efficiency-warpgate-operator-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="81.457744" transform="rotate(-0 181.395 81.457744)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_3">
+     <g id="efficiency-warpgate-operator-line2d_7"/>
+     <g id="efficiency-warpgate-operator-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="104.841813" transform="rotate(-0 181.395 104.841813)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_4">
+     <g id="efficiency-warpgate-operator-line2d_8"/>
+     <g id="efficiency-warpgate-operator-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="128.225882" transform="rotate(-0 181.395 128.225882)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_5">
+     <g id="efficiency-warpgate-operator-line2d_9"/>
+     <g id="efficiency-warpgate-operator-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.609951" transform="rotate(-0 181.395 151.609951)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_6">
+     <g id="efficiency-warpgate-operator-line2d_10"/>
+     <g id="efficiency-warpgate-operator-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="174.99402" transform="rotate(-0 181.395 174.99402)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_7">
+     <g id="efficiency-warpgate-operator-line2d_11"/>
+     <g id="efficiency-warpgate-operator-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="198.378089" transform="rotate(-0 181.395 198.378089)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_8">
+     <g id="efficiency-warpgate-operator-line2d_12"/>
+     <g id="efficiency-warpgate-operator-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="221.762158" transform="rotate(-0 181.395 221.762158)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_9">
+     <g id="efficiency-warpgate-operator-line2d_13"/>
+     <g id="efficiency-warpgate-operator-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="245.146227" transform="rotate(-0 181.395 245.146227)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_10">
+     <g id="efficiency-warpgate-operator-line2d_14"/>
+     <g id="efficiency-warpgate-operator-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.530296" transform="rotate(-0 181.395 268.530296)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_11">
+     <g id="efficiency-warpgate-operator-line2d_15"/>
+     <g id="efficiency-warpgate-operator-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="291.914365" transform="rotate(-0 181.395 291.914365)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_12">
+     <g id="efficiency-warpgate-operator-line2d_16"/>
+     <g id="efficiency-warpgate-operator-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.298434" transform="rotate(-0 181.395 315.298434)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_13">
+     <g id="efficiency-warpgate-operator-line2d_17"/>
+     <g id="efficiency-warpgate-operator-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="338.682503" transform="rotate(-0 181.395 338.682503)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_14">
+     <g id="efficiency-warpgate-operator-line2d_18"/>
+     <g id="efficiency-warpgate-operator-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="362.066572" transform="rotate(-0 181.395 362.066572)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_15">
+     <g id="efficiency-warpgate-operator-line2d_19"/>
+     <g id="efficiency-warpgate-operator-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="385.450641" transform="rotate(-0 181.395 385.450641)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_16">
+     <g id="efficiency-warpgate-operator-line2d_20"/>
+     <g id="efficiency-warpgate-operator-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="408.83471" transform="rotate(-0 181.395 408.83471)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_17">
+     <g id="efficiency-warpgate-operator-line2d_21"/>
+     <g id="efficiency-warpgate-operator-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="432.218779" transform="rotate(-0 181.395 432.218779)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_18">
+     <g id="efficiency-warpgate-operator-line2d_22"/>
+     <g id="efficiency-warpgate-operator-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="455.602848" transform="rotate(-0 181.395 455.602848)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_19">
+     <g id="efficiency-warpgate-operator-line2d_23"/>
+     <g id="efficiency-warpgate-operator-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="478.986917" transform="rotate(-0 181.395 478.986917)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_20">
+     <g id="efficiency-warpgate-operator-line2d_24"/>
+     <g id="efficiency-warpgate-operator-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="502.370986" transform="rotate(-0 181.395 502.370986)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_21">
+     <g id="efficiency-warpgate-operator-line2d_25"/>
+     <g id="efficiency-warpgate-operator-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="525.755055" transform="rotate(-0 181.395 525.755055)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_22">
+     <g id="efficiency-warpgate-operator-line2d_26"/>
+     <g id="efficiency-warpgate-operator-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.139124" transform="rotate(-0 181.395 549.139124)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_23">
+     <g id="efficiency-warpgate-operator-line2d_27"/>
+     <g id="efficiency-warpgate-operator-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.523193" transform="rotate(-0 181.395 572.523193)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_24">
+     <g id="efficiency-warpgate-operator-line2d_28"/>
+     <g id="efficiency-warpgate-operator-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="595.907262" transform="rotate(-0 181.395 595.907262)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-line2d_29">
+    <path d="M 236.224321 604.18 
+L 236.224321 42.962344 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-patch_3">
+    <path d="M 184.895 604.18 
+L 184.895 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-patch_4">
+    <path d="M 184.895 604.18 
+L 441.780227 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip0" class="tip"><title>baseline, bout 1 of 3: $ per judge-valid 0.475</title>
+    <defs>
+     <path id="efficiency-warpgate-operator-ma432050c96" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="229.927604" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip1" class="tip"><title>baseline, bout 2 of 3: $ per judge-valid 0.451</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="227.185675" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip2" class="tip"><title>baseline, bout 3 of 3: $ per judge-valid 0.668</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="251.559685" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip4" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: $ per judge-valid 0.393</title>
+    <defs>
+     <path id="efficiency-warpgate-operator-m6cdce938b5" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="220.739511" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip5" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: $ per judge-valid 0.295</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="209.754861" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip6" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: $ per judge-valid 0.633</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="247.590514" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip8" class="tip"><title>agamm-owasp-security, bout 1 of 3: $ per judge-valid 0.459</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="228.093434" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip9" class="tip"><title>agamm-owasp-security, bout 2 of 3: $ per judge-valid 0.620</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="246.180026" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip10" class="tip"><title>agamm-owasp-security, bout 3 of 3: $ per judge-valid 0.536</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="236.748517" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip12" class="tip"><title>anthropic-security-auditor, bout 1 of 3: $ per judge-valid 0.740</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="259.578296" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip13" class="tip"><title>anthropic-security-auditor, bout 2 of 3: $ per judge-valid 0.456</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="227.799805" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip14" class="tip"><title>anthropic-security-auditor, bout 3 of 3: $ per judge-valid 0.992</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="287.794776" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip16" class="tip"><title>cf-security-audit, bout 1 of 3: $ per judge-valid 0.389</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="220.257919" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip17" class="tip"><title>cf-security-audit, bout 2 of 3: $ per judge-valid 0.537</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="236.84517" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip18" class="tip"><title>cf-security-audit, bout 3 of 3: $ per judge-valid 0.959</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="284.089822" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip20" class="tip"><title>claude-security-flat, bout 1 of 3: $ per judge-valid 0.883</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="275.640233" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip21" class="tip"><title>claude-security-flat, bout 2 of 3: $ per judge-valid 0.674</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="252.198986" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip22" class="tip"><title>claude-security-flat, bout 3 of 3: $ per judge-valid 1.156</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="306.20455" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip24" class="tip"><title>claude-security-researcher, bout 1 of 3: $ per judge-valid 0.652</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="249.706395" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip25" class="tip"><title>claude-security-researcher, bout 2 of 3: $ per judge-valid 1.300</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="322.342629" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip26" class="tip"><title>claude-security-researcher, bout 3 of 3: $ per judge-valid 0.987</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="287.306711" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip28" class="tip"><title>ecc-security-review, bout 1 of 3: $ per judge-valid 0.633</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="247.645173" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip29" class="tip"><title>ecc-security-review, bout 2 of 3: $ per judge-valid 0.383</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="219.542578" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip30" class="tip"><title>ecc-security-review, bout 3 of 3: $ per judge-valid 0.370</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="218.089424" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip32" class="tip"><title>evandervecht-security-audit, bout 1 of 3: $ per judge-valid 0.482</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="230.69313" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip33" class="tip"><title>evandervecht-security-audit, bout 2 of 3: $ per judge-valid 0.489</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="231.450623" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip34" class="tip"><title>evandervecht-security-audit, bout 3 of 3: $ per judge-valid 0.329</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="213.540346" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip36" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: $ per judge-valid 1.136</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="303.947594" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip37" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: $ per judge-valid 0.361</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="217.065464" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip38" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: $ per judge-valid 0.644</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="248.853108" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip40" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: $ per judge-valid 0.725</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="257.90985" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip41" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: $ per judge-valid 0.519</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="234.832797" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip42" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: $ per judge-valid 0.487</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="231.260306" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip44" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: $ per judge-valid 0.484</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="230.879869" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip45" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: $ per judge-valid 0.388</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="220.131452" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip46" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: $ per judge-valid 0.351</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="215.950884" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip48" class="tip"><title>github-copilot-security-review, bout 1 of 3: $ per judge-valid 0.852</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="272.146892" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip49" class="tip"><title>github-copilot-security-review, bout 2 of 3: $ per judge-valid 0.461</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="228.335225" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip50" class="tip"><title>github-copilot-security-review, bout 3 of 3: $ per judge-valid 0.898</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="277.315928" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: $ per judge-valid 0.656</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="250.201596" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: $ per judge-valid 0.347</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="215.530153" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: $ per judge-valid 0.590</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="242.765572" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip56" class="tip"><title>neolab-security-auditor, bout 1 of 3: $ per judge-valid 0.552</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="238.478217" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip57" class="tip"><title>neolab-security-auditor, bout 2 of 3: $ per judge-valid 0.486</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="231.118372" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip58" class="tip"><title>neolab-security-auditor, bout 3 of 3: $ per judge-valid 0.577</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="241.32796" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip60" class="tip"><title>openai-security-best-practices, bout 1 of 3: $ per judge-valid 0.502</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="232.892755" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip61" class="tip"><title>openai-security-best-practices, bout 2 of 3: $ per judge-valid 0.439</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="225.852721" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip62" class="tip"><title>openai-security-best-practices, bout 3 of 3: $ per judge-valid 0.432</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="225.080993" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip64" class="tip"><title>samber-golang-security, bout 1 of 3: $ per judge-valid 0.588</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="242.577796" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip65" class="tip"><title>samber-golang-security, bout 2 of 3: $ per judge-valid 0.425</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="224.28371" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip66" class="tip"><title>samber-golang-security, bout 3 of 3: $ per judge-valid 0.508</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="233.564954" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip68" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: $ per judge-valid 0.679</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="252.791979" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip69" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: $ per judge-valid 1.047</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="293.963759" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip70" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: $ per judge-valid 0.617</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="245.763153" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip72" class="tip"><title>sentry-code-review, bout 1 of 3: $ per judge-valid 0.438</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="225.775981" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip73" class="tip"><title>sentry-code-review, bout 2 of 3: $ per judge-valid 0.939</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="281.900396" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip74" class="tip"><title>sentry-code-review, bout 3 of 3: $ per judge-valid 0.746</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="260.254903" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip76" class="tip"><title>sentry-security-review, bout 1 of 3: $ per judge-valid 0.852</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="272.140671" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip77" class="tip"><title>sentry-security-review, bout 2 of 3: $ per judge-valid 0.934</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="281.346146" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip78" class="tip"><title>sentry-security-review, bout 3 of 3: $ per judge-valid 0.556</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="238.967795" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip80" class="tip"><title>sentry-then-fp-check, bout 1 of 3: $ per judge-valid 2.144</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="416.920367" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip81" class="tip"><title>sentry-then-fp-check, bout 2 of 3: $ per judge-valid 2.031</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="404.323041" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip82" class="tip"><title>sentry-then-fp-check, bout 3 of 3: $ per judge-valid 1.151</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="305.647554" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip84" class="tip"><title>tob-differential-review, bout 1 of 3: $ per judge-valid 1.151</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="305.645873" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip85" class="tip"><title>tob-differential-review, bout 2 of 3: $ per judge-valid 0.772</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="263.199356" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip86" class="tip"><title>tob-differential-review, bout 3 of 3: $ per judge-valid 0.636</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="247.943014" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip88" class="tip"><title>tob-sharp-edges, bout 1 of 3: $ per judge-valid 1.084</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="298.176673" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip89" class="tip"><title>tob-sharp-edges, bout 2 of 3: $ per judge-valid 0.489</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="231.426833" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip90" class="tip"><title>tob-sharp-edges, bout 3 of 3: $ per judge-valid 0.423</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="224.072378" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip92" class="tip"><title>unitone-secure-code-review, bout 1 of 3: $ per judge-valid 0.474</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="229.826907" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip93" class="tip"><title>unitone-secure-code-review, bout 2 of 3: $ per judge-valid 0.741</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="259.659444" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip94" class="tip"><title>unitone-secure-code-review, bout 3 of 3: $ per judge-valid 0.422</title>
+    <g clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="223.963639" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-text_29">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="258.559685" y="56.60262" transform="rotate(-0 258.559685 56.60262)">0.507</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_30">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="254.590514" y="79.986689" transform="rotate(-0 254.590514 79.986689)">0.423</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_31">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="253.180026" y="103.370758" transform="rotate(-0 253.180026 103.370758)">0.531</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_32">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="294.794776" y="126.754827" transform="rotate(-0 294.794776 126.754827)">0.670</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_33">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="291.089822" y="150.138896" transform="rotate(-0 291.089822 150.138896)">0.565</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_34">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="313.20455" y="173.522965" transform="rotate(-0 313.20455 173.522965)">0.872</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_35">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="329.342629" y="196.907035" transform="rotate(-0 329.342629 196.907035)">0.916</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_36">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="254.645173" y="220.291104" transform="rotate(-0 254.645173 220.291104)">0.446</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_37">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="238.450623" y="243.675173" transform="rotate(-0 238.450623 243.675173)">0.414</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_38">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="310.947594" y="267.059242" transform="rotate(-0 310.947594 267.059242)">0.552</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_39">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="264.90985" y="290.443311" transform="rotate(-0 264.90985 290.443311)">0.559</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_40">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="237.879869" y="313.82738" transform="rotate(-0 237.879869 313.82738)">0.409</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_41">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="284.315928" y="337.211449" transform="rotate(-0 284.315928 337.211449)">0.668</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_42">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="257.201596" y="360.595518" transform="rotate(-0 257.201596 360.595518)">0.498</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_43">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="248.32796" y="383.979587" transform="rotate(-0 248.32796 383.979587)">0.538</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_44">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="239.892755" y="407.363656" transform="rotate(-0 239.892755 407.363656)">0.458</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_45">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="249.577796" y="430.747725" transform="rotate(-0 249.577796 430.747725)">0.499</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_46">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="300.963759" y="454.131794" transform="rotate(-0 300.963759 454.131794)">0.740</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_47">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="288.900396" y="477.515863" transform="rotate(-0 288.900396 477.515863)">0.640</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_48">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="288.346146" y="500.899932" transform="rotate(-0 288.346146 500.899932)">0.749</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_49">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="423.920367" y="524.284001" transform="rotate(-0 423.920367 524.284001)">1.619</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_50">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="312.645873" y="547.66807" transform="rotate(-0 312.645873 547.66807)">0.768</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_51">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="305.176673" y="571.052139" transform="rotate(-0 305.176673 571.052139)">0.582</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_52">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="266.659444" y="594.436208" transform="rotate(-0 266.659444 594.436208)">0.539</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_53">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">$ per judge-valid (lower is better)</text>
+   </g>
+   <g id="efficiency-warpgate-operator-tip3" class="tip"><title>baseline: mean $ per judge-valid 0.532 (n=3)</title>
+    <path d="M 236.224321 46.703795 
+L 236.224321 62.604962 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip7" class="tip"><title>addyosmani-security-auditor: mean $ per judge-valid 0.441 (n=3)</title>
+    <path d="M 226.028295 70.087864 
+L 226.028295 85.989031 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip11" class="tip"><title>agamm-owasp-security: mean $ per judge-valid 0.539 (n=3)</title>
+    <path d="M 237.007326 93.471933 
+L 237.007326 109.3731 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip15" class="tip"><title>anthropic-security-auditor: mean $ per judge-valid 0.729 (n=3)</title>
+    <path d="M 258.390959 116.856002 
+L 258.390959 132.757169 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip19" class="tip"><title>cf-security-audit: mean $ per judge-valid 0.628 (n=3)</title>
+    <path d="M 247.064304 140.240071 
+L 247.064304 156.141238 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip23" class="tip"><title>claude-security-flat: mean $ per judge-valid 0.904 (n=3)</title>
+    <path d="M 278.01459 163.62414 
+L 278.01459 179.525307 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip27" class="tip"><title>claude-security-researcher: mean $ per judge-valid 0.980 (n=3)</title>
+    <path d="M 286.451912 187.008209 
+L 286.451912 202.909376 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip31" class="tip"><title>ecc-security-review: mean $ per judge-valid 0.462 (n=3)</title>
+    <path d="M 228.425725 210.392278 
+L 228.425725 226.293445 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip35" class="tip"><title>evandervecht-security-audit: mean $ per judge-valid 0.433 (n=3)</title>
+    <path d="M 225.228033 233.776347 
+L 225.228033 249.677514 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip39" class="tip"><title>every-ce-security-reviewer: mean $ per judge-valid 0.714 (n=3)</title>
+    <path d="M 256.622055 257.160416 
+L 256.622055 273.061583 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip43" class="tip"><title>gemini-security-analyze-full: mean $ per judge-valid 0.577 (n=3)</title>
+    <path d="M 241.334318 280.544485 
+L 241.334318 296.445652 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip47" class="tip"><title>github-copilot-se-security-reviewer: mean $ per judge-valid 0.408 (n=3)</title>
+    <path d="M 222.320735 303.928554 
+L 222.320735 319.829721 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip51" class="tip"><title>github-copilot-security-review: mean $ per judge-valid 0.737 (n=3)</title>
+    <path d="M 259.266015 327.312623 
+L 259.266015 343.21379 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean $ per judge-valid 0.531 (n=3)</title>
+    <path d="M 236.165773 350.696692 
+L 236.165773 366.597859 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip59" class="tip"><title>neolab-security-auditor: mean $ per judge-valid 0.538 (n=3)</title>
+    <path d="M 236.97485 374.080761 
+L 236.97485 389.981928 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip63" class="tip"><title>openai-security-best-practices: mean $ per judge-valid 0.458 (n=3)</title>
+    <path d="M 227.942156 397.46483 
+L 227.942156 413.365997 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip67" class="tip"><title>samber-golang-security: mean $ per judge-valid 0.507 (n=3)</title>
+    <path d="M 233.475487 420.848899 
+L 233.475487 436.750066 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip71" class="tip"><title>sari3l-security-code-audit: mean $ per judge-valid 0.781 (n=3)</title>
+    <path d="M 264.172964 444.232968 
+L 264.172964 460.134135 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip75" class="tip"><title>sentry-code-review: mean $ per judge-valid 0.708 (n=3)</title>
+    <path d="M 255.977093 467.617037 
+L 255.977093 483.518204 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip79" class="tip"><title>sentry-security-review: mean $ per judge-valid 0.781 (n=3)</title>
+    <path d="M 264.151537 491.001106 
+L 264.151537 506.902273 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip83" class="tip"><title>sentry-then-fp-check: mean $ per judge-valid 1.775 (n=3)</title>
+    <path d="M 375.63032 514.385175 
+L 375.63032 530.286342 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip87" class="tip"><title>tob-differential-review: mean $ per judge-valid 0.853 (n=3)</title>
+    <path d="M 272.262748 537.769244 
+L 272.262748 553.670411 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip91" class="tip"><title>tob-sharp-edges: mean $ per judge-valid 0.665 (n=3)</title>
+    <path d="M 251.225295 561.153313 
+L 251.225295 577.05448 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip95" class="tip"><title>unitone-secure-code-review: mean $ per judge-valid 0.546 (n=3)</title>
+    <path d="M 237.816663 584.537382 
+L 237.816663 600.438549 
+" clip-path="url(#efficiency-warpgate-operator-pc2e69f9385)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-warpgate-operator-axes_2">
+   <g id="efficiency-warpgate-operator-patch_5">
+    <path d="M 453.394773 604.18 
+L 710.28 604.18 
+L 710.28 42.962344 
+L 453.394773 42.962344 
+L 453.394773 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-warpgate-operator-matplotlib.axis_3">
+    <g id="efficiency-warpgate-operator-xtick_5">
+     <g id="efficiency-warpgate-operator-line2d_30"/>
+     <g id="efficiency-warpgate-operator-text_54">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="512.763005" y="614.517891" transform="rotate(-0 512.763005 614.517891)">80</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_6">
+     <g id="efficiency-warpgate-operator-line2d_31"/>
+     <g id="efficiency-warpgate-operator-text_55">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="575.496945" y="614.517891" transform="rotate(-0 575.496945 614.517891)">160</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_7">
+     <g id="efficiency-warpgate-operator-line2d_32"/>
+     <g id="efficiency-warpgate-operator-text_56">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="638.230885" y="614.517891" transform="rotate(-0 638.230885 614.517891)">240</text>
+     </g>
+    </g>
+    <g id="efficiency-warpgate-operator-xtick_8">
+     <g id="efficiency-warpgate-operator-line2d_33"/>
+     <g id="efficiency-warpgate-operator-text_57">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="700.964825" y="614.517891" transform="rotate(-0 700.964825 614.517891)">320</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-matplotlib.axis_4">
+    <g id="efficiency-warpgate-operator-ytick_25">
+     <g id="efficiency-warpgate-operator-line2d_34"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_26">
+     <g id="efficiency-warpgate-operator-line2d_35"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_27">
+     <g id="efficiency-warpgate-operator-line2d_36"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_28">
+     <g id="efficiency-warpgate-operator-line2d_37"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_29">
+     <g id="efficiency-warpgate-operator-line2d_38"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_30">
+     <g id="efficiency-warpgate-operator-line2d_39"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_31">
+     <g id="efficiency-warpgate-operator-line2d_40"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_32">
+     <g id="efficiency-warpgate-operator-line2d_41"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_33">
+     <g id="efficiency-warpgate-operator-line2d_42"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_34">
+     <g id="efficiency-warpgate-operator-line2d_43"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_35">
+     <g id="efficiency-warpgate-operator-line2d_44"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_36">
+     <g id="efficiency-warpgate-operator-line2d_45"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_37">
+     <g id="efficiency-warpgate-operator-line2d_46"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_38">
+     <g id="efficiency-warpgate-operator-line2d_47"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_39">
+     <g id="efficiency-warpgate-operator-line2d_48"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_40">
+     <g id="efficiency-warpgate-operator-line2d_49"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_41">
+     <g id="efficiency-warpgate-operator-line2d_50"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_42">
+     <g id="efficiency-warpgate-operator-line2d_51"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_43">
+     <g id="efficiency-warpgate-operator-line2d_52"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_44">
+     <g id="efficiency-warpgate-operator-line2d_53"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_45">
+     <g id="efficiency-warpgate-operator-line2d_54"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_46">
+     <g id="efficiency-warpgate-operator-line2d_55"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_47">
+     <g id="efficiency-warpgate-operator-line2d_56"/>
+    </g>
+    <g id="efficiency-warpgate-operator-ytick_48">
+     <g id="efficiency-warpgate-operator-line2d_57"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-line2d_58">
+    <path d="M 497.693224 604.18 
+L 497.693224 42.962344 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-patch_6">
+    <path d="M 453.394773 604.18 
+L 453.394773 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-patch_7">
+    <path d="M 453.394773 604.18 
+L 710.28 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip96" class="tip"><title>baseline, bout 1 of 3: wall seconds per judge-valid 55</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="493.113429" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip97" class="tip"><title>baseline, bout 2 of 3: wall seconds per judge-valid 61</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="497.846835" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip98" class="tip"><title>baseline, bout 3 of 3: wall seconds per judge-valid 66</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-ma432050c96" x="502.119408" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip100" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: wall seconds per judge-valid 43</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="483.564669" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip101" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: wall seconds per judge-valid 36</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="478.254633" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip102" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: wall seconds per judge-valid 67</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="502.760863" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip104" class="tip"><title>agamm-owasp-security, bout 1 of 3: wall seconds per judge-valid 50</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="489.469698" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip105" class="tip"><title>agamm-owasp-security, bout 2 of 3: wall seconds per judge-valid 77</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="510.665339" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip106" class="tip"><title>agamm-owasp-security, bout 3 of 3: wall seconds per judge-valid 63</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="499.581559" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip108" class="tip"><title>anthropic-security-auditor, bout 1 of 3: wall seconds per judge-valid 76</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="509.45379" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip109" class="tip"><title>anthropic-security-auditor, bout 2 of 3: wall seconds per judge-valid 54</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="492.256457" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip110" class="tip"><title>anthropic-security-auditor, bout 3 of 3: wall seconds per judge-valid 102</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="530.399869" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip112" class="tip"><title>cf-security-audit, bout 1 of 3: wall seconds per judge-valid 56</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="494.262571" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip113" class="tip"><title>cf-security-audit, bout 2 of 3: wall seconds per judge-valid 74</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="507.823492" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip114" class="tip"><title>cf-security-audit, bout 3 of 3: wall seconds per judge-valid 105</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="532.398729" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip116" class="tip"><title>claude-security-flat, bout 1 of 3: wall seconds per judge-valid 121</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="545.21292" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip117" class="tip"><title>claude-security-flat, bout 2 of 3: wall seconds per judge-valid 94</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="523.558471" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip118" class="tip"><title>claude-security-flat, bout 3 of 3: wall seconds per judge-valid 141</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="560.686638" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip120" class="tip"><title>claude-security-researcher, bout 1 of 3: wall seconds per judge-valid 76</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="509.689827" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip121" class="tip"><title>claude-security-researcher, bout 2 of 3: wall seconds per judge-valid 133</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="554.082715" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip122" class="tip"><title>claude-security-researcher, bout 3 of 3: wall seconds per judge-valid 109</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="535.415055" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip124" class="tip"><title>ecc-security-review, bout 1 of 3: wall seconds per judge-valid 70</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="504.835788" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip125" class="tip"><title>ecc-security-review, bout 2 of 3: wall seconds per judge-valid 45</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="485.296126" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip126" class="tip"><title>ecc-security-review, bout 3 of 3: wall seconds per judge-valid 55</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="493.289802" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip128" class="tip"><title>evandervecht-security-audit, bout 1 of 3: wall seconds per judge-valid 52</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="490.956949" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip129" class="tip"><title>evandervecht-security-audit, bout 2 of 3: wall seconds per judge-valid 58</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="495.160385" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip130" class="tip"><title>evandervecht-security-audit, bout 3 of 3: wall seconds per judge-valid 43</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="483.841404" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip132" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: wall seconds per judge-valid 118</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="542.953714" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip133" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: wall seconds per judge-valid 40</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="481.565221" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip134" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: wall seconds per judge-valid 88</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="518.961903" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip136" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: wall seconds per judge-valid 96</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="524.965541" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip137" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: wall seconds per judge-valid 60</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="496.865702" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip138" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: wall seconds per judge-valid 55</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="492.966788" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip140" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: wall seconds per judge-valid 57</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="494.479591" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip141" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: wall seconds per judge-valid 40</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="481.428448" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip142" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: wall seconds per judge-valid 42</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="483.204145" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip144" class="tip"><title>github-copilot-security-review, bout 1 of 3: wall seconds per judge-valid 89</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="519.675894" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip145" class="tip"><title>github-copilot-security-review, bout 2 of 3: wall seconds per judge-valid 49</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="488.284026" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip146" class="tip"><title>github-copilot-security-review, bout 3 of 3: wall seconds per judge-valid 102</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="530.244602" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip148" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: wall seconds per judge-valid 65</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="500.703451" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip149" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: wall seconds per judge-valid 36</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="478.453657" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip150" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: wall seconds per judge-valid 71</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="505.328772" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip152" class="tip"><title>neolab-security-auditor, bout 1 of 3: wall seconds per judge-valid 55</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="493.074743" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip153" class="tip"><title>neolab-security-auditor, bout 2 of 3: wall seconds per judge-valid 60</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="497.138072" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip154" class="tip"><title>neolab-security-auditor, bout 3 of 3: wall seconds per judge-valid 60</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="497.382212" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip156" class="tip"><title>openai-security-best-practices, bout 1 of 3: wall seconds per judge-valid 52</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="490.80299" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip157" class="tip"><title>openai-security-best-practices, bout 2 of 3: wall seconds per judge-valid 50</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="489.031017" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip158" class="tip"><title>openai-security-best-practices, bout 3 of 3: wall seconds per judge-valid 50</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="489.163543" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip160" class="tip"><title>samber-golang-security, bout 1 of 3: wall seconds per judge-valid 71</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="505.364844" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip161" class="tip"><title>samber-golang-security, bout 2 of 3: wall seconds per judge-valid 59</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="496.297307" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip162" class="tip"><title>samber-golang-security, bout 3 of 3: wall seconds per judge-valid 71</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="505.425748" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip164" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: wall seconds per judge-valid 61</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="497.572766" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip165" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: wall seconds per judge-valid 96</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="525.47643" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip166" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: wall seconds per judge-valid 59</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="496.677239" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip168" class="tip"><title>sentry-code-review, bout 1 of 3: wall seconds per judge-valid 49</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="488.713557" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip169" class="tip"><title>sentry-code-review, bout 2 of 3: wall seconds per judge-valid 107</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="534.10666" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip170" class="tip"><title>sentry-code-review, bout 3 of 3: wall seconds per judge-valid 78</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="511.545183" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip172" class="tip"><title>sentry-security-review, bout 1 of 3: wall seconds per judge-valid 89</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="519.874682" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip173" class="tip"><title>sentry-security-review, bout 2 of 3: wall seconds per judge-valid 90</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="520.46987" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip174" class="tip"><title>sentry-security-review, bout 3 of 3: wall seconds per judge-valid 62</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="498.512207" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip176" class="tip"><title>sentry-then-fp-check, bout 1 of 3: wall seconds per judge-valid 300</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="685.18175" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip177" class="tip"><title>sentry-then-fp-check, bout 2 of 3: wall seconds per judge-valid 300</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="685.420139" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip178" class="tip"><title>sentry-then-fp-check, bout 3 of 3: wall seconds per judge-valid 164</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="578.516408" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip180" class="tip"><title>tob-differential-review, bout 1 of 3: wall seconds per judge-valid 150</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="567.292914" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip181" class="tip"><title>tob-differential-review, bout 2 of 3: wall seconds per judge-valid 85</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="516.706879" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip182" class="tip"><title>tob-differential-review, bout 3 of 3: wall seconds per judge-valid 71</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="505.988524" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip184" class="tip"><title>tob-sharp-edges, bout 1 of 3: wall seconds per judge-valid 117</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="541.591211" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip185" class="tip"><title>tob-sharp-edges, bout 2 of 3: wall seconds per judge-valid 55</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="493.055726" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip186" class="tip"><title>tob-sharp-edges, bout 3 of 3: wall seconds per judge-valid 57</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="494.775617" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip188" class="tip"><title>unitone-secure-code-review, bout 1 of 3: wall seconds per judge-valid 45</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="485.08087" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip189" class="tip"><title>unitone-secure-code-review, bout 2 of 3: wall seconds per judge-valid 69</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="504.070957" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-tip190" class="tip"><title>unitone-secure-code-review, bout 3 of 3: wall seconds per judge-valid 56</title>
+    <g clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)">
+     <use xlink:href="#efficiency-warpgate-operator-m6cdce938b5" x="494.262767" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-warpgate-operator-text_58">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="509.119408" y="56.60262" transform="rotate(-0 509.119408 56.60262)">60</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_59">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="509.760863" y="79.986689" transform="rotate(-0 509.760863 79.986689)">47</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_60">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="517.665339" y="103.370758" transform="rotate(-0 517.665339 103.370758)">62</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_61">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="537.399869" y="126.754827" transform="rotate(-0 537.399869 126.754827)">72</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_62">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="539.398729" y="150.138896" transform="rotate(-0 539.398729 150.138896)">73</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_63">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="567.686638" y="173.522965" transform="rotate(-0 567.686638 173.522965)">115</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_64">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="561.082715" y="196.907035" transform="rotate(-0 561.082715 196.907035)">101</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_65">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.835788" y="220.291104" transform="rotate(-0 511.835788 220.291104)">55</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_66">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="502.160385" y="243.675173" transform="rotate(-0 502.160385 243.675173)">50</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_67">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="549.953714" y="267.059242" transform="rotate(-0 549.953714 267.059242)">65</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_68">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="531.965541" y="290.443311" transform="rotate(-0 531.965541 290.443311)">67</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_69">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="501.479591" y="313.82738" transform="rotate(-0 501.479591 313.82738)">47</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_70">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="537.244602" y="337.211449" transform="rotate(-0 537.244602 337.211449)">72</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_71">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="512.328772" y="360.595518" transform="rotate(-0 512.328772 360.595518)">53</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_72">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="504.382212" y="383.979587" transform="rotate(-0 504.382212 383.979587)">58</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_73">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="497.80299" y="407.363656" transform="rotate(-0 497.80299 407.363656)">51</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_74">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="512.425748" y="430.747725" transform="rotate(-0 512.425748 430.747725)">66</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_75">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.47643" y="454.131794" transform="rotate(-0 532.47643 454.131794)">68</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_76">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.10666" y="477.515863" transform="rotate(-0 541.10666 477.515863)">71</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_77">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="527.46987" y="500.899932" transform="rotate(-0 527.46987 500.899932)">78</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_78">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="692.420139" y="524.284001" transform="rotate(-0 692.420139 524.284001)">232</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_79">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="574.292914" y="547.66807" transform="rotate(-0 574.292914 547.66807)">88</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_80">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="548.591211" y="571.052139" transform="rotate(-0 548.591211 571.052139)">68</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_81">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.070957" y="594.436208" transform="rotate(-0 511.070957 594.436208)">55</text>
+   </g>
+   <g id="efficiency-warpgate-operator-text_82">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="453.394773" y="36.962344" transform="rotate(-0 453.394773 36.962344)">wall seconds per judge-valid (lower is better)</text>
+   </g>
+   <g id="efficiency-warpgate-operator-tip99" class="tip"><title>baseline: mean wall seconds per judge-valid 61 (n=3)</title>
+    <path d="M 497.693224 46.703795 
+L 497.693224 62.604962 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip103" class="tip"><title>addyosmani-security-auditor: mean wall seconds per judge-valid 49 (n=3)</title>
+    <path d="M 488.193389 70.087864 
+L 488.193389 85.989031 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip107" class="tip"><title>agamm-owasp-security: mean wall seconds per judge-valid 64 (n=3)</title>
+    <path d="M 499.905532 93.471933 
+L 499.905532 109.3731 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip111" class="tip"><title>anthropic-security-auditor: mean wall seconds per judge-valid 77 (n=3)</title>
+    <path d="M 510.703372 116.856002 
+L 510.703372 132.757169 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip115" class="tip"><title>cf-security-audit: mean wall seconds per judge-valid 78 (n=3)</title>
+    <path d="M 511.49493 140.240071 
+L 511.49493 156.141238 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip119" class="tip"><title>claude-security-flat: mean wall seconds per judge-valid 119 (n=3)</title>
+    <path d="M 543.152677 163.62414 
+L 543.152677 179.525307 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip123" class="tip"><title>claude-security-researcher: mean wall seconds per judge-valid 106 (n=3)</title>
+    <path d="M 533.062532 187.008209 
+L 533.062532 202.909376 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip127" class="tip"><title>ecc-security-review: mean wall seconds per judge-valid 57 (n=3)</title>
+    <path d="M 494.473905 210.392278 
+L 494.473905 226.293445 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip131" class="tip"><title>evandervecht-security-audit: mean wall seconds per judge-valid 51 (n=3)</title>
+    <path d="M 489.986246 233.776347 
+L 489.986246 249.677514 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip135" class="tip"><title>every-ce-security-reviewer: mean wall seconds per judge-valid 82 (n=3)</title>
+    <path d="M 514.493613 257.160416 
+L 514.493613 273.061583 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip139" class="tip"><title>gemini-security-analyze-full: mean wall seconds per judge-valid 70 (n=3)</title>
+    <path d="M 504.932677 280.544485 
+L 504.932677 296.445652 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip143" class="tip"><title>github-copilot-se-security-reviewer: mean wall seconds per judge-valid 46 (n=3)</title>
+    <path d="M 486.370728 303.928554 
+L 486.370728 319.829721 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip147" class="tip"><title>github-copilot-security-review: mean wall seconds per judge-valid 80 (n=3)</title>
+    <path d="M 512.734841 327.312623 
+L 512.734841 343.21379 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip151" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean wall seconds per judge-valid 57 (n=3)</title>
+    <path d="M 494.828627 350.696692 
+L 494.828627 366.597859 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip155" class="tip"><title>neolab-security-auditor: mean wall seconds per judge-valid 58 (n=3)</title>
+    <path d="M 495.865009 374.080761 
+L 495.865009 389.981928 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip159" class="tip"><title>openai-security-best-practices: mean wall seconds per judge-valid 51 (n=3)</title>
+    <path d="M 489.66585 397.46483 
+L 489.66585 413.365997 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip163" class="tip"><title>samber-golang-security: mean wall seconds per judge-valid 67 (n=3)</title>
+    <path d="M 502.362633 420.848899 
+L 502.362633 436.750066 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip167" class="tip"><title>sari3l-security-code-audit: mean wall seconds per judge-valid 72 (n=3)</title>
+    <path d="M 506.575479 444.232968 
+L 506.575479 460.134135 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip171" class="tip"><title>sentry-code-review: mean wall seconds per judge-valid 78 (n=3)</title>
+    <path d="M 511.455134 467.617037 
+L 511.455134 483.518204 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip175" class="tip"><title>sentry-security-review: mean wall seconds per judge-valid 80 (n=3)</title>
+    <path d="M 512.952253 491.001106 
+L 512.952253 506.902273 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip179" class="tip"><title>sentry-then-fp-check: mean wall seconds per judge-valid 255 (n=3)</title>
+    <path d="M 649.706099 514.385175 
+L 649.706099 530.286342 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip183" class="tip"><title>tob-differential-review: mean wall seconds per judge-valid 102 (n=3)</title>
+    <path d="M 529.996106 537.769244 
+L 529.996106 553.670411 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip187" class="tip"><title>tob-sharp-edges: mean wall seconds per judge-valid 76 (n=3)</title>
+    <path d="M 509.807518 561.153313 
+L 509.807518 577.05448 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-warpgate-operator-tip191" class="tip"><title>unitone-secure-code-review: mean wall seconds per judge-valid 57 (n=3)</title>
+    <path d="M 494.471531 584.537382 
+L 494.471531 600.438549 
+" clip-path="url(#efficiency-warpgate-operator-p69db7b0a7e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-warpgate-operator-text_83">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="20.126438" transform="rotate(-0 7.2 20.126438)">warpgate-operator: what one judge-valid costs</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="efficiency-warpgate-operator-pc2e69f9385">
+   <rect x="184.895" y="42.962344" width="256.885227" height="561.217656"/>
+  </clipPath>
+  <clipPath id="efficiency-warpgate-operator-p69db7b0a7e">
+   <rect x="453.394773" y="42.962344" width="256.885227" height="561.217656"/>
+  </clipPath>
+ </defs>
+</svg>

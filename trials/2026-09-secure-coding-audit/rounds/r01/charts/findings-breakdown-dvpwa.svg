@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="400.32pt" viewBox="0 0 547.2 400.32" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by final verdict in dvpwa">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="737.28pt" viewBox="0 0 720 737.28" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by final verdict in dvpwa">
  <title>Stacked bars of findings per contender by final verdict in dvpwa</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="findings-breakdown-dvpwa-figure_1">
   <g id="findings-breakdown-dvpwa-patch_1">
-   <path d="M 0 400.32 
-L 547.2 400.32 
-L 547.2 0 
+   <path d="M 0 737.28 
+L 720 737.28 
+L 720 0 
 L 0 0 
-L 0 400.32 
+L 0 737.28 
 z
 " style="fill: none"/>
   </g>
   <g id="findings-breakdown-dvpwa-axes_1">
    <g id="findings-breakdown-dvpwa-patch_2">
-    <path d="M 155.6225 364.017891 
-L 537.48 364.017891 
-L 537.48 26.121875 
-L 155.6225 26.121875 
-L 155.6225 364.017891 
+    <path d="M 184.895 700.977891 
+L 710.28 700.977891 
+L 710.28 26.121875 
+L 184.895 26.121875 
+L 184.895 700.977891 
 z
 " style="fill: none"/>
    </g>
@@ -30,289 +30,486 @@ z
     <g id="findings-breakdown-dvpwa-xtick_1">
      <g id="findings-breakdown-dvpwa-line2d_1"/>
      <g id="findings-breakdown-dvpwa-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="155.6225" y="374.355781" transform="rotate(-0 155.6225 374.355781)">0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="711.315781" transform="rotate(-0 184.895 711.315781)">0</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-xtick_2">
      <g id="findings-breakdown-dvpwa-line2d_2"/>
      <g id="findings-breakdown-dvpwa-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="202.11489" y="374.355781" transform="rotate(-0 202.11489 374.355781)">1</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="293.147404" y="711.315781" transform="rotate(-0 293.147404 711.315781)">2</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-xtick_3">
      <g id="findings-breakdown-dvpwa-line2d_3"/>
      <g id="findings-breakdown-dvpwa-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="248.607281" y="374.355781" transform="rotate(-0 248.607281 374.355781)">2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="401.399808" y="711.315781" transform="rotate(-0 401.399808 711.315781)">4</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-xtick_4">
      <g id="findings-breakdown-dvpwa-line2d_4"/>
      <g id="findings-breakdown-dvpwa-text_4">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="295.099671" y="374.355781" transform="rotate(-0 295.099671 374.355781)">3</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="509.652212" y="711.315781" transform="rotate(-0 509.652212 711.315781)">6</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-xtick_5">
      <g id="findings-breakdown-dvpwa-line2d_5"/>
      <g id="findings-breakdown-dvpwa-text_5">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="341.592062" y="374.355781" transform="rotate(-0 341.592062 374.355781)">4</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="617.904615" y="711.315781" transform="rotate(-0 617.904615 711.315781)">8</text>
      </g>
     </g>
-    <g id="findings-breakdown-dvpwa-xtick_6">
-     <g id="findings-breakdown-dvpwa-line2d_6"/>
-     <g id="findings-breakdown-dvpwa-text_6">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="388.084452" y="374.355781" transform="rotate(-0 388.084452 374.355781)">5</text>
-     </g>
-    </g>
-    <g id="findings-breakdown-dvpwa-xtick_7">
-     <g id="findings-breakdown-dvpwa-line2d_7"/>
-     <g id="findings-breakdown-dvpwa-text_7">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="434.576843" y="374.355781" transform="rotate(-0 434.576843 374.355781)">6</text>
-     </g>
-    </g>
-    <g id="findings-breakdown-dvpwa-xtick_8">
-     <g id="findings-breakdown-dvpwa-line2d_8"/>
-     <g id="findings-breakdown-dvpwa-text_8">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="481.069233" y="374.355781" transform="rotate(-0 481.069233 374.355781)">7</text>
-     </g>
-    </g>
-    <g id="findings-breakdown-dvpwa-xtick_9">
-     <g id="findings-breakdown-dvpwa-line2d_9"/>
-     <g id="findings-breakdown-dvpwa-text_9">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="527.561623" y="374.355781" transform="rotate(-0 527.561623 374.355781)">8</text>
-     </g>
-    </g>
-    <g id="findings-breakdown-dvpwa-text_10">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="346.55125" y="387.356484" transform="rotate(-0 346.55125 387.356484)">mean findings per ok bout, split by final verdict</text>
+    <g id="findings-breakdown-dvpwa-text_6">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="724.316484" transform="rotate(-0 447.5875 724.316484)">mean findings per ok bout, split by final verdict</text>
     </g>
    </g>
    <g id="findings-breakdown-dvpwa-matplotlib.axis_2">
     <g id="findings-breakdown-dvpwa-ytick_1">
-     <g id="findings-breakdown-dvpwa-line2d_10"/>
-     <g id="findings-breakdown-dvpwa-text_11">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="44.900082" transform="rotate(-0 152.1225 44.900082)">baseline</text>
+     <g id="findings-breakdown-dvpwa-line2d_6"/>
+     <g id="findings-breakdown-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="43.600672" transform="rotate(-0 181.395 43.600672)">baseline</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_2">
-     <g id="findings-breakdown-dvpwa-line2d_11"/>
-     <g id="findings-breakdown-dvpwa-text_12">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="75.617901" transform="rotate(-0 152.1225 75.617901)">cf-security-audit</text>
+     <g id="findings-breakdown-dvpwa-line2d_7"/>
+     <g id="findings-breakdown-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="71.719673" transform="rotate(-0 181.395 71.719673)">addyosmani-security-auditor</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_3">
-     <g id="findings-breakdown-dvpwa-line2d_12"/>
-     <g id="findings-breakdown-dvpwa-text_13">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="106.335721" transform="rotate(-0 152.1225 106.335721)">ecc-security-review</text>
+     <g id="findings-breakdown-dvpwa-line2d_8"/>
+     <g id="findings-breakdown-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="99.838674" transform="rotate(-0 181.395 99.838674)">agamm-owasp-security</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_4">
-     <g id="findings-breakdown-dvpwa-line2d_13"/>
-     <g id="findings-breakdown-dvpwa-text_14">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="137.05354" transform="rotate(-0 152.1225 137.05354)">every-ce-security-reviewer</text>
+     <g id="findings-breakdown-dvpwa-line2d_9"/>
+     <g id="findings-breakdown-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="127.957674" transform="rotate(-0 181.395 127.957674)">anthropic-security-auditor</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_5">
-     <g id="findings-breakdown-dvpwa-line2d_14"/>
-     <g id="findings-breakdown-dvpwa-text_15">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="167.77136" transform="rotate(-0 152.1225 167.77136)">neolab-security-auditor</text>
+     <g id="findings-breakdown-dvpwa-line2d_10"/>
+     <g id="findings-breakdown-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="156.076675" transform="rotate(-0 181.395 156.076675)">cf-security-audit</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_6">
-     <g id="findings-breakdown-dvpwa-line2d_15"/>
-     <g id="findings-breakdown-dvpwa-text_16">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="198.48918" transform="rotate(-0 152.1225 198.48918)">openai-security-best-practices</text>
+     <g id="findings-breakdown-dvpwa-line2d_11"/>
+     <g id="findings-breakdown-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="184.195675" transform="rotate(-0 181.395 184.195675)">claude-security-flat</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_7">
-     <g id="findings-breakdown-dvpwa-line2d_16"/>
-     <g id="findings-breakdown-dvpwa-text_17">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="229.206999" transform="rotate(-0 152.1225 229.206999)">samber-golang-security</text>
+     <g id="findings-breakdown-dvpwa-line2d_12"/>
+     <g id="findings-breakdown-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.314676" transform="rotate(-0 181.395 212.314676)">claude-security-researcher</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_8">
-     <g id="findings-breakdown-dvpwa-line2d_17"/>
-     <g id="findings-breakdown-dvpwa-text_18">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="259.924819" transform="rotate(-0 152.1225 259.924819)">sentry-code-review</text>
+     <g id="findings-breakdown-dvpwa-line2d_13"/>
+     <g id="findings-breakdown-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="240.433677" transform="rotate(-0 181.395 240.433677)">ecc-security-review</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_9">
-     <g id="findings-breakdown-dvpwa-line2d_18"/>
-     <g id="findings-breakdown-dvpwa-text_19">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="290.642638" transform="rotate(-0 152.1225 290.642638)">sentry-security-review</text>
+     <g id="findings-breakdown-dvpwa-line2d_14"/>
+     <g id="findings-breakdown-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.552677" transform="rotate(-0 181.395 268.552677)">evandervecht-security-audit</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_10">
-     <g id="findings-breakdown-dvpwa-line2d_19"/>
-     <g id="findings-breakdown-dvpwa-text_20">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="321.360458" transform="rotate(-0 152.1225 321.360458)">tob-differential-review</text>
+     <g id="findings-breakdown-dvpwa-line2d_15"/>
+     <g id="findings-breakdown-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="296.671678" transform="rotate(-0 181.395 296.671678)">every-ce-security-reviewer</text>
      </g>
     </g>
     <g id="findings-breakdown-dvpwa-ytick_11">
+     <g id="findings-breakdown-dvpwa-line2d_16"/>
+     <g id="findings-breakdown-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="324.790679" transform="rotate(-0 181.395 324.790679)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_12">
+     <g id="findings-breakdown-dvpwa-line2d_17"/>
+     <g id="findings-breakdown-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="352.909679" transform="rotate(-0 181.395 352.909679)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_13">
+     <g id="findings-breakdown-dvpwa-line2d_18"/>
+     <g id="findings-breakdown-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="381.02868" transform="rotate(-0 181.395 381.02868)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_14">
+     <g id="findings-breakdown-dvpwa-line2d_19"/>
+     <g id="findings-breakdown-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="409.147681" transform="rotate(-0 181.395 409.147681)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_15">
      <g id="findings-breakdown-dvpwa-line2d_20"/>
      <g id="findings-breakdown-dvpwa-text_21">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="352.078278" transform="rotate(-0 152.1225 352.078278)">tob-sharp-edges</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="437.266681" transform="rotate(-0 181.395 437.266681)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_16">
+     <g id="findings-breakdown-dvpwa-line2d_21"/>
+     <g id="findings-breakdown-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="465.385682" transform="rotate(-0 181.395 465.385682)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_17">
+     <g id="findings-breakdown-dvpwa-line2d_22"/>
+     <g id="findings-breakdown-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="493.504683" transform="rotate(-0 181.395 493.504683)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_18">
+     <g id="findings-breakdown-dvpwa-line2d_23"/>
+     <g id="findings-breakdown-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="521.623683" transform="rotate(-0 181.395 521.623683)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_19">
+     <g id="findings-breakdown-dvpwa-line2d_24"/>
+     <g id="findings-breakdown-dvpwa-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.742684" transform="rotate(-0 181.395 549.742684)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_20">
+     <g id="findings-breakdown-dvpwa-line2d_25"/>
+     <g id="findings-breakdown-dvpwa-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="577.861685" transform="rotate(-0 181.395 577.861685)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_21">
+     <g id="findings-breakdown-dvpwa-line2d_26"/>
+     <g id="findings-breakdown-dvpwa-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="605.980685" transform="rotate(-0 181.395 605.980685)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_22">
+     <g id="findings-breakdown-dvpwa-line2d_27"/>
+     <g id="findings-breakdown-dvpwa-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="634.099686" transform="rotate(-0 181.395 634.099686)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_23">
+     <g id="findings-breakdown-dvpwa-line2d_28"/>
+     <g id="findings-breakdown-dvpwa-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="662.218687" transform="rotate(-0 181.395 662.218687)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_24">
+     <g id="findings-breakdown-dvpwa-line2d_29"/>
+     <g id="findings-breakdown-dvpwa-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="690.337687" transform="rotate(-0 181.395 690.337687)">unitone-secure-code-review</text>
      </g>
     </g>
    </g>
    <g id="findings-breakdown-dvpwa-patch_3">
-    <path d="M 155.6225 29.193657 
-L 155.6225 29.193657 
-L 155.6225 53.767913 
-L 155.6225 53.767913 
+    <path d="M 184.895 28.933775 
+L 184.895 28.933775 
+L 184.895 51.428976 
+L 184.895 51.428976 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
    <g id="findings-breakdown-dvpwa-tip0" class="tip"><title>baseline: tp 6 per bout (n=3)</title>
-    <path d="M 155.6225 33.033384 
-L 433.213066 33.033384 
-L 433.213066 49.928185 
-L 155.6225 49.928185 
+    <path d="M 184.895 32.44865 
+L 507.775837 32.44865 
+L 507.775837 47.914101 
+L 184.895 47.914101 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip1" class="tip"><title>cf-security-audit: tp 6.3 per bout (n=3)</title>
-    <path d="M 155.6225 63.751204 
-L 448.710529 63.751204 
-L 448.710529 80.646005 
-L 155.6225 80.646005 
+   <g id="findings-breakdown-dvpwa-tip1" class="tip"><title>addyosmani-security-auditor: tp 7.3 per bout (n=3)</title>
+    <path d="M 184.895 60.567651 
+L 579.944106 60.567651 
+L 579.944106 76.033101 
+L 184.895 76.033101 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip2" class="tip"><title>ecc-security-review: tp 6.7 per bout (n=3)</title>
-    <path d="M 155.6225 94.469024 
-L 464.207993 94.469024 
-L 464.207993 111.363824 
-L 155.6225 111.363824 
+   <g id="findings-breakdown-dvpwa-tip2" class="tip"><title>agamm-owasp-security: tp 7.7 per bout (n=3)</title>
+    <path d="M 184.895 88.686651 
+L 597.986173 88.686651 
+L 597.986173 104.152102 
+L 184.895 104.152102 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip3" class="tip"><title>every-ce-security-reviewer: tp 7 per bout (n=3)</title>
-    <path d="M 155.6225 125.186843 
-L 479.705456 125.186843 
-L 479.705456 142.081644 
-L 155.6225 142.081644 
+   <g id="findings-breakdown-dvpwa-tip3" class="tip"><title>anthropic-security-auditor: tp 8.7 per bout (n=3)</title>
+    <path d="M 184.895 116.805652 
+L 652.112375 116.805652 
+L 652.112375 132.271102 
+L 184.895 132.271102 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip4" class="tip"><title>neolab-security-auditor: tp 7 per bout (n=3)</title>
-    <path d="M 155.6225 155.904663 
-L 479.705456 155.904663 
-L 479.705456 172.799464 
-L 155.6225 172.799464 
+   <g id="findings-breakdown-dvpwa-tip4" class="tip"><title>cf-security-audit: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 144.924653 
+L 525.817904 144.924653 
+L 525.817904 160.390103 
+L 184.895 160.390103 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip5" class="tip"><title>openai-security-best-practices: tp 6.3 per bout (n=3)</title>
-    <path d="M 155.6225 186.622482 
-L 448.710529 186.622482 
-L 448.710529 203.517283 
-L 155.6225 203.517283 
+   <g id="findings-breakdown-dvpwa-tip5" class="tip"><title>claude-security-flat: tp 5.3 per bout (n=3)</title>
+    <path d="M 184.895 173.043653 
+L 471.691702 173.043653 
+L 471.691702 188.509104 
+L 184.895 188.509104 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip6" class="tip"><title>samber-golang-security: tp 7.3 per bout (n=3)</title>
-    <path d="M 155.6225 217.340302 
-L 495.20292 217.340302 
-L 495.20292 234.235103 
-L 155.6225 234.235103 
+   <g id="findings-breakdown-dvpwa-tip6" class="tip"><title>claude-security-researcher: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 201.162654 
+L 525.817904 201.162654 
+L 525.817904 216.628104 
+L 184.895 216.628104 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip7" class="tip"><title>sentry-code-review: tp 6 per bout (n=3)</title>
-    <path d="M 155.6225 248.058122 
-L 433.213066 248.058122 
-L 433.213066 264.952922 
-L 155.6225 264.952922 
+   <g id="findings-breakdown-dvpwa-tip7" class="tip"><title>ecc-security-review: tp 6.7 per bout (n=3)</title>
+    <path d="M 184.895 229.281655 
+L 543.859971 229.281655 
+L 543.859971 244.747105 
+L 184.895 244.747105 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip8" class="tip"><title>sentry-security-review: tp 6.3 per bout (n=3)</title>
-    <path d="M 155.6225 278.775941 
-L 448.710529 278.775941 
-L 448.710529 295.670742 
-L 155.6225 295.670742 
+   <g id="findings-breakdown-dvpwa-tip8" class="tip"><title>evandervecht-security-audit: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 257.400655 
+L 561.902038 257.400655 
+L 561.902038 272.866106 
+L 184.895 272.866106 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip9" class="tip"><title>tob-differential-review: tp 6.3 per bout (n=3)</title>
-    <path d="M 155.6225 309.493761 
-L 448.710529 309.493761 
-L 448.710529 326.388562 
-L 155.6225 326.388562 
+   <g id="findings-breakdown-dvpwa-tip9" class="tip"><title>every-ce-security-reviewer: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 285.519656 
+L 561.902038 285.519656 
+L 561.902038 300.985106 
+L 184.895 300.985106 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip10" class="tip"><title>tob-sharp-edges: tp 6.3 per bout (n=3)</title>
-    <path d="M 155.6225 340.21158 
-L 448.710529 340.21158 
-L 448.710529 357.106381 
-L 155.6225 357.106381 
+   <g id="findings-breakdown-dvpwa-tip10" class="tip"><title>gemini-security-analyze-full: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 313.638657 
+L 525.817904 313.638657 
+L 525.817904 329.104107 
+L 184.895 329.104107 
 z
-" clip-path="url(#findings-breakdown-dvpwa-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip11" class="tip"><title>github-copilot-se-security-reviewer: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 341.757657 
+L 561.902038 341.757657 
+L 561.902038 357.223108 
+L 184.895 357.223108 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip12" class="tip"><title>github-copilot-security-review: tp 6.7 per bout (n=3)</title>
+    <path d="M 184.895 369.876658 
+L 543.859971 369.876658 
+L 543.859971 385.342108 
+L 184.895 385.342108 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip13" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 397.995659 
+L 561.902038 397.995659 
+L 561.902038 413.461109 
+L 184.895 413.461109 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip14" class="tip"><title>neolab-security-auditor: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 426.114659 
+L 561.902038 426.114659 
+L 561.902038 441.58011 
+L 184.895 441.58011 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip15" class="tip"><title>openai-security-best-practices: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 454.23366 
+L 525.817904 454.23366 
+L 525.817904 469.69911 
+L 184.895 469.69911 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip16" class="tip"><title>samber-golang-security: tp 7.3 per bout (n=3)</title>
+    <path d="M 184.895 482.352661 
+L 579.944106 482.352661 
+L 579.944106 497.818111 
+L 184.895 497.818111 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip17" class="tip"><title>sari3l-security-code-audit: tp 7 per bout (n=3)</title>
+    <path d="M 184.895 510.471661 
+L 561.902038 510.471661 
+L 561.902038 525.937112 
+L 184.895 525.937112 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip18" class="tip"><title>sentry-code-review: tp 6 per bout (n=3)</title>
+    <path d="M 184.895 538.590662 
+L 507.775837 538.590662 
+L 507.775837 554.056112 
+L 184.895 554.056112 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip19" class="tip"><title>sentry-security-review: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 566.709663 
+L 525.817904 566.709663 
+L 525.817904 582.175113 
+L 184.895 582.175113 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip20" class="tip"><title>sentry-then-fp-check: tp 6 per bout (n=3)</title>
+    <path d="M 184.895 594.828663 
+L 507.775837 594.828663 
+L 507.775837 610.294114 
+L 184.895 610.294114 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip21" class="tip"><title>tob-differential-review: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 622.947664 
+L 525.817904 622.947664 
+L 525.817904 638.413114 
+L 184.895 638.413114 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip22" class="tip"><title>tob-sharp-edges: tp 6.3 per bout (n=3)</title>
+    <path d="M 184.895 651.066664 
+L 525.817904 651.066664 
+L 525.817904 666.532115 
+L 184.895 666.532115 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip23" class="tip"><title>unitone-secure-code-review: tp 7.3 per bout (n=3)</title>
+    <path d="M 184.895 679.185665 
+L 579.944106 679.185665 
+L 579.944106 694.651115 
+L 184.895 694.651115 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
    <g id="findings-breakdown-dvpwa-patch_4">
-    <path d="M 155.6225 364.017891 
-L 155.6225 26.121875 
+    <path d="M 184.895 700.977891 
+L 184.895 26.121875 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="findings-breakdown-dvpwa-patch_5">
-    <path d="M 155.6225 364.017891 
-L 537.48 364.017891 
+    <path d="M 184.895 700.977891 
+L 710.28 700.977891 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="findings-breakdown-dvpwa-text_22">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="43.55891" transform="rotate(-0 439.576843 43.55891)">6</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_23">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="455.074306" y="74.276729" transform="rotate(-0 455.074306 74.276729)">6.3</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_24">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="470.571769" y="104.994549" transform="rotate(-0 470.571769 104.994549)">6.7</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_25">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="486.069233" y="135.712369" transform="rotate(-0 486.069233 135.712369)">7</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_26">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="486.069233" y="166.430188" transform="rotate(-0 486.069233 166.430188)">7</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_27">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="455.074306" y="197.148008" transform="rotate(-0 455.074306 197.148008)">6.3</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_28">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="501.566696" y="227.865827" transform="rotate(-0 501.566696 227.865827)">7.3</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_29">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="258.583647" transform="rotate(-0 439.576843 258.583647)">6</text>
-   </g>
-   <g id="findings-breakdown-dvpwa-text_30">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="455.074306" y="289.301467" transform="rotate(-0 455.074306 289.301467)">6.3</text>
-   </g>
    <g id="findings-breakdown-dvpwa-text_31">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="455.074306" y="320.019286" transform="rotate(-0 455.074306 320.019286)">6.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="514.652212" y="42.2595" transform="rotate(-0 514.652212 42.2595)">6</text>
    </g>
    <g id="findings-breakdown-dvpwa-text_32">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="455.074306" y="350.737106" transform="rotate(-0 455.074306 350.737106)">6.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="586.820481" y="70.378501" transform="rotate(-0 586.820481 70.378501)">7.3</text>
    </g>
    <g id="findings-breakdown-dvpwa-text_33">
-    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="155.6225" y="20.121875" transform="rotate(-0 155.6225 20.121875)">dvpwa: signal vs noise in findings</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="604.862548" y="98.497502" transform="rotate(-0 604.862548 98.497502)">7.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="126.616502" transform="rotate(-0 658.98875 126.616502)">8.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="154.735503" transform="rotate(-0 532.694279 154.735503)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="478.568077" y="182.854504" transform="rotate(-0 478.568077 182.854504)">5.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="210.973504" transform="rotate(-0 532.694279 210.973504)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="550.736346" y="239.092505" transform="rotate(-0 550.736346 239.092505)">6.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="267.211506" transform="rotate(-0 568.778413 267.211506)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="295.330506" transform="rotate(-0 568.778413 295.330506)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="323.449507" transform="rotate(-0 532.694279 323.449507)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="351.568507" transform="rotate(-0 568.778413 351.568507)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="550.736346" y="379.687508" transform="rotate(-0 550.736346 379.687508)">6.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="407.806509" transform="rotate(-0 568.778413 407.806509)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="435.925509" transform="rotate(-0 568.778413 435.925509)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="464.04451" transform="rotate(-0 532.694279 464.04451)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="586.820481" y="492.163511" transform="rotate(-0 586.820481 492.163511)">7.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="568.778413" y="520.282511" transform="rotate(-0 568.778413 520.282511)">7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="514.652212" y="548.401512" transform="rotate(-0 514.652212 548.401512)">6</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="576.520513" transform="rotate(-0 532.694279 576.520513)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="514.652212" y="604.639513" transform="rotate(-0 514.652212 604.639513)">6</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="632.758514" transform="rotate(-0 532.694279 632.758514)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="532.694279" y="660.877515" transform="rotate(-0 532.694279 660.877515)">6.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="586.820481" y="688.996515" transform="rotate(-0 586.820481 688.996515)">7.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_55">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="20.121875" transform="rotate(-0 184.895 20.121875)">dvpwa: signal vs noise in findings</text>
    </g>
    <g id="findings-breakdown-dvpwa-legend_1">
     <g id="findings-breakdown-dvpwa-patch_6">
-     <path d="M 510.065 20.24 
-L 518.065 20.24 
-L 518.065 13.08 
-L 510.065 13.08 
+     <path d="M 682.865 20.24 
+L 690.865 20.24 
+L 690.865 13.08 
+L 682.865 13.08 
 z
 " style="fill: #3987e5"/>
     </g>
-    <g id="findings-breakdown-dvpwa-text_34">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="524.465" y="19.4" transform="rotate(-0 524.465 19.4)">tp</text>
+    <g id="findings-breakdown-dvpwa-text_56">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="697.265" y="19.4" transform="rotate(-0 697.265 19.4)">tp</text>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="findings-breakdown-dvpwa-p9e1cc78bf0">
-   <rect x="155.6225" y="26.121875" width="381.8575" height="337.896016"/>
+  <clipPath id="findings-breakdown-dvpwa-p173378e125">
+   <rect x="184.895" y="26.121875" width="525.385" height="674.856016"/>
   </clipPath>
  </defs>
 </svg>

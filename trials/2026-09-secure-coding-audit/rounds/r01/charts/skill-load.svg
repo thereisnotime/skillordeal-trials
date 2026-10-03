@@ -1,0 +1,898 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="612pt" viewBox="0 0 720 612" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Bars of first-turn prompt tokens minus the baseline&#x27;s, per contender">
+ <title>Bars of first-turn prompt tokens minus the baseline&#x27;s, per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="skill-load-figure_1">
+  <g id="skill-load-patch_1">
+   <path d="M 0 612 
+L 720 612 
+L 720 0 
+L 0 0 
+L 0 612 
+z
+" style="fill: none"/>
+  </g>
+  <g id="skill-load-axes_1">
+   <g id="skill-load-patch_2">
+    <path d="M 184.895 588.697891 
+L 442.7275 588.697891 
+L 442.7275 42.962344 
+L 184.895 42.962344 
+L 184.895 588.697891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="skill-load-matplotlib.axis_1">
+    <g id="skill-load-xtick_1">
+     <g id="skill-load-line2d_1">
+      <path d="M 194.444172 588.697891 
+L 194.444172 42.962344 
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_2"/>
+     <g id="skill-load-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="194.444172" y="599.035781" transform="rotate(-0 194.444172 599.035781)">0</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_2">
+     <g id="skill-load-line2d_3">
+      <path d="M 267.297831 588.697891 
+L 267.297831 42.962344 
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_4"/>
+     <g id="skill-load-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="267.297831" y="599.036484" transform="rotate(-0 267.297831 599.036484)">+15k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_3">
+     <g id="skill-load-line2d_5">
+      <path d="M 340.151491 588.697891 
+L 340.151491 42.962344 
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_6"/>
+     <g id="skill-load-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="340.151491" y="599.036484" transform="rotate(-0 340.151491 599.036484)">+30k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_4">
+     <g id="skill-load-line2d_7">
+      <path d="M 413.00515 588.697891 
+L 413.00515 42.962344 
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_8"/>
+     <g id="skill-load-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="413.00515" y="599.036484" transform="rotate(-0 413.00515 599.036484)">+45k</text>
+     </g>
+    </g>
+   </g>
+   <g id="skill-load-matplotlib.axis_2">
+    <g id="skill-load-ytick_1">
+     <g id="skill-load-line2d_9"/>
+     <g id="skill-load-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="58.245457" transform="rotate(-0 181.395 58.245457)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_2">
+     <g id="skill-load-line2d_10"/>
+     <g id="skill-load-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="81.973089" transform="rotate(-0 181.395 81.973089)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_3">
+     <g id="skill-load-line2d_11"/>
+     <g id="skill-load-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="105.700722" transform="rotate(-0 181.395 105.700722)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_4">
+     <g id="skill-load-line2d_12"/>
+     <g id="skill-load-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="129.428354" transform="rotate(-0 181.395 129.428354)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_5">
+     <g id="skill-load-line2d_13"/>
+     <g id="skill-load-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="153.155987" transform="rotate(-0 181.395 153.155987)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_6">
+     <g id="skill-load-line2d_14"/>
+     <g id="skill-load-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="176.883619" transform="rotate(-0 181.395 176.883619)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_7">
+     <g id="skill-load-line2d_15"/>
+     <g id="skill-load-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="200.611252" transform="rotate(-0 181.395 200.611252)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_8">
+     <g id="skill-load-line2d_16"/>
+     <g id="skill-load-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="224.338884" transform="rotate(-0 181.395 224.338884)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_9">
+     <g id="skill-load-line2d_17"/>
+     <g id="skill-load-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="248.066517" transform="rotate(-0 181.395 248.066517)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_10">
+     <g id="skill-load-line2d_18"/>
+     <g id="skill-load-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="271.794149" transform="rotate(-0 181.395 271.794149)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_11">
+     <g id="skill-load-line2d_19"/>
+     <g id="skill-load-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="295.521782" transform="rotate(-0 181.395 295.521782)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_12">
+     <g id="skill-load-line2d_20"/>
+     <g id="skill-load-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="319.249414" transform="rotate(-0 181.395 319.249414)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_13">
+     <g id="skill-load-line2d_21"/>
+     <g id="skill-load-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="342.977047" transform="rotate(-0 181.395 342.977047)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_14">
+     <g id="skill-load-line2d_22"/>
+     <g id="skill-load-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="366.704679" transform="rotate(-0 181.395 366.704679)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_15">
+     <g id="skill-load-line2d_23"/>
+     <g id="skill-load-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="390.432311" transform="rotate(-0 181.395 390.432311)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_16">
+     <g id="skill-load-line2d_24"/>
+     <g id="skill-load-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="414.159944" transform="rotate(-0 181.395 414.159944)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_17">
+     <g id="skill-load-line2d_25"/>
+     <g id="skill-load-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="437.887576" transform="rotate(-0 181.395 437.887576)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_18">
+     <g id="skill-load-line2d_26"/>
+     <g id="skill-load-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="461.615209" transform="rotate(-0 181.395 461.615209)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_19">
+     <g id="skill-load-line2d_27"/>
+     <g id="skill-load-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="485.342841" transform="rotate(-0 181.395 485.342841)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_20">
+     <g id="skill-load-line2d_28"/>
+     <g id="skill-load-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="509.070474" transform="rotate(-0 181.395 509.070474)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_21">
+     <g id="skill-load-line2d_29"/>
+     <g id="skill-load-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="532.798106" transform="rotate(-0 181.395 532.798106)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_22">
+     <g id="skill-load-line2d_30"/>
+     <g id="skill-load-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="556.525739" transform="rotate(-0 181.395 556.525739)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_23">
+     <g id="skill-load-line2d_31"/>
+     <g id="skill-load-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="580.253371" transform="rotate(-0 181.395 580.253371)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="skill-load-line2d_32">
+    <path d="M 194.444172 588.697891 
+L 194.444172 42.962344 
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-tip0" class="tip"><title>addyosmani-security-auditor in dvpwa: +3,948 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 48.301061 
+L 213.619255 48.301061 
+L 213.619255 61.351259 
+L 194.444172 61.351259 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip1" class="tip"><title>agamm-owasp-security in dvpwa: +7,851 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 72.028694 
+L 232.575777 72.028694 
+L 232.575777 85.078891 
+L 194.444172 85.078891 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip2" class="tip"><title>anthropic-security-auditor in dvpwa: +3,829 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 95.756326 
+L 213.041283 95.756326 
+L 213.041283 108.806524 
+L 194.444172 108.806524 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip3" class="tip"><title>cf-security-audit in dvpwa: +9,408 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 119.483958 
+L 240.137987 119.483958 
+L 240.137987 132.534156 
+L 194.444172 132.534156 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip4" class="tip"><title>claude-security-flat in dvpwa: +4,244 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 143.211591 
+L 215.056901 143.211591 
+L 215.056901 156.261789 
+L 194.444172 156.261789 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip5" class="tip"><title>claude-security-researcher in dvpwa: +4,244 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 166.939223 
+L 215.056901 166.939223 
+L 215.056901 179.989421 
+L 194.444172 179.989421 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip6" class="tip"><title>ecc-security-review in dvpwa: +7,465 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 190.666856 
+L 230.70101 190.666856 
+L 230.70101 203.717054 
+L 194.444172 203.717054 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip7" class="tip"><title>evandervecht-security-audit in dvpwa: +6,586 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 214.394488 
+L 226.431785 214.394488 
+L 226.431785 227.444686 
+L 194.444172 227.444686 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip8" class="tip"><title>every-ce-security-reviewer in dvpwa: +4,066 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 238.122121 
+L 214.192371 238.122121 
+L 214.192371 251.172319 
+L 194.444172 251.172319 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip9" class="tip"><title>gemini-security-analyze-full in dvpwa: +5,746 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 261.849753 
+L 222.35198 261.849753 
+L 222.35198 274.899951 
+L 194.444172 274.899951 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip10" class="tip"><title>github-copilot-se-security-reviewer in dvpwa: +3,718 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 285.577386 
+L 212.502166 285.577386 
+L 212.502166 298.627584 
+L 194.444172 298.627584 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip11" class="tip"><title>github-copilot-security-review in dvpwa: +5,559 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 309.305018 
+L 221.443738 309.305018 
+L 221.443738 322.355216 
+L 194.444172 322.355216 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip12" class="tip"><title>ivan-sincek-cwe-secure-code-review in dvpwa: +5,754 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 333.032651 
+L 222.390836 333.032651 
+L 222.390836 346.082849 
+L 194.444172 346.082849 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip13" class="tip"><title>neolab-security-auditor in dvpwa: +5,633 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 356.760283 
+L 221.803149 356.760283 
+L 221.803149 369.810481 
+L 194.444172 369.810481 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip14" class="tip"><title>openai-security-best-practices in dvpwa: +4,481 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 380.487916 
+L 216.207988 380.487916 
+L 216.207988 393.538114 
+L 194.444172 393.538114 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip15" class="tip"><title>samber-golang-security in dvpwa: +7,274 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 404.215548 
+L 229.77334 404.215548 
+L 229.77334 417.265746 
+L 194.444172 417.265746 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip16" class="tip"><title>sari3l-security-code-audit in dvpwa: +39,322 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 427.943181 
+L 385.427611 427.943181 
+L 385.427611 440.993378 
+L 194.444172 440.993378 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip17" class="tip"><title>sentry-code-review in dvpwa: +3,091 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 451.670813 
+L 209.456883 451.670813 
+L 209.456883 464.721011 
+L 194.444172 464.721011 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip18" class="tip"><title>sentry-security-review in dvpwa: +6,889 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 475.398446 
+L 227.903429 475.398446 
+L 227.903429 488.448643 
+L 194.444172 488.448643 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip19" class="tip"><title>sentry-then-fp-check in dvpwa: +6,889 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 499.126078 
+L 227.903429 499.126078 
+L 227.903429 512.176276 
+L 194.444172 512.176276 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip20" class="tip"><title>tob-differential-review in dvpwa: +5,020 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 522.853711 
+L 218.825863 522.853711 
+L 218.825863 535.903908 
+L 194.444172 535.903908 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip21" class="tip"><title>tob-sharp-edges in dvpwa: +6,490 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 546.581343 
+L 225.965522 546.581343 
+L 225.965522 559.631541 
+L 194.444172 559.631541 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip22" class="tip"><title>unitone-secure-code-review in dvpwa: +12,756 first-turn prompt tokens vs baseline</title>
+    <path d="M 194.444172 570.308975 
+L 256.398924 570.308975 
+L 256.398924 583.359173 
+L 194.444172 583.359173 
+z
+" clip-path="url(#skill-load-p6d388bae25)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-patch_3">
+    <path d="M 184.895 588.697891 
+L 184.895 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-patch_4">
+    <path d="M 184.895 588.697891 
+L 442.7275 588.697891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-text_28">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="218.619255" y="56.904285" transform="rotate(-0 218.619255 56.904285)">+3,948</text>
+   </g>
+   <g id="skill-load-text_29">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="237.575777" y="80.631917" transform="rotate(-0 237.575777 80.631917)">+7,851</text>
+   </g>
+   <g id="skill-load-text_30">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="218.041283" y="104.35955" transform="rotate(-0 218.041283 104.35955)">+3,829</text>
+   </g>
+   <g id="skill-load-text_31">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="245.137987" y="128.087182" transform="rotate(-0 245.137987 128.087182)">+9,408</text>
+   </g>
+   <g id="skill-load-text_32">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="220.056901" y="151.814815" transform="rotate(-0 220.056901 151.814815)">+4,244</text>
+   </g>
+   <g id="skill-load-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="220.056901" y="175.542447" transform="rotate(-0 220.056901 175.542447)">+4,244</text>
+   </g>
+   <g id="skill-load-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="235.70101" y="199.27008" transform="rotate(-0 235.70101 199.27008)">+7,465</text>
+   </g>
+   <g id="skill-load-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="231.431785" y="222.997712" transform="rotate(-0 231.431785 222.997712)">+6,586</text>
+   </g>
+   <g id="skill-load-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="219.192371" y="246.725345" transform="rotate(-0 219.192371 246.725345)">+4,066</text>
+   </g>
+   <g id="skill-load-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="227.35198" y="270.452977" transform="rotate(-0 227.35198 270.452977)">+5,746</text>
+   </g>
+   <g id="skill-load-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="217.502166" y="294.18061" transform="rotate(-0 217.502166 294.18061)">+3,718</text>
+   </g>
+   <g id="skill-load-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="226.443738" y="317.908242" transform="rotate(-0 226.443738 317.908242)">+5,559</text>
+   </g>
+   <g id="skill-load-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="227.390836" y="341.635875" transform="rotate(-0 227.390836 341.635875)">+5,754</text>
+   </g>
+   <g id="skill-load-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="226.803149" y="365.363507" transform="rotate(-0 226.803149 365.363507)">+5,633</text>
+   </g>
+   <g id="skill-load-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="221.207988" y="389.09114" transform="rotate(-0 221.207988 389.09114)">+4,481</text>
+   </g>
+   <g id="skill-load-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="234.77334" y="412.818772" transform="rotate(-0 234.77334 412.818772)">+7,274</text>
+   </g>
+   <g id="skill-load-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="390.427611" y="436.546405" transform="rotate(-0 390.427611 436.546405)">+39,322</text>
+   </g>
+   <g id="skill-load-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="214.456883" y="460.274037" transform="rotate(-0 214.456883 460.274037)">+3,091</text>
+   </g>
+   <g id="skill-load-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="232.903429" y="484.001669" transform="rotate(-0 232.903429 484.001669)">+6,889</text>
+   </g>
+   <g id="skill-load-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="232.903429" y="507.729302" transform="rotate(-0 232.903429 507.729302)">+6,889</text>
+   </g>
+   <g id="skill-load-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="223.825863" y="531.456934" transform="rotate(-0 223.825863 531.456934)">+5,020</text>
+   </g>
+   <g id="skill-load-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="230.965522" y="555.184567" transform="rotate(-0 230.965522 555.184567)">+6,490</text>
+   </g>
+   <g id="skill-load-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="261.398924" y="578.912199" transform="rotate(-0 261.398924 578.912199)">+12,756</text>
+   </g>
+   <g id="skill-load-text_51">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">dvpwa (baseline 6,874 tokens)</text>
+   </g>
+  </g>
+  <g id="skill-load-axes_2">
+   <g id="skill-load-patch_5">
+    <path d="M 452.4475 588.697891 
+L 710.28 588.697891 
+L 710.28 42.962344 
+L 452.4475 42.962344 
+L 452.4475 588.697891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="skill-load-matplotlib.axis_3">
+    <g id="skill-load-xtick_5">
+     <g id="skill-load-line2d_33">
+      <path d="M 461.996672 588.697891 
+L 461.996672 42.962344 
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_34"/>
+     <g id="skill-load-text_52">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="461.996672" y="599.035781" transform="rotate(-0 461.996672 599.035781)">0</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_6">
+     <g id="skill-load-line2d_35">
+      <path d="M 534.835513 588.697891 
+L 534.835513 42.962344 
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_36"/>
+     <g id="skill-load-text_53">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="534.835513" y="599.036484" transform="rotate(-0 534.835513 599.036484)">+15k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_7">
+     <g id="skill-load-line2d_37">
+      <path d="M 607.674353 588.697891 
+L 607.674353 42.962344 
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_38"/>
+     <g id="skill-load-text_54">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="607.674353" y="599.036484" transform="rotate(-0 607.674353 599.036484)">+30k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_8">
+     <g id="skill-load-line2d_39">
+      <path d="M 680.513194 588.697891 
+L 680.513194 42.962344 
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_40"/>
+     <g id="skill-load-text_55">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="680.513194" y="599.036484" transform="rotate(-0 680.513194 599.036484)">+45k</text>
+     </g>
+    </g>
+   </g>
+   <g id="skill-load-matplotlib.axis_4">
+    <g id="skill-load-ytick_24">
+     <g id="skill-load-line2d_41"/>
+    </g>
+    <g id="skill-load-ytick_25">
+     <g id="skill-load-line2d_42"/>
+    </g>
+    <g id="skill-load-ytick_26">
+     <g id="skill-load-line2d_43"/>
+    </g>
+    <g id="skill-load-ytick_27">
+     <g id="skill-load-line2d_44"/>
+    </g>
+    <g id="skill-load-ytick_28">
+     <g id="skill-load-line2d_45"/>
+    </g>
+    <g id="skill-load-ytick_29">
+     <g id="skill-load-line2d_46"/>
+    </g>
+    <g id="skill-load-ytick_30">
+     <g id="skill-load-line2d_47"/>
+    </g>
+    <g id="skill-load-ytick_31">
+     <g id="skill-load-line2d_48"/>
+    </g>
+    <g id="skill-load-ytick_32">
+     <g id="skill-load-line2d_49"/>
+    </g>
+    <g id="skill-load-ytick_33">
+     <g id="skill-load-line2d_50"/>
+    </g>
+    <g id="skill-load-ytick_34">
+     <g id="skill-load-line2d_51"/>
+    </g>
+    <g id="skill-load-ytick_35">
+     <g id="skill-load-line2d_52"/>
+    </g>
+    <g id="skill-load-ytick_36">
+     <g id="skill-load-line2d_53"/>
+    </g>
+    <g id="skill-load-ytick_37">
+     <g id="skill-load-line2d_54"/>
+    </g>
+    <g id="skill-load-ytick_38">
+     <g id="skill-load-line2d_55"/>
+    </g>
+    <g id="skill-load-ytick_39">
+     <g id="skill-load-line2d_56"/>
+    </g>
+    <g id="skill-load-ytick_40">
+     <g id="skill-load-line2d_57"/>
+    </g>
+    <g id="skill-load-ytick_41">
+     <g id="skill-load-line2d_58"/>
+    </g>
+    <g id="skill-load-ytick_42">
+     <g id="skill-load-line2d_59"/>
+    </g>
+    <g id="skill-load-ytick_43">
+     <g id="skill-load-line2d_60"/>
+    </g>
+    <g id="skill-load-ytick_44">
+     <g id="skill-load-line2d_61"/>
+    </g>
+    <g id="skill-load-ytick_45">
+     <g id="skill-load-line2d_62"/>
+    </g>
+    <g id="skill-load-ytick_46">
+     <g id="skill-load-line2d_63"/>
+    </g>
+   </g>
+   <g id="skill-load-line2d_64">
+    <path d="M 461.996672 588.697891 
+L 461.996672 42.962344 
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-tip23" class="tip"><title>addyosmani-security-auditor in warpgate-operator: +3,956 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 48.301061 
+L 481.206702 48.301061 
+L 481.206702 61.351259 
+L 461.996672 61.351259 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip24" class="tip"><title>agamm-owasp-security in warpgate-operator: +7,859 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 72.028694 
+L 500.159369 72.028694 
+L 500.159369 85.078891 
+L 461.996672 85.078891 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip25" class="tip"><title>anthropic-security-auditor in warpgate-operator: +3,837 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 95.756326 
+L 480.628847 95.756326 
+L 480.628847 108.806524 
+L 461.996672 108.806524 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip26" class="tip"><title>cf-security-audit in warpgate-operator: +9,416 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 119.483958 
+L 507.72004 119.483958 
+L 507.72004 132.534156 
+L 461.996672 132.534156 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip27" class="tip"><title>claude-security-flat in warpgate-operator: +4,252 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 143.211591 
+L 482.644055 143.211591 
+L 482.644055 156.261789 
+L 461.996672 156.261789 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip28" class="tip"><title>claude-security-researcher in warpgate-operator: +4,252 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 166.939223 
+L 482.644055 166.939223 
+L 482.644055 179.989421 
+L 461.996672 179.989421 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip29" class="tip"><title>ecc-security-review in warpgate-operator: +7,473 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 190.666856 
+L 498.284982 190.666856 
+L 498.284982 203.717054 
+L 461.996672 203.717054 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip30" class="tip"><title>evandervecht-security-audit in warpgate-operator: +6,594 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 214.394488 
+L 494.016626 214.394488 
+L 494.016626 227.444686 
+L 461.996672 227.444686 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip31" class="tip"><title>every-ce-security-reviewer in warpgate-operator: +4,074 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 238.122121 
+L 481.779701 238.122121 
+L 481.779701 251.172319 
+L 461.996672 251.172319 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip32" class="tip"><title>gemini-security-analyze-full in warpgate-operator: +5,754 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 261.849753 
+L 489.937651 261.849753 
+L 489.937651 274.899951 
+L 461.996672 274.899951 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip33" class="tip"><title>github-copilot-se-security-reviewer in warpgate-operator: +3,726 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 285.577386 
+L 480.08984 285.577386 
+L 480.08984 298.627584 
+L 461.996672 298.627584 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip34" class="tip"><title>github-copilot-security-review in warpgate-operator: +5,567 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 309.305018 
+L 489.029594 309.305018 
+L 489.029594 322.355216 
+L 461.996672 322.355216 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip35" class="tip"><title>ivan-sincek-cwe-secure-code-review in warpgate-operator: +5,762 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 333.032651 
+L 489.976499 333.032651 
+L 489.976499 346.082849 
+L 461.996672 346.082849 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip36" class="tip"><title>neolab-security-auditor in warpgate-operator: +5,641 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 356.760283 
+L 489.388932 356.760283 
+L 489.388932 369.810481 
+L 461.996672 369.810481 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip37" class="tip"><title>openai-security-best-practices in warpgate-operator: +4,489 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 380.487916 
+L 483.794909 380.487916 
+L 483.794909 393.538114 
+L 461.996672 393.538114 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip38" class="tip"><title>samber-golang-security in warpgate-operator: +7,282 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 404.215548 
+L 497.357501 404.215548 
+L 497.357501 417.265746 
+L 461.996672 417.265746 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip39" class="tip"><title>sari3l-security-code-audit in warpgate-operator: +39,330 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 427.943181 
+L 652.980112 427.943181 
+L 652.980112 440.993378 
+L 461.996672 440.993378 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip40" class="tip"><title>sentry-code-review in warpgate-operator: +3,099 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 451.670813 
+L 477.045176 451.670813 
+L 477.045176 464.721011 
+L 461.996672 464.721011 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip41" class="tip"><title>sentry-security-review in warpgate-operator: +6,897 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 475.398446 
+L 495.487971 475.398446 
+L 495.487971 488.448643 
+L 461.996672 488.448643 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip42" class="tip"><title>sentry-then-fp-check in warpgate-operator: +6,897 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 499.126078 
+L 495.487971 499.126078 
+L 495.487971 512.176276 
+L 461.996672 512.176276 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip43" class="tip"><title>tob-differential-review in warpgate-operator: +5,028 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 522.853711 
+L 486.412251 522.853711 
+L 486.412251 535.903908 
+L 461.996672 535.903908 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip44" class="tip"><title>tob-sharp-edges in warpgate-operator: +6,498 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 546.581343 
+L 493.550458 546.581343 
+L 493.550458 559.631541 
+L 461.996672 559.631541 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip45" class="tip"><title>unitone-secure-code-review in warpgate-operator: +12,764 first-turn prompt tokens vs baseline</title>
+    <path d="M 461.996672 570.308975 
+L 523.977669 570.308975 
+L 523.977669 583.359173 
+L 461.996672 583.359173 
+z
+" clip-path="url(#skill-load-p16bcf908b6)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-patch_6">
+    <path d="M 452.4475 588.697891 
+L 452.4475 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-patch_7">
+    <path d="M 452.4475 588.697891 
+L 710.28 588.697891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="486.206702" y="56.904285" transform="rotate(-0 486.206702 56.904285)">+3,956</text>
+   </g>
+   <g id="skill-load-text_57">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="505.159369" y="80.631917" transform="rotate(-0 505.159369 80.631917)">+7,859</text>
+   </g>
+   <g id="skill-load-text_58">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="485.628847" y="104.35955" transform="rotate(-0 485.628847 104.35955)">+3,837</text>
+   </g>
+   <g id="skill-load-text_59">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="512.72004" y="128.087182" transform="rotate(-0 512.72004 128.087182)">+9,416</text>
+   </g>
+   <g id="skill-load-text_60">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="487.644055" y="151.814815" transform="rotate(-0 487.644055 151.814815)">+4,252</text>
+   </g>
+   <g id="skill-load-text_61">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="487.644055" y="175.542447" transform="rotate(-0 487.644055 175.542447)">+4,252</text>
+   </g>
+   <g id="skill-load-text_62">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.284982" y="199.27008" transform="rotate(-0 503.284982 199.27008)">+7,473</text>
+   </g>
+   <g id="skill-load-text_63">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="499.016626" y="222.997712" transform="rotate(-0 499.016626 222.997712)">+6,594</text>
+   </g>
+   <g id="skill-load-text_64">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="486.779701" y="246.725345" transform="rotate(-0 486.779701 246.725345)">+4,074</text>
+   </g>
+   <g id="skill-load-text_65">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.937651" y="270.452977" transform="rotate(-0 494.937651 270.452977)">+5,754</text>
+   </g>
+   <g id="skill-load-text_66">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="485.08984" y="294.18061" transform="rotate(-0 485.08984 294.18061)">+3,726</text>
+   </g>
+   <g id="skill-load-text_67">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.029594" y="317.908242" transform="rotate(-0 494.029594 317.908242)">+5,567</text>
+   </g>
+   <g id="skill-load-text_68">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.976499" y="341.635875" transform="rotate(-0 494.976499 341.635875)">+5,762</text>
+   </g>
+   <g id="skill-load-text_69">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.388932" y="365.363507" transform="rotate(-0 494.388932 365.363507)">+5,641</text>
+   </g>
+   <g id="skill-load-text_70">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.794909" y="389.09114" transform="rotate(-0 488.794909 389.09114)">+4,489</text>
+   </g>
+   <g id="skill-load-text_71">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="502.357501" y="412.818772" transform="rotate(-0 502.357501 412.818772)">+7,282</text>
+   </g>
+   <g id="skill-load-text_72">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="657.980112" y="436.546405" transform="rotate(-0 657.980112 436.546405)">+39,330</text>
+   </g>
+   <g id="skill-load-text_73">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="482.045176" y="460.274037" transform="rotate(-0 482.045176 460.274037)">+3,099</text>
+   </g>
+   <g id="skill-load-text_74">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="500.487971" y="484.001669" transform="rotate(-0 500.487971 484.001669)">+6,897</text>
+   </g>
+   <g id="skill-load-text_75">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="500.487971" y="507.729302" transform="rotate(-0 500.487971 507.729302)">+6,897</text>
+   </g>
+   <g id="skill-load-text_76">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="491.412251" y="531.456934" transform="rotate(-0 491.412251 531.456934)">+5,028</text>
+   </g>
+   <g id="skill-load-text_77">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="498.550458" y="555.184567" transform="rotate(-0 498.550458 555.184567)">+6,498</text>
+   </g>
+   <g id="skill-load-text_78">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="528.977669" y="578.912199" transform="rotate(-0 528.977669 578.912199)">+12,764</text>
+   </g>
+   <g id="skill-load-text_79">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="452.4475" y="36.962344" transform="rotate(-0 452.4475 36.962344)">warpgate-operator (baseline 6,882 tokens)</text>
+   </g>
+  </g>
+  <g id="skill-load-text_80">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="19.838438" transform="rotate(-0 7.2 19.838438)">Did the skill load? First-turn prompt tokens minus the baseline's</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="skill-load-p6d388bae25">
+   <rect x="184.895" y="42.962344" width="257.8325" height="545.735547"/>
+  </clipPath>
+  <clipPath id="skill-load-p16bcf908b6">
+   <rect x="452.4475" y="42.962344" width="257.8325" height="545.735547"/>
+  </clipPath>
+ </defs>
+</svg>

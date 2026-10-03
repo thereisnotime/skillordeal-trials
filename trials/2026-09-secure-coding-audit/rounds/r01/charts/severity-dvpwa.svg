@@ -1,0 +1,1116 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="695.52pt" viewBox="0 0 720 695.52" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by severity in dvpwa">
+ <title>Stacked bars of findings per contender by severity in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="severity-dvpwa-figure_1">
+  <g id="severity-dvpwa-patch_1">
+   <path d="M 0 695.52 
+L 720 695.52 
+L 720 0 
+L 0 0 
+L 0 695.52 
+z
+" style="fill: none"/>
+  </g>
+  <g id="severity-dvpwa-axes_1">
+   <g id="severity-dvpwa-patch_2">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+L 710.28 41.64 
+L 184.895 41.64 
+L 184.895 659.217891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="severity-dvpwa-matplotlib.axis_1">
+    <g id="severity-dvpwa-xtick_1">
+     <g id="severity-dvpwa-line2d_1"/>
+     <g id="severity-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="669.555781" transform="rotate(-0 184.895 669.555781)">0</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-xtick_2">
+     <g id="severity-dvpwa-line2d_2"/>
+     <g id="severity-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="295.115629" y="669.555781" transform="rotate(-0 295.115629 669.555781)">2</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-xtick_3">
+     <g id="severity-dvpwa-line2d_3"/>
+     <g id="severity-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="405.336259" y="669.555781" transform="rotate(-0 405.336259 669.555781)">4</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-xtick_4">
+     <g id="severity-dvpwa-line2d_4"/>
+     <g id="severity-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="515.556888" y="669.555781" transform="rotate(-0 515.556888 669.555781)">6</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-xtick_5">
+     <g id="severity-dvpwa-line2d_5"/>
+     <g id="severity-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="625.777517" y="669.555781" transform="rotate(-0 625.777517 669.555781)">8</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-text_6">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="682.556484" transform="rotate(-0 447.5875 682.556484)">mean findings per ok bout, by the severity the agent assigned</text>
+    </g>
+   </g>
+   <g id="severity-dvpwa-matplotlib.axis_2">
+    <g id="severity-dvpwa-ytick_1">
+     <g id="severity-dvpwa-line2d_6"/>
+     <g id="severity-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="57.925503" transform="rotate(-0 181.395 57.925503)">baseline</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_2">
+     <g id="severity-dvpwa-line2d_7"/>
+     <g id="severity-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="83.657915" transform="rotate(-0 181.395 83.657915)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_3">
+     <g id="severity-dvpwa-line2d_8"/>
+     <g id="severity-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="109.390327" transform="rotate(-0 181.395 109.390327)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_4">
+     <g id="severity-dvpwa-line2d_9"/>
+     <g id="severity-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="135.122739" transform="rotate(-0 181.395 135.122739)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_5">
+     <g id="severity-dvpwa-line2d_10"/>
+     <g id="severity-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="160.855151" transform="rotate(-0 181.395 160.855151)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_6">
+     <g id="severity-dvpwa-line2d_11"/>
+     <g id="severity-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="186.587563" transform="rotate(-0 181.395 186.587563)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_7">
+     <g id="severity-dvpwa-line2d_12"/>
+     <g id="severity-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.319976" transform="rotate(-0 181.395 212.319976)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_8">
+     <g id="severity-dvpwa-line2d_13"/>
+     <g id="severity-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="238.052388" transform="rotate(-0 181.395 238.052388)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_9">
+     <g id="severity-dvpwa-line2d_14"/>
+     <g id="severity-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="263.7848" transform="rotate(-0 181.395 263.7848)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_10">
+     <g id="severity-dvpwa-line2d_15"/>
+     <g id="severity-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="289.517212" transform="rotate(-0 181.395 289.517212)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_11">
+     <g id="severity-dvpwa-line2d_16"/>
+     <g id="severity-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.249624" transform="rotate(-0 181.395 315.249624)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_12">
+     <g id="severity-dvpwa-line2d_17"/>
+     <g id="severity-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="340.982036" transform="rotate(-0 181.395 340.982036)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_13">
+     <g id="severity-dvpwa-line2d_18"/>
+     <g id="severity-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="366.714448" transform="rotate(-0 181.395 366.714448)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_14">
+     <g id="severity-dvpwa-line2d_19"/>
+     <g id="severity-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="392.44686" transform="rotate(-0 181.395 392.44686)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_15">
+     <g id="severity-dvpwa-line2d_20"/>
+     <g id="severity-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="418.179272" transform="rotate(-0 181.395 418.179272)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_16">
+     <g id="severity-dvpwa-line2d_21"/>
+     <g id="severity-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="443.911685" transform="rotate(-0 181.395 443.911685)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_17">
+     <g id="severity-dvpwa-line2d_22"/>
+     <g id="severity-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="469.644097" transform="rotate(-0 181.395 469.644097)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_18">
+     <g id="severity-dvpwa-line2d_23"/>
+     <g id="severity-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="495.376509" transform="rotate(-0 181.395 495.376509)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_19">
+     <g id="severity-dvpwa-line2d_24"/>
+     <g id="severity-dvpwa-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="521.108921" transform="rotate(-0 181.395 521.108921)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_20">
+     <g id="severity-dvpwa-line2d_25"/>
+     <g id="severity-dvpwa-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="546.841333" transform="rotate(-0 181.395 546.841333)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_21">
+     <g id="severity-dvpwa-line2d_26"/>
+     <g id="severity-dvpwa-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.573745" transform="rotate(-0 181.395 572.573745)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_22">
+     <g id="severity-dvpwa-line2d_27"/>
+     <g id="severity-dvpwa-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="598.306157" transform="rotate(-0 181.395 598.306157)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_23">
+     <g id="severity-dvpwa-line2d_28"/>
+     <g id="severity-dvpwa-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="624.038569" transform="rotate(-0 181.395 624.038569)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="severity-dvpwa-ytick_24">
+     <g id="severity-dvpwa-line2d_29"/>
+     <g id="severity-dvpwa-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="649.770981" transform="rotate(-0 181.395 649.770981)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="severity-dvpwa-tip0" class="tip"><title>baseline: 1 critical findings per bout</title>
+    <path d="M 184.895 47.429793 
+L 238.094824 47.429793 
+L 238.094824 61.582619 
+L 184.895 61.582619 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip1" class="tip"><title>baseline: 2.7 high findings per bout</title>
+    <path d="M 240.005315 47.429793 
+L 385.055663 47.429793 
+L 385.055663 61.582619 
+L 240.005315 61.582619 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip2" class="tip"><title>baseline: 2 medium findings per bout</title>
+    <path d="M 386.966154 47.429793 
+L 495.276292 47.429793 
+L 495.276292 61.582619 
+L 386.966154 61.582619 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip3" class="tip"><title>baseline: 0.3 low findings per bout</title>
+    <path d="M 497.186783 47.429793 
+L 513.646397 47.429793 
+L 513.646397 61.582619 
+L 497.186783 61.582619 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip4" class="tip"><title>addyosmani-security-auditor: 1 critical findings per bout</title>
+    <path d="M 184.895 73.162205 
+L 238.094824 73.162205 
+L 238.094824 87.315031 
+L 184.895 87.315031 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip5" class="tip"><title>addyosmani-security-auditor: 3.3 high findings per bout</title>
+    <path d="M 240.005315 73.162205 
+L 421.795873 73.162205 
+L 421.795873 87.315031 
+L 240.005315 87.315031 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip6" class="tip"><title>addyosmani-security-auditor: 2 medium findings per bout</title>
+    <path d="M 423.706364 73.162205 
+L 532.016502 73.162205 
+L 532.016502 87.315031 
+L 423.706364 87.315031 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip7" class="tip"><title>addyosmani-security-auditor: 1 low findings per bout</title>
+    <path d="M 533.926993 73.162205 
+L 587.126817 73.162205 
+L 587.126817 87.315031 
+L 533.926993 87.315031 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip8" class="tip"><title>agamm-owasp-security: 1 critical findings per bout</title>
+    <path d="M 184.895 98.894617 
+L 238.094824 98.894617 
+L 238.094824 113.047444 
+L 184.895 113.047444 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip9" class="tip"><title>agamm-owasp-security: 4 high findings per bout</title>
+    <path d="M 240.005315 98.894617 
+L 458.536083 98.894617 
+L 458.536083 113.047444 
+L 240.005315 113.047444 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip10" class="tip"><title>agamm-owasp-security: 1.3 medium findings per bout</title>
+    <path d="M 460.446573 98.894617 
+L 532.016502 98.894617 
+L 532.016502 113.047444 
+L 460.446573 113.047444 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip11" class="tip"><title>agamm-owasp-security: 1.3 low findings per bout</title>
+    <path d="M 533.926993 98.894617 
+L 605.496922 98.894617 
+L 605.496922 113.047444 
+L 533.926993 113.047444 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip12" class="tip"><title>anthropic-security-auditor: 1 critical findings per bout</title>
+    <path d="M 184.895 124.627029 
+L 238.094824 124.627029 
+L 238.094824 138.779856 
+L 184.895 138.779856 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip13" class="tip"><title>anthropic-security-auditor: 3.7 high findings per bout</title>
+    <path d="M 240.005315 124.627029 
+L 440.165978 124.627029 
+L 440.165978 138.779856 
+L 240.005315 138.779856 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip14" class="tip"><title>anthropic-security-auditor: 2 medium findings per bout</title>
+    <path d="M 442.076469 124.627029 
+L 550.386607 124.627029 
+L 550.386607 138.779856 
+L 442.076469 138.779856 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip15" class="tip"><title>anthropic-security-auditor: 2 low findings per bout</title>
+    <path d="M 552.297098 124.627029 
+L 660.607236 124.627029 
+L 660.607236 138.779856 
+L 552.297098 138.779856 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip16" class="tip"><title>cf-security-audit: 1 critical findings per bout</title>
+    <path d="M 184.895 150.359441 
+L 238.094824 150.359441 
+L 238.094824 164.512268 
+L 184.895 164.512268 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip17" class="tip"><title>cf-security-audit: 2 high findings per bout</title>
+    <path d="M 240.005315 150.359441 
+L 348.315453 150.359441 
+L 348.315453 164.512268 
+L 240.005315 164.512268 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip18" class="tip"><title>cf-security-audit: 3 medium findings per bout</title>
+    <path d="M 350.225944 150.359441 
+L 513.646397 150.359441 
+L 513.646397 164.512268 
+L 350.225944 164.512268 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip19" class="tip"><title>cf-security-audit: 0.3 low findings per bout</title>
+    <path d="M 515.556888 150.359441 
+L 532.016502 150.359441 
+L 532.016502 164.512268 
+L 515.556888 164.512268 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip20" class="tip"><title>claude-security-flat: 1 critical findings per bout</title>
+    <path d="M 184.895 176.091853 
+L 238.094824 176.091853 
+L 238.094824 190.24468 
+L 184.895 190.24468 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip21" class="tip"><title>claude-security-flat: 1 high findings per bout</title>
+    <path d="M 240.005315 176.091853 
+L 293.205138 176.091853 
+L 293.205138 190.24468 
+L 240.005315 190.24468 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip22" class="tip"><title>claude-security-flat: 3 medium findings per bout</title>
+    <path d="M 295.115629 176.091853 
+L 458.536083 176.091853 
+L 458.536083 190.24468 
+L 295.115629 190.24468 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip23" class="tip"><title>claude-security-flat: 0.3 low findings per bout</title>
+    <path d="M 460.446573 176.091853 
+L 476.906187 176.091853 
+L 476.906187 190.24468 
+L 460.446573 190.24468 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip24" class="tip"><title>claude-security-researcher: 1 critical findings per bout</title>
+    <path d="M 184.895 201.824265 
+L 238.094824 201.824265 
+L 238.094824 215.977092 
+L 184.895 215.977092 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip25" class="tip"><title>claude-security-researcher: 1.7 high findings per bout</title>
+    <path d="M 240.005315 201.824265 
+L 329.945348 201.824265 
+L 329.945348 215.977092 
+L 240.005315 215.977092 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip26" class="tip"><title>claude-security-researcher: 3 medium findings per bout</title>
+    <path d="M 331.855839 201.824265 
+L 495.276292 201.824265 
+L 495.276292 215.977092 
+L 331.855839 215.977092 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip27" class="tip"><title>claude-security-researcher: 0.7 low findings per bout</title>
+    <path d="M 497.186783 201.824265 
+L 532.016502 201.824265 
+L 532.016502 215.977092 
+L 497.186783 215.977092 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip28" class="tip"><title>ecc-security-review: 1 critical findings per bout</title>
+    <path d="M 184.895 227.556677 
+L 238.094824 227.556677 
+L 238.094824 241.709504 
+L 184.895 241.709504 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip29" class="tip"><title>ecc-security-review: 3.7 high findings per bout</title>
+    <path d="M 240.005315 227.556677 
+L 440.165978 227.556677 
+L 440.165978 241.709504 
+L 240.005315 241.709504 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip30" class="tip"><title>ecc-security-review: 1.3 medium findings per bout</title>
+    <path d="M 442.076469 227.556677 
+L 513.646397 227.556677 
+L 513.646397 241.709504 
+L 442.076469 241.709504 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip31" class="tip"><title>ecc-security-review: 0.7 low findings per bout</title>
+    <path d="M 515.556888 227.556677 
+L 550.386607 227.556677 
+L 550.386607 241.709504 
+L 515.556888 241.709504 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip32" class="tip"><title>evandervecht-security-audit: 1 critical findings per bout</title>
+    <path d="M 184.895 253.28909 
+L 238.094824 253.28909 
+L 238.094824 267.441916 
+L 184.895 267.441916 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip33" class="tip"><title>evandervecht-security-audit: 3 high findings per bout</title>
+    <path d="M 240.005315 253.28909 
+L 403.425768 253.28909 
+L 403.425768 267.441916 
+L 240.005315 267.441916 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip34" class="tip"><title>evandervecht-security-audit: 2 medium findings per bout</title>
+    <path d="M 405.336259 253.28909 
+L 513.646397 253.28909 
+L 513.646397 267.441916 
+L 405.336259 267.441916 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip35" class="tip"><title>evandervecht-security-audit: 1 low findings per bout</title>
+    <path d="M 515.556888 253.28909 
+L 568.756712 253.28909 
+L 568.756712 267.441916 
+L 515.556888 267.441916 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip36" class="tip"><title>every-ce-security-reviewer: 1 critical findings per bout</title>
+    <path d="M 184.895 279.021502 
+L 238.094824 279.021502 
+L 238.094824 293.174328 
+L 184.895 293.174328 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip37" class="tip"><title>every-ce-security-reviewer: 3 high findings per bout</title>
+    <path d="M 240.005315 279.021502 
+L 403.425768 279.021502 
+L 403.425768 293.174328 
+L 240.005315 293.174328 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip38" class="tip"><title>every-ce-security-reviewer: 2 medium findings per bout</title>
+    <path d="M 405.336259 279.021502 
+L 513.646397 279.021502 
+L 513.646397 293.174328 
+L 405.336259 293.174328 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip39" class="tip"><title>every-ce-security-reviewer: 1 low findings per bout</title>
+    <path d="M 515.556888 279.021502 
+L 568.756712 279.021502 
+L 568.756712 293.174328 
+L 515.556888 293.174328 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip40" class="tip"><title>gemini-security-analyze-full: 1 critical findings per bout</title>
+    <path d="M 184.895 304.753914 
+L 238.094824 304.753914 
+L 238.094824 318.90674 
+L 184.895 318.90674 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip41" class="tip"><title>gemini-security-analyze-full: 3 high findings per bout</title>
+    <path d="M 240.005315 304.753914 
+L 403.425768 304.753914 
+L 403.425768 318.90674 
+L 240.005315 318.90674 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip42" class="tip"><title>gemini-security-analyze-full: 1.3 medium findings per bout</title>
+    <path d="M 405.336259 304.753914 
+L 476.906187 304.753914 
+L 476.906187 318.90674 
+L 405.336259 318.90674 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip43" class="tip"><title>gemini-security-analyze-full: 1 low findings per bout</title>
+    <path d="M 478.816678 304.753914 
+L 532.016502 304.753914 
+L 532.016502 318.90674 
+L 478.816678 318.90674 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip44" class="tip"><title>github-copilot-se-security-reviewer: 1 critical findings per bout</title>
+    <path d="M 184.895 330.486326 
+L 238.094824 330.486326 
+L 238.094824 344.639153 
+L 184.895 344.639153 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip45" class="tip"><title>github-copilot-se-security-reviewer: 3.7 high findings per bout</title>
+    <path d="M 240.005315 330.486326 
+L 440.165978 330.486326 
+L 440.165978 344.639153 
+L 240.005315 344.639153 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip46" class="tip"><title>github-copilot-se-security-reviewer: 1.3 medium findings per bout</title>
+    <path d="M 442.076469 330.486326 
+L 513.646397 330.486326 
+L 513.646397 344.639153 
+L 442.076469 344.639153 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip47" class="tip"><title>github-copilot-se-security-reviewer: 1 low findings per bout</title>
+    <path d="M 515.556888 330.486326 
+L 568.756712 330.486326 
+L 568.756712 344.639153 
+L 515.556888 344.639153 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip48" class="tip"><title>github-copilot-security-review: 1 critical findings per bout</title>
+    <path d="M 184.895 356.218738 
+L 238.094824 356.218738 
+L 238.094824 370.371565 
+L 184.895 370.371565 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip49" class="tip"><title>github-copilot-security-review: 2.3 high findings per bout</title>
+    <path d="M 240.005315 356.218738 
+L 366.685558 356.218738 
+L 366.685558 370.371565 
+L 240.005315 370.371565 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip50" class="tip"><title>github-copilot-security-review: 2.7 medium findings per bout</title>
+    <path d="M 368.596049 356.218738 
+L 513.646397 356.218738 
+L 513.646397 370.371565 
+L 368.596049 370.371565 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip51" class="tip"><title>github-copilot-security-review: 0.7 low findings per bout</title>
+    <path d="M 515.556888 356.218738 
+L 550.386607 356.218738 
+L 550.386607 370.371565 
+L 515.556888 370.371565 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1 critical findings per bout</title>
+    <path d="M 184.895 381.95115 
+L 238.094824 381.95115 
+L 238.094824 396.103977 
+L 184.895 396.103977 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review: 2.7 high findings per bout</title>
+    <path d="M 240.005315 381.95115 
+L 385.055663 381.95115 
+L 385.055663 396.103977 
+L 240.005315 396.103977 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review: 2.3 medium findings per bout</title>
+    <path d="M 386.966154 381.95115 
+L 513.646397 381.95115 
+L 513.646397 396.103977 
+L 386.966154 396.103977 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1 low findings per bout</title>
+    <path d="M 515.556888 381.95115 
+L 568.756712 381.95115 
+L 568.756712 396.103977 
+L 515.556888 396.103977 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip56" class="tip"><title>neolab-security-auditor: 1 critical findings per bout</title>
+    <path d="M 184.895 407.683562 
+L 238.094824 407.683562 
+L 238.094824 421.836389 
+L 184.895 421.836389 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip57" class="tip"><title>neolab-security-auditor: 4 high findings per bout</title>
+    <path d="M 240.005315 407.683562 
+L 458.536083 407.683562 
+L 458.536083 421.836389 
+L 240.005315 421.836389 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip58" class="tip"><title>neolab-security-auditor: 1 medium findings per bout</title>
+    <path d="M 460.446573 407.683562 
+L 513.646397 407.683562 
+L 513.646397 421.836389 
+L 460.446573 421.836389 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip59" class="tip"><title>neolab-security-auditor: 1 low findings per bout</title>
+    <path d="M 515.556888 407.683562 
+L 568.756712 407.683562 
+L 568.756712 421.836389 
+L 515.556888 421.836389 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip60" class="tip"><title>openai-security-best-practices: 1 critical findings per bout</title>
+    <path d="M 184.895 433.415974 
+L 238.094824 433.415974 
+L 238.094824 447.568801 
+L 184.895 447.568801 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip61" class="tip"><title>openai-security-best-practices: 3.3 high findings per bout</title>
+    <path d="M 240.005315 433.415974 
+L 421.795873 433.415974 
+L 421.795873 447.568801 
+L 240.005315 447.568801 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip62" class="tip"><title>openai-security-best-practices: 1 medium findings per bout</title>
+    <path d="M 423.706364 433.415974 
+L 476.906187 433.415974 
+L 476.906187 447.568801 
+L 423.706364 447.568801 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip63" class="tip"><title>openai-security-best-practices: 1 low findings per bout</title>
+    <path d="M 478.816678 433.415974 
+L 532.016502 433.415974 
+L 532.016502 447.568801 
+L 478.816678 447.568801 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip64" class="tip"><title>samber-golang-security: 1 critical findings per bout</title>
+    <path d="M 184.895 459.148386 
+L 238.094824 459.148386 
+L 238.094824 473.301213 
+L 184.895 473.301213 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip65" class="tip"><title>samber-golang-security: 4 high findings per bout</title>
+    <path d="M 240.005315 459.148386 
+L 458.536083 459.148386 
+L 458.536083 473.301213 
+L 240.005315 473.301213 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip66" class="tip"><title>samber-golang-security: 1 medium findings per bout</title>
+    <path d="M 460.446573 459.148386 
+L 513.646397 459.148386 
+L 513.646397 473.301213 
+L 460.446573 473.301213 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip67" class="tip"><title>samber-golang-security: 1.3 low findings per bout</title>
+    <path d="M 515.556888 459.148386 
+L 587.126817 459.148386 
+L 587.126817 473.301213 
+L 515.556888 473.301213 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip68" class="tip"><title>sari3l-security-code-audit: 1 critical findings per bout</title>
+    <path d="M 184.895 484.880799 
+L 238.094824 484.880799 
+L 238.094824 499.033625 
+L 184.895 499.033625 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip69" class="tip"><title>sari3l-security-code-audit: 1.7 high findings per bout</title>
+    <path d="M 240.005315 484.880799 
+L 329.945348 484.880799 
+L 329.945348 499.033625 
+L 240.005315 499.033625 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip70" class="tip"><title>sari3l-security-code-audit: 3.7 medium findings per bout</title>
+    <path d="M 331.855839 484.880799 
+L 532.016502 484.880799 
+L 532.016502 499.033625 
+L 331.855839 499.033625 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip71" class="tip"><title>sari3l-security-code-audit: 0.7 low findings per bout</title>
+    <path d="M 533.926993 484.880799 
+L 568.756712 484.880799 
+L 568.756712 499.033625 
+L 533.926993 499.033625 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip72" class="tip"><title>sentry-code-review: 1 critical findings per bout</title>
+    <path d="M 184.895 510.613211 
+L 238.094824 510.613211 
+L 238.094824 524.766037 
+L 184.895 524.766037 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip73" class="tip"><title>sentry-code-review: 2 high findings per bout</title>
+    <path d="M 240.005315 510.613211 
+L 348.315453 510.613211 
+L 348.315453 524.766037 
+L 240.005315 524.766037 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip74" class="tip"><title>sentry-code-review: 2.7 medium findings per bout</title>
+    <path d="M 350.225944 510.613211 
+L 495.276292 510.613211 
+L 495.276292 524.766037 
+L 350.225944 524.766037 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip75" class="tip"><title>sentry-code-review: 0.3 low findings per bout</title>
+    <path d="M 497.186783 510.613211 
+L 513.646397 510.613211 
+L 513.646397 524.766037 
+L 497.186783 524.766037 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip76" class="tip"><title>sentry-security-review: 1 critical findings per bout</title>
+    <path d="M 184.895 536.345623 
+L 238.094824 536.345623 
+L 238.094824 550.498449 
+L 184.895 550.498449 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip77" class="tip"><title>sentry-security-review: 1.7 high findings per bout</title>
+    <path d="M 240.005315 536.345623 
+L 329.945348 536.345623 
+L 329.945348 550.498449 
+L 240.005315 550.498449 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip78" class="tip"><title>sentry-security-review: 2.7 medium findings per bout</title>
+    <path d="M 331.855839 536.345623 
+L 476.906187 536.345623 
+L 476.906187 550.498449 
+L 331.855839 550.498449 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip79" class="tip"><title>sentry-security-review: 1 low findings per bout</title>
+    <path d="M 478.816678 536.345623 
+L 532.016502 536.345623 
+L 532.016502 550.498449 
+L 478.816678 550.498449 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip80" class="tip"><title>sentry-then-fp-check: 1 critical findings per bout</title>
+    <path d="M 184.895 562.078035 
+L 238.094824 562.078035 
+L 238.094824 576.230862 
+L 184.895 576.230862 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip81" class="tip"><title>sentry-then-fp-check: 2.7 high findings per bout</title>
+    <path d="M 240.005315 562.078035 
+L 385.055663 562.078035 
+L 385.055663 576.230862 
+L 240.005315 576.230862 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip82" class="tip"><title>sentry-then-fp-check: 2 medium findings per bout</title>
+    <path d="M 386.966154 562.078035 
+L 495.276292 562.078035 
+L 495.276292 576.230862 
+L 386.966154 576.230862 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip83" class="tip"><title>sentry-then-fp-check: 0.3 low findings per bout</title>
+    <path d="M 497.186783 562.078035 
+L 513.646397 562.078035 
+L 513.646397 576.230862 
+L 497.186783 576.230862 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip84" class="tip"><title>tob-differential-review: 1 critical findings per bout</title>
+    <path d="M 184.895 587.810447 
+L 238.094824 587.810447 
+L 238.094824 601.963274 
+L 184.895 601.963274 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip85" class="tip"><title>tob-differential-review: 3 high findings per bout</title>
+    <path d="M 240.005315 587.810447 
+L 403.425768 587.810447 
+L 403.425768 601.963274 
+L 240.005315 601.963274 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip86" class="tip"><title>tob-differential-review: 2 medium findings per bout</title>
+    <path d="M 405.336259 587.810447 
+L 513.646397 587.810447 
+L 513.646397 601.963274 
+L 405.336259 601.963274 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip87" class="tip"><title>tob-differential-review: 0.3 low findings per bout</title>
+    <path d="M 515.556888 587.810447 
+L 532.016502 587.810447 
+L 532.016502 601.963274 
+L 515.556888 601.963274 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip88" class="tip"><title>tob-sharp-edges: 1 critical findings per bout</title>
+    <path d="M 184.895 613.542859 
+L 238.094824 613.542859 
+L 238.094824 627.695686 
+L 184.895 627.695686 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip89" class="tip"><title>tob-sharp-edges: 2.3 high findings per bout</title>
+    <path d="M 240.005315 613.542859 
+L 366.685558 613.542859 
+L 366.685558 627.695686 
+L 240.005315 627.695686 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip90" class="tip"><title>tob-sharp-edges: 2.3 medium findings per bout</title>
+    <path d="M 368.596049 613.542859 
+L 495.276292 613.542859 
+L 495.276292 627.695686 
+L 368.596049 627.695686 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip91" class="tip"><title>tob-sharp-edges: 0.7 low findings per bout</title>
+    <path d="M 497.186783 613.542859 
+L 532.016502 613.542859 
+L 532.016502 627.695686 
+L 497.186783 627.695686 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-tip92" class="tip"><title>unitone-secure-code-review: 1 critical findings per bout</title>
+    <path d="M 184.895 639.275271 
+L 238.094824 639.275271 
+L 238.094824 653.428098 
+L 184.895 653.428098 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #184f95"/>
+   </g>
+   <g id="severity-dvpwa-tip93" class="tip"><title>unitone-secure-code-review: 4 high findings per bout</title>
+    <path d="M 240.005315 639.275271 
+L 458.536083 639.275271 
+L 458.536083 653.428098 
+L 240.005315 653.428098 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #2563b5"/>
+   </g>
+   <g id="severity-dvpwa-tip94" class="tip"><title>unitone-secure-code-review: 1 medium findings per bout</title>
+    <path d="M 460.446573 639.275271 
+L 513.646397 639.275271 
+L 513.646397 653.428098 
+L 460.446573 653.428098 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #4a8fe6"/>
+   </g>
+   <g id="severity-dvpwa-tip95" class="tip"><title>unitone-secure-code-review: 1.3 low findings per bout</title>
+    <path d="M 515.556888 639.275271 
+L 587.126817 639.275271 
+L 587.126817 653.428098 
+L 515.556888 653.428098 
+z
+" clip-path="url(#severity-dvpwa-p041b6f56c5)" style="fill: #86b6ef"/>
+   </g>
+   <g id="severity-dvpwa-patch_3">
+    <path d="M 184.895 659.217891 
+L 184.895 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="severity-dvpwa-patch_4">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="severity-dvpwa-text_31">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="520.556888" y="56.584331" transform="rotate(-0 520.556888 56.584331)">6</text>
+   </g>
+   <g id="severity-dvpwa-text_32">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="594.037308" y="82.316743" transform="rotate(-0 594.037308 82.316743)">7.3</text>
+   </g>
+   <g id="severity-dvpwa-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="612.407413" y="108.049155" transform="rotate(-0 612.407413 108.049155)">7.7</text>
+   </g>
+   <g id="severity-dvpwa-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="133.781567" transform="rotate(-0 667.517727 133.781567)">8.7</text>
+   </g>
+   <g id="severity-dvpwa-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="159.513979" transform="rotate(-0 538.926993 159.513979)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="483.816678" y="185.246392" transform="rotate(-0 483.816678 185.246392)">5.3</text>
+   </g>
+   <g id="severity-dvpwa-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="210.978804" transform="rotate(-0 538.926993 210.978804)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="557.297098" y="236.711216" transform="rotate(-0 557.297098 236.711216)">6.7</text>
+   </g>
+   <g id="severity-dvpwa-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="262.443628" transform="rotate(-0 575.667203 262.443628)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="288.17604" transform="rotate(-0 575.667203 288.17604)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="313.908452" transform="rotate(-0 538.926993 313.908452)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="339.640864" transform="rotate(-0 575.667203 339.640864)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="557.297098" y="365.373276" transform="rotate(-0 557.297098 365.373276)">6.7</text>
+   </g>
+   <g id="severity-dvpwa-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="391.105688" transform="rotate(-0 575.667203 391.105688)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="416.838101" transform="rotate(-0 575.667203 416.838101)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="442.570513" transform="rotate(-0 538.926993 442.570513)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="594.037308" y="468.302925" transform="rotate(-0 594.037308 468.302925)">7.3</text>
+   </g>
+   <g id="severity-dvpwa-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="575.667203" y="494.035337" transform="rotate(-0 575.667203 494.035337)">7</text>
+   </g>
+   <g id="severity-dvpwa-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="520.556888" y="519.767749" transform="rotate(-0 520.556888 519.767749)">6</text>
+   </g>
+   <g id="severity-dvpwa-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="545.500161" transform="rotate(-0 538.926993 545.500161)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="520.556888" y="571.232573" transform="rotate(-0 520.556888 571.232573)">6</text>
+   </g>
+   <g id="severity-dvpwa-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="596.964985" transform="rotate(-0 538.926993 596.964985)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.926993" y="622.697397" transform="rotate(-0 538.926993 622.697397)">6.3</text>
+   </g>
+   <g id="severity-dvpwa-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="594.037308" y="648.42981" transform="rotate(-0 594.037308 648.42981)">7.3</text>
+   </g>
+   <g id="severity-dvpwa-text_55">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">dvpwa: findings by severity</text>
+   </g>
+   <g id="severity-dvpwa-legend_1">
+    <g id="severity-dvpwa-patch_5">
+     <path d="M 189.695 35.758125 
+L 197.695 35.758125 
+L 197.695 28.598125 
+L 189.695 28.598125 
+z
+" style="fill: #184f95; stroke: #184f95; stroke-linejoin: miter"/>
+    </g>
+    <g id="severity-dvpwa-text_56">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.095" y="34.918125" transform="rotate(-0 204.095 34.918125)">critical</text>
+    </g>
+    <g id="severity-dvpwa-patch_6">
+     <path d="M 246.8875 35.758125 
+L 254.8875 35.758125 
+L 254.8875 28.598125 
+L 246.8875 28.598125 
+z
+" style="fill: #2563b5; stroke: #2563b5; stroke-linejoin: miter"/>
+    </g>
+    <g id="severity-dvpwa-text_57">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="261.2875" y="34.918125" transform="rotate(-0 261.2875 34.918125)">high</text>
+    </g>
+    <g id="severity-dvpwa-patch_7">
+     <path d="M 294.72875 35.758125 
+L 302.72875 35.758125 
+L 302.72875 28.598125 
+L 294.72875 28.598125 
+z
+" style="fill: #4a8fe6; stroke: #4a8fe6; stroke-linejoin: miter"/>
+    </g>
+    <g id="severity-dvpwa-text_58">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="309.12875" y="34.918125" transform="rotate(-0 309.12875 34.918125)">medium</text>
+    </g>
+    <g id="severity-dvpwa-patch_8">
+     <path d="M 358.0075 35.758125 
+L 366.0075 35.758125 
+L 366.0075 28.598125 
+L 358.0075 28.598125 
+z
+" style="fill: #86b6ef; stroke: #86b6ef; stroke-linejoin: miter"/>
+    </g>
+    <g id="severity-dvpwa-text_59">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="372.4075" y="34.918125" transform="rotate(-0 372.4075 34.918125)">low</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="severity-dvpwa-p041b6f56c5">
+   <rect x="184.895" y="41.64" width="525.385" height="617.577891"/>
+  </clipPath>
+ </defs>
+</svg>

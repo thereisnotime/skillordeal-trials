@@ -1,0 +1,92 @@
+{
+  "batch_id": "j-6ea567db4d3afa7b",
+  "arena": "dvpwa",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "2171e2ec00fe0c0932bb4ed651430f18283dfb30aa9735cf56d8890d7d1947a7",
+    "F2": "d94686179795e6ae5deeed09f4da1177f3fbab1bee20f1dbd03de291246e8aa5",
+    "F3": "fb984cc1a75954f5e6019b53c6627c24a58774a97a1cea48cd9b3275e47617c4",
+    "F4": "09498ae9f20800eae84dd3456b56de896ac5cebb7291f7a84efe354b8036d0c1",
+    "F5": "c735870457da4dcd616c355a2aa1e76da96364045e3472a4022b9920e90e3557",
+    "F6": "67d1fc8c4d219ac3732aaf4436f875f63d973899e38f698a48a98de9e4c7be05",
+    "F7": "fb28d9f67aef37c91c92cc8bc18ebbe0001cb5f2135b0d08f3a9e32ee36174bc",
+    "F8": "aad3a5f5308b8010fd1b8782d6dd1f4104886e0f8fd4330283c090021bb2e56e",
+    "F9": "c8b18caf3e1fc933190509fd9e740506d36952f18655df142f21ddd034167c2c",
+    "F10": "33fa6fdd6ac701ba15677ab98156ed2638cdb552571c62d823cfc40dfbfad35f",
+    "F11": "fe79240e2cb42034552c38cd42a2f3000906d9701df0f43941034ce4b5169994",
+    "F12": "e14823b592bca5d2a99a4529037291d22a119af40c1a913e17d949b9949e48e6",
+    "F13": "9724ab67e97151ffde7c968a6a276b81dfcc226d28f80e77624c6a7ec1ce7bcf",
+    "F14": "ea1eb34fe0e25080abbbdda6dd845818f0264d486e87cf20ca4f767e74a5f14b",
+    "F15": "ebf54cc8124d6df61724221ed353c7f5b8c04601b701683f383addd0313c1e56"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"verdicts\"],\"properties\":{\"verdicts\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"verdict\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"verdict\":{\"type\":\"string\",\"enum\":[\"valid\",\"invalid\",\"unverifiable\"]},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the code you read.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 0,
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 58857,
+    "duration_api_ms": 58717,
+    "num_turns": 12,
+    "total_cost_usd": 0.10178279999999999,
+    "tokens": {
+      "input_tokens": 10,
+      "output_tokens": 2698,
+      "cache_read_tokens": 77994,
+      "cache_creation_tokens": 14796,
+      "total_tokens": 95498
+    },
+    "per_model": {
+      "claude-sonnet-5": {
+        "input_tokens": 10,
+        "output_tokens": 2698,
+        "cache_read_tokens": 77994,
+        "cache_creation_tokens": 14796,
+        "cost_usd": 0.10178279999999999
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "c2068996-5283-48e0-b3c5-ae6b195b5df5",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "verdicts": 15,
+  "problems": [],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

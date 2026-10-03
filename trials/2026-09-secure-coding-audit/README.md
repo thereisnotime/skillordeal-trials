@@ -1,8 +1,10 @@
 # 2026-09-secure-coding-audit
 
-**Design:** 12 contenders × 2 arenas × 1 task × 1 model × 3 reps = 72 bouts. Model under test `claude-opus-4-8` at `high` effort, judge `claude-sonnet-5`.
+**Design:** 24 contenders + baseline × 2 arenas × 1 task × 1 model × 3 reps = 150 bouts. Model under test `claude-opus-4-8` at `high` effort, judge `claude-sonnet-5`.
 
-**Status:** r01 done (72 bouts, 2026-09-23). Results: [`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md). Findings are judged but not human-labeled yet.
+**Status:** r01 done. The first 72 bouts ran on 2026-09-23 (engine 0.1.2), the 78 for the 13 contenders added later ran on 2026-10-03 (engine 0.1.3, same image, CLI and model). Results: [`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md). Findings are judged; human labels pending.
+
+**Jump to:** [TL;DR](#tldr-result) · [Charts](#leaderboard) · [Contenders](#contenders) · [Arenas](#arenas) · [Reproduce](#how-to-reproduce) · [Dig in](#how-to-dig-in)
 
 ## Question
 
@@ -22,12 +24,14 @@ Written before r01 started:
 
 From r01 (Opus 4.8 at high effort, 3 reps per cell, 95% bootstrap CIs; [full results](rounds/r01/RESULTS.md)):
 
-- **No skill clearly beats the plain baseline.** On dvpwa the baseline finds 6 of the 19 known issues per run (recall 0.32). Contenders land between 6 and 7.3, and only `samber-golang-security` has a CI that excludes zero (+1.3 [0.3, 2.3]). That's a Go skill on a Python app, so read it as noise or a side effect of it asking for a broader sweep, not as Go expertise.
-- **Skills mostly change cost, not quality.** Per-bout cost ranges from $0.34 (`sentry-code-review`, same TP as the baseline) to $0.61 (`cf-security-audit`, +0.3 TP). On warpgate-operator every contender reports 2 to 4 findings per run at $1.29 to $1.94.
-- **The diff-scoped command can't run a full audit.** `anthropic-security-review-cmd` runs `git diff` while it loads. In the sandbox that's denied and there is no history, so all 6 bouts stopped before the model's first turn (`schema_violation`, 0 turns, $0). `tob-differential-review` adapted and scored like the rest.
-- **The judge found no hallucinations, and that's all it proves.** Sonnet 5 read the cited code and marked all 311 findings `valid`. It confirms the code does what each finding says, not that it's exploitable under the right threat model (on warpgate-operator most findings need someone who can already create the CR). Human labels are the next step.
+- **No skill is a clear, reliable win yet.** On dvpwa the baseline finds 6 of the 19 known issues per run. Three contenders have a CI above zero: `anthropic-security-auditor` +2.0 [1, 3], `agamm-owasp-security` +1.7 [0.7, 2.7] and `samber-golang-security` +1.3 [0.3, 2.3], all at roughly the baseline's cost. Treat them as leads: with 23 comparisons about one is expected to clear zero by chance, and the two strongest come from the batch run ten days after the baseline, so a fresh baseline control is needed before calling them.
+- **Everyone finds the same easy bugs and misses the same hard ones.** On dvpwa 5 issues were found by every contender in every run, 7 by nobody (two XSS sinks in templates, default admin credentials, an exposed Postgres, a root container, an error-page leak, an unverified download), and 3 by only one contender once each.
+- **Skills mostly change cost, not quality.** Cost per true positive on dvpwa ranges from $0.057 (`every-ce-security-reviewer`) to $0.229 (`sentry-then-fp-check`); the baseline is $0.070.
+- **Verifier pipelines cut findings hard.** On warpgate-operator `sentry-then-fp-check` reports 1.3 findings per run and `claude-security-researcher` 1.7, against the baseline's 3; both are significantly below it. Whether that removed noise or real issues can't be told yet: the judge accepted 694 of 695 findings, because it checks that the code does what a finding says, not who can reach the input. Human labels decide this.
+- **One skill can't do a full-repo audit.** `anthropic-security-review-cmd` runs `git diff` while it loads; that's denied and there is no history, so all 6 bouts stopped before the first model turn.
+- **Every skill loaded.** Each contender's first prompt was 3k to 39k tokens larger than the baseline's.
 
-Against the [hypothesis](#hypothesis): skills barely moving recall and the big skills costing more both held. The diff-scoped prediction held for one of the three diff-oriented prompts (`anthropic-security-review-cmd`); the other two scored like everyone else. Of the controls, `sentry-code-review` matched the baseline as predicted, while `samber-golang-security` beat it on dvpwa, against the prediction.
+Against the [hypothesis](#hypothesis): skills barely moving recall held, and so did the big skills costing more without finding more (`cf-security-audit`). The diff-scoped prediction held for one of the three diff-oriented prompts. Of the controls, `sentry-code-review` matched the baseline as predicted; `samber-golang-security` beat it on dvpwa, against the prediction.
 
 ## Setup
 
@@ -36,7 +40,7 @@ Against the [hypothesis](#hypothesis): skills barely moving recall and the big s
 | Model under test | `claude-opus-4-8`, effort `high`, `max_budget_usd` 5 per bout |
 | Judge | `claude-sonnet-5`, `max_budget_usd` 2 |
 | Claude Code CLI | 2.1.280 (inside the image) |
-| Engine | skillordeal v0.1.2 |
+| Engine | skillordeal v0.1.3 |
 | Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2`, digest pinned in [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) |
 | Auth | `oauth` (`CLAUDE_CODE_OAUTH_TOKEN`) |
 | Invocation | `forced`: the prompt starts with `/<skill-name>` |
@@ -49,6 +53,11 @@ Against the [hypothesis](#hypothesis): skills barely moving recall and the big s
 ## Contenders
 
 Full definitions: [`contenders/secure-coding-2026-09.yaml`](../../contenders/secure-coding-2026-09.yaml). Excluded candidates and the reasons are listed at the bottom of that file.
+
+The first 12 ran on 2026-09-23; the last 13 rows were added on 2026-10-03.
+
+<details>
+<summary><b>All 25 contenders</b> (source, license, role, why included)</summary>
 
 | id | source (pinned sha) | license | role | why included |
 |---|---|---|---|---|
@@ -64,6 +73,21 @@ Full definitions: [`contenders/secure-coding-2026-09.yaml`](../../contenders/sec
 | anthropic-security-review-cmd | [anthropics/claude-code-security-review@0c6a49f](https://github.com/anthropics/claude-code-security-review/blob/0c6a49f1fa56a1d472575da86a94dbc1edb78eda/.claude/commands/security-review.md) | MIT | finder | the `/security-review` command prompt, wrapped as a skill |
 | every-ce-security-reviewer | [EveryInc/compound-engineering-plugin@4fbabcd](https://github.com/EveryInc/compound-engineering-plugin/blob/4fbabcd32b6ca7d8ebb82f15840fe34ef7562a64/skills/ce-code-review/references/personas/security-reviewer.md) | MIT | finder | security persona from a popular review orchestrator |
 | neolab-security-auditor | [NeoLabHQ/context-engineering-kit@23e2428](https://github.com/NeoLabHQ/context-engineering-kit/blob/23e2428e809d77717f8acc9659c374a3a1fcb93e/plugins/review/agents/security-auditor.md) | GPL-3.0 | finder | long security-auditor agent prompt |
+| github-copilot-security-review | [github/awesome-copilot@1f56440](https://github.com/github/awesome-copilot/tree/1f5644080a525d26a2e24f61a7609fb9b261c21a/skills/security-review) | MIT | finder | GitHub's official security-review skill (data flow, self-verification, severity). |
+| github-copilot-se-security-reviewer | [github/awesome-copilot@1f56440](https://github.com/github/awesome-copilot/blob/1f5644080a525d26a2e24f61a7609fb9b261c21a/agents/se-security-reviewer.agent.md) | MIT | finder | GitHub's security reviewer agent (OWASP Top 10 + LLM Top 10), wrapped as a skill. |
+| anthropic-security-auditor | [anthropics/claude-plugins-official@6bfd4e0](https://github.com/anthropics/claude-plugins-official/blob/6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69/plugins/code-modernization/agents/security-auditor.md) | Apache-2.0 | finder | Anthropic's adversarial full-codebase security auditor agent (code-modernization plugin). |
+| claude-security-researcher | [anthropics/claude-plugins-official@6bfd4e0](https://github.com/anthropics/claude-plugins-official/blob/6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69/plugins/claude-security/agents/scan-researcher.md) | Apache-2.0 | finder | The researcher agent of Anthropic's claude-security plugin, run on its own. The full product is interactive (AskUserQuestion menu, Workflow scripts, Python helpers, hooks) and can't run headless here, so this and claude-security-flat approximate its method. |
+| claude-security-flat | `claude-security-researcher` then `claude-security-verifier` | Apache-2.0 | finder | Approximation of claude-security's scan: its researcher, then its verifier over all findings in one pass (the product runs per component/lens with a 3-voter panel). |
+| sentry-then-fp-check | `sentry-security-review` then `tob-fp-check` | stages' licenses | finder | Finder + independent verifier, the combination the research recommended. |
+| gemini-security-analyze-full | [gemini-cli-extensions/security@2227f3c](https://github.com/gemini-cli-extensions/security/blob/2227f3cf7150972baac695b8233abc2186408538/commands/security/analyze-full.toml) | Apache-2.0 | finder | Gemini CLI's two-pass taint analysis (recon, then source-to-sink investigation). Degraded here: its scratch files in .gemini_security/ can't be written (read-only arena) and its find_line_numbers MCP tool doesn't exist, so it keeps its plan in context and reads line numbers itself. |
+| sari3l-security-code-audit | [sari3l/security-code-audit-skill@f1cf08a](https://github.com/sari3l/security-code-audit-skill/tree/f1cf08acfe8f77486c228590b73d6c2a60ba5195/) | MIT | finder | Thorough evidence-based audit from a little-known author (3 stars), as a contrast to vendor skills. |
+| agamm-owasp-security | [agamm/claude-code-owasp@bfaf257](https://github.com/agamm/claude-code-owasp/tree/bfaf257b2859986a6a84d2b7491e1fab2218cd53/.claude/skills/owasp-security) | MIT | finder | OWASP Top 10:2025 and ASVS 5.0. |
+| unitone-secure-code-review | [UnitOneAI/SecuritySkills@70bc259](https://github.com/UnitOneAI/SecuritySkills/tree/70bc259bb01abb3015ad2ad859ad5253cbf0bcab/skills/appsec/secure-code-review) | MIT | finder | OWASP and NIST grounded review; semgrep is optional and absent here. |
+| evandervecht-security-audit | [evandervecht/security-audit-skill@25a0916](https://github.com/evandervecht/security-audit-skill/tree/25a0916bc664bc2ced2b4557d6153ae79fcc05e9/skills/security-audit) | NOASSERTION (README says MIT / CC-BY-SA) | finder | CWE Top 25 plus CVSS v4 scoring; ships its own eval fixtures. |
+| ivan-sincek-cwe-secure-code-review | [ivan-sincek/secure-code-review-agent-skills@5f9b4e3](https://github.com/ivan-sincek/secure-code-review-agent-skills/tree/5f9b4e338a6bce0d09781341632ce57047c63d66/markdown/cwe-secure-code-review) | MIT | finder | Systematic walk through CWE-699 categories. |
+| addyosmani-security-auditor | [addyosmani/agent-skills@bcab6a1](https://github.com/addyosmani/agent-skills/blob/bcab6a1b8503100e8618c3b4e32cc78de43de769/agents/security-auditor.md) | MIT | finder | Persona-style security auditor from a very popular collection; a control for "short persona prompt". |
+
+</details>
 
 Defined but not in r01: `tob-fp-check` (verifier, needs a finder's output) and `tob-entry-point-analyzer` (context pre-pass, no findings).
 
@@ -76,18 +100,26 @@ Defined but not in r01: `tob-fp-check` (verifier, needs a finder's output) and `
 
 ## Leaderboard
 
-[`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md) has the full tables (TP, recall, judge-valid, cost, tokens, time, turns, RAM, all with CIs and links to every bout) and the charts. Excerpt, dvpwa, TP against the baseline:
+[`rounds/r01/RESULTS.md`](rounds/r01/RESULTS.md) opens with generated key takeaways and has every table (with CIs and links to each bout) and chart. The ones to start with:
+
+**Which known vulnerabilities each contender found on dvpwa** (rows are issues by severity, columns contenders):
+
+![dvpwa: ground-truth issues found, by contender](rounds/r01/charts/coverage-dvpwa.svg)
+
+**True positives against the baseline on dvpwa:**
 
 ![dvpwa: TP against baseline](rounds/r01/charts/delta-vs-baseline-dvpwa.svg)
 
-![dvpwa: TP against cost](rounds/r01/charts/quality-vs-cost-dvpwa.svg)
+**Problems each contender reported on warpgate-operator** (no ground truth; clusters of findings across contenders):
 
-`report.html` next to it is the interactive version (open it locally).
+![warpgate-operator: distinct problems reported, by contender](rounds/r01/charts/problems-warpgate-operator.svg)
+
+`report.html` next to RESULTS.md is the interactive version with a per-contender drill-down (open it locally).
 
 ## How to reproduce
 
 ```bash
-just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.2
+just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.3
 just lock  trial=2026-09-secure-coding-audit round=r01-repro-$USER
 just run   trial=2026-09-secure-coding-audit round=r01-repro-$USER j=2 --max-cost-usd 400
 ```
@@ -113,4 +145,4 @@ just transcript bout=<bout-id> | jq -c 'select(.type=="assistant")' | less
 jq '.findings[] | {title, file, line_start, cwe}' rounds/r01/bouts/<bout-id>/findings.json
 ```
 
-Per-finding verdicts live in `rounds/r01/scores/gt_matches.jsonl` (ground truth), `rounds/r01/scores/judge.jsonl` (judge) and `labels/labels.jsonl` (humans, written by `just review`); `rounds/r01/scores/verdicts.jsonl` shows all three side by side. Human labels win, then ground truth, then the judge. The top-level README walks through [tracing one number](../../README.md#trace-a-number) end to end.
+Per-finding verdicts live in `rounds/r01/scores/gt_matches.jsonl` (ground truth), `rounds/r01/scores/judge.jsonl` (judge) and `labels/labels.jsonl` (humans, written by `just review`); `rounds/r01/scores/verdicts.jsonl` shows all three side by side. Human labels win, then ground truth, then the judge. The top-level README walks through [tracing one number](../../docs/trace-a-number.md) end to end.

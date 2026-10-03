@@ -1,0 +1,1167 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="695.52pt" viewBox="0 0 720 695.52" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of tool calls per bout by tool, per contender">
+ <title>Stacked bars of tool calls per bout by tool, per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="tool-calls-figure_1">
+  <g id="tool-calls-patch_1">
+   <path d="M 0 695.52 
+L 720 695.52 
+L 720 0 
+L 0 0 
+L 0 695.52 
+z
+" style="fill: none"/>
+  </g>
+  <g id="tool-calls-axes_1">
+   <g id="tool-calls-patch_2">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+L 710.28 41.64 
+L 184.895 41.64 
+L 184.895 659.217891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="tool-calls-matplotlib.axis_1">
+    <g id="tool-calls-xtick_1">
+     <g id="tool-calls-line2d_1"/>
+     <g id="tool-calls-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="669.555781" transform="rotate(-0 184.895 669.555781)">0</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_2">
+     <g id="tool-calls-line2d_2"/>
+     <g id="tool-calls-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="298.491757" y="669.555781" transform="rotate(-0 298.491757 669.555781)">10</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_3">
+     <g id="tool-calls-line2d_3"/>
+     <g id="tool-calls-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="412.088514" y="669.555781" transform="rotate(-0 412.088514 669.555781)">20</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_4">
+     <g id="tool-calls-line2d_4"/>
+     <g id="tool-calls-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="525.68527" y="669.555781" transform="rotate(-0 525.68527 669.555781)">30</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_5">
+     <g id="tool-calls-line2d_5"/>
+     <g id="tool-calls-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="639.282027" y="669.555781" transform="rotate(-0 639.282027 669.555781)">40</text>
+     </g>
+    </g>
+    <g id="tool-calls-text_6">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="682.556484" transform="rotate(-0 447.5875 682.556484)">mean tool calls per ok bout, pooled over arenas</text>
+    </g>
+   </g>
+   <g id="tool-calls-matplotlib.axis_2">
+    <g id="tool-calls-ytick_1">
+     <g id="tool-calls-line2d_6"/>
+     <g id="tool-calls-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="57.925503" transform="rotate(-0 181.395 57.925503)">baseline</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_2">
+     <g id="tool-calls-line2d_7"/>
+     <g id="tool-calls-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="83.657915" transform="rotate(-0 181.395 83.657915)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_3">
+     <g id="tool-calls-line2d_8"/>
+     <g id="tool-calls-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="109.390327" transform="rotate(-0 181.395 109.390327)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_4">
+     <g id="tool-calls-line2d_9"/>
+     <g id="tool-calls-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="135.122739" transform="rotate(-0 181.395 135.122739)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_5">
+     <g id="tool-calls-line2d_10"/>
+     <g id="tool-calls-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="160.855151" transform="rotate(-0 181.395 160.855151)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_6">
+     <g id="tool-calls-line2d_11"/>
+     <g id="tool-calls-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="186.587563" transform="rotate(-0 181.395 186.587563)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_7">
+     <g id="tool-calls-line2d_12"/>
+     <g id="tool-calls-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.319976" transform="rotate(-0 181.395 212.319976)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_8">
+     <g id="tool-calls-line2d_13"/>
+     <g id="tool-calls-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="238.052388" transform="rotate(-0 181.395 238.052388)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_9">
+     <g id="tool-calls-line2d_14"/>
+     <g id="tool-calls-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="263.7848" transform="rotate(-0 181.395 263.7848)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_10">
+     <g id="tool-calls-line2d_15"/>
+     <g id="tool-calls-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="289.517212" transform="rotate(-0 181.395 289.517212)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_11">
+     <g id="tool-calls-line2d_16"/>
+     <g id="tool-calls-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.249624" transform="rotate(-0 181.395 315.249624)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_12">
+     <g id="tool-calls-line2d_17"/>
+     <g id="tool-calls-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="340.982036" transform="rotate(-0 181.395 340.982036)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_13">
+     <g id="tool-calls-line2d_18"/>
+     <g id="tool-calls-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="366.714448" transform="rotate(-0 181.395 366.714448)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_14">
+     <g id="tool-calls-line2d_19"/>
+     <g id="tool-calls-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="392.44686" transform="rotate(-0 181.395 392.44686)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_15">
+     <g id="tool-calls-line2d_20"/>
+     <g id="tool-calls-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="418.179272" transform="rotate(-0 181.395 418.179272)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_16">
+     <g id="tool-calls-line2d_21"/>
+     <g id="tool-calls-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="443.911685" transform="rotate(-0 181.395 443.911685)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_17">
+     <g id="tool-calls-line2d_22"/>
+     <g id="tool-calls-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="469.644097" transform="rotate(-0 181.395 469.644097)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_18">
+     <g id="tool-calls-line2d_23"/>
+     <g id="tool-calls-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="495.376509" transform="rotate(-0 181.395 495.376509)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_19">
+     <g id="tool-calls-line2d_24"/>
+     <g id="tool-calls-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="521.108921" transform="rotate(-0 181.395 521.108921)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_20">
+     <g id="tool-calls-line2d_25"/>
+     <g id="tool-calls-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="546.841333" transform="rotate(-0 181.395 546.841333)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_21">
+     <g id="tool-calls-line2d_26"/>
+     <g id="tool-calls-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.573745" transform="rotate(-0 181.395 572.573745)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_22">
+     <g id="tool-calls-line2d_27"/>
+     <g id="tool-calls-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="598.306157" transform="rotate(-0 181.395 598.306157)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_23">
+     <g id="tool-calls-line2d_28"/>
+     <g id="tool-calls-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="624.038569" transform="rotate(-0 181.395 624.038569)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_24">
+     <g id="tool-calls-line2d_29"/>
+     <g id="tool-calls-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="649.770981" transform="rotate(-0 181.395 649.770981)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="tool-calls-tip0" class="tip"><title>baseline: 17.3 Read calls per bout (n=6)</title>
+    <path d="M 184.895 47.429793 
+L 380.114813 47.429793 
+L 380.114813 61.582619 
+L 184.895 61.582619 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip1" class="tip"><title>baseline: 1.3 Grep calls per bout (n=6)</title>
+    <path d="M 381.796045 47.429793 
+L 395.261047 47.429793 
+L 395.261047 61.582619 
+L 381.796045 61.582619 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip2" class="tip"><title>baseline: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 396.942279 47.429793 
+L 412.300561 47.429793 
+L 412.300561 61.582619 
+L 396.942279 61.582619 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip3" class="tip"><title>baseline: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 413.981793 47.429793 
+L 423.660236 47.429793 
+L 423.660236 61.582619 
+L 413.981793 61.582619 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip4" class="tip"><title>addyosmani-security-auditor: 18.7 Read calls per bout (n=6)</title>
+    <path d="M 184.895 73.162205 
+L 395.261047 73.162205 
+L 395.261047 87.315031 
+L 184.895 87.315031 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip5" class="tip"><title>addyosmani-security-auditor: 1 Grep calls per bout (n=6)</title>
+    <path d="M 396.942279 73.162205 
+L 406.620723 73.162205 
+L 406.620723 87.315031 
+L 396.942279 87.315031 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip6" class="tip"><title>addyosmani-security-auditor: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 408.301955 73.162205 
+L 423.660236 73.162205 
+L 423.660236 87.315031 
+L 408.301955 87.315031 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip7" class="tip"><title>addyosmani-security-auditor: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 425.341468 73.162205 
+L 435.019912 73.162205 
+L 435.019912 87.315031 
+L 425.341468 87.315031 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip8" class="tip"><title>agamm-owasp-security: 19.7 Read calls per bout (n=6)</title>
+    <path d="M 184.895 98.894617 
+L 406.620723 98.894617 
+L 406.620723 113.047444 
+L 184.895 113.047444 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip9" class="tip"><title>agamm-owasp-security: 1 Grep calls per bout (n=6)</title>
+    <path d="M 408.301955 98.894617 
+L 417.980399 98.894617 
+L 417.980399 113.047444 
+L 408.301955 113.047444 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip10" class="tip"><title>agamm-owasp-security: 1.7 Bash calls per bout (n=6)</title>
+    <path d="M 419.661631 98.894617 
+L 436.913191 98.894617 
+L 436.913191 113.047444 
+L 419.661631 113.047444 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip11" class="tip"><title>agamm-owasp-security: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 438.594423 98.894617 
+L 448.272867 98.894617 
+L 448.272867 113.047444 
+L 438.594423 113.047444 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip12" class="tip"><title>anthropic-security-auditor: 17.2 Read calls per bout (n=6)</title>
+    <path d="M 184.895 124.627029 
+L 378.221534 124.627029 
+L 378.221534 138.779856 
+L 184.895 138.779856 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip13" class="tip"><title>anthropic-security-auditor: 1 Grep calls per bout (n=6)</title>
+    <path d="M 379.902766 124.627029 
+L 389.581209 124.627029 
+L 389.581209 138.779856 
+L 379.902766 138.779856 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip14" class="tip"><title>anthropic-security-auditor: 3.3 Bash calls per bout (n=6)</title>
+    <path d="M 391.262441 124.627029 
+L 427.446795 124.627029 
+L 427.446795 138.779856 
+L 391.262441 138.779856 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip15" class="tip"><title>anthropic-security-auditor: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 429.128027 124.627029 
+L 438.806471 124.627029 
+L 438.806471 138.779856 
+L 429.128027 138.779856 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip16" class="tip"><title>cf-security-audit: 19.8 Read calls per bout (n=6)</title>
+    <path d="M 184.895 150.359441 
+L 408.514002 150.359441 
+L 408.514002 164.512268 
+L 184.895 164.512268 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip17" class="tip"><title>cf-security-audit: 1 Grep calls per bout (n=6)</title>
+    <path d="M 410.195234 150.359441 
+L 419.873678 150.359441 
+L 419.873678 164.512268 
+L 410.195234 164.512268 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip18" class="tip"><title>cf-security-audit: 0.2 Glob calls per bout (n=6)</title>
+    <path d="M 421.55491 150.359441 
+L 422.50155 150.359441 
+L 422.50155 164.512268 
+L 421.55491 164.512268 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #199e70"/>
+   </g>
+   <g id="tool-calls-tip19" class="tip"><title>cf-security-audit: 1.2 Bash calls per bout (n=6)</title>
+    <path d="M 423.448189 150.359441 
+L 435.019912 150.359441 
+L 435.019912 164.512268 
+L 423.448189 164.512268 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip20" class="tip"><title>cf-security-audit: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 436.701144 150.359441 
+L 446.379588 150.359441 
+L 446.379588 164.512268 
+L 436.701144 164.512268 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip21" class="tip"><title>claude-security-flat: 26.7 Read calls per bout (n=6)</title>
+    <path d="M 184.895 176.091853 
+L 486.138453 176.091853 
+L 486.138453 190.24468 
+L 184.895 190.24468 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip22" class="tip"><title>claude-security-flat: 1.7 Grep calls per bout (n=6)</title>
+    <path d="M 487.819685 176.091853 
+L 505.071245 176.091853 
+L 505.071245 190.24468 
+L 487.819685 190.24468 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip23" class="tip"><title>claude-security-flat: 0.3 Glob calls per bout (n=6)</title>
+    <path d="M 506.752477 176.091853 
+L 508.857804 176.091853 
+L 508.857804 190.24468 
+L 506.752477 190.24468 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #199e70"/>
+   </g>
+   <g id="tool-calls-tip24" class="tip"><title>claude-security-flat: 3.7 Bash calls per bout (n=6)</title>
+    <path d="M 510.539036 176.091853 
+L 550.509948 176.091853 
+L 550.509948 190.24468 
+L 510.539036 190.24468 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip25" class="tip"><title>claude-security-flat: 2 other (Write) calls per bout (n=6)</title>
+    <path d="M 552.19118 176.091853 
+L 573.2293 176.091853 
+L 573.2293 190.24468 
+L 552.19118 190.24468 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip26" class="tip"><title>claude-security-researcher: 18 Read calls per bout (n=6)</title>
+    <path d="M 184.895 201.824265 
+L 387.68793 201.824265 
+L 387.68793 215.977092 
+L 184.895 215.977092 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip27" class="tip"><title>claude-security-researcher: 0.2 Grep calls per bout (n=6)</title>
+    <path d="M 389.369162 201.824265 
+L 390.315802 201.824265 
+L 390.315802 215.977092 
+L 389.369162 215.977092 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip28" class="tip"><title>claude-security-researcher: 2.5 Bash calls per bout (n=6)</title>
+    <path d="M 391.262441 201.824265 
+L 417.980399 201.824265 
+L 417.980399 215.977092 
+L 391.262441 215.977092 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip29" class="tip"><title>claude-security-researcher: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 419.661631 201.824265 
+L 429.340074 201.824265 
+L 429.340074 215.977092 
+L 419.661631 215.977092 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip30" class="tip"><title>ecc-security-review: 15.7 Read calls per bout (n=6)</title>
+    <path d="M 184.895 227.556677 
+L 361.18202 227.556677 
+L 361.18202 241.709504 
+L 184.895 241.709504 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip31" class="tip"><title>ecc-security-review: 0.7 Grep calls per bout (n=6)</title>
+    <path d="M 362.863252 227.556677 
+L 368.755137 227.556677 
+L 368.755137 241.709504 
+L 362.863252 241.709504 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip32" class="tip"><title>ecc-security-review: 3.5 Bash calls per bout (n=6)</title>
+    <path d="M 370.436369 227.556677 
+L 408.514002 227.556677 
+L 408.514002 241.709504 
+L 370.436369 241.709504 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip33" class="tip"><title>ecc-security-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 410.195234 227.556677 
+L 419.873678 227.556677 
+L 419.873678 241.709504 
+L 410.195234 241.709504 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip34" class="tip"><title>evandervecht-security-audit: 19 Read calls per bout (n=6)</title>
+    <path d="M 184.895 253.28909 
+L 399.047606 253.28909 
+L 399.047606 267.441916 
+L 184.895 267.441916 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip35" class="tip"><title>evandervecht-security-audit: 0.8 Grep calls per bout (n=6)</title>
+    <path d="M 400.728838 253.28909 
+L 408.514002 253.28909 
+L 408.514002 267.441916 
+L 400.728838 267.441916 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip36" class="tip"><title>evandervecht-security-audit: 1.3 Bash calls per bout (n=6)</title>
+    <path d="M 410.195234 253.28909 
+L 423.660236 253.28909 
+L 423.660236 267.441916 
+L 410.195234 267.441916 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip37" class="tip"><title>evandervecht-security-audit: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 425.341468 253.28909 
+L 435.019912 253.28909 
+L 435.019912 267.441916 
+L 425.341468 267.441916 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip38" class="tip"><title>every-ce-security-reviewer: 16.2 Read calls per bout (n=6)</title>
+    <path d="M 184.895 279.021502 
+L 366.861858 279.021502 
+L 366.861858 293.174328 
+L 184.895 293.174328 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip39" class="tip"><title>every-ce-security-reviewer: 0.5 Grep calls per bout (n=6)</title>
+    <path d="M 368.54309 279.021502 
+L 372.541696 279.021502 
+L 372.541696 293.174328 
+L 368.54309 293.174328 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip40" class="tip"><title>every-ce-security-reviewer: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 374.222928 279.021502 
+L 389.581209 279.021502 
+L 389.581209 293.174328 
+L 374.222928 293.174328 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip41" class="tip"><title>every-ce-security-reviewer: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 391.262441 279.021502 
+L 400.940885 279.021502 
+L 400.940885 293.174328 
+L 391.262441 293.174328 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip42" class="tip"><title>gemini-security-analyze-full: 18.8 Read calls per bout (n=6)</title>
+    <path d="M 184.895 304.753914 
+L 397.154327 304.753914 
+L 397.154327 318.90674 
+L 184.895 318.90674 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip43" class="tip"><title>gemini-security-analyze-full: 0.7 Grep calls per bout (n=6)</title>
+    <path d="M 398.835559 304.753914 
+L 404.727444 304.753914 
+L 404.727444 318.90674 
+L 398.835559 318.90674 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip44" class="tip"><title>gemini-security-analyze-full: 0.2 Glob calls per bout (n=6)</title>
+    <path d="M 406.408676 304.753914 
+L 407.355315 304.753914 
+L 407.355315 318.90674 
+L 406.408676 318.90674 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #199e70"/>
+   </g>
+   <g id="tool-calls-tip45" class="tip"><title>gemini-security-analyze-full: 2.8 Bash calls per bout (n=6)</title>
+    <path d="M 408.301955 304.753914 
+L 438.806471 304.753914 
+L 438.806471 318.90674 
+L 408.301955 318.90674 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip46" class="tip"><title>gemini-security-analyze-full: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 440.487703 304.753914 
+L 450.166146 304.753914 
+L 450.166146 318.90674 
+L 440.487703 318.90674 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip47" class="tip"><title>github-copilot-se-security-reviewer: 18 Read calls per bout (n=6)</title>
+    <path d="M 184.895 330.486326 
+L 387.68793 330.486326 
+L 387.68793 344.639153 
+L 184.895 344.639153 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip48" class="tip"><title>github-copilot-se-security-reviewer: 0.3 Grep calls per bout (n=6)</title>
+    <path d="M 389.369162 330.486326 
+L 391.474489 330.486326 
+L 391.474489 344.639153 
+L 389.369162 344.639153 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip49" class="tip"><title>github-copilot-se-security-reviewer: 1.2 Bash calls per bout (n=6)</title>
+    <path d="M 393.155721 330.486326 
+L 404.727444 330.486326 
+L 404.727444 344.639153 
+L 393.155721 344.639153 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip50" class="tip"><title>github-copilot-se-security-reviewer: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 406.408676 330.486326 
+L 416.087119 330.486326 
+L 416.087119 344.639153 
+L 406.408676 344.639153 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip51" class="tip"><title>github-copilot-security-review: 20.5 Read calls per bout (n=6)</title>
+    <path d="M 184.895 356.218738 
+L 416.087119 356.218738 
+L 416.087119 370.371565 
+L 184.895 370.371565 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip52" class="tip"><title>github-copilot-security-review: 1 Grep calls per bout (n=6)</title>
+    <path d="M 417.768351 356.218738 
+L 427.446795 356.218738 
+L 427.446795 370.371565 
+L 417.768351 370.371565 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip53" class="tip"><title>github-copilot-security-review: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 429.128027 356.218738 
+L 444.486309 356.218738 
+L 444.486309 370.371565 
+L 429.128027 370.371565 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip54" class="tip"><title>github-copilot-security-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 446.167541 356.218738 
+L 455.845984 356.218738 
+L 455.845984 370.371565 
+L 446.167541 370.371565 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: 18.3 Read calls per bout (n=6)</title>
+    <path d="M 184.895 381.95115 
+L 391.474489 381.95115 
+L 391.474489 396.103977 
+L 184.895 396.103977 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip56" class="tip"><title>ivan-sincek-cwe-secure-code-review: 0.5 Grep calls per bout (n=6)</title>
+    <path d="M 393.155721 381.95115 
+L 397.154327 381.95115 
+L 397.154327 396.103977 
+L 393.155721 396.103977 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip57" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1.7 Bash calls per bout (n=6)</title>
+    <path d="M 398.835559 381.95115 
+L 416.087119 381.95115 
+L 416.087119 396.103977 
+L 398.835559 396.103977 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip58" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 417.768351 381.95115 
+L 427.446795 381.95115 
+L 427.446795 396.103977 
+L 417.768351 396.103977 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip59" class="tip"><title>neolab-security-auditor: 16.8 Read calls per bout (n=6)</title>
+    <path d="M 184.895 407.683562 
+L 374.434975 407.683562 
+L 374.434975 421.836389 
+L 184.895 421.836389 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip60" class="tip"><title>neolab-security-auditor: 0.5 Grep calls per bout (n=6)</title>
+    <path d="M 376.116207 407.683562 
+L 380.114813 407.683562 
+L 380.114813 421.836389 
+L 376.116207 421.836389 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip61" class="tip"><title>neolab-security-auditor: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 381.796045 407.683562 
+L 397.154327 407.683562 
+L 397.154327 421.836389 
+L 381.796045 421.836389 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip62" class="tip"><title>neolab-security-auditor: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 398.835559 407.683562 
+L 408.514002 407.683562 
+L 408.514002 421.836389 
+L 398.835559 421.836389 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip63" class="tip"><title>openai-security-best-practices: 20.3 Read calls per bout (n=6)</title>
+    <path d="M 184.895 433.415974 
+L 414.19384 433.415974 
+L 414.19384 447.568801 
+L 184.895 447.568801 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip64" class="tip"><title>openai-security-best-practices: 0.2 Grep calls per bout (n=6)</title>
+    <path d="M 415.875072 433.415974 
+L 416.821712 433.415974 
+L 416.821712 447.568801 
+L 415.875072 447.568801 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip65" class="tip"><title>openai-security-best-practices: 1.3 Glob calls per bout (n=6)</title>
+    <path d="M 417.768351 433.415974 
+L 431.233354 433.415974 
+L 431.233354 447.568801 
+L 417.768351 447.568801 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #199e70"/>
+   </g>
+   <g id="tool-calls-tip66" class="tip"><title>openai-security-best-practices: 2.3 Bash calls per bout (n=6)</title>
+    <path d="M 432.914586 433.415974 
+L 457.739263 433.415974 
+L 457.739263 447.568801 
+L 432.914586 447.568801 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip67" class="tip"><title>openai-security-best-practices: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 459.420495 433.415974 
+L 469.098939 433.415974 
+L 469.098939 447.568801 
+L 459.420495 447.568801 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip68" class="tip"><title>samber-golang-security: 21 Read calls per bout (n=6)</title>
+    <path d="M 184.895 459.148386 
+L 421.766957 459.148386 
+L 421.766957 473.301213 
+L 184.895 473.301213 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip69" class="tip"><title>samber-golang-security: 1 Grep calls per bout (n=6)</title>
+    <path d="M 423.448189 459.148386 
+L 433.126633 459.148386 
+L 433.126633 473.301213 
+L 423.448189 473.301213 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip70" class="tip"><title>samber-golang-security: 0.2 Glob calls per bout (n=6)</title>
+    <path d="M 434.807865 459.148386 
+L 435.754505 459.148386 
+L 435.754505 473.301213 
+L 434.807865 473.301213 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #199e70"/>
+   </g>
+   <g id="tool-calls-tip71" class="tip"><title>samber-golang-security: 2.2 Bash calls per bout (n=6)</title>
+    <path d="M 436.701144 459.148386 
+L 459.632543 459.148386 
+L 459.632543 473.301213 
+L 436.701144 473.301213 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip72" class="tip"><title>samber-golang-security: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 461.313775 459.148386 
+L 470.992218 459.148386 
+L 470.992218 473.301213 
+L 461.313775 473.301213 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip73" class="tip"><title>sari3l-security-code-audit: 17.8 Read calls per bout (n=6)</title>
+    <path d="M 184.895 484.880799 
+L 385.794651 484.880799 
+L 385.794651 499.033625 
+L 184.895 499.033625 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip74" class="tip"><title>sari3l-security-code-audit: 0.7 Grep calls per bout (n=6)</title>
+    <path d="M 387.475883 484.880799 
+L 393.367768 484.880799 
+L 393.367768 499.033625 
+L 387.475883 499.033625 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip75" class="tip"><title>sari3l-security-code-audit: 2 Bash calls per bout (n=6)</title>
+    <path d="M 395.049 484.880799 
+L 416.087119 484.880799 
+L 416.087119 499.033625 
+L 395.049 499.033625 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip76" class="tip"><title>sari3l-security-code-audit: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 417.768351 484.880799 
+L 427.446795 484.880799 
+L 427.446795 499.033625 
+L 417.768351 499.033625 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip77" class="tip"><title>sentry-code-review: 17.2 Read calls per bout (n=6)</title>
+    <path d="M 184.895 510.613211 
+L 378.221534 510.613211 
+L 378.221534 524.766037 
+L 184.895 524.766037 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip78" class="tip"><title>sentry-code-review: 0.5 Grep calls per bout (n=6)</title>
+    <path d="M 379.902766 510.613211 
+L 383.901372 510.613211 
+L 383.901372 524.766037 
+L 379.902766 524.766037 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip79" class="tip"><title>sentry-code-review: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 385.582604 510.613211 
+L 400.940885 510.613211 
+L 400.940885 524.766037 
+L 385.582604 524.766037 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip80" class="tip"><title>sentry-code-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 402.622117 510.613211 
+L 412.300561 510.613211 
+L 412.300561 524.766037 
+L 402.622117 524.766037 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip81" class="tip"><title>sentry-security-review: 18.3 Read calls per bout (n=6)</title>
+    <path d="M 184.895 536.345623 
+L 391.474489 536.345623 
+L 391.474489 550.498449 
+L 184.895 550.498449 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip82" class="tip"><title>sentry-security-review: 0.7 Grep calls per bout (n=6)</title>
+    <path d="M 393.155721 536.345623 
+L 399.047606 536.345623 
+L 399.047606 550.498449 
+L 393.155721 550.498449 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip83" class="tip"><title>sentry-security-review: 1.3 Bash calls per bout (n=6)</title>
+    <path d="M 400.728838 536.345623 
+L 414.19384 536.345623 
+L 414.19384 550.498449 
+L 400.728838 550.498449 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip84" class="tip"><title>sentry-security-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 415.875072 536.345623 
+L 425.553516 536.345623 
+L 425.553516 550.498449 
+L 415.875072 550.498449 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip85" class="tip"><title>sentry-then-fp-check: 29.2 Read calls per bout (n=6)</title>
+    <path d="M 184.895 562.078035 
+L 514.537642 562.078035 
+L 514.537642 576.230862 
+L 184.895 576.230862 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip86" class="tip"><title>sentry-then-fp-check: 2.7 Grep calls per bout (n=6)</title>
+    <path d="M 516.218874 562.078035 
+L 544.83011 562.078035 
+L 544.83011 576.230862 
+L 516.218874 576.230862 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip87" class="tip"><title>sentry-then-fp-check: 3.2 Bash calls per bout (n=6)</title>
+    <path d="M 546.511342 562.078035 
+L 580.802417 562.078035 
+L 580.802417 576.230862 
+L 546.511342 576.230862 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip88" class="tip"><title>sentry-then-fp-check: 2 other (Write) calls per bout (n=6)</title>
+    <path d="M 582.483649 562.078035 
+L 603.521768 562.078035 
+L 603.521768 576.230862 
+L 582.483649 576.230862 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip89" class="tip"><title>tob-differential-review: 19 Read calls per bout (n=6)</title>
+    <path d="M 184.895 587.810447 
+L 399.047606 587.810447 
+L 399.047606 601.963274 
+L 184.895 601.963274 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip90" class="tip"><title>tob-differential-review: 0.3 Grep calls per bout (n=6)</title>
+    <path d="M 400.728838 587.810447 
+L 402.834164 587.810447 
+L 402.834164 601.963274 
+L 400.728838 601.963274 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip91" class="tip"><title>tob-differential-review: 1.7 Bash calls per bout (n=6)</title>
+    <path d="M 404.515396 587.810447 
+L 421.766957 587.810447 
+L 421.766957 601.963274 
+L 404.515396 601.963274 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip92" class="tip"><title>tob-differential-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 423.448189 587.810447 
+L 433.126633 587.810447 
+L 433.126633 601.963274 
+L 423.448189 601.963274 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip93" class="tip"><title>tob-sharp-edges: 18 Read calls per bout (n=6)</title>
+    <path d="M 184.895 613.542859 
+L 387.68793 613.542859 
+L 387.68793 627.695686 
+L 184.895 627.695686 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip94" class="tip"><title>tob-sharp-edges: 1.5 Grep calls per bout (n=6)</title>
+    <path d="M 389.369162 613.542859 
+L 404.727444 613.542859 
+L 404.727444 627.695686 
+L 389.369162 627.695686 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip95" class="tip"><title>tob-sharp-edges: 2 Bash calls per bout (n=6)</title>
+    <path d="M 406.408676 613.542859 
+L 427.446795 613.542859 
+L 427.446795 627.695686 
+L 406.408676 627.695686 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip96" class="tip"><title>tob-sharp-edges: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 429.128027 613.542859 
+L 438.806471 613.542859 
+L 438.806471 627.695686 
+L 429.128027 627.695686 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip97" class="tip"><title>unitone-secure-code-review: 18.2 Read calls per bout (n=6)</title>
+    <path d="M 184.895 639.275271 
+L 389.581209 639.275271 
+L 389.581209 653.428098 
+L 184.895 653.428098 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip98" class="tip"><title>unitone-secure-code-review: 0.7 Grep calls per bout (n=6)</title>
+    <path d="M 391.262441 639.275271 
+L 397.154327 639.275271 
+L 397.154327 653.428098 
+L 391.262441 653.428098 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="tool-calls-tip99" class="tip"><title>unitone-secure-code-review: 1.5 Bash calls per bout (n=6)</title>
+    <path d="M 398.835559 639.275271 
+L 414.19384 639.275271 
+L 414.19384 653.428098 
+L 398.835559 653.428098 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip100" class="tip"><title>unitone-secure-code-review: 1 other (Write) calls per bout (n=6)</title>
+    <path d="M 415.875072 639.275271 
+L 425.553516 639.275271 
+L 425.553516 653.428098 
+L 415.875072 653.428098 
+z
+" clip-path="url(#tool-calls-p041b6f56c5)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-patch_3">
+    <path d="M 184.895 659.217891 
+L 184.895 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tool-calls-patch_4">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tool-calls-text_31">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="430.341468" y="56.584644" transform="rotate(-0 430.341468 56.584644)">21 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_32">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="441.701144" y="82.317056" transform="rotate(-0 441.701144 82.317056)">22 calls · 23 turns</text>
+   </g>
+   <g id="tool-calls-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="454.954099" y="108.049468" transform="rotate(-0 454.954099 108.049468)">23 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="445.487703" y="133.78188" transform="rotate(-0 445.487703 133.78188)">22 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="453.06082" y="159.514292" transform="rotate(-0 453.06082 159.514292)">23 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="579.910532" y="185.246704" transform="rotate(-0 579.910532 185.246704)">34 calls · 36 turns</text>
+   </g>
+   <g id="tool-calls-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="436.021306" y="210.979116" transform="rotate(-0 436.021306 210.979116)">22 calls · 23 turns</text>
+   </g>
+   <g id="tool-calls-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="426.55491" y="236.711528" transform="rotate(-0 426.55491 236.711528)">21 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="441.701144" y="262.44394" transform="rotate(-0 441.701144 262.44394)">22 calls · 23 turns</text>
+   </g>
+   <g id="tool-calls-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="407.622117" y="288.176353" transform="rotate(-0 407.622117 288.176353)">19 calls · 20 turns</text>
+   </g>
+   <g id="tool-calls-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.847378" y="313.908765" transform="rotate(-0 456.847378 313.908765)">24 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="422.768351" y="339.641177" transform="rotate(-0 422.768351 339.641177)">20 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="462.527216" y="365.373589" transform="rotate(-0 462.527216 365.373589)">24 calls · 25 turns</text>
+   </g>
+   <g id="tool-calls-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="434.128027" y="391.106001" transform="rotate(-0 434.128027 391.106001)">22 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="415.195234" y="416.838413" transform="rotate(-0 415.195234 416.838413)">20 calls · 21 turns</text>
+   </g>
+   <g id="tool-calls-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="475.780171" y="442.570825" transform="rotate(-0 475.780171 442.570825)">25 calls · 26 turns</text>
+   </g>
+   <g id="tool-calls-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="477.67345" y="468.303237" transform="rotate(-0 477.67345 468.303237)">25 calls · 26 turns</text>
+   </g>
+   <g id="tool-calls-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="434.128027" y="494.035649" transform="rotate(-0 434.128027 494.035649)">22 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="418.981793" y="519.768062" transform="rotate(-0 418.981793 519.768062)">20 calls · 21 turns</text>
+   </g>
+   <g id="tool-calls-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="432.234748" y="545.500474" transform="rotate(-0 432.234748 545.500474)">21 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="610.203" y="571.232886" transform="rotate(-0 610.203 571.232886)">37 calls · 40 turns</text>
+   </g>
+   <g id="tool-calls-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.807865" y="596.965298" transform="rotate(-0 439.807865 596.965298)">22 calls · 23 turns</text>
+   </g>
+   <g id="tool-calls-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="445.487703" y="622.69771" transform="rotate(-0 445.487703 622.69771)">22 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="432.234748" y="648.430122" transform="rotate(-0 432.234748 648.430122)">21 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_55">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">How each contender worked: tool calls and turns</text>
+   </g>
+   <g id="tool-calls-legend_1">
+    <g id="tool-calls-patch_5">
+     <path d="M 189.695 35.758125 
+L 197.695 35.758125 
+L 197.695 28.598125 
+L 189.695 28.598125 
+z
+" style="fill: #3987e5; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_56">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.095" y="34.918125" transform="rotate(-0 204.095 34.918125)">Read</text>
+    </g>
+    <g id="tool-calls-patch_6">
+     <path d="M 240.19875 35.758125 
+L 248.19875 35.758125 
+L 248.19875 28.598125 
+L 240.19875 28.598125 
+z
+" style="fill: #d95926; stroke: #d95926; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_57">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="254.59875" y="34.918125" transform="rotate(-0 254.59875 34.918125)">Grep</text>
+    </g>
+    <g id="tool-calls-patch_7">
+     <path d="M 289.91125 35.758125 
+L 297.91125 35.758125 
+L 297.91125 28.598125 
+L 289.91125 28.598125 
+z
+" style="fill: #199e70; stroke: #199e70; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_58">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="304.31125" y="34.918125" transform="rotate(-0 304.31125 34.918125)">Glob</text>
+    </g>
+    <g id="tool-calls-patch_8">
+     <path d="M 338.70625 35.758125 
+L 346.70625 35.758125 
+L 346.70625 28.598125 
+L 338.70625 28.598125 
+z
+" style="fill: #c98500; stroke: #c98500; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_59">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="353.10625" y="34.918125" transform="rotate(-0 353.10625 34.918125)">Bash</text>
+    </g>
+    <g id="tool-calls-patch_9">
+     <path d="M 388.735 35.758125 
+L 396.735 35.758125 
+L 396.735 28.598125 
+L 388.735 28.598125 
+z
+" style="fill: #898781; opacity: 0.45; stroke: #898781; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_60">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.135" y="34.918125" transform="rotate(-0 403.135 34.918125)">other (Write)</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="tool-calls-p041b6f56c5">
+   <rect x="184.895" y="41.64" width="525.385" height="617.577891"/>
+  </clipPath>
+ </defs>
+</svg>

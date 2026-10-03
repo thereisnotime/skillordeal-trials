@@ -13,7 +13,7 @@ MAGENTA := '\033[35m'
 CYAN := '\033[36m'
 
 # Engine to install. Override with a pinned release for real rounds, e.g.
-#   just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.2
+#   just setup engine=git+https://github.com/thereisnotime/skillordeal@v0.1.3
 engine := "git+file://" + env_var("HOME") + "/Private/Projects/P/skillordeal"
 runner := "ghcr.io/thereisnotime/skillordeal-runner:v0.1.2"
 so := "skillordeal"

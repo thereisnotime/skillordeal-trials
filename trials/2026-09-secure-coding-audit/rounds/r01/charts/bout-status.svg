@@ -1,0 +1,553 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="648pt" viewBox="0 0 720 648" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of bout status per contender">
+ <title>Stacked bars of bout status per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="bout-status-figure_1">
+  <g id="bout-status-patch_1">
+   <path d="M 0 648 
+L 720 648 
+L 720 0 
+L 0 0 
+L 0 648 
+z
+" style="fill: none"/>
+  </g>
+  <g id="bout-status-axes_1">
+   <g id="bout-status-patch_2">
+    <path d="M 184.895 611.697891 
+L 710.28 611.697891 
+L 710.28 41.64 
+L 184.895 41.64 
+L 184.895 611.697891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="bout-status-matplotlib.axis_1">
+    <g id="bout-status-xtick_1">
+     <g id="bout-status-line2d_1"/>
+     <g id="bout-status-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="622.035781" transform="rotate(-0 184.895 622.035781)">0</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_2">
+     <g id="bout-status-line2d_2"/>
+     <g id="bout-status-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="259.101921" y="622.035781" transform="rotate(-0 259.101921 622.035781)">1</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_3">
+     <g id="bout-status-line2d_3"/>
+     <g id="bout-status-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="333.308842" y="622.035781" transform="rotate(-0 333.308842 622.035781)">2</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_4">
+     <g id="bout-status-line2d_4"/>
+     <g id="bout-status-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="407.515763" y="622.035781" transform="rotate(-0 407.515763 622.035781)">3</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_5">
+     <g id="bout-status-line2d_5"/>
+     <g id="bout-status-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="481.722684" y="622.035781" transform="rotate(-0 481.722684 622.035781)">4</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_6">
+     <g id="bout-status-line2d_6"/>
+     <g id="bout-status-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="555.929605" y="622.035781" transform="rotate(-0 555.929605 622.035781)">5</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_7">
+     <g id="bout-status-line2d_7"/>
+     <g id="bout-status-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="630.136525" y="622.035781" transform="rotate(-0 630.136525 622.035781)">6</text>
+     </g>
+    </g>
+    <g id="bout-status-xtick_8">
+     <g id="bout-status-line2d_8"/>
+     <g id="bout-status-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="704.343446" y="622.035781" transform="rotate(-0 704.343446 622.035781)">7</text>
+     </g>
+    </g>
+    <g id="bout-status-text_9">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="635.036484" transform="rotate(-0 447.5875 635.036484)">bouts, all arenas</text>
+    </g>
+   </g>
+   <g id="bout-status-matplotlib.axis_2">
+    <g id="bout-status-ytick_1">
+     <g id="bout-status-line2d_9"/>
+     <g id="bout-status-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="56.460455" transform="rotate(-0 181.395 56.460455)">baseline</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_2">
+     <g id="bout-status-line2d_10"/>
+     <g id="bout-status-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="79.26277" transform="rotate(-0 181.395 79.26277)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_3">
+     <g id="bout-status-line2d_11"/>
+     <g id="bout-status-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="102.065086" transform="rotate(-0 181.395 102.065086)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_4">
+     <g id="bout-status-line2d_12"/>
+     <g id="bout-status-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="124.867402" transform="rotate(-0 181.395 124.867402)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_5">
+     <g id="bout-status-line2d_13"/>
+     <g id="bout-status-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="147.669717" transform="rotate(-0 181.395 147.669717)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_6">
+     <g id="bout-status-line2d_14"/>
+     <g id="bout-status-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="170.472033" transform="rotate(-0 181.395 170.472033)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_7">
+     <g id="bout-status-line2d_15"/>
+     <g id="bout-status-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="193.274348" transform="rotate(-0 181.395 193.274348)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_8">
+     <g id="bout-status-line2d_16"/>
+     <g id="bout-status-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="216.076664" transform="rotate(-0 181.395 216.076664)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_9">
+     <g id="bout-status-line2d_17"/>
+     <g id="bout-status-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="238.87898" transform="rotate(-0 181.395 238.87898)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_10">
+     <g id="bout-status-line2d_18"/>
+     <g id="bout-status-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="261.681295" transform="rotate(-0 181.395 261.681295)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_11">
+     <g id="bout-status-line2d_19"/>
+     <g id="bout-status-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="284.483611" transform="rotate(-0 181.395 284.483611)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_12">
+     <g id="bout-status-line2d_20"/>
+     <g id="bout-status-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="307.285927" transform="rotate(-0 181.395 307.285927)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_13">
+     <g id="bout-status-line2d_21"/>
+     <g id="bout-status-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="330.088242" transform="rotate(-0 181.395 330.088242)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_14">
+     <g id="bout-status-line2d_22"/>
+     <g id="bout-status-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="352.890558" transform="rotate(-0 181.395 352.890558)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_15">
+     <g id="bout-status-line2d_23"/>
+     <g id="bout-status-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="375.692873" transform="rotate(-0 181.395 375.692873)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_16">
+     <g id="bout-status-line2d_24"/>
+     <g id="bout-status-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="398.495189" transform="rotate(-0 181.395 398.495189)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_17">
+     <g id="bout-status-line2d_25"/>
+     <g id="bout-status-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="421.297505" transform="rotate(-0 181.395 421.297505)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_18">
+     <g id="bout-status-line2d_26"/>
+     <g id="bout-status-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="444.09982" transform="rotate(-0 181.395 444.09982)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_19">
+     <g id="bout-status-line2d_27"/>
+     <g id="bout-status-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="466.902136" transform="rotate(-0 181.395 466.902136)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_20">
+     <g id="bout-status-line2d_28"/>
+     <g id="bout-status-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="489.704452" transform="rotate(-0 181.395 489.704452)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_21">
+     <g id="bout-status-line2d_29"/>
+     <g id="bout-status-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="512.506767" transform="rotate(-0 181.395 512.506767)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_22">
+     <g id="bout-status-line2d_30"/>
+     <g id="bout-status-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="535.309083" transform="rotate(-0 181.395 535.309083)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_23">
+     <g id="bout-status-line2d_31"/>
+     <g id="bout-status-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="558.111398" transform="rotate(-0 181.395 558.111398)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_24">
+     <g id="bout-status-line2d_32"/>
+     <g id="bout-status-text_33">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="580.913714" transform="rotate(-0 181.395 580.913714)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="bout-status-ytick_25">
+     <g id="bout-status-line2d_33"/>
+     <g id="bout-status-text_34">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="603.71603" transform="rotate(-0 181.395 603.71603)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="bout-status-tip0" class="tip"><title>baseline: 6 bouts ok</title>
+    <path d="M 184.895 46.770521 
+L 628.355559 46.770521 
+L 628.355559 59.311795 
+L 184.895 59.311795 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip1" class="tip"><title>addyosmani-security-auditor: 6 bouts ok</title>
+    <path d="M 184.895 69.572837 
+L 628.355559 69.572837 
+L 628.355559 82.11411 
+L 184.895 82.11411 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip2" class="tip"><title>agamm-owasp-security: 6 bouts ok</title>
+    <path d="M 184.895 92.375152 
+L 628.355559 92.375152 
+L 628.355559 104.916426 
+L 184.895 104.916426 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip3" class="tip"><title>anthropic-security-auditor: 6 bouts ok</title>
+    <path d="M 184.895 115.177468 
+L 628.355559 115.177468 
+L 628.355559 127.718741 
+L 184.895 127.718741 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip4" class="tip"><title>anthropic-security-review-cmd: 6 bouts schema_violation</title>
+    <path d="M 184.895 137.979784 
+L 628.355559 137.979784 
+L 628.355559 150.521057 
+L 184.895 150.521057 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #ec835a"/>
+   </g>
+   <g id="bout-status-tip5" class="tip"><title>cf-security-audit: 6 bouts ok</title>
+    <path d="M 184.895 160.782099 
+L 628.355559 160.782099 
+L 628.355559 173.323373 
+L 184.895 173.323373 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip6" class="tip"><title>claude-security-flat: 6 bouts ok</title>
+    <path d="M 184.895 183.584415 
+L 628.355559 183.584415 
+L 628.355559 196.125688 
+L 184.895 196.125688 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip7" class="tip"><title>claude-security-researcher: 6 bouts ok</title>
+    <path d="M 184.895 206.38673 
+L 628.355559 206.38673 
+L 628.355559 218.928004 
+L 184.895 218.928004 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip8" class="tip"><title>ecc-security-review: 6 bouts ok</title>
+    <path d="M 184.895 229.189046 
+L 628.355559 229.189046 
+L 628.355559 241.73032 
+L 184.895 241.73032 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip9" class="tip"><title>evandervecht-security-audit: 6 bouts ok</title>
+    <path d="M 184.895 251.991362 
+L 628.355559 251.991362 
+L 628.355559 264.532635 
+L 184.895 264.532635 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip10" class="tip"><title>every-ce-security-reviewer: 6 bouts ok</title>
+    <path d="M 184.895 274.793677 
+L 628.355559 274.793677 
+L 628.355559 287.334951 
+L 184.895 287.334951 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip11" class="tip"><title>gemini-security-analyze-full: 6 bouts ok</title>
+    <path d="M 184.895 297.595993 
+L 628.355559 297.595993 
+L 628.355559 310.137266 
+L 184.895 310.137266 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip12" class="tip"><title>github-copilot-se-security-reviewer: 6 bouts ok</title>
+    <path d="M 184.895 320.398309 
+L 628.355559 320.398309 
+L 628.355559 332.939582 
+L 184.895 332.939582 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip13" class="tip"><title>github-copilot-security-review: 6 bouts ok</title>
+    <path d="M 184.895 343.200624 
+L 628.355559 343.200624 
+L 628.355559 355.741898 
+L 184.895 355.741898 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip14" class="tip"><title>ivan-sincek-cwe-secure-code-review: 6 bouts ok</title>
+    <path d="M 184.895 366.00294 
+L 628.355559 366.00294 
+L 628.355559 378.544213 
+L 184.895 378.544213 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip15" class="tip"><title>neolab-security-auditor: 6 bouts ok</title>
+    <path d="M 184.895 388.805255 
+L 628.355559 388.805255 
+L 628.355559 401.346529 
+L 184.895 401.346529 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip16" class="tip"><title>openai-security-best-practices: 6 bouts ok</title>
+    <path d="M 184.895 411.607571 
+L 628.355559 411.607571 
+L 628.355559 424.148845 
+L 184.895 424.148845 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip17" class="tip"><title>samber-golang-security: 6 bouts ok</title>
+    <path d="M 184.895 434.409887 
+L 628.355559 434.409887 
+L 628.355559 446.95116 
+L 184.895 446.95116 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip18" class="tip"><title>sari3l-security-code-audit: 6 bouts ok</title>
+    <path d="M 184.895 457.212202 
+L 628.355559 457.212202 
+L 628.355559 469.753476 
+L 184.895 469.753476 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip19" class="tip"><title>sentry-code-review: 6 bouts ok</title>
+    <path d="M 184.895 480.014518 
+L 628.355559 480.014518 
+L 628.355559 492.555791 
+L 184.895 492.555791 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip20" class="tip"><title>sentry-security-review: 6 bouts ok</title>
+    <path d="M 184.895 502.816834 
+L 628.355559 502.816834 
+L 628.355559 515.358107 
+L 184.895 515.358107 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip21" class="tip"><title>sentry-then-fp-check: 6 bouts ok</title>
+    <path d="M 184.895 525.619149 
+L 628.355559 525.619149 
+L 628.355559 538.160423 
+L 184.895 538.160423 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip22" class="tip"><title>tob-differential-review: 6 bouts ok</title>
+    <path d="M 184.895 548.421465 
+L 628.355559 548.421465 
+L 628.355559 560.962738 
+L 184.895 560.962738 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip23" class="tip"><title>tob-sharp-edges: 6 bouts ok</title>
+    <path d="M 184.895 571.22378 
+L 628.355559 571.22378 
+L 628.355559 583.765054 
+L 184.895 583.765054 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-tip24" class="tip"><title>unitone-secure-code-review: 6 bouts ok</title>
+    <path d="M 184.895 594.026096 
+L 628.355559 594.026096 
+L 628.355559 606.56737 
+L 184.895 606.56737 
+z
+" clip-path="url(#bout-status-pdee5835091)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="bout-status-patch_3">
+    <path d="M 184.895 611.697891 
+L 184.895 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bout-status-patch_4">
+    <path d="M 184.895 611.697891 
+L 710.28 611.697891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="bout-status-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="55.119595" transform="rotate(-0 635.136525 55.119595)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="77.921911" transform="rotate(-0 635.136525 77.921911)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="100.724227" transform="rotate(-0 635.136525 100.724227)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="123.526542" transform="rotate(-0 635.136525 123.526542)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_39">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="635.136525" y="146.328858" transform="rotate(-0 635.136525 146.328858)">0/6 ok</text>
+   </g>
+   <g id="bout-status-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="169.131173" transform="rotate(-0 635.136525 169.131173)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="191.933489" transform="rotate(-0 635.136525 191.933489)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="214.735805" transform="rotate(-0 635.136525 214.735805)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="237.53812" transform="rotate(-0 635.136525 237.53812)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="260.340436" transform="rotate(-0 635.136525 260.340436)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="283.142752" transform="rotate(-0 635.136525 283.142752)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="305.945067" transform="rotate(-0 635.136525 305.945067)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="328.747383" transform="rotate(-0 635.136525 328.747383)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="351.549698" transform="rotate(-0 635.136525 351.549698)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="374.352014" transform="rotate(-0 635.136525 374.352014)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="397.15433" transform="rotate(-0 635.136525 397.15433)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="419.956645" transform="rotate(-0 635.136525 419.956645)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="442.758961" transform="rotate(-0 635.136525 442.758961)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="465.561277" transform="rotate(-0 635.136525 465.561277)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="488.363592" transform="rotate(-0 635.136525 488.363592)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_55">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="511.165908" transform="rotate(-0 635.136525 511.165908)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="533.968223" transform="rotate(-0 635.136525 533.968223)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_57">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="556.770539" transform="rotate(-0 635.136525 556.770539)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_58">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="579.572855" transform="rotate(-0 635.136525 579.572855)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_59">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="635.136525" y="602.37517" transform="rotate(-0 635.136525 602.37517)">6/6 ok</text>
+   </g>
+   <g id="bout-status-text_60">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">Bout status by contender</text>
+   </g>
+   <g id="bout-status-legend_1">
+    <g id="bout-status-patch_5">
+     <path d="M 189.695 35.758125 
+L 197.695 35.758125 
+L 197.695 28.598125 
+L 189.695 28.598125 
+z
+" style="fill: #898781; opacity: 0.45; stroke: #898781; stroke-linejoin: miter"/>
+    </g>
+    <g id="bout-status-text_61">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.095" y="34.918125" transform="rotate(-0 204.095 34.918125)">ok</text>
+    </g>
+    <g id="bout-status-patch_6">
+     <path d="M 229.6225 35.758125 
+L 237.6225 35.758125 
+L 237.6225 28.598125 
+L 229.6225 28.598125 
+z
+" style="fill: #ec835a; stroke: #ec835a; stroke-linejoin: miter"/>
+    </g>
+    <g id="bout-status-text_62">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="244.0225" y="34.918125" transform="rotate(-0 244.0225 34.918125)">schema_violation</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="bout-status-pdee5835091">
+   <rect x="184.895" y="41.64" width="525.385" height="570.057891"/>
+  </clipPath>
+ </defs>
+</svg>

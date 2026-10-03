@@ -1,0 +1,2553 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="626.4pt" viewBox="0 0 720 626.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Strip plots of per-bout quality, findings, cost and time in dvpwa">
+ <title>Strip plots of per-bout quality, findings, cost and time in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="reps-dvpwa-figure_1">
+  <g id="reps-dvpwa-patch_1">
+   <path d="M 0 626.4 
+L 720 626.4 
+L 720 0 
+L 0 0 
+L 0 626.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="reps-dvpwa-axes_1">
+   <g id="reps-dvpwa-patch_2">
+    <path d="M 184.895 604.18 
+L 308.95125 604.18 
+L 308.95125 42.962344 
+L 184.895 42.962344 
+L 184.895 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_1">
+    <g id="reps-dvpwa-xtick_1">
+     <g id="reps-dvpwa-line2d_1"/>
+     <g id="reps-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="196.900444" y="614.517891" transform="rotate(-0 196.900444 614.517891)">5</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_2">
+     <g id="reps-dvpwa-line2d_2"/>
+     <g id="reps-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="230.248898" y="614.517891" transform="rotate(-0 230.248898 614.517891)">6</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_3">
+     <g id="reps-dvpwa-line2d_3"/>
+     <g id="reps-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="263.597352" y="614.517891" transform="rotate(-0 263.597352 614.517891)">7</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_4">
+     <g id="reps-dvpwa-line2d_4"/>
+     <g id="reps-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="296.945806" y="614.517891" transform="rotate(-0 296.945806 614.517891)">8</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_2">
+    <g id="reps-dvpwa-ytick_1">
+     <g id="reps-dvpwa-line2d_5"/>
+     <g id="reps-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="58.073675" transform="rotate(-0 181.395 58.073675)">baseline</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_2">
+     <g id="reps-dvpwa-line2d_6"/>
+     <g id="reps-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="81.457744" transform="rotate(-0 181.395 81.457744)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_3">
+     <g id="reps-dvpwa-line2d_7"/>
+     <g id="reps-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="104.841813" transform="rotate(-0 181.395 104.841813)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_4">
+     <g id="reps-dvpwa-line2d_8"/>
+     <g id="reps-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="128.225882" transform="rotate(-0 181.395 128.225882)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_5">
+     <g id="reps-dvpwa-line2d_9"/>
+     <g id="reps-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.609951" transform="rotate(-0 181.395 151.609951)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_6">
+     <g id="reps-dvpwa-line2d_10"/>
+     <g id="reps-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="174.99402" transform="rotate(-0 181.395 174.99402)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_7">
+     <g id="reps-dvpwa-line2d_11"/>
+     <g id="reps-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="198.378089" transform="rotate(-0 181.395 198.378089)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_8">
+     <g id="reps-dvpwa-line2d_12"/>
+     <g id="reps-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="221.762158" transform="rotate(-0 181.395 221.762158)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_9">
+     <g id="reps-dvpwa-line2d_13"/>
+     <g id="reps-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="245.146227" transform="rotate(-0 181.395 245.146227)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_10">
+     <g id="reps-dvpwa-line2d_14"/>
+     <g id="reps-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.530296" transform="rotate(-0 181.395 268.530296)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_11">
+     <g id="reps-dvpwa-line2d_15"/>
+     <g id="reps-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="291.914365" transform="rotate(-0 181.395 291.914365)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_12">
+     <g id="reps-dvpwa-line2d_16"/>
+     <g id="reps-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.298434" transform="rotate(-0 181.395 315.298434)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_13">
+     <g id="reps-dvpwa-line2d_17"/>
+     <g id="reps-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="338.682503" transform="rotate(-0 181.395 338.682503)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_14">
+     <g id="reps-dvpwa-line2d_18"/>
+     <g id="reps-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="362.066572" transform="rotate(-0 181.395 362.066572)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_15">
+     <g id="reps-dvpwa-line2d_19"/>
+     <g id="reps-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="385.450641" transform="rotate(-0 181.395 385.450641)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_16">
+     <g id="reps-dvpwa-line2d_20"/>
+     <g id="reps-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="408.83471" transform="rotate(-0 181.395 408.83471)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_17">
+     <g id="reps-dvpwa-line2d_21"/>
+     <g id="reps-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="432.218779" transform="rotate(-0 181.395 432.218779)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_18">
+     <g id="reps-dvpwa-line2d_22"/>
+     <g id="reps-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="455.602848" transform="rotate(-0 181.395 455.602848)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_19">
+     <g id="reps-dvpwa-line2d_23"/>
+     <g id="reps-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="478.986917" transform="rotate(-0 181.395 478.986917)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_20">
+     <g id="reps-dvpwa-line2d_24"/>
+     <g id="reps-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="502.370986" transform="rotate(-0 181.395 502.370986)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_21">
+     <g id="reps-dvpwa-line2d_25"/>
+     <g id="reps-dvpwa-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="525.755055" transform="rotate(-0 181.395 525.755055)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_22">
+     <g id="reps-dvpwa-line2d_26"/>
+     <g id="reps-dvpwa-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.139124" transform="rotate(-0 181.395 549.139124)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_23">
+     <g id="reps-dvpwa-line2d_27"/>
+     <g id="reps-dvpwa-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.523193" transform="rotate(-0 181.395 572.523193)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_24">
+     <g id="reps-dvpwa-line2d_28"/>
+     <g id="reps-dvpwa-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="595.907262" transform="rotate(-0 181.395 595.907262)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_29">
+    <path d="M 230.248898 604.18 
+L 230.248898 42.962344 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_3">
+    <path d="M 184.895 604.18 
+L 184.895 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_4">
+    <path d="M 184.895 604.18 
+L 308.95125 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip0" class="tip"><title>baseline, bout 1 of 3: TP 7</title>
+    <defs>
+     <path id="reps-dvpwa-ma432050c96" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="263.597352" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip1" class="tip"><title>baseline, bout 2 of 3: TP 5</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="196.900444" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip2" class="tip"><title>baseline, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="230.248898" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip4" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: TP 7</title>
+    <defs>
+     <path id="reps-dvpwa-m6cdce938b5" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip5" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip6" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip8" class="tip"><title>agamm-owasp-security, bout 1 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip9" class="tip"><title>agamm-owasp-security, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip10" class="tip"><title>agamm-owasp-security, bout 3 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip12" class="tip"><title>anthropic-security-auditor, bout 1 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip13" class="tip"><title>anthropic-security-auditor, bout 2 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip14" class="tip"><title>anthropic-security-auditor, bout 3 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip16" class="tip"><title>cf-security-audit, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip17" class="tip"><title>cf-security-audit, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip18" class="tip"><title>cf-security-audit, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip20" class="tip"><title>claude-security-flat, bout 1 of 3: TP 5</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="196.900444" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip21" class="tip"><title>claude-security-flat, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip22" class="tip"><title>claude-security-flat, bout 3 of 3: TP 5</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="196.900444" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip24" class="tip"><title>claude-security-researcher, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip25" class="tip"><title>claude-security-researcher, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip26" class="tip"><title>claude-security-researcher, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip28" class="tip"><title>ecc-security-review, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip29" class="tip"><title>ecc-security-review, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip30" class="tip"><title>ecc-security-review, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip32" class="tip"><title>evandervecht-security-audit, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip33" class="tip"><title>evandervecht-security-audit, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip34" class="tip"><title>evandervecht-security-audit, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip36" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip37" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip38" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip40" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip41" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip42" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip44" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip45" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip46" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip48" class="tip"><title>github-copilot-security-review, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip49" class="tip"><title>github-copilot-security-review, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip50" class="tip"><title>github-copilot-security-review, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip56" class="tip"><title>neolab-security-auditor, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip57" class="tip"><title>neolab-security-auditor, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip58" class="tip"><title>neolab-security-auditor, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip60" class="tip"><title>openai-security-best-practices, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip61" class="tip"><title>openai-security-best-practices, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip62" class="tip"><title>openai-security-best-practices, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip64" class="tip"><title>samber-golang-security, bout 1 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip65" class="tip"><title>samber-golang-security, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip66" class="tip"><title>samber-golang-security, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip68" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip69" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip70" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip72" class="tip"><title>sentry-code-review, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip73" class="tip"><title>sentry-code-review, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip74" class="tip"><title>sentry-code-review, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip76" class="tip"><title>sentry-security-review, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip77" class="tip"><title>sentry-security-review, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip78" class="tip"><title>sentry-security-review, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip80" class="tip"><title>sentry-then-fp-check, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip81" class="tip"><title>sentry-then-fp-check, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip82" class="tip"><title>sentry-then-fp-check, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip84" class="tip"><title>tob-differential-review, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip85" class="tip"><title>tob-differential-review, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip86" class="tip"><title>tob-differential-review, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip88" class="tip"><title>tob-sharp-edges, bout 1 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip89" class="tip"><title>tob-sharp-edges, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip90" class="tip"><title>tob-sharp-edges, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="263.597352" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip92" class="tip"><title>unitone-secure-code-review, bout 1 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip93" class="tip"><title>unitone-secure-code-review, bout 2 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="296.945806" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip94" class="tip"><title>unitone-secure-code-review, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-p78bbfa37f5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="230.248898" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_29">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">TP</text>
+   </g>
+   <g id="reps-dvpwa-tip3" class="tip"><title>baseline: mean TP 6 (n=3)</title>
+    <path d="M 230.248898 46.703795 
+L 230.248898 62.604962 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip7" class="tip"><title>addyosmani-security-auditor: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 70.087864 
+L 263.597352 85.989031 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip11" class="tip"><title>agamm-owasp-security: mean TP 7.7 (n=3)</title>
+    <path d="M 285.829655 93.471933 
+L 285.829655 109.3731 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip15" class="tip"><title>anthropic-security-auditor: mean TP 8 (n=3)</title>
+    <path d="M 296.945806 116.856002 
+L 296.945806 132.757169 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip19" class="tip"><title>cf-security-audit: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 140.240071 
+L 241.365049 156.141238 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip23" class="tip"><title>claude-security-flat: mean TP 5.3 (n=3)</title>
+    <path d="M 208.016595 163.62414 
+L 208.016595 179.525307 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip27" class="tip"><title>claude-security-researcher: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 187.008209 
+L 241.365049 202.909376 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip31" class="tip"><title>ecc-security-review: mean TP 6.7 (n=3)</title>
+    <path d="M 252.481201 210.392278 
+L 252.481201 226.293445 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip35" class="tip"><title>evandervecht-security-audit: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 233.776347 
+L 263.597352 249.677514 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip39" class="tip"><title>every-ce-security-reviewer: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 257.160416 
+L 263.597352 273.061583 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip43" class="tip"><title>gemini-security-analyze-full: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 280.544485 
+L 241.365049 296.445652 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip47" class="tip"><title>github-copilot-se-security-reviewer: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 303.928554 
+L 263.597352 319.829721 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip51" class="tip"><title>github-copilot-security-review: mean TP 6.7 (n=3)</title>
+    <path d="M 252.481201 327.312623 
+L 252.481201 343.21379 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 350.696692 
+L 263.597352 366.597859 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip59" class="tip"><title>neolab-security-auditor: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 374.080761 
+L 263.597352 389.981928 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip63" class="tip"><title>openai-security-best-practices: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 397.46483 
+L 241.365049 413.365997 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip67" class="tip"><title>samber-golang-security: mean TP 7.3 (n=3)</title>
+    <path d="M 274.713504 420.848899 
+L 274.713504 436.750066 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip71" class="tip"><title>sari3l-security-code-audit: mean TP 7 (n=3)</title>
+    <path d="M 263.597352 444.232968 
+L 263.597352 460.134135 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip75" class="tip"><title>sentry-code-review: mean TP 6 (n=3)</title>
+    <path d="M 230.248898 467.617037 
+L 230.248898 483.518204 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip79" class="tip"><title>sentry-security-review: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 491.001106 
+L 241.365049 506.902273 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip83" class="tip"><title>sentry-then-fp-check: mean TP 6 (n=3)</title>
+    <path d="M 230.248898 514.385175 
+L 230.248898 530.286342 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip87" class="tip"><title>tob-differential-review: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 537.769244 
+L 241.365049 553.670411 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip91" class="tip"><title>tob-sharp-edges: mean TP 6.3 (n=3)</title>
+    <path d="M 241.365049 561.153313 
+L 241.365049 577.05448 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip95" class="tip"><title>unitone-secure-code-review: mean TP 7.3 (n=3)</title>
+    <path d="M 274.713504 584.537382 
+L 274.713504 600.438549 
+" clip-path="url(#reps-dvpwa-p78bbfa37f5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_2">
+   <g id="reps-dvpwa-patch_5">
+    <path d="M 318.67125 604.18 
+L 442.7275 604.18 
+L 442.7275 42.962344 
+L 318.67125 42.962344 
+L 318.67125 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_3">
+    <g id="reps-dvpwa-xtick_5">
+     <g id="reps-dvpwa-line2d_30"/>
+     <g id="reps-dvpwa-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="355.688034" y="614.517891" transform="rotate(-0 355.688034 614.517891)">6</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_6">
+     <g id="reps-dvpwa-line2d_31"/>
+     <g id="reps-dvpwa-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="405.710716" y="614.517891" transform="rotate(-0 405.710716 614.517891)">8</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_4">
+    <g id="reps-dvpwa-ytick_25">
+     <g id="reps-dvpwa-line2d_32"/>
+    </g>
+    <g id="reps-dvpwa-ytick_26">
+     <g id="reps-dvpwa-line2d_33"/>
+    </g>
+    <g id="reps-dvpwa-ytick_27">
+     <g id="reps-dvpwa-line2d_34"/>
+    </g>
+    <g id="reps-dvpwa-ytick_28">
+     <g id="reps-dvpwa-line2d_35"/>
+    </g>
+    <g id="reps-dvpwa-ytick_29">
+     <g id="reps-dvpwa-line2d_36"/>
+    </g>
+    <g id="reps-dvpwa-ytick_30">
+     <g id="reps-dvpwa-line2d_37"/>
+    </g>
+    <g id="reps-dvpwa-ytick_31">
+     <g id="reps-dvpwa-line2d_38"/>
+    </g>
+    <g id="reps-dvpwa-ytick_32">
+     <g id="reps-dvpwa-line2d_39"/>
+    </g>
+    <g id="reps-dvpwa-ytick_33">
+     <g id="reps-dvpwa-line2d_40"/>
+    </g>
+    <g id="reps-dvpwa-ytick_34">
+     <g id="reps-dvpwa-line2d_41"/>
+    </g>
+    <g id="reps-dvpwa-ytick_35">
+     <g id="reps-dvpwa-line2d_42"/>
+    </g>
+    <g id="reps-dvpwa-ytick_36">
+     <g id="reps-dvpwa-line2d_43"/>
+    </g>
+    <g id="reps-dvpwa-ytick_37">
+     <g id="reps-dvpwa-line2d_44"/>
+    </g>
+    <g id="reps-dvpwa-ytick_38">
+     <g id="reps-dvpwa-line2d_45"/>
+    </g>
+    <g id="reps-dvpwa-ytick_39">
+     <g id="reps-dvpwa-line2d_46"/>
+    </g>
+    <g id="reps-dvpwa-ytick_40">
+     <g id="reps-dvpwa-line2d_47"/>
+    </g>
+    <g id="reps-dvpwa-ytick_41">
+     <g id="reps-dvpwa-line2d_48"/>
+    </g>
+    <g id="reps-dvpwa-ytick_42">
+     <g id="reps-dvpwa-line2d_49"/>
+    </g>
+    <g id="reps-dvpwa-ytick_43">
+     <g id="reps-dvpwa-line2d_50"/>
+    </g>
+    <g id="reps-dvpwa-ytick_44">
+     <g id="reps-dvpwa-line2d_51"/>
+    </g>
+    <g id="reps-dvpwa-ytick_45">
+     <g id="reps-dvpwa-line2d_52"/>
+    </g>
+    <g id="reps-dvpwa-ytick_46">
+     <g id="reps-dvpwa-line2d_53"/>
+    </g>
+    <g id="reps-dvpwa-ytick_47">
+     <g id="reps-dvpwa-line2d_54"/>
+    </g>
+    <g id="reps-dvpwa-ytick_48">
+     <g id="reps-dvpwa-line2d_55"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_56">
+    <path d="M 355.688034 604.18 
+L 355.688034 42.962344 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_6">
+    <path d="M 318.67125 604.18 
+L 318.67125 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_7">
+    <path d="M 318.67125 604.18 
+L 442.7275 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip96" class="tip"><title>baseline, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="380.699375" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip97" class="tip"><title>baseline, bout 2 of 3: findings 5</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="330.676694" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip98" class="tip"><title>baseline, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="355.688034" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip100" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip101" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip102" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip104" class="tip"><title>agamm-owasp-security, bout 1 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip105" class="tip"><title>agamm-owasp-security, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip106" class="tip"><title>agamm-owasp-security, bout 3 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip108" class="tip"><title>anthropic-security-auditor, bout 1 of 3: findings 9</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="430.722056" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip109" class="tip"><title>anthropic-security-auditor, bout 2 of 3: findings 9</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="430.722056" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip110" class="tip"><title>anthropic-security-auditor, bout 3 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip112" class="tip"><title>cf-security-audit, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip113" class="tip"><title>cf-security-audit, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip114" class="tip"><title>cf-security-audit, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip116" class="tip"><title>claude-security-flat, bout 1 of 3: findings 5</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.676694" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip117" class="tip"><title>claude-security-flat, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip118" class="tip"><title>claude-security-flat, bout 3 of 3: findings 5</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.676694" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip120" class="tip"><title>claude-security-researcher, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip121" class="tip"><title>claude-security-researcher, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip122" class="tip"><title>claude-security-researcher, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip124" class="tip"><title>ecc-security-review, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip125" class="tip"><title>ecc-security-review, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip126" class="tip"><title>ecc-security-review, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip128" class="tip"><title>evandervecht-security-audit, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip129" class="tip"><title>evandervecht-security-audit, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip130" class="tip"><title>evandervecht-security-audit, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip132" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip133" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip134" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip136" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip137" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip138" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip140" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip141" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip142" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip144" class="tip"><title>github-copilot-security-review, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip145" class="tip"><title>github-copilot-security-review, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip146" class="tip"><title>github-copilot-security-review, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip148" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip149" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip150" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip152" class="tip"><title>neolab-security-auditor, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip153" class="tip"><title>neolab-security-auditor, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip154" class="tip"><title>neolab-security-auditor, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip156" class="tip"><title>openai-security-best-practices, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip157" class="tip"><title>openai-security-best-practices, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip158" class="tip"><title>openai-security-best-practices, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip160" class="tip"><title>samber-golang-security, bout 1 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip161" class="tip"><title>samber-golang-security, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip162" class="tip"><title>samber-golang-security, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip164" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip165" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip166" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip168" class="tip"><title>sentry-code-review, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip169" class="tip"><title>sentry-code-review, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip170" class="tip"><title>sentry-code-review, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip172" class="tip"><title>sentry-security-review, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip173" class="tip"><title>sentry-security-review, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip174" class="tip"><title>sentry-security-review, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip176" class="tip"><title>sentry-then-fp-check, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip177" class="tip"><title>sentry-then-fp-check, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip178" class="tip"><title>sentry-then-fp-check, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip180" class="tip"><title>tob-differential-review, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip181" class="tip"><title>tob-differential-review, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip182" class="tip"><title>tob-differential-review, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip184" class="tip"><title>tob-sharp-edges, bout 1 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip185" class="tip"><title>tob-sharp-edges, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip186" class="tip"><title>tob-sharp-edges, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="380.699375" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip188" class="tip"><title>unitone-secure-code-review, bout 1 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip189" class="tip"><title>unitone-secure-code-review, bout 2 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="405.710716" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip190" class="tip"><title>unitone-secure-code-review, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p225f6bcb42)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="355.688034" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_32">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="318.67125" y="36.962344" transform="rotate(-0 318.67125 36.962344)">findings</text>
+   </g>
+   <g id="reps-dvpwa-tip99" class="tip"><title>baseline: mean findings 6 (n=3)</title>
+    <path d="M 355.688034 46.703795 
+L 355.688034 62.604962 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip103" class="tip"><title>addyosmani-security-auditor: mean findings 7.3 (n=3)</title>
+    <path d="M 389.036489 70.087864 
+L 389.036489 85.989031 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip107" class="tip"><title>agamm-owasp-security: mean findings 7.7 (n=3)</title>
+    <path d="M 397.373602 93.471933 
+L 397.373602 109.3731 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip111" class="tip"><title>anthropic-security-auditor: mean findings 8.7 (n=3)</title>
+    <path d="M 422.384943 116.856002 
+L 422.384943 132.757169 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip115" class="tip"><title>cf-security-audit: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 140.240071 
+L 364.025148 156.141238 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip119" class="tip"><title>claude-security-flat: mean findings 5.3 (n=3)</title>
+    <path d="M 339.013807 163.62414 
+L 339.013807 179.525307 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip123" class="tip"><title>claude-security-researcher: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 187.008209 
+L 364.025148 202.909376 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip127" class="tip"><title>ecc-security-review: mean findings 6.7 (n=3)</title>
+    <path d="M 372.362261 210.392278 
+L 372.362261 226.293445 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip131" class="tip"><title>evandervecht-security-audit: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 233.776347 
+L 380.699375 249.677514 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip135" class="tip"><title>every-ce-security-reviewer: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 257.160416 
+L 380.699375 273.061583 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip139" class="tip"><title>gemini-security-analyze-full: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 280.544485 
+L 364.025148 296.445652 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip143" class="tip"><title>github-copilot-se-security-reviewer: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 303.928554 
+L 380.699375 319.829721 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip147" class="tip"><title>github-copilot-security-review: mean findings 6.7 (n=3)</title>
+    <path d="M 372.362261 327.312623 
+L 372.362261 343.21379 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip151" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 350.696692 
+L 380.699375 366.597859 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip155" class="tip"><title>neolab-security-auditor: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 374.080761 
+L 380.699375 389.981928 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip159" class="tip"><title>openai-security-best-practices: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 397.46483 
+L 364.025148 413.365997 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip163" class="tip"><title>samber-golang-security: mean findings 7.3 (n=3)</title>
+    <path d="M 389.036489 420.848899 
+L 389.036489 436.750066 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip167" class="tip"><title>sari3l-security-code-audit: mean findings 7 (n=3)</title>
+    <path d="M 380.699375 444.232968 
+L 380.699375 460.134135 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip171" class="tip"><title>sentry-code-review: mean findings 6 (n=3)</title>
+    <path d="M 355.688034 467.617037 
+L 355.688034 483.518204 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip175" class="tip"><title>sentry-security-review: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 491.001106 
+L 364.025148 506.902273 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip179" class="tip"><title>sentry-then-fp-check: mean findings 6 (n=3)</title>
+    <path d="M 355.688034 514.385175 
+L 355.688034 530.286342 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip183" class="tip"><title>tob-differential-review: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 537.769244 
+L 364.025148 553.670411 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip187" class="tip"><title>tob-sharp-edges: mean findings 6.3 (n=3)</title>
+    <path d="M 364.025148 561.153313 
+L 364.025148 577.05448 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip191" class="tip"><title>unitone-secure-code-review: mean findings 7.3 (n=3)</title>
+    <path d="M 389.036489 584.537382 
+L 389.036489 600.438549 
+" clip-path="url(#reps-dvpwa-p225f6bcb42)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_3">
+   <g id="reps-dvpwa-patch_8">
+    <path d="M 452.4475 604.18 
+L 576.50375 604.18 
+L 576.50375 42.962344 
+L 452.4475 42.962344 
+L 452.4475 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_5">
+    <g id="reps-dvpwa-xtick_7">
+     <g id="reps-dvpwa-line2d_57"/>
+     <g id="reps-dvpwa-text_33">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="470.196262" y="614.517891" transform="rotate(-0 470.196262 614.517891)">0.4</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_8">
+     <g id="reps-dvpwa-line2d_58"/>
+     <g id="reps-dvpwa-text_34">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="502.992268" y="614.517891" transform="rotate(-0 502.992268 614.517891)">0.8</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_9">
+     <g id="reps-dvpwa-line2d_59"/>
+     <g id="reps-dvpwa-text_35">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="535.788273" y="614.517891" transform="rotate(-0 535.788273 614.517891)">1.2</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_10">
+     <g id="reps-dvpwa-line2d_60"/>
+     <g id="reps-dvpwa-text_36">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="568.584279" y="614.517891" transform="rotate(-0 568.584279 614.517891)">1.6</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_6">
+    <g id="reps-dvpwa-ytick_49">
+     <g id="reps-dvpwa-line2d_61"/>
+    </g>
+    <g id="reps-dvpwa-ytick_50">
+     <g id="reps-dvpwa-line2d_62"/>
+    </g>
+    <g id="reps-dvpwa-ytick_51">
+     <g id="reps-dvpwa-line2d_63"/>
+    </g>
+    <g id="reps-dvpwa-ytick_52">
+     <g id="reps-dvpwa-line2d_64"/>
+    </g>
+    <g id="reps-dvpwa-ytick_53">
+     <g id="reps-dvpwa-line2d_65"/>
+    </g>
+    <g id="reps-dvpwa-ytick_54">
+     <g id="reps-dvpwa-line2d_66"/>
+    </g>
+    <g id="reps-dvpwa-ytick_55">
+     <g id="reps-dvpwa-line2d_67"/>
+    </g>
+    <g id="reps-dvpwa-ytick_56">
+     <g id="reps-dvpwa-line2d_68"/>
+    </g>
+    <g id="reps-dvpwa-ytick_57">
+     <g id="reps-dvpwa-line2d_69"/>
+    </g>
+    <g id="reps-dvpwa-ytick_58">
+     <g id="reps-dvpwa-line2d_70"/>
+    </g>
+    <g id="reps-dvpwa-ytick_59">
+     <g id="reps-dvpwa-line2d_71"/>
+    </g>
+    <g id="reps-dvpwa-ytick_60">
+     <g id="reps-dvpwa-line2d_72"/>
+    </g>
+    <g id="reps-dvpwa-ytick_61">
+     <g id="reps-dvpwa-line2d_73"/>
+    </g>
+    <g id="reps-dvpwa-ytick_62">
+     <g id="reps-dvpwa-line2d_74"/>
+    </g>
+    <g id="reps-dvpwa-ytick_63">
+     <g id="reps-dvpwa-line2d_75"/>
+    </g>
+    <g id="reps-dvpwa-ytick_64">
+     <g id="reps-dvpwa-line2d_76"/>
+    </g>
+    <g id="reps-dvpwa-ytick_65">
+     <g id="reps-dvpwa-line2d_77"/>
+    </g>
+    <g id="reps-dvpwa-ytick_66">
+     <g id="reps-dvpwa-line2d_78"/>
+    </g>
+    <g id="reps-dvpwa-ytick_67">
+     <g id="reps-dvpwa-line2d_79"/>
+    </g>
+    <g id="reps-dvpwa-ytick_68">
+     <g id="reps-dvpwa-line2d_80"/>
+    </g>
+    <g id="reps-dvpwa-ytick_69">
+     <g id="reps-dvpwa-line2d_81"/>
+    </g>
+    <g id="reps-dvpwa-ytick_70">
+     <g id="reps-dvpwa-line2d_82"/>
+    </g>
+    <g id="reps-dvpwa-ytick_71">
+     <g id="reps-dvpwa-line2d_83"/>
+    </g>
+    <g id="reps-dvpwa-ytick_72">
+     <g id="reps-dvpwa-line2d_84"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_85">
+    <path d="M 471.868312 604.18 
+L 471.868312 42.962344 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_9">
+    <path d="M 452.4475 604.18 
+L 452.4475 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_10">
+    <path d="M 452.4475 604.18 
+L 576.50375 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip192" class="tip"><title>baseline, bout 1 of 3: cost $ 0.447</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="474.071274" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip193" class="tip"><title>baseline, bout 2 of 3: cost $ 0.427</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="472.429998" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip194" class="tip"><title>baseline, bout 3 of 3: cost $ 0.387</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="469.103663" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip196" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: cost $ 0.538</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="481.492518" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip197" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: cost $ 0.428</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.474437" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip198" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: cost $ 0.440</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.509315" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip200" class="tip"><title>agamm-owasp-security, bout 1 of 3: cost $ 0.537</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="481.429386" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip201" class="tip"><title>agamm-owasp-security, bout 2 of 3: cost $ 0.429</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.539291" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip202" class="tip"><title>agamm-owasp-security, bout 3 of 3: cost $ 0.441</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.588927" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip204" class="tip"><title>anthropic-security-auditor, bout 1 of 3: cost $ 0.558</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="483.148716" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip205" class="tip"><title>anthropic-security-auditor, bout 2 of 3: cost $ 0.434</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.007372" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip206" class="tip"><title>anthropic-security-auditor, bout 3 of 3: cost $ 0.402</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.388447" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip208" class="tip"><title>cf-security-audit, bout 1 of 3: cost $ 0.905</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="511.64123" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip209" class="tip"><title>cf-security-audit, bout 2 of 3: cost $ 0.493</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="477.83273" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip210" class="tip"><title>cf-security-audit, bout 3 of 3: cost $ 0.445</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.850393" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip212" class="tip"><title>claude-security-flat, bout 1 of 3: cost $ 0.800</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="503.007928" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip213" class="tip"><title>claude-security-flat, bout 2 of 3: cost $ 0.807</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="503.526843" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip214" class="tip"><title>claude-security-flat, bout 3 of 3: cost $ 0.741</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="498.152643" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip216" class="tip"><title>claude-security-researcher, bout 1 of 3: cost $ 0.426</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.337841" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip217" class="tip"><title>claude-security-researcher, bout 2 of 3: cost $ 0.424</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.188209" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip218" class="tip"><title>claude-security-researcher, bout 3 of 3: cost $ 0.445</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.903768" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip220" class="tip"><title>ecc-security-review, bout 1 of 3: cost $ 0.448</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="474.159413" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip221" class="tip"><title>ecc-security-review, bout 2 of 3: cost $ 0.404</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.490524" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip222" class="tip"><title>ecc-security-review, bout 3 of 3: cost $ 0.418</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="471.675444" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip224" class="tip"><title>evandervecht-security-audit, bout 1 of 3: cost $ 0.546</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="482.192631" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip225" class="tip"><title>evandervecht-security-audit, bout 2 of 3: cost $ 0.430</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.670639" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip226" class="tip"><title>evandervecht-security-audit, bout 3 of 3: cost $ 0.435</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.05468" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip228" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: cost $ 0.410</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="471.032232" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip229" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: cost $ 0.405</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.597275" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip230" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: cost $ 0.381</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="468.659031" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip232" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: cost $ 0.441</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.53178" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip233" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: cost $ 0.489</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="477.515921" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip234" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: cost $ 0.410</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="471.015588" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip236" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: cost $ 0.481</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="476.817612" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip237" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: cost $ 0.372</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="467.89431" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip238" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: cost $ 0.386</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="469.075623" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip240" class="tip"><title>github-copilot-security-review, bout 1 of 3: cost $ 0.534</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="481.216458" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip241" class="tip"><title>github-copilot-security-review, bout 2 of 3: cost $ 0.569</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="484.05487" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip242" class="tip"><title>github-copilot-security-review, bout 3 of 3: cost $ 0.481</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="476.821465" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip244" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: cost $ 0.556</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="482.983097" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip245" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: cost $ 0.450</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="474.323803" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip246" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: cost $ 0.385</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="468.96592" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip248" class="tip"><title>neolab-security-auditor, bout 1 of 3: cost $ 0.496</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="478.026882" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip249" class="tip"><title>neolab-security-auditor, bout 2 of 3: cost $ 0.405</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.635319" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip250" class="tip"><title>neolab-security-auditor, bout 3 of 3: cost $ 0.371</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="467.805679" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip252" class="tip"><title>openai-security-best-practices, bout 1 of 3: cost $ 0.559</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="483.22054" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip253" class="tip"><title>openai-security-best-practices, bout 2 of 3: cost $ 0.468</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="475.810036" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip254" class="tip"><title>openai-security-best-practices, bout 3 of 3: cost $ 0.401</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.308178" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip256" class="tip"><title>samber-golang-security, bout 1 of 3: cost $ 0.655</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="491.091581" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip257" class="tip"><title>samber-golang-security, bout 2 of 3: cost $ 0.483</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="476.983149" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip258" class="tip"><title>samber-golang-security, bout 3 of 3: cost $ 0.503</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="478.609995" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip260" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: cost $ 0.937</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="514.210879" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip261" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: cost $ 0.584</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="485.287508" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip262" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: cost $ 1.022</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="521.197658" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip264" class="tip"><title>sentry-code-review, bout 1 of 3: cost $ 0.367</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="467.48764" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip265" class="tip"><title>sentry-code-review, bout 2 of 3: cost $ 0.330</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="464.452944" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip266" class="tip"><title>sentry-code-review, bout 3 of 3: cost $ 0.336</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="464.945294" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip268" class="tip"><title>sentry-security-review, bout 1 of 3: cost $ 0.438</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="473.306717" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip269" class="tip"><title>sentry-security-review, bout 2 of 3: cost $ 0.408</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.849804" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip270" class="tip"><title>sentry-security-review, bout 3 of 3: cost $ 0.376</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="468.235307" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip272" class="tip"><title>sentry-then-fp-check, bout 1 of 3: cost $ 1.367</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="549.450023" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip273" class="tip"><title>sentry-then-fp-check, bout 2 of 3: cost $ 1.202</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="535.941021" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip274" class="tip"><title>sentry-then-fp-check, bout 3 of 3: cost $ 1.550</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="564.498306" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip276" class="tip"><title>tob-differential-review, bout 1 of 3: cost $ 0.524</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="480.353349" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip277" class="tip"><title>tob-differential-review, bout 2 of 3: cost $ 0.382</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="468.688958" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip278" class="tip"><title>tob-differential-review, bout 3 of 3: cost $ 0.428</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="472.53101" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip280" class="tip"><title>tob-sharp-edges, bout 1 of 3: cost $ 0.478</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="476.58394" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip281" class="tip"><title>tob-sharp-edges, bout 2 of 3: cost $ 0.377</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="468.29147" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip282" class="tip"><title>tob-sharp-edges, bout 3 of 3: cost $ 0.410</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="470.983448" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip284" class="tip"><title>unitone-secure-code-review, bout 1 of 3: cost $ 0.614</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="487.742453" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip285" class="tip"><title>unitone-secure-code-review, bout 2 of 3: cost $ 0.462</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="475.28366" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip286" class="tip"><title>unitone-secure-code-review, bout 3 of 3: cost $ 0.446</title>
+    <g clip-path="url(#reps-dvpwa-p0efa2ec7d5)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="474.001337" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_37">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="452.4475" y="36.962344" transform="rotate(-0 452.4475 36.962344)">cost $</text>
+   </g>
+   <g id="reps-dvpwa-tip195" class="tip"><title>baseline: mean cost $ 0.420 (n=3)</title>
+    <path d="M 471.868312 46.703795 
+L 471.868312 62.604962 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip199" class="tip"><title>addyosmani-security-auditor: mean cost $ 0.469 (n=3)</title>
+    <path d="M 475.825423 70.087864 
+L 475.825423 85.989031 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip203" class="tip"><title>agamm-owasp-security: mean cost $ 0.469 (n=3)</title>
+    <path d="M 475.852534 93.471933 
+L 475.852534 109.3731 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip207" class="tip"><title>anthropic-security-auditor: mean cost $ 0.465 (n=3)</title>
+    <path d="M 475.514845 116.856002 
+L 475.514845 132.757169 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip211" class="tip"><title>cf-security-audit: mean cost $ 0.614 (n=3)</title>
+    <path d="M 487.774784 140.240071 
+L 487.774784 156.141238 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip215" class="tip"><title>claude-security-flat: mean cost $ 0.783 (n=3)</title>
+    <path d="M 501.562471 163.62414 
+L 501.562471 179.525307 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip219" class="tip"><title>claude-security-researcher: mean cost $ 0.432 (n=3)</title>
+    <path d="M 472.80994 187.008209 
+L 472.80994 202.909376 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip223" class="tip"><title>ecc-security-review: mean cost $ 0.423 (n=3)</title>
+    <path d="M 472.10846 210.392278 
+L 472.10846 226.293445 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip227" class="tip"><title>evandervecht-security-audit: mean cost $ 0.470 (n=3)</title>
+    <path d="M 475.97265 233.776347 
+L 475.97265 249.677514 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip231" class="tip"><title>every-ce-security-reviewer: mean cost $ 0.399 (n=3)</title>
+    <path d="M 470.09618 257.160416 
+L 470.09618 273.061583 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip235" class="tip"><title>gemini-security-analyze-full: mean cost $ 0.447 (n=3)</title>
+    <path d="M 474.021096 280.544485 
+L 474.021096 296.445652 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip239" class="tip"><title>github-copilot-se-security-reviewer: mean cost $ 0.413 (n=3)</title>
+    <path d="M 471.262515 303.928554 
+L 471.262515 319.829721 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip243" class="tip"><title>github-copilot-security-review: mean cost $ 0.528 (n=3)</title>
+    <path d="M 480.697598 327.312623 
+L 480.697598 343.21379 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip247" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean cost $ 0.464 (n=3)</title>
+    <path d="M 475.424273 350.696692 
+L 475.424273 366.597859 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip251" class="tip"><title>neolab-security-auditor: mean cost $ 0.424 (n=3)</title>
+    <path d="M 472.15596 374.080761 
+L 472.15596 389.981928 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip255" class="tip"><title>openai-security-best-practices: mean cost $ 0.476 (n=3)</title>
+    <path d="M 476.446251 397.46483 
+L 476.446251 413.365997 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip259" class="tip"><title>samber-golang-security: mean cost $ 0.547 (n=3)</title>
+    <path d="M 482.228242 420.848899 
+L 482.228242 436.750066 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip263" class="tip"><title>sari3l-security-code-audit: mean cost $ 0.848 (n=3)</title>
+    <path d="M 506.898682 444.232968 
+L 506.898682 460.134135 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip267" class="tip"><title>sentry-code-review: mean cost $ 0.344 (n=3)</title>
+    <path d="M 465.628626 467.617037 
+L 465.628626 483.518204 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip271" class="tip"><title>sentry-security-review: mean cost $ 0.407 (n=3)</title>
+    <path d="M 470.797276 491.001106 
+L 470.797276 506.902273 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip275" class="tip"><title>sentry-then-fp-check: mean cost $ 1.373 (n=3)</title>
+    <path d="M 549.963117 514.385175 
+L 549.963117 530.286342 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip279" class="tip"><title>tob-differential-review: mean cost $ 0.445 (n=3)</title>
+    <path d="M 473.857772 537.769244 
+L 473.857772 553.670411 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip283" class="tip"><title>tob-sharp-edges: mean cost $ 0.421 (n=3)</title>
+    <path d="M 471.952953 561.153313 
+L 471.952953 577.05448 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip287" class="tip"><title>unitone-secure-code-review: mean cost $ 0.507 (n=3)</title>
+    <path d="M 479.00915 584.537382 
+L 479.00915 600.438549 
+" clip-path="url(#reps-dvpwa-p0efa2ec7d5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_4">
+   <g id="reps-dvpwa-patch_11">
+    <path d="M 586.22375 604.18 
+L 710.28 604.18 
+L 710.28 42.962344 
+L 586.22375 42.962344 
+L 586.22375 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_7">
+    <g id="reps-dvpwa-xtick_11">
+     <g id="reps-dvpwa-line2d_86"/>
+     <g id="reps-dvpwa-text_38">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="608.590007" y="614.517891" transform="rotate(-0 608.590007 614.517891)">1.5</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_12">
+     <g id="reps-dvpwa-line2d_87"/>
+     <g id="reps-dvpwa-text_39">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="643.1056" y="614.517891" transform="rotate(-0 643.1056 614.517891)">3.0</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_13">
+     <g id="reps-dvpwa-line2d_88"/>
+     <g id="reps-dvpwa-text_40">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="677.621193" y="614.517891" transform="rotate(-0 677.621193 614.517891)">4.5</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_8">
+    <g id="reps-dvpwa-ytick_73">
+     <g id="reps-dvpwa-line2d_89"/>
+    </g>
+    <g id="reps-dvpwa-ytick_74">
+     <g id="reps-dvpwa-line2d_90"/>
+    </g>
+    <g id="reps-dvpwa-ytick_75">
+     <g id="reps-dvpwa-line2d_91"/>
+    </g>
+    <g id="reps-dvpwa-ytick_76">
+     <g id="reps-dvpwa-line2d_92"/>
+    </g>
+    <g id="reps-dvpwa-ytick_77">
+     <g id="reps-dvpwa-line2d_93"/>
+    </g>
+    <g id="reps-dvpwa-ytick_78">
+     <g id="reps-dvpwa-line2d_94"/>
+    </g>
+    <g id="reps-dvpwa-ytick_79">
+     <g id="reps-dvpwa-line2d_95"/>
+    </g>
+    <g id="reps-dvpwa-ytick_80">
+     <g id="reps-dvpwa-line2d_96"/>
+    </g>
+    <g id="reps-dvpwa-ytick_81">
+     <g id="reps-dvpwa-line2d_97"/>
+    </g>
+    <g id="reps-dvpwa-ytick_82">
+     <g id="reps-dvpwa-line2d_98"/>
+    </g>
+    <g id="reps-dvpwa-ytick_83">
+     <g id="reps-dvpwa-line2d_99"/>
+    </g>
+    <g id="reps-dvpwa-ytick_84">
+     <g id="reps-dvpwa-line2d_100"/>
+    </g>
+    <g id="reps-dvpwa-ytick_85">
+     <g id="reps-dvpwa-line2d_101"/>
+    </g>
+    <g id="reps-dvpwa-ytick_86">
+     <g id="reps-dvpwa-line2d_102"/>
+    </g>
+    <g id="reps-dvpwa-ytick_87">
+     <g id="reps-dvpwa-line2d_103"/>
+    </g>
+    <g id="reps-dvpwa-ytick_88">
+     <g id="reps-dvpwa-line2d_104"/>
+    </g>
+    <g id="reps-dvpwa-ytick_89">
+     <g id="reps-dvpwa-line2d_105"/>
+    </g>
+    <g id="reps-dvpwa-ytick_90">
+     <g id="reps-dvpwa-line2d_106"/>
+    </g>
+    <g id="reps-dvpwa-ytick_91">
+     <g id="reps-dvpwa-line2d_107"/>
+    </g>
+    <g id="reps-dvpwa-ytick_92">
+     <g id="reps-dvpwa-line2d_108"/>
+    </g>
+    <g id="reps-dvpwa-ytick_93">
+     <g id="reps-dvpwa-line2d_109"/>
+    </g>
+    <g id="reps-dvpwa-ytick_94">
+     <g id="reps-dvpwa-line2d_110"/>
+    </g>
+    <g id="reps-dvpwa-ytick_95">
+     <g id="reps-dvpwa-line2d_111"/>
+    </g>
+    <g id="reps-dvpwa-ytick_96">
+     <g id="reps-dvpwa-line2d_112"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_113">
+    <path d="M 605.143817 604.18 
+L 605.143817 42.962344 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_12">
+    <path d="M 586.22375 604.18 
+L 586.22375 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_13">
+    <path d="M 586.22375 604.18 
+L 710.28 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip288" class="tip"><title>baseline, bout 1 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="605.424161" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip289" class="tip"><title>baseline, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="602.949393" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip290" class="tip"><title>baseline, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="607.057899" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip292" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="612.777132" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip293" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.232963" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip294" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.4226" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip296" class="tip"><title>agamm-owasp-security, bout 1 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.741691" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip297" class="tip"><title>agamm-owasp-security, bout 2 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="605.85177" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip298" class="tip"><title>agamm-owasp-security, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.046579" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip300" class="tip"><title>anthropic-security-auditor, bout 1 of 3: wall minutes 1.9</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="616.943931" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip301" class="tip"><title>anthropic-security-auditor, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.693554" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip302" class="tip"><title>anthropic-security-auditor, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.291454" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip304" class="tip"><title>cf-security-audit, bout 1 of 3: wall minutes 2.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="626.025367" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip305" class="tip"><title>cf-security-audit, bout 2 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="613.256516" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip306" class="tip"><title>cf-security-audit, bout 3 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="611.261898" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip308" class="tip"><title>claude-security-flat, bout 1 of 3: wall minutes 4.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="679.455888" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip309" class="tip"><title>claude-security-flat, bout 2 of 3: wall minutes 2.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="628.359005" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip310" class="tip"><title>claude-security-flat, bout 3 of 3: wall minutes 2.0</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="620.418885" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip312" class="tip"><title>claude-security-researcher, bout 1 of 3: wall minutes 1.2</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="602.661763" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip313" class="tip"><title>claude-security-researcher, bout 2 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="606.171998" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip314" class="tip"><title>claude-security-researcher, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.48531" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip316" class="tip"><title>ecc-security-review, bout 1 of 3: wall minutes 1.2</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="601.38622" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip317" class="tip"><title>ecc-security-review, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.30567" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip318" class="tip"><title>ecc-security-review, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.889341" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip320" class="tip"><title>evandervecht-security-audit, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.83487" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip321" class="tip"><title>evandervecht-security-audit, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.696054" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip322" class="tip"><title>evandervecht-security-audit, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.067288" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip324" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="610.08645" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip325" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="605.464812" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip326" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="606.235277" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip328" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.128874" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip329" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.964495" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip330" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="602.97317" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip332" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.491063" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip333" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.114684" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip334" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="604.236441" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip336" class="tip"><title>github-copilot-security-review, bout 1 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="606.737671" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip337" class="tip"><title>github-copilot-security-review, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="611.003798" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip338" class="tip"><title>github-copilot-security-review, bout 3 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="610.664778" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip340" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="611.239271" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip341" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="610.378299" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip342" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="605.715626" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip344" class="tip"><title>neolab-security-auditor, bout 1 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="608.851175" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip345" class="tip"><title>neolab-security-auditor, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.798093" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip346" class="tip"><title>neolab-security-auditor, bout 3 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="604.076518" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip348" class="tip"><title>openai-security-best-practices, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="611.648856" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip349" class="tip"><title>openai-security-best-practices, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.931897" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip350" class="tip"><title>openai-security-best-practices, bout 3 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.382372" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip352" class="tip"><title>samber-golang-security, bout 1 of 3: wall minutes 1.8</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="616.607213" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip353" class="tip"><title>samber-golang-security, bout 2 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="612.43236" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip354" class="tip"><title>samber-golang-security, bout 3 of 3: wall minutes 1.8</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="614.761395" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip356" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="610.576572" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip357" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="612.376751" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip358" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: wall minutes 2.2</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="624.021545" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip360" class="tip"><title>sentry-code-review, bout 1 of 3: wall minutes 1.0</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="598.229194" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip361" class="tip"><title>sentry-code-review, bout 2 of 3: wall minutes 1.1</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="600.081147" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip362" class="tip"><title>sentry-code-review, bout 3 of 3: wall minutes 1.1</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="599.919691" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip364" class="tip"><title>sentry-security-review, bout 1 of 3: wall minutes 1.2</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="602.307403" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip365" class="tip"><title>sentry-security-review, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="604.635671" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip366" class="tip"><title>sentry-security-review, bout 3 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="603.536925" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip368" class="tip"><title>sentry-then-fp-check, bout 1 of 3: wall minutes 4.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="673.077407" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip369" class="tip"><title>sentry-then-fp-check, bout 2 of 3: wall minutes 4.2</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="670.183083" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip370" class="tip"><title>sentry-then-fp-check, bout 3 of 3: wall minutes 5.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="698.274556" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip372" class="tip"><title>tob-differential-review, bout 1 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="613.574826" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip373" class="tip"><title>tob-differential-review, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="611.827187" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip374" class="tip"><title>tob-differential-review, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="606.720029" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip376" class="tip"><title>tob-sharp-edges, bout 1 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="605.087442" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip377" class="tip"><title>tob-sharp-edges, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.609381" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip378" class="tip"><title>tob-sharp-edges, bout 3 of 3: wall minutes 1.4</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="607.23853" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip380" class="tip"><title>unitone-secure-code-review, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="612.016255" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip381" class="tip"><title>unitone-secure-code-review, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.646952" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip382" class="tip"><title>unitone-secure-code-review, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p09f136140b)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="609.198632" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_41">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="586.22375" y="36.962344" transform="rotate(-0 586.22375 36.962344)">wall minutes</text>
+   </g>
+   <g id="reps-dvpwa-tip291" class="tip"><title>baseline: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 605.143817 46.703795 
+L 605.143817 62.604962 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip295" class="tip"><title>addyosmani-security-auditor: mean wall minutes 1.6 (n=3)</title>
+    <path d="M 610.144232 70.087864 
+L 610.144232 85.989031 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip299" class="tip"><title>agamm-owasp-security: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 607.213347 93.471933 
+L 607.213347 109.3731 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip303" class="tip"><title>anthropic-security-auditor: mean wall minutes 1.6 (n=3)</title>
+    <path d="M 610.976313 116.856002 
+L 610.976313 132.757169 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip307" class="tip"><title>cf-security-audit: mean wall minutes 1.9 (n=3)</title>
+    <path d="M 616.847927 140.240071 
+L 616.847927 156.141238 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip311" class="tip"><title>claude-security-flat: mean wall minutes 3.0 (n=3)</title>
+    <path d="M 642.744593 163.62414 
+L 642.744593 179.525307 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip315" class="tip"><title>claude-security-researcher: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 605.773024 187.008209 
+L 605.773024 202.909376 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip319" class="tip"><title>ecc-security-review: mean wall minutes 1.3 (n=3)</title>
+    <path d="M 604.193744 210.392278 
+L 604.193744 226.293445 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip323" class="tip"><title>evandervecht-security-audit: mean wall minutes 1.5 (n=3)</title>
+    <path d="M 608.532737 233.776347 
+L 608.532737 249.677514 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip327" class="tip"><title>every-ce-security-reviewer: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 607.26218 257.160416 
+L 607.26218 273.061583 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip331" class="tip"><title>gemini-security-analyze-full: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 605.355513 280.544485 
+L 605.355513 296.445652 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip335" class="tip"><title>github-copilot-se-security-reviewer: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 605.280729 303.928554 
+L 605.280729 319.829721 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip339" class="tip"><title>github-copilot-security-review: mean wall minutes 1.5 (n=3)</title>
+    <path d="M 609.468749 327.312623 
+L 609.468749 343.21379 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip343" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean wall minutes 1.5 (n=3)</title>
+    <path d="M 609.111065 350.696692 
+L 609.111065 366.597859 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip347" class="tip"><title>neolab-security-auditor: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 605.575262 374.080761 
+L 605.575262 389.981928 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip351" class="tip"><title>openai-security-best-practices: mean wall minutes 1.5 (n=3)</title>
+    <path d="M 608.321042 397.46483 
+L 608.321042 413.365997 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip355" class="tip"><title>samber-golang-security: mean wall minutes 1.8 (n=3)</title>
+    <path d="M 614.600323 420.848899 
+L 614.600323 436.750066 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip359" class="tip"><title>sari3l-security-code-audit: mean wall minutes 1.8 (n=3)</title>
+    <path d="M 615.658289 444.232968 
+L 615.658289 460.134135 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip363" class="tip"><title>sentry-code-review: mean wall minutes 1.1 (n=3)</title>
+    <path d="M 599.41001 467.617037 
+L 599.41001 483.518204 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip367" class="tip"><title>sentry-security-review: mean wall minutes 1.3 (n=3)</title>
+    <path d="M 603.493333 491.001106 
+L 603.493333 506.902273 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip371" class="tip"><title>sentry-then-fp-check: mean wall minutes 4.6 (n=3)</title>
+    <path d="M 680.511682 514.385175 
+L 680.511682 530.286342 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip375" class="tip"><title>tob-differential-review: mean wall minutes 1.6 (n=3)</title>
+    <path d="M 610.707347 537.769244 
+L 610.707347 553.670411 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip379" class="tip"><title>tob-sharp-edges: mean wall minutes 1.4 (n=3)</title>
+    <path d="M 606.645118 561.153313 
+L 606.645118 577.05448 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip383" class="tip"><title>unitone-secure-code-review: mean wall minutes 1.6 (n=3)</title>
+    <path d="M 610.28728 584.537382 
+L 610.28728 600.438549 
+" clip-path="url(#reps-dvpwa-p09f136140b)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-text_42">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="20.126438" transform="rotate(-0 7.2 20.126438)">dvpwa: every bout, not just the mean</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="reps-dvpwa-p78bbfa37f5">
+   <rect x="184.895" y="42.962344" width="124.05625" height="561.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-p225f6bcb42">
+   <rect x="318.67125" y="42.962344" width="124.05625" height="561.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-p0efa2ec7d5">
+   <rect x="452.4475" y="42.962344" width="124.05625" height="561.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-p09f136140b">
+   <rect x="586.22375" y="42.962344" width="124.05625" height="561.217656"/>
+  </clipPath>
+ </defs>
+</svg>

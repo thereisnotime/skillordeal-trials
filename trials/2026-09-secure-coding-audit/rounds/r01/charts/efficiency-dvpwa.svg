@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="626.4pt" viewBox="0 0 720 626.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Cost and time per TP per contender in dvpwa">
+ <title>Cost and time per TP per contender in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="efficiency-dvpwa-figure_1">
+  <g id="efficiency-dvpwa-patch_1">
+   <path d="M 0 626.4 
+L 720 626.4 
+L 720 0 
+L 0 0 
+L 0 626.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="efficiency-dvpwa-axes_1">
+   <g id="efficiency-dvpwa-patch_2">
+    <path d="M 184.895 604.18 
+L 439.571785 604.18 
+L 439.571785 42.962344 
+L 184.895 42.962344 
+L 184.895 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_1">
+    <g id="efficiency-dvpwa-xtick_1">
+     <g id="efficiency-dvpwa-line2d_1"/>
+     <g id="efficiency-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="219.122955" y="614.517891" transform="rotate(-0 219.122955 614.517891)">0.06</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_2">
+     <g id="efficiency-dvpwa-line2d_2"/>
+     <g id="efficiency-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="278.34917" y="614.517891" transform="rotate(-0 278.34917 614.517891)">0.12</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_3">
+     <g id="efficiency-dvpwa-line2d_3"/>
+     <g id="efficiency-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="337.575385" y="614.517891" transform="rotate(-0 337.575385 614.517891)">0.18</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_4">
+     <g id="efficiency-dvpwa-line2d_4"/>
+     <g id="efficiency-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="396.8016" y="614.517891" transform="rotate(-0 396.8016 614.517891)">0.24</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_2">
+    <g id="efficiency-dvpwa-ytick_1">
+     <g id="efficiency-dvpwa-line2d_5"/>
+     <g id="efficiency-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="58.073675" transform="rotate(-0 181.395 58.073675)">baseline</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_2">
+     <g id="efficiency-dvpwa-line2d_6"/>
+     <g id="efficiency-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="81.457744" transform="rotate(-0 181.395 81.457744)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_3">
+     <g id="efficiency-dvpwa-line2d_7"/>
+     <g id="efficiency-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="104.841813" transform="rotate(-0 181.395 104.841813)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_4">
+     <g id="efficiency-dvpwa-line2d_8"/>
+     <g id="efficiency-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="128.225882" transform="rotate(-0 181.395 128.225882)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_5">
+     <g id="efficiency-dvpwa-line2d_9"/>
+     <g id="efficiency-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.609951" transform="rotate(-0 181.395 151.609951)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_6">
+     <g id="efficiency-dvpwa-line2d_10"/>
+     <g id="efficiency-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="174.99402" transform="rotate(-0 181.395 174.99402)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_7">
+     <g id="efficiency-dvpwa-line2d_11"/>
+     <g id="efficiency-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="198.378089" transform="rotate(-0 181.395 198.378089)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_8">
+     <g id="efficiency-dvpwa-line2d_12"/>
+     <g id="efficiency-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="221.762158" transform="rotate(-0 181.395 221.762158)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_9">
+     <g id="efficiency-dvpwa-line2d_13"/>
+     <g id="efficiency-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="245.146227" transform="rotate(-0 181.395 245.146227)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_10">
+     <g id="efficiency-dvpwa-line2d_14"/>
+     <g id="efficiency-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.530296" transform="rotate(-0 181.395 268.530296)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_11">
+     <g id="efficiency-dvpwa-line2d_15"/>
+     <g id="efficiency-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="291.914365" transform="rotate(-0 181.395 291.914365)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_12">
+     <g id="efficiency-dvpwa-line2d_16"/>
+     <g id="efficiency-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.298434" transform="rotate(-0 181.395 315.298434)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_13">
+     <g id="efficiency-dvpwa-line2d_17"/>
+     <g id="efficiency-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="338.682503" transform="rotate(-0 181.395 338.682503)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_14">
+     <g id="efficiency-dvpwa-line2d_18"/>
+     <g id="efficiency-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="362.066572" transform="rotate(-0 181.395 362.066572)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_15">
+     <g id="efficiency-dvpwa-line2d_19"/>
+     <g id="efficiency-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="385.450641" transform="rotate(-0 181.395 385.450641)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_16">
+     <g id="efficiency-dvpwa-line2d_20"/>
+     <g id="efficiency-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="408.83471" transform="rotate(-0 181.395 408.83471)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_17">
+     <g id="efficiency-dvpwa-line2d_21"/>
+     <g id="efficiency-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="432.218779" transform="rotate(-0 181.395 432.218779)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_18">
+     <g id="efficiency-dvpwa-line2d_22"/>
+     <g id="efficiency-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="455.602848" transform="rotate(-0 181.395 455.602848)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_19">
+     <g id="efficiency-dvpwa-line2d_23"/>
+     <g id="efficiency-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="478.986917" transform="rotate(-0 181.395 478.986917)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_20">
+     <g id="efficiency-dvpwa-line2d_24"/>
+     <g id="efficiency-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="502.370986" transform="rotate(-0 181.395 502.370986)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_21">
+     <g id="efficiency-dvpwa-line2d_25"/>
+     <g id="efficiency-dvpwa-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="525.755055" transform="rotate(-0 181.395 525.755055)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_22">
+     <g id="efficiency-dvpwa-line2d_26"/>
+     <g id="efficiency-dvpwa-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.139124" transform="rotate(-0 181.395 549.139124)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_23">
+     <g id="efficiency-dvpwa-line2d_27"/>
+     <g id="efficiency-dvpwa-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.523193" transform="rotate(-0 181.395 572.523193)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_24">
+     <g id="efficiency-dvpwa-line2d_28"/>
+     <g id="efficiency-dvpwa-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="595.907262" transform="rotate(-0 181.395 595.907262)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-line2d_29">
+    <path d="M 230.240715 604.18 
+L 230.240715 42.962344 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_3">
+    <path d="M 184.895 604.18 
+L 184.895 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_4">
+    <path d="M 184.895 604.18 
+L 439.571785 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-tip0" class="tip"><title>baseline, bout 1 of 3: $ per TP 0.064</title>
+    <defs>
+     <path id="efficiency-dvpwa-ma432050c96" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="222.9673" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip1" class="tip"><title>baseline, bout 2 of 3: $ per TP 0.085</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="244.243557" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip2" class="tip"><title>baseline, bout 3 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="223.511288" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip4" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: $ per TP 0.077</title>
+    <defs>
+     <path id="efficiency-dvpwa-m6cdce938b5" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="235.731114" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip5" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: $ per TP 0.061</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="220.220896" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip6" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: $ per TP 0.063</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="222.000785" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip8" class="tip"><title>agamm-owasp-security, bout 1 of 3: $ per TP 0.067</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="226.156808" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip9" class="tip"><title>agamm-owasp-security, bout 2 of 3: $ per TP 0.061</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="220.332439" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip10" class="tip"><title>agamm-owasp-security, bout 3 of 3: $ per TP 0.055</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="214.357589" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip12" class="tip"><title>anthropic-security-auditor, bout 1 of 3: $ per TP 0.070</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="228.744254" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip13" class="tip"><title>anthropic-security-auditor, bout 2 of 3: $ per TP 0.054</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="213.482398" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip14" class="tip"><title>anthropic-security-auditor, bout 3 of 3: $ per TP 0.050</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="209.54114" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip16" class="tip"><title>cf-security-audit, bout 1 of 3: $ per TP 0.151</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="308.865148" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip17" class="tip"><title>cf-security-audit, bout 2 of 3: $ per TP 0.082</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="241.026619" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip18" class="tip"><title>cf-security-audit, bout 3 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="222.587407" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip20" class="tip"><title>claude-security-flat, bout 1 of 3: $ per TP 0.160</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="317.871021" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip21" class="tip"><title>claude-security-flat, bout 2 of 3: $ per TP 0.134</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="292.583204" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip22" class="tip"><title>claude-security-flat, bout 3 of 3: $ per TP 0.148</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="306.180161" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip24" class="tip"><title>claude-security-researcher, bout 1 of 3: $ per TP 0.071</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="230.000836" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip25" class="tip"><title>claude-security-researcher, bout 2 of 3: $ per TP 0.071</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="229.700592" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip26" class="tip"><title>claude-security-researcher, bout 3 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="222.679207" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip28" class="tip"><title>ecc-security-review, bout 1 of 3: $ per TP 0.075</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="233.655916" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip29" class="tip"><title>ecc-security-review, bout 2 of 3: $ per TP 0.058</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="216.808761" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip30" class="tip"><title>ecc-security-review, bout 3 of 3: $ per TP 0.060</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="218.846707" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip32" class="tip"><title>evandervecht-security-audit, bout 1 of 3: $ per TP 0.078</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="236.935239" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip33" class="tip"><title>evandervecht-security-audit, bout 2 of 3: $ per TP 0.061</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="220.558345" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip34" class="tip"><title>evandervecht-security-audit, bout 3 of 3: $ per TP 0.062</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="221.218858" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip36" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: $ per TP 0.059</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="217.740446" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip37" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: $ per TP 0.058</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="216.992362" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip38" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: $ per TP 0.054</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="213.658773" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip40" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: $ per TP 0.073</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="232.396537" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip41" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: $ per TP 0.070</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="228.891755" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip42" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: $ per TP 0.068</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="227.347667" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip44" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: $ per TP 0.069</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="227.690732" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip45" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: $ per TP 0.053</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="212.343528" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip46" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: $ per TP 0.055</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="214.375269" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip48" class="tip"><title>github-copilot-security-review, bout 1 of 3: $ per TP 0.076</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="235.256317" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip49" class="tip"><title>github-copilot-security-review, bout 2 of 3: $ per TP 0.081</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="240.138108" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip50" class="tip"><title>github-copilot-security-review, bout 3 of 3: $ per TP 0.080</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="238.997463" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: $ per TP 0.079</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="238.294763" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="223.401626" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: $ per TP 0.055</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="214.186591" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip56" class="tip"><title>neolab-security-auditor, bout 1 of 3: $ per TP 0.071</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="229.770559" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip57" class="tip"><title>neolab-security-auditor, bout 2 of 3: $ per TP 0.058</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="217.057793" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip58" class="tip"><title>neolab-security-auditor, bout 3 of 3: $ per TP 0.053</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="212.191091" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip60" class="tip"><title>openai-security-best-practices, bout 1 of 3: $ per TP 0.080</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="238.703142" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip61" class="tip"><title>openai-security-best-practices, bout 2 of 3: $ per TP 0.078</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="236.967978" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip62" class="tip"><title>openai-security-best-practices, bout 3 of 3: $ per TP 0.067</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="225.928212" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip64" class="tip"><title>samber-golang-security, bout 1 of 3: $ per TP 0.082</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="240.697584" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip65" class="tip"><title>samber-golang-security, bout 2 of 3: $ per TP 0.069</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="227.975441" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip66" class="tip"><title>samber-golang-security, bout 3 of 3: $ per TP 0.072</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="230.773457" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip68" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: $ per TP 0.156</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="314.021284" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip69" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: $ per TP 0.083</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="242.258125" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip70" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: $ per TP 0.128</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="286.004652" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip72" class="tip"><title>sentry-code-review, bout 1 of 3: $ per TP 0.061</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="220.268653" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip73" class="tip"><title>sentry-code-review, bout 2 of 3: $ per TP 0.055</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="214.179376" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip74" class="tip"><title>sentry-code-review, bout 3 of 3: $ per TP 0.056</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="215.167302" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip76" class="tip"><title>sentry-security-review, bout 1 of 3: $ per TP 0.073</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="231.944937" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip77" class="tip"><title>sentry-security-review, bout 2 of 3: $ per TP 0.058</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="217.426688" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip78" class="tip"><title>sentry-security-review, bout 3 of 3: $ per TP 0.063</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="221.768886" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip80" class="tip"><title>sentry-then-fp-check, bout 1 of 3: $ per TP 0.228</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="384.730475" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip81" class="tip"><title>sentry-then-fp-check, bout 2 of 3: $ per TP 0.200</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="357.623952" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip82" class="tip"><title>sentry-then-fp-check, bout 3 of 3: $ per TP 0.258</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="414.925644" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip84" class="tip"><title>tob-differential-review, bout 1 of 3: $ per TP 0.075</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="233.771854" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip85" class="tip"><title>tob-differential-review, bout 2 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="222.67916" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip86" class="tip"><title>tob-differential-review, bout 3 of 3: $ per TP 0.071</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="230.388439" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip88" class="tip"><title>tob-sharp-edges, bout 1 of 3: $ per TP 0.080</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="238.520857" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip89" class="tip"><title>tob-sharp-edges, bout 2 of 3: $ per TP 0.063</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="221.88158" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip90" class="tip"><title>tob-sharp-edges, bout 3 of 3: $ per TP 0.059</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="217.656542" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip92" class="tip"><title>unitone-secure-code-review, bout 1 of 3: $ per TP 0.077</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="235.657434" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip93" class="tip"><title>unitone-secure-code-review, bout 2 of 3: $ per TP 0.058</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="216.908018" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip94" class="tip"><title>unitone-secure-code-review, bout 3 of 3: $ per TP 0.074</title>
+    <g clip-path="url(#efficiency-dvpwa-p5503f9feca)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="233.338727" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-text_29">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="251.243557" y="56.60262" transform="rotate(-0 251.243557 56.60262)">0.070</text>
+   </g>
+   <g id="efficiency-dvpwa-text_30">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="242.731114" y="79.986689" transform="rotate(-0 242.731114 79.986689)">0.067</text>
+   </g>
+   <g id="efficiency-dvpwa-text_31">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="233.156808" y="103.370758" transform="rotate(-0 233.156808 103.370758)">0.061</text>
+   </g>
+   <g id="efficiency-dvpwa-text_32">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="235.744254" y="126.754827" transform="rotate(-0 235.744254 126.754827)">0.058</text>
+   </g>
+   <g id="efficiency-dvpwa-text_33">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="315.865148" y="150.138896" transform="rotate(-0 315.865148 150.138896)">0.097</text>
+   </g>
+   <g id="efficiency-dvpwa-text_34">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="324.871021" y="173.522965" transform="rotate(-0 324.871021 173.522965)">0.147</text>
+   </g>
+   <g id="efficiency-dvpwa-text_35">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="237.000836" y="196.907035" transform="rotate(-0 237.000836 196.907035)">0.068</text>
+   </g>
+   <g id="efficiency-dvpwa-text_36">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="240.655916" y="220.291104" transform="rotate(-0 240.655916 220.291104)">0.063</text>
+   </g>
+   <g id="efficiency-dvpwa-text_37">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="243.935239" y="243.675173" transform="rotate(-0 243.935239 243.675173)">0.067</text>
+   </g>
+   <g id="efficiency-dvpwa-text_38">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="224.740446" y="267.059242" transform="rotate(-0 224.740446 267.059242)">0.057</text>
+   </g>
+   <g id="efficiency-dvpwa-text_39">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="239.396537" y="290.443311" transform="rotate(-0 239.396537 290.443311)">0.071</text>
+   </g>
+   <g id="efficiency-dvpwa-text_40">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="234.690732" y="313.82738" transform="rotate(-0 234.690732 313.82738)">0.059</text>
+   </g>
+   <g id="efficiency-dvpwa-text_41">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="247.138108" y="337.211449" transform="rotate(-0 247.138108 337.211449)">0.079</text>
+   </g>
+   <g id="efficiency-dvpwa-text_42">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="245.294763" y="360.595518" transform="rotate(-0 245.294763 360.595518)">0.066</text>
+   </g>
+   <g id="efficiency-dvpwa-text_43">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="236.770559" y="383.979587" transform="rotate(-0 236.770559 383.979587)">0.061</text>
+   </g>
+   <g id="efficiency-dvpwa-text_44">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="245.703142" y="407.363656" transform="rotate(-0 245.703142 407.363656)">0.075</text>
+   </g>
+   <g id="efficiency-dvpwa-text_45">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="247.697584" y="430.747725" transform="rotate(-0 247.697584 430.747725)">0.075</text>
+   </g>
+   <g id="efficiency-dvpwa-text_46">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="321.021284" y="454.131794" transform="rotate(-0 321.021284 454.131794)">0.121</text>
+   </g>
+   <g id="efficiency-dvpwa-text_47">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="227.268653" y="477.515863" transform="rotate(-0 227.268653 477.515863)">0.057</text>
+   </g>
+   <g id="efficiency-dvpwa-text_48">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="238.944937" y="500.899932" transform="rotate(-0 238.944937 500.899932)">0.064</text>
+   </g>
+   <g id="efficiency-dvpwa-text_49">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="421.925644" y="524.284001" transform="rotate(-0 421.925644 524.284001)">0.229</text>
+   </g>
+   <g id="efficiency-dvpwa-text_50">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="240.771854" y="547.66807" transform="rotate(-0 240.771854 547.66807)">0.070</text>
+   </g>
+   <g id="efficiency-dvpwa-text_51">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="245.520857" y="571.052139" transform="rotate(-0 245.520857 571.052139)">0.067</text>
+   </g>
+   <g id="efficiency-dvpwa-text_52">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="242.657434" y="594.436208" transform="rotate(-0 242.657434 594.436208)">0.069</text>
+   </g>
+   <g id="efficiency-dvpwa-text_53">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">$ per TP (lower is better)</text>
+   </g>
+   <g id="efficiency-dvpwa-tip3" class="tip"><title>baseline: mean $ per TP 0.071 (n=3)</title>
+    <path d="M 230.240715 46.703795 
+L 230.240715 62.604962 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip7" class="tip"><title>addyosmani-security-auditor: mean $ per TP 0.067 (n=3)</title>
+    <path d="M 225.984265 70.087864 
+L 225.984265 85.989031 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip11" class="tip"><title>agamm-owasp-security: mean $ per TP 0.061 (n=3)</title>
+    <path d="M 220.282279 93.471933 
+L 220.282279 109.3731 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip15" class="tip"><title>anthropic-security-auditor: mean $ per TP 0.058 (n=3)</title>
+    <path d="M 217.255931 116.856002 
+L 217.255931 132.757169 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip19" class="tip"><title>cf-security-audit: mean $ per TP 0.099 (n=3)</title>
+    <path d="M 257.493058 140.240071 
+L 257.493058 156.141238 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip23" class="tip"><title>claude-security-flat: mean $ per TP 0.148 (n=3)</title>
+    <path d="M 305.544795 163.62414 
+L 305.544795 179.525307 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip27" class="tip"><title>claude-security-researcher: mean $ per TP 0.068 (n=3)</title>
+    <path d="M 227.460212 187.008209 
+L 227.460212 202.909376 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip31" class="tip"><title>ecc-security-review: mean $ per TP 0.064 (n=3)</title>
+    <path d="M 223.103795 210.392278 
+L 223.103795 226.293445 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip35" class="tip"><title>evandervecht-security-audit: mean $ per TP 0.067 (n=3)</title>
+    <path d="M 226.237481 233.776347 
+L 226.237481 249.677514 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip39" class="tip"><title>every-ce-security-reviewer: mean $ per TP 0.057 (n=3)</title>
+    <path d="M 216.130527 257.160416 
+L 216.130527 273.061583 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip43" class="tip"><title>gemini-security-analyze-full: mean $ per TP 0.071 (n=3)</title>
+    <path d="M 229.545319 280.544485 
+L 229.545319 296.445652 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip47" class="tip"><title>github-copilot-se-security-reviewer: mean $ per TP 0.059 (n=3)</title>
+    <path d="M 218.136509 303.928554 
+L 218.136509 319.829721 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip51" class="tip"><title>github-copilot-security-review: mean $ per TP 0.079 (n=3)</title>
+    <path d="M 238.130629 327.312623 
+L 238.130629 343.21379 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean $ per TP 0.066 (n=3)</title>
+    <path d="M 225.294327 350.696692 
+L 225.294327 366.597859 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip59" class="tip"><title>neolab-security-auditor: mean $ per TP 0.061 (n=3)</title>
+    <path d="M 219.673148 374.080761 
+L 219.673148 389.981928 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip63" class="tip"><title>openai-security-best-practices: mean $ per TP 0.075 (n=3)</title>
+    <path d="M 233.866444 397.46483 
+L 233.866444 413.365997 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip67" class="tip"><title>samber-golang-security: mean $ per TP 0.074 (n=3)</title>
+    <path d="M 233.148827 420.848899 
+L 233.148827 436.750066 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip71" class="tip"><title>sari3l-security-code-audit: mean $ per TP 0.122 (n=3)</title>
+    <path d="M 280.761353 444.232968 
+L 280.761353 460.134135 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip75" class="tip"><title>sentry-code-review: mean $ per TP 0.057 (n=3)</title>
+    <path d="M 216.538444 467.617037 
+L 216.538444 483.518204 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip79" class="tip"><title>sentry-security-review: mean $ per TP 0.065 (n=3)</title>
+    <path d="M 223.713504 491.001106 
+L 223.713504 506.902273 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip83" class="tip"><title>sentry-then-fp-check: mean $ per TP 0.229 (n=3)</title>
+    <path d="M 385.760024 514.385175 
+L 385.760024 530.286342 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip87" class="tip"><title>tob-differential-review: mean $ per TP 0.070 (n=3)</title>
+    <path d="M 228.946484 537.769244 
+L 228.946484 553.670411 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip91" class="tip"><title>tob-sharp-edges: mean $ per TP 0.067 (n=3)</title>
+    <path d="M 226.01966 561.153313 
+L 226.01966 577.05448 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip95" class="tip"><title>unitone-secure-code-review: mean $ per TP 0.070 (n=3)</title>
+    <path d="M 228.634726 584.537382 
+L 228.634726 600.438549 
+" clip-path="url(#efficiency-dvpwa-p5503f9feca)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-dvpwa-axes_2">
+   <g id="efficiency-dvpwa-patch_5">
+    <path d="M 451.18633 604.18 
+L 705.863115 604.18 
+L 705.863115 42.962344 
+L 451.18633 42.962344 
+L 451.18633 604.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_3">
+    <g id="efficiency-dvpwa-xtick_5">
+     <g id="efficiency-dvpwa-line2d_30"/>
+     <g id="efficiency-dvpwa-text_54">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="496.632944" y="614.517891" transform="rotate(-0 496.632944 614.517891)">15</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_6">
+     <g id="efficiency-dvpwa-line2d_31"/>
+     <g id="efficiency-dvpwa-text_55">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="565.926793" y="614.517891" transform="rotate(-0 565.926793 614.517891)">30</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_7">
+     <g id="efficiency-dvpwa-line2d_32"/>
+     <g id="efficiency-dvpwa-text_56">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="635.220642" y="614.517891" transform="rotate(-0 635.220642 614.517891)">45</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_8">
+     <g id="efficiency-dvpwa-line2d_33"/>
+     <g id="efficiency-dvpwa-text_57">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="704.514491" y="614.517891" transform="rotate(-0 704.514491 614.517891)">60</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_4">
+    <g id="efficiency-dvpwa-ytick_25">
+     <g id="efficiency-dvpwa-line2d_34"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_26">
+     <g id="efficiency-dvpwa-line2d_35"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_27">
+     <g id="efficiency-dvpwa-line2d_36"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_28">
+     <g id="efficiency-dvpwa-line2d_37"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_29">
+     <g id="efficiency-dvpwa-line2d_38"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_30">
+     <g id="efficiency-dvpwa-line2d_39"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_31">
+     <g id="efficiency-dvpwa-line2d_40"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_32">
+     <g id="efficiency-dvpwa-line2d_41"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_33">
+     <g id="efficiency-dvpwa-line2d_42"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_34">
+     <g id="efficiency-dvpwa-line2d_43"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_35">
+     <g id="efficiency-dvpwa-line2d_44"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_36">
+     <g id="efficiency-dvpwa-line2d_45"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_37">
+     <g id="efficiency-dvpwa-line2d_46"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_38">
+     <g id="efficiency-dvpwa-line2d_47"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_39">
+     <g id="efficiency-dvpwa-line2d_48"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_40">
+     <g id="efficiency-dvpwa-line2d_49"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_41">
+     <g id="efficiency-dvpwa-line2d_50"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_42">
+     <g id="efficiency-dvpwa-line2d_51"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_43">
+     <g id="efficiency-dvpwa-line2d_52"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_44">
+     <g id="efficiency-dvpwa-line2d_53"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_45">
+     <g id="efficiency-dvpwa-line2d_54"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_46">
+     <g id="efficiency-dvpwa-line2d_55"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_47">
+     <g id="efficiency-dvpwa-line2d_56"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_48">
+     <g id="efficiency-dvpwa-line2d_57"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-line2d_58">
+    <path d="M 490.581934 604.18 
+L 490.581934 42.962344 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_6">
+    <path d="M 451.18633 604.18 
+L 451.18633 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_7">
+    <path d="M 451.18633 604.18 
+L 705.863115 604.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-tip96" class="tip"><title>baseline, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="481.286007" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip97" class="tip"><title>baseline, bout 2 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="496.902728" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip98" class="tip"><title>baseline, bout 3 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="493.557067" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip100" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="493.939063" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip101" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="486.119418" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip102" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="488.166556" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip104" class="tip"><title>agamm-owasp-security, bout 1 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="478.032165" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip105" class="tip"><title>agamm-owasp-security, bout 2 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="482.021841" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip106" class="tip"><title>agamm-owasp-security, bout 3 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="478.491237" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip108" class="tip"><title>anthropic-security-auditor, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.888048" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip109" class="tip"><title>anthropic-security-auditor, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="479.465393" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip110" class="tip"><title>anthropic-security-auditor, bout 3 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="477.354241" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip112" class="tip"><title>cf-security-audit, bout 1 of 3: wall seconds per TP 23</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="531.636347" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip113" class="tip"><title>cf-security-audit, bout 2 of 3: wall seconds per TP 17</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="506.001473" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip114" class="tip"><title>cf-security-audit, bout 3 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.331635" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip116" class="tip"><title>claude-security-flat, bout 1 of 3: wall seconds per TP 55</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="681.216975" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip117" class="tip"><title>claude-security-flat, bout 2 of 3: wall seconds per TP 24</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="536.321381" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip118" class="tip"><title>claude-security-flat, bout 3 of 3: wall seconds per TP 24</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="538.98904" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip120" class="tip"><title>claude-security-researcher, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="484.731341" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip121" class="tip"><title>claude-security-researcher, bout 2 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.778525" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip122" class="tip"><title>claude-security-researcher, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="486.553659" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip124" class="tip"><title>ecc-security-review, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="482.170548" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip125" class="tip"><title>ecc-security-review, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="477.64049" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip126" class="tip"><title>ecc-security-review, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="485.52811" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip128" class="tip"><title>evandervecht-security-audit, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="488.875993" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip129" class="tip"><title>evandervecht-security-audit, bout 2 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="485.1955" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip130" class="tip"><title>evandervecht-security-audit, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="485.834323" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip132" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="489.308914" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip133" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="481.35596" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip134" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="482.681783" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip136" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="485.669118" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip137" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="489.099053" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip138" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="485.356525" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip140" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="486.563558" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip141" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="477.311839" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip142" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="479.242168" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip144" class="tip"><title>github-copilot-security-review, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="483.546306" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip145" class="tip"><title>github-copilot-security-review, bout 2 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="490.887494" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip146" class="tip"><title>github-copilot-security-review, bout 3 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="500.798275" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip148" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.292698" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip149" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="489.81113" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip150" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="481.787562" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip152" class="tip"><title>neolab-security-auditor, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="487.183243" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip153" class="tip"><title>neolab-security-auditor, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="478.487855" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip154" class="tip"><title>neolab-security-auditor, bout 3 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="478.966973" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip156" class="tip"><title>openai-security-best-practices, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.997516" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip157" class="tip"><title>openai-security-best-practices, bout 2 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="499.326935" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip158" class="tip"><title>openai-security-best-practices, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="486.178042" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip160" class="tip"><title>samber-golang-security, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="491.381048" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip161" class="tip"><title>samber-golang-security, bout 2 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="493.345776" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip162" class="tip"><title>samber-golang-security, bout 3 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="497.3536" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip164" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="500.62119" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip165" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="493.250085" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip166" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="502.544864" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip168" class="tip"><title>sentry-code-review, bout 1 of 3: wall seconds per TP 10</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="475.832471" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip169" class="tip"><title>sentry-code-review, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="479.550471" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip170" class="tip"><title>sentry-code-review, bout 3 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="479.226329" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip172" class="tip"><title>sentry-security-review, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="484.019924" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip173" class="tip"><title>sentry-security-review, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="479.929167" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip174" class="tip"><title>sentry-security-review, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="486.488325" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip176" class="tip"><title>sentry-then-fp-check, bout 1 of 3: wall seconds per TP 43</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="626.098492" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip177" class="tip"><title>sentry-then-fp-check, bout 2 of 3: wall seconds per TP 42</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="620.287817" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip178" class="tip"><title>sentry-then-fp-check, bout 3 of 3: wall seconds per TP 54</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="676.684541" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip180" class="tip"><title>tob-differential-review, bout 1 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="495.311742" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip181" class="tip"><title>tob-differential-review, bout 2 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="503.131937" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip182" class="tip"><title>tob-differential-review, bout 3 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="492.878758" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip184" class="tip"><title>tob-sharp-edges, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="489.601158" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip185" class="tip"><title>tob-sharp-edges, bout 2 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="494.664229" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip186" class="tip"><title>tob-sharp-edges, bout 3 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="484.408189" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip188" class="tip"><title>unitone-secure-code-review, bout 1 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="484.468409" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip189" class="tip"><title>unitone-secure-code-review, bout 2 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="480.900931" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip190" class="tip"><title>unitone-secure-code-review, bout 3 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-pec7eb68091)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="497.854826" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-text_58">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.902728" y="56.60262" transform="rotate(-0 503.902728 56.60262)">14</text>
+   </g>
+   <g id="efficiency-dvpwa-text_59">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="500.939063" y="79.986689" transform="rotate(-0 500.939063 79.986689)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_60">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="489.021841" y="103.370758" transform="rotate(-0 489.021841 103.370758)">11</text>
+   </g>
+   <g id="efficiency-dvpwa-text_61">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="498.888048" y="126.754827" transform="rotate(-0 498.888048 126.754827)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_62">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="538.636347" y="150.138896" transform="rotate(-0 538.636347 150.138896)">18</text>
+   </g>
+   <g id="efficiency-dvpwa-text_63">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="688.216975" y="173.522965" transform="rotate(-0 688.216975 173.522965)">34</text>
+   </g>
+   <g id="efficiency-dvpwa-text_64">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="498.778525" y="196.907035" transform="rotate(-0 498.778525 196.907035)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_65">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="492.52811" y="220.291104" transform="rotate(-0 492.52811 220.291104)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_66">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="495.875993" y="243.675173" transform="rotate(-0 495.875993 243.675173)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_67">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="496.308914" y="267.059242" transform="rotate(-0 496.308914 267.059242)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_68">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="496.099053" y="290.443311" transform="rotate(-0 496.099053 290.443311)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_69">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="493.563558" y="313.82738" transform="rotate(-0 493.563558 313.82738)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_70">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="507.798275" y="337.211449" transform="rotate(-0 507.798275 337.211449)">14</text>
+   </g>
+   <g id="efficiency-dvpwa-text_71">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="498.292698" y="360.595518" transform="rotate(-0 498.292698 360.595518)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_72">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.183243" y="383.979587" transform="rotate(-0 494.183243 383.979587)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_73">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="506.326935" y="407.363656" transform="rotate(-0 506.326935 407.363656)">14</text>
+   </g>
+   <g id="efficiency-dvpwa-text_74">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="504.3536" y="430.747725" transform="rotate(-0 504.3536 430.747725)">14</text>
+   </g>
+   <g id="efficiency-dvpwa-text_75">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="509.544864" y="454.131794" transform="rotate(-0 509.544864 454.131794)">15</text>
+   </g>
+   <g id="efficiency-dvpwa-text_76">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="486.550471" y="477.515863" transform="rotate(-0 486.550471 477.515863)">11</text>
+   </g>
+   <g id="efficiency-dvpwa-text_77">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="493.488325" y="500.899932" transform="rotate(-0 493.488325 500.899932)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_78">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="683.684541" y="524.284001" transform="rotate(-0 683.684541 524.284001)">46</text>
+   </g>
+   <g id="efficiency-dvpwa-text_79">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="510.131937" y="547.66807" transform="rotate(-0 510.131937 547.66807)">15</text>
+   </g>
+   <g id="efficiency-dvpwa-text_80">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="501.664229" y="571.052139" transform="rotate(-0 501.664229 571.052139)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_81">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="504.854826" y="594.436208" transform="rotate(-0 504.854826 594.436208)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_82">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="451.18633" y="36.962344" transform="rotate(-0 451.18633 36.962344)">wall seconds per TP (lower is better)</text>
+   </g>
+   <g id="efficiency-dvpwa-tip99" class="tip"><title>baseline: mean wall seconds per TP 14 (n=3)</title>
+    <path d="M 490.581934 46.703795 
+L 490.581934 62.604962 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip103" class="tip"><title>addyosmani-security-auditor: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 489.408346 70.087864 
+L 489.408346 85.989031 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip107" class="tip"><title>agamm-owasp-security: mean wall seconds per TP 11 (n=3)</title>
+    <path d="M 479.515081 93.471933 
+L 479.515081 109.3731 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip111" class="tip"><title>anthropic-security-auditor: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 482.902561 116.856002 
+L 482.902561 132.757169 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip115" class="tip"><title>cf-security-audit: mean wall seconds per TP 18 (n=3)</title>
+    <path d="M 509.656485 140.240071 
+L 509.656485 156.141238 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip119" class="tip"><title>claude-security-flat: mean wall seconds per TP 34 (n=3)</title>
+    <path d="M 585.509132 163.62414 
+L 585.509132 179.525307 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip123" class="tip"><title>claude-security-researcher: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 487.687842 187.008209 
+L 487.687842 202.909376 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip127" class="tip"><title>ecc-security-review: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 481.779716 210.392278 
+L 481.779716 226.293445 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip131" class="tip"><title>evandervecht-security-audit: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 486.635272 233.776347 
+L 486.635272 249.677514 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip135" class="tip"><title>every-ce-security-reviewer: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 484.448886 257.160416 
+L 484.448886 273.061583 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip139" class="tip"><title>gemini-security-analyze-full: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 486.708232 280.544485 
+L 486.708232 296.445652 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip143" class="tip"><title>github-copilot-se-security-reviewer: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 481.039189 303.928554 
+L 481.039189 319.829721 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip147" class="tip"><title>github-copilot-security-review: mean wall seconds per TP 14 (n=3)</title>
+    <path d="M 491.744025 327.312623 
+L 491.744025 343.21379 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip151" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 487.630463 350.696692 
+L 487.630463 366.597859 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip155" class="tip"><title>neolab-security-auditor: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 481.546024 374.080761 
+L 481.546024 389.981928 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip159" class="tip"><title>openai-security-best-practices: mean wall seconds per TP 14 (n=3)</title>
+    <path d="M 492.500831 397.46483 
+L 492.500831 413.365997 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip163" class="tip"><title>samber-golang-security: mean wall seconds per TP 14 (n=3)</title>
+    <path d="M 494.026808 420.848899 
+L 494.026808 436.750066 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip167" class="tip"><title>sari3l-security-code-audit: mean wall seconds per TP 15 (n=3)</title>
+    <path d="M 498.80538 444.232968 
+L 498.80538 460.134135 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip171" class="tip"><title>sentry-code-review: mean wall seconds per TP 11 (n=3)</title>
+    <path d="M 478.20309 467.617037 
+L 478.20309 483.518204 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip175" class="tip"><title>sentry-security-review: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 483.479139 491.001106 
+L 483.479139 506.902273 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip179" class="tip"><title>sentry-then-fp-check: mean wall seconds per TP 46 (n=3)</title>
+    <path d="M 641.023617 514.385175 
+L 641.023617 530.286342 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip183" class="tip"><title>tob-differential-review: mean wall seconds per TP 15 (n=3)</title>
+    <path d="M 497.107479 537.769244 
+L 497.107479 553.670411 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip187" class="tip"><title>tob-sharp-edges: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 489.557859 561.153313 
+L 489.557859 577.05448 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip191" class="tip"><title>unitone-secure-code-review: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 487.741389 584.537382 
+L 487.741389 600.438549 
+" clip-path="url(#efficiency-dvpwa-pec7eb68091)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-dvpwa-text_83">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="20.126438" transform="rotate(-0 7.2 20.126438)">dvpwa: what one TP costs</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="efficiency-dvpwa-p5503f9feca">
+   <rect x="184.895" y="42.962344" width="254.676785" height="561.217656"/>
+  </clipPath>
+  <clipPath id="efficiency-dvpwa-pec7eb68091">
+   <rect x="451.18633" y="42.962344" width="254.676785" height="561.217656"/>
+  </clipPath>
+ </defs>
+</svg>

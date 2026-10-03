@@ -1,357 +1,691 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="360pt" viewBox="0 0 547.2 360" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Dot plot of the difference in TP from baseline in dvpwa">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="696.96pt" viewBox="0 0 720 696.96" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Dot plot of the difference in TP from baseline in dvpwa">
  <title>Dot plot of the difference in TP from baseline in dvpwa</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="delta-vs-baseline-dvpwa-figure_1">
   <g id="delta-vs-baseline-dvpwa-patch_1">
-   <path d="M 0 360 
-L 547.2 360 
-L 547.2 0 
+   <path d="M 0 696.96 
+L 720 696.96 
+L 720 0 
 L 0 0 
-L 0 360 
+L 0 696.96 
 z
 " style="fill: none"/>
   </g>
   <g id="delta-vs-baseline-dvpwa-axes_1">
    <g id="delta-vs-baseline-dvpwa-patch_2">
-    <path d="M 155.6225 323.697891 
-L 537.48 323.697891 
-L 537.48 23.64 
-L 155.6225 23.64 
-L 155.6225 323.697891 
+    <path d="M 184.895 660.657891 
+L 710.28 660.657891 
+L 710.28 23.64 
+L 184.895 23.64 
+L 184.895 660.657891 
 z
 " style="fill: none"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-matplotlib.axis_1">
     <g id="delta-vs-baseline-dvpwa-xtick_1">
      <g id="delta-vs-baseline-dvpwa-line2d_1">
-      <path d="M 219.265417 323.697891 
-L 219.265417 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 247.440833 660.657891 
+L 247.440833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-dvpwa-line2d_2"/>
      <g id="delta-vs-baseline-dvpwa-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="219.265417" y="334.035781" transform="rotate(-0 219.265417 334.035781)">−1</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="247.440833" y="670.995781" transform="rotate(-0 247.440833 670.995781)">−2</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-xtick_2">
      <g id="delta-vs-baseline-dvpwa-line2d_3">
-      <path d="M 295.636917 323.697891 
-L 295.636917 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 322.495833 660.657891 
+L 322.495833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-dvpwa-line2d_4"/>
      <g id="delta-vs-baseline-dvpwa-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="295.636917" y="334.035781" transform="rotate(-0 295.636917 334.035781)">0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="322.495833" y="670.995781" transform="rotate(-0 322.495833 670.995781)">−1</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-xtick_3">
      <g id="delta-vs-baseline-dvpwa-line2d_5">
-      <path d="M 372.008417 323.697891 
-L 372.008417 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 397.550833 660.657891 
+L 397.550833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-dvpwa-line2d_6"/>
      <g id="delta-vs-baseline-dvpwa-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="372.008417" y="334.035781" transform="rotate(-0 372.008417 334.035781)">1</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="397.550833" y="670.995781" transform="rotate(-0 397.550833 670.995781)">0</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-xtick_4">
      <g id="delta-vs-baseline-dvpwa-line2d_7">
-      <path d="M 448.379917 323.697891 
-L 448.379917 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 472.605833 660.657891 
+L 472.605833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-dvpwa-line2d_8"/>
      <g id="delta-vs-baseline-dvpwa-text_4">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="448.379917" y="334.035781" transform="rotate(-0 448.379917 334.035781)">2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="472.605833" y="670.995781" transform="rotate(-0 472.605833 670.995781)">1</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-xtick_5">
      <g id="delta-vs-baseline-dvpwa-line2d_9">
-      <path d="M 524.751417 323.697891 
-L 524.751417 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+      <path d="M 547.660833 660.657891 
+L 547.660833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-dvpwa-line2d_10"/>
      <g id="delta-vs-baseline-dvpwa-text_5">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="524.751417" y="334.035781" transform="rotate(-0 524.751417 334.035781)">3</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="547.660833" y="670.995781" transform="rotate(-0 547.660833 670.995781)">2</text>
      </g>
     </g>
-    <g id="delta-vs-baseline-dvpwa-text_6">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="346.55125" y="347.036484" transform="rotate(-0 346.55125 347.036484)">Δ mean TP per bout, contender minus baseline</text>
+    <g id="delta-vs-baseline-dvpwa-xtick_6">
+     <g id="delta-vs-baseline-dvpwa-line2d_11">
+      <path d="M 622.715833 660.657891 
+L 622.715833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="delta-vs-baseline-dvpwa-line2d_12"/>
+     <g id="delta-vs-baseline-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="622.715833" y="670.995781" transform="rotate(-0 622.715833 670.995781)">3</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-xtick_7">
+     <g id="delta-vs-baseline-dvpwa-line2d_13">
+      <path d="M 697.770833 660.657891 
+L 697.770833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="delta-vs-baseline-dvpwa-line2d_14"/>
+     <g id="delta-vs-baseline-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="697.770833" y="670.995781" transform="rotate(-0 697.770833 670.995781)">4</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-text_8">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="683.996484" transform="rotate(-0 447.5875 683.996484)">Δ mean TP per bout, contender minus baseline</text>
     </g>
    </g>
    <g id="delta-vs-baseline-dvpwa-matplotlib.axis_2">
     <g id="delta-vs-baseline-dvpwa-ytick_1">
-     <g id="delta-vs-baseline-dvpwa-line2d_11"/>
-     <g id="delta-vs-baseline-dvpwa-text_7">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="42.062191" transform="rotate(-0 152.1225 42.062191)">cf-security-audit</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_15"/>
+     <g id="delta-vs-baseline-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="40.907512" transform="rotate(-0 181.395 40.907512)">addyosmani-security-auditor</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_2">
-     <g id="delta-vs-baseline-dvpwa-line2d_12"/>
-     <g id="delta-vs-baseline-dvpwa-text_8">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="72.06798" transform="rotate(-0 152.1225 72.06798)">ecc-security-review</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_16"/>
+     <g id="delta-vs-baseline-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="68.603942" transform="rotate(-0 181.395 68.603942)">agamm-owasp-security</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_3">
-     <g id="delta-vs-baseline-dvpwa-line2d_13"/>
-     <g id="delta-vs-baseline-dvpwa-text_9">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="102.07377" transform="rotate(-0 152.1225 102.07377)">every-ce-security-reviewer</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_17"/>
+     <g id="delta-vs-baseline-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="96.300372" transform="rotate(-0 181.395 96.300372)">anthropic-security-auditor</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_4">
-     <g id="delta-vs-baseline-dvpwa-line2d_14"/>
-     <g id="delta-vs-baseline-dvpwa-text_10">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="132.079559" transform="rotate(-0 152.1225 132.079559)">neolab-security-auditor</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_18"/>
+     <g id="delta-vs-baseline-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="123.996802" transform="rotate(-0 181.395 123.996802)">cf-security-audit</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_5">
-     <g id="delta-vs-baseline-dvpwa-line2d_15"/>
-     <g id="delta-vs-baseline-dvpwa-text_11">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="162.085348" transform="rotate(-0 152.1225 162.085348)">openai-security-best-practices</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_19"/>
+     <g id="delta-vs-baseline-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.693232" transform="rotate(-0 181.395 151.693232)">claude-security-flat</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_6">
-     <g id="delta-vs-baseline-dvpwa-line2d_16"/>
-     <g id="delta-vs-baseline-dvpwa-text_12">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="192.091137" transform="rotate(-0 152.1225 192.091137)">samber-golang-security</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_20"/>
+     <g id="delta-vs-baseline-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="179.389662" transform="rotate(-0 181.395 179.389662)">claude-security-researcher</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_7">
-     <g id="delta-vs-baseline-dvpwa-line2d_17"/>
-     <g id="delta-vs-baseline-dvpwa-text_13">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="222.096926" transform="rotate(-0 152.1225 222.096926)">sentry-code-review</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_21"/>
+     <g id="delta-vs-baseline-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="207.086092" transform="rotate(-0 181.395 207.086092)">ecc-security-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_8">
-     <g id="delta-vs-baseline-dvpwa-line2d_18"/>
-     <g id="delta-vs-baseline-dvpwa-text_14">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="252.102715" transform="rotate(-0 152.1225 252.102715)">sentry-security-review</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_22"/>
+     <g id="delta-vs-baseline-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="234.782522" transform="rotate(-0 181.395 234.782522)">evandervecht-security-audit</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_9">
-     <g id="delta-vs-baseline-dvpwa-line2d_19"/>
-     <g id="delta-vs-baseline-dvpwa-text_15">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="282.108504" transform="rotate(-0 152.1225 282.108504)">tob-differential-review</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_23"/>
+     <g id="delta-vs-baseline-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="262.478952" transform="rotate(-0 181.395 262.478952)">every-ce-security-reviewer</text>
      </g>
     </g>
     <g id="delta-vs-baseline-dvpwa-ytick_10">
-     <g id="delta-vs-baseline-dvpwa-line2d_20"/>
-     <g id="delta-vs-baseline-dvpwa-text_16">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="312.114293" transform="rotate(-0 152.1225 312.114293)">tob-sharp-edges</text>
+     <g id="delta-vs-baseline-dvpwa-line2d_24"/>
+     <g id="delta-vs-baseline-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="290.175382" transform="rotate(-0 181.395 290.175382)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_11">
+     <g id="delta-vs-baseline-dvpwa-line2d_25"/>
+     <g id="delta-vs-baseline-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="317.871812" transform="rotate(-0 181.395 317.871812)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_12">
+     <g id="delta-vs-baseline-dvpwa-line2d_26"/>
+     <g id="delta-vs-baseline-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="345.568242" transform="rotate(-0 181.395 345.568242)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_13">
+     <g id="delta-vs-baseline-dvpwa-line2d_27"/>
+     <g id="delta-vs-baseline-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="373.264672" transform="rotate(-0 181.395 373.264672)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_14">
+     <g id="delta-vs-baseline-dvpwa-line2d_28"/>
+     <g id="delta-vs-baseline-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="400.961102" transform="rotate(-0 181.395 400.961102)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_15">
+     <g id="delta-vs-baseline-dvpwa-line2d_29"/>
+     <g id="delta-vs-baseline-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="428.657532" transform="rotate(-0 181.395 428.657532)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_16">
+     <g id="delta-vs-baseline-dvpwa-line2d_30"/>
+     <g id="delta-vs-baseline-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="456.353962" transform="rotate(-0 181.395 456.353962)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_17">
+     <g id="delta-vs-baseline-dvpwa-line2d_31"/>
+     <g id="delta-vs-baseline-dvpwa-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="484.050392" transform="rotate(-0 181.395 484.050392)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_18">
+     <g id="delta-vs-baseline-dvpwa-line2d_32"/>
+     <g id="delta-vs-baseline-dvpwa-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="511.746822" transform="rotate(-0 181.395 511.746822)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_19">
+     <g id="delta-vs-baseline-dvpwa-line2d_33"/>
+     <g id="delta-vs-baseline-dvpwa-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="539.443252" transform="rotate(-0 181.395 539.443252)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_20">
+     <g id="delta-vs-baseline-dvpwa-line2d_34"/>
+     <g id="delta-vs-baseline-dvpwa-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="567.139682" transform="rotate(-0 181.395 567.139682)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_21">
+     <g id="delta-vs-baseline-dvpwa-line2d_35"/>
+     <g id="delta-vs-baseline-dvpwa-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="594.836112" transform="rotate(-0 181.395 594.836112)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_22">
+     <g id="delta-vs-baseline-dvpwa-line2d_36"/>
+     <g id="delta-vs-baseline-dvpwa-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="622.532542" transform="rotate(-0 181.395 622.532542)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="delta-vs-baseline-dvpwa-ytick_23">
+     <g id="delta-vs-baseline-dvpwa-line2d_37"/>
+     <g id="delta-vs-baseline-dvpwa-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="650.228972" transform="rotate(-0 181.395 650.228972)">unitone-secure-code-review</text>
      </g>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_21">
-    <path d="M 295.636917 323.697891 
-L 295.636917 23.64 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
+   <g id="delta-vs-baseline-dvpwa-line2d_38">
+    <path d="M 397.550833 660.657891 
+L 397.550833 23.64 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-patch_3">
-    <path d="M 155.6225 323.697891 
-L 155.6225 23.64 
+    <path d="M 184.895 660.657891 
+L 184.895 23.64 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-patch_4">
-    <path d="M 155.6225 323.697891 
-L 537.48 323.697891 
+    <path d="M 184.895 660.657891 
+L 710.28 660.657891 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-LineCollection_1">
-    <path d="M 244.722583 38.642895 
-L 397.465583 38.642895 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
+    <path d="M 397.550833 37.488215 
+L 547.660833 37.488215 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_22">
+   <g id="delta-vs-baseline-dvpwa-line2d_39">
     <defs>
      <path id="delta-vs-baseline-dvpwa-mc2ee98718a" d="M 0 2.5 
 L 0 -2.5 
 " style="stroke: #3987e5"/>
     </defs>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="244.722583" y="38.642895" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_23">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.465583" y="38.642895" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_17">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.465583" y="40.72102" transform="rotate(-0 403.465583 40.72102)">+0.3</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_2">
-    <path d="M 270.17975 68.648684 
-L 422.92275 68.648684 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_24">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="270.17975" y="68.648684" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_25">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="422.92275" y="68.648684" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_18">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="428.92275" y="70.726809" transform="rotate(-0 428.92275 70.726809)">+0.7</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_3">
-    <path d="M 295.636917 98.654473 
-L 448.379917 98.654473 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_26">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="295.636917" y="98.654473" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_27">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="448.379917" y="98.654473" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_19">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="454.379917" y="100.732598" transform="rotate(-0 454.379917 100.732598)">+1</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_4">
-    <path d="M 295.636917 128.660262 
-L 448.379917 128.660262 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_28">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="295.636917" y="128.660262" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_29">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="448.379917" y="128.660262" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_20">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="454.379917" y="130.738387" transform="rotate(-0 454.379917 130.738387)">+1</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_5">
-    <path d="M 244.722583 158.666051 
-L 397.465583 158.666051 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_30">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="244.722583" y="158.666051" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_31">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.465583" y="158.666051" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_21">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.465583" y="160.744176" transform="rotate(-0 403.465583 160.744176)">+0.3</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_6">
-    <path d="M 321.094083 188.67184 
-L 473.837083 188.67184 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_32">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="321.094083" y="188.67184" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_33">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="473.837083" y="188.67184" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_22">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="479.837083" y="190.749965" transform="rotate(-0 479.837083 190.749965)">+1.3</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_7">
-    <path d="M 219.265417 218.677629 
-L 372.008417 218.677629 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_34">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="219.265417" y="218.677629" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_35">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="372.008417" y="218.677629" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_23">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="378.008417" y="220.755754" transform="rotate(-0 378.008417 220.755754)">0</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_8">
-    <path d="M 244.722583 248.683418 
-L 397.465583 248.683418 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_36">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="244.722583" y="248.683418" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_37">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.465583" y="248.683418" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_24">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.465583" y="250.761543" transform="rotate(-0 403.465583 250.761543)">+0.3</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_9">
-    <path d="M 244.722583 278.689207 
-L 397.465583 278.689207 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_38">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="244.722583" y="278.689207" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-line2d_39">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.465583" y="278.689207" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-text_25">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.465583" y="280.767332" transform="rotate(-0 403.465583 280.767332)">+0.3</text>
-   </g>
-   <g id="delta-vs-baseline-dvpwa-LineCollection_10">
-    <path d="M 244.722583 308.694996 
-L 397.465583 308.694996 
-" clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-line2d_40">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="244.722583" y="308.694996" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_32">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="39.56634" transform="rotate(-0 553.660833 39.56634)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_2">
+    <path d="M 447.5875 65.184645 
+L 597.6975 65.184645 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-dvpwa-line2d_41">
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.465583" y="308.694996" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="447.5875" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-text_26">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.465583" y="310.773121" transform="rotate(-0 403.465583 310.773121)">+0.3</text>
+   <g id="delta-vs-baseline-dvpwa-line2d_42">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="597.6975" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-text_27">
-    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="155.6225" y="17.64" transform="rotate(-0 155.6225 17.64)">dvpwa: TP against baseline</text>
+   <g id="delta-vs-baseline-dvpwa-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="603.6975" y="67.26277" transform="rotate(-0 603.6975 67.26277)">+1.7</text>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip0" class="tip"><title>cf-security-audit: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_3">
+    <path d="M 472.605833 92.881075 
+L 622.715833 92.881075 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_43">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="472.605833" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_44">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="622.715833" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="628.715833" y="94.9592" transform="rotate(-0 628.715833 94.9592)">+2</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_4">
+    <path d="M 347.514167 120.577505 
+L 497.624167 120.577505 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_45">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_46">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="122.65563" transform="rotate(-0 503.624167 122.65563)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_5">
+    <path d="M 272.459167 148.273935 
+L 422.569167 148.273935 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_47">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="272.459167" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_48">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="422.569167" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="428.569167" y="150.35206" transform="rotate(-0 428.569167 150.35206)">-0.7</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_6">
+    <path d="M 347.514167 175.970365 
+L 497.624167 175.970365 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_49">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_50">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="178.04849" transform="rotate(-0 503.624167 178.04849)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_7">
+    <path d="M 372.5325 203.666795 
+L 522.6425 203.666795 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_51">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="372.5325" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_52">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="522.6425" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="528.6425" y="205.74492" transform="rotate(-0 528.6425 205.74492)">+0.7</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_8">
+    <path d="M 397.550833 231.363225 
+L 547.660833 231.363225 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_53">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_54">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="233.44135" transform="rotate(-0 553.660833 233.44135)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_9">
+    <path d="M 397.550833 259.059655 
+L 547.660833 259.059655 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_55">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_56">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="261.13778" transform="rotate(-0 553.660833 261.13778)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_10">
+    <path d="M 347.514167 286.756085 
+L 497.624167 286.756085 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_57">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_58">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="288.83421" transform="rotate(-0 503.624167 288.83421)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_11">
+    <path d="M 397.550833 314.452515 
+L 547.660833 314.452515 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_59">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_60">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="316.53064" transform="rotate(-0 553.660833 316.53064)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_12">
+    <path d="M 372.5325 342.148945 
+L 522.6425 342.148945 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_61">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="372.5325" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_62">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="522.6425" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="528.6425" y="344.22707" transform="rotate(-0 528.6425 344.22707)">+0.7</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_13">
+    <path d="M 397.550833 369.845375 
+L 547.660833 369.845375 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_63">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_64">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="371.9235" transform="rotate(-0 553.660833 371.9235)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_14">
+    <path d="M 397.550833 397.541805 
+L 547.660833 397.541805 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_65">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_66">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="547.660833" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="553.660833" y="399.61993" transform="rotate(-0 553.660833 399.61993)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_15">
+    <path d="M 347.514167 425.238235 
+L 497.624167 425.238235 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_67">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_68">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="427.31636" transform="rotate(-0 503.624167 427.31636)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_16">
+    <path d="M 422.569167 452.934665 
+L 572.679167 452.934665 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_69">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="422.569167" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_70">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="572.679167" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="578.679167" y="455.01279" transform="rotate(-0 578.679167 455.01279)">+1.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_17">
+    <path d="M 372.5325 480.631095 
+L 572.679167 480.631095 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_71">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="372.5325" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_72">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="572.679167" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="578.679167" y="482.70922" transform="rotate(-0 578.679167 482.70922)">+1</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_18">
+    <path d="M 322.495833 508.327525 
+L 472.605833 508.327525 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_73">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="322.495833" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_74">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="472.605833" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="478.605833" y="510.40565" transform="rotate(-0 478.605833 510.40565)">0</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_19">
+    <path d="M 347.514167 536.023956 
+L 497.624167 536.023956 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_75">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_76">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="538.102081" transform="rotate(-0 503.624167 538.102081)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_20">
+    <path d="M 322.495833 563.720386 
+L 472.605833 563.720386 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_77">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="322.495833" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_78">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="472.605833" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="478.605833" y="565.798511" transform="rotate(-0 478.605833 565.798511)">0</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_21">
+    <path d="M 347.514167 591.416816 
+L 497.624167 591.416816 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_79">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_80">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="593.494941" transform="rotate(-0 503.624167 593.494941)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_22">
+    <path d="M 347.514167 619.113246 
+L 497.624167 619.113246 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_81">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="347.514167" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_82">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="497.624167" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.624167" y="621.191371" transform="rotate(-0 503.624167 621.191371)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-LineCollection_23">
+    <path d="M 397.550833 646.809676 
+L 597.6975 646.809676 
+" clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_83">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="397.550833" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-line2d_84">
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-mc2ee98718a" x="597.6975" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="603.6975" y="648.887801" transform="rotate(-0 603.6975 648.887801)">+1.3</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-text_55">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">dvpwa: TP against baseline</text>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip0" class="tip"><title>addyosmani-security-auditor: Δ TP +1 [0, 2] (n=3)</title>
     <defs>
      <path id="delta-vs-baseline-dvpwa-m929ecfca2a" d="M 0 3.872983 
 C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
@@ -365,60 +699,125 @@ C -2.012324 3.464901 -1.027127 3.872983 0 3.872983
 z
 " style="stroke: #3987e5"/>
     </defs>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="321.094083" y="38.642895" style="fill: #3987e5; stroke: #3987e5"/>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip1" class="tip"><title>ecc-security-review: Δ TP +0.7 [-0.3, 1.7] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="346.55125" y="68.648684" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip1" class="tip"><title>agamm-owasp-security: Δ TP +1.7 [0.7, 2.7] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="522.6425" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip2" class="tip"><title>every-ce-security-reviewer: Δ TP +1 [0, 2] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="372.008417" y="98.654473" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip2" class="tip"><title>anthropic-security-auditor: Δ TP +2 [1, 3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="547.660833" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip3" class="tip"><title>neolab-security-auditor: Δ TP +1 [0, 2] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="372.008417" y="128.660262" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip3" class="tip"><title>cf-security-audit: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip4" class="tip"><title>openai-security-best-practices: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="321.094083" y="158.666051" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip4" class="tip"><title>claude-security-flat: Δ TP -0.7 [-1.7, 0.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="347.514167" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip5" class="tip"><title>samber-golang-security: Δ TP +1.3 [0.3, 2.3] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="397.465583" y="188.67184" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip5" class="tip"><title>claude-security-researcher: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip6" class="tip"><title>sentry-code-review: Δ TP 0 [-1, 1] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="295.636917" y="218.677629" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip6" class="tip"><title>ecc-security-review: Δ TP +0.7 [-0.3, 1.7] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="447.5875" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip7" class="tip"><title>sentry-security-review: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="321.094083" y="248.683418" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip7" class="tip"><title>evandervecht-security-audit: Δ TP +1 [0, 2] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip8" class="tip"><title>tob-differential-review: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="321.094083" y="278.689207" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip8" class="tip"><title>every-ce-security-reviewer: Δ TP +1 [0, 2] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-dvpwa-tip9" class="tip"><title>tob-sharp-edges: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
-    <g clip-path="url(#delta-vs-baseline-dvpwa-p2332c9c78a)">
-     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="321.094083" y="308.694996" style="fill: #3987e5; stroke: #3987e5"/>
+   <g id="delta-vs-baseline-dvpwa-tip9" class="tip"><title>gemini-security-analyze-full: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip10" class="tip"><title>github-copilot-se-security-reviewer: Δ TP +1 [0, 2] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip11" class="tip"><title>github-copilot-security-review: Δ TP +0.7 [-0.3, 1.7] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="447.5875" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip12" class="tip"><title>ivan-sincek-cwe-secure-code-review: Δ TP +1 [0, 2] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip13" class="tip"><title>neolab-security-auditor: Δ TP +1 [0, 2] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip14" class="tip"><title>openai-security-best-practices: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip15" class="tip"><title>samber-golang-security: Δ TP +1.3 [0.3, 2.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="497.624167" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip16" class="tip"><title>sari3l-security-code-audit: Δ TP +1 [-0.3, 2.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="472.605833" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip17" class="tip"><title>sentry-code-review: Δ TP 0 [-1, 1] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="397.550833" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip18" class="tip"><title>sentry-security-review: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip19" class="tip"><title>sentry-then-fp-check: Δ TP 0 [-1, 1] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="397.550833" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip20" class="tip"><title>tob-differential-review: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip21" class="tip"><title>tob-sharp-edges: Δ TP +0.3 [-0.7, 1.3] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="422.569167" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-dvpwa-tip22" class="tip"><title>unitone-secure-code-review: Δ TP +1.3 [0, 2.7] (n=3)</title>
+    <g clip-path="url(#delta-vs-baseline-dvpwa-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-dvpwa-m929ecfca2a" x="497.624167" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="delta-vs-baseline-dvpwa-p2332c9c78a">
-   <rect x="155.6225" y="23.64" width="381.8575" height="300.057891"/>
+  <clipPath id="delta-vs-baseline-dvpwa-p596bf33d8a">
+   <rect x="184.895" y="23.64" width="525.385" height="637.017891"/>
   </clipPath>
  </defs>
 </svg>

@@ -1,0 +1,787 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="695.52pt" viewBox="0 0 720 695.52" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of shared and unique problems per contender in warpgate-operator">
+ <title>Stacked bars of shared and unique problems per contender in warpgate-operator</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="agreement-warpgate-operator-figure_1">
+  <g id="agreement-warpgate-operator-patch_1">
+   <path d="M 0 695.52 
+L 720 695.52 
+L 720 0 
+L 0 0 
+L 0 695.52 
+z
+" style="fill: none"/>
+  </g>
+  <g id="agreement-warpgate-operator-axes_1">
+   <g id="agreement-warpgate-operator-patch_2">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+L 710.28 41.64 
+L 184.895 41.64 
+L 184.895 659.217891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="agreement-warpgate-operator-matplotlib.axis_1">
+    <g id="agreement-warpgate-operator-xtick_1">
+     <g id="agreement-warpgate-operator-line2d_1"/>
+     <g id="agreement-warpgate-operator-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="669.555781" transform="rotate(-0 184.895 669.555781)">0</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_2">
+     <g id="agreement-warpgate-operator-line2d_2"/>
+     <g id="agreement-warpgate-operator-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="264.498788" y="669.555781" transform="rotate(-0 264.498788 669.555781)">1</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_3">
+     <g id="agreement-warpgate-operator-line2d_3"/>
+     <g id="agreement-warpgate-operator-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="344.102576" y="669.555781" transform="rotate(-0 344.102576 669.555781)">2</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_4">
+     <g id="agreement-warpgate-operator-line2d_4"/>
+     <g id="agreement-warpgate-operator-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="423.706364" y="669.555781" transform="rotate(-0 423.706364 669.555781)">3</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_5">
+     <g id="agreement-warpgate-operator-line2d_5"/>
+     <g id="agreement-warpgate-operator-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="503.310152" y="669.555781" transform="rotate(-0 503.310152 669.555781)">4</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_6">
+     <g id="agreement-warpgate-operator-line2d_6"/>
+     <g id="agreement-warpgate-operator-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="582.913939" y="669.555781" transform="rotate(-0 582.913939 669.555781)">5</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-xtick_7">
+     <g id="agreement-warpgate-operator-line2d_7"/>
+     <g id="agreement-warpgate-operator-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="662.517727" y="669.555781" transform="rotate(-0 662.517727 669.555781)">6</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-text_8">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="682.556484" transform="rotate(-0 447.5875 682.556484)">distinct problems (finding clusters) reported in any ok bout</text>
+    </g>
+   </g>
+   <g id="agreement-warpgate-operator-matplotlib.axis_2">
+    <g id="agreement-warpgate-operator-ytick_1">
+     <g id="agreement-warpgate-operator-line2d_8"/>
+     <g id="agreement-warpgate-operator-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="57.925503" transform="rotate(-0 181.395 57.925503)">baseline</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_2">
+     <g id="agreement-warpgate-operator-line2d_9"/>
+     <g id="agreement-warpgate-operator-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="83.657915" transform="rotate(-0 181.395 83.657915)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_3">
+     <g id="agreement-warpgate-operator-line2d_10"/>
+     <g id="agreement-warpgate-operator-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="109.390327" transform="rotate(-0 181.395 109.390327)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_4">
+     <g id="agreement-warpgate-operator-line2d_11"/>
+     <g id="agreement-warpgate-operator-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="135.122739" transform="rotate(-0 181.395 135.122739)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_5">
+     <g id="agreement-warpgate-operator-line2d_12"/>
+     <g id="agreement-warpgate-operator-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="160.855151" transform="rotate(-0 181.395 160.855151)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_6">
+     <g id="agreement-warpgate-operator-line2d_13"/>
+     <g id="agreement-warpgate-operator-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="186.587563" transform="rotate(-0 181.395 186.587563)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_7">
+     <g id="agreement-warpgate-operator-line2d_14"/>
+     <g id="agreement-warpgate-operator-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.319976" transform="rotate(-0 181.395 212.319976)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_8">
+     <g id="agreement-warpgate-operator-line2d_15"/>
+     <g id="agreement-warpgate-operator-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="238.052388" transform="rotate(-0 181.395 238.052388)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_9">
+     <g id="agreement-warpgate-operator-line2d_16"/>
+     <g id="agreement-warpgate-operator-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="263.7848" transform="rotate(-0 181.395 263.7848)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_10">
+     <g id="agreement-warpgate-operator-line2d_17"/>
+     <g id="agreement-warpgate-operator-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="289.517212" transform="rotate(-0 181.395 289.517212)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_11">
+     <g id="agreement-warpgate-operator-line2d_18"/>
+     <g id="agreement-warpgate-operator-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.249624" transform="rotate(-0 181.395 315.249624)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_12">
+     <g id="agreement-warpgate-operator-line2d_19"/>
+     <g id="agreement-warpgate-operator-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="340.982036" transform="rotate(-0 181.395 340.982036)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_13">
+     <g id="agreement-warpgate-operator-line2d_20"/>
+     <g id="agreement-warpgate-operator-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="366.714448" transform="rotate(-0 181.395 366.714448)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_14">
+     <g id="agreement-warpgate-operator-line2d_21"/>
+     <g id="agreement-warpgate-operator-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="392.44686" transform="rotate(-0 181.395 392.44686)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_15">
+     <g id="agreement-warpgate-operator-line2d_22"/>
+     <g id="agreement-warpgate-operator-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="418.179272" transform="rotate(-0 181.395 418.179272)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_16">
+     <g id="agreement-warpgate-operator-line2d_23"/>
+     <g id="agreement-warpgate-operator-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="443.911685" transform="rotate(-0 181.395 443.911685)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_17">
+     <g id="agreement-warpgate-operator-line2d_24"/>
+     <g id="agreement-warpgate-operator-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="469.644097" transform="rotate(-0 181.395 469.644097)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_18">
+     <g id="agreement-warpgate-operator-line2d_25"/>
+     <g id="agreement-warpgate-operator-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="495.376509" transform="rotate(-0 181.395 495.376509)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_19">
+     <g id="agreement-warpgate-operator-line2d_26"/>
+     <g id="agreement-warpgate-operator-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="521.108921" transform="rotate(-0 181.395 521.108921)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_20">
+     <g id="agreement-warpgate-operator-line2d_27"/>
+     <g id="agreement-warpgate-operator-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="546.841333" transform="rotate(-0 181.395 546.841333)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_21">
+     <g id="agreement-warpgate-operator-line2d_28"/>
+     <g id="agreement-warpgate-operator-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.573745" transform="rotate(-0 181.395 572.573745)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_22">
+     <g id="agreement-warpgate-operator-line2d_29"/>
+     <g id="agreement-warpgate-operator-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="598.306157" transform="rotate(-0 181.395 598.306157)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_23">
+     <g id="agreement-warpgate-operator-line2d_30"/>
+     <g id="agreement-warpgate-operator-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="624.038569" transform="rotate(-0 181.395 624.038569)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="agreement-warpgate-operator-ytick_24">
+     <g id="agreement-warpgate-operator-line2d_31"/>
+     <g id="agreement-warpgate-operator-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="649.770981" transform="rotate(-0 181.395 649.770981)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="agreement-warpgate-operator-tip0" class="tip"><title>baseline: 1 problem found by every contender</title>
+    <path d="M 184.895 47.429793 
+L 262.588297 47.429793 
+L 262.588297 61.582619 
+L 184.895 61.582619 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip1" class="tip"><title>baseline: 5 problems by some others too</title>
+    <path d="M 264.498788 47.429793 
+L 660.607236 47.429793 
+L 660.607236 61.582619 
+L 264.498788 61.582619 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip2" class="tip"><title>addyosmani-security-auditor: 1 problem found by every contender</title>
+    <path d="M 184.895 73.162205 
+L 262.588297 73.162205 
+L 262.588297 87.315031 
+L 184.895 87.315031 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip3" class="tip"><title>addyosmani-security-auditor: 5 problems by some others too</title>
+    <path d="M 264.498788 73.162205 
+L 660.607236 73.162205 
+L 660.607236 87.315031 
+L 264.498788 87.315031 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip4" class="tip"><title>agamm-owasp-security: 1 problem found by every contender</title>
+    <path d="M 184.895 98.894617 
+L 262.588297 98.894617 
+L 262.588297 113.047444 
+L 184.895 113.047444 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip5" class="tip"><title>agamm-owasp-security: 5 problems by some others too</title>
+    <path d="M 264.498788 98.894617 
+L 660.607236 98.894617 
+L 660.607236 113.047444 
+L 264.498788 113.047444 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip6" class="tip"><title>anthropic-security-auditor: 1 problem found by every contender</title>
+    <path d="M 184.895 124.627029 
+L 262.588297 124.627029 
+L 262.588297 138.779856 
+L 184.895 138.779856 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip7" class="tip"><title>anthropic-security-auditor: 5 problems by some others too</title>
+    <path d="M 264.498788 124.627029 
+L 660.607236 124.627029 
+L 660.607236 138.779856 
+L 264.498788 138.779856 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip8" class="tip"><title>cf-security-audit: 1 problem found by every contender</title>
+    <path d="M 184.895 150.359441 
+L 262.588297 150.359441 
+L 262.588297 164.512268 
+L 184.895 164.512268 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip9" class="tip"><title>cf-security-audit: 5 problems by some others too</title>
+    <path d="M 264.498788 150.359441 
+L 660.607236 150.359441 
+L 660.607236 164.512268 
+L 264.498788 164.512268 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip10" class="tip"><title>claude-security-flat: 1 problem found by every contender</title>
+    <path d="M 184.895 176.091853 
+L 262.588297 176.091853 
+L 262.588297 190.24468 
+L 184.895 190.24468 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip11" class="tip"><title>claude-security-flat: 2 problems by some others too</title>
+    <path d="M 264.498788 176.091853 
+L 421.795873 176.091853 
+L 421.795873 190.24468 
+L 264.498788 190.24468 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip12" class="tip"><title>claude-security-researcher: 1 problem found by every contender</title>
+    <path d="M 184.895 201.824265 
+L 262.588297 201.824265 
+L 262.588297 215.977092 
+L 184.895 215.977092 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip13" class="tip"><title>claude-security-researcher: 2 problems by some others too</title>
+    <path d="M 264.498788 201.824265 
+L 421.795873 201.824265 
+L 421.795873 215.977092 
+L 264.498788 215.977092 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip14" class="tip"><title>ecc-security-review: 1 problem found by every contender</title>
+    <path d="M 184.895 227.556677 
+L 262.588297 227.556677 
+L 262.588297 241.709504 
+L 184.895 241.709504 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip15" class="tip"><title>ecc-security-review: 4 problems by some others too</title>
+    <path d="M 264.498788 227.556677 
+L 581.003448 227.556677 
+L 581.003448 241.709504 
+L 264.498788 241.709504 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip16" class="tip"><title>ecc-security-review: 1 problem only this contender
+- warpgatepasswordcredential_controller.go:157 CWE-672: Password credential is never re-synced after the source Secret rotates</title>
+    <path d="M 582.913939 227.556677 
+L 660.607236 227.556677 
+L 660.607236 241.709504 
+L 582.913939 241.709504 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip17" class="tip"><title>evandervecht-security-audit: 1 problem found by every contender</title>
+    <path d="M 184.895 253.28909 
+L 262.588297 253.28909 
+L 262.588297 267.441916 
+L 184.895 267.441916 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip18" class="tip"><title>evandervecht-security-audit: 5 problems by some others too</title>
+    <path d="M 264.498788 253.28909 
+L 660.607236 253.28909 
+L 660.607236 267.441916 
+L 264.498788 267.441916 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip19" class="tip"><title>every-ce-security-reviewer: 1 problem found by every contender</title>
+    <path d="M 184.895 279.021502 
+L 262.588297 279.021502 
+L 262.588297 293.174328 
+L 184.895 293.174328 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip20" class="tip"><title>every-ce-security-reviewer: 3 problems by some others too</title>
+    <path d="M 264.498788 279.021502 
+L 501.399661 279.021502 
+L 501.399661 293.174328 
+L 264.498788 293.174328 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip21" class="tip"><title>gemini-security-analyze-full: 1 problem found by every contender</title>
+    <path d="M 184.895 304.753914 
+L 262.588297 304.753914 
+L 262.588297 318.90674 
+L 184.895 318.90674 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip22" class="tip"><title>gemini-security-analyze-full: 3 problems by some others too</title>
+    <path d="M 264.498788 304.753914 
+L 501.399661 304.753914 
+L 501.399661 318.90674 
+L 264.498788 318.90674 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip23" class="tip"><title>gemini-security-analyze-full: 1 problem only this contender
+- warpgateinstance_controller.go:344 CWE-74: YAML config injection via spec.databaseURL / spec.externalHost in generated warpgate.yaml</title>
+    <path d="M 503.310152 304.753914 
+L 581.003448 304.753914 
+L 581.003448 318.90674 
+L 503.310152 318.90674 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip24" class="tip"><title>github-copilot-se-security-reviewer: 1 problem found by every contender</title>
+    <path d="M 184.895 330.486326 
+L 262.588297 330.486326 
+L 262.588297 344.639153 
+L 184.895 344.639153 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip25" class="tip"><title>github-copilot-se-security-reviewer: 4 problems by some others too</title>
+    <path d="M 264.498788 330.486326 
+L 581.003448 330.486326 
+L 581.003448 344.639153 
+L 264.498788 344.639153 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip26" class="tip"><title>github-copilot-security-review: 1 problem found by every contender</title>
+    <path d="M 184.895 356.218738 
+L 262.588297 356.218738 
+L 262.588297 370.371565 
+L 184.895 370.371565 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip27" class="tip"><title>github-copilot-security-review: 4 problems by some others too</title>
+    <path d="M 264.498788 356.218738 
+L 581.003448 356.218738 
+L 581.003448 370.371565 
+L 264.498788 370.371565 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip28" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1 problem found by every contender</title>
+    <path d="M 184.895 381.95115 
+L 262.588297 381.95115 
+L 262.588297 396.103977 
+L 184.895 396.103977 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip29" class="tip"><title>ivan-sincek-cwe-secure-code-review: 4 problems by some others too</title>
+    <path d="M 264.498788 381.95115 
+L 581.003448 381.95115 
+L 581.003448 396.103977 
+L 264.498788 396.103977 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip30" class="tip"><title>ivan-sincek-cwe-secure-code-review: 1 problem only this contender
+- warpgateinstance_controller.go:379 CWE-20: Config/YAML injection via spec.externalHost and spec.databaseURL into generated warpgate.yaml</title>
+    <path d="M 582.913939 381.95115 
+L 660.607236 381.95115 
+L 660.607236 396.103977 
+L 582.913939 396.103977 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip31" class="tip"><title>neolab-security-auditor: 1 problem found by every contender</title>
+    <path d="M 184.895 407.683562 
+L 262.588297 407.683562 
+L 262.588297 421.836389 
+L 184.895 421.836389 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip32" class="tip"><title>neolab-security-auditor: 4 problems by some others too</title>
+    <path d="M 264.498788 407.683562 
+L 581.003448 407.683562 
+L 581.003448 421.836389 
+L 264.498788 421.836389 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip33" class="tip"><title>openai-security-best-practices: 1 problem found by every contender</title>
+    <path d="M 184.895 433.415974 
+L 262.588297 433.415974 
+L 262.588297 447.568801 
+L 184.895 447.568801 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip34" class="tip"><title>openai-security-best-practices: 5 problems by some others too</title>
+    <path d="M 264.498788 433.415974 
+L 660.607236 433.415974 
+L 660.607236 447.568801 
+L 264.498788 447.568801 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip35" class="tip"><title>samber-golang-security: 1 problem found by every contender</title>
+    <path d="M 184.895 459.148386 
+L 262.588297 459.148386 
+L 262.588297 473.301213 
+L 184.895 473.301213 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip36" class="tip"><title>samber-golang-security: 4 problems by some others too</title>
+    <path d="M 264.498788 459.148386 
+L 581.003448 459.148386 
+L 581.003448 473.301213 
+L 264.498788 473.301213 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip37" class="tip"><title>sari3l-security-code-audit: 1 problem found by every contender</title>
+    <path d="M 184.895 484.880799 
+L 262.588297 484.880799 
+L 262.588297 499.033625 
+L 184.895 499.033625 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip38" class="tip"><title>sari3l-security-code-audit: 5 problems by some others too</title>
+    <path d="M 264.498788 484.880799 
+L 660.607236 484.880799 
+L 660.607236 499.033625 
+L 264.498788 499.033625 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip39" class="tip"><title>sentry-code-review: 1 problem found by every contender</title>
+    <path d="M 184.895 510.613211 
+L 262.588297 510.613211 
+L 262.588297 524.766037 
+L 184.895 524.766037 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip40" class="tip"><title>sentry-code-review: 3 problems by some others too</title>
+    <path d="M 264.498788 510.613211 
+L 501.399661 510.613211 
+L 501.399661 524.766037 
+L 264.498788 524.766037 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip41" class="tip"><title>sentry-code-review: 1 problem only this contender
+- internal/warpgate/target.go:206 CWE-88: Unencoded CR-controlled search value concatenated into Warpgate API request URL</title>
+    <path d="M 503.310152 510.613211 
+L 581.003448 510.613211 
+L 581.003448 524.766037 
+L 503.310152 524.766037 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip42" class="tip"><title>sentry-security-review: 1 problem found by every contender</title>
+    <path d="M 184.895 536.345623 
+L 262.588297 536.345623 
+L 262.588297 550.498449 
+L 184.895 550.498449 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip43" class="tip"><title>sentry-security-review: 4 problems by some others too</title>
+    <path d="M 264.498788 536.345623 
+L 581.003448 536.345623 
+L 581.003448 550.498449 
+L 264.498788 550.498449 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip44" class="tip"><title>sentry-then-fp-check: 1 problem found by every contender</title>
+    <path d="M 184.895 562.078035 
+L 262.588297 562.078035 
+L 262.588297 576.230862 
+L 184.895 576.230862 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip45" class="tip"><title>sentry-then-fp-check: 1 problem by some others too</title>
+    <path d="M 264.498788 562.078035 
+L 342.192085 562.078035 
+L 342.192085 576.230862 
+L 264.498788 576.230862 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip46" class="tip"><title>tob-differential-review: 1 problem found by every contender</title>
+    <path d="M 184.895 587.810447 
+L 262.588297 587.810447 
+L 262.588297 601.963274 
+L 184.895 601.963274 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip47" class="tip"><title>tob-differential-review: 4 problems by some others too</title>
+    <path d="M 264.498788 587.810447 
+L 581.003448 587.810447 
+L 581.003448 601.963274 
+L 264.498788 601.963274 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip48" class="tip"><title>tob-sharp-edges: 1 problem found by every contender</title>
+    <path d="M 184.895 613.542859 
+L 262.588297 613.542859 
+L 262.588297 627.695686 
+L 184.895 627.695686 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip49" class="tip"><title>tob-sharp-edges: 3 problems by some others too</title>
+    <path d="M 264.498788 613.542859 
+L 501.399661 613.542859 
+L 501.399661 627.695686 
+L 264.498788 627.695686 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip50" class="tip"><title>tob-sharp-edges: 1 problem only this contender
+- warpgatetarget_controller.go:382 CWE-295: Target TLS certificate verification silently disabled when a partial tls block is set</title>
+    <path d="M 503.310152 613.542859 
+L 581.003448 613.542859 
+L 581.003448 627.695686 
+L 503.310152 627.695686 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip51" class="tip"><title>unitone-secure-code-review: 1 problem found by every contender</title>
+    <path d="M 184.895 639.275271 
+L 262.588297 639.275271 
+L 262.588297 653.428098 
+L 184.895 653.428098 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip52" class="tip"><title>unitone-secure-code-review: 4 problems by some others too</title>
+    <path d="M 264.498788 639.275271 
+L 581.003448 639.275271 
+L 581.003448 653.428098 
+L 264.498788 653.428098 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-warpgate-operator-tip53" class="tip"><title>unitone-secure-code-review: 1 problem only this contender
+- warpgateinstance_controller.go:379 CWE-94: warpgate.yaml config injection via unescaped spec.externalHost and spec.databaseURL</title>
+    <path d="M 582.913939 639.275271 
+L 660.607236 639.275271 
+L 660.607236 653.428098 
+L 582.913939 653.428098 
+z
+" clip-path="url(#agreement-warpgate-operator-p041b6f56c5)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-warpgate-operator-patch_3">
+    <path d="M 184.895 659.217891 
+L 184.895 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="agreement-warpgate-operator-patch_4">
+    <path d="M 184.895 659.217891 
+L 710.28 659.217891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="agreement-warpgate-operator-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="56.584331" transform="rotate(-0 667.517727 56.584331)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="82.316743" transform="rotate(-0 667.517727 82.316743)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="108.049155" transform="rotate(-0 667.517727 108.049155)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="133.781567" transform="rotate(-0 667.517727 133.781567)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="159.513979" transform="rotate(-0 667.517727 159.513979)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="428.706364" y="185.246392" transform="rotate(-0 428.706364 185.246392)">3</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="428.706364" y="210.978804" transform="rotate(-0 428.706364 210.978804)">3</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="236.711216" transform="rotate(-0 667.517727 236.711216)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="262.443628" transform="rotate(-0 667.517727 262.443628)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="508.310152" y="288.17604" transform="rotate(-0 508.310152 288.17604)">4</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="313.908452" transform="rotate(-0 587.913939 313.908452)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="339.640864" transform="rotate(-0 587.913939 339.640864)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="365.373276" transform="rotate(-0 587.913939 365.373276)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="391.105688" transform="rotate(-0 667.517727 391.105688)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="416.838101" transform="rotate(-0 587.913939 416.838101)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="442.570513" transform="rotate(-0 667.517727 442.570513)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="468.302925" transform="rotate(-0 587.913939 468.302925)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="494.035337" transform="rotate(-0 667.517727 494.035337)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="519.767749" transform="rotate(-0 587.913939 519.767749)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="545.500161" transform="rotate(-0 587.913939 545.500161)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="349.102576" y="571.232573" transform="rotate(-0 349.102576 571.232573)">2</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="596.964985" transform="rotate(-0 587.913939 596.964985)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_55">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.913939" y="622.697397" transform="rotate(-0 587.913939 622.697397)">5</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="667.517727" y="648.42981" transform="rotate(-0 667.517727 648.42981)">6</text>
+   </g>
+   <g id="agreement-warpgate-operator-text_57">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">warpgate-operator: shared vs unique findings</text>
+   </g>
+   <g id="agreement-warpgate-operator-legend_1">
+    <g id="agreement-warpgate-operator-patch_5">
+     <path d="M 189.695 35.758125 
+L 197.695 35.758125 
+L 197.695 28.598125 
+L 189.695 28.598125 
+z
+" style="fill: #898781; stroke: #898781; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-warpgate-operator-text_58">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.095" y="34.918125" transform="rotate(-0 204.095 34.918125)">found by every contender</text>
+    </g>
+    <g id="agreement-warpgate-operator-patch_6">
+     <path d="M 323.8525 35.758125 
+L 331.8525 35.758125 
+L 331.8525 28.598125 
+L 323.8525 28.598125 
+z
+" style="fill: #3987e5; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-warpgate-operator-text_59">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="338.2525" y="34.918125" transform="rotate(-0 338.2525 34.918125)">by some others too</text>
+    </g>
+    <g id="agreement-warpgate-operator-patch_7">
+     <path d="M 431.8775 35.758125 
+L 439.8775 35.758125 
+L 439.8775 28.598125 
+L 431.8775 28.598125 
+z
+" style="fill: #d95926; stroke: #d95926; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-warpgate-operator-text_60">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="446.2775" y="34.918125" transform="rotate(-0 446.2775 34.918125)">only this contender</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="agreement-warpgate-operator-p041b6f56c5">
+   <rect x="184.895" y="41.64" width="525.385" height="617.577891"/>
+  </clipPath>
+ </defs>
+</svg>

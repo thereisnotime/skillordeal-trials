@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="547.2pt" height="400.32pt" viewBox="0 0 547.2 400.32" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by final verdict in warpgate-operator">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="737.28pt" viewBox="0 0 720 737.28" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by final verdict in warpgate-operator">
  <title>Stacked bars of findings per contender by final verdict in warpgate-operator</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
  <g id="findings-breakdown-warpgate-operator-figure_1">
   <g id="findings-breakdown-warpgate-operator-patch_1">
-   <path d="M 0 400.32 
-L 547.2 400.32 
-L 547.2 0 
+   <path d="M 0 737.28 
+L 720 737.28 
+L 720 0 
 L 0 0 
-L 0 400.32 
+L 0 737.28 
 z
 " style="fill: none"/>
   </g>
   <g id="findings-breakdown-warpgate-operator-axes_1">
    <g id="findings-breakdown-warpgate-operator-patch_2">
-    <path d="M 155.6225 364.017891 
-L 537.48 364.017891 
-L 537.48 26.121875 
-L 155.6225 26.121875 
-L 155.6225 364.017891 
+    <path d="M 184.895 700.977891 
+L 710.28 700.977891 
+L 710.28 26.121875 
+L 184.895 26.121875 
+L 184.895 700.977891 
 z
 " style="fill: none"/>
    </g>
@@ -30,289 +30,537 @@ z
     <g id="findings-breakdown-warpgate-operator-xtick_1">
      <g id="findings-breakdown-warpgate-operator-line2d_1"/>
      <g id="findings-breakdown-warpgate-operator-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="155.6225" y="374.355781" transform="rotate(-0 155.6225 374.355781)">0.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="711.315781" transform="rotate(-0 184.895 711.315781)">0.0</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_2">
      <g id="findings-breakdown-warpgate-operator-line2d_2"/>
      <g id="findings-breakdown-warpgate-operator-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="202.11489" y="374.355781" transform="rotate(-0 202.11489 374.355781)">0.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="248.86233" y="711.315781" transform="rotate(-0 248.86233 711.315781)">0.5</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_3">
      <g id="findings-breakdown-warpgate-operator-line2d_3"/>
      <g id="findings-breakdown-warpgate-operator-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="248.607281" y="374.355781" transform="rotate(-0 248.607281 374.355781)">1.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="312.829659" y="711.315781" transform="rotate(-0 312.829659 711.315781)">1.0</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_4">
      <g id="findings-breakdown-warpgate-operator-line2d_4"/>
      <g id="findings-breakdown-warpgate-operator-text_4">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="295.099671" y="374.355781" transform="rotate(-0 295.099671 374.355781)">1.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="376.796989" y="711.315781" transform="rotate(-0 376.796989 711.315781)">1.5</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_5">
      <g id="findings-breakdown-warpgate-operator-line2d_5"/>
      <g id="findings-breakdown-warpgate-operator-text_5">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="341.592062" y="374.355781" transform="rotate(-0 341.592062 374.355781)">2.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="440.764318" y="711.315781" transform="rotate(-0 440.764318 711.315781)">2.0</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_6">
      <g id="findings-breakdown-warpgate-operator-line2d_6"/>
      <g id="findings-breakdown-warpgate-operator-text_6">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="388.084452" y="374.355781" transform="rotate(-0 388.084452 374.355781)">2.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="504.731648" y="711.315781" transform="rotate(-0 504.731648 711.315781)">2.5</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_7">
      <g id="findings-breakdown-warpgate-operator-line2d_7"/>
      <g id="findings-breakdown-warpgate-operator-text_7">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="434.576843" y="374.355781" transform="rotate(-0 434.576843 374.355781)">3.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="568.698977" y="711.315781" transform="rotate(-0 568.698977 711.315781)">3.0</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_8">
      <g id="findings-breakdown-warpgate-operator-line2d_8"/>
      <g id="findings-breakdown-warpgate-operator-text_8">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="481.069233" y="374.355781" transform="rotate(-0 481.069233 374.355781)">3.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="632.666307" y="711.315781" transform="rotate(-0 632.666307 711.315781)">3.5</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-xtick_9">
      <g id="findings-breakdown-warpgate-operator-line2d_9"/>
      <g id="findings-breakdown-warpgate-operator-text_9">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="527.561623" y="374.355781" transform="rotate(-0 527.561623 374.355781)">4.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="696.633636" y="711.315781" transform="rotate(-0 696.633636 711.315781)">4.0</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-text_10">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="346.55125" y="387.356484" transform="rotate(-0 346.55125 387.356484)">mean findings per ok bout, split by final verdict</text>
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="724.316484" transform="rotate(-0 447.5875 724.316484)">mean findings per ok bout, split by final verdict</text>
     </g>
    </g>
    <g id="findings-breakdown-warpgate-operator-matplotlib.axis_2">
     <g id="findings-breakdown-warpgate-operator-ytick_1">
      <g id="findings-breakdown-warpgate-operator-line2d_10"/>
      <g id="findings-breakdown-warpgate-operator-text_11">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="44.900082" transform="rotate(-0 152.1225 44.900082)">baseline</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="43.600672" transform="rotate(-0 181.395 43.600672)">baseline</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_2">
      <g id="findings-breakdown-warpgate-operator-line2d_11"/>
      <g id="findings-breakdown-warpgate-operator-text_12">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="75.617901" transform="rotate(-0 152.1225 75.617901)">cf-security-audit</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="71.719673" transform="rotate(-0 181.395 71.719673)">addyosmani-security-auditor</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_3">
      <g id="findings-breakdown-warpgate-operator-line2d_12"/>
      <g id="findings-breakdown-warpgate-operator-text_13">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="106.335721" transform="rotate(-0 152.1225 106.335721)">ecc-security-review</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="99.838674" transform="rotate(-0 181.395 99.838674)">agamm-owasp-security</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_4">
      <g id="findings-breakdown-warpgate-operator-line2d_13"/>
      <g id="findings-breakdown-warpgate-operator-text_14">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="137.05354" transform="rotate(-0 152.1225 137.05354)">every-ce-security-reviewer</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="127.957674" transform="rotate(-0 181.395 127.957674)">anthropic-security-auditor</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_5">
      <g id="findings-breakdown-warpgate-operator-line2d_14"/>
      <g id="findings-breakdown-warpgate-operator-text_15">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="167.77136" transform="rotate(-0 152.1225 167.77136)">neolab-security-auditor</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="156.076675" transform="rotate(-0 181.395 156.076675)">cf-security-audit</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_6">
      <g id="findings-breakdown-warpgate-operator-line2d_15"/>
      <g id="findings-breakdown-warpgate-operator-text_16">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="198.48918" transform="rotate(-0 152.1225 198.48918)">openai-security-best-practices</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="184.195675" transform="rotate(-0 181.395 184.195675)">claude-security-flat</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_7">
      <g id="findings-breakdown-warpgate-operator-line2d_16"/>
      <g id="findings-breakdown-warpgate-operator-text_17">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="229.206999" transform="rotate(-0 152.1225 229.206999)">samber-golang-security</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.314676" transform="rotate(-0 181.395 212.314676)">claude-security-researcher</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_8">
      <g id="findings-breakdown-warpgate-operator-line2d_17"/>
      <g id="findings-breakdown-warpgate-operator-text_18">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="259.924819" transform="rotate(-0 152.1225 259.924819)">sentry-code-review</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="240.433677" transform="rotate(-0 181.395 240.433677)">ecc-security-review</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_9">
      <g id="findings-breakdown-warpgate-operator-line2d_18"/>
      <g id="findings-breakdown-warpgate-operator-text_19">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="290.642638" transform="rotate(-0 152.1225 290.642638)">sentry-security-review</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.552677" transform="rotate(-0 181.395 268.552677)">evandervecht-security-audit</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_10">
      <g id="findings-breakdown-warpgate-operator-line2d_19"/>
      <g id="findings-breakdown-warpgate-operator-text_20">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="321.360458" transform="rotate(-0 152.1225 321.360458)">tob-differential-review</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="296.671678" transform="rotate(-0 181.395 296.671678)">every-ce-security-reviewer</text>
      </g>
     </g>
     <g id="findings-breakdown-warpgate-operator-ytick_11">
      <g id="findings-breakdown-warpgate-operator-line2d_20"/>
      <g id="findings-breakdown-warpgate-operator-text_21">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="152.1225" y="352.078278" transform="rotate(-0 152.1225 352.078278)">tob-sharp-edges</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="324.790679" transform="rotate(-0 181.395 324.790679)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_12">
+     <g id="findings-breakdown-warpgate-operator-line2d_21"/>
+     <g id="findings-breakdown-warpgate-operator-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="352.909679" transform="rotate(-0 181.395 352.909679)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_13">
+     <g id="findings-breakdown-warpgate-operator-line2d_22"/>
+     <g id="findings-breakdown-warpgate-operator-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="381.02868" transform="rotate(-0 181.395 381.02868)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_14">
+     <g id="findings-breakdown-warpgate-operator-line2d_23"/>
+     <g id="findings-breakdown-warpgate-operator-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="409.147681" transform="rotate(-0 181.395 409.147681)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_15">
+     <g id="findings-breakdown-warpgate-operator-line2d_24"/>
+     <g id="findings-breakdown-warpgate-operator-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="437.266681" transform="rotate(-0 181.395 437.266681)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_16">
+     <g id="findings-breakdown-warpgate-operator-line2d_25"/>
+     <g id="findings-breakdown-warpgate-operator-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="465.385682" transform="rotate(-0 181.395 465.385682)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_17">
+     <g id="findings-breakdown-warpgate-operator-line2d_26"/>
+     <g id="findings-breakdown-warpgate-operator-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="493.504683" transform="rotate(-0 181.395 493.504683)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_18">
+     <g id="findings-breakdown-warpgate-operator-line2d_27"/>
+     <g id="findings-breakdown-warpgate-operator-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="521.623683" transform="rotate(-0 181.395 521.623683)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_19">
+     <g id="findings-breakdown-warpgate-operator-line2d_28"/>
+     <g id="findings-breakdown-warpgate-operator-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.742684" transform="rotate(-0 181.395 549.742684)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_20">
+     <g id="findings-breakdown-warpgate-operator-line2d_29"/>
+     <g id="findings-breakdown-warpgate-operator-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="577.861685" transform="rotate(-0 181.395 577.861685)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_21">
+     <g id="findings-breakdown-warpgate-operator-line2d_30"/>
+     <g id="findings-breakdown-warpgate-operator-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="605.980685" transform="rotate(-0 181.395 605.980685)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_22">
+     <g id="findings-breakdown-warpgate-operator-line2d_31"/>
+     <g id="findings-breakdown-warpgate-operator-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="634.099686" transform="rotate(-0 181.395 634.099686)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_23">
+     <g id="findings-breakdown-warpgate-operator-line2d_32"/>
+     <g id="findings-breakdown-warpgate-operator-text_33">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="662.218687" transform="rotate(-0 181.395 662.218687)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-ytick_24">
+     <g id="findings-breakdown-warpgate-operator-line2d_33"/>
+     <g id="findings-breakdown-warpgate-operator-text_34">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="690.337687" transform="rotate(-0 181.395 690.337687)">unitone-secure-code-review</text>
      </g>
     </g>
    </g>
    <g id="findings-breakdown-warpgate-operator-patch_3">
-    <path d="M 155.6225 29.193657 
-L 155.6225 29.193657 
-L 155.6225 53.767913 
-L 155.6225 53.767913 
+    <path d="M 184.895 28.933775 
+L 184.895 28.933775 
+L 184.895 51.428976 
+L 184.895 51.428976 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip0" class="tip"><title>baseline: tp 3 per bout (n=3)</title>
-    <path d="M 155.6225 33.033384 
-L 433.213066 33.033384 
-L 433.213066 49.928185 
-L 155.6225 49.928185 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip1" class="tip"><title>cf-security-audit: tp 3 per bout (n=3)</title>
-    <path d="M 155.6225 63.751204 
-L 433.213066 63.751204 
-L 433.213066 80.646005 
-L 155.6225 80.646005 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip2" class="tip"><title>ecc-security-review: tp 3.7 per bout (n=3)</title>
-    <path d="M 155.6225 94.469024 
-L 495.20292 94.469024 
-L 495.20292 111.363824 
-L 155.6225 111.363824 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip3" class="tip"><title>every-ce-security-reviewer: tp 2.3 per bout (n=3)</title>
-    <path d="M 155.6225 125.186843 
-L 371.223212 125.186843 
-L 371.223212 142.081644 
-L 155.6225 142.081644 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip4" class="tip"><title>neolab-security-auditor: tp 3 per bout (n=3)</title>
-    <path d="M 155.6225 155.904663 
-L 433.213066 155.904663 
-L 433.213066 172.799464 
-L 155.6225 172.799464 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip5" class="tip"><title>openai-security-best-practices: tp 3 per bout (n=3)</title>
-    <path d="M 155.6225 186.622482 
-L 433.213066 186.622482 
-L 433.213066 203.517283 
-L 155.6225 203.517283 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip6" class="tip"><title>samber-golang-security: tp 3.3 per bout (n=3)</title>
-    <path d="M 155.6225 217.340302 
-L 464.207993 217.340302 
-L 464.207993 234.235103 
-L 155.6225 234.235103 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip7" class="tip"><title>sentry-code-review: tp 2.7 per bout (n=3)</title>
-    <path d="M 155.6225 248.058122 
-L 402.218139 248.058122 
-L 402.218139 264.952922 
-L 155.6225 264.952922 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip8" class="tip"><title>sentry-security-review: tp 2.3 per bout (n=3)</title>
-    <path d="M 155.6225 278.775941 
-L 371.223212 278.775941 
-L 371.223212 295.670742 
-L 155.6225 295.670742 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip9" class="tip"><title>tob-differential-review: tp 2.3 per bout (n=3)</title>
-    <path d="M 155.6225 309.493761 
-L 371.223212 309.493761 
-L 371.223212 326.388562 
-L 155.6225 326.388562 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
-   </g>
-   <g id="findings-breakdown-warpgate-operator-tip10" class="tip"><title>tob-sharp-edges: tp 3.3 per bout (n=3)</title>
-    <path d="M 155.6225 340.21158 
-L 464.207993 340.21158 
-L 464.207993 357.106381 
-L 155.6225 357.106381 
-z
-" clip-path="url(#findings-breakdown-warpgate-operator-p9e1cc78bf0)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
    </g>
    <g id="findings-breakdown-warpgate-operator-patch_4">
-    <path d="M 155.6225 364.017891 
-L 155.6225 26.121875 
-" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+    <path d="M 184.895 28.933775 
+L 184.895 28.933775 
+L 184.895 51.428976 
+L 184.895 51.428976 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip0" class="tip"><title>baseline: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 32.44865 
+L 566.822602 32.44865 
+L 566.822602 47.914101 
+L 184.895 47.914101 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip1" class="tip"><title>addyosmani-security-auditor: tp 3.7 per bout (n=3)</title>
+    <path d="M 184.895 60.567651 
+L 652.112375 60.567651 
+L 652.112375 76.033101 
+L 184.895 76.033101 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip2" class="tip"><title>agamm-owasp-security: tp 3.3 per bout (n=3)</title>
+    <path d="M 184.895 88.686651 
+L 609.467489 88.686651 
+L 609.467489 104.152102 
+L 184.895 104.152102 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip3" class="tip"><title>anthropic-security-auditor: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 116.805652 
+L 566.822602 116.805652 
+L 566.822602 132.271102 
+L 184.895 132.271102 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip4" class="tip"><title>cf-security-audit: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 144.924653 
+L 566.822602 144.924653 
+L 566.822602 160.390103 
+L 184.895 160.390103 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip5" class="tip"><title>claude-security-flat: tp 2.3 per bout (n=3)</title>
+    <path d="M 184.895 173.043653 
+L 481.53283 173.043653 
+L 481.53283 188.509104 
+L 184.895 188.509104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip6" class="tip"><title>claude-security-researcher: tp 1.7 per bout (n=3)</title>
+    <path d="M 184.895 201.162654 
+L 396.243057 201.162654 
+L 396.243057 216.628104 
+L 184.895 216.628104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip7" class="tip"><title>ecc-security-review: tp 3.7 per bout (n=3)</title>
+    <path d="M 184.895 229.281655 
+L 652.112375 229.281655 
+L 652.112375 244.747105 
+L 184.895 244.747105 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip8" class="tip"><title>evandervecht-security-audit: tp 3.7 per bout (n=3)</title>
+    <path d="M 184.895 257.400655 
+L 652.112375 257.400655 
+L 652.112375 272.866106 
+L 184.895 272.866106 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip9" class="tip"><title>every-ce-security-reviewer: tp 2.3 per bout (n=3)</title>
+    <path d="M 184.895 285.519656 
+L 481.53283 285.519656 
+L 481.53283 300.985106 
+L 184.895 300.985106 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip10" class="tip"><title>gemini-security-analyze-full: tp 2.7 per bout (n=3)</title>
+    <path d="M 184.895 313.638657 
+L 524.177716 313.638657 
+L 524.177716 329.104107 
+L 184.895 329.104107 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip11" class="tip"><title>gemini-security-analyze-full: fp 0.3 per bout (n=3)</title>
+    <path d="M 526.054091 313.638657 
+L 566.822602 313.638657 
+L 566.822602 329.104107 
+L 526.054091 329.104107 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip12" class="tip"><title>github-copilot-se-security-reviewer: tp 3.7 per bout (n=3)</title>
+    <path d="M 184.895 341.757657 
+L 652.112375 341.757657 
+L 652.112375 357.223108 
+L 184.895 357.223108 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip13" class="tip"><title>github-copilot-security-review: tp 2.7 per bout (n=3)</title>
+    <path d="M 184.895 369.876658 
+L 524.177716 369.876658 
+L 524.177716 385.342108 
+L 184.895 385.342108 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip14" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 3.7 per bout (n=3)</title>
+    <path d="M 184.895 397.995659 
+L 652.112375 397.995659 
+L 652.112375 413.461109 
+L 184.895 413.461109 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip15" class="tip"><title>neolab-security-auditor: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 426.114659 
+L 566.822602 426.114659 
+L 566.822602 441.58011 
+L 184.895 441.58011 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip16" class="tip"><title>openai-security-best-practices: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 454.23366 
+L 566.822602 454.23366 
+L 566.822602 469.69911 
+L 184.895 469.69911 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip17" class="tip"><title>samber-golang-security: tp 3.3 per bout (n=3)</title>
+    <path d="M 184.895 482.352661 
+L 609.467489 482.352661 
+L 609.467489 497.818111 
+L 184.895 497.818111 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip18" class="tip"><title>sari3l-security-code-audit: tp 3 per bout (n=3)</title>
+    <path d="M 184.895 510.471661 
+L 566.822602 510.471661 
+L 566.822602 525.937112 
+L 184.895 525.937112 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip19" class="tip"><title>sentry-code-review: tp 2.7 per bout (n=3)</title>
+    <path d="M 184.895 538.590662 
+L 524.177716 538.590662 
+L 524.177716 554.056112 
+L 184.895 554.056112 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip20" class="tip"><title>sentry-security-review: tp 2.3 per bout (n=3)</title>
+    <path d="M 184.895 566.709663 
+L 481.53283 566.709663 
+L 481.53283 582.175113 
+L 184.895 582.175113 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip21" class="tip"><title>sentry-then-fp-check: tp 1.3 per bout (n=3)</title>
+    <path d="M 184.895 594.828663 
+L 353.59817 594.828663 
+L 353.59817 610.294114 
+L 184.895 610.294114 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip22" class="tip"><title>tob-differential-review: tp 2.3 per bout (n=3)</title>
+    <path d="M 184.895 622.947664 
+L 481.53283 622.947664 
+L 481.53283 638.413114 
+L 184.895 638.413114 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip23" class="tip"><title>tob-sharp-edges: tp 3.3 per bout (n=3)</title>
+    <path d="M 184.895 651.066664 
+L 609.467489 651.066664 
+L 609.467489 666.532115 
+L 184.895 666.532115 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip24" class="tip"><title>unitone-secure-code-review: tp 3.3 per bout (n=3)</title>
+    <path d="M 184.895 679.185665 
+L 609.467489 679.185665 
+L 609.467489 694.651115 
+L 184.895 694.651115 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
    </g>
    <g id="findings-breakdown-warpgate-operator-patch_5">
-    <path d="M 155.6225 364.017891 
-L 537.48 364.017891 
+    <path d="M 184.895 700.977891 
+L 184.895 26.121875 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_22">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="43.55891" transform="rotate(-0 439.576843 43.55891)">3</text>
+   <g id="findings-breakdown-warpgate-operator-patch_6">
+    <path d="M 184.895 700.977891 
+L 710.28 700.977891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_23">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="74.276729" transform="rotate(-0 439.576843 74.276729)">3</text>
+   <g id="findings-breakdown-warpgate-operator-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="42.2595" transform="rotate(-0 573.698977 42.2595)">3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_24">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="501.566696" y="104.994549" transform="rotate(-0 501.566696 104.994549)">3.7</text>
+   <g id="findings-breakdown-warpgate-operator-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="70.378501" transform="rotate(-0 658.98875 70.378501)">3.7</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_25">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="377.586989" y="135.712369" transform="rotate(-0 377.586989 135.712369)">2.3</text>
+   <g id="findings-breakdown-warpgate-operator-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="616.343864" y="98.497502" transform="rotate(-0 616.343864 98.497502)">3.3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_26">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="166.430188" transform="rotate(-0 439.576843 166.430188)">3</text>
+   <g id="findings-breakdown-warpgate-operator-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="126.616502" transform="rotate(-0 573.698977 126.616502)">3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_27">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="439.576843" y="197.148008" transform="rotate(-0 439.576843 197.148008)">3</text>
+   <g id="findings-breakdown-warpgate-operator-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="154.735503" transform="rotate(-0 573.698977 154.735503)">3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_28">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="470.571769" y="227.865827" transform="rotate(-0 470.571769 227.865827)">3.3</text>
+   <g id="findings-breakdown-warpgate-operator-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.409205" y="182.854504" transform="rotate(-0 488.409205 182.854504)">2.3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_29">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="408.581916" y="258.583647" transform="rotate(-0 408.581916 258.583647)">2.7</text>
+   <g id="findings-breakdown-warpgate-operator-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="403.119432" y="210.973504" transform="rotate(-0 403.119432 210.973504)">1.7</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_30">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="377.586989" y="289.301467" transform="rotate(-0 377.586989 289.301467)">2.3</text>
+   <g id="findings-breakdown-warpgate-operator-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="239.092505" transform="rotate(-0 658.98875 239.092505)">3.7</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_31">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="377.586989" y="320.019286" transform="rotate(-0 377.586989 320.019286)">2.3</text>
+   <g id="findings-breakdown-warpgate-operator-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="267.211506" transform="rotate(-0 658.98875 267.211506)">3.7</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_32">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="470.571769" y="350.737106" transform="rotate(-0 470.571769 350.737106)">3.3</text>
+   <g id="findings-breakdown-warpgate-operator-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.409205" y="295.330506" transform="rotate(-0 488.409205 295.330506)">2.3</text>
    </g>
-   <g id="findings-breakdown-warpgate-operator-text_33">
-    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="155.6225" y="20.121875" transform="rotate(-0 155.6225 20.121875)">warpgate-operator: signal vs noise in findings</text>
+   <g id="findings-breakdown-warpgate-operator-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="323.449507" transform="rotate(-0 573.698977 323.449507)">3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="351.568507" transform="rotate(-0 658.98875 351.568507)">3.7</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="531.054091" y="379.687508" transform="rotate(-0 531.054091 379.687508)">2.7</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.98875" y="407.806509" transform="rotate(-0 658.98875 407.806509)">3.7</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="435.925509" transform="rotate(-0 573.698977 435.925509)">3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="464.04451" transform="rotate(-0 573.698977 464.04451)">3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="616.343864" y="492.163511" transform="rotate(-0 616.343864 492.163511)">3.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="573.698977" y="520.282511" transform="rotate(-0 573.698977 520.282511)">3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="531.054091" y="548.401512" transform="rotate(-0 531.054091 548.401512)">2.7</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.409205" y="576.520513" transform="rotate(-0 488.409205 576.520513)">2.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_55">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="360.474545" y="604.639513" transform="rotate(-0 360.474545 604.639513)">1.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.409205" y="632.758514" transform="rotate(-0 488.409205 632.758514)">2.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_57">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="616.343864" y="660.877515" transform="rotate(-0 616.343864 660.877515)">3.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_58">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="616.343864" y="688.996515" transform="rotate(-0 616.343864 688.996515)">3.3</text>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-text_59">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="20.121875" transform="rotate(-0 184.895 20.121875)">warpgate-operator: signal vs noise in findings</text>
    </g>
    <g id="findings-breakdown-warpgate-operator-legend_1">
-    <g id="findings-breakdown-warpgate-operator-patch_6">
-     <path d="M 510.065 20.24 
-L 518.065 20.24 
-L 518.065 13.08 
-L 510.065 13.08 
+    <g id="findings-breakdown-warpgate-operator-patch_7">
+     <path d="M 644.57 20.24 
+L 652.57 20.24 
+L 652.57 13.08 
+L 644.57 13.08 
 z
 " style="fill: #3987e5"/>
     </g>
-    <g id="findings-breakdown-warpgate-operator-text_34">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="524.465" y="19.4" transform="rotate(-0 524.465 19.4)">tp</text>
+    <g id="findings-breakdown-warpgate-operator-text_60">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="658.97" y="19.4" transform="rotate(-0 658.97 19.4)">tp</text>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-patch_8">
+     <path d="M 683.185 20.24 
+L 691.185 20.24 
+L 691.185 13.08 
+L 683.185 13.08 
+z
+" style="fill: #d95926"/>
+    </g>
+    <g id="findings-breakdown-warpgate-operator-text_61">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="697.585" y="19.4" transform="rotate(-0 697.585 19.4)">fp</text>
     </g>
    </g>
   </g>
  </g>
  <defs>
-  <clipPath id="findings-breakdown-warpgate-operator-p9e1cc78bf0">
-   <rect x="155.6225" y="26.121875" width="381.8575" height="337.896016"/>
+  <clipPath id="findings-breakdown-warpgate-operator-p4dc6d42c73">
+   <rect x="184.895" y="26.121875" width="525.385" height="674.856016"/>
   </clipPath>
  </defs>
 </svg>
