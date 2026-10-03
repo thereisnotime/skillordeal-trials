@@ -1,0 +1,169 @@
+{
+  "record_version": 1,
+  "bout_id": "b-dfe8c957b82b17ae",
+  "stage": 2,
+  "pipeline": "sentry-then-fp-check",
+  "contender": {
+    "id": "tob-fp-check",
+    "kind": "plugin",
+    "sha": "32e34f8173796e3566a51aee877dc96bc5191f64",
+    "tree_hash": "6597b2ad696eca24b1b9d3d0b09645c02fb7168398b9f5a03a26e360b996fa71",
+    "skill_name": "fp-check:fp-check",
+    "role": "verifier"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-opus-4-8",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob,Bash,Skill,Write,Edit",
+    "--allowedTools",
+    "Read,Grep,Glob,Skill,Bash(git log *),Bash(git show *),Bash(ls *),Bash(wc *),Write(//out/**),Edit(//out/**),Read(//out/**)",
+    "--max-budget-usd",
+    "5.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--add-dir",
+    "/out",
+    "--setting-sources",
+    "",
+    "--effort",
+    "high",
+    "--plugin-dir",
+    "/ctx/plugins/fp-check"
+  ],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  },
+  "exit_code": 0,
+  "oom_killed": false,
+  "container_wall_s": 148.11,
+  "init": {
+    "model": "claude-opus-4-8",
+    "skills": [
+      "doctor",
+      "fp-check:fp-check"
+    ],
+    "builtin_skills": [
+      "design",
+      "doctor"
+    ],
+    "mcp_servers": [],
+    "tools": [
+      "Bash",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Read",
+      "Skill",
+      "Write"
+    ],
+    "cli_version": "2.1.280"
+  },
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 146443,
+    "duration_api_ms": 146187,
+    "num_turns": 14,
+    "total_cost_usd": 0.613862,
+    "tokens": {
+      "input_tokens": 24,
+      "output_tokens": 10618,
+      "cache_read_tokens": 174572,
+      "cache_creation_tokens": 55806,
+      "total_tokens": 241020
+    },
+    "per_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 18,
+        "output_tokens": 10162,
+        "cache_read_tokens": 174572,
+        "cache_creation_tokens": 22902,
+        "cost_usd": 0.570446
+      },
+      "claude-haiku-4-5-20251001": {
+        "input_tokens": 6,
+        "output_tokens": 456,
+        "cache_read_tokens": 0,
+        "cache_creation_tokens": 32904,
+        "cost_usd": 0.043415999999999996
+      }
+    },
+    "permission_denials": 2,
+    "session_id": "7a9ef6ca-5bf7-418d-bc97-b9cecdd70e9d",
+    "terminal_reason": "completed",
+    "stop_reason": "end_turn"
+  },
+  "tool_calls": {
+    "Read": 8,
+    "Grep": 3,
+    "Write": 1
+  },
+  "skill_fired": true,
+  "first_turn_prompt_tokens": 13161,
+  "skills_invoked": [],
+  "events": 106,
+  "resources": {
+    "available": true,
+    "samples": 147,
+    "interval_s": 1.0,
+    "memory_peak_bytes": 156913664,
+    "rss_peak_kb": 244168,
+    "rss_mean_kb": 234314,
+    "threads_peak": 10,
+    "fds_peak": 20,
+    "pids_peak": 14,
+    "cpu_usage_s": 3.972013,
+    "cpu_user_s": 3.480534,
+    "cpu_system_s": 0.491478,
+    "cpu_throttled_s": 0.0,
+    "io_read_bytes": 1413120,
+    "io_write_bytes": 163840,
+    "by_comm": {
+      "claude": {
+        "rss_peak_kb": 242612,
+        "threads_peak": 9,
+        "fds_peak": 17,
+        "cpu_s": 3.74
+      },
+      "tini": {
+        "rss_peak_kb": 1556,
+        "threads_peak": 1,
+        "fds_peak": 3,
+        "cpu_s": 0.14
+      }
+    },
+    "note": "client harness only; totals are the last values seen before the scope exited"
+  },
+  "findings_count": 1,
+  "model": {
+    "requested": "claude-opus-4-8",
+    "effort": "high",
+    "used": [
+      "claude-haiku-4-5-20251001",
+      "claude-opus-4-8"
+    ]
+  },
+  "status": "ok",
+  "started_at": "2026-10-03T20:13:03+00:00",
+  "finished_at": "2026-10-03T20:15:43+00:00"
+}

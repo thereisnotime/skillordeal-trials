@@ -1,0 +1,103 @@
+{
+  "summary": "Reviewed the dvpwa aiohttp application (the `sqli` package): request handlers (views.py), DAO layer (dao/*.py), authentication/session utilities, middlewares, Jinja2 setup and context processors, routes, DB/redis services, forms, config and migrations. The app is an intentionally vulnerable teaching application and the code reflects that: an unauthenticated, trivially exploitable SQL injection, templates rendered with autoescaping disabled (stored XSS), CSRF protection commented out, session cookies without HttpOnly, and unsalted MD5 password hashing. Overall risk is critical.",
+  "coverage": [
+    "sqli/app.py",
+    "sqli/views.py",
+    "sqli/routes.py",
+    "sqli/middlewares.py",
+    "sqli/utils/auth.py",
+    "sqli/utils/jinja2.py",
+    "sqli/dao/student.py",
+    "sqli/dao/course.py",
+    "sqli/dao/review.py",
+    "sqli/dao/mark.py",
+    "sqli/dao/user.py",
+    "sqli/services/db.py",
+    "sqli/schema/forms.py",
+    "sqli/schema/config.py",
+    "sqli/templates/course.jinja2",
+    "config/dev.yaml",
+    "migrations",
+    "run.py"
+  ],
+  "findings": [
+    {
+      "title": "Unauthenticated SQL injection in Student.create via student name",
+      "category": "security",
+      "cwe": "CWE-89",
+      "severity": "critical",
+      "confidence": "high",
+      "file": "sqli/dao/student.py",
+      "line_start": 42,
+      "line_end": 45,
+      "description": "The `name` value is interpolated directly into the SQL text with Python `%` string formatting and then executed with no parameters, so an attacker fully controls the INSERT statement. The `students` view (sqli/views.py:54-57) calls `Student.create(conn, data['name'])` on any POST to `/students/` with no authentication, no CSRF (csrf_middleware is disabled), and no input validation. A request such as `name=x'); DROP TABLE marks;--` or a stacked/sub-query payload lets an unauthenticated remote attacker read or modify arbitrary data (e.g. exfiltrate the `users.pwd_hash` column) and break the single-quote context trivially.",
+      "evidence": "q = (\"INSERT INTO students (name) \" \"VALUES ('%(name)s')\" % {'name': name}) ; await cur.execute(q)  -- user input `name` comes from views.py:57 `await Student.create(conn, data['name'])` where `data = await request.post()` on unauthenticated POST /students/. Every other DAO method correctly uses parameterized `%s`/`%(key)s` placeholders; only this one string-formats.",
+      "recommendation": "Use a parameterized query exactly like the other DAO methods: `await cur.execute(\"INSERT INTO students (name) VALUES (%(name)s)\", {'name': name})`. Never build SQL with `%` or f-strings from request data."
+    },
+    {
+      "title": "Stored XSS: Jinja2 autoescaping disabled application-wide",
+      "category": "security",
+      "cwe": "CWE-79",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 33,
+      "line_end": 35,
+      "description": "Jinja2 is configured with `autoescape=False`, so all template variables are emitted as raw HTML. User-controlled data is rendered unescaped in several templates, e.g. `review.review_text`, `course.title`/`course.description`, and `student.name` in course.jinja2. The review endpoint (`/courses/{id}/review`) accepts POST with no authentication and stores `review_text` verbatim (views.py:111-131, Review.create). An attacker submits `<script>...</script>` as a review; it is stored and then served unescaped to every visitor of that course page, yielding stored XSS. Because session cookies are also not HttpOnly (see separate finding), the injected script can steal `AIOHTTP_SESSION` and hijack admin sessions.",
+      "evidence": "setup_jinja(app, loader=PackageLoader('sqli','templates'), context_processors=[...], autoescape=False) ; course.jinja2: `{{ review.review_text }}`, `{{ course.description }}`, `{{ student.name }}` rendered with no `|e` filter. review_text source: views.py:121 `review_text = data.get('review_text')` -> Review.create -> stored -> rendered.",
+      "recommendation": "Set `autoescape=True` (or use `select_autoescape(['html','xml','jinja2'])`) and only mark trusted content safe explicitly. Validate/escape user input on output."
+    },
+    {
+      "title": "CSRF protection disabled (csrf_middleware commented out)",
+      "category": "security",
+      "cwe": "CWE-352",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 23,
+      "line_end": 30,
+      "description": "A CSRF middleware exists (middlewares.csrf_middleware) and templates generate CSRF tokens, but the middleware is commented out of the application's middleware list, so no state-changing POST request is actually validated. Every POST handler (login at `/`, create student, create course, create review, submit marks/evaluate, logout) is therefore vulnerable to cross-site request forgery. An attacker can host a page that auto-submits a form to e.g. `/students/` or `/courses/{id}/review` and perform actions as any logged-in victim, or force logout. Combined with the SQLi in Student.create, CSRF makes that injection reachable even without the victim intending it.",
+      "evidence": "middlewares=[session_middleware, # csrf_middleware,  error_middleware] -- csrf_middleware is present in middlewares.py (lines 25-38, checks `_csrf_token`) but commented out here, so it never runs.",
+      "recommendation": "Re-enable csrf_middleware in the middleware chain and ensure all forms include the token; verify the token on every unsafe method."
+    },
+    {
+      "title": "Session cookie set without HttpOnly flag",
+      "category": "security",
+      "cwe": "CWE-1004",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/middlewares.py",
+      "line_start": 20,
+      "line_end": 20,
+      "description": "The Redis session storage is instantiated with `httponly=False`, so the session cookie is readable by client-side JavaScript. Given the stored/reflected XSS exposure (autoescape disabled), an attacker's injected script can read `document.cookie` and exfiltrate the session identifier, enabling full session hijacking (including the superadmin account). This directly amplifies the XSS finding from information leakage to account takeover.",
+      "evidence": "storage = RedisStorage(app['redis'], httponly=False)",
+      "recommendation": "Use the default `httponly=True` (and set `secure=True` for HTTPS deployments, plus a SameSite attribute) when constructing RedisStorage."
+    },
+    {
+      "title": "Passwords hashed with unsalted MD5",
+      "category": "security",
+      "cwe": "CWE-916",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/dao/user.py",
+      "line_start": 40,
+      "line_end": 41,
+      "description": "Password verification (and storage, per migrations which seed `md5('superadmin')` etc.) uses a single unsalted MD5 hash. MD5 is fast and unsalted, so any disclosure of the `users.pwd_hash` column \u2014 readily achievable via the unauthenticated SQL injection above \u2014 lets an attacker recover passwords instantly via rainbow tables or trivial brute force, and identical passwords produce identical hashes. The comparison is also not constant-time.",
+      "evidence": "return self.pwd_hash == md5(password.encode('utf-8')).hexdigest() ; migrations seed users with `md5('superadmin')`, `md5('password')`.",
+      "recommendation": "Use a slow, salted password hashing algorithm (bcrypt, scrypt, or Argon2) via a vetted library (e.g. passlib), and compare with the library's verify (constant-time) function."
+    },
+    {
+      "title": "Application runs with debug mode enabled",
+      "category": "security",
+      "cwe": "CWE-489",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "sqli/app.py",
+      "line_start": 23,
+      "line_end": 24,
+      "description": "The aiohttp Application is created with `debug=True`, which enables verbose diagnostics and more detailed error behavior. If deployed as-is, this can surface internal details (tracebacks, stack information) that aid an attacker, and should never be on in production. Impact is limited because custom error pages are configured, hence low severity.",
+      "evidence": "app = Application(debug=True, middlewares=[...])",
+      "recommendation": "Drive debug from configuration and default it to False; enable only in local development."
+    }
+  ]
+}

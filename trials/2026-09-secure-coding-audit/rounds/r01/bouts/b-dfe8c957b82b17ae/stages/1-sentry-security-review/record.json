@@ -1,0 +1,168 @@
+{
+  "record_version": 1,
+  "bout_id": "b-dfe8c957b82b17ae",
+  "stage": 1,
+  "pipeline": "sentry-then-fp-check",
+  "contender": {
+    "id": "sentry-security-review",
+    "kind": "skill",
+    "sha": "c2f99a5b04b4cd992ec3022d7c2c3e23e938d241",
+    "tree_hash": "fc95137024d9afb8640bf4e21433d71a58d5f2b45f13ec7fa80e96f1f1931933",
+    "skill_name": "ordeal:security-review",
+    "role": "finder"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-opus-4-8",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob,Bash,Skill,Write,Edit",
+    "--allowedTools",
+    "Read,Grep,Glob,Skill,Bash(git log *),Bash(git show *),Bash(ls *),Bash(wc *),Write(//out/**),Edit(//out/**),Read(//out/**)",
+    "--max-budget-usd",
+    "5.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--add-dir",
+    "/out",
+    "--setting-sources",
+    "",
+    "--effort",
+    "high",
+    "--plugin-dir",
+    "/ctx/plugins/ordeal"
+  ],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  },
+  "exit_code": 0,
+  "oom_killed": false,
+  "container_wall_s": 154.831,
+  "init": {
+    "model": "claude-opus-4-8",
+    "skills": [
+      "doctor",
+      "ordeal:security-review"
+    ],
+    "builtin_skills": [
+      "design",
+      "doctor"
+    ],
+    "mcp_servers": [],
+    "tools": [
+      "Bash",
+      "Edit",
+      "Glob",
+      "Grep",
+      "Read",
+      "Skill",
+      "Write"
+    ],
+    "cli_version": "2.1.280"
+  },
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 153430,
+    "duration_api_ms": 152869,
+    "num_turns": 24,
+    "total_cost_usd": 1.5298635,
+    "tokens": {
+      "input_tokens": 48,
+      "output_tokens": 9898,
+      "cache_read_tokens": 1048707,
+      "cache_creation_tokens": 75782,
+      "total_tokens": 1134435
+    },
+    "per_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 48,
+        "output_tokens": 9898,
+        "cache_read_tokens": 1048707,
+        "cache_creation_tokens": 75782,
+        "cost_usd": 1.5298635
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "9c3905c2-3164-489d-8612-f1e5069f5d37",
+    "terminal_reason": "completed",
+    "stop_reason": "end_turn"
+  },
+  "tool_calls": {
+    "Bash": 2,
+    "Read": 15,
+    "Grep": 5,
+    "Write": 1
+  },
+  "skill_fired": true,
+  "first_turn_prompt_tokens": 13779,
+  "skills_invoked": [],
+  "events": 168,
+  "resources": {
+    "available": true,
+    "samples": 154,
+    "interval_s": 1.0,
+    "memory_peak_bytes": 161595392,
+    "rss_peak_kb": 253224,
+    "rss_mean_kb": 236486,
+    "threads_peak": 11,
+    "fds_peak": 26,
+    "pids_peak": 16,
+    "cpu_usage_s": 4.851585,
+    "cpu_user_s": 4.314435,
+    "cpu_system_s": 0.53715,
+    "cpu_throttled_s": 0.0,
+    "io_read_bytes": 0,
+    "io_write_bytes": 151552,
+    "by_comm": {
+      "bash": {
+        "rss_peak_kb": 3084,
+        "threads_peak": 1,
+        "fds_peak": 4,
+        "cpu_s": 0.0
+      },
+      "claude": {
+        "rss_peak_kb": 251748,
+        "threads_peak": 9,
+        "fds_peak": 19,
+        "cpu_s": 4.62
+      },
+      "tini": {
+        "rss_peak_kb": 1476,
+        "threads_peak": 1,
+        "fds_peak": 3,
+        "cpu_s": 0.07
+      }
+    },
+    "note": "client harness only; totals are the last values seen before the scope exited"
+  },
+  "findings_count": 1,
+  "model": {
+    "requested": "claude-opus-4-8",
+    "effort": "high",
+    "used": [
+      "claude-opus-4-8"
+    ]
+  },
+  "status": "ok",
+  "started_at": "2026-10-03T20:10:17+00:00",
+  "finished_at": "2026-10-03T20:13:03+00:00"
+}

@@ -1,0 +1,91 @@
+{
+  "summary": "Reviewed the dvpwa aiohttp application end to end: routes, views, DAO layer, auth utilities, middlewares, Jinja2 setup/templates, config and service wiring. The app is intentionally vulnerable and the review confirmed several reachable flaws in real code: an unauthenticated SQL injection in the student-creation path, stored/reflected XSS from globally disabled template autoescaping, unsalted MD5 password hashing, disabled CSRF protection, and session cookies readable by JavaScript. Overall risk is critical (remote, unauthenticated DB compromise). Coverage is the full Python package and templates/config; static JS libraries and migration schema were only skimmed.",
+  "coverage": [
+    "sqli/app.py",
+    "sqli/views.py",
+    "sqli/routes.py",
+    "sqli/middlewares.py",
+    "sqli/dao/student.py",
+    "sqli/dao/user.py",
+    "sqli/dao/course.py",
+    "sqli/dao/review.py",
+    "sqli/dao/mark.py",
+    "sqli/utils/auth.py",
+    "sqli/utils/jinja2.py",
+    "sqli/schema/forms.py",
+    "sqli/schema/config.py",
+    "sqli/services/db.py",
+    "sqli/services/redis.py",
+    "sqli/templates/base.jinja2",
+    "sqli/templates/course.jinja2",
+    "config/dev.yaml",
+    "migrations/001-fixtures.sql"
+  ],
+  "findings": [
+    {
+      "title": "Unauthenticated SQL injection in Student.create",
+      "category": "security",
+      "cwe": "CWE-89",
+      "severity": "critical",
+      "confidence": "high",
+      "file": "sqli/dao/student.py",
+      "line_start": 42,
+      "line_end": 43,
+      "description": "Student.create builds its INSERT by Python %-formatting the attacker-controlled name directly into the SQL string instead of passing it as a bound parameter. It is reached from the students view (sqli/views.py:54-57) on POST /students/, which requires no authentication and passes request.post()['name'] straight through. An attacker can inject arbitrary SQL, e.g. name = x'); DROP TABLE marks; -- or a sub-query to exfiltrate users.pwd_hash, achieving full database read/write. This is the primary vulnerability of the app; all other DAO methods correctly use bound parameters.",
+      "evidence": "q = (\"INSERT INTO students (name) \" \"VALUES ('%(name)s')\" % {'name': name}) then cur.execute(q). Source: views.students -> Student.create(conn, data['name']) with data = await request.post() on unauthenticated POST /students/.",
+      "recommendation": "Use a parameterized query: cur.execute(\"INSERT INTO students (name) VALUES (%(name)s)\", {'name': name}). Never interpolate user input into the SQL text."
+    },
+    {
+      "title": "Stored/reflected XSS via globally disabled Jinja2 autoescaping",
+      "category": "security",
+      "cwe": "CWE-79",
+      "severity": "high",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 33,
+      "line_end": 35,
+      "description": "aiohttp_jinja2 is configured with autoescape=False, so no template output is HTML-escaped. User-controlled values are rendered verbatim, producing stored XSS. The clearest sink is course review text: an unauthenticated POST /courses/{id}/review (views.review:119-129) stores review_text, which is then rendered unescaped in sqli/templates/course.jinja2:22 ({{ review.review_text }}). Other unescaped sinks fed by user input include course.title/description (course.jinja2:14-15) and student.name (course.jinja2:49). Because session cookies are also non-HttpOnly (see separate finding), injected script can steal the session and hijack the admin account.",
+      "evidence": "setup_jinja(app, loader=..., context_processors=[...], autoescape=False). Sink: templates/course.jinja2 line 22 `{{ review.review_text }}`; source: views.review POST data.get('review_text') -> Review.create -> course_reviews, re-rendered on GET /courses/{id}.",
+      "recommendation": "Set autoescape=True (the Jinja2 default) and use |safe explicitly only where trusted HTML is intended. Validate/escape user-supplied fields at output."
+    },
+    {
+      "title": "Unsalted MD5 password hashing in User.check_password",
+      "category": "security",
+      "cwe": "CWE-916",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/dao/user.py",
+      "line_start": 40,
+      "line_end": 41,
+      "description": "Passwords are hashed with a single unsalted MD5 (check_password compares pwd_hash to md5(password).hexdigest(); fixtures store md5('...') the same way). MD5 is fast and unsalted, so any disclosure of the users table (readily achievable via the SQL injection above) lets an attacker crack passwords near-instantly with rainbow tables/GPU brute force, including the superadmin account.",
+      "evidence": "return self.pwd_hash == md5(password.encode('utf-8')).hexdigest(); migrations/001-fixtures.sql stores md5('superadmin') etc.",
+      "recommendation": "Use a slow, salted password hash such as bcrypt/scrypt/argon2 (e.g. passlib), and compare with a constant-time verifier."
+    },
+    {
+      "title": "CSRF protection disabled for all state-changing POST routes",
+      "category": "security",
+      "cwe": "CWE-352",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/app.py",
+      "line_start": 27,
+      "line_end": 27,
+      "description": "The csrf_middleware (defined in sqli/middlewares.py:25-38) is commented out of the middleware chain, so no POST handler enforces the CSRF token. Although templates emit a _csrf_token hidden field and csrf_processor generates it, nothing validates it. All state-changing endpoints (create student, create course, create review, evaluate student, login, logout) accept cross-site forged requests. An attacker can, for example, force an authenticated admin to submit evaluations or inject review content (which combines with the XSS finding).",
+      "evidence": "middlewares=[session_middleware, # csrf_middleware, error_middleware]; csrf_middleware in middlewares.py validates token but is never registered.",
+      "recommendation": "Re-enable csrf_middleware in the middleware list and ensure every POST form includes and validates the token."
+    },
+    {
+      "title": "Session cookie set with HttpOnly disabled",
+      "category": "security",
+      "cwe": "CWE-1004",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "sqli/middlewares.py",
+      "line_start": 20,
+      "line_end": 20,
+      "description": "The RedisStorage session is created with httponly=False, so the session cookie is accessible to client-side JavaScript. Combined with the stored XSS (autoescape disabled), an attacker's injected script can read document.cookie and exfiltrate the session identifier to hijack accounts, including the admin. There is also no secure flag, exposing the cookie over plaintext transport.",
+      "evidence": "storage = RedisStorage(app['redis'], httponly=False)",
+      "recommendation": "Use httponly=True (the default) and set secure=True for the session storage; keep JavaScript from accessing the session cookie."
+    }
+  ]
+}

