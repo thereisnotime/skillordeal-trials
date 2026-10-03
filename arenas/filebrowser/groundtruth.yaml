@@ -1,0 +1,215 @@
+# Ground truth for filebrowser. Contract: skillordeal docs/data-contracts.md ("Ground truth").
+#
+# Every issue is a published GitHub Security Advisory against filebrowser/filebrowser whose
+# affected range includes v2.63.5 and whose fix landed after it. Locations were taken from
+# the fix diffs and checked by hand against the source at `sha` (line numbers are for this
+# sha, not for the versions quoted in the advisories).
+#
+# complete: false. Known real issues that are deliberately NOT listed, because they have
+# no code fix (documented or disabled-by-default features) or are platform-specific:
+#   - GHSA-xqp3-jq6g-x3qm proxy auth trusts the configured header (auth/proxy.go 21-28)
+#   - GHSA-8c9q-7855-wfxq / GHSA-jvpw-637p-h3pw command runner and hook shell injection
+#     (runner/, feature off by default since 2.33.8)
+#   - GHSA-v7vv-5wj2-gfcj JWTs survive a password change
+#   - GHSA-6759-996p-gpj6 self-signup users get the default (root) scope; fix was a warning
+#   - GHSA-fgm5-pw99-w2p7 rule bypass via case variants / "\" on case-insensitive or Windows FS
+#   - GHSA-w5fm-68j4-fpc4 unbounded login body (DoS only)
+# Findings on those score `unknown` and are left to the judge and human labels.
+#
+# http/resource.go carries three issues close together (checksum 70-80, share cleanup 103,
+# recursive delete 114-116). They share CWE-863/CWE-285, so a finding that spans 100-116 can
+# be tied to either of the last two; human labels override.
+arena: filebrowser
+sha: a1e442ef9e4a14719184bf02c50dbc981ecf8665
+complete: false
+window: 5
+issues:
+  - id: fb-hook-auth-cmd-injection
+    title: Pre-auth command/argument injection via os.Expand of login credentials in hook auth
+    category: security
+    cwe: [CWE-78, CWE-77, CWE-88, CWE-306]
+    severity: critical
+    locations:
+      - file: auth/hook.go
+        lines: [88, 109]
+    source: cve
+    notes: >-
+      CVE-2026-54088 / GHSA-m93h-4hw7-5qcm (published 2026-06-03), fixed in 34ae34e7 (v2.63.6).
+      With auth.method=hook, HookAuth.RunCommand substitutes $USERNAME/$PASSWORD from the
+      unauthenticated POST /api/login body into the admin's command arguments with os.Expand,
+      so a crafted username or password injects into the hook (shell) command before login.
+
+  - id: fb-public-share-rule-rebase
+    title: Public directory shares bypass owner's deny rules after the filesystem is rebased
+    category: security
+    cwe: [CWE-863, CWE-285, CWE-284, CWE-639]
+    severity: high
+    locations:
+      - file: http/public.go
+        lines: [56, 77]
+      - file: http/data.go
+        lines: [29, 48]
+    source: cve
+    notes: >-
+      CVE-2026-54091 / GHSA-j9jx-hp4c-ghhh (published 2026-06-06), fixed in e07c59df (v2.63.6).
+      withHashFile re-roots d.user.Fs at the shared directory, then d.Check matches rules
+      against the share-relative path, so an anonymous visitor of /api/public/share/<hash>/...
+      or /api/public/dl/... reads descendants the owner's rules deny.
+
+  - id: fb-share-delete-prefix-cross-user
+    title: Deleting a file removes other users' share links via unscoped path-prefix match
+    category: security
+    cwe: [CWE-639, CWE-863, CWE-285, CWE-284, CWE-862]
+    severity: high
+    locations:
+      - file: http/resource.go
+        lines: [103, 103]
+      - file: storage/bolt/share.go
+        lines: [79, 90]
+    source: cve
+    notes: >-
+      CVE-2026-54097 / GHSA-5ww9-jg6q-38r7 (published 2026-06-03), fixed in 0231b7eb (v2.63.6).
+      DELETE /api/resources/<path> calls Share.DeleteWithPathPrefix(file.Path) with the
+      scope-relative path and no user filter, and the bolt backend deletes every link whose
+      Path starts with that string, so any user with delete rights wipes other users' shares.
+
+  - id: fb-archive-backslash-zipslip
+    title: Archive download emits backslash filenames verbatim (zip-slip on Windows extractors)
+    category: security
+    cwe: [CWE-22, CWE-23, CWE-29]
+    severity: medium
+    locations:
+      - file: http/raw.go
+        lines: [124, 135]
+    source: cve
+    notes: >-
+      CVE-2026-54093 / GHSA-gxjx-7m74-hcq8 (published 2026-06-06), fixed in 847d08bd (v2.63.6).
+      getFiles builds NameInArchive with filepath.ToSlash, a no-op for "\" on Linux. A user
+      uploads a file named ..\..\evil via %5C, and whoever downloads the folder as zip/tar and
+      extracts it on Windows writes outside the extraction directory.
+
+  - id: fb-symlink-scope-escape
+    title: Handlers follow symlinks out of the user's BasePathFs scope (read, write, share)
+    category: security
+    cwe: [CWE-59, CWE-61, CWE-22, CWE-23]
+    severity: high
+    locations:
+      - file: files/file.go
+        lines: [131, 151]
+      - file: http/resource.go
+        lines: [297, 310]
+      - file: users/users.go
+        lines: [93, 97]
+    source: cve
+    notes: >-
+      CVE-2026-54094 / GHSA-239w-m3h6-ch8v (published 2026-06-03), fixed in 847d08bd with
+      follow-ups 3471ec2c and 7c2c0a11 (v2.63.6 to v2.63.14). Scope is only afero.BasePathFs,
+      which is lexical; stat() and writeFile follow a symlink inside the scope to its target,
+      so GET /api/raw, POST /api/resources?override=true, TUS uploads and shares reach files
+      outside the user's (or a public share's) scope.
+
+  - id: fb-share-nonexistent-path
+    title: Share can be created for a path that does not exist yet (future-file exposure)
+    category: security
+    cwe: [CWE-862, CWE-863, CWE-284, CWE-285]
+    severity: high
+    locations:
+      - file: http/share.go
+        lines: [101, 110]
+      - file: http/share.go
+        lines: [156, 167]
+    source: cve
+    notes: >-
+      CVE-2026-54096 / GHSA-3q2p-72cj-682c (published 2026-06-04), fixed in 166583db and
+      ca019ae7 (v2.63.7). sharePostHandler stores a share.Link for r.URL.Path with no Stat
+      or scope check, so a public link pre-created for a not-yet-existing path silently
+      starts serving whatever file is later written there.
+
+  - id: fb-share-api-leaks-secrets
+    title: Share API returns bcrypt password hash and password-bypass token
+    category: security
+    cwe: [CWE-200, CWE-522, CWE-212]
+    severity: low
+    locations:
+      - file: share/share.go
+        lines: [15, 19]
+      - file: http/share.go
+        lines: [31, 57]
+      - file: http/share.go
+        lines: [59, 78]
+    source: cve
+    notes: >-
+      CVE-2026-62684 / GHSA-833g-cqhp-h72j (published 2026-07-04), fixed in ec130546 (v2.63.17).
+      share.Link tags PasswordHash and Token for JSON and the share handlers render it
+      as-is; an admin listing GET /api/shares gets every user's share password hash and the
+      token that skips the password on /api/public/dl.
+
+  - id: fb-signup-username-home-collision
+    title: Many-to-one username normalization lets a new signup land in another user's home dir
+    category: security
+    cwe: [CWE-647, CWE-706, CWE-41, CWE-863, CWE-284]
+    severity: high
+    locations:
+      - file: settings/dir.go
+        lines: [24, 30]
+      - file: settings/dir.go
+        lines: [42, 52]
+      - file: http/auth.go
+        lines: [186, 196]
+    source: cve
+    notes: >-
+      CVE-2026-62685 / GHSA-7rc3-g7h6-22m7 (published 2026-07-04), fixed in 883a36f0 (v2.63.17).
+      With Signup and CreateUserDir on, cleanUsername strips ".." and maps other characters
+      to "-", and signup never checks the derived scope is unused, so an anonymous user
+      registering "al..ice" gets the home directory of "alice".
+
+  - id: fb-checksum-download-bypass
+    title: ?checksum= on /api/resources hashes file content without Perm.Download
+    category: security
+    cwe: [CWE-863, CWE-862, CWE-285, CWE-200]
+    severity: medium
+    locations:
+      - file: http/resource.go
+        lines: [70, 80]
+    source: cve
+    notes: >-
+      CVE-2026-72834 / GHSA-7whw-q6gh-xr59 (published 2026-07-25), fixed in 6c69b5cd (v2.63.19).
+      Incomplete fix of CVE-2026-35606: the raw and X-Encoding branches check Perm.Download,
+      the checksum branch reads the whole file and returns md5/sha* digests to a user who
+      may not download it (content hash oracle).
+
+  - id: fb-recursive-ops-ignore-rules
+    title: Copy, rename and delete authorize only the root, then recurse past deny rules
+    category: security
+    cwe: [CWE-863, CWE-285, CWE-284, CWE-862]
+    severity: high
+    locations:
+      - file: http/resource.go
+        lines: [221, 223]
+      - file: http/resource.go
+        lines: [257, 259]
+      - file: http/resource.go
+        lines: [114, 116]
+    source: cve
+    notes: >-
+      CVE-2026-73612 / GHSA-77x8-73f4-5485 (published 2026-07-27), fixed in 72faf6dd (v2.63.22).
+      resourcePatchHandler checks d.Check(src) and d.Check(dst) only, and delete checks only
+      the target; fileutils.Copy/MoveFile and RemoveAll then walk the subtree unchecked, so a
+      user copies an allowed parent to read a denied child elsewhere, or deletes it.
+
+  - id: fb-provisioned-users-root-scope
+    title: Proxy- and hook-auth auto-provisioned users get the server root as scope
+    category: security
+    cwe: [CWE-284, CWE-863, CWE-266, CWE-269, CWE-1188]
+    severity: high
+    locations:
+      - file: auth/proxy.go
+        lines: [48, 58]
+      - file: auth/hook.go
+        lines: [159, 180]
+    source: cve
+    notes: >-
+      CVE-2026-72837 / GHSA-j7jh-37pf-mf8h (published 2026-07-27), fixed in 8ddd3d1d (v2.63.20).
+      Unlike signup, createUser/SaveUser pass the default scope "." to MakeUserDir, which
+      only derives a per-user home when the scope is empty, so with CreateUserDir on every
+      newly provisioned proxy/hook user is scoped to "/" and can read and change all users' files.

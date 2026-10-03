@@ -1,0 +1,23 @@
+# File Browser v2.63.5: a self-hosted web file manager in Go (net/http + gorilla/mux, BoltDB).
+id: filebrowser
+repo: https://github.com/filebrowser/filebrowser
+ref: a1e442ef9e4a14719184bf02c50dbc981ecf8665   # tag v2.63.5, 2026-05-21
+language: go
+strip:
+  - www/                    # mkdocs site; its deployment notes describe some of the issues
+  - branding/
+  - frontend/src/i18n/      # ~35 translation files
+  - frontend/public/img/
+  - frontend/pnpm-lock.yaml
+scope: []
+groundtruth: groundtruth.yaml
+budget_usd: 5
+notes: >-
+  Real, actively maintained app (Apache-2.0, ~10k lines of non-test Go plus a ~13k line
+  Vue frontend after stripping) pinned to the v2.63.5 release, which still had 11 server-side
+  vulnerabilities that were later fixed with published GHSAs/CVEs (June to July 2026):
+  pre-auth command injection, path traversal, symlink scope escape and several
+  authorization bugs around shares, rules and user provisioning. See README.md for the
+  list. Ground truth covers only those advisories (complete: false); other real issues
+  at this sha (e.g. the documented proxy-auth header trust, the opt-in command runner)
+  score as unknown.
