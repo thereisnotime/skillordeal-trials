@@ -20,6 +20,20 @@ contenders:
   - anthropic-security-review-cmd
   - every-ce-security-reviewer
   - neolab-security-auditor
+  # added 2026-10-03 (run as a fill-in of r01; see README)
+  - github-copilot-security-review
+  - github-copilot-se-security-reviewer
+  - anthropic-security-auditor
+  - claude-security-researcher
+  - claude-security-flat
+  - sentry-then-fp-check
+  - gemini-security-analyze-full
+  - sari3l-security-code-audit
+  - agamm-owasp-security
+  - unitone-secure-code-review
+  - evandervecht-security-audit
+  - ivan-sincek-cwe-secure-code-review
+  - addyosmani-security-auditor
 include_baseline: true
 arenas_dir: ../../arenas
 arenas: [dvpwa, warpgate-operator]

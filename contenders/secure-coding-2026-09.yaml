@@ -153,6 +153,124 @@ contenders:
     license: GPL-3.0
     notes: Subagent definition (~1.5k words) used as a prompt. Frames itself as a local-changes/PR reviewer.
 
+  # --- added 2026-10-03 from contenders/candidates-2026-09-24.yaml ------------------
+  - id: github-copilot-security-review
+    kind: skill
+    repo: https://github.com/github/awesome-copilot
+    ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+    subpath: skills/security-review
+    role: finder
+    license: MIT
+    notes: GitHub's official security-review skill (data flow, self-verification, severity).
+  - id: github-copilot-se-security-reviewer
+    kind: prompt
+    repo: https://github.com/github/awesome-copilot
+    ref: 1f5644080a525d26a2e24f61a7609fb9b261c21a
+    subpath: agents/se-security-reviewer.agent.md
+    role: finder
+    license: MIT
+    notes: GitHub's security reviewer agent (OWASP Top 10 + LLM Top 10), wrapped as a skill.
+  - id: anthropic-security-auditor
+    kind: prompt
+    repo: https://github.com/anthropics/claude-plugins-official
+    ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+    subpath: plugins/code-modernization/agents/security-auditor.md
+    role: finder
+    license: Apache-2.0
+    notes: Anthropic's adversarial full-codebase security auditor agent (code-modernization plugin).
+  - id: claude-security-researcher
+    kind: prompt
+    repo: https://github.com/anthropics/claude-plugins-official
+    ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+    subpath: plugins/claude-security/agents/scan-researcher.md
+    role: finder
+    license: Apache-2.0
+    notes: >-
+      The researcher agent of Anthropic's claude-security plugin, run on its own. The full
+      product is interactive (AskUserQuestion menu, Workflow scripts, Python helpers, hooks)
+      and can't run headless here, so this and claude-security-flat approximate its method.
+  - id: claude-security-verifier
+    kind: prompt
+    repo: https://github.com/anthropics/claude-plugins-official
+    ref: 6bfd4e0c6d3da6050984fa5ed8281d915fa7ed69
+    subpath: plugins/claude-security/agents/scan-verifier.md
+    role: verifier
+    license: Apache-2.0
+    notes: The claude-security verifier agent (tries to disprove each finding). Used only as a pipeline stage.
+  - id: claude-security-flat
+    kind: pipeline
+    stages: [claude-security-researcher, claude-security-verifier]
+    role: finder
+    license: Apache-2.0
+    notes: >-
+      Approximation of claude-security's scan: its researcher, then its verifier over all
+      findings in one pass (the product runs per component/lens with a 3-voter panel).
+  - id: sentry-then-fp-check
+    kind: pipeline
+    stages: [sentry-security-review, tob-fp-check]
+    role: finder
+    notes: Finder + independent verifier, the combination the research recommended.
+  - id: gemini-security-analyze-full
+    kind: prompt
+    repo: https://github.com/gemini-cli-extensions/security
+    ref: 2227f3cf7150972baac695b8233abc2186408538
+    subpath: commands/security/analyze-full.toml
+    role: finder
+    license: Apache-2.0
+    notes: >-
+      Gemini CLI's two-pass taint analysis (recon, then source-to-sink investigation).
+      Degraded here: its scratch files in .gemini_security/ can't be written (read-only arena)
+      and its find_line_numbers MCP tool doesn't exist, so it keeps its plan in context and
+      reads line numbers itself.
+  - id: sari3l-security-code-audit
+    kind: skill
+    repo: https://github.com/sari3l/security-code-audit-skill
+    ref: f1cf08acfe8f77486c228590b73d6c2a60ba5195
+    subpath: ""
+    role: finder
+    license: MIT
+    notes: Thorough evidence-based audit from a little-known author (3 stars), as a contrast to vendor skills.
+  - id: agamm-owasp-security
+    kind: skill
+    repo: https://github.com/agamm/claude-code-owasp
+    ref: bfaf257b2859986a6a84d2b7491e1fab2218cd53
+    subpath: .claude/skills/owasp-security
+    role: finder
+    license: MIT
+    notes: OWASP Top 10:2025 and ASVS 5.0.
+  - id: unitone-secure-code-review
+    kind: skill
+    repo: https://github.com/UnitOneAI/SecuritySkills
+    ref: 70bc259bb01abb3015ad2ad859ad5253cbf0bcab
+    subpath: skills/appsec/secure-code-review
+    role: finder
+    license: MIT
+    notes: OWASP and NIST grounded review; semgrep is optional and absent here.
+  - id: evandervecht-security-audit
+    kind: skill
+    repo: https://github.com/evandervecht/security-audit-skill
+    ref: 25a0916bc664bc2ced2b4557d6153ae79fcc05e9
+    subpath: skills/security-audit
+    role: finder
+    license: NOASSERTION (README says MIT / CC-BY-SA)
+    notes: CWE Top 25 plus CVSS v4 scoring; ships its own eval fixtures.
+  - id: ivan-sincek-cwe-secure-code-review
+    kind: skill
+    repo: https://github.com/ivan-sincek/secure-code-review-agent-skills
+    ref: 5f9b4e338a6bce0d09781341632ce57047c63d66
+    subpath: markdown/cwe-secure-code-review
+    role: finder
+    license: MIT
+    notes: Systematic walk through CWE-699 categories.
+  - id: addyosmani-security-auditor
+    kind: prompt
+    repo: https://github.com/addyosmani/agent-skills
+    ref: bcab6a1b8503100e8618c3b4e32cc78de43de769
+    subpath: agents/security-auditor.md
+    role: finder
+    license: MIT
+    notes: Persona-style security auditor from a very popular collection; a control for "short persona prompt".
+
 # --- not included ----------------------------------------------------------------
 # Excluded after review. Same shas as above unless noted.
 #
