@@ -20,7 +20,9 @@ jobs:
         env:
           ENGINE_READ_TOKEN: ${{ secrets.ENGINE_READ_TOKEN }}
         run: |
-          [[ -n "$ENGINE_READ_TOKEN" ]] && git config --global url."https://x-access-token:${ENGINE_READ_TOKEN}@github.com/".insteadOf "https://github.com/" || true
+          if [[ -n "$ENGINE_READ_TOKEN" ]]; then
+            git config --global url."https://x-access-token:${ENGINE_READ_TOKEN}@github.com/".insteadOf "https://github.com/"
+          fi
       - run: uv tool install "git+https://github.com/thereisnotime/skillordeal@v0.1.3"
       - name: validate trials
         run: |
