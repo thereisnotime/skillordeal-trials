@@ -20,8 +20,9 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 **[2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/), round r01:** 23 skills and pipelines plus a baseline, on 2 codebases, 3 runs each (150 bouts, Opus 4.8 at high effort).
 
 - No skill is a clear, reliable win over plain Opus 4.8 yet. On dvpwa the baseline finds 6 of 19 known vulnerabilities per run; the best skills find 7.7 to 8.
-- One lead reproduced in a same-day [control round](trials/2026-09-secure-coding-audit/README.md#control-round-r01-control-2026-10-04): `anthropic-security-auditor` found 8 known bugs in all 6 runs, +1.7 [1.2, 2.3] over the baseline, at the baseline's cost. On a harder codebase with 11 real CVEs it found none, like everyone else (that trial's results are still being judged).
+- One lead reproduced in a same-day [control round](trials/2026-09-secure-coding-audit/README.md#control-round-r01-control-2026-10-04): `anthropic-security-auditor` found 8 known bugs in all 6 runs, +1.7 [1.2, 2.3] over the baseline, at the baseline's cost. On a [real codebase with 11 published CVEs](trials/2026-10-filebrowser-cve-audit/) it found none.
 - The finder + verifier pipelines report far fewer findings on warpgate-operator. Whether they removed noise or real issues needs human labels.
+- On that real codebase no contender beats the baseline on CVEs found (best: 0.7 of 11 per run). Skills differ on noise instead: a threat-model-aware judge panel refuted none of the Sentry-based and fp-check findings and most of `agamm-owasp-security`'s and `samber-golang-security`'s.
 - One skill (`anthropic-security-review-cmd`) can't run a full-repo audit at all.
 
 Caveats and every number with its confidence interval are in the trial's [README](trials/2026-09-secure-coding-audit/README.md#tldr-result) and [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md).
@@ -31,7 +32,7 @@ Caveats and every number with its confidence interval are in the trial's [README
 | Trial | Question | Status | Results | Lock |
 |---|---|---|---|---|
 | [2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/) | Which openly available secure-code-review skills find more real vulnerabilities per dollar than a plain Claude Code baseline? | r01 done (150 bouts) | [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md) | [lock.yaml](trials/2026-09-secure-coding-audit/rounds/r01/lock.yaml) |
-| [2026-10-filebrowser-cve-audit](trials/2026-10-filebrowser-cve-audit/) | Confirmation on a real Go app with 11 published CVEs: do the leads and verifier pipelines beat the baseline? | locked, runs after the subscription limit resets | pending | [lock.yaml](trials/2026-10-filebrowser-cve-audit/rounds/r01/lock.yaml) |
+| [2026-10-filebrowser-cve-audit](trials/2026-10-filebrowser-cve-audit/) | Confirmation on a real Go app with 11 published CVEs: do the leads and verifier pipelines beat the baseline? | r01 done (33 bouts) | [RESULTS.md](trials/2026-10-filebrowser-cve-audit/rounds/r01/RESULTS.md) | [lock.yaml](trials/2026-10-filebrowser-cve-audit/rounds/r01/lock.yaml) |
 
 `just trials` prints the same list from the files on disk; `just` alone shows every command.
 

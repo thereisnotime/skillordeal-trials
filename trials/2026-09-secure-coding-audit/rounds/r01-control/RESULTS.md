@@ -14,7 +14,7 @@
 | reps, invocation | 3, forced |
 | bouts | 12 ok of 150; $6.11 spent (client-side estimate) |
 | scores from | `scores/summary.parquet` |
-| generated | 2026-10-04 03:07 UTC |
+| generated | 2026-10-04 05:48 UTC |
 
 Cells show the mean over ok bouts with a 95% bootstrap CI in brackets (2000 resamples, seed 20260923); no interval means n < 2. **n** is ok bouts over all bouts in the cell. Cost and resource numbers are per bout. Resource numbers describe the client harness, not model-side compute.
 
