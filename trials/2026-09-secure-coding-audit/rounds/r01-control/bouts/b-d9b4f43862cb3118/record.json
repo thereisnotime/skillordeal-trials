@@ -2,7 +2,7 @@
   "record_version": 1,
   "bout_id": "b-d9b4f43862cb3118",
   "trial": "2026-09-secure-coding-audit",
-  "lock_hash": "c40c0eeec3ebcc058ba2bb0826a775cefd2ba909d6f6a4247580217c141775c2",
+  "lock_hash": "c7f10c91e739c86cfeeb531faaaafba57f93cbe451559f031367b284a2a882e0",
   "contender": {
     "id": "anthropic-security-auditor",
     "kind": "prompt",
@@ -34,7 +34,7 @@
   "rep": 3,
   "invocation": "forced",
   "versions": {
-    "engine": "0.1.3",
+    "engine": "0.1.4",
     "cli": "2.1.280",
     "image_id": "819ae9ea1b12c8ae2c48e6f6812225cbcc3c283c71a1e14f1b9f1efdb9266425",
     "image_ref": "ghcr.io/thereisnotime/skillordeal-runner:v0.1.2"
@@ -50,7 +50,7 @@
     "max_turns": 250
   },
   "cost_is_estimate": true,
-  "started_at": "2026-10-03T21:35:12+00:00",
+  "started_at": "2026-10-04T00:05:21+00:00",
   "command": [
     "claude",
     "-p",
@@ -93,9 +93,9 @@
     },
     "denied": {}
   },
-  "exit_code": 1,
+  "exit_code": 0,
   "oom_killed": false,
-  "container_wall_s": 40.695,
+  "container_wall_s": 107.613,
   "init": {
     "model": "claude-opus-4-8",
     "skills": [
@@ -120,74 +120,75 @@
   },
   "usage": {
     "subtype": "success",
-    "is_error": true,
-    "duration_ms": 39073,
-    "duration_api_ms": 38472,
-    "num_turns": 22,
-    "total_cost_usd": 0.2418945,
+    "is_error": false,
+    "duration_ms": 106163,
+    "duration_api_ms": 105884,
+    "num_turns": 24,
+    "total_cost_usd": 0.5937925000000001,
     "tokens": {
-      "input_tokens": 10,
-      "output_tokens": 2864,
-      "cache_read_tokens": 68169,
-      "cache_creation_tokens": 13616,
-      "total_tokens": 84659
+      "input_tokens": 16,
+      "output_tokens": 8097,
+      "cache_read_tokens": 133015,
+      "cache_creation_tokens": 32478,
+      "total_tokens": 173606
     },
     "per_model": {
       "claude-opus-4-8": {
-        "input_tokens": 10,
-        "output_tokens": 2864,
-        "cache_read_tokens": 68169,
-        "cache_creation_tokens": 13616,
-        "cost_usd": 0.2418945
+        "input_tokens": 16,
+        "output_tokens": 8097,
+        "cache_read_tokens": 133015,
+        "cache_creation_tokens": 32478,
+        "cost_usd": 0.5937925000000001
       }
     },
     "permission_denials": 0,
-    "session_id": "ff511ab1-b8b8-40fd-9788-26a5b423c341",
-    "terminal_reason": "api_error",
-    "stop_reason": "stop_sequence"
+    "session_id": "bc624769-a9cb-4ccb-9ed8-960f4be3eac4",
+    "terminal_reason": "completed",
+    "stop_reason": "end_turn"
   },
   "tool_calls": {
     "Bash": 1,
-    "Read": 20
+    "Read": 21,
+    "Write": 1
   },
   "skill_fired": true,
   "first_turn_prompt_tokens": 10703,
   "skills_invoked": [],
-  "events": 73,
+  "events": 87,
   "resources": {
     "available": true,
-    "samples": 40,
+    "samples": 107,
     "interval_s": 1.0,
-    "memory_peak_bytes": 179871744,
-    "rss_peak_kb": 248076,
-    "rss_mean_kb": 235116,
+    "memory_peak_bytes": 207204352,
+    "rss_peak_kb": 263704,
+    "rss_mean_kb": 243052,
     "threads_peak": 10,
     "fds_peak": 20,
     "pids_peak": 14,
-    "cpu_usage_s": 2.728773,
-    "cpu_user_s": 2.283001,
-    "cpu_system_s": 0.445771,
+    "cpu_usage_s": 3.272318,
+    "cpu_user_s": 2.838048,
+    "cpu_system_s": 0.43427,
     "cpu_throttled_s": 0.0,
-    "io_read_bytes": 31875072,
-    "io_write_bytes": 131072,
+    "io_read_bytes": 14856192,
+    "io_write_bytes": 167936,
     "by_comm": {
       "claude": {
-        "rss_peak_kb": 246640,
+        "rss_peak_kb": 262196,
         "threads_peak": 9,
         "fds_peak": 17,
-        "cpu_s": 2.48
+        "cpu_s": 3.07
       },
       "tini": {
-        "rss_peak_kb": 1436,
+        "rss_peak_kb": 1508,
         "threads_peak": 1,
         "fds_peak": 3,
-        "cpu_s": 0.17
+        "cpu_s": 0.13
       }
     },
     "note": "client harness only; totals are the last values seen before the scope exited"
   },
-  "error": "agent error: rate_limit: You've hit your session limit \u00b7 resets 12am (UTC)",
-  "status": "error",
-  "finished_at": "2026-10-03T21:36:05+00:00",
-  "wall_s": 53.003
+  "findings_count": 9,
+  "status": "ok",
+  "finished_at": "2026-10-04T00:07:21+00:00",
+  "wall_s": 119.993
 }

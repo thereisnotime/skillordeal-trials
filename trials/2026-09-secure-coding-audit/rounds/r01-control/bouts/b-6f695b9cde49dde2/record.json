@@ -2,7 +2,7 @@
   "record_version": 1,
   "bout_id": "b-6f695b9cde49dde2",
   "trial": "2026-09-secure-coding-audit",
-  "lock_hash": "c40c0eeec3ebcc058ba2bb0826a775cefd2ba909d6f6a4247580217c141775c2",
+  "lock_hash": "c7f10c91e739c86cfeeb531faaaafba57f93cbe451559f031367b284a2a882e0",
   "contender": {
     "id": "agamm-owasp-security",
     "kind": "skill",
@@ -27,12 +27,14 @@
   "model": {
     "requested": "claude-opus-4-8",
     "effort": "high",
-    "used": []
+    "used": [
+      "claude-opus-4-8"
+    ]
   },
   "rep": 2,
   "invocation": "forced",
   "versions": {
-    "engine": "0.1.3",
+    "engine": "0.1.4",
     "cli": "2.1.280",
     "image_id": "819ae9ea1b12c8ae2c48e6f6812225cbcc3c283c71a1e14f1b9f1efdb9266425",
     "image_ref": "ghcr.io/thereisnotime/skillordeal-runner:v0.1.2"
@@ -48,7 +50,7 @@
     "max_turns": 250
   },
   "cost_is_estimate": true,
-  "started_at": "2026-10-03T21:36:05+00:00",
+  "started_at": "2026-10-04T00:07:10+00:00",
   "command": [
     "claude",
     "-p",
@@ -91,9 +93,9 @@
     },
     "denied": {}
   },
-  "exit_code": 1,
+  "exit_code": 0,
   "oom_killed": false,
-  "container_wall_s": 1.794,
+  "container_wall_s": 90.602,
   "init": {
     "model": "claude-opus-4-8",
     "skills": [
@@ -118,63 +120,75 @@
   },
   "usage": {
     "subtype": "success",
-    "is_error": true,
-    "duration_ms": 477,
-    "duration_api_ms": 0,
-    "num_turns": 1,
-    "total_cost_usd": 0,
+    "is_error": false,
+    "duration_ms": 89343,
+    "duration_api_ms": 89173,
+    "num_turns": 21,
+    "total_cost_usd": 0.42914500000000005,
     "tokens": {
-      "input_tokens": 0,
-      "output_tokens": 0,
-      "cache_read_tokens": 0,
-      "cache_creation_tokens": 0,
-      "total_tokens": 0
+      "input_tokens": 12,
+      "output_tokens": 7020,
+      "cache_read_tokens": 119110,
+      "cache_creation_tokens": 19403,
+      "total_tokens": 145545
     },
-    "per_model": {},
+    "per_model": {
+      "claude-opus-4-8": {
+        "input_tokens": 12,
+        "output_tokens": 7020,
+        "cache_read_tokens": 119110,
+        "cache_creation_tokens": 19403,
+        "cost_usd": 0.42914500000000005
+      }
+    },
     "permission_denials": 0,
-    "session_id": "4eb19a20-48ac-441f-ae81-633974905ccd",
-    "terminal_reason": "api_error",
-    "stop_reason": "stop_sequence"
+    "session_id": "b1537da2-34e5-453d-935f-d03a2ec0818d",
+    "terminal_reason": "completed",
+    "stop_reason": "end_turn"
   },
-  "tool_calls": {},
+  "tool_calls": {
+    "Bash": 1,
+    "Read": 18,
+    "Write": 1
+  },
   "skill_fired": true,
-  "first_turn_prompt_tokens": 0,
+  "first_turn_prompt_tokens": 14725,
   "skills_invoked": [],
-  "events": 4,
+  "events": 75,
   "resources": {
     "available": true,
-    "samples": 2,
+    "samples": 90,
     "interval_s": 1.0,
-    "memory_peak_bytes": 131260416,
-    "rss_peak_kb": 227312,
-    "rss_mean_kb": 163524,
+    "memory_peak_bytes": 181764096,
+    "rss_peak_kb": 263352,
+    "rss_mean_kb": 231512,
     "threads_peak": 10,
-    "fds_peak": 19,
+    "fds_peak": 20,
     "pids_peak": 14,
-    "cpu_usage_s": 0.876381,
-    "cpu_user_s": 0.704542,
-    "cpu_system_s": 0.171839,
+    "cpu_usage_s": 2.738867,
+    "cpu_user_s": 2.367546,
+    "cpu_system_s": 0.37132,
     "cpu_throttled_s": 0.0,
-    "io_read_bytes": 0,
-    "io_write_bytes": 98304,
+    "io_read_bytes": 774144,
+    "io_write_bytes": 163840,
     "by_comm": {
       "claude": {
-        "rss_peak_kb": 225772,
+        "rss_peak_kb": 261852,
         "threads_peak": 9,
-        "fds_peak": 16,
-        "cpu_s": 0.74
+        "fds_peak": 17,
+        "cpu_s": 2.55
       },
       "tini": {
-        "rss_peak_kb": 1540,
+        "rss_peak_kb": 1500,
         "threads_peak": 1,
         "fds_peak": 3,
-        "cpu_s": 0.08
+        "cpu_s": 0.12
       }
     },
     "note": "client harness only; totals are the last values seen before the scope exited"
   },
-  "error": "agent error: rate_limit: You've hit your session limit \u00b7 resets 12am (UTC)",
-  "status": "error",
-  "finished_at": "2026-10-03T21:36:19+00:00",
-  "wall_s": 13.78
+  "findings_count": 8,
+  "status": "ok",
+  "finished_at": "2026-10-04T00:08:53+00:00",
+  "wall_s": 102.619
 }
