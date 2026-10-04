@@ -1,0 +1,791 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="712.8pt" viewBox="0 0 720 712.8" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Peak RSS and CPU time per contender">
+ <title>Peak RSS and CPU time per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="resources-figure_1">
+  <g id="resources-patch_1">
+   <path d="M 0 712.8 
+L 720 712.8 
+L 720 0 
+L 0 0 
+L 0 712.8 
+z
+" style="fill: none"/>
+  </g>
+  <g id="resources-axes_1">
+   <g id="resources-patch_2">
+    <path d="M 184.895 690.58 
+L 438.245044 690.58 
+L 438.245044 23.64 
+L 184.895 23.64 
+L 184.895 690.58 
+z
+" style="fill: none"/>
+   </g>
+   <g id="resources-matplotlib.axis_1">
+    <g id="resources-xtick_1">
+     <g id="resources-line2d_1">
+      <path d="M 184.895 690.58 
+L 184.895 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_2"/>
+     <g id="resources-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="700.917891" transform="rotate(-0 184.895 700.917891)">0</text>
+     </g>
+    </g>
+    <g id="resources-xtick_2">
+     <g id="resources-line2d_3">
+      <path d="M 220.723263 690.58 
+L 220.723263 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_4"/>
+     <g id="resources-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="220.723263" y="700.917891" transform="rotate(-0 220.723263 700.917891)">50</text>
+     </g>
+    </g>
+    <g id="resources-xtick_3">
+     <g id="resources-line2d_5">
+      <path d="M 256.551526 690.58 
+L 256.551526 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_6"/>
+     <g id="resources-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="256.551526" y="700.917891" transform="rotate(-0 256.551526 700.917891)">100</text>
+     </g>
+    </g>
+    <g id="resources-xtick_4">
+     <g id="resources-line2d_7">
+      <path d="M 292.379789 690.58 
+L 292.379789 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_8"/>
+     <g id="resources-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="292.379789" y="700.917891" transform="rotate(-0 292.379789 700.917891)">150</text>
+     </g>
+    </g>
+    <g id="resources-xtick_5">
+     <g id="resources-line2d_9">
+      <path d="M 328.208052 690.58 
+L 328.208052 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_10"/>
+     <g id="resources-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="328.208052" y="700.917891" transform="rotate(-0 328.208052 700.917891)">200</text>
+     </g>
+    </g>
+    <g id="resources-xtick_6">
+     <g id="resources-line2d_11">
+      <path d="M 364.036314 690.58 
+L 364.036314 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_12"/>
+     <g id="resources-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="364.036314" y="700.917891" transform="rotate(-0 364.036314 700.917891)">250</text>
+     </g>
+    </g>
+    <g id="resources-xtick_7">
+     <g id="resources-line2d_13">
+      <path d="M 399.864577 690.58 
+L 399.864577 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_14"/>
+     <g id="resources-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="399.864577" y="700.917891" transform="rotate(-0 399.864577 700.917891)">300</text>
+     </g>
+    </g>
+    <g id="resources-xtick_8">
+     <g id="resources-line2d_15">
+      <path d="M 435.69284 690.58 
+L 435.69284 23.64 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_16"/>
+     <g id="resources-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="435.69284" y="700.917891" transform="rotate(-0 435.69284 700.917891)">350</text>
+     </g>
+    </g>
+   </g>
+   <g id="resources-matplotlib.axis_2">
+    <g id="resources-ytick_1">
+     <g id="resources-line2d_17"/>
+     <g id="resources-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="40.398097" transform="rotate(-0 181.395 40.398097)">baseline</text>
+     </g>
+    </g>
+    <g id="resources-ytick_2">
+     <g id="resources-line2d_18"/>
+     <g id="resources-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="67.075697" transform="rotate(-0 181.395 67.075697)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="resources-ytick_3">
+     <g id="resources-line2d_19"/>
+     <g id="resources-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="93.753297" transform="rotate(-0 181.395 93.753297)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="resources-ytick_4">
+     <g id="resources-line2d_20"/>
+     <g id="resources-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="120.430897" transform="rotate(-0 181.395 120.430897)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="resources-ytick_5">
+     <g id="resources-line2d_21"/>
+     <g id="resources-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="147.108497" transform="rotate(-0 181.395 147.108497)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="resources-ytick_6">
+     <g id="resources-line2d_22"/>
+     <g id="resources-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="173.786097" transform="rotate(-0 181.395 173.786097)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="resources-ytick_7">
+     <g id="resources-line2d_23"/>
+     <g id="resources-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="200.463697" transform="rotate(-0 181.395 200.463697)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="resources-ytick_8">
+     <g id="resources-line2d_24"/>
+     <g id="resources-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="227.141297" transform="rotate(-0 181.395 227.141297)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="resources-ytick_9">
+     <g id="resources-line2d_25"/>
+     <g id="resources-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="253.818897" transform="rotate(-0 181.395 253.818897)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_10">
+     <g id="resources-line2d_26"/>
+     <g id="resources-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="280.496497" transform="rotate(-0 181.395 280.496497)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="resources-ytick_11">
+     <g id="resources-line2d_27"/>
+     <g id="resources-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="307.174097" transform="rotate(-0 181.395 307.174097)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="resources-ytick_12">
+     <g id="resources-line2d_28"/>
+     <g id="resources-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="333.851697" transform="rotate(-0 181.395 333.851697)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="resources-ytick_13">
+     <g id="resources-line2d_29"/>
+     <g id="resources-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="360.529297" transform="rotate(-0 181.395 360.529297)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="resources-ytick_14">
+     <g id="resources-line2d_30"/>
+     <g id="resources-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="387.206897" transform="rotate(-0 181.395 387.206897)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_15">
+     <g id="resources-line2d_31"/>
+     <g id="resources-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="413.884497" transform="rotate(-0 181.395 413.884497)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_16">
+     <g id="resources-line2d_32"/>
+     <g id="resources-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="440.562097" transform="rotate(-0 181.395 440.562097)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="resources-ytick_17">
+     <g id="resources-line2d_33"/>
+     <g id="resources-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="467.239697" transform="rotate(-0 181.395 467.239697)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="resources-ytick_18">
+     <g id="resources-line2d_34"/>
+     <g id="resources-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="493.917297" transform="rotate(-0 181.395 493.917297)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="resources-ytick_19">
+     <g id="resources-line2d_35"/>
+     <g id="resources-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="520.594897" transform="rotate(-0 181.395 520.594897)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="resources-ytick_20">
+     <g id="resources-line2d_36"/>
+     <g id="resources-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="547.272497" transform="rotate(-0 181.395 547.272497)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_21">
+     <g id="resources-line2d_37"/>
+     <g id="resources-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="573.950097" transform="rotate(-0 181.395 573.950097)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_22">
+     <g id="resources-line2d_38"/>
+     <g id="resources-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="600.627697" transform="rotate(-0 181.395 600.627697)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="resources-ytick_23">
+     <g id="resources-line2d_39"/>
+     <g id="resources-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="627.305297" transform="rotate(-0 181.395 627.305297)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="resources-ytick_24">
+     <g id="resources-line2d_40"/>
+     <g id="resources-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="653.982897" transform="rotate(-0 181.395 653.982897)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="resources-ytick_25">
+     <g id="resources-line2d_41"/>
+     <g id="resources-text_33">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="680.660497" transform="rotate(-0 181.395 680.660497)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="resources-tip0" class="tip"><title>baseline: RSS peak MB 244 [219, 270] (n=3)</title>
+    <path d="M 184.895 29.64246 
+L 359.618428 29.64246 
+L 359.618428 44.31514 
+L 184.895 44.31514 
+z
+" clip-path="url(#resources-p681b870ade)" style="fill: #898781"/>
+   </g>
+   <g id="resources-tip1" class="tip"><title>agamm-owasp-security: RSS peak MB 263 [257, 268] (n=3)</title>
+    <path d="M 184.895 82.99766 
+L 373.40018 82.99766 
+L 373.40018 97.67034 
+L 184.895 97.67034 
+z
+" clip-path="url(#resources-p681b870ade)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-tip2" class="tip"><title>anthropic-security-auditor: RSS peak MB 276 [258, 290] (n=3)</title>
+    <path d="M 184.895 109.67526 
+L 382.849885 109.67526 
+L 382.849885 124.34794 
+L 184.895 124.34794 
+z
+" clip-path="url(#resources-p681b870ade)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-tip3" class="tip"><title>samber-golang-security: RSS peak MB 228 [219, 234] (n=3)</title>
+    <path d="M 184.895 483.16166 
+L 348.50327 483.16166 
+L 348.50327 497.83434 
+L 184.895 497.83434 
+z
+" clip-path="url(#resources-p681b870ade)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-patch_3">
+    <path d="M 184.895 690.58 
+L 184.895 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="resources-patch_4">
+    <path d="M 184.895 690.58 
+L 438.245044 690.58 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="resources-LineCollection_1">
+    <path d="M 341.506495 36.9788 
+L 378.401209 36.9788 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_42">
+    <defs>
+     <path id="resources-mbe9922e68b" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #777777"/>
+    </defs>
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="341.506495" y="36.9788" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_43">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="378.401209" y="36.9788" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="383.401209" y="39.056925" transform="rotate(-0 383.401209 39.056925)">244</text>
+   </g>
+   <g id="resources-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="65.734525" transform="rotate(-0 184.895 65.734525)">  n/a</text>
+   </g>
+   <g id="resources-LineCollection_2">
+    <path d="M 369.181029 90.334 
+L 376.662978 90.334 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_44">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="369.181029" y="90.334" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_45">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="376.662978" y="90.334" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="381.662978" y="92.412125" transform="rotate(-0 381.662978 92.412125)">263</text>
+   </g>
+   <g id="resources-LineCollection_3">
+    <path d="M 369.427348 117.0116 
+L 392.558971 117.0116 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_46">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="369.427348" y="117.0116" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_47">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="392.558971" y="117.0116" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="397.558971" y="119.089725" transform="rotate(-0 397.558971 119.089725)">276</text>
+   </g>
+   <g id="resources-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="145.767325" transform="rotate(-0 184.895 145.767325)">  n/a</text>
+   </g>
+   <g id="resources-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="172.444925" transform="rotate(-0 184.895 172.444925)">  n/a</text>
+   </g>
+   <g id="resources-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="199.122525" transform="rotate(-0 184.895 199.122525)">  n/a</text>
+   </g>
+   <g id="resources-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="225.800125" transform="rotate(-0 184.895 225.800125)">  n/a</text>
+   </g>
+   <g id="resources-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="252.477725" transform="rotate(-0 184.895 252.477725)">  n/a</text>
+   </g>
+   <g id="resources-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="279.155325" transform="rotate(-0 184.895 279.155325)">  n/a</text>
+   </g>
+   <g id="resources-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="305.832925" transform="rotate(-0 184.895 305.832925)">  n/a</text>
+   </g>
+   <g id="resources-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="332.510525" transform="rotate(-0 184.895 332.510525)">  n/a</text>
+   </g>
+   <g id="resources-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="359.188125" transform="rotate(-0 184.895 359.188125)">  n/a</text>
+   </g>
+   <g id="resources-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="385.865725" transform="rotate(-0 184.895 385.865725)">  n/a</text>
+   </g>
+   <g id="resources-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="412.543325" transform="rotate(-0 184.895 412.543325)">  n/a</text>
+   </g>
+   <g id="resources-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="439.220925" transform="rotate(-0 184.895 439.220925)">  n/a</text>
+   </g>
+   <g id="resources-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="465.898525" transform="rotate(-0 184.895 465.898525)">  n/a</text>
+   </g>
+   <g id="resources-LineCollection_4">
+    <path d="M 341.884371 490.498 
+L 352.526485 490.498 
+" clip-path="url(#resources-p681b870ade)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_48">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="341.884371" y="490.498" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_49">
+    <g clip-path="url(#resources-p681b870ade)">
+     <use xlink:href="#resources-mbe9922e68b" x="352.526485" y="490.498" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="357.526485" y="492.576125" transform="rotate(-0 357.526485 492.576125)">228</text>
+   </g>
+   <g id="resources-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="519.253725" transform="rotate(-0 184.895 519.253725)">  n/a</text>
+   </g>
+   <g id="resources-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="545.931325" transform="rotate(-0 184.895 545.931325)">  n/a</text>
+   </g>
+   <g id="resources-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="572.608925" transform="rotate(-0 184.895 572.608925)">  n/a</text>
+   </g>
+   <g id="resources-text_55">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="599.286525" transform="rotate(-0 184.895 599.286525)">  n/a</text>
+   </g>
+   <g id="resources-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="625.964125" transform="rotate(-0 184.895 625.964125)">  n/a</text>
+   </g>
+   <g id="resources-text_57">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="652.641725" transform="rotate(-0 184.895 652.641725)">  n/a</text>
+   </g>
+   <g id="resources-text_58">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="679.319325" transform="rotate(-0 184.895 679.319325)">  n/a</text>
+   </g>
+   <g id="resources-text_59">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">peak RSS, MB</text>
+   </g>
+  </g>
+  <g id="resources-axes_2">
+   <g id="resources-patch_5">
+    <path d="M 456.929956 690.58 
+L 710.28 690.58 
+L 710.28 23.64 
+L 456.929956 23.64 
+L 456.929956 690.58 
+z
+" style="fill: none"/>
+   </g>
+   <g id="resources-matplotlib.axis_3">
+    <g id="resources-xtick_9">
+     <g id="resources-line2d_50">
+      <path d="M 456.929956 690.58 
+L 456.929956 23.64 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_51"/>
+     <g id="resources-text_60">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="456.929956" y="700.917891" transform="rotate(-0 456.929956 700.917891)">0</text>
+     </g>
+    </g>
+    <g id="resources-xtick_10">
+     <g id="resources-line2d_52">
+      <path d="M 507.795636 690.58 
+L 507.795636 23.64 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_53"/>
+     <g id="resources-text_61">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="507.795636" y="700.917891" transform="rotate(-0 507.795636 700.917891)">1</text>
+     </g>
+    </g>
+    <g id="resources-xtick_11">
+     <g id="resources-line2d_54">
+      <path d="M 558.661316 690.58 
+L 558.661316 23.64 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_55"/>
+     <g id="resources-text_62">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="558.661316" y="700.917891" transform="rotate(-0 558.661316 700.917891)">2</text>
+     </g>
+    </g>
+    <g id="resources-xtick_12">
+     <g id="resources-line2d_56">
+      <path d="M 609.526996 690.58 
+L 609.526996 23.64 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_57"/>
+     <g id="resources-text_63">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="609.526996" y="700.917891" transform="rotate(-0 609.526996 700.917891)">3</text>
+     </g>
+    </g>
+    <g id="resources-xtick_13">
+     <g id="resources-line2d_58">
+      <path d="M 660.392676 690.58 
+L 660.392676 23.64 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="resources-line2d_59"/>
+     <g id="resources-text_64">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="660.392676" y="700.917891" transform="rotate(-0 660.392676 700.917891)">4</text>
+     </g>
+    </g>
+   </g>
+   <g id="resources-matplotlib.axis_4">
+    <g id="resources-ytick_26">
+     <g id="resources-line2d_60"/>
+    </g>
+    <g id="resources-ytick_27">
+     <g id="resources-line2d_61"/>
+    </g>
+    <g id="resources-ytick_28">
+     <g id="resources-line2d_62"/>
+    </g>
+    <g id="resources-ytick_29">
+     <g id="resources-line2d_63"/>
+    </g>
+    <g id="resources-ytick_30">
+     <g id="resources-line2d_64"/>
+    </g>
+    <g id="resources-ytick_31">
+     <g id="resources-line2d_65"/>
+    </g>
+    <g id="resources-ytick_32">
+     <g id="resources-line2d_66"/>
+    </g>
+    <g id="resources-ytick_33">
+     <g id="resources-line2d_67"/>
+    </g>
+    <g id="resources-ytick_34">
+     <g id="resources-line2d_68"/>
+    </g>
+    <g id="resources-ytick_35">
+     <g id="resources-line2d_69"/>
+    </g>
+    <g id="resources-ytick_36">
+     <g id="resources-line2d_70"/>
+    </g>
+    <g id="resources-ytick_37">
+     <g id="resources-line2d_71"/>
+    </g>
+    <g id="resources-ytick_38">
+     <g id="resources-line2d_72"/>
+    </g>
+    <g id="resources-ytick_39">
+     <g id="resources-line2d_73"/>
+    </g>
+    <g id="resources-ytick_40">
+     <g id="resources-line2d_74"/>
+    </g>
+    <g id="resources-ytick_41">
+     <g id="resources-line2d_75"/>
+    </g>
+    <g id="resources-ytick_42">
+     <g id="resources-line2d_76"/>
+    </g>
+    <g id="resources-ytick_43">
+     <g id="resources-line2d_77"/>
+    </g>
+    <g id="resources-ytick_44">
+     <g id="resources-line2d_78"/>
+    </g>
+    <g id="resources-ytick_45">
+     <g id="resources-line2d_79"/>
+    </g>
+    <g id="resources-ytick_46">
+     <g id="resources-line2d_80"/>
+    </g>
+    <g id="resources-ytick_47">
+     <g id="resources-line2d_81"/>
+    </g>
+    <g id="resources-ytick_48">
+     <g id="resources-line2d_82"/>
+    </g>
+    <g id="resources-ytick_49">
+     <g id="resources-line2d_83"/>
+    </g>
+    <g id="resources-ytick_50">
+     <g id="resources-line2d_84"/>
+    </g>
+   </g>
+   <g id="resources-tip4" class="tip"><title>baseline: CPU s 4 [3, 4] (n=3)</title>
+    <path d="M 456.929956 29.64246 
+L 634.968652 29.64246 
+L 634.968652 44.31514 
+L 456.929956 44.31514 
+z
+" clip-path="url(#resources-pb010d242d1)" style="fill: #898781"/>
+   </g>
+   <g id="resources-tip5" class="tip"><title>agamm-owasp-security: CPU s 3 [3, 3] (n=3)</title>
+    <path d="M 456.929956 82.99766 
+L 613.133525 82.99766 
+L 613.133525 97.67034 
+L 456.929956 97.67034 
+z
+" clip-path="url(#resources-pb010d242d1)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-tip6" class="tip"><title>anthropic-security-auditor: CPU s 3 [3, 4] (n=3)</title>
+    <path d="M 456.929956 109.67526 
+L 628.728603 109.67526 
+L 628.728603 124.34794 
+L 456.929956 124.34794 
+z
+" clip-path="url(#resources-pb010d242d1)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-tip7" class="tip"><title>samber-golang-security: CPU s 4 [3, 4] (n=3)</title>
+    <path d="M 456.929956 483.16166 
+L 643.323985 483.16166 
+L 643.323985 497.83434 
+L 456.929956 497.83434 
+z
+" clip-path="url(#resources-pb010d242d1)" style="fill: #3987e5"/>
+   </g>
+   <g id="resources-patch_6">
+    <path d="M 456.929956 690.58 
+L 456.929956 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="resources-patch_7">
+    <path d="M 456.929956 690.58 
+L 710.28 690.58 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="resources-LineCollection_5">
+    <path d="M 632.067817 36.9788 
+L 637.976018 36.9788 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_85">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="632.067817" y="36.9788" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_86">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="637.976018" y="36.9788" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_65">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="642.976018" y="39.056925" transform="rotate(-0 642.976018 39.056925)">4</text>
+   </g>
+   <g id="resources-text_66">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="65.734525" transform="rotate(-0 456.929956 65.734525)">  n/a</text>
+   </g>
+   <g id="resources-LineCollection_6">
+    <path d="M 596.244288 90.334 
+L 627.099816 90.334 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_87">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="596.244288" y="90.334" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_88">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="627.099816" y="90.334" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_67">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="632.099816" y="92.412125" transform="rotate(-0 632.099816 92.412125)">3</text>
+   </g>
+   <g id="resources-LineCollection_7">
+    <path d="M 621.571785 117.0116 
+L 641.235389 117.0116 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_89">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="621.571785" y="117.0116" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_90">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="641.235389" y="117.0116" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_68">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="646.235389" y="119.089725" transform="rotate(-0 646.235389 119.089725)">3</text>
+   </g>
+   <g id="resources-text_69">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="145.767325" transform="rotate(-0 456.929956 145.767325)">  n/a</text>
+   </g>
+   <g id="resources-text_70">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="172.444925" transform="rotate(-0 456.929956 172.444925)">  n/a</text>
+   </g>
+   <g id="resources-text_71">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="199.122525" transform="rotate(-0 456.929956 199.122525)">  n/a</text>
+   </g>
+   <g id="resources-text_72">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="225.800125" transform="rotate(-0 456.929956 225.800125)">  n/a</text>
+   </g>
+   <g id="resources-text_73">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="252.477725" transform="rotate(-0 456.929956 252.477725)">  n/a</text>
+   </g>
+   <g id="resources-text_74">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="279.155325" transform="rotate(-0 456.929956 279.155325)">  n/a</text>
+   </g>
+   <g id="resources-text_75">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="305.832925" transform="rotate(-0 456.929956 305.832925)">  n/a</text>
+   </g>
+   <g id="resources-text_76">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="332.510525" transform="rotate(-0 456.929956 332.510525)">  n/a</text>
+   </g>
+   <g id="resources-text_77">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="359.188125" transform="rotate(-0 456.929956 359.188125)">  n/a</text>
+   </g>
+   <g id="resources-text_78">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="385.865725" transform="rotate(-0 456.929956 385.865725)">  n/a</text>
+   </g>
+   <g id="resources-text_79">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="412.543325" transform="rotate(-0 456.929956 412.543325)">  n/a</text>
+   </g>
+   <g id="resources-text_80">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="439.220925" transform="rotate(-0 456.929956 439.220925)">  n/a</text>
+   </g>
+   <g id="resources-text_81">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="465.898525" transform="rotate(-0 456.929956 465.898525)">  n/a</text>
+   </g>
+   <g id="resources-LineCollection_8">
+    <path d="M 623.502748 490.498 
+L 664.593926 490.498 
+" clip-path="url(#resources-pb010d242d1)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="resources-line2d_91">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="623.502748" y="490.498" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-line2d_92">
+    <g clip-path="url(#resources-pb010d242d1)">
+     <use xlink:href="#resources-mbe9922e68b" x="664.593926" y="490.498" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="resources-text_82">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="669.593926" y="492.576125" transform="rotate(-0 669.593926 492.576125)">4</text>
+   </g>
+   <g id="resources-text_83">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="519.253725" transform="rotate(-0 456.929956 519.253725)">  n/a</text>
+   </g>
+   <g id="resources-text_84">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="545.931325" transform="rotate(-0 456.929956 545.931325)">  n/a</text>
+   </g>
+   <g id="resources-text_85">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="572.608925" transform="rotate(-0 456.929956 572.608925)">  n/a</text>
+   </g>
+   <g id="resources-text_86">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="599.286525" transform="rotate(-0 456.929956 599.286525)">  n/a</text>
+   </g>
+   <g id="resources-text_87">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="625.964125" transform="rotate(-0 456.929956 625.964125)">  n/a</text>
+   </g>
+   <g id="resources-text_88">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="652.641725" transform="rotate(-0 456.929956 652.641725)">  n/a</text>
+   </g>
+   <g id="resources-text_89">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="456.929956" y="679.319325" transform="rotate(-0 456.929956 679.319325)">  n/a</text>
+   </g>
+   <g id="resources-text_90">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="456.929956" y="17.64" transform="rotate(-0 456.929956 17.64)">CPU seconds</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="resources-p681b870ade">
+   <rect x="184.895" y="23.64" width="253.350044" height="666.94"/>
+  </clipPath>
+  <clipPath id="resources-pb010d242d1">
+   <rect x="456.929956" y="23.64" width="253.350044" height="666.94"/>
+  </clipPath>
+ </defs>
+</svg>

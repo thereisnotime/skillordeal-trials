@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="676.8pt" viewBox="0 0 720 676.8" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Horizontal bars of mean recall per contender, one panel per arena">
+ <title>Horizontal bars of mean recall per contender, one panel per arena</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="recall-by-contender-figure_1">
+  <g id="recall-by-contender-patch_1">
+   <path d="M 0 676.8 
+L 720 676.8 
+L 720 0 
+L 0 0 
+L 0 676.8 
+z
+" style="fill: none"/>
+  </g>
+  <g id="recall-by-contender-axes_1">
+   <g id="recall-by-contender-patch_2">
+    <path d="M 184.895 640.497891 
+L 710.28 640.497891 
+L 710.28 23.64 
+L 184.895 23.64 
+L 184.895 640.497891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="recall-by-contender-matplotlib.axis_1">
+    <g id="recall-by-contender-xtick_1">
+     <g id="recall-by-contender-line2d_1">
+      <path d="M 184.895 640.497891 
+L 184.895 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_2"/>
+     <g id="recall-by-contender-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="184.895" y="650.835781" transform="rotate(-0 184.895 650.835781)">0.0</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_2">
+     <g id="recall-by-contender-line2d_3">
+      <path d="M 278.71375 640.497891 
+L 278.71375 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_4"/>
+     <g id="recall-by-contender-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="278.71375" y="650.835781" transform="rotate(-0 278.71375 650.835781)">0.2</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_3">
+     <g id="recall-by-contender-line2d_5">
+      <path d="M 372.5325 640.497891 
+L 372.5325 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_6"/>
+     <g id="recall-by-contender-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="372.5325" y="650.835781" transform="rotate(-0 372.5325 650.835781)">0.4</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_4">
+     <g id="recall-by-contender-line2d_7">
+      <path d="M 466.35125 640.497891 
+L 466.35125 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_8"/>
+     <g id="recall-by-contender-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="466.35125" y="650.835781" transform="rotate(-0 466.35125 650.835781)">0.6</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_5">
+     <g id="recall-by-contender-line2d_9">
+      <path d="M 560.17 640.497891 
+L 560.17 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_10"/>
+     <g id="recall-by-contender-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="560.17" y="650.835781" transform="rotate(-0 560.17 650.835781)">0.8</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-xtick_6">
+     <g id="recall-by-contender-line2d_11">
+      <path d="M 653.98875 640.497891 
+L 653.98875 23.64 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="recall-by-contender-line2d_12"/>
+     <g id="recall-by-contender-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="653.98875" y="650.835781" transform="rotate(-0 653.98875 650.835781)">1.0</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-text_7">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="663.836484" transform="rotate(-0 447.5875 663.836484)">mean recall per bout (share of ground-truth issues found)</text>
+    </g>
+   </g>
+   <g id="recall-by-contender-matplotlib.axis_2">
+    <g id="recall-by-contender-ytick_1">
+     <g id="recall-by-contender-line2d_13"/>
+     <g id="recall-by-contender-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="39.396455" transform="rotate(-0 181.395 39.396455)">baseline</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_2">
+     <g id="recall-by-contender-line2d_14"/>
+     <g id="recall-by-contender-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="64.07077" transform="rotate(-0 181.395 64.07077)">addyosmani-security-auditor</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_3">
+     <g id="recall-by-contender-line2d_15"/>
+     <g id="recall-by-contender-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="88.745086" transform="rotate(-0 181.395 88.745086)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_4">
+     <g id="recall-by-contender-line2d_16"/>
+     <g id="recall-by-contender-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="113.419402" transform="rotate(-0 181.395 113.419402)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_5">
+     <g id="recall-by-contender-line2d_17"/>
+     <g id="recall-by-contender-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="138.093717" transform="rotate(-0 181.395 138.093717)">anthropic-security-review-cmd</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_6">
+     <g id="recall-by-contender-line2d_18"/>
+     <g id="recall-by-contender-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="162.768033" transform="rotate(-0 181.395 162.768033)">cf-security-audit</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_7">
+     <g id="recall-by-contender-line2d_19"/>
+     <g id="recall-by-contender-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="187.442348" transform="rotate(-0 181.395 187.442348)">claude-security-flat</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_8">
+     <g id="recall-by-contender-line2d_20"/>
+     <g id="recall-by-contender-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="212.116664" transform="rotate(-0 181.395 212.116664)">claude-security-researcher</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_9">
+     <g id="recall-by-contender-line2d_21"/>
+     <g id="recall-by-contender-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="236.79098" transform="rotate(-0 181.395 236.79098)">ecc-security-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_10">
+     <g id="recall-by-contender-line2d_22"/>
+     <g id="recall-by-contender-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="261.465295" transform="rotate(-0 181.395 261.465295)">evandervecht-security-audit</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_11">
+     <g id="recall-by-contender-line2d_23"/>
+     <g id="recall-by-contender-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="286.139611" transform="rotate(-0 181.395 286.139611)">every-ce-security-reviewer</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_12">
+     <g id="recall-by-contender-line2d_24"/>
+     <g id="recall-by-contender-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="310.813927" transform="rotate(-0 181.395 310.813927)">gemini-security-analyze-full</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_13">
+     <g id="recall-by-contender-line2d_25"/>
+     <g id="recall-by-contender-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="335.488242" transform="rotate(-0 181.395 335.488242)">github-copilot-se-security-reviewer</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_14">
+     <g id="recall-by-contender-line2d_26"/>
+     <g id="recall-by-contender-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="360.162558" transform="rotate(-0 181.395 360.162558)">github-copilot-security-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_15">
+     <g id="recall-by-contender-line2d_27"/>
+     <g id="recall-by-contender-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="384.836873" transform="rotate(-0 181.395 384.836873)">ivan-sincek-cwe-secure-code-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_16">
+     <g id="recall-by-contender-line2d_28"/>
+     <g id="recall-by-contender-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="409.511189" transform="rotate(-0 181.395 409.511189)">neolab-security-auditor</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_17">
+     <g id="recall-by-contender-line2d_29"/>
+     <g id="recall-by-contender-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="434.185505" transform="rotate(-0 181.395 434.185505)">openai-security-best-practices</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_18">
+     <g id="recall-by-contender-line2d_30"/>
+     <g id="recall-by-contender-text_25">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="458.85982" transform="rotate(-0 181.395 458.85982)">samber-golang-security</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_19">
+     <g id="recall-by-contender-line2d_31"/>
+     <g id="recall-by-contender-text_26">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="483.534136" transform="rotate(-0 181.395 483.534136)">sari3l-security-code-audit</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_20">
+     <g id="recall-by-contender-line2d_32"/>
+     <g id="recall-by-contender-text_27">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="508.208452" transform="rotate(-0 181.395 508.208452)">sentry-code-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_21">
+     <g id="recall-by-contender-line2d_33"/>
+     <g id="recall-by-contender-text_28">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="532.882767" transform="rotate(-0 181.395 532.882767)">sentry-security-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_22">
+     <g id="recall-by-contender-line2d_34"/>
+     <g id="recall-by-contender-text_29">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="557.557083" transform="rotate(-0 181.395 557.557083)">sentry-then-fp-check</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_23">
+     <g id="recall-by-contender-line2d_35"/>
+     <g id="recall-by-contender-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="582.231398" transform="rotate(-0 181.395 582.231398)">tob-differential-review</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_24">
+     <g id="recall-by-contender-line2d_36"/>
+     <g id="recall-by-contender-text_31">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="606.905714" transform="rotate(-0 181.395 606.905714)">tob-sharp-edges</text>
+     </g>
+    </g>
+    <g id="recall-by-contender-ytick_25">
+     <g id="recall-by-contender-line2d_37"/>
+     <g id="recall-by-contender-text_32">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="631.58003" transform="rotate(-0 181.395 631.58003)">unitone-secure-code-review</text>
+     </g>
+    </g>
+   </g>
+   <g id="recall-by-contender-tip0" class="tip"><title>baseline: recall 0.35 [0.32, 0.37] (n=3)</title>
+    <path d="M 184.895 29.191721 
+L 349.48436 29.191721 
+L 349.48436 42.762595 
+L 184.895 42.762595 
+z
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: #898781"/>
+   </g>
+   <g id="recall-by-contender-tip1" class="tip"><title>agamm-owasp-security: recall 0.39 [0.37, 0.42] (n=3)</title>
+    <path d="M 184.895 78.540352 
+L 365.949551 78.540352 
+L 365.949551 92.111226 
+L 184.895 92.111226 
+z
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip2" class="tip"><title>anthropic-security-auditor: recall 0.42 [0.42, 0.42] (n=3)</title>
+    <path d="M 184.895 103.214668 
+L 382.430378 103.214668 
+L 382.430378 116.785541 
+L 184.895 116.785541 
+z
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-tip3" class="tip"><title>samber-golang-security: recall 0.35 [0.32, 0.37] (n=3)</title>
+    <path d="M 184.895 448.655087 
+L 349.48436 448.655087 
+L 349.48436 462.22596 
+L 184.895 462.22596 
+z
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: #3987e5"/>
+   </g>
+   <g id="recall-by-contender-patch_3">
+    <path d="M 184.895 640.497891 
+L 184.895 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="recall-by-contender-patch_4">
+    <path d="M 184.895 640.497891 
+L 710.28 640.497891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="recall-by-contender-LineCollection_1">
+    <path d="M 333.034806 35.977158 
+L 357.709137 35.977158 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_38">
+    <defs>
+     <path id="recall-by-contender-mbe9922e68b" d="M 0 2.5 
+L 0 -2.5 
+" style="stroke: #777777"/>
+    </defs>
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="333.034806" y="35.977158" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_39">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="357.709137" y="35.977158" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_33">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="362.709137" y="38.055283" transform="rotate(-0 362.709137 38.055283)">0.35</text>
+   </g>
+   <g id="recall-by-contender-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="62.729598" transform="rotate(-0 184.895 62.729598)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_2">
+    <path d="M 357.709137 85.325789 
+L 382.430378 85.325789 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_40">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="357.709137" y="85.325789" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_41">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="382.430378" y="85.325789" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="387.430378" y="87.403914" transform="rotate(-0 387.430378 87.403914)">0.39</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_3">
+    <path d="M 382.430378 110.000105 
+L 382.430378 110.000105 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_42">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="382.430378" y="110.000105" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_43">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="382.430378" y="110.000105" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="387.430378" y="112.07823" transform="rotate(-0 387.430378 112.07823)">0.42</text>
+   </g>
+   <g id="recall-by-contender-text_37">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="136.752545" transform="rotate(-0 184.895 136.752545)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_38">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="161.426861" transform="rotate(-0 184.895 161.426861)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_39">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="186.101177" transform="rotate(-0 184.895 186.101177)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_40">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="210.775492" transform="rotate(-0 184.895 210.775492)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_41">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="235.449808" transform="rotate(-0 184.895 235.449808)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="260.124123" transform="rotate(-0 184.895 260.124123)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="284.798439" transform="rotate(-0 184.895 284.798439)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="309.472755" transform="rotate(-0 184.895 309.472755)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_45">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="334.14707" transform="rotate(-0 184.895 334.14707)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_46">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="358.821386" transform="rotate(-0 184.895 358.821386)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_47">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="383.495702" transform="rotate(-0 184.895 383.495702)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_48">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="408.170017" transform="rotate(-0 184.895 408.170017)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_49">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="432.844333" transform="rotate(-0 184.895 432.844333)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-LineCollection_4">
+    <path d="M 333.034806 455.440523 
+L 357.709137 455.440523 
+" clip-path="url(#recall-by-contender-p4bfae19699)" style="fill: none; stroke: #777777"/>
+   </g>
+   <g id="recall-by-contender-line2d_44">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="333.034806" y="455.440523" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-line2d_45">
+    <g clip-path="url(#recall-by-contender-p4bfae19699)">
+     <use xlink:href="#recall-by-contender-mbe9922e68b" x="357.709137" y="455.440523" style="fill: #777777; stroke: #777777"/>
+    </g>
+   </g>
+   <g id="recall-by-contender-text_50">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="362.709137" y="457.518648" transform="rotate(-0 362.709137 457.518648)">0.35</text>
+   </g>
+   <g id="recall-by-contender-text_51">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="482.192964" transform="rotate(-0 184.895 482.192964)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_52">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="506.86728" transform="rotate(-0 184.895 506.86728)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_53">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="531.541595" transform="rotate(-0 184.895 531.541595)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_54">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="556.215911" transform="rotate(-0 184.895 556.215911)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_55">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="580.890227" transform="rotate(-0 184.895 580.890227)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_56">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="605.564542" transform="rotate(-0 184.895 605.564542)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_57">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="184.895" y="630.238858" transform="rotate(-0 184.895 630.238858)">  n/a</text>
+   </g>
+   <g id="recall-by-contender-text_58">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">dvpwa</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="recall-by-contender-p4bfae19699">
+   <rect x="184.895" y="23.64" width="525.385" height="616.857891"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="205.92pt" viewBox="0 0 720 205.92" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of tool calls per bout by tool, per contender">
+ <title>Stacked bars of tool calls per bout by tool, per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="tool-calls-figure_1">
+  <g id="tool-calls-patch_1">
+   <path d="M 0 205.92 
+L 720 205.92 
+L 720 0 
+L 0 0 
+L 0 205.92 
+z
+" style="fill: none"/>
+  </g>
+  <g id="tool-calls-axes_1">
+   <g id="tool-calls-patch_2">
+    <path d="M 134.54 169.617891 
+L 710.28 169.617891 
+L 710.28 41.64 
+L 134.54 41.64 
+L 134.54 169.617891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="tool-calls-matplotlib.axis_1">
+    <g id="tool-calls-xtick_1">
+     <g id="tool-calls-line2d_1"/>
+     <g id="tool-calls-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="134.54" y="179.955781" transform="rotate(-0 134.54 179.955781)">0</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_2">
+     <g id="tool-calls-line2d_2"/>
+     <g id="tool-calls-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="219.834815" y="179.955781" transform="rotate(-0 219.834815 179.955781)">5</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_3">
+     <g id="tool-calls-line2d_3"/>
+     <g id="tool-calls-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="305.12963" y="179.955781" transform="rotate(-0 305.12963 179.955781)">10</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_4">
+     <g id="tool-calls-line2d_4"/>
+     <g id="tool-calls-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="390.424444" y="179.955781" transform="rotate(-0 390.424444 179.955781)">15</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_5">
+     <g id="tool-calls-line2d_5"/>
+     <g id="tool-calls-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="475.719259" y="179.955781" transform="rotate(-0 475.719259 179.955781)">20</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_6">
+     <g id="tool-calls-line2d_6"/>
+     <g id="tool-calls-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="561.014074" y="179.955781" transform="rotate(-0 561.014074 179.955781)">25</text>
+     </g>
+    </g>
+    <g id="tool-calls-xtick_7">
+     <g id="tool-calls-line2d_7"/>
+     <g id="tool-calls-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="646.308889" y="179.955781" transform="rotate(-0 646.308889 179.955781)">30</text>
+     </g>
+    </g>
+    <g id="tool-calls-text_8">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="422.41" y="192.956484" transform="rotate(-0 422.41 192.956484)">mean tool calls per ok bout, pooled over arenas</text>
+    </g>
+   </g>
+   <g id="tool-calls-matplotlib.axis_2">
+    <g id="tool-calls-ytick_1">
+     <g id="tool-calls-line2d_8"/>
+     <g id="tool-calls-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="61.056533" transform="rotate(-0 131.04 61.056533)">baseline</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_2">
+     <g id="tool-calls-line2d_9"/>
+     <g id="tool-calls-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="93.051006" transform="rotate(-0 131.04 93.051006)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_3">
+     <g id="tool-calls-line2d_10"/>
+     <g id="tool-calls-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="125.045479" transform="rotate(-0 131.04 125.045479)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="tool-calls-ytick_4">
+     <g id="tool-calls-line2d_11"/>
+     <g id="tool-calls-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="157.039951" transform="rotate(-0 131.04 157.039951)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="tool-calls-tip0" class="tip"><title>baseline: 19.3 Read calls per bout (n=3)</title>
+    <path d="M 134.54 48.838756 
+L 462.504249 48.838756 
+L 462.504249 66.435716 
+L 134.54 66.435716 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip1" class="tip"><title>baseline: 1 Bash calls per bout (n=3)</title>
+    <path d="M 464.346617 48.838756 
+L 479.563212 48.838756 
+L 479.563212 66.435716 
+L 464.346617 66.435716 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip2" class="tip"><title>baseline: 1 other (Write) calls per bout (n=3)</title>
+    <path d="M 481.40558 48.838756 
+L 496.622175 48.838756 
+L 496.622175 66.435716 
+L 481.40558 66.435716 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip3" class="tip"><title>agamm-owasp-security: 22.3 Read calls per bout (n=3)</title>
+    <path d="M 134.54 80.833229 
+L 513.681138 80.833229 
+L 513.681138 98.430189 
+L 134.54 98.430189 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip4" class="tip"><title>agamm-owasp-security: 1 Bash calls per bout (n=3)</title>
+    <path d="M 515.523506 80.833229 
+L 530.740101 80.833229 
+L 530.740101 98.430189 
+L 515.523506 98.430189 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip5" class="tip"><title>agamm-owasp-security: 1 other (Write) calls per bout (n=3)</title>
+    <path d="M 532.582469 80.833229 
+L 547.799064 80.833229 
+L 547.799064 98.430189 
+L 532.582469 98.430189 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip6" class="tip"><title>anthropic-security-auditor: 20.7 Read calls per bout (n=3)</title>
+    <path d="M 134.54 112.827702 
+L 485.249533 112.827702 
+L 485.249533 130.424662 
+L 134.54 130.424662 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip7" class="tip"><title>anthropic-security-auditor: 1.7 Bash calls per bout (n=3)</title>
+    <path d="M 487.091901 112.827702 
+L 513.681138 112.827702 
+L 513.681138 130.424662 
+L 487.091901 130.424662 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip8" class="tip"><title>anthropic-security-auditor: 1 other (Write) calls per bout (n=3)</title>
+    <path d="M 515.523506 112.827702 
+L 530.740101 112.827702 
+L 530.740101 130.424662 
+L 515.523506 130.424662 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-tip9" class="tip"><title>samber-golang-security: 25 Read calls per bout (n=3)</title>
+    <path d="M 134.54 144.822174 
+L 559.171706 144.822174 
+L 559.171706 162.419134 
+L 134.54 162.419134 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="tool-calls-tip10" class="tip"><title>samber-golang-security: 1 Bash calls per bout (n=3)</title>
+    <path d="M 561.014074 144.822174 
+L 576.230669 144.822174 
+L 576.230669 162.419134 
+L 561.014074 162.419134 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #c98500"/>
+   </g>
+   <g id="tool-calls-tip11" class="tip"><title>samber-golang-security: 1 other (Write) calls per bout (n=3)</title>
+    <path d="M 578.073037 144.822174 
+L 593.289632 144.822174 
+L 593.289632 162.419134 
+L 578.073037 162.419134 
+z
+" clip-path="url(#tool-calls-p7028aeffa4)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="tool-calls-patch_3">
+    <path d="M 134.54 169.617891 
+L 134.54 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tool-calls-patch_4">
+    <path d="M 134.54 169.617891 
+L 710.28 169.617891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="tool-calls-text_13">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="503.464543" y="59.715674" transform="rotate(-0 503.464543 59.715674)">21 calls · 22 turns</text>
+   </g>
+   <g id="tool-calls-text_14">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="554.641432" y="91.710146" transform="rotate(-0 554.641432 91.710146)">24 calls · 25 turns</text>
+   </g>
+   <g id="tool-calls-text_15">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="537.582469" y="123.704619" transform="rotate(-0 537.582469 123.704619)">23 calls · 24 turns</text>
+   </g>
+   <g id="tool-calls-text_16">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="600.132" y="155.699092" transform="rotate(-0 600.132 155.699092)">27 calls · 28 turns</text>
+   </g>
+   <g id="tool-calls-text_17">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="17.64" transform="rotate(-0 134.54 17.64)">How each contender worked: tool calls and turns</text>
+   </g>
+   <g id="tool-calls-legend_1">
+    <g id="tool-calls-patch_5">
+     <path d="M 139.34 35.758125 
+L 147.34 35.758125 
+L 147.34 28.598125 
+L 139.34 28.598125 
+z
+" style="fill: #3987e5; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_18">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="153.74" y="34.918125" transform="rotate(-0 153.74 34.918125)">Read</text>
+    </g>
+    <g id="tool-calls-patch_6">
+     <path d="M 189.84375 35.758125 
+L 197.84375 35.758125 
+L 197.84375 28.598125 
+L 189.84375 28.598125 
+z
+" style="fill: #c98500; stroke: #c98500; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_19">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="204.24375" y="34.918125" transform="rotate(-0 204.24375 34.918125)">Bash</text>
+    </g>
+    <g id="tool-calls-patch_7">
+     <path d="M 239.8725 35.758125 
+L 247.8725 35.758125 
+L 247.8725 28.598125 
+L 239.8725 28.598125 
+z
+" style="fill: #898781; opacity: 0.45; stroke: #898781; stroke-linejoin: miter"/>
+    </g>
+    <g id="tool-calls-text_20">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="254.2725" y="34.918125" transform="rotate(-0 254.2725 34.918125)">other (Write)</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="tool-calls-p7028aeffa4">
+   <rect x="134.54" y="41.64" width="575.74" height="127.977891"/>
+  </clipPath>
+ </defs>
+</svg>

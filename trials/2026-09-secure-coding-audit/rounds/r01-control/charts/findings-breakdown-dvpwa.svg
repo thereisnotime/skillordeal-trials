@@ -1,0 +1,202 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="218.88pt" viewBox="0 0 720 218.88" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of findings per contender by final verdict in dvpwa">
+ <title>Stacked bars of findings per contender by final verdict in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="findings-breakdown-dvpwa-figure_1">
+  <g id="findings-breakdown-dvpwa-patch_1">
+   <path d="M 0 218.88 
+L 720 218.88 
+L 720 0 
+L 0 0 
+L 0 218.88 
+z
+" style="fill: none"/>
+  </g>
+  <g id="findings-breakdown-dvpwa-axes_1">
+   <g id="findings-breakdown-dvpwa-patch_2">
+    <path d="M 134.54 182.577891 
+L 710.28 182.577891 
+L 710.28 26.121875 
+L 134.54 26.121875 
+L 134.54 182.577891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-matplotlib.axis_1">
+    <g id="findings-breakdown-dvpwa-xtick_1">
+     <g id="findings-breakdown-dvpwa-line2d_1"/>
+     <g id="findings-breakdown-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="134.54" y="192.915781" transform="rotate(-0 134.54 192.915781)">0</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-xtick_2">
+     <g id="findings-breakdown-dvpwa-line2d_2"/>
+     <g id="findings-breakdown-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="253.167747" y="192.915781" transform="rotate(-0 253.167747 192.915781)">2</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-xtick_3">
+     <g id="findings-breakdown-dvpwa-line2d_3"/>
+     <g id="findings-breakdown-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="371.795495" y="192.915781" transform="rotate(-0 371.795495 192.915781)">4</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-xtick_4">
+     <g id="findings-breakdown-dvpwa-line2d_4"/>
+     <g id="findings-breakdown-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="490.423242" y="192.915781" transform="rotate(-0 490.423242 192.915781)">6</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-xtick_5">
+     <g id="findings-breakdown-dvpwa-line2d_5"/>
+     <g id="findings-breakdown-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="609.050989" y="192.915781" transform="rotate(-0 609.050989 192.915781)">8</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-text_6">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="422.41" y="205.916484" transform="rotate(-0 422.41 205.916484)">mean findings per ok bout, split by final verdict</text>
+    </g>
+   </g>
+   <g id="findings-breakdown-dvpwa-matplotlib.axis_2">
+    <g id="findings-breakdown-dvpwa-ytick_1">
+     <g id="findings-breakdown-dvpwa-line2d_6"/>
+     <g id="findings-breakdown-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="49.098174" transform="rotate(-0 131.04 49.098174)">baseline</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_2">
+     <g id="findings-breakdown-dvpwa-line2d_7"/>
+     <g id="findings-breakdown-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="88.212178" transform="rotate(-0 131.04 88.212178)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_3">
+     <g id="findings-breakdown-dvpwa-line2d_8"/>
+     <g id="findings-breakdown-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="127.326182" transform="rotate(-0 131.04 127.326182)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="findings-breakdown-dvpwa-ytick_4">
+     <g id="findings-breakdown-dvpwa-line2d_9"/>
+     <g id="findings-breakdown-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="166.440186" transform="rotate(-0 131.04 166.440186)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="findings-breakdown-dvpwa-patch_3">
+    <path d="M 134.54 30.033275 
+L 134.54 30.033275 
+L 134.54 61.324479 
+L 134.54 61.324479 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-patch_4">
+    <path d="M 134.54 30.033275 
+L 134.54 30.033275 
+L 134.54 61.324479 
+L 134.54 61.324479 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #898781"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip0" class="tip"><title>baseline: tp 6.7 per bout (n=3)</title>
+    <path d="M 134.54 34.922526 
+L 527.90961 34.922526 
+L 527.90961 56.435228 
+L 134.54 56.435228 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip1" class="tip"><title>agamm-owasp-security: tp 7.3 per bout (n=3)</title>
+    <path d="M 134.54 74.03653 
+L 567.452192 74.03653 
+L 567.452192 95.549232 
+L 134.54 95.549232 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip2" class="tip"><title>anthropic-security-auditor: tp 8 per bout (n=3)</title>
+    <path d="M 134.54 113.150534 
+L 606.994775 113.150534 
+L 606.994775 134.663236 
+L 134.54 134.663236 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip3" class="tip"><title>anthropic-security-auditor: unknown 0.7 per bout (n=3)</title>
+    <path d="M 609.050989 113.150534 
+L 646.537357 113.150534 
+L 646.537357 134.663236 
+L 609.050989 134.663236 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #898781"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip4" class="tip"><title>samber-golang-security: tp 6.7 per bout (n=3)</title>
+    <path d="M 134.54 152.264538 
+L 527.90961 152.264538 
+L 527.90961 173.77724 
+L 134.54 173.77724 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p9e32fbb080)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-patch_5">
+    <path d="M 134.54 182.577891 
+L 134.54 26.121875 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-patch_6">
+    <path d="M 134.54 182.577891 
+L 710.28 182.577891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_11">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="534.965824" y="47.757002" transform="rotate(-0 534.965824 47.757002)">6.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_12">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="574.508407" y="86.871006" transform="rotate(-0 574.508407 86.871006)">7.3</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_13">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="653.593571" y="125.98501" transform="rotate(-0 653.593571 125.98501)">8.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_14">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="534.965824" y="165.099014" transform="rotate(-0 534.965824 165.099014)">6.7</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="20.121875" transform="rotate(-0 134.54 20.121875)">dvpwa: signal vs noise in findings</text>
+   </g>
+   <g id="findings-breakdown-dvpwa-legend_1">
+    <g id="findings-breakdown-dvpwa-patch_7">
+     <path d="M 616.115 20.24 
+L 624.115 20.24 
+L 624.115 13.08 
+L 616.115 13.08 
+z
+" style="fill: #3987e5"/>
+    </g>
+    <g id="findings-breakdown-dvpwa-text_16">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="630.515" y="19.4" transform="rotate(-0 630.515 19.4)">tp</text>
+    </g>
+    <g id="findings-breakdown-dvpwa-patch_8">
+     <path d="M 654.73 20.24 
+L 662.73 20.24 
+L 662.73 13.08 
+L 654.73 13.08 
+z
+" style="fill: #898781"/>
+    </g>
+    <g id="findings-breakdown-dvpwa-text_17">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="669.13" y="19.4" transform="rotate(-0 669.13 19.4)">unknown</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="findings-breakdown-dvpwa-p9e32fbb080">
+   <rect x="134.54" y="26.121875" width="575.74" height="156.456016"/>
+  </clipPath>
+ </defs>
+</svg>

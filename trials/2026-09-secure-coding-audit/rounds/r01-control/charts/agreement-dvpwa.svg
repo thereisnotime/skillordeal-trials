@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="205.92pt" viewBox="0 0 720 205.92" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Stacked bars of shared and unique problems per contender in dvpwa">
+ <title>Stacked bars of shared and unique problems per contender in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="agreement-dvpwa-figure_1">
+  <g id="agreement-dvpwa-patch_1">
+   <path d="M 0 205.92 
+L 720 205.92 
+L 720 0 
+L 0 0 
+L 0 205.92 
+z
+" style="fill: none"/>
+  </g>
+  <g id="agreement-dvpwa-axes_1">
+   <g id="agreement-dvpwa-patch_2">
+    <path d="M 134.54 169.617891 
+L 710.28 169.617891 
+L 710.28 41.64 
+L 134.54 41.64 
+L 134.54 169.617891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="agreement-dvpwa-matplotlib.axis_1">
+    <g id="agreement-dvpwa-xtick_1">
+     <g id="agreement-dvpwa-line2d_1"/>
+     <g id="agreement-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="134.54" y="179.955781" transform="rotate(-0 134.54 179.955781)">0</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-xtick_2">
+     <g id="agreement-dvpwa-line2d_2"/>
+     <g id="agreement-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="250.851111" y="179.955781" transform="rotate(-0 250.851111 179.955781)">2</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-xtick_3">
+     <g id="agreement-dvpwa-line2d_3"/>
+     <g id="agreement-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="367.162222" y="179.955781" transform="rotate(-0 367.162222 179.955781)">4</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-xtick_4">
+     <g id="agreement-dvpwa-line2d_4"/>
+     <g id="agreement-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="483.473333" y="179.955781" transform="rotate(-0 483.473333 179.955781)">6</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-xtick_5">
+     <g id="agreement-dvpwa-line2d_5"/>
+     <g id="agreement-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="599.784444" y="179.955781" transform="rotate(-0 599.784444 179.955781)">8</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-text_6">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="422.41" y="192.956484" transform="rotate(-0 422.41 192.956484)">distinct problems (finding clusters) reported in any ok bout</text>
+    </g>
+   </g>
+   <g id="agreement-dvpwa-matplotlib.axis_2">
+    <g id="agreement-dvpwa-ytick_1">
+     <g id="agreement-dvpwa-line2d_6"/>
+     <g id="agreement-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="61.056533" transform="rotate(-0 131.04 61.056533)">baseline</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-ytick_2">
+     <g id="agreement-dvpwa-line2d_7"/>
+     <g id="agreement-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="93.051006" transform="rotate(-0 131.04 93.051006)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-ytick_3">
+     <g id="agreement-dvpwa-line2d_8"/>
+     <g id="agreement-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="125.045479" transform="rotate(-0 131.04 125.045479)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="agreement-dvpwa-ytick_4">
+     <g id="agreement-dvpwa-line2d_9"/>
+     <g id="agreement-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="157.039951" transform="rotate(-0 131.04 157.039951)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="agreement-dvpwa-tip0" class="tip"><title>baseline: 7 problems found by every contender</title>
+    <path d="M 134.54 48.838756 
+L 539.535289 48.838756 
+L 539.535289 66.435716 
+L 134.54 66.435716 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-dvpwa-tip1" class="tip"><title>agamm-owasp-security: 7 problems found by every contender</title>
+    <path d="M 134.54 80.833229 
+L 539.535289 80.833229 
+L 539.535289 98.430189 
+L 134.54 98.430189 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-dvpwa-tip2" class="tip"><title>agamm-owasp-security: 1 problem by some others too</title>
+    <path d="M 541.628889 80.833229 
+L 597.690844 80.833229 
+L 597.690844 98.430189 
+L 541.628889 98.430189 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-dvpwa-tip3" class="tip"><title>agamm-owasp-security: 1 problem only this contender
+- 50x.jinja2:6 CWE-209: Exception internals leaked to users via debug mode and 50x template</title>
+    <path d="M 599.784444 80.833229 
+L 655.8464 80.833229 
+L 655.8464 98.430189 
+L 599.784444 98.430189 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-dvpwa-tip4" class="tip"><title>anthropic-security-auditor: 7 problems found by every contender</title>
+    <path d="M 134.54 112.827702 
+L 539.535289 112.827702 
+L 539.535289 130.424662 
+L 134.54 130.424662 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-dvpwa-tip5" class="tip"><title>anthropic-security-auditor: 1 problem by some others too</title>
+    <path d="M 541.628889 112.827702 
+L 597.690844 112.827702 
+L 597.690844 130.424662 
+L 541.628889 130.424662 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #3987e5"/>
+   </g>
+   <g id="agreement-dvpwa-tip6" class="tip"><title>anthropic-security-auditor: 1 problem only this contender
+- requirements.txt:1 CWE-1035: Outdated dependencies with known CVEs (aiohttp 3.5.3, jinja2 2.10, pyyaml 3.13)</title>
+    <path d="M 599.784444 112.827702 
+L 655.8464 112.827702 
+L 655.8464 130.424662 
+L 599.784444 130.424662 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #d95926"/>
+   </g>
+   <g id="agreement-dvpwa-tip7" class="tip"><title>samber-golang-security: 7 problems found by every contender</title>
+    <path d="M 134.54 144.822174 
+L 539.535289 144.822174 
+L 539.535289 162.419134 
+L 134.54 162.419134 
+z
+" clip-path="url(#agreement-dvpwa-p7028aeffa4)" style="fill: #898781"/>
+   </g>
+   <g id="agreement-dvpwa-patch_3">
+    <path d="M 134.54 169.617891 
+L 134.54 41.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="agreement-dvpwa-patch_4">
+    <path d="M 134.54 169.617891 
+L 710.28 169.617891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="agreement-dvpwa-text_11">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="546.628889" y="59.715361" transform="rotate(-0 546.628889 59.715361)">7</text>
+   </g>
+   <g id="agreement-dvpwa-text_12">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="662.94" y="91.709834" transform="rotate(-0 662.94 91.709834)">9</text>
+   </g>
+   <g id="agreement-dvpwa-text_13">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="662.94" y="123.704307" transform="rotate(-0 662.94 123.704307)">9</text>
+   </g>
+   <g id="agreement-dvpwa-text_14">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="546.628889" y="155.698779" transform="rotate(-0 546.628889 155.698779)">7</text>
+   </g>
+   <g id="agreement-dvpwa-text_15">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="17.64" transform="rotate(-0 134.54 17.64)">dvpwa: shared vs unique findings</text>
+   </g>
+   <g id="agreement-dvpwa-legend_1">
+    <g id="agreement-dvpwa-patch_5">
+     <path d="M 139.34 35.758125 
+L 147.34 35.758125 
+L 147.34 28.598125 
+L 139.34 28.598125 
+z
+" style="fill: #898781; stroke: #898781; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-dvpwa-text_16">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="153.74" y="34.918125" transform="rotate(-0 153.74 34.918125)">found by every contender</text>
+    </g>
+    <g id="agreement-dvpwa-patch_6">
+     <path d="M 273.4975 35.758125 
+L 281.4975 35.758125 
+L 281.4975 28.598125 
+L 273.4975 28.598125 
+z
+" style="fill: #3987e5; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-dvpwa-text_17">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="287.8975" y="34.918125" transform="rotate(-0 287.8975 34.918125)">by some others too</text>
+    </g>
+    <g id="agreement-dvpwa-patch_7">
+     <path d="M 381.5225 35.758125 
+L 389.5225 35.758125 
+L 389.5225 28.598125 
+L 381.5225 28.598125 
+z
+" style="fill: #d95926; stroke: #d95926; stroke-linejoin: miter"/>
+    </g>
+    <g id="agreement-dvpwa-text_18">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="395.9225" y="34.918125" transform="rotate(-0 395.9225 34.918125)">only this contender</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="agreement-dvpwa-p7028aeffa4">
+   <rect x="134.54" y="41.64" width="575.74" height="127.977891"/>
+  </clipPath>
+ </defs>
+</svg>

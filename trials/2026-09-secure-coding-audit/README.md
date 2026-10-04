@@ -33,6 +33,19 @@ From r01 (Opus 4.8 at high effort, 3 reps per cell, 95% bootstrap CIs; [full res
 
 Against the [hypothesis](#hypothesis): skills barely moving recall held, and so did the big skills costing more without finding more (`cf-security-audit`). The diff-scoped prediction held for one of the three diff-oriented prompts. Of the controls, `sentry-code-review` matched the baseline as predicted; `samber-golang-security` beat it on dvpwa, against the prediction.
 
+### Control round (r01-control, 2026-10-04)
+
+The first r01 bouts and the 13 later contenders ran ten days apart, so the r01 leads were re-run on dvpwa next to a fresh baseline, same lock, same day ([`rounds/r01-control/RESULTS.md`](rounds/r01-control/RESULTS.md)). True positives per run:
+
+| contender | r01 runs | same-day runs | Δ vs same-day baseline | pooled (6 runs each) Δ vs baseline |
+|---|---|---|---|---|
+| baseline | 7, 5, 6 | 7, 7, 6 | | |
+| `anthropic-security-auditor` | 8, 8, 8 | 8, 8, 8 | +1.3 [1.0, 2.0] | **+1.7 [1.2, 2.3]** |
+| `agamm-owasp-security` | 8, 7, 8 | 7, 8, 7 | +0.7 [0.0, 1.3] | +1.2 [0.5, 1.8] |
+| `samber-golang-security` | 8, 7, 7 | 7, 6, 7 | 0.0 [-0.7, 0.7] | +0.7 [0.0, 1.5] |
+
+`anthropic-security-auditor` reproduces: 8 known bugs in all six runs across both days. `agamm-owasp-security` keeps a smaller edge, and `samber-golang-security`'s r01 result was noise. The baseline drifted up by about 0.7 TP between the two dates, which inflated the r01 gaps a little but doesn't explain them. On the harder [filebrowser trial](../2026-10-filebrowser-cve-audit/) the same lead found none of the 11 real CVEs, so the edge is broader coverage of textbook bugs, not deeper analysis.
+
 ## Setup
 
 | | |

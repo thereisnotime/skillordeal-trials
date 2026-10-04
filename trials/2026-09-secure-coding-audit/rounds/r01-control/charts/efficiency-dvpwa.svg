@@ -1,0 +1,397 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="194.4pt" viewBox="0 0 720 194.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Cost and time per TP per contender in dvpwa">
+ <title>Cost and time per TP per contender in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="efficiency-dvpwa-figure_1">
+  <g id="efficiency-dvpwa-patch_1">
+   <path d="M 0 194.4 
+L 720 194.4 
+L 720 0 
+L 0 0 
+L 0 194.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="efficiency-dvpwa-axes_1">
+   <g id="efficiency-dvpwa-patch_2">
+    <path d="M 134.54 172.18 
+L 416.602727 172.18 
+L 416.602727 42.962344 
+L 134.54 42.962344 
+L 134.54 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_1">
+    <g id="efficiency-dvpwa-xtick_1">
+     <g id="efficiency-dvpwa-line2d_1"/>
+     <g id="efficiency-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="139.152409" y="182.517891" transform="rotate(-0 139.152409 182.517891)">0.05</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_2">
+     <g id="efficiency-dvpwa-line2d_2"/>
+     <g id="efficiency-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="201.417591" y="182.517891" transform="rotate(-0 201.417591 182.517891)">0.06</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_3">
+     <g id="efficiency-dvpwa-line2d_3"/>
+     <g id="efficiency-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="263.682772" y="182.517891" transform="rotate(-0 263.682772 182.517891)">0.07</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_4">
+     <g id="efficiency-dvpwa-line2d_4"/>
+     <g id="efficiency-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="325.947954" y="182.517891" transform="rotate(-0 325.947954 182.517891)">0.08</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_5">
+     <g id="efficiency-dvpwa-line2d_5"/>
+     <g id="efficiency-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="388.213136" y="182.517891" transform="rotate(-0 388.213136 182.517891)">0.09</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_2">
+    <g id="efficiency-dvpwa-ytick_1">
+     <g id="efficiency-dvpwa-line2d_6"/>
+     <g id="efficiency-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="62.533848" transform="rotate(-0 131.04 62.533848)">baseline</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_2">
+     <g id="efficiency-dvpwa-line2d_7"/>
+     <g id="efficiency-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="94.838262" transform="rotate(-0 131.04 94.838262)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_3">
+     <g id="efficiency-dvpwa-line2d_8"/>
+     <g id="efficiency-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="127.142676" transform="rotate(-0 131.04 127.142676)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-ytick_4">
+     <g id="efficiency-dvpwa-line2d_9"/>
+     <g id="efficiency-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="159.44709" transform="rotate(-0 131.04 159.44709)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-line2d_10">
+    <path d="M 225.795447 172.18 
+L 225.795447 42.962344 
+" clip-path="url(#efficiency-dvpwa-pbb21003aab)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_3">
+    <path d="M 134.54 172.18 
+L 134.54 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_4">
+    <path d="M 134.54 172.18 
+L 416.602727 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-tip0" class="tip"><title>baseline, bout 1 of 3: $ per TP 0.065</title>
+    <defs>
+     <path id="efficiency-dvpwa-ma432050c96" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="232.818811" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip1" class="tip"><title>baseline, bout 2 of 3: $ per TP 0.064</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="224.25557" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip2" class="tip"><title>baseline, bout 3 of 3: $ per TP 0.063</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="220.31196" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip4" class="tip"><title>agamm-owasp-security, bout 1 of 3: $ per TP 0.090</title>
+    <defs>
+     <path id="efficiency-dvpwa-m6cdce938b5" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="386.158385" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip5" class="tip"><title>agamm-owasp-security, bout 2 of 3: $ per TP 0.054</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="161.836393" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip6" class="tip"><title>agamm-owasp-security, bout 3 of 3: $ per TP 0.074</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="287.240359" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip8" class="tip"><title>anthropic-security-auditor, bout 1 of 3: $ per TP 0.065</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="230.097712" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip9" class="tip"><title>anthropic-security-auditor, bout 2 of 3: $ per TP 0.057</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="184.603657" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip10" class="tip"><title>anthropic-security-auditor, bout 3 of 3: $ per TP 0.074</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="289.984363" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip12" class="tip"><title>samber-golang-security, bout 1 of 3: $ per TP 0.080</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="325.947064" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip13" class="tip"><title>samber-golang-security, bout 2 of 3: $ per TP 0.083</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="343.897968" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip14" class="tip"><title>samber-golang-security, bout 3 of 3: $ per TP 0.090</title>
+    <g clip-path="url(#efficiency-dvpwa-pbb21003aab)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="389.306334" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-text_10">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="239.818811" y="61.062793" transform="rotate(-0 239.818811 61.062793)">0.064</text>
+   </g>
+   <g id="efficiency-dvpwa-text_11">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="393.158385" y="93.367207" transform="rotate(-0 393.158385 93.367207)">0.072</text>
+   </g>
+   <g id="efficiency-dvpwa-text_12">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="296.984363" y="125.671621" transform="rotate(-0 296.984363 125.671621)">0.065</text>
+   </g>
+   <g id="efficiency-dvpwa-text_13">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="396.306334" y="157.976035" transform="rotate(-0 396.306334 157.976035)">0.084</text>
+   </g>
+   <g id="efficiency-dvpwa-text_14">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="36.962344" transform="rotate(-0 134.54 36.962344)">$ per TP (lower is better)</text>
+   </g>
+   <g id="efficiency-dvpwa-tip3" class="tip"><title>baseline: mean $ per TP 0.064 (n=3)</title>
+    <path d="M 225.795447 48.13105 
+L 225.795447 70.098052 
+" clip-path="url(#efficiency-dvpwa-pbb21003aab)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip7" class="tip"><title>agamm-owasp-security: mean $ per TP 0.072 (n=3)</title>
+    <path d="M 278.411712 80.435464 
+L 278.411712 102.402466 
+" clip-path="url(#efficiency-dvpwa-pbb21003aab)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip11" class="tip"><title>anthropic-security-auditor: mean $ per TP 0.065 (n=3)</title>
+    <path d="M 234.895244 112.739878 
+L 234.895244 134.70688 
+" clip-path="url(#efficiency-dvpwa-pbb21003aab)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip15" class="tip"><title>samber-golang-security: mean $ per TP 0.084 (n=3)</title>
+    <path d="M 353.050456 145.044292 
+L 353.050456 167.011294 
+" clip-path="url(#efficiency-dvpwa-pbb21003aab)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-dvpwa-axes_2">
+   <g id="efficiency-dvpwa-patch_5">
+    <path d="M 428.217273 172.18 
+L 710.28 172.18 
+L 710.28 42.962344 
+L 428.217273 42.962344 
+L 428.217273 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_3">
+    <g id="efficiency-dvpwa-xtick_6">
+     <g id="efficiency-dvpwa-line2d_11"/>
+     <g id="efficiency-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="486.457872" y="182.517891" transform="rotate(-0 486.457872 182.517891)">12</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_7">
+     <g id="efficiency-dvpwa-line2d_12"/>
+     <g id="efficiency-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="552.136903" y="182.517891" transform="rotate(-0 552.136903 182.517891)">14</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_8">
+     <g id="efficiency-dvpwa-line2d_13"/>
+     <g id="efficiency-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="617.815934" y="182.517891" transform="rotate(-0 617.815934 182.517891)">16</text>
+     </g>
+    </g>
+    <g id="efficiency-dvpwa-xtick_9">
+     <g id="efficiency-dvpwa-line2d_14"/>
+     <g id="efficiency-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="683.494965" y="182.517891" transform="rotate(-0 683.494965 182.517891)">18</text>
+     </g>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-matplotlib.axis_4">
+    <g id="efficiency-dvpwa-ytick_5">
+     <g id="efficiency-dvpwa-line2d_15"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_6">
+     <g id="efficiency-dvpwa-line2d_16"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_7">
+     <g id="efficiency-dvpwa-line2d_17"/>
+    </g>
+    <g id="efficiency-dvpwa-ytick_8">
+     <g id="efficiency-dvpwa-line2d_18"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-line2d_19">
+    <path d="M 467.815713 172.18 
+L 467.815713 42.962344 
+" clip-path="url(#efficiency-dvpwa-p8d2f0345b5)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_6">
+    <path d="M 428.217273 172.18 
+L 428.217273 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-patch_7">
+    <path d="M 428.217273 172.18 
+L 710.28 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="efficiency-dvpwa-tip16" class="tip"><title>baseline, bout 1 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="455.513666" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip17" class="tip"><title>baseline, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="460.397371" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip18" class="tip"><title>baseline, bout 3 of 3: wall seconds per TP 12</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-ma432050c96" x="487.536103" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip20" class="tip"><title>agamm-owasp-security, bout 1 of 3: wall seconds per TP 14</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="540.591468" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip21" class="tip"><title>agamm-owasp-security, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="459.13129" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip22" class="tip"><title>agamm-owasp-security, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="525.095908" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip24" class="tip"><title>anthropic-security-auditor, bout 1 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="505.127137" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip25" class="tip"><title>anthropic-security-auditor, bout 2 of 3: wall seconds per TP 11</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="466.409348" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip26" class="tip"><title>anthropic-security-auditor, bout 3 of 3: wall seconds per TP 13</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="528.176372" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip28" class="tip"><title>samber-golang-security, bout 1 of 3: wall seconds per TP 15</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="575.368515" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip29" class="tip"><title>samber-golang-security, bout 2 of 3: wall seconds per TP 16</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="617.350708" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-tip30" class="tip"><title>samber-golang-security, bout 3 of 3: wall seconds per TP 18</title>
+    <g clip-path="url(#efficiency-dvpwa-p8d2f0345b5)">
+     <use xlink:href="#efficiency-dvpwa-m6cdce938b5" x="682.983607" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="efficiency-dvpwa-text_19">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="494.536103" y="61.062793" transform="rotate(-0 494.536103 61.062793)">11</text>
+   </g>
+   <g id="efficiency-dvpwa-text_20">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="547.591468" y="93.367207" transform="rotate(-0 547.591468 93.367207)">13</text>
+   </g>
+   <g id="efficiency-dvpwa-text_21">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="535.176372" y="125.671621" transform="rotate(-0 535.176372 125.671621)">12</text>
+   </g>
+   <g id="efficiency-dvpwa-text_22">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="689.983607" y="157.976035" transform="rotate(-0 689.983607 157.976035)">16</text>
+   </g>
+   <g id="efficiency-dvpwa-text_23">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="428.217273" y="36.962344" transform="rotate(-0 428.217273 36.962344)">wall seconds per TP (lower is better)</text>
+   </g>
+   <g id="efficiency-dvpwa-tip19" class="tip"><title>baseline: mean wall seconds per TP 11 (n=3)</title>
+    <path d="M 467.815713 48.13105 
+L 467.815713 70.098052 
+" clip-path="url(#efficiency-dvpwa-p8d2f0345b5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip23" class="tip"><title>agamm-owasp-security: mean wall seconds per TP 13 (n=3)</title>
+    <path d="M 508.272889 80.435464 
+L 508.272889 102.402466 
+" clip-path="url(#efficiency-dvpwa-p8d2f0345b5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip27" class="tip"><title>anthropic-security-auditor: mean wall seconds per TP 12 (n=3)</title>
+    <path d="M 499.904285 112.739878 
+L 499.904285 134.70688 
+" clip-path="url(#efficiency-dvpwa-p8d2f0345b5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="efficiency-dvpwa-tip31" class="tip"><title>samber-golang-security: mean wall seconds per TP 16 (n=3)</title>
+    <path d="M 625.234276 145.044292 
+L 625.234276 167.011294 
+" clip-path="url(#efficiency-dvpwa-p8d2f0345b5)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="efficiency-dvpwa-text_24">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="11.486437" transform="rotate(-0 7.2 11.486437)">dvpwa: what one TP costs</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="efficiency-dvpwa-pbb21003aab">
+   <rect x="134.54" y="42.962344" width="282.062727" height="129.217656"/>
+  </clipPath>
+  <clipPath id="efficiency-dvpwa-p8d2f0345b5">
+   <rect x="428.217273" y="42.962344" width="282.062727" height="129.217656"/>
+  </clipPath>
+ </defs>
+</svg>

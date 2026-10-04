@@ -1,0 +1,1014 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="673.2pt" viewBox="0 0 720 673.2" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Grid of ground-truth issues by contender in dvpwa, shaded by how often found">
+ <title>Grid of ground-truth issues by contender in dvpwa, shaded by how often found</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="coverage-dvpwa-figure_1">
+  <g id="coverage-dvpwa-patch_1">
+   <path d="M 0 673.2 
+L 720 673.2 
+L 720 0 
+L 0 0 
+L 0 673.2 
+z
+" style="fill: none"/>
+  </g>
+  <g id="coverage-dvpwa-axes_1">
+   <g id="coverage-dvpwa-patch_2">
+    <path d="M 159.75125 644.678125 
+L 645.435 644.678125 
+L 645.435 112.753947 
+L 159.75125 112.753947 
+L 159.75125 644.678125 
+z
+" style="fill: none"/>
+   </g>
+   <g id="coverage-dvpwa-tip0" class="tip"><title>baseline · sqli-student-create: found in 3 of 3 ok bouts
+SQL injection in student creation</title>
+    <path d="M 165.822297 135.733071 
+L 275.101141 135.733071 
+L 275.101141 153.605723 
+L 165.822297 153.605723 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip1" class="tip"><title>agamm-owasp-security · sqli-student-create: found in 3 of 3 ok bouts
+SQL injection in student creation</title>
+    <path d="M 287.243234 135.733071 
+L 396.522078 135.733071 
+L 396.522078 153.605723 
+L 287.243234 153.605723 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip2" class="tip"><title>anthropic-security-auditor · sqli-student-create: found in 3 of 3 ok bouts
+SQL injection in student creation</title>
+    <path d="M 408.664172 135.733071 
+L 517.943016 135.733071 
+L 517.943016 153.605723 
+L 408.664172 153.605723 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip3" class="tip"><title>samber-golang-security · sqli-student-create: found in 3 of 3 ok bouts
+SQL injection in student creation</title>
+    <path d="M 530.085109 135.733071 
+L 639.363953 135.733071 
+L 639.363953 153.605723 
+L 530.085109 153.605723 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip4" class="tip"><title>baseline · xss-review-stored: found in 3 of 3 ok bouts
+Stored XSS in course reviews (Jinja2 autoescape disabled)</title>
+    <path d="M 165.822297 178.287005 
+L 275.101141 178.287005 
+L 275.101141 196.159658 
+L 165.822297 196.159658 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip5" class="tip"><title>agamm-owasp-security · xss-review-stored: found in 3 of 3 ok bouts
+Stored XSS in course reviews (Jinja2 autoescape disabled)</title>
+    <path d="M 287.243234 178.287005 
+L 396.522078 178.287005 
+L 396.522078 196.159658 
+L 287.243234 196.159658 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip6" class="tip"><title>anthropic-security-auditor · xss-review-stored: found in 3 of 3 ok bouts
+Stored XSS in course reviews (Jinja2 autoescape disabled)</title>
+    <path d="M 408.664172 178.287005 
+L 517.943016 178.287005 
+L 517.943016 196.159658 
+L 408.664172 196.159658 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip7" class="tip"><title>samber-golang-security · xss-review-stored: found in 3 of 3 ok bouts
+Stored XSS in course reviews (Jinja2 autoescape disabled)</title>
+    <path d="M 530.085109 178.287005 
+L 639.363953 178.287005 
+L 639.363953 196.159658 
+L 530.085109 196.159658 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip8" class="tip"><title>baseline · missing-authz-evaluate: found in 2 of 3 ok bouts
+Grading endpoint has no authentication or admin check</title>
+    <path d="M 165.822297 199.563972 
+L 275.101141 199.563972 
+L 275.101141 217.436625 
+L 165.822297 217.436625 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5; opacity: 0.8"/>
+   </g>
+   <g id="coverage-dvpwa-tip9" class="tip"><title>agamm-owasp-security · missing-authz-evaluate: found in 3 of 3 ok bouts
+Grading endpoint has no authentication or admin check</title>
+    <path d="M 287.243234 199.563972 
+L 396.522078 199.563972 
+L 396.522078 217.436625 
+L 287.243234 217.436625 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip10" class="tip"><title>anthropic-security-auditor · missing-authz-evaluate: found in 3 of 3 ok bouts
+Grading endpoint has no authentication or admin check</title>
+    <path d="M 408.664172 199.563972 
+L 517.943016 199.563972 
+L 517.943016 217.436625 
+L 408.664172 217.436625 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip11" class="tip"><title>samber-golang-security · missing-authz-evaluate: found in 2 of 3 ok bouts
+Grading endpoint has no authentication or admin check</title>
+    <path d="M 530.085109 199.563972 
+L 639.363953 199.563972 
+L 639.363953 217.436625 
+L 530.085109 217.436625 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5; opacity: 0.8"/>
+   </g>
+   <g id="coverage-dvpwa-tip12" class="tip"><title>baseline · missing-authz-course-create: found in 0 of 3 ok bouts
+Course creation has no authentication or admin check</title>
+    <path d="M 165.822297 220.84094 
+L 275.101141 220.84094 
+L 275.101141 238.713592 
+L 165.822297 238.713592 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip13" class="tip"><title>agamm-owasp-security · missing-authz-course-create: found in 0 of 3 ok bouts
+Course creation has no authentication or admin check</title>
+    <path d="M 287.243234 220.84094 
+L 396.522078 220.84094 
+L 396.522078 238.713592 
+L 287.243234 238.713592 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip14" class="tip"><title>anthropic-security-auditor · missing-authz-course-create: found in 0 of 3 ok bouts
+Course creation has no authentication or admin check</title>
+    <path d="M 408.664172 220.84094 
+L 517.943016 220.84094 
+L 517.943016 238.713592 
+L 408.664172 238.713592 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip15" class="tip"><title>samber-golang-security · missing-authz-course-create: found in 0 of 3 ok bouts
+Course creation has no authentication or admin check</title>
+    <path d="M 530.085109 220.84094 
+L 639.363953 220.84094 
+L 639.363953 238.713592 
+L 530.085109 238.713592 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip16" class="tip"><title>baseline · session-fixation: found in 0 of 3 ok bouts
+Session identifier not rotated on login or logout</title>
+    <path d="M 165.822297 242.117907 
+L 275.101141 242.117907 
+L 275.101141 259.990559 
+L 165.822297 259.990559 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip17" class="tip"><title>agamm-owasp-security · session-fixation: found in 0 of 3 ok bouts
+Session identifier not rotated on login or logout</title>
+    <path d="M 287.243234 242.117907 
+L 396.522078 242.117907 
+L 396.522078 259.990559 
+L 287.243234 259.990559 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip18" class="tip"><title>anthropic-security-auditor · session-fixation: found in 0 of 3 ok bouts
+Session identifier not rotated on login or logout</title>
+    <path d="M 408.664172 242.117907 
+L 517.943016 242.117907 
+L 517.943016 259.990559 
+L 408.664172 259.990559 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip19" class="tip"><title>samber-golang-security · session-fixation: found in 0 of 3 ok bouts
+Session identifier not rotated on login or logout</title>
+    <path d="M 530.085109 242.117907 
+L 639.363953 242.117907 
+L 639.363953 259.990559 
+L 530.085109 259.990559 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip20" class="tip"><title>baseline · xss-student-name: found in 0 of 3 ok bouts
+Stored XSS via student name on list and evaluate pages</title>
+    <path d="M 165.822297 263.394874 
+L 275.101141 263.394874 
+L 275.101141 281.267526 
+L 165.822297 281.267526 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip21" class="tip"><title>agamm-owasp-security · xss-student-name: found in 0 of 3 ok bouts
+Stored XSS via student name on list and evaluate pages</title>
+    <path d="M 287.243234 263.394874 
+L 396.522078 263.394874 
+L 396.522078 281.267526 
+L 287.243234 281.267526 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip22" class="tip"><title>anthropic-security-auditor · xss-student-name: found in 0 of 3 ok bouts
+Stored XSS via student name on list and evaluate pages</title>
+    <path d="M 408.664172 263.394874 
+L 517.943016 263.394874 
+L 517.943016 281.267526 
+L 408.664172 281.267526 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip23" class="tip"><title>samber-golang-security · xss-student-name: found in 0 of 3 ok bouts
+Stored XSS via student name on list and evaluate pages</title>
+    <path d="M 530.085109 263.394874 
+L 639.363953 263.394874 
+L 639.363953 281.267526 
+L 530.085109 281.267526 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip24" class="tip"><title>baseline · csrf-protection-disabled: found in 3 of 3 ok bouts
+CSRF middleware disabled, state-changing POSTs unprotected</title>
+    <path d="M 165.822297 305.948808 
+L 275.101141 305.948808 
+L 275.101141 323.821461 
+L 165.822297 323.821461 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip25" class="tip"><title>agamm-owasp-security · csrf-protection-disabled: found in 3 of 3 ok bouts
+CSRF middleware disabled, state-changing POSTs unprotected</title>
+    <path d="M 287.243234 305.948808 
+L 396.522078 305.948808 
+L 396.522078 323.821461 
+L 287.243234 323.821461 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip26" class="tip"><title>anthropic-security-auditor · csrf-protection-disabled: found in 3 of 3 ok bouts
+CSRF middleware disabled, state-changing POSTs unprotected</title>
+    <path d="M 408.664172 305.948808 
+L 517.943016 305.948808 
+L 517.943016 323.821461 
+L 408.664172 323.821461 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip27" class="tip"><title>samber-golang-security · csrf-protection-disabled: found in 3 of 3 ok bouts
+CSRF middleware disabled, state-changing POSTs unprotected</title>
+    <path d="M 530.085109 305.948808 
+L 639.363953 305.948808 
+L 639.363953 323.821461 
+L 530.085109 323.821461 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip28" class="tip"><title>baseline · md5-password-hash: found in 3 of 3 ok bouts
+Passwords stored as unsalted MD5</title>
+    <path d="M 165.822297 327.225775 
+L 275.101141 327.225775 
+L 275.101141 345.098428 
+L 165.822297 345.098428 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip29" class="tip"><title>agamm-owasp-security · md5-password-hash: found in 3 of 3 ok bouts
+Passwords stored as unsalted MD5</title>
+    <path d="M 287.243234 327.225775 
+L 396.522078 327.225775 
+L 396.522078 345.098428 
+L 287.243234 345.098428 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip30" class="tip"><title>anthropic-security-auditor · md5-password-hash: found in 3 of 3 ok bouts
+Passwords stored as unsalted MD5</title>
+    <path d="M 408.664172 327.225775 
+L 517.943016 327.225775 
+L 517.943016 345.098428 
+L 408.664172 345.098428 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip31" class="tip"><title>samber-golang-security · md5-password-hash: found in 3 of 3 ok bouts
+Passwords stored as unsalted MD5</title>
+    <path d="M 530.085109 327.225775 
+L 639.363953 327.225775 
+L 639.363953 345.098428 
+L 530.085109 345.098428 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip32" class="tip"><title>baseline · session-cookie-flags: found in 3 of 3 ok bouts
+Session cookie set without HttpOnly or Secure</title>
+    <path d="M 165.822297 348.502742 
+L 275.101141 348.502742 
+L 275.101141 366.375395 
+L 165.822297 366.375395 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip33" class="tip"><title>agamm-owasp-security · session-cookie-flags: found in 3 of 3 ok bouts
+Session cookie set without HttpOnly or Secure</title>
+    <path d="M 287.243234 348.502742 
+L 396.522078 348.502742 
+L 396.522078 366.375395 
+L 287.243234 366.375395 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip34" class="tip"><title>anthropic-security-auditor · session-cookie-flags: found in 3 of 3 ok bouts
+Session cookie set without HttpOnly or Secure</title>
+    <path d="M 408.664172 348.502742 
+L 517.943016 348.502742 
+L 517.943016 366.375395 
+L 408.664172 366.375395 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip35" class="tip"><title>samber-golang-security · session-cookie-flags: found in 3 of 3 ok bouts
+Session cookie set without HttpOnly or Secure</title>
+    <path d="M 530.085109 348.502742 
+L 639.363953 348.502742 
+L 639.363953 366.375395 
+L 530.085109 366.375395 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip36" class="tip"><title>baseline · default-admin-credentials: found in 0 of 3 ok bouts
+Seeded admin account with password equal to username</title>
+    <path d="M 165.822297 369.77971 
+L 275.101141 369.77971 
+L 275.101141 387.652362 
+L 165.822297 387.652362 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip37" class="tip"><title>agamm-owasp-security · default-admin-credentials: found in 0 of 3 ok bouts
+Seeded admin account with password equal to username</title>
+    <path d="M 287.243234 369.77971 
+L 396.522078 369.77971 
+L 396.522078 387.652362 
+L 287.243234 387.652362 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip38" class="tip"><title>anthropic-security-auditor · default-admin-credentials: found in 0 of 3 ok bouts
+Seeded admin account with password equal to username</title>
+    <path d="M 408.664172 369.77971 
+L 517.943016 369.77971 
+L 517.943016 387.652362 
+L 408.664172 387.652362 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip39" class="tip"><title>samber-golang-security · default-admin-credentials: found in 0 of 3 ok bouts
+Seeded admin account with password equal to username</title>
+    <path d="M 530.085109 369.77971 
+L 639.363953 369.77971 
+L 639.363953 387.652362 
+L 530.085109 387.652362 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip40" class="tip"><title>baseline · missing-authn-student-create: found in 0 of 3 ok bouts
+Student creation has no authentication check</title>
+    <path d="M 165.822297 391.056677 
+L 275.101141 391.056677 
+L 275.101141 408.929329 
+L 165.822297 408.929329 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip41" class="tip"><title>agamm-owasp-security · missing-authn-student-create: found in 0 of 3 ok bouts
+Student creation has no authentication check</title>
+    <path d="M 287.243234 391.056677 
+L 396.522078 391.056677 
+L 396.522078 408.929329 
+L 287.243234 408.929329 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip42" class="tip"><title>anthropic-security-auditor · missing-authn-student-create: found in 0 of 3 ok bouts
+Student creation has no authentication check</title>
+    <path d="M 408.664172 391.056677 
+L 517.943016 391.056677 
+L 517.943016 408.929329 
+L 408.664172 408.929329 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip43" class="tip"><title>samber-golang-security · missing-authn-student-create: found in 0 of 3 ok bouts
+Student creation has no authentication check</title>
+    <path d="M 530.085109 391.056677 
+L 639.363953 391.056677 
+L 639.363953 408.929329 
+L 530.085109 408.929329 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip44" class="tip"><title>baseline · postgres-exposed-no-password: found in 0 of 3 ok bouts
+Postgres published on the host with trust authentication</title>
+    <path d="M 165.822297 412.333644 
+L 275.101141 412.333644 
+L 275.101141 430.206296 
+L 165.822297 430.206296 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip45" class="tip"><title>agamm-owasp-security · postgres-exposed-no-password: found in 0 of 3 ok bouts
+Postgres published on the host with trust authentication</title>
+    <path d="M 287.243234 412.333644 
+L 396.522078 412.333644 
+L 396.522078 430.206296 
+L 287.243234 430.206296 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip46" class="tip"><title>anthropic-security-auditor · postgres-exposed-no-password: found in 0 of 3 ok bouts
+Postgres published on the host with trust authentication</title>
+    <path d="M 408.664172 412.333644 
+L 517.943016 412.333644 
+L 517.943016 430.206296 
+L 408.664172 430.206296 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip47" class="tip"><title>samber-golang-security · postgres-exposed-no-password: found in 0 of 3 ok bouts
+Postgres published on the host with trust authentication</title>
+    <path d="M 530.085109 412.333644 
+L 639.363953 412.333644 
+L 639.363953 430.206296 
+L 530.085109 430.206296 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip48" class="tip"><title>baseline · xss-course-fields: found in 0 of 3 ok bouts
+Stored XSS via course title and description</title>
+    <path d="M 165.822297 433.610611 
+L 275.101141 433.610611 
+L 275.101141 451.483263 
+L 165.822297 451.483263 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip49" class="tip"><title>agamm-owasp-security · xss-course-fields: found in 0 of 3 ok bouts
+Stored XSS via course title and description</title>
+    <path d="M 287.243234 433.610611 
+L 396.522078 433.610611 
+L 396.522078 451.483263 
+L 287.243234 451.483263 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip50" class="tip"><title>anthropic-security-auditor · xss-course-fields: found in 0 of 3 ok bouts
+Stored XSS via course title and description</title>
+    <path d="M 408.664172 433.610611 
+L 517.943016 433.610611 
+L 517.943016 451.483263 
+L 408.664172 451.483263 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip51" class="tip"><title>samber-golang-security · xss-course-fields: found in 0 of 3 ok bouts
+Stored XSS via course title and description</title>
+    <path d="M 530.085109 433.610611 
+L 639.363953 433.610611 
+L 639.363953 451.483263 
+L 530.085109 451.483263 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip52" class="tip"><title>baseline · debug-mode: found in 3 of 3 ok bouts
+Application runs in debug mode with DEBUG logging</title>
+    <path d="M 165.822297 476.164545 
+L 275.101141 476.164545 
+L 275.101141 494.037198 
+L 165.822297 494.037198 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip53" class="tip"><title>agamm-owasp-security · debug-mode: found in 2 of 3 ok bouts
+Application runs in debug mode with DEBUG logging</title>
+    <path d="M 287.243234 476.164545 
+L 396.522078 476.164545 
+L 396.522078 494.037198 
+L 287.243234 494.037198 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5; opacity: 0.8"/>
+   </g>
+   <g id="coverage-dvpwa-tip54" class="tip"><title>anthropic-security-auditor · debug-mode: found in 3 of 3 ok bouts
+Application runs in debug mode with DEBUG logging</title>
+    <path d="M 408.664172 476.164545 
+L 517.943016 476.164545 
+L 517.943016 494.037198 
+L 408.664172 494.037198 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip55" class="tip"><title>samber-golang-security · debug-mode: found in 3 of 3 ok bouts
+Application runs in debug mode with DEBUG logging</title>
+    <path d="M 530.085109 476.164545 
+L 639.363953 476.164545 
+L 639.363953 494.037198 
+L 530.085109 494.037198 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip56" class="tip"><title>baseline · hardcoded-db-credentials: found in 0 of 3 ok bouts
+Database credentials hardcoded in committed config</title>
+    <path d="M 165.822297 497.441512 
+L 275.101141 497.441512 
+L 275.101141 515.314165 
+L 165.822297 515.314165 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip57" class="tip"><title>agamm-owasp-security · hardcoded-db-credentials: found in 1 of 3 ok bouts
+Database credentials hardcoded in committed config</title>
+    <path d="M 287.243234 497.441512 
+L 396.522078 497.441512 
+L 396.522078 515.314165 
+L 287.243234 515.314165 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5; opacity: 0.6"/>
+   </g>
+   <g id="coverage-dvpwa-tip58" class="tip"><title>anthropic-security-auditor · hardcoded-db-credentials: found in 3 of 3 ok bouts
+Database credentials hardcoded in committed config</title>
+    <path d="M 408.664172 497.441512 
+L 517.943016 497.441512 
+L 517.943016 515.314165 
+L 408.664172 515.314165 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5"/>
+   </g>
+   <g id="coverage-dvpwa-tip59" class="tip"><title>samber-golang-security · hardcoded-db-credentials: found in 0 of 3 ok bouts
+Database credentials hardcoded in committed config</title>
+    <path d="M 530.085109 497.441512 
+L 639.363953 497.441512 
+L 639.363953 515.314165 
+L 530.085109 515.314165 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip60" class="tip"><title>baseline · error-page-info-leak: found in 0 of 3 ok bouts
+5xx error page dumps exception internals</title>
+    <path d="M 165.822297 518.71848 
+L 275.101141 518.71848 
+L 275.101141 536.591132 
+L 165.822297 536.591132 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip61" class="tip"><title>agamm-owasp-security · error-page-info-leak: found in 1 of 3 ok bouts
+5xx error page dumps exception internals</title>
+    <path d="M 287.243234 518.71848 
+L 396.522078 518.71848 
+L 396.522078 536.591132 
+L 287.243234 536.591132 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #3987e5; opacity: 0.6"/>
+   </g>
+   <g id="coverage-dvpwa-tip62" class="tip"><title>anthropic-security-auditor · error-page-info-leak: found in 0 of 3 ok bouts
+5xx error page dumps exception internals</title>
+    <path d="M 408.664172 518.71848 
+L 517.943016 518.71848 
+L 517.943016 536.591132 
+L 408.664172 536.591132 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip63" class="tip"><title>samber-golang-security · error-page-info-leak: found in 0 of 3 ok bouts
+5xx error page dumps exception internals</title>
+    <path d="M 530.085109 518.71848 
+L 639.363953 518.71848 
+L 639.363953 536.591132 
+L 530.085109 536.591132 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip64" class="tip"><title>baseline · container-runs-as-root: found in 0 of 3 ok bouts
+Application container runs as root</title>
+    <path d="M 165.822297 539.995447 
+L 275.101141 539.995447 
+L 275.101141 557.868099 
+L 165.822297 557.868099 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip65" class="tip"><title>agamm-owasp-security · container-runs-as-root: found in 0 of 3 ok bouts
+Application container runs as root</title>
+    <path d="M 287.243234 539.995447 
+L 396.522078 539.995447 
+L 396.522078 557.868099 
+L 287.243234 557.868099 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip66" class="tip"><title>anthropic-security-auditor · container-runs-as-root: found in 0 of 3 ok bouts
+Application container runs as root</title>
+    <path d="M 408.664172 539.995447 
+L 517.943016 539.995447 
+L 517.943016 557.868099 
+L 408.664172 557.868099 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip67" class="tip"><title>samber-golang-security · container-runs-as-root: found in 0 of 3 ok bouts
+Application container runs as root</title>
+    <path d="M 530.085109 539.995447 
+L 639.363953 539.995447 
+L 639.363953 557.868099 
+L 530.085109 557.868099 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip68" class="tip"><title>baseline · unverified-download: found in 0 of 3 ok bouts
+Build downloads a script from a moving branch without verification</title>
+    <path d="M 165.822297 561.272414 
+L 275.101141 561.272414 
+L 275.101141 579.145066 
+L 165.822297 579.145066 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip69" class="tip"><title>agamm-owasp-security · unverified-download: found in 0 of 3 ok bouts
+Build downloads a script from a moving branch without verification</title>
+    <path d="M 287.243234 561.272414 
+L 396.522078 561.272414 
+L 396.522078 579.145066 
+L 287.243234 579.145066 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip70" class="tip"><title>anthropic-security-auditor · unverified-download: found in 0 of 3 ok bouts
+Build downloads a script from a moving branch without verification</title>
+    <path d="M 408.664172 561.272414 
+L 517.943016 561.272414 
+L 517.943016 579.145066 
+L 408.664172 579.145066 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip71" class="tip"><title>samber-golang-security · unverified-download: found in 0 of 3 ok bouts
+Build downloads a script from a moving branch without verification</title>
+    <path d="M 530.085109 561.272414 
+L 639.363953 561.272414 
+L 639.363953 579.145066 
+L 530.085109 579.145066 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip72" class="tip"><title>baseline · vulnerable-dependencies: found in 0 of 3 ok bouts
+Pinned dependencies with known vulnerabilities</title>
+    <path d="M 165.822297 582.549381 
+L 275.101141 582.549381 
+L 275.101141 600.422033 
+L 165.822297 600.422033 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip73" class="tip"><title>agamm-owasp-security · vulnerable-dependencies: found in 0 of 3 ok bouts
+Pinned dependencies with known vulnerabilities</title>
+    <path d="M 287.243234 582.549381 
+L 396.522078 582.549381 
+L 396.522078 600.422033 
+L 287.243234 600.422033 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip74" class="tip"><title>anthropic-security-auditor · vulnerable-dependencies: found in 0 of 3 ok bouts
+Pinned dependencies with known vulnerabilities</title>
+    <path d="M 408.664172 582.549381 
+L 517.943016 582.549381 
+L 517.943016 600.422033 
+L 408.664172 600.422033 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-tip75" class="tip"><title>samber-golang-security · vulnerable-dependencies: found in 0 of 3 ok bouts
+Pinned dependencies with known vulnerabilities</title>
+    <path d="M 530.085109 582.549381 
+L 639.363953 582.549381 
+L 639.363953 600.422033 
+L 530.085109 600.422033 
+z
+" clip-path="url(#coverage-dvpwa-pb8cda9de07)" style="fill: #8b8b8b; opacity: 0.14"/>
+   </g>
+   <g id="coverage-dvpwa-matplotlib.axis_1">
+    <g id="coverage-dvpwa-xtick_1">
+     <g id="coverage-dvpwa-line2d_1"/>
+     <g id="coverage-dvpwa-text_1">
+      <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="219.149151" y="107.68969" transform="rotate(-40 219.149151 107.68969)">baseline</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-xtick_2">
+     <g id="coverage-dvpwa-line2d_2"/>
+     <g id="coverage-dvpwa-text_2">
+      <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="340.570089" y="107.68969" transform="rotate(-40 340.570089 107.68969)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-xtick_3">
+     <g id="coverage-dvpwa-line2d_3"/>
+     <g id="coverage-dvpwa-text_3">
+      <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="461.991026" y="107.68969" transform="rotate(-40 461.991026 107.68969)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-xtick_4">
+     <g id="coverage-dvpwa-line2d_4"/>
+     <g id="coverage-dvpwa-text_4">
+      <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="583.411964" y="107.68969" transform="rotate(-40 583.411964 107.68969)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="coverage-dvpwa-matplotlib.axis_2">
+    <g id="coverage-dvpwa-ytick_1">
+     <g id="coverage-dvpwa-line2d_5"/>
+    </g>
+    <g id="coverage-dvpwa-ytick_2">
+     <g id="coverage-dvpwa-line2d_6"/>
+     <g id="coverage-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="148.088694" transform="rotate(-0 156.25125 148.088694)">sqli-student-create</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_3">
+     <g id="coverage-dvpwa-line2d_7"/>
+    </g>
+    <g id="coverage-dvpwa-ytick_4">
+     <g id="coverage-dvpwa-line2d_8"/>
+     <g id="coverage-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="190.642628" transform="rotate(-0 156.25125 190.642628)">xss-review-stored</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_5">
+     <g id="coverage-dvpwa-line2d_9"/>
+     <g id="coverage-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="211.919596" transform="rotate(-0 156.25125 211.919596)">missing-authz-evaluate</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_6">
+     <g id="coverage-dvpwa-line2d_10"/>
+     <g id="coverage-dvpwa-text_8">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="233.196563" transform="rotate(-0 156.25125 233.196563)">missing-authz-course-create</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_7">
+     <g id="coverage-dvpwa-line2d_11"/>
+     <g id="coverage-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="254.47353" transform="rotate(-0 156.25125 254.47353)">session-fixation</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_8">
+     <g id="coverage-dvpwa-line2d_12"/>
+     <g id="coverage-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="275.750497" transform="rotate(-0 156.25125 275.750497)">xss-student-name</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_9">
+     <g id="coverage-dvpwa-line2d_13"/>
+    </g>
+    <g id="coverage-dvpwa-ytick_10">
+     <g id="coverage-dvpwa-line2d_14"/>
+     <g id="coverage-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="318.304431" transform="rotate(-0 156.25125 318.304431)">csrf-protection-disabled</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_11">
+     <g id="coverage-dvpwa-line2d_15"/>
+     <g id="coverage-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="339.581398" transform="rotate(-0 156.25125 339.581398)">md5-password-hash</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_12">
+     <g id="coverage-dvpwa-line2d_16"/>
+     <g id="coverage-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="360.858366" transform="rotate(-0 156.25125 360.858366)">session-cookie-flags</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_13">
+     <g id="coverage-dvpwa-line2d_17"/>
+     <g id="coverage-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="382.135333" transform="rotate(-0 156.25125 382.135333)">default-admin-credentials</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_14">
+     <g id="coverage-dvpwa-line2d_18"/>
+     <g id="coverage-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="403.4123" transform="rotate(-0 156.25125 403.4123)">missing-authn-student-create</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_15">
+     <g id="coverage-dvpwa-line2d_19"/>
+     <g id="coverage-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="424.689267" transform="rotate(-0 156.25125 424.689267)">postgres-exposed-no-password</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_16">
+     <g id="coverage-dvpwa-line2d_20"/>
+     <g id="coverage-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="445.966234" transform="rotate(-0 156.25125 445.966234)">xss-course-fields</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_17">
+     <g id="coverage-dvpwa-line2d_21"/>
+    </g>
+    <g id="coverage-dvpwa-ytick_18">
+     <g id="coverage-dvpwa-line2d_22"/>
+     <g id="coverage-dvpwa-text_18">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="488.520168" transform="rotate(-0 156.25125 488.520168)">debug-mode</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_19">
+     <g id="coverage-dvpwa-line2d_23"/>
+     <g id="coverage-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="509.797135" transform="rotate(-0 156.25125 509.797135)">hardcoded-db-credentials</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_20">
+     <g id="coverage-dvpwa-line2d_24"/>
+     <g id="coverage-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="531.074103" transform="rotate(-0 156.25125 531.074103)">error-page-info-leak</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_21">
+     <g id="coverage-dvpwa-line2d_25"/>
+     <g id="coverage-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="552.35107" transform="rotate(-0 156.25125 552.35107)">container-runs-as-root</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_22">
+     <g id="coverage-dvpwa-line2d_26"/>
+     <g id="coverage-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="573.628037" transform="rotate(-0 156.25125 573.628037)">unverified-download</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_23">
+     <g id="coverage-dvpwa-line2d_27"/>
+     <g id="coverage-dvpwa-text_23">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="594.905004" transform="rotate(-0 156.25125 594.905004)">vulnerable-dependencies</text>
+     </g>
+    </g>
+    <g id="coverage-dvpwa-ytick_24">
+     <g id="coverage-dvpwa-line2d_28"/>
+     <g id="coverage-dvpwa-text_24">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="156.25125" y="637.458938" transform="rotate(-0 156.25125 637.458938)">issues found in any bout</text>
+     </g>
+    </g>
+   </g>
+   <g id="coverage-dvpwa-text_25">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #767676" x="141.538109" y="127.893908" transform="rotate(-0 141.538109 127.893908)">CRITICAL (1)</text>
+   </g>
+   <g id="coverage-dvpwa-text_26">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="146.747522" transform="rotate(-0 663.648141 146.747522)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_27">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #767676" x="141.538109" y="170.447843" transform="rotate(-0 141.538109 170.447843)">HIGH (5)</text>
+   </g>
+   <g id="coverage-dvpwa-text_28">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="189.301457" transform="rotate(-0 663.648141 189.301457)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_29">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="210.578424" transform="rotate(-0 663.648141 210.578424)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_30">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="231.855391" transform="rotate(-0 663.648141 231.855391)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_31">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="253.132358" transform="rotate(-0 663.648141 253.132358)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_32">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="274.409325" transform="rotate(-0 663.648141 274.409325)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_33">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #767676" x="141.538109" y="298.109645" transform="rotate(-0 141.538109 298.109645)">MEDIUM (7)</text>
+   </g>
+   <g id="coverage-dvpwa-text_34">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="316.963259" transform="rotate(-0 663.648141 316.963259)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_35">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="338.240227" transform="rotate(-0 663.648141 338.240227)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_36">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="359.517194" transform="rotate(-0 663.648141 359.517194)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_37">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="380.794161" transform="rotate(-0 663.648141 380.794161)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_38">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="402.071128" transform="rotate(-0 663.648141 402.071128)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_39">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="423.348095" transform="rotate(-0 663.648141 423.348095)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_40">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="444.625062" transform="rotate(-0 663.648141 444.625062)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_41">
+    <text style="font-weight: 700; font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #767676" x="141.538109" y="468.325383" transform="rotate(-0 141.538109 468.325383)">LOW (6)</text>
+   </g>
+   <g id="coverage-dvpwa-text_42">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="487.178996" transform="rotate(-0 663.648141 487.178996)">4/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_43">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="508.455964" transform="rotate(-0 663.648141 508.455964)">2/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_44">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="663.648141" y="529.732931" transform="rotate(-0 663.648141 529.732931)">1/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_45">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="551.009898" transform="rotate(-0 663.648141 551.009898)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_46">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="572.286865" transform="rotate(-0 663.648141 572.286865)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_47">
+    <text style="font-weight: 700; font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #d95926" x="663.648141" y="593.563832" transform="rotate(-0 663.648141 593.563832)">0/4</text>
+   </g>
+   <g id="coverage-dvpwa-text_48">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #767676" x="220.461719" y="636.247649" transform="rotate(-0 220.461719 636.247649)">7</text>
+   </g>
+   <g id="coverage-dvpwa-text_49">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #767676" x="341.882656" y="636.247649" transform="rotate(-0 341.882656 636.247649)">9</text>
+   </g>
+   <g id="coverage-dvpwa-text_50">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #767676" x="463.303594" y="636.247649" transform="rotate(-0 463.303594 636.247649)">8</text>
+   </g>
+   <g id="coverage-dvpwa-text_51">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #767676" x="584.724531" y="636.247649" transform="rotate(-0 584.724531 636.247649)">7</text>
+   </g>
+   <g id="coverage-dvpwa-text_52">
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #777777" transform="translate(663.648141 95.880164)">contenders</text>
+    <text style="font-size: 7.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; fill: #777777" transform="translate(663.648141 104.882215)">that found it</text>
+   </g>
+   <g id="coverage-dvpwa-text_53">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="159.75125" y="19.67732" transform="rotate(-0 159.75125 19.67732)">dvpwa: ground-truth issues found, by contender</text>
+   </g>
+   <g id="coverage-dvpwa-legend_1">
+    <g id="coverage-dvpwa-patch_3">
+     <path d="M 166.95125 659.038125 
+L 174.95125 659.038125 
+L 174.95125 651.878125 
+L 166.95125 651.878125 
+z
+" style="fill: #3987e5; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="coverage-dvpwa-text_54">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="181.35125" y="658.198125" transform="rotate(-0 181.35125 658.198125)">every ok bout</text>
+    </g>
+    <g id="coverage-dvpwa-patch_4">
+     <path d="M 252.7475 659.038125 
+L 260.7475 659.038125 
+L 260.7475 651.878125 
+L 252.7475 651.878125 
+z
+" style="fill: #3987e5; opacity: 0.8; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="coverage-dvpwa-text_55">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="267.1475" y="658.198125" transform="rotate(-0 267.1475 658.198125)">half or more</text>
+    </g>
+    <g id="coverage-dvpwa-patch_5">
+     <path d="M 332.15 659.038125 
+L 340.15 659.038125 
+L 340.15 651.878125 
+L 332.15 651.878125 
+z
+" style="fill: #3987e5; opacity: 0.6; stroke: #3987e5; stroke-linejoin: miter"/>
+    </g>
+    <g id="coverage-dvpwa-text_56">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="346.55" y="658.198125" transform="rotate(-0 346.55 658.198125)">under half</text>
+    </g>
+    <g id="coverage-dvpwa-patch_6">
+     <path d="M 403.53375 659.038125 
+L 411.53375 659.038125 
+L 411.53375 651.878125 
+L 403.53375 651.878125 
+z
+" style="fill: #8b8b8b; opacity: 0.28; stroke: #8b8b8b; stroke-linejoin: miter"/>
+    </g>
+    <g id="coverage-dvpwa-text_57">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="417.93375" y="658.198125" transform="rotate(-0 417.93375 658.198125)">never</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="coverage-dvpwa-pb8cda9de07">
+   <rect x="159.75125" y="112.753947" width="485.68375" height="531.924178"/>
+  </clipPath>
+ </defs>
+</svg>

@@ -1,0 +1,328 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="374.4pt" viewBox="0 0 720 374.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Scatter of mean TP against mean cost per bout in dvpwa">
+ <title>Scatter of mean TP against mean cost per bout in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="quality-vs-cost-dvpwa-figure_1">
+  <g id="quality-vs-cost-dvpwa-patch_1">
+   <path d="M 0 374.4 
+L 720 374.4 
+L 720 0 
+L 0 0 
+L 0 374.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="quality-vs-cost-dvpwa-axes_1">
+   <g id="quality-vs-cost-dvpwa-patch_2">
+    <path d="M 41.702109 338.097891 
+L 710.28 338.097891 
+L 710.28 23.64 
+L 41.702109 23.64 
+L 41.702109 338.097891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-matplotlib.axis_1">
+    <g id="quality-vs-cost-dvpwa-xtick_1">
+     <g id="quality-vs-cost-dvpwa-line2d_1">
+      <path d="M 103.44286 338.097891 
+L 103.44286 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_2"/>
+     <g id="quality-vs-cost-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="103.44286" y="348.435781" transform="rotate(-0 103.44286 348.435781)">0.35</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_2">
+     <g id="quality-vs-cost-dvpwa-line2d_3">
+      <path d="M 191.521879 338.097891 
+L 191.521879 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_4"/>
+     <g id="quality-vs-cost-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="191.521879" y="348.435781" transform="rotate(-0 191.521879 348.435781)">0.40</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_3">
+     <g id="quality-vs-cost-dvpwa-line2d_5">
+      <path d="M 279.600899 338.097891 
+L 279.600899 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_6"/>
+     <g id="quality-vs-cost-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="279.600899" y="348.435781" transform="rotate(-0 279.600899 348.435781)">0.45</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_4">
+     <g id="quality-vs-cost-dvpwa-line2d_7">
+      <path d="M 367.679918 338.097891 
+L 367.679918 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_8"/>
+     <g id="quality-vs-cost-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="367.679918" y="348.435781" transform="rotate(-0 367.679918 348.435781)">0.50</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_5">
+     <g id="quality-vs-cost-dvpwa-line2d_9">
+      <path d="M 455.758938 338.097891 
+L 455.758938 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_10"/>
+     <g id="quality-vs-cost-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="455.758938" y="348.435781" transform="rotate(-0 455.758938 348.435781)">0.55</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_6">
+     <g id="quality-vs-cost-dvpwa-line2d_11">
+      <path d="M 543.837958 338.097891 
+L 543.837958 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_12"/>
+     <g id="quality-vs-cost-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="543.837958" y="348.435781" transform="rotate(-0 543.837958 348.435781)">0.60</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-xtick_7">
+     <g id="quality-vs-cost-dvpwa-line2d_13">
+      <path d="M 631.916977 338.097891 
+L 631.916977 23.64 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_14"/>
+     <g id="quality-vs-cost-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="631.916977" y="348.435781" transform="rotate(-0 631.916977 348.435781)">0.65</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-text_8">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="375.991055" y="361.436484" transform="rotate(-0 375.991055 361.436484)">mean cost per bout, $ (lower is better)</text>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-matplotlib.axis_2">
+    <g id="quality-vs-cost-dvpwa-ytick_1">
+     <g id="quality-vs-cost-dvpwa-line2d_15">
+      <path d="M 41.702109 293.175335 
+L 710.28 293.175335 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_16"/>
+     <g id="quality-vs-cost-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="38.202109" y="296.59428" transform="rotate(-0 38.202109 296.59428)">6.0</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-ytick_2">
+     <g id="quality-vs-cost-dvpwa-line2d_17">
+      <path d="M 41.702109 237.02214 
+L 710.28 237.02214 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_18"/>
+     <g id="quality-vs-cost-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="38.202109" y="240.441085" transform="rotate(-0 38.202109 240.441085)">6.5</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-ytick_3">
+     <g id="quality-vs-cost-dvpwa-line2d_19">
+      <path d="M 41.702109 180.868945 
+L 710.28 180.868945 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_20"/>
+     <g id="quality-vs-cost-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="38.202109" y="184.287891" transform="rotate(-0 38.202109 184.287891)">7.0</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-ytick_4">
+     <g id="quality-vs-cost-dvpwa-line2d_21">
+      <path d="M 41.702109 124.715751 
+L 710.28 124.715751 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_22"/>
+     <g id="quality-vs-cost-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="38.202109" y="128.134696" transform="rotate(-0 38.202109 128.134696)">7.5</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-ytick_5">
+     <g id="quality-vs-cost-dvpwa-line2d_23">
+      <path d="M 41.702109 68.562556 
+L 710.28 68.562556 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="quality-vs-cost-dvpwa-line2d_24"/>
+     <g id="quality-vs-cost-dvpwa-text_13">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="38.202109" y="71.981501" transform="rotate(-0 38.202109 71.981501)">8.0</text>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-text_14">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="17.727188" y="180.868945" transform="rotate(-90 17.727188 180.868945)">mean TP per bout (higher is better)</text>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-line2d_25">
+    <path d="M 238.018207 218.304408 
+L 408.219168 68.562556 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-patch_3">
+    <path d="M 41.702109 338.097891 
+L 41.702109 23.64 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-patch_4">
+    <path d="M 41.702109 338.097891 
+L 710.28 338.097891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_1">
+    <path d="M 153.131758 218.304408 
+L 288.940798 218.304408 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_2">
+    <path d="M 238.018207 293.175335 
+L 238.018207 180.868945 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #898781; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_3">
+    <path d="M 242.86314 143.433482 
+L 592.616119 143.433482 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_4">
+    <path d="M 410.732356 180.868945 
+L 410.732356 68.562556 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_5">
+    <path d="M 294.392889 68.562556 
+L 532.903828 68.562556 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_6">
+    <path d="M 408.219168 68.562556 
+L 408.219168 68.562556 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_7">
+    <path d="M 362.918367 218.304408 
+L 598.850352 218.304408 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-LineCollection_8">
+    <path d="M 478.380566 293.175335 
+L 478.380566 180.868945 
+" clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)" style="fill: none; stroke: #3987e5; stroke-opacity: 0.5"/>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_15">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="415.219168" y="81.562556" transform="rotate(-0 415.219168 81.562556)">anthropic-security-auditor</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_16">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="417.732356" y="137.433482" transform="rotate(-0 417.732356 137.433482)">agamm-owasp-security</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_17">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="245.018207" y="212.304408" transform="rotate(-0 245.018207 212.304408)">baseline</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_18">
+    <text style="font-size: 8.5px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="485.380566" y="231.304408" transform="rotate(-0 485.380566 231.304408)">samber-golang-security</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-text_19">
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="41.702109" y="17.64" transform="rotate(-0 41.702109 17.64)">dvpwa: TP against cost</text>
+   </g>
+   <g id="quality-vs-cost-dvpwa-tip0" class="tip"><title>baseline
+TP 6.7 [6, 7]
+cost $0.426 [0.378, 0.455] per bout
+n = 3/3 bouts</title>
+    <defs>
+     <path id="quality-vs-cost-dvpwa-ma1c1a7aa5b" d="M -0 5.91608 
+L 5.91608 0 
+L 0 -5.91608 
+L -5.91608 -0 
+z
+" style="stroke: #898781"/>
+    </defs>
+    <g clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)">
+     <use xlink:href="#quality-vs-cost-dvpwa-ma1c1a7aa5b" x="238.018207" y="218.304408" style="fill: #898781; stroke: #898781"/>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-tip1" class="tip"><title>agamm-owasp-security
+TP 7.3 [7, 8]
+cost $0.524 [0.429, 0.628] per bout
+n = 3/3 bouts</title>
+    <defs>
+     <path id="quality-vs-cost-dvpwa-m929ecfca2a" d="M 0 3.872983 
+C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
+C 3.464901 2.012324 3.872983 1.027127 3.872983 0 
+C 3.872983 -1.027127 3.464901 -2.012324 2.738613 -2.738613 
+C 2.012324 -3.464901 1.027127 -3.872983 0 -3.872983 
+C -1.027127 -3.872983 -2.012324 -3.464901 -2.738613 -2.738613 
+C -3.464901 -2.012324 -3.872983 -1.027127 -3.872983 0 
+C -3.872983 1.027127 -3.464901 2.012324 -2.738613 2.738613 
+C -2.012324 3.464901 -1.027127 3.872983 0 3.872983 
+z
+" style="stroke: #3987e5"/>
+    </defs>
+    <g clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)">
+     <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="410.732356" y="143.433482" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-tip2" class="tip"><title>anthropic-security-auditor
+TP 8 [8, 8]
+cost $0.523 [0.458, 0.594] per bout
+n = 3/3 bouts</title>
+    <g clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)">
+     <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="408.219168" y="68.562556" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-tip3" class="tip"><title>samber-golang-security
+TP 6.7 [6, 7]
+cost $0.563 [0.497, 0.631] per bout
+n = 3/3 bouts</title>
+    <g clip-path="url(#quality-vs-cost-dvpwa-p2fe5de6599)">
+     <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="478.380566" y="218.304408" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="quality-vs-cost-dvpwa-legend_1">
+    <g id="quality-vs-cost-dvpwa-line2d_26">
+     <path d="M 623.24 302.174766 
+L 631.24 302.174766 
+L 639.24 302.174766 
+" style="fill: none; stroke: #d95926; stroke-width: 2; stroke-linecap: round"/>
+    </g>
+    <g id="quality-vs-cost-dvpwa-text_20">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="645.64" y="304.974766" transform="rotate(-0 645.64 304.974766)">Pareto frontier</text>
+    </g>
+    <g id="quality-vs-cost-dvpwa-PathCollection_1">
+     <g>
+      <use xlink:href="#quality-vs-cost-dvpwa-ma1c1a7aa5b" x="631.24" y="314.875391" style="fill: #898781; stroke: #898781"/>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-text_21">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="645.64" y="316.975391" transform="rotate(-0 645.64 316.975391)">baseline</text>
+    </g>
+    <g id="quality-vs-cost-dvpwa-PathCollection_2">
+     <g>
+      <use xlink:href="#quality-vs-cost-dvpwa-m929ecfca2a" x="631.24" y="326.876016" style="fill: #3987e5; stroke: #3987e5"/>
+     </g>
+    </g>
+    <g id="quality-vs-cost-dvpwa-text_22">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="645.64" y="328.976016" transform="rotate(-0 645.64 328.976016)">contender</text>
+    </g>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="quality-vs-cost-dvpwa-p2fe5de6599">
+   <rect x="41.702109" y="23.64" width="668.577891" height="314.457891"/>
+  </clipPath>
+ </defs>
+</svg>

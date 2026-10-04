@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="180pt" viewBox="0 0 720 180" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Bars of first-turn prompt tokens minus the baseline&#x27;s, per contender">
+ <title>Bars of first-turn prompt tokens minus the baseline&#x27;s, per contender</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="skill-load-figure_1">
+  <g id="skill-load-patch_1">
+   <path d="M 0 180 
+L 720 180 
+L 720 0 
+L 0 0 
+L 0 180 
+z
+" style="fill: none"/>
+  </g>
+  <g id="skill-load-axes_1">
+   <g id="skill-load-patch_2">
+    <path d="M 134.54 156.697891 
+L 710.28 156.697891 
+L 710.28 42.962344 
+L 134.54 42.962344 
+L 134.54 156.697891 
+z
+" style="fill: none"/>
+   </g>
+   <g id="skill-load-matplotlib.axis_1">
+    <g id="skill-load-xtick_1">
+     <g id="skill-load-line2d_1">
+      <path d="M 155.861692 156.697891 
+L 155.861692 42.962344 
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_2"/>
+     <g id="skill-load-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="155.861692" y="167.035781" transform="rotate(-0 155.861692 167.035781)">0</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_2">
+     <g id="skill-load-line2d_3">
+      <path d="M 318.809281 156.697891 
+L 318.809281 42.962344 
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_4"/>
+     <g id="skill-load-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="318.809281" y="167.036484" transform="rotate(-0 318.809281 167.036484)">+3k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_3">
+     <g id="skill-load-line2d_5">
+      <path d="M 481.75687 156.697891 
+L 481.75687 42.962344 
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_6"/>
+     <g id="skill-load-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="481.75687" y="167.036484" transform="rotate(-0 481.75687 167.036484)">+6k</text>
+     </g>
+    </g>
+    <g id="skill-load-xtick_4">
+     <g id="skill-load-line2d_7">
+      <path d="M 644.704459 156.697891 
+L 644.704459 42.962344 
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
+     </g>
+     <g id="skill-load-line2d_8"/>
+     <g id="skill-load-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="644.704459" y="167.036484" transform="rotate(-0 644.704459 167.036484)">+9k</text>
+     </g>
+    </g>
+   </g>
+   <g id="skill-load-matplotlib.axis_2">
+    <g id="skill-load-ytick_1">
+     <g id="skill-load-line2d_9"/>
+     <g id="skill-load-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="65.337565" transform="rotate(-0 131.04 65.337565)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_2">
+     <g id="skill-load-line2d_10"/>
+     <g id="skill-load-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="103.249414" transform="rotate(-0 131.04 103.249414)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="skill-load-ytick_3">
+     <g id="skill-load-line2d_11"/>
+     <g id="skill-load-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="141.161263" transform="rotate(-0 131.04 141.161263)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="skill-load-line2d_12">
+    <path d="M 155.861692 156.697891 
+L 155.861692 42.962344 
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-tip0" class="tip"><title>agamm-owasp-security in dvpwa: +7,851 first-turn prompt tokens vs baseline</title>
+    <path d="M 155.861692 51.49251 
+L 582.295532 51.49251 
+L 582.295532 72.344027 
+L 155.861692 72.344027 
+z
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip1" class="tip"><title>anthropic-security-auditor in dvpwa: +3,829 first-turn prompt tokens vs baseline</title>
+    <path d="M 155.861692 89.404359 
+L 363.837131 89.404359 
+L 363.837131 110.255876 
+L 155.861692 110.255876 
+z
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-tip2" class="tip"><title>samber-golang-security in dvpwa: +7,274 first-turn prompt tokens vs baseline</title>
+    <path d="M 155.861692 127.316208 
+L 550.955279 127.316208 
+L 550.955279 148.167725 
+L 155.861692 148.167725 
+z
+" clip-path="url(#skill-load-pbad0a165c2)" style="fill: #3987e5"/>
+   </g>
+   <g id="skill-load-patch_3">
+    <path d="M 134.54 156.697891 
+L 134.54 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-patch_4">
+    <path d="M 134.54 156.697891 
+L 710.28 156.697891 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="skill-load-text_8">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="587.295532" y="63.996393" transform="rotate(-0 587.295532 63.996393)">+7,851</text>
+   </g>
+   <g id="skill-load-text_9">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="368.837131" y="101.908242" transform="rotate(-0 368.837131 101.908242)">+3,829</text>
+   </g>
+   <g id="skill-load-text_10">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="555.955279" y="139.820091" transform="rotate(-0 555.955279 139.820091)">+7,274</text>
+   </g>
+   <g id="skill-load-text_11">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="36.962344" transform="rotate(-0 134.54 36.962344)">dvpwa (baseline 6,874 tokens)</text>
+   </g>
+  </g>
+  <g id="skill-load-text_12">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="11.198437" transform="rotate(-0 7.2 11.198437)">Did the skill load? First-turn prompt tokens minus the baseline's</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="skill-load-pbad0a165c2">
+   <rect x="134.54" y="42.962344" width="575.74" height="113.735547"/>
+  </clipPath>
+ </defs>
+</svg>

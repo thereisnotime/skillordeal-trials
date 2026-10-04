@@ -1,0 +1,665 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="194.4pt" viewBox="0 0 720 194.4" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Strip plots of per-bout quality, findings, cost and time in dvpwa">
+ <title>Strip plots of per-bout quality, findings, cost and time in dvpwa</title>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="reps-dvpwa-figure_1">
+  <g id="reps-dvpwa-patch_1">
+   <path d="M 0 194.4 
+L 720 194.4 
+L 720 0 
+L 0 0 
+L 0 194.4 
+z
+" style="fill: none"/>
+  </g>
+  <g id="reps-dvpwa-axes_1">
+   <g id="reps-dvpwa-patch_2">
+    <path d="M 134.54 172.18 
+L 269.885994 172.18 
+L 269.885994 42.962344 
+L 134.54 42.962344 
+L 134.54 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_1">
+    <g id="reps-dvpwa-xtick_1">
+     <g id="reps-dvpwa-line2d_1"/>
+     <g id="reps-dvpwa-text_1">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="147.637999" y="182.517891" transform="rotate(-0 147.637999 182.517891)">6</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_2">
+     <g id="reps-dvpwa-line2d_2"/>
+     <g id="reps-dvpwa-text_2">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="202.212997" y="182.517891" transform="rotate(-0 202.212997 182.517891)">7</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_3">
+     <g id="reps-dvpwa-line2d_3"/>
+     <g id="reps-dvpwa-text_3">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="256.787995" y="182.517891" transform="rotate(-0 256.787995 182.517891)">8</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_2">
+    <g id="reps-dvpwa-ytick_1">
+     <g id="reps-dvpwa-line2d_4"/>
+     <g id="reps-dvpwa-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="62.533848" transform="rotate(-0 131.04 62.533848)">baseline</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_2">
+     <g id="reps-dvpwa-line2d_5"/>
+     <g id="reps-dvpwa-text_5">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="94.838262" transform="rotate(-0 131.04 94.838262)">agamm-owasp-security</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_3">
+     <g id="reps-dvpwa-line2d_6"/>
+     <g id="reps-dvpwa-text_6">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="127.142676" transform="rotate(-0 131.04 127.142676)">anthropic-security-auditor</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-ytick_4">
+     <g id="reps-dvpwa-line2d_7"/>
+     <g id="reps-dvpwa-text_7">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="131.04" y="159.44709" transform="rotate(-0 131.04 159.44709)">samber-golang-security</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_8">
+    <path d="M 184.021331 172.18 
+L 184.021331 42.962344 
+" clip-path="url(#reps-dvpwa-pcedb97264e)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_3">
+    <path d="M 134.54 172.18 
+L 134.54 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_4">
+    <path d="M 134.54 172.18 
+L 269.885994 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip0" class="tip"><title>baseline, bout 1 of 3: TP 7</title>
+    <defs>
+     <path id="reps-dvpwa-ma432050c96" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="202.212997" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip1" class="tip"><title>baseline, bout 2 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="202.212997" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip2" class="tip"><title>baseline, bout 3 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="147.637999" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip4" class="tip"><title>agamm-owasp-security, bout 1 of 3: TP 7</title>
+    <defs>
+     <path id="reps-dvpwa-m6cdce938b5" d="M 0 2.54951 
+C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
+C 2.280877 1.324674 2.54951 0.676138 2.54951 0 
+C 2.54951 -0.676138 2.280877 -1.324674 1.802776 -1.802776 
+C 1.324674 -2.280877 0.676138 -2.54951 0 -2.54951 
+C -0.676138 -2.54951 -1.324674 -2.280877 -1.802776 -1.802776 
+C -2.280877 -1.324674 -2.54951 -0.676138 -2.54951 0 
+C -2.54951 0.676138 -2.280877 1.324674 -1.802776 1.802776 
+C -1.324674 2.280877 -0.676138 2.54951 0 2.54951 
+z
+"/>
+    </defs>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="202.212997" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip5" class="tip"><title>agamm-owasp-security, bout 2 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="256.787995" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip6" class="tip"><title>agamm-owasp-security, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="202.212997" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip8" class="tip"><title>anthropic-security-auditor, bout 1 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="256.787995" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip9" class="tip"><title>anthropic-security-auditor, bout 2 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="256.787995" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip10" class="tip"><title>anthropic-security-auditor, bout 3 of 3: TP 8</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="256.787995" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip12" class="tip"><title>samber-golang-security, bout 1 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="202.212997" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip13" class="tip"><title>samber-golang-security, bout 2 of 3: TP 6</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="147.637999" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip14" class="tip"><title>samber-golang-security, bout 3 of 3: TP 7</title>
+    <g clip-path="url(#reps-dvpwa-pcedb97264e)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="202.212997" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_8">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="134.54" y="36.962344" transform="rotate(-0 134.54 36.962344)">TP</text>
+   </g>
+   <g id="reps-dvpwa-tip3" class="tip"><title>baseline: mean TP 6.7 (n=3)</title>
+    <path d="M 184.021331 48.13105 
+L 184.021331 70.098052 
+" clip-path="url(#reps-dvpwa-pcedb97264e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip7" class="tip"><title>agamm-owasp-security: mean TP 7.3 (n=3)</title>
+    <path d="M 220.404663 80.435464 
+L 220.404663 102.402466 
+" clip-path="url(#reps-dvpwa-pcedb97264e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip11" class="tip"><title>anthropic-security-auditor: mean TP 8 (n=3)</title>
+    <path d="M 256.787995 112.739878 
+L 256.787995 134.70688 
+" clip-path="url(#reps-dvpwa-pcedb97264e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip15" class="tip"><title>samber-golang-security: mean TP 6.7 (n=3)</title>
+    <path d="M 184.021331 145.044292 
+L 184.021331 167.011294 
+" clip-path="url(#reps-dvpwa-pcedb97264e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_2">
+   <g id="reps-dvpwa-patch_5">
+    <path d="M 281.338002 172.18 
+L 416.683996 172.18 
+L 416.683996 42.962344 
+L 281.338002 42.962344 
+L 281.338002 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_3">
+    <g id="reps-dvpwa-xtick_4">
+     <g id="reps-dvpwa-line2d_9"/>
+     <g id="reps-dvpwa-text_9">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="294.436001" y="182.517891" transform="rotate(-0 294.436001 182.517891)">6</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_5">
+     <g id="reps-dvpwa-line2d_10"/>
+     <g id="reps-dvpwa-text_10">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="330.819333" y="182.517891" transform="rotate(-0 330.819333 182.517891)">7</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_6">
+     <g id="reps-dvpwa-line2d_11"/>
+     <g id="reps-dvpwa-text_11">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="367.202665" y="182.517891" transform="rotate(-0 367.202665 182.517891)">8</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_7">
+     <g id="reps-dvpwa-line2d_12"/>
+     <g id="reps-dvpwa-text_12">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="403.585997" y="182.517891" transform="rotate(-0 403.585997 182.517891)">9</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_4">
+    <g id="reps-dvpwa-ytick_5">
+     <g id="reps-dvpwa-line2d_13"/>
+    </g>
+    <g id="reps-dvpwa-ytick_6">
+     <g id="reps-dvpwa-line2d_14"/>
+    </g>
+    <g id="reps-dvpwa-ytick_7">
+     <g id="reps-dvpwa-line2d_15"/>
+    </g>
+    <g id="reps-dvpwa-ytick_8">
+     <g id="reps-dvpwa-line2d_16"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_17">
+    <path d="M 318.691556 172.18 
+L 318.691556 42.962344 
+" clip-path="url(#reps-dvpwa-p430ae11289)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_6">
+    <path d="M 281.338002 172.18 
+L 281.338002 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_7">
+    <path d="M 281.338002 172.18 
+L 416.683996 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip16" class="tip"><title>baseline, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="330.819333" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip17" class="tip"><title>baseline, bout 2 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="330.819333" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip18" class="tip"><title>baseline, bout 3 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="294.436001" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip20" class="tip"><title>agamm-owasp-security, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.819333" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip21" class="tip"><title>agamm-owasp-security, bout 2 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="367.202665" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip22" class="tip"><title>agamm-owasp-security, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.819333" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip24" class="tip"><title>anthropic-security-auditor, bout 1 of 3: findings 9</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="403.585997" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip25" class="tip"><title>anthropic-security-auditor, bout 2 of 3: findings 8</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="367.202665" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip26" class="tip"><title>anthropic-security-auditor, bout 3 of 3: findings 9</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="403.585997" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip28" class="tip"><title>samber-golang-security, bout 1 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.819333" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip29" class="tip"><title>samber-golang-security, bout 2 of 3: findings 6</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="294.436001" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip30" class="tip"><title>samber-golang-security, bout 3 of 3: findings 7</title>
+    <g clip-path="url(#reps-dvpwa-p430ae11289)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="330.819333" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_13">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="281.338002" y="36.962344" transform="rotate(-0 281.338002 36.962344)">findings</text>
+   </g>
+   <g id="reps-dvpwa-tip19" class="tip"><title>baseline: mean findings 6.7 (n=3)</title>
+    <path d="M 318.691556 48.13105 
+L 318.691556 70.098052 
+" clip-path="url(#reps-dvpwa-p430ae11289)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip23" class="tip"><title>agamm-owasp-security: mean findings 7.3 (n=3)</title>
+    <path d="M 342.94711 80.435464 
+L 342.94711 102.402466 
+" clip-path="url(#reps-dvpwa-p430ae11289)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip27" class="tip"><title>anthropic-security-auditor: mean findings 8.7 (n=3)</title>
+    <path d="M 391.458219 112.739878 
+L 391.458219 134.70688 
+" clip-path="url(#reps-dvpwa-p430ae11289)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip31" class="tip"><title>samber-golang-security: mean findings 6.7 (n=3)</title>
+    <path d="M 318.691556 145.044292 
+L 318.691556 167.011294 
+" clip-path="url(#reps-dvpwa-p430ae11289)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_3">
+   <g id="reps-dvpwa-patch_8">
+    <path d="M 428.136004 172.18 
+L 563.481998 172.18 
+L 563.481998 42.962344 
+L 428.136004 42.962344 
+L 428.136004 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_5">
+    <g id="reps-dvpwa-xtick_8">
+     <g id="reps-dvpwa-line2d_18"/>
+     <g id="reps-dvpwa-text_14">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="450.635185" y="182.517891" transform="rotate(-0 450.635185 182.517891)">0.40</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_9">
+     <g id="reps-dvpwa-line2d_19"/>
+     <g id="reps-dvpwa-text_15">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="485.146017" y="182.517891" transform="rotate(-0 485.146017 182.517891)">0.48</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_10">
+     <g id="reps-dvpwa-line2d_20"/>
+     <g id="reps-dvpwa-text_16">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="519.656848" y="182.517891" transform="rotate(-0 519.656848 182.517891)">0.56</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_11">
+     <g id="reps-dvpwa-line2d_21"/>
+     <g id="reps-dvpwa-text_17">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="554.16768" y="182.517891" transform="rotate(-0 554.16768 182.517891)">0.64</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_6">
+    <g id="reps-dvpwa-ytick_9">
+     <g id="reps-dvpwa-line2d_22"/>
+    </g>
+    <g id="reps-dvpwa-ytick_10">
+     <g id="reps-dvpwa-line2d_23"/>
+    </g>
+    <g id="reps-dvpwa-ytick_11">
+     <g id="reps-dvpwa-line2d_24"/>
+    </g>
+    <g id="reps-dvpwa-ytick_12">
+     <g id="reps-dvpwa-line2d_25"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_26">
+    <path d="M 462.021459 172.18 
+L 462.021459 42.962344 
+" clip-path="url(#reps-dvpwa-pc789f6a85a)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_9">
+    <path d="M 428.136004 172.18 
+L 428.136004 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_10">
+    <path d="M 428.136004 172.18 
+L 563.481998 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip32" class="tip"><title>baseline, bout 1 of 3: cost $ 0.455</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="474.49166" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip33" class="tip"><title>baseline, bout 2 of 3: cost $ 0.446</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="470.338713" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip34" class="tip"><title>baseline, bout 3 of 3: cost $ 0.378</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="441.234003" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip36" class="tip"><title>agamm-owasp-security, bout 1 of 3: cost $ 0.628</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="548.857326" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip37" class="tip"><title>agamm-owasp-security, bout 2 of 3: cost $ 0.429</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="463.207913" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip38" class="tip"><title>agamm-owasp-security, bout 3 of 3: cost $ 0.516</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="500.884682" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip40" class="tip"><title>anthropic-security-auditor, bout 1 of 3: cost $ 0.517</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="501.042137" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip41" class="tip"><title>anthropic-security-auditor, bout 2 of 3: cost $ 0.458</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="475.826798" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip42" class="tip"><title>anthropic-security-auditor, bout 3 of 3: cost $ 0.594</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="534.234655" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip44" class="tip"><title>samber-golang-security, bout 1 of 3: cost $ 0.560</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="519.656417" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip45" class="tip"><title>samber-golang-security, bout 2 of 3: cost $ 0.497</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="492.60769" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip46" class="tip"><title>samber-golang-security, bout 3 of 3: cost $ 0.631</title>
+    <g clip-path="url(#reps-dvpwa-pc789f6a85a)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="550.383999" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_18">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="428.136004" y="36.962344" transform="rotate(-0 428.136004 36.962344)">cost $</text>
+   </g>
+   <g id="reps-dvpwa-tip35" class="tip"><title>baseline: mean cost $ 0.426 (n=3)</title>
+    <path d="M 462.021459 48.13105 
+L 462.021459 70.098052 
+" clip-path="url(#reps-dvpwa-pc789f6a85a)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip39" class="tip"><title>agamm-owasp-security: mean cost $ 0.524 (n=3)</title>
+    <path d="M 504.31664 80.435464 
+L 504.31664 102.402466 
+" clip-path="url(#reps-dvpwa-pc789f6a85a)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip43" class="tip"><title>anthropic-security-auditor: mean cost $ 0.523 (n=3)</title>
+    <path d="M 503.701197 112.739878 
+L 503.701197 134.70688 
+" clip-path="url(#reps-dvpwa-pc789f6a85a)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip47" class="tip"><title>samber-golang-security: mean cost $ 0.563 (n=3)</title>
+    <path d="M 520.882702 145.044292 
+L 520.882702 167.011294 
+" clip-path="url(#reps-dvpwa-pc789f6a85a)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-axes_4">
+   <g id="reps-dvpwa-patch_11">
+    <path d="M 574.934006 172.18 
+L 710.28 172.18 
+L 710.28 42.962344 
+L 574.934006 42.962344 
+L 574.934006 172.18 
+z
+" style="fill: none"/>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_7">
+    <g id="reps-dvpwa-xtick_12">
+     <g id="reps-dvpwa-line2d_27"/>
+     <g id="reps-dvpwa-text_19">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="587.631541" y="182.517891" transform="rotate(-0 587.631541 182.517891)">1.2</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_13">
+     <g id="reps-dvpwa-line2d_28"/>
+     <g id="reps-dvpwa-text_20">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="624.22222" y="182.517891" transform="rotate(-0 624.22222 182.517891)">1.5</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_14">
+     <g id="reps-dvpwa-line2d_29"/>
+     <g id="reps-dvpwa-text_21">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="660.812899" y="182.517891" transform="rotate(-0 660.812899 182.517891)">1.8</text>
+     </g>
+    </g>
+    <g id="reps-dvpwa-xtick_15">
+     <g id="reps-dvpwa-line2d_30"/>
+     <g id="reps-dvpwa-text_22">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="697.403577" y="182.517891" transform="rotate(-0 697.403577 182.517891)">2.1</text>
+     </g>
+    </g>
+   </g>
+   <g id="reps-dvpwa-matplotlib.axis_8">
+    <g id="reps-dvpwa-ytick_13">
+     <g id="reps-dvpwa-line2d_31"/>
+    </g>
+    <g id="reps-dvpwa-ytick_14">
+     <g id="reps-dvpwa-line2d_32"/>
+    </g>
+    <g id="reps-dvpwa-ytick_15">
+     <g id="reps-dvpwa-line2d_33"/>
+    </g>
+    <g id="reps-dvpwa-ytick_16">
+     <g id="reps-dvpwa-line2d_34"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-line2d_35">
+    <path d="M 595.793973 172.18 
+L 595.793973 42.962344 
+" clip-path="url(#reps-dvpwa-p2c22fd4964)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_12">
+    <path d="M 574.934006 172.18 
+L 574.934006 42.962344 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-patch_13">
+    <path d="M 574.934006 172.18 
+L 710.28 172.18 
+" style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
+   </g>
+   <g id="reps-dvpwa-tip48" class="tip"><title>baseline, bout 1 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="598.616876" y="52.00758" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip49" class="tip"><title>baseline, bout 2 of 3: wall minutes 1.3</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="600.733037" y="59.114551" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip50" class="tip"><title>baseline, bout 3 of 3: wall minutes 1.2</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-ma432050c96" x="588.032005" y="66.221522" style="fill: #898781; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip52" class="tip"><title>agamm-owasp-security, bout 1 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="635.481985" y="84.311994" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip53" class="tip"><title>agamm-owasp-security, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="622.88666" y="91.418965" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip54" class="tip"><title>agamm-owasp-security, bout 3 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="628.767595" y="98.525936" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip56" class="tip"><title>anthropic-security-auditor, bout 1 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="645.664357" y="116.616408" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip57" class="tip"><title>anthropic-security-auditor, bout 2 of 3: wall minutes 1.5</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="626.490842" y="123.723379" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip58" class="tip"><title>anthropic-security-auditor, bout 3 of 3: wall minutes 1.8</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="657.078616" y="130.83035" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip60" class="tip"><title>samber-golang-security, bout 1 of 3: wall minutes 1.7</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="650.551246" y="148.920822" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip61" class="tip"><title>samber-golang-security, bout 2 of 3: wall minutes 1.6</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="636.246323" y="156.027793" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-tip62" class="tip"><title>samber-golang-security, bout 3 of 3: wall minutes 2.1</title>
+    <g clip-path="url(#reps-dvpwa-p2c22fd4964)">
+     <use xlink:href="#reps-dvpwa-m6cdce938b5" x="697.182001" y="163.134764" style="fill: #3987e5; fill-opacity: 0.8"/>
+    </g>
+   </g>
+   <g id="reps-dvpwa-text_23">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="574.934006" y="36.962344" transform="rotate(-0 574.934006 36.962344)">wall minutes</text>
+   </g>
+   <g id="reps-dvpwa-tip51" class="tip"><title>baseline: mean wall minutes 1.3 (n=3)</title>
+    <path d="M 595.793973 48.13105 
+L 595.793973 70.098052 
+" clip-path="url(#reps-dvpwa-p2c22fd4964)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip55" class="tip"><title>agamm-owasp-security: mean wall minutes 1.5 (n=3)</title>
+    <path d="M 629.045413 80.435464 
+L 629.045413 102.402466 
+" clip-path="url(#reps-dvpwa-p2c22fd4964)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip59" class="tip"><title>anthropic-security-auditor: mean wall minutes 1.7 (n=3)</title>
+    <path d="M 643.077939 112.739878 
+L 643.077939 134.70688 
+" clip-path="url(#reps-dvpwa-p2c22fd4964)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+   <g id="reps-dvpwa-tip63" class="tip"><title>samber-golang-security: mean wall minutes 1.8 (n=3)</title>
+    <path d="M 661.326523 145.044292 
+L 661.326523 167.011294 
+" clip-path="url(#reps-dvpwa-p2c22fd4964)" style="fill: none; stroke: #767676; stroke-width: 2"/>
+   </g>
+  </g>
+  <g id="reps-dvpwa-text_24">
+   <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="11.486437" transform="rotate(-0 7.2 11.486437)">dvpwa: every bout, not just the mean</text>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="reps-dvpwa-pcedb97264e">
+   <rect x="134.54" y="42.962344" width="135.345994" height="129.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-p430ae11289">
+   <rect x="281.338002" y="42.962344" width="135.345994" height="129.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-pc789f6a85a">
+   <rect x="428.136004" y="42.962344" width="135.345994" height="129.217656"/>
+  </clipPath>
+  <clipPath id="reps-dvpwa-p2c22fd4964">
+   <rect x="574.934006" y="42.962344" width="135.345994" height="129.217656"/>
+  </clipPath>
+ </defs>
+</svg>
