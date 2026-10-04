@@ -1,0 +1,95 @@
+{
+  "batch_id": "j-5756c6a97ad6bc0e",
+  "mode": "panel",
+  "slot": "correctness",
+  "lens": "correctness",
+  "arena": "warpgate-operator",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "b1cb617e8646ac80e9dc9eec8044808f4b9ccaaabc8380d6d1d8e5746fb42fdc",
+    "F2": "0c64f7328ea8b3444e41a5e9c2357da859d779a2875d9861ed0e590a404a1110",
+    "F3": "c0c0e10b6f7e7a6f2d8307421d5752b9ce5b4798bf0af5ff0c0faa85b6c3953e",
+    "F4": "90615eee542a5650fd90f0dacc48913cd872bf57cf18fd16145f7a116ff3d215",
+    "F5": "5cb9550aff161ed780a555b5285300b5a96280a28d6deb4cf7cae9ede2707146",
+    "F6": "f0480bc754a9f70af25dd85b6eb6e8552fe8c65831d4f0ed06779c9c9ac01f9b",
+    "F7": "3038a83a096e1c0b7879daf17fa7d93f045accef5cd03df14ef5367ec0c5687b",
+    "F8": "88e334ed8a57ee252e8fb547d4cb12afb9cbc6b61c2004f9794ee5a0daa688b1",
+    "F9": "6c2ded41466e29f9692a870c0ebd00e36ead5371230e4b08c9530aba84ebb769",
+    "F10": "afe87bd76e7cc1267193da665615e05b97ff3dd72de09cbdc304538f19da96fc",
+    "F11": "4470053a81f8e5f1c4934300c5c79bb48c9b0454efb8822819bd3261e8d3a6be",
+    "F12": "094569baf3573554306191f4e2ac0953dccf49b254c90bd6995fb5e4925fbc6e",
+    "F13": "f59014a16f16beba5cb4d2f33b38400f4a0e44837a1a23914d97c42a094d214e",
+    "F14": "062941a5275646c39a5a312a1e74befafc7341b935860a25eedb01dabc321750",
+    "F15": "ae24e935b3c8ec5eac6c2a68695966c546e050cf4d9e3e682b520382ed5c77f1"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"votes\"],\"properties\":{\"votes\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"vote\",\"attacker\",\"gain\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"vote\":{\"type\":\"string\",\"enum\":[\"true_positive\",\"false_positive\",\"unverifiable\"]},\"attacker\":{\"type\":\"string\",\"description\":\"Who authors the input that reaches this code, and whether the code may trust them.\"},\"gain\":{\"type\":\"string\",\"description\":\"One line: what the attacker gets beyond what their position already allows, or \\\"nothing\\\".\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the file:lines that decide it.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 0,
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 192771,
+    "duration_api_ms": 192502,
+    "num_turns": 21,
+    "total_cost_usd": 0.4649633999999999,
+    "tokens": {
+      "input_tokens": 24,
+      "output_tokens": 18230,
+      "cache_read_tokens": 436597,
+      "cache_creation_tokens": 48824,
+      "total_tokens": 503675
+    },
+    "per_model": {
+      "claude-sonnet-5": {
+        "input_tokens": 24,
+        "output_tokens": 18230,
+        "cache_read_tokens": 436597,
+        "cache_creation_tokens": 48824,
+        "cost_usd": 0.4649633999999999
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "a7202aa2-ca32-48c2-8864-4860287c89c3",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "votes": 15,
+  "problems": [],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

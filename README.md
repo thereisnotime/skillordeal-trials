@@ -21,7 +21,7 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 
 - No skill is a clear, reliable win over plain Opus 4.8 yet. On dvpwa the baseline finds 6 of 19 known vulnerabilities per run; the best skills find 7.7 to 8.
 - One lead reproduced in a same-day [control round](trials/2026-09-secure-coding-audit/README.md#control-round-r01-control-2026-10-04): `anthropic-security-auditor` found 8 known bugs in all 6 runs, +1.7 [1.2, 2.3] over the baseline, at the baseline's cost. On a [real codebase with 11 published CVEs](trials/2026-10-filebrowser-cve-audit/) it found none.
-- The finder + verifier pipelines report far fewer findings on warpgate-operator. Whether they removed noise or real issues needs human labels.
+- On warpgate-operator a threat-model-aware judge panel refuted about half of all findings (109 of 210), mostly issues only an already-privileged user could trigger; on dvpwa it kept 96% of the findings that match known vulnerabilities.
 - On that real codebase no contender beats the baseline on CVEs found (best: 0.7 of 11 per run). Skills differ on noise instead: a threat-model-aware judge panel refuted none of the Sentry-based and fp-check findings and most of `agamm-owasp-security`'s and `samber-golang-security`'s.
 - One skill (`anthropic-security-review-cmd`) can't run a full-repo audit at all.
 

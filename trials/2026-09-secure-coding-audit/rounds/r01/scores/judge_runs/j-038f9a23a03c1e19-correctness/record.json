@@ -1,0 +1,95 @@
+{
+  "batch_id": "j-038f9a23a03c1e19",
+  "mode": "panel",
+  "slot": "correctness",
+  "lens": "correctness",
+  "arena": "dvpwa",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "d4280485c66215dd712b44edef1d40eacb41cc9a3f23f10bee656eb0b279c80d",
+    "F2": "51c7b9bba2499fed0589a17519eb5198ef4f07aa04b74c01f9bf625230fc8836",
+    "F3": "6e1424fe0857daf73dde20e3868cce91220c58d85022183e2bf8301366c33c26",
+    "F4": "3bb2c73c7020fbbb4e2e7de7c2d20095288e28e8286a3d36f62f177009eeb7b4",
+    "F5": "7b7031d23b5a27a90707cdb44fe92e5609f71404971333f8ec33caee91a65eab",
+    "F6": "a2dbbd7917a8a928647b069eaafad64aebddb8ead78fb7731b3564d48f7801be",
+    "F7": "78ba0852817a456dfbc5d942de623433aa05a90d0978a90a2f807963452a8e36",
+    "F8": "52867e0fa07e5e1361004c42930634cdf7c21116f80e8c3af04cb9937cc5506e",
+    "F9": "ce3c19145f57a200c80f36bc28df60a5fb38894eb0dbc4e8060a9d5b62968923",
+    "F10": "82daedc09fc9d4162f1699b591e09a0b8a97f5f23323f7c0db642f58c9b0c928",
+    "F11": "0070c3d8ecbb288d41f9fa81f0e9142df303c3bfa256b57365afb2f8765f6e35",
+    "F12": "891c9476db9d06c18570da3aadd55f1071e5259cc150edd8f14e2389eec59f78",
+    "F13": "088021e5d66a999e7f3b5c8ecda56ce295d0563cbd70647061d72b192929bd7c",
+    "F14": "106a150fac8d23ad2113e28b4e5aabc9a270057ac0636191f8762ab4ca54da78",
+    "F15": "061791d4b10eab760e4180e5feca632ecef16155380e811fdc538ef10279ec73"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"votes\"],\"properties\":{\"votes\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"vote\",\"attacker\",\"gain\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"vote\":{\"type\":\"string\",\"enum\":[\"true_positive\",\"false_positive\",\"unverifiable\"]},\"attacker\":{\"type\":\"string\",\"description\":\"Who authors the input that reaches this code, and whether the code may trust them.\"},\"gain\":{\"type\":\"string\",\"description\":\"One line: what the attacker gets beyond what their position already allows, or \\\"nothing\\\".\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the file:lines that decide it.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 0,
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 52332,
+    "duration_api_ms": 52198,
+    "num_turns": 14,
+    "total_cost_usd": 0.14365,
+    "tokens": {
+      "input_tokens": 12,
+      "output_tokens": 5484,
+      "cache_read_tokens": 100750,
+      "cache_creation_tokens": 17159,
+      "total_tokens": 123405
+    },
+    "per_model": {
+      "claude-sonnet-5": {
+        "input_tokens": 12,
+        "output_tokens": 5484,
+        "cache_read_tokens": 100750,
+        "cache_creation_tokens": 17159,
+        "cost_usd": 0.14365
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "85c47ef2-9bb1-4e9f-96e1-7aa9e6a5ad1d",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "votes": 15,
+  "problems": [],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

@@ -1,0 +1,87 @@
+{
+  "batch_id": "j-36be739963281416",
+  "mode": "panel",
+  "slot": "correctness",
+  "lens": "correctness",
+  "arena": "dvpwa",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "b0ac636443816db5c95ecb4c63a727621ce8021f98073acb53dd1827d336c444",
+    "F2": "8971944432ea52964787254f60b18601d679b6c7c6808eefd6f23031e35926d5",
+    "F3": "573dabbf7b1fecd5092c56a31375013eaab4855dda8e1d98adc09b9e7ee3b7f3",
+    "F4": "a420ab99db464d057ad1356712a332bfbb1dddc0206760521eb85975044d041f",
+    "F5": "48ac5f70e3112f41e557a09714e7892fe6803fa5462c67434d5892cd79a5bf91",
+    "F6": "f577b705ab4a5785be358ab31665cdead49d12ed521fc6340b56bf4d7b397f2e",
+    "F7": "1a46141a7943d567ad7a6284e8596cc53a5f9ab18ee5baa64d64ffd80a9c837c"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"votes\"],\"properties\":{\"votes\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"vote\",\"attacker\",\"gain\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"vote\":{\"type\":\"string\",\"enum\":[\"true_positive\",\"false_positive\",\"unverifiable\"]},\"attacker\":{\"type\":\"string\",\"description\":\"Who authors the input that reaches this code, and whether the code may trust them.\"},\"gain\":{\"type\":\"string\",\"description\":\"One line: what the attacker gets beyond what their position already allows, or \\\"nothing\\\".\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the file:lines that decide it.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 0,
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 21808,
+    "duration_api_ms": 21705,
+    "num_turns": 13,
+    "total_cost_usd": 0.088657,
+    "tokens": {
+      "input_tokens": 10,
+      "output_tokens": 2464,
+      "cache_read_tokens": 68425,
+      "cache_creation_tokens": 12578,
+      "total_tokens": 83477
+    },
+    "per_model": {
+      "claude-sonnet-5": {
+        "input_tokens": 10,
+        "output_tokens": 2464,
+        "cache_read_tokens": 68425,
+        "cache_creation_tokens": 12578,
+        "cost_usd": 0.088657
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "3c5cb87d-5b5a-4e60-9b2b-1166845479a1",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "votes": 7,
+  "problems": [],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

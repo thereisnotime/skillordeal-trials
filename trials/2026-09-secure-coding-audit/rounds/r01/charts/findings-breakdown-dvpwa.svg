@@ -215,6 +215,14 @@ L 184.895 51.428976
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
+   <g id="findings-breakdown-dvpwa-patch_4">
+    <path d="M 184.895 28.933775 
+L 184.895 28.933775 
+L 184.895 51.428976 
+L 184.895 51.428976 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #898781"/>
+   </g>
    <g id="findings-breakdown-dvpwa-tip0" class="tip"><title>baseline: tp 6 per bout (n=3)</title>
     <path d="M 184.895 32.44865 
 L 507.775837 32.44865 
@@ -239,15 +247,23 @@ L 184.895 104.152102
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip3" class="tip"><title>anthropic-security-auditor: tp 8.7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip3" class="tip"><title>anthropic-security-auditor: tp 8.3 per bout (n=3)</title>
     <path d="M 184.895 116.805652 
-L 652.112375 116.805652 
-L 652.112375 132.271102 
+L 634.070308 116.805652 
+L 634.070308 132.271102 
 L 184.895 132.271102 
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip4" class="tip"><title>cf-security-audit: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip4" class="tip"><title>anthropic-security-auditor: unknown 0.3 per bout (n=3)</title>
+    <path d="M 635.946683 116.805652 
+L 652.112375 116.805652 
+L 652.112375 132.271102 
+L 635.946683 132.271102 
+z
+" clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #898781"/>
+   </g>
+   <g id="findings-breakdown-dvpwa-tip5" class="tip"><title>cf-security-audit: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 144.924653 
 L 525.817904 144.924653 
 L 525.817904 160.390103 
@@ -255,7 +271,7 @@ L 184.895 160.390103
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip5" class="tip"><title>claude-security-flat: tp 5.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip6" class="tip"><title>claude-security-flat: tp 5.3 per bout (n=3)</title>
     <path d="M 184.895 173.043653 
 L 471.691702 173.043653 
 L 471.691702 188.509104 
@@ -263,7 +279,7 @@ L 184.895 188.509104
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip6" class="tip"><title>claude-security-researcher: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip7" class="tip"><title>claude-security-researcher: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 201.162654 
 L 525.817904 201.162654 
 L 525.817904 216.628104 
@@ -271,7 +287,7 @@ L 184.895 216.628104
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip7" class="tip"><title>ecc-security-review: tp 6.7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip8" class="tip"><title>ecc-security-review: tp 6.7 per bout (n=3)</title>
     <path d="M 184.895 229.281655 
 L 543.859971 229.281655 
 L 543.859971 244.747105 
@@ -279,7 +295,7 @@ L 184.895 244.747105
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip8" class="tip"><title>evandervecht-security-audit: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip9" class="tip"><title>evandervecht-security-audit: tp 7 per bout (n=3)</title>
     <path d="M 184.895 257.400655 
 L 561.902038 257.400655 
 L 561.902038 272.866106 
@@ -287,7 +303,7 @@ L 184.895 272.866106
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip9" class="tip"><title>every-ce-security-reviewer: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip10" class="tip"><title>every-ce-security-reviewer: tp 7 per bout (n=3)</title>
     <path d="M 184.895 285.519656 
 L 561.902038 285.519656 
 L 561.902038 300.985106 
@@ -295,7 +311,7 @@ L 184.895 300.985106
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip10" class="tip"><title>gemini-security-analyze-full: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip11" class="tip"><title>gemini-security-analyze-full: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 313.638657 
 L 525.817904 313.638657 
 L 525.817904 329.104107 
@@ -303,7 +319,7 @@ L 184.895 329.104107
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip11" class="tip"><title>github-copilot-se-security-reviewer: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip12" class="tip"><title>github-copilot-se-security-reviewer: tp 7 per bout (n=3)</title>
     <path d="M 184.895 341.757657 
 L 561.902038 341.757657 
 L 561.902038 357.223108 
@@ -311,7 +327,7 @@ L 184.895 357.223108
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip12" class="tip"><title>github-copilot-security-review: tp 6.7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip13" class="tip"><title>github-copilot-security-review: tp 6.7 per bout (n=3)</title>
     <path d="M 184.895 369.876658 
 L 543.859971 369.876658 
 L 543.859971 385.342108 
@@ -319,7 +335,7 @@ L 184.895 385.342108
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip13" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip14" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 7 per bout (n=3)</title>
     <path d="M 184.895 397.995659 
 L 561.902038 397.995659 
 L 561.902038 413.461109 
@@ -327,7 +343,7 @@ L 184.895 413.461109
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip14" class="tip"><title>neolab-security-auditor: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip15" class="tip"><title>neolab-security-auditor: tp 7 per bout (n=3)</title>
     <path d="M 184.895 426.114659 
 L 561.902038 426.114659 
 L 561.902038 441.58011 
@@ -335,7 +351,7 @@ L 184.895 441.58011
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip15" class="tip"><title>openai-security-best-practices: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip16" class="tip"><title>openai-security-best-practices: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 454.23366 
 L 525.817904 454.23366 
 L 525.817904 469.69911 
@@ -343,7 +359,7 @@ L 184.895 469.69911
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip16" class="tip"><title>samber-golang-security: tp 7.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip17" class="tip"><title>samber-golang-security: tp 7.3 per bout (n=3)</title>
     <path d="M 184.895 482.352661 
 L 579.944106 482.352661 
 L 579.944106 497.818111 
@@ -351,7 +367,7 @@ L 184.895 497.818111
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip17" class="tip"><title>sari3l-security-code-audit: tp 7 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip18" class="tip"><title>sari3l-security-code-audit: tp 7 per bout (n=3)</title>
     <path d="M 184.895 510.471661 
 L 561.902038 510.471661 
 L 561.902038 525.937112 
@@ -359,7 +375,7 @@ L 184.895 525.937112
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip18" class="tip"><title>sentry-code-review: tp 6 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip19" class="tip"><title>sentry-code-review: tp 6 per bout (n=3)</title>
     <path d="M 184.895 538.590662 
 L 507.775837 538.590662 
 L 507.775837 554.056112 
@@ -367,7 +383,7 @@ L 184.895 554.056112
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip19" class="tip"><title>sentry-security-review: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip20" class="tip"><title>sentry-security-review: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 566.709663 
 L 525.817904 566.709663 
 L 525.817904 582.175113 
@@ -375,7 +391,7 @@ L 184.895 582.175113
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip20" class="tip"><title>sentry-then-fp-check: tp 6 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip21" class="tip"><title>sentry-then-fp-check: tp 6 per bout (n=3)</title>
     <path d="M 184.895 594.828663 
 L 507.775837 594.828663 
 L 507.775837 610.294114 
@@ -383,7 +399,7 @@ L 184.895 610.294114
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip21" class="tip"><title>tob-differential-review: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip22" class="tip"><title>tob-differential-review: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 622.947664 
 L 525.817904 622.947664 
 L 525.817904 638.413114 
@@ -391,7 +407,7 @@ L 184.895 638.413114
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip22" class="tip"><title>tob-sharp-edges: tp 6.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip23" class="tip"><title>tob-sharp-edges: tp 6.3 per bout (n=3)</title>
     <path d="M 184.895 651.066664 
 L 525.817904 651.066664 
 L 525.817904 666.532115 
@@ -399,7 +415,7 @@ L 184.895 666.532115
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-tip23" class="tip"><title>unitone-secure-code-review: tp 7.3 per bout (n=3)</title>
+   <g id="findings-breakdown-dvpwa-tip24" class="tip"><title>unitone-secure-code-review: tp 7.3 per bout (n=3)</title>
     <path d="M 184.895 679.185665 
 L 579.944106 679.185665 
 L 579.944106 694.651115 
@@ -407,12 +423,12 @@ L 184.895 694.651115
 z
 " clip-path="url(#findings-breakdown-dvpwa-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-dvpwa-patch_4">
+   <g id="findings-breakdown-dvpwa-patch_5">
     <path d="M 184.895 700.977891 
 L 184.895 26.121875 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="findings-breakdown-dvpwa-patch_5">
+   <g id="findings-breakdown-dvpwa-patch_6">
     <path d="M 184.895 700.977891 
 L 710.28 700.977891 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
@@ -493,16 +509,27 @@ L 710.28 700.977891
     <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="20.121875" transform="rotate(-0 184.895 20.121875)">dvpwa: signal vs noise in findings</text>
    </g>
    <g id="findings-breakdown-dvpwa-legend_1">
-    <g id="findings-breakdown-dvpwa-patch_6">
-     <path d="M 682.865 20.24 
-L 690.865 20.24 
-L 690.865 13.08 
-L 682.865 13.08 
+    <g id="findings-breakdown-dvpwa-patch_7">
+     <path d="M 616.115 20.24 
+L 624.115 20.24 
+L 624.115 13.08 
+L 616.115 13.08 
 z
 " style="fill: #3987e5"/>
     </g>
     <g id="findings-breakdown-dvpwa-text_56">
-     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="697.265" y="19.4" transform="rotate(-0 697.265 19.4)">tp</text>
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="630.515" y="19.4" transform="rotate(-0 630.515 19.4)">tp</text>
+    </g>
+    <g id="findings-breakdown-dvpwa-patch_8">
+     <path d="M 654.73 20.24 
+L 662.73 20.24 
+L 662.73 13.08 
+L 654.73 13.08 
+z
+" style="fill: #898781"/>
+    </g>
+    <g id="findings-breakdown-dvpwa-text_57">
+     <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="669.13" y="19.4" transform="rotate(-0 669.13 19.4)">unknown</text>
     </g>
    </g>
   </g>

@@ -1,0 +1,95 @@
+{
+  "batch_id": "j-a5ba190f7d137f73",
+  "mode": "panel",
+  "slot": "correctness",
+  "lens": "correctness",
+  "arena": "warpgate-operator",
+  "judge_model": "claude-sonnet-5",
+  "refs": {
+    "F1": "c9cbf8733efebaadb95e1eec52d03737ca3546fa5e3a1136a2196df0767b6ce9",
+    "F2": "d06789c1407cd9c0c19e70195e0feb2d0201550874d3569ab19d54dd7469e9d2",
+    "F3": "39b2fdf7b37956c6c4573ea4bc3df8531a9cb6767a09c9dbcac38f758b967e24",
+    "F4": "a42a6917599975e10804ac57f413ff93d91e9c0ec5d4426c60f3577dec9a3104",
+    "F5": "2833dcb84c030454807345807e3d1a4b0a8a4466e0e0dee5a5ddfbe934bf313e",
+    "F6": "1bed45f05418380b7db09cf921851644750766fd2e375c051e40740352ba9f88",
+    "F7": "8b12b0805ac001fda01dae835e1434ca98397846dba299264bcb7e307ae82d56",
+    "F8": "a162c79640b81c4abb877ab8fed156f028deb70bd4fe715b41343441e5e2c03d",
+    "F9": "f0faaeb6a33a9157c4a184edf21948af34be7fcd03502ae70d4d729dddf4a1d8",
+    "F10": "c49e148fe1d73a4fa1b22fbfc32dd4add3b1592a2495eabf83a0e914d8a48506",
+    "F11": "1a0d6bb1beb30fa400e2281c150a7e227e14009c6dcaa105e52ed892d13b4daf",
+    "F12": "13f9f4ec254d7b0c2cc5635d74472d4f1b8ea6b169f9475c9841a4715171079c",
+    "F13": "1fed644e707c6d7f476123b7003a00896f536698be32432773b2a8738e2a23ba",
+    "F14": "5d582d3d69ac2372930735312554d9609f7096671ee7752726d68385b011c4a8",
+    "F15": "d0d09d7b4b7f75b0a133f7076106062719b1c2bf130e463460b84c67239cf76b"
+  },
+  "command": [
+    "claude",
+    "-p",
+    "--output-format",
+    "stream-json",
+    "--verbose",
+    "--model",
+    "claude-sonnet-5",
+    "--restricted",
+    "--strict-mcp-config",
+    "--mcp-config",
+    "{\"mcpServers\":{}}",
+    "--no-session-persistence",
+    "--settings",
+    "{\"disableBundledSkills\":true,\"autoMemoryEnabled\":false,\"includeCoAuthoredBy\":false,\"cleanupPeriodDays\":1}",
+    "--permission-mode",
+    "dontAsk",
+    "--permission-prompts",
+    "none",
+    "--tools",
+    "Read,Grep,Glob",
+    "--allowedTools",
+    "Read,Grep,Glob",
+    "--max-budget-usd",
+    "2.00",
+    "--exclude-dynamic-system-prompt-sections",
+    "--json-schema",
+    "{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"votes\"],\"properties\":{\"votes\":{\"type\":\"array\",\"description\":\"Exactly one entry per finding you were given.\",\"items\":{\"type\":\"object\",\"additionalProperties\":false,\"required\":[\"finding_ref\",\"vote\",\"attacker\",\"gain\",\"confidence\",\"rationale\"],\"properties\":{\"finding_ref\":{\"type\":\"string\",\"description\":\"The finding's ref, e.g. F3.\"},\"vote\":{\"type\":\"string\",\"enum\":[\"true_positive\",\"false_positive\",\"unverifiable\"]},\"attacker\":{\"type\":\"string\",\"description\":\"Who authors the input that reaches this code, and whether the code may trust them.\"},\"gain\":{\"type\":\"string\",\"description\":\"One line: what the attacker gets beyond what their position already allows, or \\\"nothing\\\".\"},\"confidence\":{\"type\":\"string\",\"enum\":[\"high\",\"medium\",\"low\"]},\"rationale\":{\"type\":\"string\",\"description\":\"One to three sentences citing the file:lines that decide it.\"}}}}}}",
+    "--setting-sources",
+    "",
+    "--disable-slash-commands"
+  ],
+  "exit_code": 0,
+  "usage": {
+    "subtype": "success",
+    "is_error": false,
+    "duration_ms": 196366,
+    "duration_api_ms": 196068,
+    "num_turns": 22,
+    "total_cost_usd": 0.553507,
+    "tokens": {
+      "input_tokens": 28,
+      "output_tokens": 18125,
+      "cache_read_tokens": 623105,
+      "cache_creation_tokens": 61895,
+      "total_tokens": 703153
+    },
+    "per_model": {
+      "claude-sonnet-5": {
+        "input_tokens": 28,
+        "output_tokens": 18125,
+        "cache_read_tokens": 623105,
+        "cache_creation_tokens": 61895,
+        "cost_usd": 0.553507
+      }
+    },
+    "permission_denials": 0,
+    "session_id": "45ad1946-a4f2-4857-bf19-d861bb32967c",
+    "terminal_reason": "completed",
+    "stop_reason": "tool_use"
+  },
+  "votes": 15,
+  "problems": [],
+  "egress": {
+    "mode": "allowlist",
+    "allowed": {
+      "api.anthropic.com:443": 3
+    },
+    "denied": {}
+  }
+}

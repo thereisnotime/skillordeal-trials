@@ -30,171 +30,177 @@ z
     <g id="reps-warpgate-operator-xtick_1">
      <g id="reps-warpgate-operator-line2d_1"/>
      <g id="reps-warpgate-operator-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="208.834282" y="614.517891" transform="rotate(-0 208.834282 614.517891)">1.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="196.620363" y="614.517891" transform="rotate(-0 196.620363 614.517891)">0</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-xtick_2">
      <g id="reps-warpgate-operator-line2d_2"/>
      <g id="reps-warpgate-operator-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="245.47604" y="614.517891" transform="rotate(-0 245.47604 614.517891)">3.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="229.190814" y="614.517891" transform="rotate(-0 229.190814 614.517891)">1</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-xtick_3">
      <g id="reps-warpgate-operator-line2d_3"/>
      <g id="reps-warpgate-operator-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="282.117798" y="614.517891" transform="rotate(-0 282.117798 614.517891)">4.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="261.761265" y="614.517891" transform="rotate(-0 261.761265 614.517891)">2</text>
+     </g>
+    </g>
+    <g id="reps-warpgate-operator-xtick_4">
+     <g id="reps-warpgate-operator-line2d_4"/>
+     <g id="reps-warpgate-operator-text_4">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="294.331717" y="614.517891" transform="rotate(-0 294.331717 614.517891)">3</text>
      </g>
     </g>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_2">
     <g id="reps-warpgate-operator-ytick_1">
-     <g id="reps-warpgate-operator-line2d_4"/>
-     <g id="reps-warpgate-operator-text_4">
+     <g id="reps-warpgate-operator-line2d_5"/>
+     <g id="reps-warpgate-operator-text_5">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="58.073675" transform="rotate(-0 181.395 58.073675)">baseline</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_2">
-     <g id="reps-warpgate-operator-line2d_5"/>
-     <g id="reps-warpgate-operator-text_5">
+     <g id="reps-warpgate-operator-line2d_6"/>
+     <g id="reps-warpgate-operator-text_6">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="81.457744" transform="rotate(-0 181.395 81.457744)">addyosmani-security-auditor</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_3">
-     <g id="reps-warpgate-operator-line2d_6"/>
-     <g id="reps-warpgate-operator-text_6">
+     <g id="reps-warpgate-operator-line2d_7"/>
+     <g id="reps-warpgate-operator-text_7">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="104.841813" transform="rotate(-0 181.395 104.841813)">agamm-owasp-security</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_4">
-     <g id="reps-warpgate-operator-line2d_7"/>
-     <g id="reps-warpgate-operator-text_7">
+     <g id="reps-warpgate-operator-line2d_8"/>
+     <g id="reps-warpgate-operator-text_8">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="128.225882" transform="rotate(-0 181.395 128.225882)">anthropic-security-auditor</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_5">
-     <g id="reps-warpgate-operator-line2d_8"/>
-     <g id="reps-warpgate-operator-text_8">
+     <g id="reps-warpgate-operator-line2d_9"/>
+     <g id="reps-warpgate-operator-text_9">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.609951" transform="rotate(-0 181.395 151.609951)">cf-security-audit</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_6">
-     <g id="reps-warpgate-operator-line2d_9"/>
-     <g id="reps-warpgate-operator-text_9">
+     <g id="reps-warpgate-operator-line2d_10"/>
+     <g id="reps-warpgate-operator-text_10">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="174.99402" transform="rotate(-0 181.395 174.99402)">claude-security-flat</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_7">
-     <g id="reps-warpgate-operator-line2d_10"/>
-     <g id="reps-warpgate-operator-text_10">
+     <g id="reps-warpgate-operator-line2d_11"/>
+     <g id="reps-warpgate-operator-text_11">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="198.378089" transform="rotate(-0 181.395 198.378089)">claude-security-researcher</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_8">
-     <g id="reps-warpgate-operator-line2d_11"/>
-     <g id="reps-warpgate-operator-text_11">
+     <g id="reps-warpgate-operator-line2d_12"/>
+     <g id="reps-warpgate-operator-text_12">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="221.762158" transform="rotate(-0 181.395 221.762158)">ecc-security-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_9">
-     <g id="reps-warpgate-operator-line2d_12"/>
-     <g id="reps-warpgate-operator-text_12">
+     <g id="reps-warpgate-operator-line2d_13"/>
+     <g id="reps-warpgate-operator-text_13">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="245.146227" transform="rotate(-0 181.395 245.146227)">evandervecht-security-audit</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_10">
-     <g id="reps-warpgate-operator-line2d_13"/>
-     <g id="reps-warpgate-operator-text_13">
+     <g id="reps-warpgate-operator-line2d_14"/>
+     <g id="reps-warpgate-operator-text_14">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="268.530296" transform="rotate(-0 181.395 268.530296)">every-ce-security-reviewer</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_11">
-     <g id="reps-warpgate-operator-line2d_14"/>
-     <g id="reps-warpgate-operator-text_14">
+     <g id="reps-warpgate-operator-line2d_15"/>
+     <g id="reps-warpgate-operator-text_15">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="291.914365" transform="rotate(-0 181.395 291.914365)">gemini-security-analyze-full</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_12">
-     <g id="reps-warpgate-operator-line2d_15"/>
-     <g id="reps-warpgate-operator-text_15">
+     <g id="reps-warpgate-operator-line2d_16"/>
+     <g id="reps-warpgate-operator-text_16">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="315.298434" transform="rotate(-0 181.395 315.298434)">github-copilot-se-security-reviewer</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_13">
-     <g id="reps-warpgate-operator-line2d_16"/>
-     <g id="reps-warpgate-operator-text_16">
+     <g id="reps-warpgate-operator-line2d_17"/>
+     <g id="reps-warpgate-operator-text_17">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="338.682503" transform="rotate(-0 181.395 338.682503)">github-copilot-security-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_14">
-     <g id="reps-warpgate-operator-line2d_17"/>
-     <g id="reps-warpgate-operator-text_17">
+     <g id="reps-warpgate-operator-line2d_18"/>
+     <g id="reps-warpgate-operator-text_18">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="362.066572" transform="rotate(-0 181.395 362.066572)">ivan-sincek-cwe-secure-code-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_15">
-     <g id="reps-warpgate-operator-line2d_18"/>
-     <g id="reps-warpgate-operator-text_18">
+     <g id="reps-warpgate-operator-line2d_19"/>
+     <g id="reps-warpgate-operator-text_19">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="385.450641" transform="rotate(-0 181.395 385.450641)">neolab-security-auditor</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_16">
-     <g id="reps-warpgate-operator-line2d_19"/>
-     <g id="reps-warpgate-operator-text_19">
+     <g id="reps-warpgate-operator-line2d_20"/>
+     <g id="reps-warpgate-operator-text_20">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="408.83471" transform="rotate(-0 181.395 408.83471)">openai-security-best-practices</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_17">
-     <g id="reps-warpgate-operator-line2d_20"/>
-     <g id="reps-warpgate-operator-text_20">
+     <g id="reps-warpgate-operator-line2d_21"/>
+     <g id="reps-warpgate-operator-text_21">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="432.218779" transform="rotate(-0 181.395 432.218779)">samber-golang-security</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_18">
-     <g id="reps-warpgate-operator-line2d_21"/>
-     <g id="reps-warpgate-operator-text_21">
+     <g id="reps-warpgate-operator-line2d_22"/>
+     <g id="reps-warpgate-operator-text_22">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="455.602848" transform="rotate(-0 181.395 455.602848)">sari3l-security-code-audit</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_19">
-     <g id="reps-warpgate-operator-line2d_22"/>
-     <g id="reps-warpgate-operator-text_22">
+     <g id="reps-warpgate-operator-line2d_23"/>
+     <g id="reps-warpgate-operator-text_23">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="478.986917" transform="rotate(-0 181.395 478.986917)">sentry-code-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_20">
-     <g id="reps-warpgate-operator-line2d_23"/>
-     <g id="reps-warpgate-operator-text_23">
+     <g id="reps-warpgate-operator-line2d_24"/>
+     <g id="reps-warpgate-operator-text_24">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="502.370986" transform="rotate(-0 181.395 502.370986)">sentry-security-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_21">
-     <g id="reps-warpgate-operator-line2d_24"/>
-     <g id="reps-warpgate-operator-text_24">
+     <g id="reps-warpgate-operator-line2d_25"/>
+     <g id="reps-warpgate-operator-text_25">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="525.755055" transform="rotate(-0 181.395 525.755055)">sentry-then-fp-check</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_22">
-     <g id="reps-warpgate-operator-line2d_25"/>
-     <g id="reps-warpgate-operator-text_25">
+     <g id="reps-warpgate-operator-line2d_26"/>
+     <g id="reps-warpgate-operator-text_26">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="549.139124" transform="rotate(-0 181.395 549.139124)">tob-differential-review</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_23">
-     <g id="reps-warpgate-operator-line2d_26"/>
-     <g id="reps-warpgate-operator-text_26">
+     <g id="reps-warpgate-operator-line2d_27"/>
+     <g id="reps-warpgate-operator-text_27">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="572.523193" transform="rotate(-0 181.395 572.523193)">tob-sharp-edges</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-ytick_24">
-     <g id="reps-warpgate-operator-line2d_27"/>
-     <g id="reps-warpgate-operator-text_27">
+     <g id="reps-warpgate-operator-line2d_28"/>
+     <g id="reps-warpgate-operator-text_28">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="595.907262" transform="rotate(-0 181.395 595.907262)">unitone-secure-code-review</text>
      </g>
     </g>
    </g>
-   <g id="reps-warpgate-operator-line2d_28">
-    <path d="M 245.47604 604.18 
-L 245.47604 42.962344 
+   <g id="reps-warpgate-operator-line2d_29">
+    <path d="M 229.190814 604.18 
+L 229.190814 42.962344 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
    </g>
    <g id="reps-warpgate-operator-patch_3">
@@ -207,7 +213,7 @@ L 184.895 42.962344
 L 306.057079 604.18 
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
-   <g id="reps-warpgate-operator-tip0" class="tip"><title>baseline, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip0" class="tip"><title>baseline, bout 1 of 3: panel-valid 2</title>
     <defs>
      <path id="reps-warpgate-operator-ma432050c96" d="M 0 2.54951 
 C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
@@ -222,20 +228,20 @@ z
 "/>
     </defs>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="245.47604" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="261.761265" y="49.509883" style="fill: #898781; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip1" class="tip"><title>baseline, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip1" class="tip"><title>baseline, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="269.903878" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="229.190814" y="54.654378" style="fill: #898781; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip2" class="tip"><title>baseline, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip2" class="tip"><title>baseline, bout 3 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="221.048201" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-ma432050c96" x="196.620363" y="59.798873" style="fill: #898781; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip4" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip4" class="tip"><title>addyosmani-security-auditor, bout 1 of 3: panel-valid 1</title>
     <defs>
      <path id="reps-warpgate-operator-m6cdce938b5" d="M 0 2.54951 
 C 0.676138 2.54951 1.324674 2.280877 1.802776 1.802776 
@@ -250,470 +256,470 @@ z
 "/>
     </defs>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="72.893952" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip5" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip5" class="tip"><title>addyosmani-security-auditor, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="78.038447" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip6" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip6" class="tip"><title>addyosmani-security-auditor, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="83.182942" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip8" class="tip"><title>agamm-owasp-security, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip8" class="tip"><title>agamm-owasp-security, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="96.278021" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip9" class="tip"><title>agamm-owasp-security, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip9" class="tip"><title>agamm-owasp-security, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="101.422516" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip10" class="tip"><title>agamm-owasp-security, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip10" class="tip"><title>agamm-owasp-security, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="106.567011" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip12" class="tip"><title>anthropic-security-auditor, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip12" class="tip"><title>anthropic-security-auditor, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="119.66209" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip13" class="tip"><title>anthropic-security-auditor, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip13" class="tip"><title>anthropic-security-auditor, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="124.806585" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip14" class="tip"><title>anthropic-security-auditor, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip14" class="tip"><title>anthropic-security-auditor, bout 3 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="129.95108" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip16" class="tip"><title>cf-security-audit, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip16" class="tip"><title>cf-security-audit, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="143.046159" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip17" class="tip"><title>cf-security-audit, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip17" class="tip"><title>cf-security-audit, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="148.190654" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip18" class="tip"><title>cf-security-audit, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip18" class="tip"><title>cf-security-audit, bout 3 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="153.335149" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip20" class="tip"><title>claude-security-flat, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip20" class="tip"><title>claude-security-flat, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="166.430228" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip21" class="tip"><title>claude-security-flat, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip21" class="tip"><title>claude-security-flat, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="171.574723" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip22" class="tip"><title>claude-security-flat, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip22" class="tip"><title>claude-security-flat, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="176.719218" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip24" class="tip"><title>claude-security-researcher, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip24" class="tip"><title>claude-security-researcher, bout 1 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="189.814297" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip25" class="tip"><title>claude-security-researcher, bout 2 of 3: judge-valid 1</title>
+   <g id="reps-warpgate-operator-tip25" class="tip"><title>claude-security-researcher, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="194.958792" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip26" class="tip"><title>claude-security-researcher, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip26" class="tip"><title>claude-security-researcher, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="200.103287" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip28" class="tip"><title>ecc-security-review, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip28" class="tip"><title>ecc-security-review, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="213.198366" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip29" class="tip"><title>ecc-security-review, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip29" class="tip"><title>ecc-security-review, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="218.342861" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip30" class="tip"><title>ecc-security-review, bout 3 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip30" class="tip"><title>ecc-security-review, bout 3 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="223.487357" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip32" class="tip"><title>evandervecht-security-audit, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip32" class="tip"><title>evandervecht-security-audit, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="236.582435" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip33" class="tip"><title>evandervecht-security-audit, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip33" class="tip"><title>evandervecht-security-audit, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="241.72693" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip34" class="tip"><title>evandervecht-security-audit, bout 3 of 3: judge-valid 5</title>
+   <g id="reps-warpgate-operator-tip34" class="tip"><title>evandervecht-security-audit, bout 3 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="246.871426" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip36" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: judge-valid 1</title>
+   <g id="reps-warpgate-operator-tip36" class="tip"><title>every-ce-security-reviewer, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="259.966504" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip37" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip37" class="tip"><title>every-ce-security-reviewer, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="265.110999" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip38" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip38" class="tip"><title>every-ce-security-reviewer, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="270.255495" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip40" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip40" class="tip"><title>gemini-security-analyze-full, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="283.350573" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip41" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip41" class="tip"><title>gemini-security-analyze-full, bout 2 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="288.495068" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip42" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip42" class="tip"><title>gemini-security-analyze-full, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="293.639564" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip44" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip44" class="tip"><title>github-copilot-se-security-reviewer, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="306.734642" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip45" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip45" class="tip"><title>github-copilot-se-security-reviewer, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="311.879137" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip46" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip46" class="tip"><title>github-copilot-se-security-reviewer, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="317.023633" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip48" class="tip"><title>github-copilot-security-review, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip48" class="tip"><title>github-copilot-security-review, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="330.118711" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip49" class="tip"><title>github-copilot-security-review, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip49" class="tip"><title>github-copilot-security-review, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="335.263206" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip50" class="tip"><title>github-copilot-security-review, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip50" class="tip"><title>github-copilot-security-review, bout 3 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="340.407702" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip52" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="353.50278" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: judge-valid 5</title>
+   <g id="reps-warpgate-operator-tip53" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="358.647275" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip54" class="tip"><title>ivan-sincek-cwe-secure-code-review, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="363.791771" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip56" class="tip"><title>neolab-security-auditor, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip56" class="tip"><title>neolab-security-auditor, bout 1 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="376.886849" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip57" class="tip"><title>neolab-security-auditor, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip57" class="tip"><title>neolab-security-auditor, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="382.031344" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip58" class="tip"><title>neolab-security-auditor, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip58" class="tip"><title>neolab-security-auditor, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="387.17584" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip60" class="tip"><title>openai-security-best-practices, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip60" class="tip"><title>openai-security-best-practices, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="400.270918" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip61" class="tip"><title>openai-security-best-practices, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip61" class="tip"><title>openai-security-best-practices, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="405.415413" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip62" class="tip"><title>openai-security-best-practices, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip62" class="tip"><title>openai-security-best-practices, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="410.559909" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip64" class="tip"><title>samber-golang-security, bout 1 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip64" class="tip"><title>samber-golang-security, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="423.654987" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip65" class="tip"><title>samber-golang-security, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip65" class="tip"><title>samber-golang-security, bout 2 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="428.799482" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip66" class="tip"><title>samber-golang-security, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip66" class="tip"><title>samber-golang-security, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="433.943978" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip68" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip68" class="tip"><title>sari3l-security-code-audit, bout 1 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="447.039056" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip69" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip69" class="tip"><title>sari3l-security-code-audit, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="452.183551" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip70" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip70" class="tip"><title>sari3l-security-code-audit, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="457.328047" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip72" class="tip"><title>sentry-code-review, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip72" class="tip"><title>sentry-code-review, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="470.423125" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip73" class="tip"><title>sentry-code-review, bout 2 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip73" class="tip"><title>sentry-code-review, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="475.56762" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip74" class="tip"><title>sentry-code-review, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip74" class="tip"><title>sentry-code-review, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="480.712116" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip76" class="tip"><title>sentry-security-review, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip76" class="tip"><title>sentry-security-review, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="493.807194" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip77" class="tip"><title>sentry-security-review, bout 2 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip77" class="tip"><title>sentry-security-review, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="498.951689" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip78" class="tip"><title>sentry-security-review, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip78" class="tip"><title>sentry-security-review, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="504.096185" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip80" class="tip"><title>sentry-then-fp-check, bout 1 of 3: judge-valid 1</title>
+   <g id="reps-warpgate-operator-tip80" class="tip"><title>sentry-then-fp-check, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="517.191263" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip81" class="tip"><title>sentry-then-fp-check, bout 2 of 3: judge-valid 1</title>
+   <g id="reps-warpgate-operator-tip81" class="tip"><title>sentry-then-fp-check, bout 2 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="522.335758" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip82" class="tip"><title>sentry-then-fp-check, bout 3 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip82" class="tip"><title>sentry-then-fp-check, bout 3 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="527.480254" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip84" class="tip"><title>tob-differential-review, bout 1 of 3: judge-valid 1</title>
+   <g id="reps-warpgate-operator-tip84" class="tip"><title>tob-differential-review, bout 1 of 3: panel-valid 0</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="196.620363" y="540.575332" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip85" class="tip"><title>tob-differential-review, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip85" class="tip"><title>tob-differential-review, bout 2 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="545.719827" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip86" class="tip"><title>tob-differential-review, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip86" class="tip"><title>tob-differential-review, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="550.864323" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip88" class="tip"><title>tob-sharp-edges, bout 1 of 3: judge-valid 2</title>
+   <g id="reps-warpgate-operator-tip88" class="tip"><title>tob-sharp-edges, bout 1 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="221.048201" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="563.959401" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip89" class="tip"><title>tob-sharp-edges, bout 2 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip89" class="tip"><title>tob-sharp-edges, bout 2 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="569.103896" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip90" class="tip"><title>tob-sharp-edges, bout 3 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip90" class="tip"><title>tob-sharp-edges, bout 3 of 3: panel-valid 3</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="294.331717" y="574.248392" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip92" class="tip"><title>unitone-secure-code-review, bout 1 of 3: judge-valid 4</title>
+   <g id="reps-warpgate-operator-tip92" class="tip"><title>unitone-secure-code-review, bout 1 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="269.903878" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="587.34347" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip93" class="tip"><title>unitone-secure-code-review, bout 2 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip93" class="tip"><title>unitone-secure-code-review, bout 2 of 3: panel-valid 1</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="229.190814" y="592.487965" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-tip94" class="tip"><title>unitone-secure-code-review, bout 3 of 3: judge-valid 3</title>
+   <g id="reps-warpgate-operator-tip94" class="tip"><title>unitone-secure-code-review, bout 3 of 3: panel-valid 2</title>
     <g clip-path="url(#reps-warpgate-operator-pcad9dac3d6)">
-     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="245.47604" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
+     <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="261.761265" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-text_28">
-    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">judge-valid</text>
+   <g id="reps-warpgate-operator-text_29">
+    <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="36.962344" transform="rotate(-0 184.895 36.962344)">panel-valid</text>
    </g>
-   <g id="reps-warpgate-operator-tip3" class="tip"><title>baseline: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 46.703795 
-L 245.47604 62.604962 
+   <g id="reps-warpgate-operator-tip3" class="tip"><title>baseline: mean panel-valid 1 (n=3)</title>
+    <path d="M 229.190814 46.703795 
+L 229.190814 62.604962 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip7" class="tip"><title>addyosmani-security-auditor: mean judge-valid 3.7 (n=3)</title>
-    <path d="M 261.761265 70.087864 
-L 261.761265 85.989031 
+   <g id="reps-warpgate-operator-tip7" class="tip"><title>addyosmani-security-auditor: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 70.087864 
+L 240.047631 85.989031 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip11" class="tip"><title>agamm-owasp-security: mean judge-valid 3.3 (n=3)</title>
-    <path d="M 253.618653 93.471933 
-L 253.618653 109.3731 
+   <g id="reps-warpgate-operator-tip11" class="tip"><title>agamm-owasp-security: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 93.471933 
+L 240.047631 109.3731 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip15" class="tip"><title>anthropic-security-auditor: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 116.856002 
-L 245.47604 132.757169 
+   <g id="reps-warpgate-operator-tip15" class="tip"><title>anthropic-security-auditor: mean panel-valid 0.7 (n=3)</title>
+    <path d="M 218.333997 116.856002 
+L 218.333997 132.757169 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip19" class="tip"><title>cf-security-audit: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 140.240071 
-L 245.47604 156.141238 
+   <g id="reps-warpgate-operator-tip19" class="tip"><title>cf-security-audit: mean panel-valid 1 (n=3)</title>
+    <path d="M 229.190814 140.240071 
+L 229.190814 156.141238 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip23" class="tip"><title>claude-security-flat: mean judge-valid 2.3 (n=3)</title>
-    <path d="M 229.190814 163.62414 
-L 229.190814 179.525307 
+   <g id="reps-warpgate-operator-tip23" class="tip"><title>claude-security-flat: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 163.62414 
+L 240.047631 179.525307 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip27" class="tip"><title>claude-security-researcher: mean judge-valid 1.7 (n=3)</title>
-    <path d="M 212.905588 187.008209 
-L 212.905588 202.909376 
+   <g id="reps-warpgate-operator-tip27" class="tip"><title>claude-security-researcher: mean panel-valid 0.7 (n=3)</title>
+    <path d="M 218.333997 187.008209 
+L 218.333997 202.909376 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip31" class="tip"><title>ecc-security-review: mean judge-valid 3.7 (n=3)</title>
-    <path d="M 261.761265 210.392278 
-L 261.761265 226.293445 
+   <g id="reps-warpgate-operator-tip31" class="tip"><title>ecc-security-review: mean panel-valid 2.3 (n=3)</title>
+    <path d="M 272.618083 210.392278 
+L 272.618083 226.293445 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip35" class="tip"><title>evandervecht-security-audit: mean judge-valid 3.7 (n=3)</title>
+   <g id="reps-warpgate-operator-tip35" class="tip"><title>evandervecht-security-audit: mean panel-valid 2 (n=3)</title>
     <path d="M 261.761265 233.776347 
 L 261.761265 249.677514 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip39" class="tip"><title>every-ce-security-reviewer: mean judge-valid 2.3 (n=3)</title>
-    <path d="M 229.190814 257.160416 
-L 229.190814 273.061583 
+   <g id="reps-warpgate-operator-tip39" class="tip"><title>every-ce-security-reviewer: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 257.160416 
+L 240.047631 273.061583 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip43" class="tip"><title>gemini-security-analyze-full: mean judge-valid 2.7 (n=3)</title>
-    <path d="M 237.333427 280.544485 
-L 237.333427 296.445652 
+   <g id="reps-warpgate-operator-tip43" class="tip"><title>gemini-security-analyze-full: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 280.544485 
+L 240.047631 296.445652 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip47" class="tip"><title>github-copilot-se-security-reviewer: mean judge-valid 3.7 (n=3)</title>
-    <path d="M 261.761265 303.928554 
-L 261.761265 319.829721 
+   <g id="reps-warpgate-operator-tip47" class="tip"><title>github-copilot-se-security-reviewer: mean panel-valid 1.7 (n=3)</title>
+    <path d="M 250.904448 303.928554 
+L 250.904448 319.829721 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip51" class="tip"><title>github-copilot-security-review: mean judge-valid 2.7 (n=3)</title>
-    <path d="M 237.333427 327.312623 
-L 237.333427 343.21379 
+   <g id="reps-warpgate-operator-tip51" class="tip"><title>github-copilot-security-review: mean panel-valid 1 (n=3)</title>
+    <path d="M 229.190814 327.312623 
+L 229.190814 343.21379 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean judge-valid 3.7 (n=3)</title>
+   <g id="reps-warpgate-operator-tip55" class="tip"><title>ivan-sincek-cwe-secure-code-review: mean panel-valid 2 (n=3)</title>
     <path d="M 261.761265 350.696692 
 L 261.761265 366.597859 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip59" class="tip"><title>neolab-security-auditor: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 374.080761 
-L 245.47604 389.981928 
+   <g id="reps-warpgate-operator-tip59" class="tip"><title>neolab-security-auditor: mean panel-valid 1.7 (n=3)</title>
+    <path d="M 250.904448 374.080761 
+L 250.904448 389.981928 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip63" class="tip"><title>openai-security-best-practices: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 397.46483 
-L 245.47604 413.365997 
+   <g id="reps-warpgate-operator-tip63" class="tip"><title>openai-security-best-practices: mean panel-valid 1.7 (n=3)</title>
+    <path d="M 250.904448 397.46483 
+L 250.904448 413.365997 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip67" class="tip"><title>samber-golang-security: mean judge-valid 3.3 (n=3)</title>
-    <path d="M 253.618653 420.848899 
-L 253.618653 436.750066 
+   <g id="reps-warpgate-operator-tip67" class="tip"><title>samber-golang-security: mean panel-valid 2.3 (n=3)</title>
+    <path d="M 272.618083 420.848899 
+L 272.618083 436.750066 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip71" class="tip"><title>sari3l-security-code-audit: mean judge-valid 3 (n=3)</title>
-    <path d="M 245.47604 444.232968 
-L 245.47604 460.134135 
+   <g id="reps-warpgate-operator-tip71" class="tip"><title>sari3l-security-code-audit: mean panel-valid 1 (n=3)</title>
+    <path d="M 229.190814 444.232968 
+L 229.190814 460.134135 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip75" class="tip"><title>sentry-code-review: mean judge-valid 2.7 (n=3)</title>
-    <path d="M 237.333427 467.617037 
-L 237.333427 483.518204 
+   <g id="reps-warpgate-operator-tip75" class="tip"><title>sentry-code-review: mean panel-valid 1 (n=3)</title>
+    <path d="M 229.190814 467.617037 
+L 229.190814 483.518204 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip79" class="tip"><title>sentry-security-review: mean judge-valid 2.3 (n=3)</title>
+   <g id="reps-warpgate-operator-tip79" class="tip"><title>sentry-security-review: mean panel-valid 1 (n=3)</title>
     <path d="M 229.190814 491.001106 
 L 229.190814 506.902273 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip83" class="tip"><title>sentry-then-fp-check: mean judge-valid 1.3 (n=3)</title>
-    <path d="M 204.762975 514.385175 
-L 204.762975 530.286342 
+   <g id="reps-warpgate-operator-tip83" class="tip"><title>sentry-then-fp-check: mean panel-valid 0.7 (n=3)</title>
+    <path d="M 218.333997 514.385175 
+L 218.333997 530.286342 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip87" class="tip"><title>tob-differential-review: mean judge-valid 2.3 (n=3)</title>
-    <path d="M 229.190814 537.769244 
-L 229.190814 553.670411 
+   <g id="reps-warpgate-operator-tip87" class="tip"><title>tob-differential-review: mean panel-valid 1.3 (n=3)</title>
+    <path d="M 240.047631 537.769244 
+L 240.047631 553.670411 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip91" class="tip"><title>tob-sharp-edges: mean judge-valid 3.3 (n=3)</title>
-    <path d="M 253.618653 561.153313 
-L 253.618653 577.05448 
+   <g id="reps-warpgate-operator-tip91" class="tip"><title>tob-sharp-edges: mean panel-valid 2.3 (n=3)</title>
+    <path d="M 272.618083 561.153313 
+L 272.618083 577.05448 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
-   <g id="reps-warpgate-operator-tip95" class="tip"><title>unitone-secure-code-review: mean judge-valid 3.3 (n=3)</title>
-    <path d="M 253.618653 584.537382 
-L 253.618653 600.438549 
+   <g id="reps-warpgate-operator-tip95" class="tip"><title>unitone-secure-code-review: mean panel-valid 1.7 (n=3)</title>
+    <path d="M 250.904448 584.537382 
+L 250.904448 600.438549 
 " clip-path="url(#reps-warpgate-operator-pcad9dac3d6)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
   </g>
@@ -728,94 +734,94 @@ z
 " style="fill: none"/>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_3">
-    <g id="reps-warpgate-operator-xtick_4">
-     <g id="reps-warpgate-operator-line2d_29"/>
-     <g id="reps-warpgate-operator-text_29">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="355.789175" y="614.517891" transform="rotate(-0 355.789175 614.517891)">2</text>
-     </g>
-    </g>
     <g id="reps-warpgate-operator-xtick_5">
      <g id="reps-warpgate-operator-line2d_30"/>
      <g id="reps-warpgate-operator-text_30">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="355.789175" y="614.517891" transform="rotate(-0 355.789175 614.517891)">2</text>
+     </g>
+    </g>
+    <g id="reps-warpgate-operator-xtick_6">
+     <g id="reps-warpgate-operator-line2d_31"/>
+     <g id="reps-warpgate-operator-text_31">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="404.644852" y="614.517891" transform="rotate(-0 404.644852 614.517891)">4</text>
      </g>
     </g>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_4">
     <g id="reps-warpgate-operator-ytick_25">
-     <g id="reps-warpgate-operator-line2d_31"/>
-    </g>
-    <g id="reps-warpgate-operator-ytick_26">
      <g id="reps-warpgate-operator-line2d_32"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_27">
+    <g id="reps-warpgate-operator-ytick_26">
      <g id="reps-warpgate-operator-line2d_33"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_28">
+    <g id="reps-warpgate-operator-ytick_27">
      <g id="reps-warpgate-operator-line2d_34"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_29">
+    <g id="reps-warpgate-operator-ytick_28">
      <g id="reps-warpgate-operator-line2d_35"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_30">
+    <g id="reps-warpgate-operator-ytick_29">
      <g id="reps-warpgate-operator-line2d_36"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_31">
+    <g id="reps-warpgate-operator-ytick_30">
      <g id="reps-warpgate-operator-line2d_37"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_32">
+    <g id="reps-warpgate-operator-ytick_31">
      <g id="reps-warpgate-operator-line2d_38"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_33">
+    <g id="reps-warpgate-operator-ytick_32">
      <g id="reps-warpgate-operator-line2d_39"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_34">
+    <g id="reps-warpgate-operator-ytick_33">
      <g id="reps-warpgate-operator-line2d_40"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_35">
+    <g id="reps-warpgate-operator-ytick_34">
      <g id="reps-warpgate-operator-line2d_41"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_36">
+    <g id="reps-warpgate-operator-ytick_35">
      <g id="reps-warpgate-operator-line2d_42"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_37">
+    <g id="reps-warpgate-operator-ytick_36">
      <g id="reps-warpgate-operator-line2d_43"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_38">
+    <g id="reps-warpgate-operator-ytick_37">
      <g id="reps-warpgate-operator-line2d_44"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_39">
+    <g id="reps-warpgate-operator-ytick_38">
      <g id="reps-warpgate-operator-line2d_45"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_40">
+    <g id="reps-warpgate-operator-ytick_39">
      <g id="reps-warpgate-operator-line2d_46"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_41">
+    <g id="reps-warpgate-operator-ytick_40">
      <g id="reps-warpgate-operator-line2d_47"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_42">
+    <g id="reps-warpgate-operator-ytick_41">
      <g id="reps-warpgate-operator-line2d_48"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_43">
+    <g id="reps-warpgate-operator-ytick_42">
      <g id="reps-warpgate-operator-line2d_49"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_44">
+    <g id="reps-warpgate-operator-ytick_43">
      <g id="reps-warpgate-operator-line2d_50"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_45">
+    <g id="reps-warpgate-operator-ytick_44">
      <g id="reps-warpgate-operator-line2d_51"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_46">
+    <g id="reps-warpgate-operator-ytick_45">
      <g id="reps-warpgate-operator-line2d_52"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_47">
+    <g id="reps-warpgate-operator-ytick_46">
      <g id="reps-warpgate-operator-line2d_53"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_48">
+    <g id="reps-warpgate-operator-ytick_47">
      <g id="reps-warpgate-operator-line2d_54"/>
     </g>
+    <g id="reps-warpgate-operator-ytick_48">
+     <g id="reps-warpgate-operator-line2d_55"/>
+    </g>
    </g>
-   <g id="reps-warpgate-operator-line2d_55">
+   <g id="reps-warpgate-operator-line2d_56">
     <path d="M 380.217013 604.18 
 L 380.217013 42.962344 
 " clip-path="url(#reps-warpgate-operator-p01b5517c43)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
@@ -1190,7 +1196,7 @@ L 440.798053 604.18
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="380.217013" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-text_31">
+   <g id="reps-warpgate-operator-text_32">
     <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="319.635974" y="36.962344" transform="rotate(-0 319.635974 36.962344)">findings</text>
    </g>
    <g id="reps-warpgate-operator-tip99" class="tip"><title>baseline: mean findings 3 (n=3)</title>
@@ -1325,106 +1331,106 @@ z
 " style="fill: none"/>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_5">
-    <g id="reps-warpgate-operator-xtick_6">
-     <g id="reps-warpgate-operator-line2d_56"/>
-     <g id="reps-warpgate-operator-text_32">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="457.714134" y="614.517891" transform="rotate(-0 457.714134 614.517891)">1.0</text>
-     </g>
-    </g>
     <g id="reps-warpgate-operator-xtick_7">
      <g id="reps-warpgate-operator-line2d_57"/>
      <g id="reps-warpgate-operator-text_33">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="488.601844" y="614.517891" transform="rotate(-0 488.601844 614.517891)">1.5</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="457.714134" y="614.517891" transform="rotate(-0 457.714134 614.517891)">1.0</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-xtick_8">
      <g id="reps-warpgate-operator-line2d_58"/>
      <g id="reps-warpgate-operator-text_34">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="519.489554" y="614.517891" transform="rotate(-0 519.489554 614.517891)">2.0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="488.601844" y="614.517891" transform="rotate(-0 488.601844 614.517891)">1.5</text>
      </g>
     </g>
     <g id="reps-warpgate-operator-xtick_9">
      <g id="reps-warpgate-operator-line2d_59"/>
      <g id="reps-warpgate-operator-text_35">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="519.489554" y="614.517891" transform="rotate(-0 519.489554 614.517891)">2.0</text>
+     </g>
+    </g>
+    <g id="reps-warpgate-operator-xtick_10">
+     <g id="reps-warpgate-operator-line2d_60"/>
+     <g id="reps-warpgate-operator-text_36">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="550.377263" y="614.517891" transform="rotate(-0 550.377263 614.517891)">2.5</text>
      </g>
     </g>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_6">
     <g id="reps-warpgate-operator-ytick_49">
-     <g id="reps-warpgate-operator-line2d_60"/>
-    </g>
-    <g id="reps-warpgate-operator-ytick_50">
      <g id="reps-warpgate-operator-line2d_61"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_51">
+    <g id="reps-warpgate-operator-ytick_50">
      <g id="reps-warpgate-operator-line2d_62"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_52">
+    <g id="reps-warpgate-operator-ytick_51">
      <g id="reps-warpgate-operator-line2d_63"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_53">
+    <g id="reps-warpgate-operator-ytick_52">
      <g id="reps-warpgate-operator-line2d_64"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_54">
+    <g id="reps-warpgate-operator-ytick_53">
      <g id="reps-warpgate-operator-line2d_65"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_55">
+    <g id="reps-warpgate-operator-ytick_54">
      <g id="reps-warpgate-operator-line2d_66"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_56">
+    <g id="reps-warpgate-operator-ytick_55">
      <g id="reps-warpgate-operator-line2d_67"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_57">
+    <g id="reps-warpgate-operator-ytick_56">
      <g id="reps-warpgate-operator-line2d_68"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_58">
+    <g id="reps-warpgate-operator-ytick_57">
      <g id="reps-warpgate-operator-line2d_69"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_59">
+    <g id="reps-warpgate-operator-ytick_58">
      <g id="reps-warpgate-operator-line2d_70"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_60">
+    <g id="reps-warpgate-operator-ytick_59">
      <g id="reps-warpgate-operator-line2d_71"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_61">
+    <g id="reps-warpgate-operator-ytick_60">
      <g id="reps-warpgate-operator-line2d_72"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_62">
+    <g id="reps-warpgate-operator-ytick_61">
      <g id="reps-warpgate-operator-line2d_73"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_63">
+    <g id="reps-warpgate-operator-ytick_62">
      <g id="reps-warpgate-operator-line2d_74"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_64">
+    <g id="reps-warpgate-operator-ytick_63">
      <g id="reps-warpgate-operator-line2d_75"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_65">
+    <g id="reps-warpgate-operator-ytick_64">
      <g id="reps-warpgate-operator-line2d_76"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_66">
+    <g id="reps-warpgate-operator-ytick_65">
      <g id="reps-warpgate-operator-line2d_77"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_67">
+    <g id="reps-warpgate-operator-ytick_66">
      <g id="reps-warpgate-operator-line2d_78"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_68">
+    <g id="reps-warpgate-operator-ytick_67">
      <g id="reps-warpgate-operator-line2d_79"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_69">
+    <g id="reps-warpgate-operator-ytick_68">
      <g id="reps-warpgate-operator-line2d_80"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_70">
+    <g id="reps-warpgate-operator-ytick_69">
      <g id="reps-warpgate-operator-line2d_81"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_71">
+    <g id="reps-warpgate-operator-ytick_70">
      <g id="reps-warpgate-operator-line2d_82"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_72">
+    <g id="reps-warpgate-operator-ytick_71">
      <g id="reps-warpgate-operator-line2d_83"/>
     </g>
+    <g id="reps-warpgate-operator-ytick_72">
+     <g id="reps-warpgate-operator-line2d_84"/>
+    </g>
    </g>
-   <g id="reps-warpgate-operator-line2d_84">
+   <g id="reps-warpgate-operator-line2d_85">
     <path d="M 489.972723 604.18 
 L 489.972723 42.962344 
 " clip-path="url(#reps-warpgate-operator-p081ca207e1)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
@@ -1799,7 +1805,7 @@ L 575.539026 604.18
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="474.177963" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-text_36">
+   <g id="reps-warpgate-operator-text_37">
     <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="454.376947" y="36.962344" transform="rotate(-0 454.376947 36.962344)">cost $</text>
    </g>
    <g id="reps-warpgate-operator-tip195" class="tip"><title>baseline: mean cost $ 1.522 (n=3)</title>
@@ -1934,94 +1940,94 @@ z
 " style="fill: none"/>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_7">
-    <g id="reps-warpgate-operator-xtick_10">
-     <g id="reps-warpgate-operator-line2d_85"/>
-     <g id="reps-warpgate-operator-text_37">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="629.568042" y="614.517891" transform="rotate(-0 629.568042 614.517891)">3.0</text>
-     </g>
-    </g>
     <g id="reps-warpgate-operator-xtick_11">
      <g id="reps-warpgate-operator-line2d_86"/>
      <g id="reps-warpgate-operator-text_38">
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="629.568042" y="614.517891" transform="rotate(-0 629.568042 614.517891)">3.0</text>
+     </g>
+    </g>
+    <g id="reps-warpgate-operator-xtick_12">
+     <g id="reps-warpgate-operator-line2d_87"/>
+     <g id="reps-warpgate-operator-text_39">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="671.604275" y="614.517891" transform="rotate(-0 671.604275 614.517891)">4.5</text>
      </g>
     </g>
    </g>
    <g id="reps-warpgate-operator-matplotlib.axis_8">
     <g id="reps-warpgate-operator-ytick_73">
-     <g id="reps-warpgate-operator-line2d_87"/>
-    </g>
-    <g id="reps-warpgate-operator-ytick_74">
      <g id="reps-warpgate-operator-line2d_88"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_75">
+    <g id="reps-warpgate-operator-ytick_74">
      <g id="reps-warpgate-operator-line2d_89"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_76">
+    <g id="reps-warpgate-operator-ytick_75">
      <g id="reps-warpgate-operator-line2d_90"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_77">
+    <g id="reps-warpgate-operator-ytick_76">
      <g id="reps-warpgate-operator-line2d_91"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_78">
+    <g id="reps-warpgate-operator-ytick_77">
      <g id="reps-warpgate-operator-line2d_92"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_79">
+    <g id="reps-warpgate-operator-ytick_78">
      <g id="reps-warpgate-operator-line2d_93"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_80">
+    <g id="reps-warpgate-operator-ytick_79">
      <g id="reps-warpgate-operator-line2d_94"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_81">
+    <g id="reps-warpgate-operator-ytick_80">
      <g id="reps-warpgate-operator-line2d_95"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_82">
+    <g id="reps-warpgate-operator-ytick_81">
      <g id="reps-warpgate-operator-line2d_96"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_83">
+    <g id="reps-warpgate-operator-ytick_82">
      <g id="reps-warpgate-operator-line2d_97"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_84">
+    <g id="reps-warpgate-operator-ytick_83">
      <g id="reps-warpgate-operator-line2d_98"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_85">
+    <g id="reps-warpgate-operator-ytick_84">
      <g id="reps-warpgate-operator-line2d_99"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_86">
+    <g id="reps-warpgate-operator-ytick_85">
      <g id="reps-warpgate-operator-line2d_100"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_87">
+    <g id="reps-warpgate-operator-ytick_86">
      <g id="reps-warpgate-operator-line2d_101"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_88">
+    <g id="reps-warpgate-operator-ytick_87">
      <g id="reps-warpgate-operator-line2d_102"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_89">
+    <g id="reps-warpgate-operator-ytick_88">
      <g id="reps-warpgate-operator-line2d_103"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_90">
+    <g id="reps-warpgate-operator-ytick_89">
      <g id="reps-warpgate-operator-line2d_104"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_91">
+    <g id="reps-warpgate-operator-ytick_90">
      <g id="reps-warpgate-operator-line2d_105"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_92">
+    <g id="reps-warpgate-operator-ytick_91">
      <g id="reps-warpgate-operator-line2d_106"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_93">
+    <g id="reps-warpgate-operator-ytick_92">
      <g id="reps-warpgate-operator-line2d_107"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_94">
+    <g id="reps-warpgate-operator-ytick_93">
      <g id="reps-warpgate-operator-line2d_108"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_95">
+    <g id="reps-warpgate-operator-ytick_94">
      <g id="reps-warpgate-operator-line2d_109"/>
     </g>
-    <g id="reps-warpgate-operator-ytick_96">
+    <g id="reps-warpgate-operator-ytick_95">
      <g id="reps-warpgate-operator-line2d_110"/>
     </g>
+    <g id="reps-warpgate-operator-ytick_96">
+     <g id="reps-warpgate-operator-line2d_111"/>
+    </g>
    </g>
-   <g id="reps-warpgate-operator-line2d_111">
+   <g id="reps-warpgate-operator-line2d_112">
     <path d="M 629.816367 604.18 
 L 629.816367 42.962344 
 " clip-path="url(#reps-warpgate-operator-p2b50151f9e)" style="fill: none; stroke: #898781; stroke-opacity: 0.8; stroke-linecap: square"/>
@@ -2396,7 +2402,7 @@ L 710.28 604.18
      <use xlink:href="#reps-warpgate-operator-m6cdce938b5" x="624.534904" y="597.632461" style="fill: #3987e5; fill-opacity: 0.8"/>
     </g>
    </g>
-   <g id="reps-warpgate-operator-text_39">
+   <g id="reps-warpgate-operator-text_40">
     <text style="font-weight: 700; font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="589.117921" y="36.962344" transform="rotate(-0 589.117921 36.962344)">wall minutes</text>
    </g>
    <g id="reps-warpgate-operator-tip291" class="tip"><title>baseline: mean wall minutes 3.0 (n=3)</title>
@@ -2520,7 +2526,7 @@ L 631.867113 600.438549
 " clip-path="url(#reps-warpgate-operator-p2b50151f9e)" style="fill: none; stroke: #767676; stroke-width: 2"/>
    </g>
   </g>
-  <g id="reps-warpgate-operator-text_40">
+  <g id="reps-warpgate-operator-text_41">
    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="7.2" y="20.126438" transform="rotate(-0 7.2 20.126438)">warpgate-operator: every bout, not just the mean</text>
   </g>
  </g>

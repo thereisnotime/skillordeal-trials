@@ -10,25 +10,26 @@
 | agent CLI | claude-code 2.1.280 |
 | image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2` id `819ae9ea1b12` digest `sha256:3b70b0ff01291bd5dc55f799f01ee4dceb69fbf60c435552bf990a5f1f9744fe` |
 | models | `claude-opus-4-8 (effort high)` |
-| judge | `claude-sonnet-5` |
+| judge | `claude-sonnet-5`, panel of 3: reachability, impact, correctness |
 | reps, invocation | 3, forced |
 | bouts | 144 ok of 150; $161.24 spent (client-side estimate) |
 | scores from | `scores/summary.parquet` |
-| generated | 2026-10-03 21:21 UTC |
+| generated | 2026-10-04 21:19 UTC |
 
 Cells show the mean over ok bouts with a 95% bootstrap CI in brackets (2000 resamples, seed 20260923); no interval means n < 2. **n** is ok bouts over all bouts in the cell. Cost and resource numbers are per bout. Resource numbers describe the client harness, not model-side compute.
 
 ## Key takeaways
 
 - 144 of 150 bouts finished `ok`; the rest are left out of every mean and chart. `anthropic-security-review-cmd`: no bout finished ok (6 schema_violation; bouts [dvpwa #1](bouts/b-08dd1d9fb474d4a5/) [dvpwa #2](bouts/b-1459059465f378aa/) [dvpwa #3](bouts/b-daabc0ef32f8a9c3/) [warpgate-operator #1](bouts/b-ddbb49a7d6458c6d/) [warpgate-operator #2](bouts/b-42720681044a1b70/) [warpgate-operator #3](bouts/b-dfecf314fbe26617/)).
+- Judge: panel mode, 3 blinded voters (reachability, impact, correctness) each trying to refute every finding, verdict by majority. Of 695 judged findings in ok bouts, 565 are panel-valid, 128 panel-invalid and 2 unverifiable; 513 (74%) had unanimous votes.
 - **dvpwa**: highest mean TP per bout: `anthropic-security-auditor` 8 [8, 8] (n=3; bouts [#1](bouts/b-03e8db4d52b98d3e/) [#2](bouts/b-b7a53f7c51dbf387/) [#3](bouts/b-d9b4f43862cb3118/)); baseline 6 [5, 7] (n=3).
 - **dvpwa**: Δ TP vs baseline with a 95% CI excluding 0 (n=3 ok bouts each), above the baseline: `agamm-owasp-security` +1.7 [0.7, 2.7], `anthropic-security-auditor` +2 [1, 3], `samber-golang-security` +1.3 [0.3, 2.3]. The other 20 contenders' CIs include 0.
 - **dvpwa**: lowest cost per TP: `every-ce-security-reviewer` $0.057 (21 TP over 3 bouts); highest: `sentry-then-fp-check` $0.229 (18 over 3 bouts); baseline $0.070.
 - **dvpwa**: 12 of 19 ground-truth issues were found by at least one bout; no contender found 7: `xss-student-name`, `default-admin-credentials`, `postgres-exposed-no-password`, `xss-course-fields`, `container-runs-as-root`, `error-page-info-leak`, `unverified-download`. 5 were found in every ok bout of every contender. Found by one contender only: `missing-authz-course-create` (`claude-security-researcher`, 1 bout), `session-fixation` (`agamm-owasp-security`, 1 bout), `vulnerable-dependencies` (`sari3l-security-code-audit`, 1 bout).
 - **dvpwa**: 4 of 13 distinct problems (finding clusters) were reported by a single contender: `addyosmani-security-auditor` 1, `agamm-owasp-security` 1, `anthropic-security-auditor` 1, `sari3l-security-code-audit` 1.
-- **warpgate-operator**: highest mean judge-valid per bout: `addyosmani-security-auditor` 3.7 [3, 4] (n=3; bouts [#1](bouts/b-b4fe4db3237ebb71/) [#2](bouts/b-1713fa59928d5994/) [#3](bouts/b-36820c46158dfcf0/)), `ecc-security-review` 3.7 [3, 4] (n=3; bouts [#1](bouts/b-ded7e2d21ba11170/) [#2](bouts/b-12ee5184ce532933/) [#3](bouts/b-eaeee864a0f635dc/)), `evandervecht-security-audit` 3.7 [3, 5] (n=3; bouts [#1](bouts/b-4262d9ba9fe5a6ae/) [#2](bouts/b-b2240a1a57c49e44/) [#3](bouts/b-ca6cb9f9202a5585/)), `github-copilot-se-security-reviewer` 3.7 [3, 4] (n=3; bouts [#1](bouts/b-03e34a617d220248/) [#2](bouts/b-d1fc2f4393268892/) [#3](bouts/b-74512d6bcf227e31/)), `ivan-sincek-cwe-secure-code-review` 3.7 [3, 5] (n=3; bouts [#1](bouts/b-6a47b6b7d660f818/) [#2](bouts/b-4cf084a5511195db/) [#3](bouts/b-53ed0bec31f47eb7/)); baseline 3 [2, 4] (n=3).
-- **warpgate-operator**: Δ judge-valid vs baseline with a 95% CI excluding 0 (n=3 ok bouts each), below the baseline: `claude-security-researcher` -1.3 [-2.3, -0.3], `sentry-then-fp-check` -1.7 [-2.7, -0.7]. The other 21 contenders' CIs include 0.
-- **warpgate-operator**: lowest cost per judge-valid: `github-copilot-se-security-reviewer` $0.409 (11 judge-valid over 3 bouts); highest: `sentry-then-fp-check` $1.619 (4 over 3 bouts); baseline $0.507.
+- **warpgate-operator**: highest mean panel-valid per bout: `ecc-security-review` 2.3 [2, 3] (n=3; bouts [#1](bouts/b-ded7e2d21ba11170/) [#2](bouts/b-12ee5184ce532933/) [#3](bouts/b-eaeee864a0f635dc/)), `samber-golang-security` 2.3 [2, 3] (n=3; bouts [#1](bouts/b-a712c1f0d617102f/) [#2](bouts/b-727196b09036ee11/) [#3](bouts/b-c8bff40931aa21e1/)), `tob-sharp-edges` 2.3 [1, 3] (n=3; bouts [#1](bouts/b-9429e15cfa55309a/) [#2](bouts/b-b30175294edf3197/) [#3](bouts/b-fa3a994ee516c746/)); baseline 1 [0, 2] (n=3).
+- **warpgate-operator**: Δ panel-valid vs baseline with a 95% CI excluding 0 (n=3 ok bouts each), above the baseline: `ecc-security-review` +1.3 [0.3, 2.3], `samber-golang-security` +1.3 [0.3, 2.3]. The other 21 contenders' CIs include 0.
+- **warpgate-operator**: lowest cost per panel-valid: `ecc-security-review` $0.701 (7 panel-valid over 3 bouts); highest: `sentry-then-fp-check` $3.238 (2 over 3 bouts); baseline $1.522.
 - **warpgate-operator**: 6 of 20 distinct problems (finding clusters) were reported by a single contender: `ecc-security-review` 1, `gemini-security-analyze-full` 1, `ivan-sincek-cwe-secure-code-review` 1, `sentry-code-review` 1, `tob-sharp-edges` 1, `unitone-secure-code-review` 1.
 - Every skill contender's first-turn prompt was larger than the baseline's (+3,091 to +39,330 tokens), as expected when the skill loads.
 
@@ -45,13 +46,13 @@ flowchart LR
     n0 --> n2
     n3["695 findings"]
     n1 --> n3
-    n4["tp: 694"]
+    n4["tp: 584"]
     n3 --> n4
     n5["dup: 0"]
     n3 --> n5
-    n6["fp: 1"]
+    n6["fp: 110"]
     n3 --> n6
-    n7["unknown: 0"]
+    n7["unknown: 1"]
     n3 --> n7
 ```
 
@@ -115,33 +116,33 @@ Findings each stage passed on, summed over the pipeline's ok bouts.
 
 **Quality**
 
-| contender | n | findings | TP | recall | judge-valid | bouts |
+| contender | n | findings | TP | recall | panel-valid | bouts |
 |---|---|---:|---:|---:|---:|---|
 | baseline | 3/3 | 6 [5, 7] | 6 [5, 7] | 0.32 [0.26, 0.37] | 6 [5, 7] | [#1](bouts/b-451cb0cbf8d3d39f/) [#2](bouts/b-81d5a569957aec07/) [#3](bouts/b-0948285cdfbd009e/) |
 | addyosmani-security-auditor | 3/3 | 7.3 [7, 8] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7.3 [7, 8] | [#1](bouts/b-04a7ec235b7ebf07/) [#2](bouts/b-1643efa123763e7d/) [#3](bouts/b-3844b5f631a47dab/) |
-| agamm-owasp-security | 3/3 | 7.7 [7, 8] | 7.7 [7, 8] | 0.40 [0.37, 0.42] | 7.7 [7, 8] | [#1](bouts/b-9dd955a5c9c0357c/) [#2](bouts/b-6f695b9cde49dde2/) [#3](bouts/b-0f0040f4f6311464/) |
-| anthropic-security-auditor | 3/3 | 8.7 [8, 9] | 8 [8, 8] | 0.42 [0.42, 0.42] | 8.7 [8, 9] | [#1](bouts/b-03e8db4d52b98d3e/) [#2](bouts/b-b7a53f7c51dbf387/) [#3](bouts/b-d9b4f43862cb3118/) |
+| agamm-owasp-security | 3/3 | 7.7 [7, 8] | 7.7 [7, 8] | 0.40 [0.37, 0.42] | 7.3 [7, 8] | [#1](bouts/b-9dd955a5c9c0357c/) [#2](bouts/b-6f695b9cde49dde2/) [#3](bouts/b-0f0040f4f6311464/) |
+| anthropic-security-auditor | 3/3 | 8.7 [8, 9] | 8 [8, 8] | 0.42 [0.42, 0.42] | 7.3 [6, 9] | [#1](bouts/b-03e8db4d52b98d3e/) [#2](bouts/b-b7a53f7c51dbf387/) [#3](bouts/b-d9b4f43862cb3118/) |
 | anthropic-security-review-cmd | 0/3 | n/a | n/a | n/a | n/a | [#1 (schema_violation)](bouts/b-08dd1d9fb474d4a5/) [#2 (schema_violation)](bouts/b-1459059465f378aa/) [#3 (schema_violation)](bouts/b-daabc0ef32f8a9c3/) |
 | cf-security-audit | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-31983800358aff05/) [#2](bouts/b-7c9ec5dfea8b00f0/) [#3](bouts/b-804bdfee01c983a4/) |
-| claude-security-flat | 3/3 | 5.3 [5, 6] | 5.3 [5, 6] | 0.28 [0.26, 0.32] | 5.3 [5, 6] | [#1](bouts/b-32e1bd35f066b7c8/) [#2](bouts/b-7274ef30b87277d1/) [#3](bouts/b-568ffe163a45e649/) |
-| claude-security-researcher | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-a4dbe5cd76faac8d/) [#2](bouts/b-23966641f45eba37/) [#3](bouts/b-cfd75ae04e6c60f4/) |
+| claude-security-flat | 3/3 | 5.3 [5, 6] | 5.3 [5, 6] | 0.28 [0.26, 0.32] | 5 [5, 5] | [#1](bouts/b-32e1bd35f066b7c8/) [#2](bouts/b-7274ef30b87277d1/) [#3](bouts/b-568ffe163a45e649/) |
+| claude-security-researcher | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 5.7 [5, 6] | [#1](bouts/b-a4dbe5cd76faac8d/) [#2](bouts/b-23966641f45eba37/) [#3](bouts/b-cfd75ae04e6c60f4/) |
 | ecc-security-review | 3/3 | 6.7 [6, 7] | 6.7 [6, 7] | 0.35 [0.32, 0.37] | 6.7 [6, 7] | [#1](bouts/b-2ced92f493905977/) [#2](bouts/b-ba883032b40f4cc6/) [#3](bouts/b-8c02f71718d194f9/) |
-| evandervecht-security-audit | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7 [7, 7] | [#1](bouts/b-7b178dbf573400fc/) [#2](bouts/b-15d489ede015e97a/) [#3](bouts/b-13e544849058cef4/) |
+| evandervecht-security-audit | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 6.3 [6, 7] | [#1](bouts/b-7b178dbf573400fc/) [#2](bouts/b-15d489ede015e97a/) [#3](bouts/b-13e544849058cef4/) |
 | every-ce-security-reviewer | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7 [7, 7] | [#1](bouts/b-b8899439c83812cd/) [#2](bouts/b-e3091b2c2dbe53b9/) [#3](bouts/b-6df1e36caf1209b6/) |
-| gemini-security-analyze-full | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-c2ccaa26130a0bf7/) [#2](bouts/b-fa8c3867fac23f31/) [#3](bouts/b-f89a2d7e0afe07ef/) |
+| gemini-security-analyze-full | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6 [5, 7] | [#1](bouts/b-c2ccaa26130a0bf7/) [#2](bouts/b-fa8c3867fac23f31/) [#3](bouts/b-f89a2d7e0afe07ef/) |
 | github-copilot-se-security-reviewer | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7 [7, 7] | [#1](bouts/b-fa875bbc8db93d16/) [#2](bouts/b-1fcc34972017855f/) [#3](bouts/b-2d8aab97846fcfa0/) |
-| github-copilot-security-review | 3/3 | 6.7 [6, 7] | 6.7 [6, 7] | 0.35 [0.32, 0.37] | 6.7 [6, 7] | [#1](bouts/b-8193dd834e705db1/) [#2](bouts/b-421218f269a1b527/) [#3](bouts/b-40d35aeabf7b3e4a/) |
+| github-copilot-security-review | 3/3 | 6.7 [6, 7] | 6.7 [6, 7] | 0.35 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-8193dd834e705db1/) [#2](bouts/b-421218f269a1b527/) [#3](bouts/b-40d35aeabf7b3e4a/) |
 | ivan-sincek-cwe-secure-code-review | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7 [7, 7] | [#1](bouts/b-5bc74ed61cacab81/) [#2](bouts/b-989fd6358dc51bd1/) [#3](bouts/b-b5e3b5f3086ed061/) |
-| neolab-security-auditor | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 7 [7, 7] | [#1](bouts/b-301eceadefed5b1d/) [#2](bouts/b-6f80a9523c599403/) [#3](bouts/b-c28cac0fd14b2094/) |
-| openai-security-best-practices | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-1f92577235dc9338/) [#2](bouts/b-c1156de5ee691d8d/) [#3](bouts/b-add8a984f3049dd1/) |
-| samber-golang-security | 3/3 | 7.3 [7, 8] | 7.3 [7, 8] | 0.39 [0.37, 0.42] | 7.3 [7, 8] | [#1](bouts/b-a7a7ec5865fde305/) [#2](bouts/b-012a098fe655c672/) [#3](bouts/b-22f879233b1a37a5/) |
-| sari3l-security-code-audit | 3/3 | 7 [6, 8] | 7 [6, 8] | 0.37 [0.32, 0.42] | 7 [6, 8] | [#1](bouts/b-06151d54e4d5d1ee/) [#2](bouts/b-a8e5cba972d63676/) [#3](bouts/b-9c7f5c64b1086696/) |
+| neolab-security-auditor | 3/3 | 7 [7, 7] | 7 [7, 7] | 0.37 [0.37, 0.37] | 6.7 [6, 7] | [#1](bouts/b-301eceadefed5b1d/) [#2](bouts/b-6f80a9523c599403/) [#3](bouts/b-c28cac0fd14b2094/) |
+| openai-security-best-practices | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 5.7 [5, 7] | [#1](bouts/b-1f92577235dc9338/) [#2](bouts/b-c1156de5ee691d8d/) [#3](bouts/b-add8a984f3049dd1/) |
+| samber-golang-security | 3/3 | 7.3 [7, 8] | 7.3 [7, 8] | 0.39 [0.37, 0.42] | 7 [6, 8] | [#1](bouts/b-a7a7ec5865fde305/) [#2](bouts/b-012a098fe655c672/) [#3](bouts/b-22f879233b1a37a5/) |
+| sari3l-security-code-audit | 3/3 | 7 [6, 8] | 7 [6, 8] | 0.37 [0.32, 0.42] | 6.7 [6, 7] | [#1](bouts/b-06151d54e4d5d1ee/) [#2](bouts/b-a8e5cba972d63676/) [#3](bouts/b-9c7f5c64b1086696/) |
 | sentry-code-review | 3/3 | 6 [6, 6] | 6 [6, 6] | 0.32 [0.32, 0.32] | 6 [6, 6] | [#1](bouts/b-fb08d8b8fa9931d1/) [#2](bouts/b-3628e1593a51e3a9/) [#3](bouts/b-17179680af456bd5/) |
 | sentry-security-review | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-faf3fb8e784d797a/) [#2](bouts/b-38b305986b0a9dae/) [#3](bouts/b-76fc29074a147acb/) |
-| sentry-then-fp-check | 3/3 | 6 [6, 6] | 6 [6, 6] | 0.32 [0.32, 0.32] | 6 [6, 6] | [#1](bouts/b-d1d637b6ba226bf0/) [#2](bouts/b-2ca35255abd04a39/) [#3](bouts/b-33575c9481a3f904/) |
+| sentry-then-fp-check | 3/3 | 6 [6, 6] | 6 [6, 6] | 0.32 [0.32, 0.32] | 5.7 [5, 6] | [#1](bouts/b-d1d637b6ba226bf0/) [#2](bouts/b-2ca35255abd04a39/) [#3](bouts/b-33575c9481a3f904/) |
 | tob-differential-review | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-be64f32258e6fc0b/) [#2](bouts/b-03189a2ffa95cccd/) [#3](bouts/b-6e24aac2bac7947f/) |
 | tob-sharp-edges | 3/3 | 6.3 [6, 7] | 6.3 [6, 7] | 0.33 [0.32, 0.37] | 6.3 [6, 7] | [#1](bouts/b-903a610341585706/) [#2](bouts/b-9dbcb8fdeaa5180f/) [#3](bouts/b-6ce90cfa7b122c73/) |
-| unitone-secure-code-review | 3/3 | 7.3 [6, 8] | 7.3 [6, 8] | 0.39 [0.32, 0.42] | 7.3 [6, 8] | [#1](bouts/b-6c6088fa0c79f8cb/) [#2](bouts/b-3f3fe3704ebc23c6/) [#3](bouts/b-debfd93f565d0c1a/) |
+| unitone-secure-code-review | 3/3 | 7.3 [6, 8] | 7.3 [6, 8] | 0.39 [0.32, 0.42] | 6.7 [6, 7] | [#1](bouts/b-6c6088fa0c79f8cb/) [#2](bouts/b-3f3fe3704ebc23c6/) [#3](bouts/b-debfd93f565d0c1a/) |
 
 **Against baseline**
 
@@ -307,13 +308,45 @@ Findings each stage passed on, summed over the pipeline's ok bouts.
 
 </details>
 
+<details>
+<summary>Panel judge verdicts per contender (judge agreement: share of findings with unanimous votes)</summary>
+
+| contender | judged | panel-valid | panel-invalid | unverifiable | judge agreement |
+|---|---:|---:|---:|---:|---:|
+| baseline | 18 | 18 | 0 | 0 | 89% |
+| addyosmani-security-auditor | 22 | 22 | 0 | 0 | 86% |
+| agamm-owasp-security | 23 | 22 | 1 | 0 | 78% |
+| anthropic-security-auditor | 26 | 22 | 3 | 1 | 65% |
+| cf-security-audit | 19 | 19 | 0 | 0 | 84% |
+| claude-security-flat | 16 | 15 | 1 | 0 | 69% |
+| claude-security-researcher | 19 | 17 | 2 | 0 | 84% |
+| ecc-security-review | 20 | 20 | 0 | 0 | 85% |
+| evandervecht-security-audit | 21 | 19 | 1 | 1 | 76% |
+| every-ce-security-reviewer | 21 | 21 | 0 | 0 | 76% |
+| gemini-security-analyze-full | 19 | 18 | 1 | 0 | 84% |
+| github-copilot-se-security-reviewer | 21 | 21 | 0 | 0 | 81% |
+| github-copilot-security-review | 20 | 19 | 1 | 0 | 90% |
+| ivan-sincek-cwe-secure-code-review | 21 | 21 | 0 | 0 | 76% |
+| neolab-security-auditor | 21 | 20 | 1 | 0 | 76% |
+| openai-security-best-practices | 19 | 17 | 2 | 0 | 68% |
+| samber-golang-security | 22 | 21 | 1 | 0 | 68% |
+| sari3l-security-code-audit | 21 | 20 | 1 | 0 | 76% |
+| sentry-code-review | 18 | 18 | 0 | 0 | 83% |
+| sentry-security-review | 19 | 19 | 0 | 0 | 74% |
+| sentry-then-fp-check | 18 | 17 | 1 | 0 | 83% |
+| tob-differential-review | 19 | 19 | 0 | 0 | 74% |
+| tob-sharp-edges | 19 | 19 | 0 | 0 | 84% |
+| unitone-secure-code-review | 22 | 20 | 2 | 0 | 73% |
+
+</details>
+
 ## warpgate-operator
 
 ### Charts
 
 ![Quality vs cost, warpgate-operator](charts/quality-vs-cost-warpgate-operator.svg)
 
-*How to read: Up and to the left is better; the orange line joins contenders no one beats on both judge-valid and cost, whiskers are 95% CIs, gray is the baseline. n = 72 ok bouts of 72.*
+*How to read: Up and to the left is better; the orange line joins contenders no one beats on both panel-valid and cost, whiskers are 95% CIs, gray is the baseline. n = 72 ok bouts of 72.*
 
 ![Δ vs baseline, warpgate-operator](charts/delta-vs-baseline-warpgate-operator.svg)
 
@@ -341,39 +374,39 @@ Findings each stage passed on, summed over the pipeline's ok bouts.
 
 ![Efficiency, warpgate-operator](charts/efficiency-warpgate-operator.svg)
 
-*How to read: Dollars and wall-clock seconds per judge-valid: dots are single bouts (bouts with no judge-valid are left out), the tick and number are the pooled ratio (total over total). n = 72 ok bouts of 75.*
+*How to read: Dollars and wall-clock seconds per panel-valid: dots are single bouts (bouts with no panel-valid are left out), the tick and number are the pooled ratio (total over total). n = 72 ok bouts of 75.*
 
 ### Tables · security-audit · `claude-opus-4-8@high`
 
 **Quality**
 
-| contender | n | findings | TP | judge-valid | bouts |
+| contender | n | findings | TP | panel-valid | bouts |
 |---|---|---:|---:|---:|---|
-| baseline | 3/3 | 3 [2, 4] | n/a | 3 [2, 4] | [#1](bouts/b-654071d0681ebd3c/) [#2](bouts/b-259b9259b3f17a57/) [#3](bouts/b-b462e00c512ab75f/) |
-| addyosmani-security-auditor | 3/3 | 3.7 [3, 4] | n/a | 3.7 [3, 4] | [#1](bouts/b-b4fe4db3237ebb71/) [#2](bouts/b-1713fa59928d5994/) [#3](bouts/b-36820c46158dfcf0/) |
-| agamm-owasp-security | 3/3 | 3.3 [3, 4] | n/a | 3.3 [3, 4] | [#1](bouts/b-64f73dc38ec37c01/) [#2](bouts/b-beb755e846ee1161/) [#3](bouts/b-e3db9161e178ca04/) |
-| anthropic-security-auditor | 3/3 | 3 [2, 4] | n/a | 3 [2, 4] | [#1](bouts/b-3280a23a3c40f5d9/) [#2](bouts/b-42c007f9c6362a44/) [#3](bouts/b-f43aeea3facd688f/) |
+| baseline | 3/3 | 3 [2, 4] | n/a | 1 [0, 2] | [#1](bouts/b-654071d0681ebd3c/) [#2](bouts/b-259b9259b3f17a57/) [#3](bouts/b-b462e00c512ab75f/) |
+| addyosmani-security-auditor | 3/3 | 3.7 [3, 4] | n/a | 1.3 [1, 2] | [#1](bouts/b-b4fe4db3237ebb71/) [#2](bouts/b-1713fa59928d5994/) [#3](bouts/b-36820c46158dfcf0/) |
+| agamm-owasp-security | 3/3 | 3.3 [3, 4] | n/a | 1.3 [1, 2] | [#1](bouts/b-64f73dc38ec37c01/) [#2](bouts/b-beb755e846ee1161/) [#3](bouts/b-e3db9161e178ca04/) |
+| anthropic-security-auditor | 3/3 | 3 [2, 4] | n/a | 0.7 [0, 1] | [#1](bouts/b-3280a23a3c40f5d9/) [#2](bouts/b-42c007f9c6362a44/) [#3](bouts/b-f43aeea3facd688f/) |
 | anthropic-security-review-cmd | 0/3 | n/a | n/a | n/a | [#1 (schema_violation)](bouts/b-ddbb49a7d6458c6d/) [#2 (schema_violation)](bouts/b-42720681044a1b70/) [#3 (schema_violation)](bouts/b-dfecf314fbe26617/) |
-| cf-security-audit | 3/3 | 3 [2, 4] | n/a | 3 [2, 4] | [#1](bouts/b-12ba8651f5033db1/) [#2](bouts/b-24e36a49998de2de/) [#3](bouts/b-18e18d909a683352/) |
-| claude-security-flat | 3/3 | 2.3 [2, 3] | n/a | 2.3 [2, 3] | [#1](bouts/b-67c39e038fc3aa31/) [#2](bouts/b-de8de5efec0d5429/) [#3](bouts/b-38f22d6b7294b1b7/) |
-| claude-security-researcher | 3/3 | 1.7 [1, 2] | n/a | 1.7 [1, 2] | [#1](bouts/b-316cd035d45c1d7d/) [#2](bouts/b-9291f20a9a1bb6c6/) [#3](bouts/b-5cf1daa98eff2958/) |
-| ecc-security-review | 3/3 | 3.7 [3, 4] | n/a | 3.7 [3, 4] | [#1](bouts/b-ded7e2d21ba11170/) [#2](bouts/b-12ee5184ce532933/) [#3](bouts/b-eaeee864a0f635dc/) |
-| evandervecht-security-audit | 3/3 | 3.7 [3, 5] | n/a | 3.7 [3, 5] | [#1](bouts/b-4262d9ba9fe5a6ae/) [#2](bouts/b-b2240a1a57c49e44/) [#3](bouts/b-ca6cb9f9202a5585/) |
-| every-ce-security-reviewer | 3/3 | 2.3 [1, 4] | n/a | 2.3 [1, 4] | [#1](bouts/b-e6678b9062024b29/) [#2](bouts/b-31572c580fb48d65/) [#3](bouts/b-177691869dcc2ff6/) |
-| gemini-security-analyze-full | 3/3 | 3 [2, 4] | n/a | 2.7 [2, 3] | [#1](bouts/b-ba99d016565a194a/) [#2](bouts/b-b26bb6233b1a6c54/) [#3](bouts/b-826d69862cfe3114/) |
-| github-copilot-se-security-reviewer | 3/3 | 3.7 [3, 4] | n/a | 3.7 [3, 4] | [#1](bouts/b-03e34a617d220248/) [#2](bouts/b-d1fc2f4393268892/) [#3](bouts/b-74512d6bcf227e31/) |
-| github-copilot-security-review | 3/3 | 2.7 [2, 4] | n/a | 2.7 [2, 4] | [#1](bouts/b-2ba7a434c99ddefd/) [#2](bouts/b-4579334abc5fad0b/) [#3](bouts/b-4dc27e94caf24384/) |
-| ivan-sincek-cwe-secure-code-review | 3/3 | 3.7 [3, 5] | n/a | 3.7 [3, 5] | [#1](bouts/b-6a47b6b7d660f818/) [#2](bouts/b-4cf084a5511195db/) [#3](bouts/b-53ed0bec31f47eb7/) |
-| neolab-security-auditor | 3/3 | 3 [3, 3] | n/a | 3 [3, 3] | [#1](bouts/b-d72092394c638c3c/) [#2](bouts/b-360a0d69e3b47249/) [#3](bouts/b-e8c3e586227cffe1/) |
-| openai-security-best-practices | 3/3 | 3 [3, 3] | n/a | 3 [3, 3] | [#1](bouts/b-8cf65b8faa333583/) [#2](bouts/b-f78f7216039fa301/) [#3](bouts/b-fb7c02ac3a6eb369/) |
-| samber-golang-security | 3/3 | 3.3 [3, 4] | n/a | 3.3 [3, 4] | [#1](bouts/b-a712c1f0d617102f/) [#2](bouts/b-727196b09036ee11/) [#3](bouts/b-c8bff40931aa21e1/) |
-| sari3l-security-code-audit | 3/3 | 3 [2, 4] | n/a | 3 [2, 4] | [#1](bouts/b-c85f33c2443d4682/) [#2](bouts/b-673ddd2d1df82220/) [#3](bouts/b-cb301d01233249eb/) |
-| sentry-code-review | 3/3 | 2.7 [2, 4] | n/a | 2.7 [2, 4] | [#1](bouts/b-39d2d2bad56357dd/) [#2](bouts/b-c1e46773a300bb5f/) [#3](bouts/b-420c5f9114f7c3b0/) |
-| sentry-security-review | 3/3 | 2.3 [2, 3] | n/a | 2.3 [2, 3] | [#1](bouts/b-780cbe96e439ff2f/) [#2](bouts/b-3a504c9ad501eb39/) [#3](bouts/b-44ae5d1c4213ad73/) |
-| sentry-then-fp-check | 3/3 | 1.3 [1, 2] | n/a | 1.3 [1, 2] | [#1](bouts/b-dfe8c957b82b17ae/) [#2](bouts/b-2264ea92b9d39712/) [#3](bouts/b-e40859cab9d9648a/) |
-| tob-differential-review | 3/3 | 2.3 [1, 3] | n/a | 2.3 [1, 3] | [#1](bouts/b-929e2986604958da/) [#2](bouts/b-b35deca9d5855f34/) [#3](bouts/b-0686275246850f0f/) |
-| tob-sharp-edges | 3/3 | 3.3 [2, 4] | n/a | 3.3 [2, 4] | [#1](bouts/b-9429e15cfa55309a/) [#2](bouts/b-b30175294edf3197/) [#3](bouts/b-fa3a994ee516c746/) |
-| unitone-secure-code-review | 3/3 | 3.3 [3, 4] | n/a | 3.3 [3, 4] | [#1](bouts/b-fae5978d7171be23/) [#2](bouts/b-da7417ca6f012c98/) [#3](bouts/b-5b3d3ddacf55ae36/) |
+| cf-security-audit | 3/3 | 3 [2, 4] | n/a | 1 [0, 2] | [#1](bouts/b-12ba8651f5033db1/) [#2](bouts/b-24e36a49998de2de/) [#3](bouts/b-18e18d909a683352/) |
+| claude-security-flat | 3/3 | 2.3 [2, 3] | n/a | 1.3 [1, 2] | [#1](bouts/b-67c39e038fc3aa31/) [#2](bouts/b-de8de5efec0d5429/) [#3](bouts/b-38f22d6b7294b1b7/) |
+| claude-security-researcher | 3/3 | 1.7 [1, 2] | n/a | 0.7 [0, 1] | [#1](bouts/b-316cd035d45c1d7d/) [#2](bouts/b-9291f20a9a1bb6c6/) [#3](bouts/b-5cf1daa98eff2958/) |
+| ecc-security-review | 3/3 | 3.7 [3, 4] | n/a | 2.3 [2, 3] | [#1](bouts/b-ded7e2d21ba11170/) [#2](bouts/b-12ee5184ce532933/) [#3](bouts/b-eaeee864a0f635dc/) |
+| evandervecht-security-audit | 3/3 | 3.7 [3, 5] | n/a | 2 [1, 3] | [#1](bouts/b-4262d9ba9fe5a6ae/) [#2](bouts/b-b2240a1a57c49e44/) [#3](bouts/b-ca6cb9f9202a5585/) |
+| every-ce-security-reviewer | 3/3 | 2.3 [1, 4] | n/a | 1.3 [1, 2] | [#1](bouts/b-e6678b9062024b29/) [#2](bouts/b-31572c580fb48d65/) [#3](bouts/b-177691869dcc2ff6/) |
+| gemini-security-analyze-full | 3/3 | 3 [2, 4] | n/a | 1.3 [0, 2] | [#1](bouts/b-ba99d016565a194a/) [#2](bouts/b-b26bb6233b1a6c54/) [#3](bouts/b-826d69862cfe3114/) |
+| github-copilot-se-security-reviewer | 3/3 | 3.7 [3, 4] | n/a | 1.7 [1, 2] | [#1](bouts/b-03e34a617d220248/) [#2](bouts/b-d1fc2f4393268892/) [#3](bouts/b-74512d6bcf227e31/) |
+| github-copilot-security-review | 3/3 | 2.7 [2, 4] | n/a | 1 [0, 2] | [#1](bouts/b-2ba7a434c99ddefd/) [#2](bouts/b-4579334abc5fad0b/) [#3](bouts/b-4dc27e94caf24384/) |
+| ivan-sincek-cwe-secure-code-review | 3/3 | 3.7 [3, 5] | n/a | 2 [2, 2] | [#1](bouts/b-6a47b6b7d660f818/) [#2](bouts/b-4cf084a5511195db/) [#3](bouts/b-53ed0bec31f47eb7/) |
+| neolab-security-auditor | 3/3 | 3 [3, 3] | n/a | 1.7 [1, 3] | [#1](bouts/b-d72092394c638c3c/) [#2](bouts/b-360a0d69e3b47249/) [#3](bouts/b-e8c3e586227cffe1/) |
+| openai-security-best-practices | 3/3 | 3 [3, 3] | n/a | 1.7 [1, 2] | [#1](bouts/b-8cf65b8faa333583/) [#2](bouts/b-f78f7216039fa301/) [#3](bouts/b-fb7c02ac3a6eb369/) |
+| samber-golang-security | 3/3 | 3.3 [3, 4] | n/a | 2.3 [2, 3] | [#1](bouts/b-a712c1f0d617102f/) [#2](bouts/b-727196b09036ee11/) [#3](bouts/b-c8bff40931aa21e1/) |
+| sari3l-security-code-audit | 3/3 | 3 [2, 4] | n/a | 1 [0, 2] | [#1](bouts/b-c85f33c2443d4682/) [#2](bouts/b-673ddd2d1df82220/) [#3](bouts/b-cb301d01233249eb/) |
+| sentry-code-review | 3/3 | 2.7 [2, 4] | n/a | 1 [1, 1] | [#1](bouts/b-39d2d2bad56357dd/) [#2](bouts/b-c1e46773a300bb5f/) [#3](bouts/b-420c5f9114f7c3b0/) |
+| sentry-security-review | 3/3 | 2.3 [2, 3] | n/a | 1 [1, 1] | [#1](bouts/b-780cbe96e439ff2f/) [#2](bouts/b-3a504c9ad501eb39/) [#3](bouts/b-44ae5d1c4213ad73/) |
+| sentry-then-fp-check | 3/3 | 1.3 [1, 2] | n/a | 0.7 [0, 1] | [#1](bouts/b-dfe8c957b82b17ae/) [#2](bouts/b-2264ea92b9d39712/) [#3](bouts/b-e40859cab9d9648a/) |
+| tob-differential-review | 3/3 | 2.3 [1, 3] | n/a | 1.3 [0, 2] | [#1](bouts/b-929e2986604958da/) [#2](bouts/b-b35deca9d5855f34/) [#3](bouts/b-0686275246850f0f/) |
+| tob-sharp-edges | 3/3 | 3.3 [2, 4] | n/a | 2.3 [1, 3] | [#1](bouts/b-9429e15cfa55309a/) [#2](bouts/b-b30175294edf3197/) [#3](bouts/b-fa3a994ee516c746/) |
+| unitone-secure-code-review | 3/3 | 3.3 [3, 4] | n/a | 1.7 [1, 2] | [#1](bouts/b-fae5978d7171be23/) [#2](bouts/b-da7417ca6f012c98/) [#3](bouts/b-5b3d3ddacf55ae36/) |
 
 **Against baseline**
 
@@ -519,6 +552,38 @@ Findings each stage passed on, summed over the pipeline's ok bouts.
 | tob-differential-review | 3 | 0.3 | 1.3 | 0.7 |
 | tob-sharp-edges | 3 | 0.7 | 1.3 | 1.3 |
 | unitone-secure-code-review | 3 | 1 | 0.3 | 2 |
+
+</details>
+
+<details>
+<summary>Panel judge verdicts per contender (judge agreement: share of findings with unanimous votes)</summary>
+
+| contender | judged | panel-valid | panel-invalid | unverifiable | judge agreement |
+|---|---:|---:|---:|---:|---:|
+| baseline | 9 | 3 | 6 | 0 | 67% |
+| addyosmani-security-auditor | 11 | 4 | 7 | 0 | 73% |
+| agamm-owasp-security | 10 | 4 | 6 | 0 | 70% |
+| anthropic-security-auditor | 9 | 2 | 7 | 0 | 44% |
+| cf-security-audit | 9 | 3 | 6 | 0 | 67% |
+| claude-security-flat | 7 | 4 | 3 | 0 | 57% |
+| claude-security-researcher | 5 | 2 | 3 | 0 | 80% |
+| ecc-security-review | 11 | 7 | 4 | 0 | 36% |
+| evandervecht-security-audit | 11 | 6 | 5 | 0 | 55% |
+| every-ce-security-reviewer | 7 | 4 | 3 | 0 | 43% |
+| gemini-security-analyze-full | 9 | 4 | 5 | 0 | 22% |
+| github-copilot-se-security-reviewer | 11 | 5 | 6 | 0 | 64% |
+| github-copilot-security-review | 8 | 3 | 5 | 0 | 50% |
+| ivan-sincek-cwe-secure-code-review | 11 | 6 | 5 | 0 | 55% |
+| neolab-security-auditor | 9 | 5 | 4 | 0 | 56% |
+| openai-security-best-practices | 9 | 5 | 4 | 0 | 89% |
+| samber-golang-security | 10 | 7 | 3 | 0 | 80% |
+| sari3l-security-code-audit | 9 | 3 | 6 | 0 | 78% |
+| sentry-code-review | 8 | 3 | 5 | 0 | 38% |
+| sentry-security-review | 7 | 3 | 4 | 0 | 86% |
+| sentry-then-fp-check | 4 | 2 | 2 | 0 | 100% |
+| tob-differential-review | 7 | 4 | 3 | 0 | 71% |
+| tob-sharp-edges | 10 | 7 | 3 | 0 | 80% |
+| unitone-secure-code-review | 10 | 5 | 5 | 0 | 90% |
 
 </details>
 

@@ -237,7 +237,7 @@ L 184.895 28.933775
 L 184.895 51.428976 
 L 184.895 51.428976 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
    <g id="findings-breakdown-warpgate-operator-patch_4">
     <path d="M 184.895 28.933775 
@@ -245,207 +245,439 @@ L 184.895 28.933775
 L 184.895 51.428976 
 L 184.895 51.428976 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #d95926"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip0" class="tip"><title>baseline: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip0" class="tip"><title>baseline: tp 1 per bout (n=3)</title>
     <path d="M 184.895 32.44865 
-L 566.822602 32.44865 
-L 566.822602 47.914101 
+L 310.953284 32.44865 
+L 310.953284 47.914101 
 L 184.895 47.914101 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip1" class="tip"><title>addyosmani-security-auditor: tp 3.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip1" class="tip"><title>baseline: fp 2 per bout (n=3)</title>
+    <path d="M 312.829659 32.44865 
+L 566.822602 32.44865 
+L 566.822602 47.914101 
+L 312.829659 47.914101 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip2" class="tip"><title>addyosmani-security-auditor: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 60.567651 
-L 652.112375 60.567651 
-L 652.112375 76.033101 
+L 353.59817 60.567651 
+L 353.59817 76.033101 
 L 184.895 76.033101 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip2" class="tip"><title>agamm-owasp-security: tp 3.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip3" class="tip"><title>addyosmani-security-auditor: fp 2.3 per bout (n=3)</title>
+    <path d="M 355.474545 60.567651 
+L 652.112375 60.567651 
+L 652.112375 76.033101 
+L 355.474545 76.033101 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip4" class="tip"><title>agamm-owasp-security: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 88.686651 
-L 609.467489 88.686651 
-L 609.467489 104.152102 
+L 353.59817 88.686651 
+L 353.59817 104.152102 
 L 184.895 104.152102 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip3" class="tip"><title>anthropic-security-auditor: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip5" class="tip"><title>agamm-owasp-security: fp 2 per bout (n=3)</title>
+    <path d="M 355.474545 88.686651 
+L 609.467489 88.686651 
+L 609.467489 104.152102 
+L 355.474545 104.152102 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip6" class="tip"><title>agamm-owasp-security: other 0 per bout (n=3)</title>
+    <path d="M 611.343864 88.686651 
+L 611.343864 88.686651 
+L 611.343864 104.152102 
+L 611.343864 104.152102 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip7" class="tip"><title>anthropic-security-auditor: tp 0.7 per bout (n=3)</title>
     <path d="M 184.895 116.805652 
-L 566.822602 116.805652 
-L 566.822602 132.271102 
+L 268.308398 116.805652 
+L 268.308398 132.271102 
 L 184.895 132.271102 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip4" class="tip"><title>cf-security-audit: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip8" class="tip"><title>anthropic-security-auditor: fp 2.3 per bout (n=3)</title>
+    <path d="M 270.184773 116.805652 
+L 566.822602 116.805652 
+L 566.822602 132.271102 
+L 270.184773 132.271102 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip9" class="tip"><title>cf-security-audit: tp 1 per bout (n=3)</title>
     <path d="M 184.895 144.924653 
-L 566.822602 144.924653 
-L 566.822602 160.390103 
+L 310.953284 144.924653 
+L 310.953284 160.390103 
 L 184.895 160.390103 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip5" class="tip"><title>claude-security-flat: tp 2.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip10" class="tip"><title>cf-security-audit: fp 2 per bout (n=3)</title>
+    <path d="M 312.829659 144.924653 
+L 566.822602 144.924653 
+L 566.822602 160.390103 
+L 312.829659 160.390103 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip11" class="tip"><title>claude-security-flat: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 173.043653 
-L 481.53283 173.043653 
-L 481.53283 188.509104 
+L 353.59817 173.043653 
+L 353.59817 188.509104 
 L 184.895 188.509104 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip6" class="tip"><title>claude-security-researcher: tp 1.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip12" class="tip"><title>claude-security-flat: fp 1 per bout (n=3)</title>
+    <path d="M 355.474545 173.043653 
+L 481.53283 173.043653 
+L 481.53283 188.509104 
+L 355.474545 188.509104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip13" class="tip"><title>claude-security-flat: other 0 per bout (n=3)</title>
+    <path d="M 483.409205 173.043653 
+L 483.409205 173.043653 
+L 483.409205 188.509104 
+L 483.409205 188.509104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip14" class="tip"><title>claude-security-researcher: tp 0.7 per bout (n=3)</title>
     <path d="M 184.895 201.162654 
-L 396.243057 201.162654 
-L 396.243057 216.628104 
+L 268.308398 201.162654 
+L 268.308398 216.628104 
 L 184.895 216.628104 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip7" class="tip"><title>ecc-security-review: tp 3.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip15" class="tip"><title>claude-security-researcher: fp 1 per bout (n=3)</title>
+    <path d="M 270.184773 201.162654 
+L 396.243057 201.162654 
+L 396.243057 216.628104 
+L 270.184773 216.628104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip16" class="tip"><title>claude-security-researcher: other 0 per bout (n=3)</title>
+    <path d="M 398.119432 201.162654 
+L 398.119432 201.162654 
+L 398.119432 216.628104 
+L 398.119432 216.628104 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip17" class="tip"><title>ecc-security-review: tp 2.3 per bout (n=3)</title>
     <path d="M 184.895 229.281655 
-L 652.112375 229.281655 
-L 652.112375 244.747105 
+L 481.53283 229.281655 
+L 481.53283 244.747105 
 L 184.895 244.747105 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip8" class="tip"><title>evandervecht-security-audit: tp 3.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip18" class="tip"><title>ecc-security-review: fp 1.3 per bout (n=3)</title>
+    <path d="M 483.409205 229.281655 
+L 652.112375 229.281655 
+L 652.112375 244.747105 
+L 483.409205 244.747105 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip19" class="tip"><title>evandervecht-security-audit: tp 2 per bout (n=3)</title>
     <path d="M 184.895 257.400655 
-L 652.112375 257.400655 
-L 652.112375 272.866106 
+L 438.887943 257.400655 
+L 438.887943 272.866106 
 L 184.895 272.866106 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip9" class="tip"><title>every-ce-security-reviewer: tp 2.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip20" class="tip"><title>evandervecht-security-audit: fp 1.7 per bout (n=3)</title>
+    <path d="M 440.764318 257.400655 
+L 652.112375 257.400655 
+L 652.112375 272.866106 
+L 440.764318 272.866106 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip21" class="tip"><title>every-ce-security-reviewer: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 285.519656 
-L 481.53283 285.519656 
-L 481.53283 300.985106 
+L 353.59817 285.519656 
+L 353.59817 300.985106 
 L 184.895 300.985106 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip10" class="tip"><title>gemini-security-analyze-full: tp 2.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip22" class="tip"><title>every-ce-security-reviewer: fp 1 per bout (n=3)</title>
+    <path d="M 355.474545 285.519656 
+L 481.53283 285.519656 
+L 481.53283 300.985106 
+L 355.474545 300.985106 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip23" class="tip"><title>every-ce-security-reviewer: other 0 per bout (n=3)</title>
+    <path d="M 483.409205 285.519656 
+L 483.409205 285.519656 
+L 483.409205 300.985106 
+L 483.409205 300.985106 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip24" class="tip"><title>gemini-security-analyze-full: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 313.638657 
-L 524.177716 313.638657 
-L 524.177716 329.104107 
+L 353.59817 313.638657 
+L 353.59817 329.104107 
 L 184.895 329.104107 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip11" class="tip"><title>gemini-security-analyze-full: fp 0.3 per bout (n=3)</title>
-    <path d="M 526.054091 313.638657 
+   <g id="findings-breakdown-warpgate-operator-tip25" class="tip"><title>gemini-security-analyze-full: fp 1.7 per bout (n=3)</title>
+    <path d="M 355.474545 313.638657 
 L 566.822602 313.638657 
 L 566.822602 329.104107 
-L 526.054091 329.104107 
+L 355.474545 329.104107 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #d95926"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip12" class="tip"><title>github-copilot-se-security-reviewer: tp 3.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip26" class="tip"><title>github-copilot-se-security-reviewer: tp 1.7 per bout (n=3)</title>
     <path d="M 184.895 341.757657 
-L 652.112375 341.757657 
-L 652.112375 357.223108 
+L 396.243057 341.757657 
+L 396.243057 357.223108 
 L 184.895 357.223108 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip13" class="tip"><title>github-copilot-security-review: tp 2.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip27" class="tip"><title>github-copilot-se-security-reviewer: fp 2 per bout (n=3)</title>
+    <path d="M 398.119432 341.757657 
+L 652.112375 341.757657 
+L 652.112375 357.223108 
+L 398.119432 357.223108 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip28" class="tip"><title>github-copilot-security-review: tp 1 per bout (n=3)</title>
     <path d="M 184.895 369.876658 
-L 524.177716 369.876658 
-L 524.177716 385.342108 
+L 310.953284 369.876658 
+L 310.953284 385.342108 
 L 184.895 385.342108 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip14" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 3.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip29" class="tip"><title>github-copilot-security-review: fp 1.7 per bout (n=3)</title>
+    <path d="M 312.829659 369.876658 
+L 524.177716 369.876658 
+L 524.177716 385.342108 
+L 312.829659 385.342108 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip30" class="tip"><title>ivan-sincek-cwe-secure-code-review: tp 2 per bout (n=3)</title>
     <path d="M 184.895 397.995659 
-L 652.112375 397.995659 
-L 652.112375 413.461109 
+L 438.887943 397.995659 
+L 438.887943 413.461109 
 L 184.895 413.461109 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip15" class="tip"><title>neolab-security-auditor: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip31" class="tip"><title>ivan-sincek-cwe-secure-code-review: fp 1.7 per bout (n=3)</title>
+    <path d="M 440.764318 397.995659 
+L 652.112375 397.995659 
+L 652.112375 413.461109 
+L 440.764318 413.461109 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip32" class="tip"><title>neolab-security-auditor: tp 1.7 per bout (n=3)</title>
     <path d="M 184.895 426.114659 
-L 566.822602 426.114659 
-L 566.822602 441.58011 
+L 396.243057 426.114659 
+L 396.243057 441.58011 
 L 184.895 441.58011 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip16" class="tip"><title>openai-security-best-practices: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip33" class="tip"><title>neolab-security-auditor: fp 1.3 per bout (n=3)</title>
+    <path d="M 398.119432 426.114659 
+L 566.822602 426.114659 
+L 566.822602 441.58011 
+L 398.119432 441.58011 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip34" class="tip"><title>openai-security-best-practices: tp 1.7 per bout (n=3)</title>
     <path d="M 184.895 454.23366 
-L 566.822602 454.23366 
-L 566.822602 469.69911 
+L 396.243057 454.23366 
+L 396.243057 469.69911 
 L 184.895 469.69911 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip17" class="tip"><title>samber-golang-security: tp 3.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip35" class="tip"><title>openai-security-best-practices: fp 1.3 per bout (n=3)</title>
+    <path d="M 398.119432 454.23366 
+L 566.822602 454.23366 
+L 566.822602 469.69911 
+L 398.119432 469.69911 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip36" class="tip"><title>samber-golang-security: tp 2.3 per bout (n=3)</title>
     <path d="M 184.895 482.352661 
-L 609.467489 482.352661 
-L 609.467489 497.818111 
+L 481.53283 482.352661 
+L 481.53283 497.818111 
 L 184.895 497.818111 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip18" class="tip"><title>sari3l-security-code-audit: tp 3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip37" class="tip"><title>samber-golang-security: fp 1 per bout (n=3)</title>
+    <path d="M 483.409205 482.352661 
+L 609.467489 482.352661 
+L 609.467489 497.818111 
+L 483.409205 497.818111 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip38" class="tip"><title>sari3l-security-code-audit: tp 1 per bout (n=3)</title>
     <path d="M 184.895 510.471661 
-L 566.822602 510.471661 
-L 566.822602 525.937112 
+L 310.953284 510.471661 
+L 310.953284 525.937112 
 L 184.895 525.937112 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip19" class="tip"><title>sentry-code-review: tp 2.7 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip39" class="tip"><title>sari3l-security-code-audit: fp 2 per bout (n=3)</title>
+    <path d="M 312.829659 510.471661 
+L 566.822602 510.471661 
+L 566.822602 525.937112 
+L 312.829659 525.937112 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip40" class="tip"><title>sentry-code-review: tp 1 per bout (n=3)</title>
     <path d="M 184.895 538.590662 
-L 524.177716 538.590662 
-L 524.177716 554.056112 
+L 310.953284 538.590662 
+L 310.953284 554.056112 
 L 184.895 554.056112 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip20" class="tip"><title>sentry-security-review: tp 2.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip41" class="tip"><title>sentry-code-review: fp 1.7 per bout (n=3)</title>
+    <path d="M 312.829659 538.590662 
+L 524.177716 538.590662 
+L 524.177716 554.056112 
+L 312.829659 554.056112 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip42" class="tip"><title>sentry-security-review: tp 1 per bout (n=3)</title>
     <path d="M 184.895 566.709663 
-L 481.53283 566.709663 
-L 481.53283 582.175113 
+L 310.953284 566.709663 
+L 310.953284 582.175113 
 L 184.895 582.175113 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip21" class="tip"><title>sentry-then-fp-check: tp 1.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip43" class="tip"><title>sentry-security-review: fp 1.3 per bout (n=3)</title>
+    <path d="M 312.829659 566.709663 
+L 481.53283 566.709663 
+L 481.53283 582.175113 
+L 312.829659 582.175113 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip44" class="tip"><title>sentry-security-review: other 0 per bout (n=3)</title>
+    <path d="M 483.409205 566.709663 
+L 483.409205 566.709663 
+L 483.409205 582.175113 
+L 483.409205 582.175113 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip45" class="tip"><title>sentry-then-fp-check: tp 0.7 per bout (n=3)</title>
     <path d="M 184.895 594.828663 
-L 353.59817 594.828663 
-L 353.59817 610.294114 
+L 268.308398 594.828663 
+L 268.308398 610.294114 
 L 184.895 610.294114 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip22" class="tip"><title>tob-differential-review: tp 2.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip46" class="tip"><title>sentry-then-fp-check: fp 0.7 per bout (n=3)</title>
+    <path d="M 270.184773 594.828663 
+L 353.59817 594.828663 
+L 353.59817 610.294114 
+L 270.184773 610.294114 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip47" class="tip"><title>tob-differential-review: tp 1.3 per bout (n=3)</title>
     <path d="M 184.895 622.947664 
-L 481.53283 622.947664 
-L 481.53283 638.413114 
+L 353.59817 622.947664 
+L 353.59817 638.413114 
 L 184.895 638.413114 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip23" class="tip"><title>tob-sharp-edges: tp 3.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip48" class="tip"><title>tob-differential-review: fp 1 per bout (n=3)</title>
+    <path d="M 355.474545 622.947664 
+L 481.53283 622.947664 
+L 481.53283 638.413114 
+L 355.474545 638.413114 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip49" class="tip"><title>tob-differential-review: other 0 per bout (n=3)</title>
+    <path d="M 483.409205 622.947664 
+L 483.409205 622.947664 
+L 483.409205 638.413114 
+L 483.409205 638.413114 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #898781; opacity: 0.45"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip50" class="tip"><title>tob-sharp-edges: tp 2.3 per bout (n=3)</title>
     <path d="M 184.895 651.066664 
-L 609.467489 651.066664 
-L 609.467489 666.532115 
+L 481.53283 651.066664 
+L 481.53283 666.532115 
 L 184.895 666.532115 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
    </g>
-   <g id="findings-breakdown-warpgate-operator-tip24" class="tip"><title>unitone-secure-code-review: tp 3.3 per bout (n=3)</title>
+   <g id="findings-breakdown-warpgate-operator-tip51" class="tip"><title>tob-sharp-edges: fp 1 per bout (n=3)</title>
+    <path d="M 483.409205 651.066664 
+L 609.467489 651.066664 
+L 609.467489 666.532115 
+L 483.409205 666.532115 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip52" class="tip"><title>unitone-secure-code-review: tp 1.7 per bout (n=3)</title>
     <path d="M 184.895 679.185665 
-L 609.467489 679.185665 
-L 609.467489 694.651115 
+L 396.243057 679.185665 
+L 396.243057 694.651115 
 L 184.895 694.651115 
 z
-" clip-path="url(#findings-breakdown-warpgate-operator-p4dc6d42c73)" style="fill: #3987e5"/>
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #3987e5"/>
+   </g>
+   <g id="findings-breakdown-warpgate-operator-tip53" class="tip"><title>unitone-secure-code-review: fp 1.7 per bout (n=3)</title>
+    <path d="M 398.119432 679.185665 
+L 609.467489 679.185665 
+L 609.467489 694.651115 
+L 398.119432 694.651115 
+z
+" clip-path="url(#findings-breakdown-warpgate-operator-p173378e125)" style="fill: #d95926"/>
    </g>
    <g id="findings-breakdown-warpgate-operator-patch_5">
     <path d="M 184.895 700.977891 
@@ -559,7 +791,7 @@ z
   </g>
  </g>
  <defs>
-  <clipPath id="findings-breakdown-warpgate-operator-p4dc6d42c73">
+  <clipPath id="findings-breakdown-warpgate-operator-p173378e125">
    <rect x="184.895" y="26.121875" width="525.385" height="674.856016"/>
   </clipPath>
  </defs>

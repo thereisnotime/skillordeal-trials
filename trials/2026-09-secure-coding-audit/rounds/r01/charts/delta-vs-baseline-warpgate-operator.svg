@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="no"?>
 <!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
   "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
-<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="696.96pt" viewBox="0 0 720 696.96" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Dot plot of the difference in judge-valid from baseline in warpgate-operator">
- <title>Dot plot of the difference in judge-valid from baseline in warpgate-operator</title>
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="720pt" height="696.96pt" viewBox="0 0 720 696.96" xmlns="http://www.w3.org/2000/svg" version="1.1" role="img" aria-label="Dot plot of the difference in panel-valid from baseline in warpgate-operator">
+ <title>Dot plot of the difference in panel-valid from baseline in warpgate-operator</title>
  <defs>
   <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
  </defs>
@@ -29,24 +29,24 @@ z
    <g id="delta-vs-baseline-warpgate-operator-matplotlib.axis_1">
     <g id="delta-vs-baseline-warpgate-operator-xtick_1">
      <g id="delta-vs-baseline-warpgate-operator-line2d_1">
-      <path d="M 249.108722 660.657891 
-L 249.108722 23.64 
+      <path d="M 214.083056 660.657891 
+L 214.083056 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_2"/>
      <g id="delta-vs-baseline-warpgate-operator-text_1">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="249.108722" y="670.995781" transform="rotate(-0 249.108722 670.995781)">−3</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="214.083056" y="670.995781" transform="rotate(-0 214.083056 670.995781)">−2</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-xtick_2">
      <g id="delta-vs-baseline-warpgate-operator-line2d_3">
-      <path d="M 319.160056 660.657891 
-L 319.160056 23.64 
+      <path d="M 301.647222 660.657891 
+L 301.647222 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_4"/>
      <g id="delta-vs-baseline-warpgate-operator-text_2">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="319.160056" y="670.995781" transform="rotate(-0 319.160056 670.995781)">−2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="301.647222" y="670.995781" transform="rotate(-0 301.647222 670.995781)">−1</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-xtick_3">
@@ -57,200 +57,189 @@ L 389.211389 23.64
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_6"/>
      <g id="delta-vs-baseline-warpgate-operator-text_3">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="389.211389" y="670.995781" transform="rotate(-0 389.211389 670.995781)">−1</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="389.211389" y="670.995781" transform="rotate(-0 389.211389 670.995781)">0</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-xtick_4">
      <g id="delta-vs-baseline-warpgate-operator-line2d_7">
-      <path d="M 459.262722 660.657891 
-L 459.262722 23.64 
+      <path d="M 476.775556 660.657891 
+L 476.775556 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_8"/>
      <g id="delta-vs-baseline-warpgate-operator-text_4">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="459.262722" y="670.995781" transform="rotate(-0 459.262722 670.995781)">0</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="476.775556" y="670.995781" transform="rotate(-0 476.775556 670.995781)">1</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-xtick_5">
      <g id="delta-vs-baseline-warpgate-operator-line2d_9">
-      <path d="M 529.314056 660.657891 
-L 529.314056 23.64 
+      <path d="M 564.339722 660.657891 
+L 564.339722 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_10"/>
      <g id="delta-vs-baseline-warpgate-operator-text_5">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="529.314056" y="670.995781" transform="rotate(-0 529.314056 670.995781)">1</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="564.339722" y="670.995781" transform="rotate(-0 564.339722 670.995781)">2</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-xtick_6">
      <g id="delta-vs-baseline-warpgate-operator-line2d_11">
-      <path d="M 599.365389 660.657891 
-L 599.365389 23.64 
+      <path d="M 651.903889 660.657891 
+L 651.903889 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
      </g>
      <g id="delta-vs-baseline-warpgate-operator-line2d_12"/>
      <g id="delta-vs-baseline-warpgate-operator-text_6">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="599.365389" y="670.995781" transform="rotate(-0 599.365389 670.995781)">2</text>
+      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="651.903889" y="670.995781" transform="rotate(-0 651.903889 670.995781)">3</text>
      </g>
     </g>
-    <g id="delta-vs-baseline-warpgate-operator-xtick_7">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_13">
-      <path d="M 669.416722 660.657891 
-L 669.416722 23.64 
-" clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #8b8b8b; stroke-opacity: 0.3; stroke-linecap: square"/>
-     </g>
-     <g id="delta-vs-baseline-warpgate-operator-line2d_14"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_7">
-      <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="669.416722" y="670.995781" transform="rotate(-0 669.416722 670.995781)">3</text>
-     </g>
-    </g>
-    <g id="delta-vs-baseline-warpgate-operator-text_8">
-     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="683.996484" transform="rotate(-0 447.5875 683.996484)">Δ mean judge-valid per bout, contender minus baseline</text>
+    <g id="delta-vs-baseline-warpgate-operator-text_7">
+     <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: middle; fill: #777777" x="447.5875" y="683.996484" transform="rotate(-0 447.5875 683.996484)">Δ mean panel-valid per bout, contender minus baseline</text>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-matplotlib.axis_2">
     <g id="delta-vs-baseline-warpgate-operator-ytick_1">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_15"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_9">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_13"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_8">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="40.907512" transform="rotate(-0 181.395 40.907512)">addyosmani-security-auditor</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_2">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_16"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_10">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_14"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_9">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="68.603942" transform="rotate(-0 181.395 68.603942)">agamm-owasp-security</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_3">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_17"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_11">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_15"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_10">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="96.300372" transform="rotate(-0 181.395 96.300372)">anthropic-security-auditor</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_4">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_18"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_12">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_16"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_11">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="123.996802" transform="rotate(-0 181.395 123.996802)">cf-security-audit</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_5">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_19"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_13">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_17"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_12">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="151.693232" transform="rotate(-0 181.395 151.693232)">claude-security-flat</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_6">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_20"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_14">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_18"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_13">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="179.389662" transform="rotate(-0 181.395 179.389662)">claude-security-researcher</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_7">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_21"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_15">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_19"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_14">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="207.086092" transform="rotate(-0 181.395 207.086092)">ecc-security-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_8">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_22"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_16">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_20"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_15">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="234.782522" transform="rotate(-0 181.395 234.782522)">evandervecht-security-audit</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_9">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_23"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_17">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_21"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_16">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="262.478952" transform="rotate(-0 181.395 262.478952)">every-ce-security-reviewer</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_10">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_24"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_18">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_22"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_17">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="290.175382" transform="rotate(-0 181.395 290.175382)">gemini-security-analyze-full</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_11">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_25"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_19">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_23"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_18">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="317.871812" transform="rotate(-0 181.395 317.871812)">github-copilot-se-security-reviewer</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_12">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_26"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_20">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_24"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_19">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="345.568242" transform="rotate(-0 181.395 345.568242)">github-copilot-security-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_13">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_27"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_21">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_25"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_20">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="373.264672" transform="rotate(-0 181.395 373.264672)">ivan-sincek-cwe-secure-code-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_14">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_28"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_22">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_26"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_21">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="400.961102" transform="rotate(-0 181.395 400.961102)">neolab-security-auditor</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_15">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_29"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_23">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_27"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_22">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="428.657532" transform="rotate(-0 181.395 428.657532)">openai-security-best-practices</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_16">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_30"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_24">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_28"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_23">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="456.353962" transform="rotate(-0 181.395 456.353962)">samber-golang-security</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_17">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_31"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_25">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_29"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_24">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="484.050392" transform="rotate(-0 181.395 484.050392)">sari3l-security-code-audit</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_18">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_32"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_26">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_30"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_25">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="511.746822" transform="rotate(-0 181.395 511.746822)">sentry-code-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_19">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_33"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_27">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_31"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_26">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="539.443252" transform="rotate(-0 181.395 539.443252)">sentry-security-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_20">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_34"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_28">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_32"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_27">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="567.139682" transform="rotate(-0 181.395 567.139682)">sentry-then-fp-check</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_21">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_35"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_29">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_33"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_28">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="594.836112" transform="rotate(-0 181.395 594.836112)">tob-differential-review</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_22">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_36"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_30">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_34"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_29">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="622.532542" transform="rotate(-0 181.395 622.532542)">tob-sharp-edges</text>
      </g>
     </g>
     <g id="delta-vs-baseline-warpgate-operator-ytick_23">
-     <g id="delta-vs-baseline-warpgate-operator-line2d_37"/>
-     <g id="delta-vs-baseline-warpgate-operator-text_31">
+     <g id="delta-vs-baseline-warpgate-operator-line2d_35"/>
+     <g id="delta-vs-baseline-warpgate-operator-text_30">
       <text style="font-size: 9px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: end; fill: #777777" x="181.395" y="650.228972" transform="rotate(-0 181.395 650.228972)">unitone-secure-code-review</text>
      </g>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-line2d_38">
-    <path d="M 459.262722 660.657891 
-L 459.262722 23.64 
+   <g id="delta-vs-baseline-warpgate-operator-line2d_36">
+    <path d="M 389.211389 660.657891 
+L 389.211389 23.64 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #898781; stroke-width: 1.5; stroke-linecap: square"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-patch_3">
@@ -264,428 +253,428 @@ L 710.28 660.657891
 " style="fill: none; stroke: #8c8c8c; stroke-opacity: 0.6; stroke-linejoin: miter; stroke-linecap: square"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-LineCollection_1">
-    <path d="M 435.912278 37.488215 
-L 576.014944 37.488215 
+    <path d="M 330.835278 37.488215 
+L 505.963611 37.488215 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-line2d_39">
+   <g id="delta-vs-baseline-warpgate-operator-line2d_37">
     <defs>
      <path id="delta-vs-baseline-warpgate-operator-mc2ee98718a" d="M 0 2.5 
 L 0 -2.5 
 " style="stroke: #3987e5"/>
     </defs>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="435.912278" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="330.835278" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-warpgate-operator-line2d_38">
+    <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
+    </g>
+   </g>
+   <g id="delta-vs-baseline-warpgate-operator-text_31">
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="39.56634" transform="rotate(-0 511.963611 39.56634)">+0.3</text>
+   </g>
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_2">
+    <path d="M 330.835278 65.184645 
+L 505.963611 65.184645 
+" clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
+   </g>
+   <g id="delta-vs-baseline-warpgate-operator-line2d_39">
+    <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="330.835278" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_40">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="576.014944" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_32">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="582.014944" y="39.56634" transform="rotate(-0 582.014944 39.56634)">+0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="67.26277" transform="rotate(-0 511.963611 67.26277)">+0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_2">
-    <path d="M 412.561833 65.184645 
-L 552.6645 65.184645 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_3">
+    <path d="M 272.459167 92.881075 
+L 447.5875 92.881075 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_41">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_42">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="447.5875" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_33">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="67.26277" transform="rotate(-0 558.6645 67.26277)">+0.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="453.5875" y="94.9592" transform="rotate(-0 453.5875 94.9592)">-0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_3">
-    <path d="M 365.860944 92.881075 
-L 552.6645 92.881075 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_4">
+    <path d="M 272.459167 120.577505 
+L 505.963611 120.577505 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_43">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="365.860944" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_44">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_34">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="94.9592" transform="rotate(-0 558.6645 94.9592)">0</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="122.65563" transform="rotate(-0 511.963611 122.65563)">0</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_4">
-    <path d="M 365.860944 120.577505 
-L 552.6645 120.577505 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_5">
+    <path d="M 330.835278 148.273935 
+L 505.963611 148.273935 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_45">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="365.860944" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="330.835278" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_46">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_35">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="122.65563" transform="rotate(-0 558.6645 122.65563)">0</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="150.35206" transform="rotate(-0 511.963611 150.35206)">+0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_5">
-    <path d="M 342.5105 148.273935 
-L 482.613167 148.273935 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_6">
+    <path d="M 272.459167 175.970365 
+L 447.5875 175.970365 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_47">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="342.5105" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_48">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="482.613167" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="447.5875" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_36">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.613167" y="150.35206" transform="rotate(-0 488.613167 150.35206)">-0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="453.5875" y="178.04849" transform="rotate(-0 453.5875 178.04849)">-0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_6">
-    <path d="M 295.809611 175.970365 
-L 435.912278 175.970365 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_7">
+    <path d="M 418.399444 203.666795 
+L 593.527778 203.666795 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_49">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="295.809611" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="418.399444" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_50">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="435.912278" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="593.527778" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_37">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="441.912278" y="178.04849" transform="rotate(-0 441.912278 178.04849)">-1.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="599.527778" y="205.74492" transform="rotate(-0 599.527778 205.74492)">+1.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_7">
-    <path d="M 435.912278 203.666795 
-L 576.014944 203.666795 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_8">
+    <path d="M 360.023333 231.363225 
+L 593.527778 231.363225 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_51">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="435.912278" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="360.023333" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_52">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="576.014944" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="593.527778" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_38">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="582.014944" y="205.74492" transform="rotate(-0 582.014944 205.74492)">+0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="599.527778" y="233.44135" transform="rotate(-0 599.527778 233.44135)">+1</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_8">
-    <path d="M 412.561833 231.363225 
-L 599.365389 231.363225 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_9">
+    <path d="M 330.835278 259.059655 
+L 505.963611 259.059655 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_53">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="330.835278" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_54">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="599.365389" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_39">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="605.365389" y="233.44135" transform="rotate(-0 605.365389 233.44135)">+0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="261.13778" transform="rotate(-0 511.963611 261.13778)">+0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_9">
-    <path d="M 295.809611 259.059655 
-L 529.314056 259.059655 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_10">
+    <path d="M 301.647222 286.756085 
+L 535.151667 286.756085 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_55">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="295.809611" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="301.647222" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_56">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="529.314056" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="535.151667" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_40">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="535.314056" y="261.13778" transform="rotate(-0 535.314056 261.13778)">-0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.151667" y="288.83421" transform="rotate(-0 541.151667 288.83421)">+0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_10">
-    <path d="M 365.860944 286.756085 
-L 505.963611 286.756085 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_11">
+    <path d="M 360.023333 314.452515 
+L 535.151667 314.452515 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_57">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="365.860944" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="360.023333" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_58">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="535.151667" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_41">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="288.83421" transform="rotate(-0 511.963611 288.83421)">-0.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.151667" y="316.53064" transform="rotate(-0 541.151667 316.53064)">+0.7</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_11">
-    <path d="M 435.912278 314.452515 
-L 576.014944 314.452515 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_12">
+    <path d="M 272.459167 342.148945 
+L 505.963611 342.148945 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_59">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="435.912278" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_60">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="576.014944" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_42">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="582.014944" y="316.53064" transform="rotate(-0 582.014944 316.53064)">+0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="344.22707" transform="rotate(-0 511.963611 344.22707)">0</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_12">
-    <path d="M 342.5105 342.148945 
-L 552.6645 342.148945 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_13">
+    <path d="M 389.211389 369.845375 
+L 564.339722 369.845375 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_61">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="342.5105" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="389.211389" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_62">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="564.339722" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_43">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="344.22707" transform="rotate(-0 558.6645 344.22707)">-0.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="570.339722" y="371.9235" transform="rotate(-0 570.339722 371.9235)">+1</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_13">
-    <path d="M 412.561833 369.845375 
-L 622.715833 369.845375 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_14">
+    <path d="M 330.835278 397.541805 
+L 564.339722 397.541805 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_63">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="330.835278" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_64">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="622.715833" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="564.339722" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_44">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="628.715833" y="371.9235" transform="rotate(-0 628.715833 371.9235)">+0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="570.339722" y="399.61993" transform="rotate(-0 570.339722 399.61993)">+0.7</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_14">
-    <path d="M 389.211389 397.541805 
-L 529.314056 397.541805 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_15">
+    <path d="M 360.023333 425.238235 
+L 535.151667 425.238235 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_65">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="389.211389" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="360.023333" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_66">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="529.314056" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="535.151667" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_45">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="535.314056" y="399.61993" transform="rotate(-0 535.314056 399.61993)">0</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.151667" y="427.31636" transform="rotate(-0 541.151667 427.31636)">+0.7</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_15">
-    <path d="M 389.211389 425.238235 
-L 529.314056 425.238235 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_16">
+    <path d="M 418.399444 452.934665 
+L 593.527778 452.934665 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_67">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="389.211389" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="418.399444" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_68">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="529.314056" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="593.527778" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_46">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="535.314056" y="427.31636" transform="rotate(-0 535.314056 427.31636)">0</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="599.527778" y="455.01279" transform="rotate(-0 599.527778 455.01279)">+1.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_16">
-    <path d="M 412.561833 452.934665 
-L 552.6645 452.934665 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_17">
+    <path d="M 272.459167 480.631095 
+L 505.963611 480.631095 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_69">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_70">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_47">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="455.01279" transform="rotate(-0 558.6645 455.01279)">+0.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="482.70922" transform="rotate(-0 511.963611 482.70922)">0</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_17">
-    <path d="M 365.860944 480.631095 
-L 552.6645 480.631095 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_18">
+    <path d="M 301.647222 508.327525 
+L 476.775556 508.327525 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_71">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="365.860944" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="301.647222" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_72">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="476.775556" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_48">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="482.70922" transform="rotate(-0 558.6645 482.70922)">0</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="482.775556" y="510.40565" transform="rotate(-0 482.775556 510.40565)">0</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_18">
-    <path d="M 342.5105 508.327525 
-L 529.314056 508.327525 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_19">
+    <path d="M 301.647222 536.023956 
+L 476.775556 536.023956 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_73">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="342.5105" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="301.647222" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_74">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="529.314056" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="476.775556" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_49">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="535.314056" y="510.40565" transform="rotate(-0 535.314056 510.40565)">-0.3</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="482.775556" y="538.102081" transform="rotate(-0 482.775556 538.102081)">0</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_19">
-    <path d="M 342.5105 536.023956 
-L 482.613167 536.023956 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_20">
+    <path d="M 272.459167 563.720386 
+L 447.5875 563.720386 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_75">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="342.5105" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_76">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="482.613167" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="447.5875" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_50">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="488.613167" y="538.102081" transform="rotate(-0 488.613167 538.102081)">-0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="453.5875" y="565.798511" transform="rotate(-0 453.5875 565.798511)">-0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_20">
-    <path d="M 272.459167 563.720386 
-L 412.561833 563.720386 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_21">
+    <path d="M 301.647222 591.416816 
+L 535.151667 591.416816 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_77">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="272.459167" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="301.647222" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_78">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="535.151667" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_51">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="418.561833" y="565.798511" transform="rotate(-0 418.561833 565.798511)">-1.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.151667" y="593.494941" transform="rotate(-0 541.151667 593.494941)">+0.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_21">
-    <path d="M 319.160056 591.416816 
-L 505.963611 591.416816 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_22">
+    <path d="M 389.211389 619.113246 
+L 622.715833 619.113246 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_79">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="319.160056" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="389.211389" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_80">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="505.963611" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="622.715833" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_52">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="511.963611" y="593.494941" transform="rotate(-0 511.963611 593.494941)">-0.7</text>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="628.715833" y="621.191371" transform="rotate(-0 628.715833 621.191371)">+1.3</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_22">
-    <path d="M 389.211389 619.113246 
-L 576.014944 619.113246 
+   <g id="delta-vs-baseline-warpgate-operator-LineCollection_23">
+    <path d="M 360.023333 646.809676 
+L 535.151667 646.809676 
 " clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_81">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="389.211389" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="360.023333" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-line2d_82">
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="576.014944" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="535.151667" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_53">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="582.014944" y="621.191371" transform="rotate(-0 582.014944 621.191371)">+0.3</text>
-   </g>
-   <g id="delta-vs-baseline-warpgate-operator-LineCollection_23">
-    <path d="M 412.561833 646.809676 
-L 552.6645 646.809676 
-" clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)" style="fill: none; stroke: #3987e5"/>
-   </g>
-   <g id="delta-vs-baseline-warpgate-operator-line2d_83">
-    <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="412.561833" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
-   </g>
-   <g id="delta-vs-baseline-warpgate-operator-line2d_84">
-    <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-mc2ee98718a" x="552.6645" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
-    </g>
+    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="541.151667" y="648.887801" transform="rotate(-0 541.151667 648.887801)">+0.7</text>
    </g>
    <g id="delta-vs-baseline-warpgate-operator-text_54">
-    <text style="font-size: 8px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #777777" x="558.6645" y="648.887801" transform="rotate(-0 558.6645 648.887801)">+0.3</text>
+    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">warpgate-operator: panel-valid against baseline</text>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-text_55">
-    <text style="font-weight: 700; font-size: 10px; font-family: system-ui, -apple-system, 'Segoe UI', Helvetica, Arial, sans-serif; text-anchor: start; fill: #767676" x="184.895" y="17.64" transform="rotate(-0 184.895 17.64)">warpgate-operator: judge-valid against baseline</text>
-   </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip0" class="tip"><title>addyosmani-security-auditor: Δ judge-valid +0.7 [-0.3, 1.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip0" class="tip"><title>addyosmani-security-auditor: Δ panel-valid +0.3 [-0.7, 1.3] (n=3)</title>
     <defs>
      <path id="delta-vs-baseline-warpgate-operator-m929ecfca2a" d="M 0 3.872983 
 C 1.027127 3.872983 2.012324 3.464901 2.738613 2.738613 
@@ -700,117 +689,117 @@ z
 " style="stroke: #3987e5"/>
     </defs>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="37.488215" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip1" class="tip"><title>agamm-owasp-security: Δ judge-valid +0.3 [-0.7, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip1" class="tip"><title>agamm-owasp-security: Δ panel-valid +0.3 [-0.7, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="482.613167" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="65.184645" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip2" class="tip"><title>anthropic-security-auditor: Δ judge-valid 0 [-1.3, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip2" class="tip"><title>anthropic-security-auditor: Δ panel-valid -0.3 [-1.3, 0.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="459.262722" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="360.023333" y="92.881075" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip3" class="tip"><title>cf-security-audit: Δ judge-valid 0 [-1.3, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip3" class="tip"><title>cf-security-audit: Δ panel-valid 0 [-1.3, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="459.262722" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="389.211389" y="120.577505" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip4" class="tip"><title>claude-security-flat: Δ judge-valid -0.7 [-1.7, 0.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip4" class="tip"><title>claude-security-flat: Δ panel-valid +0.3 [-0.7, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="412.561833" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="148.273935" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip5" class="tip"><title>claude-security-researcher: Δ judge-valid -1.3 [-2.3, -0.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip5" class="tip"><title>claude-security-researcher: Δ panel-valid -0.3 [-1.3, 0.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="365.860944" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="360.023333" y="175.970365" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip6" class="tip"><title>ecc-security-review: Δ judge-valid +0.7 [-0.3, 1.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip6" class="tip"><title>ecc-security-review: Δ panel-valid +1.3 [0.3, 2.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
      <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="203.666795" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip7" class="tip"><title>evandervecht-security-audit: Δ judge-valid +0.7 [-0.7, 2] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip7" class="tip"><title>evandervecht-security-audit: Δ panel-valid +1 [-0.3, 2.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="476.775556" y="231.363225" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip8" class="tip"><title>every-ce-security-reviewer: Δ judge-valid -0.7 [-2.3, 1] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip8" class="tip"><title>every-ce-security-reviewer: Δ panel-valid +0.3 [-0.7, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="412.561833" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="259.059655" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip9" class="tip"><title>gemini-security-analyze-full: Δ judge-valid -0.3 [-1.3, 0.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip9" class="tip"><title>gemini-security-analyze-full: Δ panel-valid +0.3 [-1, 1.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="435.912278" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="286.756085" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip10" class="tip"><title>github-copilot-se-security-reviewer: Δ judge-valid +0.7 [-0.3, 1.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip10" class="tip"><title>github-copilot-se-security-reviewer: Δ panel-valid +0.7 [-0.3, 1.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="447.5875" y="314.452515" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip11" class="tip"><title>github-copilot-security-review: Δ judge-valid -0.3 [-1.7, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip11" class="tip"><title>github-copilot-security-review: Δ panel-valid 0 [-1.3, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="435.912278" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="389.211389" y="342.148945" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip12" class="tip"><title>ivan-sincek-cwe-secure-code-review: Δ judge-valid +0.7 [-0.7, 2.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip12" class="tip"><title>ivan-sincek-cwe-secure-code-review: Δ panel-valid +1 [0, 2] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="476.775556" y="369.845375" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip13" class="tip"><title>neolab-security-auditor: Δ judge-valid 0 [-1, 1] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip13" class="tip"><title>neolab-security-auditor: Δ panel-valid +0.7 [-0.7, 2] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="459.262722" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="447.5875" y="397.541805" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip14" class="tip"><title>openai-security-best-practices: Δ judge-valid 0 [-1, 1] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip14" class="tip"><title>openai-security-best-practices: Δ panel-valid +0.7 [-0.3, 1.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="459.262722" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="447.5875" y="425.238235" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip15" class="tip"><title>samber-golang-security: Δ judge-valid +0.3 [-0.7, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip15" class="tip"><title>samber-golang-security: Δ panel-valid +1.3 [0.3, 2.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="482.613167" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="452.934665" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip16" class="tip"><title>sari3l-security-code-audit: Δ judge-valid 0 [-1.3, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip16" class="tip"><title>sari3l-security-code-audit: Δ panel-valid 0 [-1.3, 1.3] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="459.262722" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="389.211389" y="480.631095" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip17" class="tip"><title>sentry-code-review: Δ judge-valid -0.3 [-1.7, 1] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip17" class="tip"><title>sentry-code-review: Δ panel-valid 0 [-1, 1] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="435.912278" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="389.211389" y="508.327525" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip18" class="tip"><title>sentry-security-review: Δ judge-valid -0.7 [-1.7, 0.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip18" class="tip"><title>sentry-security-review: Δ panel-valid 0 [-1, 1] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="412.561833" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="389.211389" y="536.023956" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip19" class="tip"><title>sentry-then-fp-check: Δ judge-valid -1.7 [-2.7, -0.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip19" class="tip"><title>sentry-then-fp-check: Δ panel-valid -0.3 [-1.3, 0.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="342.5105" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="360.023333" y="563.720386" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip20" class="tip"><title>tob-differential-review: Δ judge-valid -0.7 [-2, 0.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip20" class="tip"><title>tob-differential-review: Δ panel-valid +0.3 [-1, 1.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="412.561833" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="418.399444" y="591.416816" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip21" class="tip"><title>tob-sharp-edges: Δ judge-valid +0.3 [-1, 1.7] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip21" class="tip"><title>tob-sharp-edges: Δ panel-valid +1.3 [0, 2.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="482.613167" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="505.963611" y="619.113246" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
-   <g id="delta-vs-baseline-warpgate-operator-tip22" class="tip"><title>unitone-secure-code-review: Δ judge-valid +0.3 [-0.7, 1.3] (n=3)</title>
+   <g id="delta-vs-baseline-warpgate-operator-tip22" class="tip"><title>unitone-secure-code-review: Δ panel-valid +0.7 [-0.3, 1.7] (n=3)</title>
     <g clip-path="url(#delta-vs-baseline-warpgate-operator-p596bf33d8a)">
-     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="482.613167" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
+     <use xlink:href="#delta-vs-baseline-warpgate-operator-m929ecfca2a" x="447.5875" y="646.809676" style="fill: #3987e5; stroke: #3987e5"/>
     </g>
    </g>
   </g>
