@@ -8,7 +8,7 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 
 | I want to… | Go to |
 |---|---|
-| **See the results** | [Latest results](#latest-results) below, then each trial's README and `RESULTS.md` |
+| **See the results** | [Latest results](#latest-results) and [Conclusions](#conclusions) below, then each trial's README and `RESULTS.md` |
 | **Understand the method** | [docs/method.md](docs/method.md): isolation, scoring, how to read the statistics |
 | **Check where a number came from** | [docs/trace-a-number.md](docs/trace-a-number.md) |
 | **Reproduce a round** | [docs/reproduce.md](docs/reproduce.md): 3 commands, auth, CI secrets |
@@ -31,6 +31,29 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 - One skill (`anthropic-security-review-cmd`) can't run a full-repo audit at all.
 
 Every number with its confidence interval, the caveats and the charts are in each trial's README and `RESULTS.md`.
+
+## Conclusions
+
+What two trials (195 runs including a control round, Opus 4.8 at high effort, 24 contenders plus a baseline, three codebases) support so far, and how far:
+
+**What the evidence says**
+
+1. **Skills don't make the model find more real vulnerabilities.** On a real Go app with 11 published CVEs, no skill beat the plain baseline, and 7 of the 11 were missed by every contender in every run. The bugs that need understanding the app's authorization model are the ones everyone misses.
+2. **They can add coverage of textbook bugs.** `anthropic-security-auditor` found about 1.7 more known bugs per run than the baseline on the deliberately vulnerable app, reproducibly across two days, at the same cost. That gain did not carry over to the real codebase.
+3. **The useful difference is noise.** On the real app, judged by a panel that tries to refute each finding, every finding from `sentry-security-review`, `sentry-then-fp-check` and `every-ce-security-reviewer` survived, while `agamm-owasp-security` and `samber-golang-security` padded their reports with hardening advice that didn't. If you read every finding a reviewer produces, that matters more than one extra hit. (On warpgate-operator each contender had too few findings, 4 to 11, to rank this way.)
+4. **Bigger skills aren't better.** The longest, most elaborate method (`cf-security-audit`) cost the most and found no more than the baseline.
+5. **Diff-oriented review tools need a diff.** A command built for pull requests (`anthropic-security-review-cmd`) can't audit a whole repository at all.
+
+**Practical takeaway:** for a one-off audit with Opus 4.8, a plain prompt does as well as any skill tested on finding real issues. If you want cleaner reports, `sentry-security-review` and `every-ce-security-reviewer` were fully precise on the real app and cheaper per run than the baseline ($2.62 and $2.44 vs $3.35; Sentry also found a CVE, every-ce none). Adding the fp-check verifier after Sentry kept reports clean but cost between a third more (real app) and three times as much (toy app) per run, with no gain in bugs found.
+
+**Limits**
+
+- One model (Opus 4.8, high effort), one task prompt, three runs per cell. Effects smaller than about one finding per run aren't detectable.
+- Three codebases: a toy app, a Kubernetes operator without ground truth and one real app with 11 CVEs, mostly authorization bugs. Other languages and bug classes may behave differently.
+- Skills ran in a read-only sandbox without sub-agents, network or scanners (semgrep, CodeQL). Skills built around those tools were tested in a reduced form or excluded.
+- The judge panel is an LLM too. It agreed with ground truth on 96% of known bugs, but on code without ground truth its verdicts are the best estimate here, not a certainty.
+
+**Open questions:** do skills help weaker or cheaper models more than Opus 4.8; does the finder + verifier pattern pay off on codebases with more injection-style bugs; and does running several independent passes (which Cloudflare reports finds more bugs) beat any single skill. These are candidates for the next trials.
 
 ## Trials
 
