@@ -53,7 +53,7 @@ The first r01 bouts and the 13 later contenders ran ten days apart, so the r01 l
 | Model under test | `claude-opus-4-8`, effort `high`, `max_budget_usd` 5 per bout |
 | Judge | `claude-sonnet-5`, `max_budget_usd` 2 |
 | Claude Code CLI | 2.1.280 (inside the image) |
-| Engine | skillordeal v0.1.3 |
+| Engine | skillordeal 0.1.2 (first 72 bouts), 0.1.3 (the 78 added later), 0.1.4 (panel judge); each bout's `record.json` has its own |
 | Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2`, digest pinned in [`rounds/r01/lock.yaml`](rounds/r01/lock.yaml) |
 | Auth | `oauth` (`CLAUDE_CODE_OAUTH_TOKEN`) |
 | Invocation | `forced`: the prompt starts with `/<skill-name>` |

@@ -23,7 +23,7 @@ Not run yet.
 | Model under test | TODO full model ID, effort, `max_budget_usd` per bout |
 | Judge | TODO |
 | Claude Code CLI | 2.1.280 (inside the image) |
-| Engine | skillordeal v0.1.3 |
+| Engine | skillordeal v0.1.4 |
 | Runner image | `ghcr.io/thereisnotime/skillordeal-runner:v0.1.2`, digest pinned in `rounds/<round>/lock.yaml` |
 | Auth | TODO `runtime.auth.mode` |
 | Invocation | TODO `forced` or `auto` |

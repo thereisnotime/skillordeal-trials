@@ -8,7 +8,7 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 
 | I want to… | Go to |
 |---|---|
-| **See the results** | [Latest results](#latest-results) below, then the trial's [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md) |
+| **See the results** | [Latest results](#latest-results) below, then each trial's README and `RESULTS.md` |
 | **Understand the method** | [docs/method.md](docs/method.md): isolation, scoring, how to read the statistics |
 | **Check where a number came from** | [docs/trace-a-number.md](docs/trace-a-number.md) |
 | **Reproduce a round** | [docs/reproduce.md](docs/reproduce.md): 3 commands, auth, CI secrets |
@@ -17,15 +17,20 @@ Do agent skills (`SKILL.md` packs, Claude Code plugins, prompts) actually make a
 
 ## Latest results
 
-**[2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/), round r01:** 23 skills and pipelines plus a baseline, on 2 codebases, 3 runs each (150 bouts, Opus 4.8 at high effort).
+**Bottom line so far:** skills don't make Opus 4.8 find more real vulnerabilities. One skill reliably adds a couple of textbook bugs on a toy app, and the most useful difference between skills is how much noise their reports carry.
 
-- No skill is a clear, reliable win over plain Opus 4.8 yet. On dvpwa the baseline finds 6 of 19 known vulnerabilities per run; the best skills find 7.7 to 8.
-- One lead reproduced in a same-day [control round](trials/2026-09-secure-coding-audit/README.md#control-round-r01-control-2026-10-04): `anthropic-security-auditor` found 8 known bugs in all 6 runs, +1.7 [1.2, 2.3] over the baseline, at the baseline's cost. On a [real codebase with 11 published CVEs](trials/2026-10-filebrowser-cve-audit/) it found none.
-- On warpgate-operator a threat-model-aware judge panel refuted about half of all findings (109 of 210), mostly issues only an already-privileged user could trigger; on dvpwa it kept 96% of the findings that match known vulnerabilities.
-- On that real codebase no contender beats the baseline on CVEs found (best: 0.7 of 11 per run). Skills differ on noise instead: a threat-model-aware judge panel refuted none of the Sentry-based and fp-check findings and most of `agamm-owasp-security`'s and `samber-golang-security`'s.
+**[2026-10-filebrowser-cve-audit](trials/2026-10-filebrowser-cve-audit/)** (real Go app with 11 published CVEs, 10 contenders + baseline, 33 runs):
+
+- No contender beats the baseline on CVEs found. The best average 0.7 of 11 per run, the baseline 0.5, and 7 of the 11 were never found by anyone.
+- Skills differ on noise: a threat-model-aware judge panel refuted none of the findings from `sentry-security-review`, `sentry-then-fp-check` and `every-ce-security-reviewer`, and most of `agamm-owasp-security`'s (54%) and `samber-golang-security`'s (67%).
+
+**[2026-09-secure-coding-audit](trials/2026-09-secure-coding-audit/)** (23 skills and pipelines + baseline, toy app dvpwa and the real operator warpgate-operator, 150 runs):
+
+- On dvpwa the baseline finds 6 of 19 known vulnerabilities per run. `anthropic-security-auditor` finds 8 in every run, and that held up in a same-day [control round](trials/2026-09-secure-coding-audit/README.md#control-round-r01-control-2026-10-04): +1.7 [1.2, 2.3] at the baseline's cost. On filebrowser it found none of the CVEs.
+- On warpgate-operator the judge panel refuted about half of all findings (109 of 210), mostly issues only an already-privileged user could trigger. On dvpwa it kept 96% of the findings that match known vulnerabilities, so it isn't simply rejecting everything.
 - One skill (`anthropic-security-review-cmd`) can't run a full-repo audit at all.
 
-Caveats and every number with its confidence interval are in the trial's [README](trials/2026-09-secure-coding-audit/README.md#tldr-result) and [RESULTS.md](trials/2026-09-secure-coding-audit/rounds/r01/RESULTS.md).
+Every number with its confidence interval, the caveats and the charts are in each trial's README and `RESULTS.md`.
 
 ## Trials
 
